@@ -18,9 +18,8 @@ The branch rewards yield binary oracle labels per level step
 :mod:`edahr.training` turns into a TorchScript policy consumed by
 :class:`edahr.policy.AdaptiveMergePolicy(checkpoint=...)`.
 
-Pilot note: ``answer_quality`` stays disabled until QASPER gold answers are
-wired in; ``evidence_coverage`` proxies evidence recall by measuring how much
-of the query's retrieved child evidence survives inside the branch context.
+Gold answers and leaf evidence are carried per question record, avoiding
+collisions when different papers contain identical question text.
 """
 
 from __future__ import annotations
@@ -35,6 +34,7 @@ from .attribution import attribution_metrics
 from .config import Settings
 from .context import assemble_context
 from .evaluation import answer_token_f1
+from .interfaces import scoped_search
 from .pipeline import AdaptiveHierarchicalPipeline, classify_query
 from .policy import features_for_candidate, members_at_level
 from .schemas import Level, QueryType
@@ -43,13 +43,14 @@ from .verification import verify_generation
 
 @dataclass
 class RewardWeights:
-    answer_quality: float = 0.0      # enabled once gold answers are available
+    answer_quality: float = 0.50
     # v5 attribution-aware terms (Rescue/HarmfulDrift/Citation P&R)
     citation_recall_w: float = 0.5
     citation_precision_w: float = 0.7
     rescue_w: float = 0.5
     harmful_lambda: float = 1.0
     ambiguity_lambda: float = 0.3
+    empty_evidence_lambda: float = 0.40
     precision_epsilon: float = 0.02   # constraint: no worse than KEEP by this
     harmful_delta: float = 0.05       # constraint: harmful rate ceiling
     # legacy pilot terms
@@ -64,6 +65,9 @@ class RewardWeights:
 @dataclass
 class RolloutRow:
     query: str
+    question_id: str
+    source: str | None
+    citation_evaluable: bool
     query_type: str
     parent_id: str
     section_id: str
@@ -76,6 +80,9 @@ class RolloutRow:
     def to_dict(self) -> dict:
         return {
             "query": self.query,
+            "question_id": self.question_id,
+            "source": self.source,
+            "citation_evaluable": self.citation_evaluable,
             "query_type": self.query_type,
             "parent_id": self.parent_id,
             "section_id": self.section_id,
@@ -128,27 +135,52 @@ class RolloutRunner:
         ``source_filter`` restricts retrieval to a single paper, matching the
         one-document-at-a-time scope of the method.
         """
+        records = [
+            {"query": query, "source": source, "question_id": ""}
+            for query, source in pairs
+        ]
+        return self.run_records(records, out_path)
+
+    def run_records(self, records: Sequence[Mapping], out_path: str | Path) -> list[dict]:
+        """Run schema-rich question records with explicit IDs and gold data."""
         rows: list[dict] = []
         out = Path(out_path)
         out.parent.mkdir(parents=True, exist_ok=True)
-        for query, source in pairs:
-            rows.extend(self.run_query(query, source))
+        for record in records:
+            query = str(record["query"])
+            source = record.get("source")
+            rows.extend(self.run_query(
+                query, str(source) if source is not None else None,
+                question_id=str(record.get("question_id") or ""),
+                gold_answer=str(record.get("answer") or record.get("gold_answer") or "") or None,
+                gold_children=record.get("gold_child_ids") or record.get("gold") or (),
+            ))
             print(f"[rollouts] {len(rows)} rows after {query[:48]!r}", flush=True)
         with out.open("w", encoding="utf-8") as handle:
             for row in rows:
                 handle.write(json.dumps(row, ensure_ascii=False) + "\n")
         return rows
 
-    def run_query(self, query: str, source: str | None = None) -> list[dict]:
+    def run_query(
+        self,
+        query: str,
+        source: str | None = None,
+        *,
+        question_id: str = "",
+        gold_answer: str | None = None,
+        gold_children: Sequence[str] | None = None,
+    ) -> list[dict]:
         hierarchy = self.hierarchy
         settings = self.settings
 
         query_type = classify_query(query)
-        initial = [
-            hit
-            for hit in self.pipeline.retriever.search(query, settings.candidate_k)
-            if source is None or hierarchy.node(hit.node_id).source == source
-        ]
+        initial = scoped_search(
+            self.pipeline.retriever,
+            hierarchy,
+            query,
+            settings.candidate_k,
+            source,
+        )
         pool = initial[: settings.rerank_k]
         if pool:
             scores = self.pipeline.reranker.score(
@@ -179,8 +211,8 @@ class RolloutRunner:
                 len(members_at_level(hierarchy, parent_id, Level.CHILD)),
                 query=query,
             )
-            gold = self.gold_answers.get(query)
-            gold_children = self.gold_child_map.get(query, [])
+            gold = gold_answer if gold_answer is not None else self.gold_answers.get(query)
+            gold_ids = list(gold_children) if gold_children is not None else self.gold_child_map.get(query, [])
             branches = {
                 "keep": self._execute(query, query_type, members, retrieved_child_ids, gold),
                 "parent": self._execute(
@@ -194,23 +226,27 @@ class RolloutRunner:
                 )
             tau = self.weights.label_margin_tau
 
-            if gold_children:
+            if gold_ids:
                 # v5 attribution-aware reward: Rescue / HarmfulDrift / P&R.
                 R_ids = set(members)
 
                 def v5_metrics(branch: dict) -> dict:
                     V = set(branch.get("verified_ids") or [])
-                    G_ids = set(gold_children)
+                    G_ids = set(gold_ids)
                     precision = len(V & G_ids) / max(1, len(V))
                     recall = len(V & G_ids) / max(1, len(G_ids))
                     rescue = len((V - R_ids) & G_ids)
                     harmful = len(((V - R_ids) - G_ids)) / max(1, len(V))
                     return {
+                        "retrieved_ids": sorted(R_ids),
+                        "verified_ids": sorted(V),
+                        "gold_ids": sorted(G_ids),
                         "citation_precision": round(precision, 4),
                         "citation_recall": round(recall, 4),
                         "rescue": rescue,
                         "harmful_rate": round(harmful, 4),
                         "ambiguity": float(branch.get("ambiguous_rate", 0.0)),
+                        "empty_evidence": int(not V),
                     }
 
                 weights = self.weights
@@ -221,9 +257,10 @@ class RolloutRunner:
                         weights.answer_quality * branch["answer_f1"]
                         + weights.citation_recall_w * metrics_v5["citation_recall"]
                         + weights.citation_precision_w * metrics_v5["citation_precision"]
-                        + weights.rescue_w * metrics_v5["rescue"] / max(1, len(gold_children))
+                        + weights.rescue_w * metrics_v5["rescue"] / max(1, len(gold_ids))
                         - weights.harmful_lambda * metrics_v5["harmful_rate"]
                         - weights.ambiguity_lambda * metrics_v5["ambiguity"]
+                        - weights.empty_evidence_lambda * metrics_v5["empty_evidence"]
                         - weights.tokens_beta * min(1.0, branch["tokens"] / max(1, settings.context_token_budget))
                         - weights.latency_gamma * min(1.0, branch["latency_ms"] / 5000.0),
                         6,
@@ -231,6 +268,9 @@ class RolloutRunner:
 
             row = RolloutRow(
                 query=query,
+                question_id=question_id,
+                source=source,
+                citation_evaluable=bool(gold_ids),
                 query_type=query_type.value,
                 parent_id=parent_id,
                 section_id=section_id or "",
@@ -244,10 +284,9 @@ class RolloutRunner:
                     if "section" in branches else 0
                 ),
             ).to_dict()
-            row["source"] = source
-            if gold_children:
+            if gold_ids:
                 row["retrieved"] = sorted(members)
-                row["gold"] = sorted(set(gold_children))
+                row["gold"] = sorted(set(gold_ids))
             rows.append(row)
         return rows
 
@@ -316,6 +355,7 @@ class RolloutRunner:
             generation, evidence, verification_metrics = verify_generation(
                 raw_generation, context, hierarchy, self.pipeline.verifier,
                 settings, claim_supports=sample_supports,
+                retrieved_ids=set(retrieved_child_ids),
             )
             latency_ms = (time.perf_counter() - t0) * 1000.0 / self.samples
             answer_text = " ".join(claim.text for claim in generation.claims).strip()

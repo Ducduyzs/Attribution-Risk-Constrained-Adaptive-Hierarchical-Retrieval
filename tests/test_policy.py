@@ -10,8 +10,10 @@ from edahr.config import Settings
 from edahr.hierarchy import HierarchyBuilder
 from edahr.policy import (
     AdaptiveMergePolicy,
+    NeverMergePolicy,
     decide_candidates,
     decide_merges,
+    policies_from_settings,
 )
 from edahr.schemas import DocumentSection, Hit, QueryType, ScientificDocument
 
@@ -132,6 +134,35 @@ class UtilityMarginTests(unittest.TestCase):
         )
         self.assertEqual(len(decisions), len(section_ids))
         self.assertEqual(decisions[0].level, Level.SECTION)
+
+    def test_settings_build_independent_parent_and_section_policies(self):
+        settings = Settings(
+            enable_parent_expansion=False,
+            enable_section_expansion=True,
+        )
+        parent, section = policies_from_settings(settings)
+        self.assertIsInstance(parent, NeverMergePolicy)
+        self.assertNotIsInstance(section, NeverMergePolicy)
+        self.assertIsNot(parent, section)
+
+    def test_missing_checkpoint_fails_before_runtime_inference(self):
+        settings = Settings(parent_policy_checkpoint="definitely-missing-policy.ts")
+        with self.assertRaisesRegex(FileNotFoundError, "Policy checkpoint"):
+            policies_from_settings(settings)
+
+    def test_pipeline_keeps_gates_separate(self):
+        from edahr.pipeline import AdaptiveHierarchicalPipeline
+
+        parent = NeverMergePolicy()
+        section = AdaptiveMergePolicy(margin=-1.0)
+        pipeline = AdaptiveHierarchicalPipeline(
+            hierarchy=self.hierarchy, retriever=None, reranker=None,
+            generator=None, verifier=None, settings=self.settings,
+            parent_policy=parent, section_policy=section,
+        )
+        self.assertIs(pipeline.parent_policy, parent)
+        self.assertIs(pipeline.section_policy, section)
+        self.assertIs(pipeline.policy, parent)
 
 
 if __name__ == "__main__":

@@ -17,7 +17,8 @@ Scientific PDFs
   -> contextualized child representations
   -> BGE-M3 dense + learned sparse + ColBERT retrieval
   -> BGE cross-encoder reranking
-  -> evidence-density-aware adaptive parent merge
+  -> learned child->parent attribution-risk gate
+  -> independent learned parent->section/document gate
   -> parent-vs-child reranker guard and rollback
   -> token-budgeted context construction
   -> structured LLM claim generation (OpenAI or Gemini)
@@ -31,6 +32,16 @@ with a reward that penalises claim-to-leaf attribution risk; an MLP trained on
 the resulting oracle labels replaces the hand-tuned utility comparison via the
 TorchScript checkpoint hook. Its inputs include relevance, evidence coverage,
 semantic coherence, evidence density, noise, token cost, and query type.
+The parent and section gates have separate checkpoints and can be disabled
+independently for clean ablations.
+
+```json
+{
+  "parent_policy_checkpoint": "checkpoints/policy_parent_v5_final.ts",
+  "section_policy_checkpoint": "checkpoints/policy_section_v5_final.ts",
+  "policy_version": "v5"
+}
+```
 
 ## Why this is not ordinary hierarchical RAG
 
@@ -94,3 +105,5 @@ The recommended training target for the merge policy is downstream utility: answ
 ## Current boundary
 
 This repository contains the complete executable pipeline and offline orchestration tests. A full scientific benchmark still requires downloading model weights, providing an LLM key, and selecting a labeled corpus such as QASPER or SciFact. The merge policy supports a TorchScript checkpoint; until trained, it uses an explicit calibrated prior so experiments remain reproducible.
+Exact rollout, training, decomposition and verification commands are recorded
+in `analysis/repro_commands.md`; current evidence status is in `analysis/v5_execution_log.md`.

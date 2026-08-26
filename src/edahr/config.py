@@ -37,6 +37,12 @@ class Settings:
     min_child_hits: int = 2
     evidence_gain_weight: float = 0.35     # weight of incremental evidence gain
     cost_penalty: float = 0.50             # penalty per unit incremental token cost
+    # Learned gates are independent: child->parent and parent->section/document.
+    parent_policy_checkpoint: str | None = None
+    section_policy_checkpoint: str | None = None
+    enable_parent_expansion: bool = True
+    enable_section_expansion: bool = True
+    policy_version: str = "prior"
     # Iterative expansion child -> parent -> section -> document.
     expansion_max_depth: int = 3
     expansion_epsilon: float = 0.02        # stop when total gain below this

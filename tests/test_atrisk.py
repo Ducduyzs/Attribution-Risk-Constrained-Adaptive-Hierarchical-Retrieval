@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -17,6 +19,7 @@ from edahr.hierarchy import HierarchyBuilder  # noqa: E402
 from edahr.invariants import validate_hierarchy  # noqa: E402
 from edahr.rollouts import RewardWeights  # noqa: E402
 from edahr.schemas import DocumentSection, ScientificDocument  # noqa: E402
+from edahr.training import sha256_file, v5_label, write_checkpoint_metadata  # noqa: E402
 
 
 class AttributionRiskTests(unittest.TestCase):
@@ -80,10 +83,67 @@ class HierarchyInvariantTests(unittest.TestCase):
 class RolloutRowTests(unittest.TestCase):
     def test_reward_weights_defaults_match_spec(self):
         weights = RewardWeights()
-        self.assertEqual(weights.answer_quality, 0.0)      # enabled with QASPER gold
+        self.assertGreater(weights.answer_quality, 0.0)
         self.assertGreater(weights.evidence_recall, 0.0)
         self.assertGreater(weights.citation_quality, 0.0)
         self.assertGreater(weights.attribution_risk_lambda, 0.0)
+        self.assertGreater(weights.empty_evidence_lambda, 0.0)
+
+    def test_v5_label_accepts_rescue_without_harm(self):
+        row = {
+            "branches": {
+                "keep": {"reward": 0.1, "v5": {
+                    "citation_precision": 1.0, "citation_recall": 0.5,
+                    "harmful_rate": 0.0, "empty_evidence": 0,
+                }},
+                "parent": {"reward": 0.4, "v5": {
+                    "citation_precision": 1.0, "citation_recall": 1.0,
+                    "harmful_rate": 0.0, "empty_evidence": 0,
+                }},
+            }
+        }
+        self.assertEqual(v5_label(row, "parent", 0.02, 0.05, 0.02), 1)
+
+    def test_v5_label_rejects_empty_or_recall_losing_expansion(self):
+        keep = {"reward": 0.1, "v5": {
+            "citation_precision": 1.0, "citation_recall": 1.0,
+            "harmful_rate": 0.0, "empty_evidence": 0,
+        }}
+        alternatives = (
+            {"reward": 0.5, "v5": {
+                "citation_precision": 0.0, "citation_recall": 0.0,
+                "harmful_rate": 0.0, "empty_evidence": 1,
+            }},
+            {"reward": 0.5, "v5": {
+                "citation_precision": 1.0, "citation_recall": 0.5,
+                "harmful_rate": 0.0, "empty_evidence": 0,
+            }},
+        )
+        for expand in alternatives:
+            row = {"branches": {"keep": keep, "parent": expand}}
+            self.assertEqual(v5_label(row, "parent", 0.02, 0.05, 0.02), 0)
+
+
+class CheckpointMetadataTests(unittest.TestCase):
+    def test_metadata_records_hashes_and_v5_constraints(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            checkpoint = root / "policy.ts"
+            rollouts = root / "rollouts.jsonl"
+            checkpoint.write_bytes(b"checkpoint")
+            rollouts.write_text('{"query":"q"}\n', encoding="utf-8")
+            output = write_checkpoint_metadata(
+                checkpoint, {"val_auc": 0.75}, source_rollouts=rollouts,
+                seed=7, min_margin=0.03, v5=True,
+                epsilon=0.02, delta=0.05, tau=0.02,
+            )
+            payload = json.loads(output.read_text(encoding="utf-8"))
+            self.assertEqual(payload["schema_version"], 1)
+            self.assertEqual(payload["checkpoint_sha256"], sha256_file(checkpoint))
+            self.assertEqual(payload["source_rollouts_sha256"], sha256_file(rollouts))
+            self.assertEqual(payload["feature_dim"], 14)
+            self.assertTrue(payload["v5_constraints"]["enabled"])
+            self.assertEqual(payload["training_report"]["val_auc"], 0.75)
 
 
 if __name__ == "__main__":

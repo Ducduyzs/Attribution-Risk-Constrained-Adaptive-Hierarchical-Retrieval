@@ -124,6 +124,9 @@ def verify_generation(
                 if entry[0] in retrieved_ids or entry[1] >= bar
             ]
             sibling_filtered += before - len(scored)
+        if not scored:
+            rejected_no_child += 1
+            continue
         ambiguous = (
             len(scored) > 1
             and (scored[0][1] - scored[1][1]) < settings.evidence_margin

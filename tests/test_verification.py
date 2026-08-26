@@ -136,6 +136,39 @@ class ChildLevelVerificationTests(unittest.TestCase):
         self.assertEqual(len(evidence2), 1)          # still top-1 ...
         self.assertEqual(metrics2["ambiguous_claims"], 1.0)  # ... but flagged
 
+    def test_sibling_guard_uses_retrieved_leaf_set(self):
+        from dataclasses import replace as data_replace
+
+        child = self.hierarchy.child_ids[0]
+        block = _block(self.hierarchy, child, "C1")
+        generation = Generation(True, (Claim("weak support", ("C1",), 0.9),))
+
+        class WeakVerifier:
+            def support_score(self, claim, evidence):
+                return 0.30
+
+        guarded = data_replace(
+            self.settings,
+            nli_support_threshold=0.25,
+            sibling_threshold_delta=0.10,
+            lexical_support_min_coverage=0.0,
+        )
+        verified, evidence, metrics = verify_generation(
+            generation, [block], self.hierarchy, WeakVerifier(), guarded,
+            retrieved_ids={"a-different-leaf"},
+        )
+        self.assertFalse(verified.answerable)
+        self.assertEqual(evidence, {})
+        self.assertEqual(metrics["sibling_filtered_children"], 1.0)
+
+        unguarded = data_replace(guarded, sibling_threshold_delta=0.0)
+        verified2, evidence2, _ = verify_generation(
+            generation, [block], self.hierarchy, WeakVerifier(), unguarded,
+            retrieved_ids={"a-different-leaf"},
+        )
+        self.assertTrue(verified2.answerable)
+        self.assertEqual(len(evidence2), 1)
+
     def test_claim_rejected_when_no_child_supports(self):
         generation = Generation(True, (Claim("A claim nothing supports.", ("C1",), 0.9),))
         children = [
