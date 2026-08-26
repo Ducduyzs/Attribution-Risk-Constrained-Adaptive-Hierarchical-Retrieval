@@ -81,10 +81,17 @@ class MultiRepresentationIndex:
                     scores[row] += 1.0 / (k + rank)
         return scores
 
-    def search(self, query: str, k: int) -> list[Hit]:
+    def search(self, query: str, k: int, source: str | None = None) -> list[Hit]:
         settings = self.settings
         encoded = self.encoder.encode([query], batch_size=1)
-        pool_size = min(len(self.node_ids), max(k, settings.candidate_k))
+        allowed_rows = [
+            row for row, node_id in enumerate(self.node_ids)
+            if source is None or self.hierarchy.node(node_id).source == source
+        ]
+        if not allowed_rows:
+            return []
+        allowed_set = set(allowed_rows)
+        pool_size = min(len(allowed_rows), max(k, settings.candidate_k))
         dense_scores: dict[int, float] = {}
         sparse_all: dict[int, float] = {}
         colbert_raw: dict[int, float] = {}
@@ -94,17 +101,31 @@ class MultiRepresentationIndex:
         if settings.use_dense:
             query_dense = self.np.asarray(encoded["dense_vecs"], dtype="float32")
             self.faiss.normalize_L2(query_dense)
-            values, rows = self.dense_index.search(query_dense, pool_size)
-            pairs = [
-                (int(row), float(score))
-                for row, score in zip(rows[0], values[0])
-                if row >= 0
-            ]
+            if source is None:
+                values, rows = self.dense_index.search(query_dense, pool_size)
+                pairs = [
+                    (int(row), float(score))
+                    for row, score in zip(rows[0], values[0])
+                    if row >= 0
+                ]
+            else:
+                scoped = self.dense[allowed_rows] @ query_dense[0]
+                local_order = self.np.argsort(-scoped)[:pool_size]
+                pairs = [
+                    (allowed_rows[int(local)], float(scoped[int(local)]))
+                    for local in local_order
+                ]
             dense_scores = dict(pairs)
             dense_ranking = [row for row, _ in pairs]
 
         if settings.use_sparse:
-            sparse_all = self._sparse_scores(encoded["lexical_weights"][0])
+            sparse_all = {
+                row: score
+                for row, score in self._sparse_scores(
+                    encoded["lexical_weights"][0]
+                ).items()
+                if row in allowed_set
+            }
             sparse_ranking = sorted(sparse_all, key=sparse_all.get, reverse=True)[:pool_size]
 
         candidates: set[int] = set(dense_scores) | set(sparse_ranking)

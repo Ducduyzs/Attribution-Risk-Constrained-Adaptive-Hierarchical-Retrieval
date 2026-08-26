@@ -13,7 +13,9 @@ loads it via ``checkpoint=`` and applies sigmoid to get P(merge), which then
 
 from __future__ import annotations
 
+import hashlib
 import json
+from datetime import datetime, timezone
 import random
 from pathlib import Path
 from typing import Sequence
@@ -62,7 +64,12 @@ def v5_label(row: dict, branch: str, epsilon: float, delta: float, tau: float) -
         return 0
     feasible = (
         expand["v5"]["citation_precision"] >= keep["v5"]["citation_precision"] - epsilon
+        and expand["v5"]["citation_recall"] >= keep["v5"]["citation_recall"] - epsilon
         and expand["v5"]["harmful_rate"] <= delta
+        and not (
+            bool(expand["v5"].get("empty_evidence"))
+            and not bool(keep["v5"].get("empty_evidence"))
+        )
     )
     gain = expand["reward"] - keep["reward"]
     return int(feasible and gain > tau)
@@ -196,8 +203,8 @@ def train_label(
         "train_acc": round(_accuracy(train_logits, y_train), 4),
         "val_acc": round(_accuracy(val_logits, y_val), 4),
         "val_auc": round(_rank_auc(val_logits, y_val), 4),
-        "always_merge_acc": round(max(positive_rate, 1 - positive_rate), 4),
-        "never_merge_acc": round(max(1 - positive_rate, positive_rate), 4),
+        "always_merge_acc": round(positive_rate, 4),
+        "never_merge_acc": round(1.0 - positive_rate, 4),
     }
     return model, report
 
@@ -210,3 +217,50 @@ def export_checkpoint(model: object, out_path: str | Path) -> Path:
     scripted = torch.jit.script(model.cpu().eval())
     scripted.save(str(out))
     return out
+
+
+def sha256_file(path: str | Path) -> str:
+    digest = hashlib.sha256()
+    with Path(path).open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def write_checkpoint_metadata(
+    checkpoint: str | Path,
+    report: dict,
+    *,
+    source_rollouts: str | Path,
+    seed: int,
+    min_margin: float,
+    v5: bool,
+    epsilon: float,
+    delta: float,
+    tau: float,
+    out_path: str | Path | None = None,
+) -> Path:
+    """Write a sidecar manifest sufficient to identify a trained gate."""
+    checkpoint_path = Path(checkpoint).resolve()
+    rollout_path = Path(source_rollouts).resolve()
+    output = (
+        Path(out_path)
+        if out_path is not None
+        else checkpoint_path.with_suffix(".metadata.json")
+    )
+    output.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "schema_version": 1,
+        "created_at_utc": datetime.now(timezone.utc).isoformat(),
+        "checkpoint": str(checkpoint_path),
+        "checkpoint_sha256": sha256_file(checkpoint_path),
+        "feature_dim": FEATURE_DIM,
+        "source_rollouts": str(rollout_path),
+        "source_rollouts_sha256": sha256_file(rollout_path),
+        "seed": seed,
+        "min_margin": min_margin,
+        "v5_constraints": {"enabled": v5, "epsilon": epsilon, "delta": delta, "tau": tau},
+        "training_report": report,
+    }
+    output.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    return output

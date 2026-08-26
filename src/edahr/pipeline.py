@@ -8,7 +8,7 @@ from .config import Settings
 from .attribution import attribution_metrics
 from .context import assemble_context
 from .expansion import MAX_LEVEL_BY_QUERY_TYPE, expand_selection
-from .interfaces import Generator, Reranker, Retriever, Verifier
+from .interfaces import Generator, Reranker, Retriever, Verifier, scoped_search
 from .policy import AdaptiveMergePolicy, decide_merges
 from .schemas import Hierarchy, Hit, Level, QueryType, Result, level_rank
 from .verification import verify_generation
@@ -46,6 +46,8 @@ class AdaptiveHierarchicalPipeline:
         verifier: Verifier,
         settings: Settings | None = None,
         policy: AdaptiveMergePolicy | None = None,
+        parent_policy: AdaptiveMergePolicy | None = None,
+        section_policy: AdaptiveMergePolicy | None = None,
         rerank_enabled: bool = True,
     ):
         self.hierarchy = hierarchy
@@ -55,12 +57,16 @@ class AdaptiveHierarchicalPipeline:
         self.verifier = verifier
         self.settings = settings or Settings()
         self.rerank_enabled = rerank_enabled
-        self.policy = policy or AdaptiveMergePolicy(
+        fallback_policy = policy or AdaptiveMergePolicy(
             threshold=self.settings.merge_threshold,
             margin=self.settings.merge_margin,
             evidence_gain_weight=self.settings.evidence_gain_weight,
             cost_penalty=self.settings.cost_penalty,
         )
+        self.parent_policy = parent_policy or fallback_policy
+        self.section_policy = section_policy or self.parent_policy
+        # Compatibility for callers and serialized experiment helpers.
+        self.policy = self.parent_policy
 
     # ------------------------------------------------------------------
 
@@ -69,11 +75,13 @@ class AdaptiveHierarchicalPipeline:
         query_type = classify_query(query)
 
         t0 = time.perf_counter()
-        initial = [
-            hit
-            for hit in self.retriever.search(query, self.settings.candidate_k)
-            if source is None or self.hierarchy.node(hit.node_id).source == source
-        ]
+        initial = scoped_search(
+            self.retriever,
+            self.hierarchy,
+            query,
+            self.settings.candidate_k,
+            source,
+        )
         timings["retrieval_ms"] = (time.perf_counter() - t0) * 1000
 
         t0 = time.perf_counter()
@@ -104,7 +112,7 @@ class AdaptiveHierarchicalPipeline:
             hierarchy=self.hierarchy,
             hits=reranked,
             reranker=self.reranker,
-            policy=self.policy,
+            policy=self.parent_policy,
             settings=self.settings,
             candidate_score_cache=score_cache,
         )
@@ -125,7 +133,7 @@ class AdaptiveHierarchicalPipeline:
             query_type=query_type,
             hierarchy=self.hierarchy,
             reranker=self.reranker,
-            policy=self.policy,
+            policy=self.section_policy,
             settings=self.settings,
             selected_scores=selected,
             score_cache=score_cache,

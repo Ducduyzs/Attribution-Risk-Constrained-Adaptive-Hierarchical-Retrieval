@@ -14,6 +14,7 @@ from .models import (
     OpenAIStructuredGenerator,
 )
 from .pipeline import AdaptiveHierarchicalPipeline
+from .policy import policies_from_settings
 
 
 def build_pipeline(
@@ -30,6 +31,7 @@ def build_pipeline(
     else:
         generator = OpenAIStructuredGenerator(settings.llm_model, settings.openai_api_key)
     verifier = NliVerifier(settings.nli_model, settings.device)
+    parent_policy, section_policy = policies_from_settings(settings)
     return AdaptiveHierarchicalPipeline(
         hierarchy=hierarchy,
         retriever=index,
@@ -37,4 +39,6 @@ def build_pipeline(
         generator=generator,
         verifier=verifier,
         settings=settings,
+        parent_policy=parent_policy,
+        section_policy=section_policy,
     )

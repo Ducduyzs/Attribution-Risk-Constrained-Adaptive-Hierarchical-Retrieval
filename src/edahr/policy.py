@@ -84,6 +84,35 @@ class NeverMergePolicy(AdaptiveMergePolicy):
         return 0.0
 
 
+def policy_from_checkpoint(
+    settings: Settings, checkpoint: str | Path | None, *, enabled: bool = True
+) -> AdaptiveMergePolicy:
+    """Build one runtime gate and fail early on a missing checkpoint."""
+    if not enabled:
+        return NeverMergePolicy()
+    path = Path(checkpoint).expanduser() if checkpoint else None
+    if path is not None and not path.is_file():
+        raise FileNotFoundError(f"Policy checkpoint does not exist: {path}")
+    return AdaptiveMergePolicy(
+        threshold=settings.merge_threshold,
+        margin=settings.merge_margin,
+        evidence_gain_weight=settings.evidence_gain_weight,
+        cost_penalty=settings.cost_penalty,
+        checkpoint=path,
+    )
+
+
+def policies_from_settings(settings: Settings) -> tuple[AdaptiveMergePolicy, AdaptiveMergePolicy]:
+    """Return independent parent and higher-level gates from runtime settings."""
+    parent = policy_from_checkpoint(
+        settings, settings.parent_policy_checkpoint, enabled=settings.enable_parent_expansion
+    )
+    section = policy_from_checkpoint(
+        settings, settings.section_policy_checkpoint, enabled=settings.enable_section_expansion
+    )
+    return parent, section
+
+
 def _features(
     hierarchy: Hierarchy,
     candidate_id: str,

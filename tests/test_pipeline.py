@@ -112,6 +112,58 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("total_latency_ms", result.metrics)
         self.assertIn("child_nli_calls", result.metrics)
 
+    def test_legacy_retriever_is_scoped_before_top_k(self):
+        settings = Settings(
+            child_target_tokens=8,
+            child_overlap_sentences=0,
+            children_per_parent=2,
+            parent_overlap_children=0,
+            candidate_k=1,
+            rerank_k=1,
+            final_context_k=1,
+            min_child_hits=2,
+            expansion_max_depth=0,
+        )
+        documents = [
+            ScientificDocument(
+                document_id="foreign",
+                source="foreign.pdf",
+                sections=(DocumentSection("S", "Noise passage one. Noise passage two."),),
+            ),
+            ScientificDocument(
+                document_id="target",
+                source="target.pdf",
+                sections=(DocumentSection(
+                    "S", "Adaptive retrieval selects evidence. Target detail follows."
+                ),),
+            ),
+        ]
+        hierarchy = HierarchyBuilder(settings).build(documents)
+
+        class LegacyRetriever:
+            def __init__(self):
+                self.requested = 0
+                self.order = [
+                    *[cid for cid in hierarchy.child_ids if hierarchy.node(cid).source == "foreign.pdf"],
+                    *[cid for cid in hierarchy.child_ids if hierarchy.node(cid).source == "target.pdf"],
+                ]
+
+            def search(self, query, k):
+                self.requested = k
+                return [Hit(node_id=cid, score=1.0 - i * 0.01, rank=i + 1)
+                        for i, cid in enumerate(self.order[:k])]
+
+        retriever = LegacyRetriever()
+        pipeline = AdaptiveHierarchicalPipeline(
+            hierarchy=hierarchy, retriever=retriever, reranker=FakeReranker(),
+            generator=FakeGenerator(), verifier=SelectiveVerifier(), settings=settings,
+        )
+        result = pipeline.answer("adaptive retrieval", source="target.pdf")
+        self.assertEqual(retriever.requested, len(hierarchy.child_ids))
+        self.assertTrue(result.hits)
+        self.assertTrue(all(hierarchy.node(hit.node_id).source == "target.pdf"
+                            for hit in result.hits))
+
 
 if __name__ == "__main__":
     unittest.main()

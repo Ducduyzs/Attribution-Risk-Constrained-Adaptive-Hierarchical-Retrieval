@@ -45,8 +45,9 @@ from .evaluation import (
     selective_accuracy_at_coverage,
 )
 from .hierarchy import HierarchyBuilder
+from .interfaces import scoped_search
 from .pipeline import AdaptiveHierarchicalPipeline, classify_query
-from .policy import AdaptiveMergePolicy, NeverMergePolicy, StaticMergePolicy
+from .policy import NeverMergePolicy, StaticMergePolicy, policies_from_settings
 from .schemas import Hierarchy, Hit, ScientificDocument
 
 
@@ -77,7 +78,7 @@ class Bm25ChildRetriever:
         frequency = self.document_frequency.get(term, 0)
         return math.log(1.0 + (self.total_docs - frequency + 0.5) / (frequency + 0.5))
 
-    def search(self, query: str, k: int) -> list[Hit]:
+    def search(self, query: str, k: int, source: str | None = None) -> list[Hit]:
         query_terms = query.lower().split()
         scores: list[float] = []
         for index, tokens in enumerate(self.doc_tokens):
@@ -93,7 +94,11 @@ class Bm25ChildRetriever:
                 if tf:
                     score += self._idf(term) * tf * (self.k1 + 1.0) / (tf + length_norm)
             scores.append(score)
-        ranked = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:k]
+        allowed = [
+            row for row, node_id in enumerate(self.node_ids)
+            if source is None or self.hierarchy.node(node_id).source == source
+        ]
+        ranked = sorted(allowed, key=lambda i: scores[i], reverse=True)[:k]
         return [
             Hit(node_id=self.node_ids[row], score=scores[row], rank=rank)
             for rank, row in enumerate(ranked, start=1)
@@ -106,12 +111,24 @@ class RrfRetriever:
     def __init__(self, retrievers: Sequence, rrf_k: int = 60):
         self.retrievers = list(retrievers)
         self.rrf_k = rrf_k
+        self.hierarchy = next(
+            (
+                getattr(retriever, "hierarchy", None)
+                for retriever in self.retrievers
+                if getattr(retriever, "hierarchy", None) is not None
+            ),
+            None,
+        )
 
-    def search(self, query: str, k: int) -> list[Hit]:
+    def search(self, query: str, k: int, source: str | None = None) -> list[Hit]:
         fused: dict[str, float] = defaultdict(float)
         first_scores: dict[str, float] = {}
         for retriever in self.retrievers:
-            hits = retriever.search(query, max(k, 100))
+            hits = (
+                scoped_search(retriever, self.hierarchy, query, max(k, 100), source)
+                if self.hierarchy is not None
+                else retriever.search(query, max(k, 100))
+            )
             for hit in hits:
                 fused[hit.node_id] += 1.0 / (self.rrf_k + hit.rank)
                 first_scores.setdefault(hit.node_id, hit.score)
@@ -268,8 +285,19 @@ def run_benchmark(
             if result.generation.claims
             else 0.0
         )
+        evidence_node_set = {evidence.node_id for evidence in result.evidence.values()}
+        retrieved_child_set = set(ranked_ids[: pipeline.settings.rerank_k])
+        candidate_child_set = {
+            child_id for block in result.context for child_id in block.evidence_ids
+        }
         graded = {child_id: 1.0 for child_id in gold_children}
-        row: dict = {"query": query}
+        citation_evaluable = bool(gold_children)
+        row: dict = {
+            "query": query,
+            "question_id": str(record.get("question_id") or ""),
+            "source": record.get("source"),
+            "citation_evaluable": citation_evaluable,
+        }
         for k in ks:
             row[f"recall@{k}"] = recall_at_k(ranked_ids, gold_children, k)
             row[f"precision@{k}"] = precision_at_k(ranked_ids, gold_children, k)
@@ -281,9 +309,16 @@ def run_benchmark(
             if gold_quotes
             else 0.0
         )
-        row["citation_precision"] = citation_precision(evidence_nodes, gold_children)
-        row["citation_recall"] = citation_recall(evidence_nodes, gold_children)
-        row["citation_f1"] = citation_f1(evidence_nodes, gold_children)
+        if citation_evaluable:
+            row["citation_precision"] = citation_precision(evidence_node_set, gold_children)
+            row["citation_recall"] = citation_recall(evidence_node_set, gold_children)
+            row["citation_f1"] = citation_f1(evidence_node_set, gold_children)
+        else:
+            # Undefined, not zero: zero would silently depress macro grounding
+            # metrics for questions whose gold paragraph could not be mapped.
+            row["citation_precision"] = None
+            row["citation_recall"] = None
+            row["citation_f1"] = None
         row["provenance_accuracy"] = (
             provenance_accuracy(provenance, gold_pages) if gold_pages else 0.0
         )
@@ -291,17 +326,37 @@ def run_benchmark(
         row["answer_em"] = answer_exact_match(answer_text, gold_answer) if gold_answer else 0.0
         row["answer_f1"] = answer_token_f1(answer_text, gold_answer) if gold_answer else 0.0
         row["confidence"] = mean_confidence
-        row["correct"] = correct_fn(row["answer_f1"], row["citation_recall"])
+        row["correct"] = (
+            correct_fn(row["answer_f1"], float(row["citation_recall"]))
+            if citation_evaluable else 0.0
+        )
         row["context_tokens"] = float(result.metrics.get("context_tokens", 0.0))
         row["latency_ms"] = float(result.metrics.get("total_latency_ms", 0.0))
         # Per-query artifacts for failure decomposition and manual audit.
-        row["source"] = record.get("source")
         row["gold_child_ids"] = sorted(gold_children)
-        row["evidence_node_ids"] = sorted(
-            evidence.node_id for evidence in result.evidence.values()
+        row["evidence_node_ids"] = sorted(evidence_node_set)
+        row["retrieved_child_ids"] = sorted(retrieved_child_set)
+        row["candidate_child_ids"] = sorted(candidate_child_set)
+        row["rescued_leaf_ids"] = sorted(
+            (evidence_node_set - retrieved_child_set) & gold_children
         )
-        row["retrieved_child_ids"] = [
-            hit.node_id for hit in result.hits[: pipeline.settings.rerank_k]
+        row["harmful_drift_leaf_ids"] = sorted(
+            (evidence_node_set - retrieved_child_set) - gold_children
+        )
+        row["kept_correct_leaf_ids"] = sorted(
+            (evidence_node_set & retrieved_child_set) & gold_children
+        )
+        row["kept_wrong_leaf_ids"] = sorted(
+            (evidence_node_set & retrieved_child_set) - gold_children
+        )
+        row["claim_evidence"] = [
+            {
+                "claim": evidence.claim_text,
+                "node_id": evidence.node_id,
+                "support_score": evidence.support_score,
+                "context_id": evidence.context_id,
+            }
+            for evidence in result.evidence.values()
         ]
         run.rows.append(row)
 
@@ -309,7 +364,11 @@ def run_benchmark(
     confidences = [float(row["confidence"]) for row in run.rows]
     latencies = [float(row["latency_ms"]) for row in run.rows]
     macro = aggregate(run.rows)
-    citation_scores = [float(row["citation_f1"]) for row in run.rows]
+    citation_scores = [
+        float(row["citation_f1"])
+        for row in run.rows
+        if isinstance(row.get("citation_f1"), (int, float))
+    ]
     ci_low, ci_high = bootstrap_ci(citation_scores, seed=seed)
     run.summary = {
         **macro,
@@ -323,6 +382,7 @@ def run_benchmark(
         "citation_f1_ci_low": ci_low,
         "citation_f1_ci_high": ci_high,
         "num_queries": float(len(run.rows)),
+        "citation_evaluable_queries": float(len(citation_scores)),
     }
     return run
 
@@ -332,12 +392,56 @@ def significance_vs_baseline(
 ) -> float:
     from .evaluation import paired_bootstrap_test
 
-    paired = [
-        (row_a[metric], row_b[metric])
-        for row_a, row_b in zip(proposed.rows, baseline.rows)
-    ]
+    paired = _paired_metric_rows(proposed, baseline, metric)
     firsts, seconds = zip(*paired) if paired else ((0.0,), (0.0,))
     return paired_bootstrap_test(list(firsts), list(seconds), seed=seed)
+
+
+def clustered_ci_vs_baseline(
+    proposed: BenchmarkRun,
+    baseline: BenchmarkRun,
+    metric: str = "citation_f1",
+    seed: int = 42,
+) -> tuple[float, float]:
+    """Paper-clustered CI for the paired proposed-minus-baseline difference."""
+    from .evaluation import paired_cluster_bootstrap
+
+    baseline_by_key = {_row_identity(row): row for row in baseline.rows}
+    diffs: list[float] = []
+    clusters: list[str] = []
+    for row in proposed.rows:
+        other = baseline_by_key.get(_row_identity(row))
+        if other is None:
+            continue
+        first, second = row.get(metric), other.get(metric)
+        if not isinstance(first, (int, float)) or not isinstance(second, (int, float)):
+            continue
+        diffs.append(float(first) - float(second))
+        clusters.append(str(row.get("source") or "unknown-paper"))
+    return paired_cluster_bootstrap(diffs, clusters, seed=seed)
+
+
+def _row_identity(row: dict) -> tuple[str, ...]:
+    question_id = str(row.get("question_id") or "")
+    source = str(row.get("source") or "")
+    if question_id:
+        return source, question_id
+    return source, str(row.get("query") or "")
+
+
+def _paired_metric_rows(
+    proposed: BenchmarkRun, baseline: BenchmarkRun, metric: str
+) -> list[tuple[float, float]]:
+    baseline_by_key = {_row_identity(row): row for row in baseline.rows}
+    pairs: list[tuple[float, float]] = []
+    for row in proposed.rows:
+        other = baseline_by_key.get(_row_identity(row))
+        if other is None:
+            continue
+        first, second = row.get(metric), other.get(metric)
+        if isinstance(first, (int, float)) and isinstance(second, (int, float)):
+            pairs.append((float(first), float(second)))
+    return pairs
 
 
 # ---------------------------------------------------------------------------
@@ -415,16 +519,14 @@ def make_baseline_pipeline(
             settings=settings, policy=StaticMergePolicy(), rerank_enabled=True,
         )
     if name == "edahr":
-        policy = AdaptiveMergePolicy(
-            threshold=settings.merge_threshold,
-            margin=settings.merge_margin,
-            evidence_gain_weight=settings.evidence_gain_weight,
-            cost_penalty=settings.cost_penalty,
-        )
+        parent_policy, section_policy = policies_from_settings(settings)
         return AdaptiveHierarchicalPipeline(
             hierarchy=hierarchy, retriever=index_factory(replace(settings)),
             reranker=reranker, generator=generator, verifier=verifier,
-            settings=settings, policy=policy, rerank_enabled=True,
+            settings=settings,
+            parent_policy=parent_policy,
+            section_policy=section_policy,
+            rerank_enabled=True,
         )
     raise ValueError(f"Unknown baseline: {name}")
 

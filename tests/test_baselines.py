@@ -8,11 +8,14 @@ sys.path.insert(0, str(Path(__file__).parents[1] / "src"))
 
 from edahr.baselines import (
     BASELINE_NAMES,
+    BenchmarkRun,
     Bm25ChildRetriever,
     RrfRetriever,
     auto_label_gold_children,
+    clustered_ci_vs_baseline,
     make_baseline_pipeline,
     run_benchmark,
+    significance_vs_baseline,
     split_by_paper,
 )
 from edahr.config import Settings
@@ -83,6 +86,11 @@ class Bm25Tests(unittest.TestCase):
         self.assertGreaterEqual(first_nonmatching, 2)  # two gold children exist
         self.assertGreater(hits[0].score, 0.0)
 
+    def test_bm25_source_filter_applies_before_k(self):
+        hierarchy, _ = _hierarchy()
+        hits = Bm25ChildRetriever(hierarchy).search("gold", k=1, source="doc.pdf")
+        self.assertEqual(hierarchy.node(hits[0].node_id).source, "doc.pdf")
+
     def test_rrf_fuses_rankings(self):
         class StaticRetriever:
             def __init__(self, order):
@@ -148,6 +156,26 @@ class BenchmarkHarnessTests(unittest.TestCase):
         self.assertIn("citation_f1", run.summary)
         self.assertEqual(run.summary["num_queries"], 1.0)
         self.assertIn("latency_p95_ms", run.summary)
+        self.assertTrue(run.rows[0]["citation_evaluable"])
+        self.assertIn("question_id", run.rows[0])
+        self.assertEqual(
+            len(run.rows[0]["evidence_node_ids"]),
+            len(set(run.rows[0]["evidence_node_ids"])),
+        )
+
+    def test_unmapped_gold_is_excluded_from_citation_macro(self):
+        hierarchy, settings = _hierarchy()
+        from edahr.pipeline import AdaptiveHierarchicalPipeline
+        pipeline = AdaptiveHierarchicalPipeline(
+            hierarchy=hierarchy, retriever=Bm25ChildRetriever(hierarchy),
+            reranker=FakeReranker(), generator=FakeGenerator(),
+            verifier=FakeVerifier(), settings=settings,
+        )
+        records = [{"query": "gold", "source": "doc.pdf", "gold_quotes": []}]
+        run = run_benchmark("zero-gold", pipeline, records, ks=(1,))
+        self.assertFalse(run.rows[0]["citation_evaluable"])
+        self.assertIsNone(run.rows[0]["citation_f1"])
+        self.assertEqual(run.summary["citation_evaluable_queries"], 0.0)
 
     def test_make_baseline_pipeline_names(self):
         hierarchy, settings = _hierarchy()
@@ -166,6 +194,24 @@ class BenchmarkHarnessTests(unittest.TestCase):
                 settings=settings,
             )
             self.assertIsInstance(pipeline.hierarchy.nodes, dict)
+
+    def test_paired_statistics_align_by_identity_and_skip_none(self):
+        proposed = BenchmarkRun("proposed", rows=[
+            {"source": "p2", "question_id": "q2", "citation_f1": None},
+            {"source": "p1", "question_id": "q1", "citation_f1": 0.8},
+            {"source": "p1", "question_id": "q3", "citation_f1": 0.6},
+        ])
+        baseline = BenchmarkRun("flat", rows=[
+            {"source": "p1", "question_id": "q3", "citation_f1": 0.4},
+            {"source": "p1", "question_id": "q1", "citation_f1": 0.5},
+            {"source": "p2", "question_id": "q2", "citation_f1": None},
+        ])
+        p_value = significance_vs_baseline(proposed, baseline, seed=3)
+        ci_low, ci_high = clustered_ci_vs_baseline(proposed, baseline, seed=3)
+        self.assertGreaterEqual(p_value, 0.0)
+        self.assertLessEqual(p_value, 1.0)
+        self.assertAlmostEqual(ci_low, 0.25)
+        self.assertAlmostEqual(ci_high, 0.25)
 
 
 if __name__ == "__main__":

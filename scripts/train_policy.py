@@ -20,6 +20,7 @@ from edahr.training import (  # noqa: E402
     load_rollout_rows,
     relabel_v5,
     train_label,
+    write_checkpoint_metadata,
 )
 
 
@@ -30,6 +31,8 @@ def main() -> None:
     parser.add_argument("--label", default="label_parent",
                         choices=["label_parent", "label_section"])
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--metadata", default=None,
+                        help="metadata JSON path (default: beside checkpoint)")
     parser.add_argument("--min-margin", type=float, default=0.0,
                         help="drop rows with |reward gap| <= margin (label noise filter)")
     parser.add_argument("--v5", action="store_true",
@@ -38,15 +41,25 @@ def main() -> None:
                         help="allowed precision drop vs KEEP in the v5 constraint")
     parser.add_argument("--delta", type=float, default=0.05,
                         help="harmful-drift ceiling in the v5 constraint")
+    parser.add_argument("--tau", type=float, default=0.02,
+                        help="minimum reward gain required to label EXPAND")
     args = parser.parse_args()
 
-    rows = load_rollout_rows(PROJECT_ROOT / args.rollouts)
+    rollout_path = PROJECT_ROOT / args.rollouts
+    rows = load_rollout_rows(rollout_path)
     if args.v5:
         rows = relabel_v5(rows, args.label.removeprefix("label_"),
-                          epsilon=args.epsilon, delta=args.delta)
+                          epsilon=args.epsilon, delta=args.delta, tau=args.tau)
     model, report = train_label(rows, args.label, seed=args.seed, min_margin=args.min_margin)
     out = export_checkpoint(model, PROJECT_ROOT / args.out)
     report["checkpoint"] = str(out)
+    metadata = write_checkpoint_metadata(
+        out, report, source_rollouts=rollout_path, seed=args.seed,
+        min_margin=args.min_margin, v5=args.v5, epsilon=args.epsilon,
+        delta=args.delta, tau=args.tau,
+        out_path=(PROJECT_ROOT / args.metadata) if args.metadata else None,
+    )
+    report["metadata"] = str(metadata)
     print(json.dumps(report, indent=2))
 
 
