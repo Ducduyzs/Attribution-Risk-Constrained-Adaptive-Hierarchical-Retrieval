@@ -13,6 +13,29 @@ from .schemas import (
 )
 
 
+def _lexical_conflict(claim: str, evidence: str) -> bool:
+    """Reject lexical rescue when polarity or comparable numbers disagree."""
+    claim_words = {word.casefold() for word in claim.split()}
+    evidence_words = {word.casefold() for word in evidence.split()}
+    negations = {"no", "not", "never", "neither", "without", "none", "cannot", "can't"}
+    if bool(claim_words & negations) != bool(evidence_words & negations):
+        return True
+    import re
+
+    numbers = re.compile(r"(?<!\w)\d+(?:\.\d+)?%?(?!\w)")
+    claim_numbers = set(numbers.findall(claim))
+    evidence_numbers = set(numbers.findall(evidence))
+    return bool(claim_numbers and evidence_numbers and not (claim_numbers & evidence_numbers))
+
+
+def _nli_scores(verifier: Verifier, claim: str, evidence: str) -> tuple[float, float]:
+    details = getattr(verifier, "score_details", None)
+    if callable(details):
+        support, contradiction = details(claim, evidence)
+        return float(support), float(contradiction)
+    return float(verifier.support_score(claim, evidence)), 0.0
+
+
 def _candidate_children(
     cited_blocks: list[ContextBlock], hierarchy: Hierarchy
 ) -> list[str]:
@@ -68,6 +91,7 @@ def verify_generation(
     rejected_low_confidence = 0
     rejected_base_support = 0
     rejected_sibling_guard = 0
+    rejected_safety_guard = 0
 
     def add_evidence(claim: Claim, child_id: str, score: float, block: ContextBlock) -> str:
         node = hierarchy.node(child_id)
@@ -125,15 +149,21 @@ def verify_generation(
         best_support = 0.0
         for child_id in candidates:
             child_text = hierarchy.node(child_id).text
-            raw_score = float(verifier.support_score(claim.text, child_text))
+            raw_score, contradiction = _nli_scores(verifier, claim.text, child_text)
             nli_calls += 1
             coverage = float(claim_coverage(claim.text, child_text))
             score = raw_score
-            if raw_score < settings.nli_support_threshold:
+            safety_blocked = (
+                contradiction >= settings.nli_contradiction_threshold
+                or _lexical_conflict(claim.text, child_text)
+            )
+            if safety_blocked:
+                score = 0.0
+            elif raw_score < settings.nli_support_threshold:
                 # Deterministic fallback: near-verbatim restatements (including
                 # numeral paraphrases like "six" vs "N = 6") that the NLI
                 # checkpoint scores as neutral still count as supported.
-                if (
+                if not safety_blocked and (
                     settings.lexical_support_min_coverage > 0.0
                     and coverage >= settings.lexical_support_min_coverage
                 ):
@@ -145,13 +175,17 @@ def verify_generation(
                 "child_id": child_id,
                 "origin_context_id": origin.context_id,
                 "nli_support": round(raw_score, 6),
+                "nli_contradiction": round(contradiction, 6),
                 "lexical_coverage": round(coverage, 6),
                 "effective_support": round(float(score), 6),
+                "lexical_guard_blocked": safety_blocked,
                 "initially_retrieved": bool(retrieved_ids and child_id in retrieved_ids),
                 "passed_base_threshold": bool(passed_base),
                 "passed_sibling_guard": False,
                 "selected": False,
             })
+            if safety_blocked:
+                rejected_safety_guard += 1
             if passed_base:
                 scored.append((child_id, float(score), origin))
         if not scored:
@@ -233,5 +267,6 @@ def verify_generation(
         "claims_rejected_low_confidence": float(rejected_low_confidence),
         "claims_rejected_base_support": float(rejected_base_support),
         "claims_rejected_sibling_guard": float(rejected_sibling_guard),
+        "candidate_safety_guard_rejections": float(rejected_safety_guard),
     }
     return verified, evidence, metrics

@@ -152,17 +152,18 @@ def main() -> None:
         print(json.dumps({"system": name, **run.summary}, indent=2), flush=True)
 
     comparisons = {}
+    primary_metric = "official_qasper_evidence_f1"
     if "B_flat" in runs:
         flat = runs["B_flat"]
         for name in runs:
             if name == "B_flat":
                 continue
             comparisons[name] = {
-                "citation_f1_p_vs_flat": significance_vs_baseline(
-                    runs[name], flat, "citation_f1", settings.seed
+                "official_qasper_evidence_f1_p_vs_flat": significance_vs_baseline(
+                    runs[name], flat, primary_metric, settings.seed
                 ),
-                "citation_f1_diff_cluster_ci": clustered_ci_vs_baseline(
-                    runs[name], flat, "citation_f1", settings.seed
+                "official_qasper_evidence_f1_diff_cluster_ci": clustered_ci_vs_baseline(
+                    runs[name], flat, primary_metric, settings.seed
                 ),
             }
     payload = {
@@ -177,27 +178,29 @@ def main() -> None:
     )
 
     lines = [
-        f"# V5 results — {args.dataset_name} {args.split_name}", "",
+        f"# QASPER results — {args.dataset_name} {args.split_name}", "",
         f"Questions/papers: {len(records)}/{len(papers)}. Generator: `{args.provider}:{args.model}`.",
-        "Thresholds and estimator families were frozen on dev before this test run.", "",
-        "| system | citation P | citation R | citation F1 | answer F1 | evidence recall | context tokens | latency ms |",
-        "|---|---:|---:|---:|---:|---:|---:|---:|",
+        "Configured thresholds and estimator families are recorded in the run provenance.", "",
+        "| system | official evidence F1 | leaf attribution F1 | answer F1 | evidence-span recall | context tokens | latency ms |",
+        "|---|---:|---:|---:|---:|---:|---:|",
     ]
     for name, run in runs.items():
         s = run.summary
         lines.append(
-            f"| {name} | {value(s, 'citation_precision'):.4f} | "
-            f"{value(s, 'citation_recall'):.4f} | {value(s, 'citation_f1'):.4f} | "
-            f"{value(s, 'answer_f1'):.4f} | {value(s, 'evidence_span_recall'):.4f} | "
+            f"| {name} | {value(s, 'official_qasper_evidence_f1'):.4f} | "
+            f"{value(s, 'citation_f1'):.4f} | {value(s, 'answer_f1'):.4f} | "
+            f"{value(s, 'evidence_span_recall'):.4f} | "
             f"{value(s, 'context_tokens'):.1f} | {value(s, 'latency_ms'):.1f} |"
         )
-    lines.extend(["", "## Paired comparison against B_flat", ""])
-    for name, comparison in comparisons.items():
-        low, high = comparison["citation_f1_diff_cluster_ci"]
-        lines.append(
-            f"- {name}: citation-F1 paired p={comparison['citation_f1_p_vs_flat']:.4f}; "
-            f"paper-clustered 95% CI for difference [{low:.4f}, {high:.4f}]."
-        )
+    if comparisons:
+        lines.extend(["", "## Paired comparison against B_flat", ""])
+        for name, comparison in comparisons.items():
+            low, high = comparison["official_qasper_evidence_f1_diff_cluster_ci"]
+            lines.append(
+                f"- {name}: official evidence-F1 paired p="
+                f"{comparison['official_qasper_evidence_f1_p_vs_flat']:.4f}; "
+                f"paper-clustered 95% CI for difference [{low:.4f}, {high:.4f}]."
+            )
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps(payload, indent=2))

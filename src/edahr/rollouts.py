@@ -41,6 +41,17 @@ from .schemas import Level, QueryType
 from .verification import verify_generation
 
 
+def _set_f1(predicted: set[str], reference: set[str]) -> float:
+    if not predicted and not reference:
+        return 1.0
+    overlap = len(predicted & reference)
+    if not overlap:
+        return 0.0
+    precision = overlap / len(predicted)
+    recall = overlap / len(reference)
+    return 2 * precision * recall / (precision + recall)
+
+
 @dataclass
 class RewardWeights:
     answer_quality: float = 0.50
@@ -161,6 +172,7 @@ class RolloutRunner:
                     question_id=str(record.get("question_id") or ""),
                     gold_answers=[str(value) for value in references if str(value).strip()],
                     gold_children=record.get("gold_child_ids") or record.get("gold") or (),
+                    gold_child_sets=record.get("reference_child_sets") or (),
                 )
                 for row in fresh:
                     handle.write(json.dumps(row, ensure_ascii=False) + "\n")
@@ -177,6 +189,7 @@ class RolloutRunner:
         question_id: str = "",
         gold_answers: Sequence[str] | None = None,
         gold_children: Sequence[str] | None = None,
+        gold_child_sets: Sequence[Sequence[str]] | None = None,
     ) -> list[dict]:
         hierarchy = self.hierarchy
         settings = self.settings
@@ -223,6 +236,9 @@ class RolloutRunner:
             if not references and self.gold_answers.get(query):
                 references = [self.gold_answers[query]]
             gold_ids = list(gold_children) if gold_children is not None else self.gold_child_map.get(query, [])
+            gold_sets = [set(values) for values in (gold_child_sets or ()) if values]
+            if not gold_sets and gold_ids:
+                gold_sets = [set(gold_ids)]
             branches = {
                 "keep": self._execute(query, query_type, members, retrieved_child_ids, references),
                 "parent": self._execute(
@@ -236,13 +252,13 @@ class RolloutRunner:
                 )
             tau = self.weights.label_margin_tau
 
-            if gold_ids:
+            if gold_sets:
                 # v5 attribution-aware reward: Rescue / HarmfulDrift / P&R.
                 R_ids = set(members)
 
                 def v5_metrics(branch: dict) -> dict:
                     V = set(branch.get("verified_ids") or [])
-                    G_ids = set(gold_ids)
+                    G_ids = max(gold_sets, key=lambda candidate: _set_f1(V, candidate))
                     precision = len(V & G_ids) / max(1, len(V))
                     recall = len(V & G_ids) / max(1, len(G_ids))
                     rescue = len((V - R_ids) & G_ids)
@@ -267,7 +283,7 @@ class RolloutRunner:
                         weights.answer_quality * branch["answer_f1"]
                         + weights.citation_recall_w * metrics_v5["citation_recall"]
                         + weights.citation_precision_w * metrics_v5["citation_precision"]
-                        + weights.rescue_w * metrics_v5["rescue"] / max(1, len(gold_ids))
+                        + weights.rescue_w * metrics_v5["rescue"] / max(1, len(G_ids))
                         - weights.harmful_lambda * metrics_v5["harmful_rate"]
                         - weights.ambiguity_lambda * metrics_v5["ambiguity"]
                         - weights.empty_evidence_lambda * metrics_v5["empty_evidence"]
@@ -280,7 +296,7 @@ class RolloutRunner:
                 query=query,
                 question_id=question_id,
                 source=source,
-                citation_evaluable=bool(gold_ids),
+                citation_evaluable=bool(gold_sets),
                 query_type=query_type.value,
                 parent_id=parent_id,
                 section_id=section_id or "",
@@ -294,9 +310,9 @@ class RolloutRunner:
                     if "section" in branches else 0
                 ),
             ).to_dict()
-            if gold_ids:
+            if gold_sets:
                 row["retrieved"] = sorted(members)
-                row["gold"] = sorted(set(gold_ids))
+                row["gold"] = sorted(set().union(*gold_sets))
             rows.append(row)
         return rows
 

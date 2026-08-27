@@ -166,6 +166,9 @@ class Generation:
     answerable: bool
     claims: tuple[Claim, ...] = ()
     reason: str = ""
+    # Provider responses are retained even when they violate the citation
+    # contract so benchmark telemetry cannot mistake rejection for compliance.
+    validation_errors: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)

@@ -52,6 +52,7 @@ class Settings:
     # Verification: child-level NLI instead of block-level.
     # Threshold calibrated on arXiv claim/evidence pairs: TPR .956 @ FPR .048.
     nli_support_threshold: float = 0.25
+    nli_contradiction_threshold: float = 0.50
     claim_confidence_threshold: float = 0.55
     max_children_per_claim: int = 10
     # Leaf evidence selector: recall via expansion, precision via selection.

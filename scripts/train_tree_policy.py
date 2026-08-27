@@ -113,13 +113,66 @@ def metrics(probabilities: list[float], labels: list[int], threshold: float,
     }
 
 
+def positive_probabilities(model, matrix) -> list[float]:
+    probabilities = model.predict_proba(matrix)
+    classes = list(model.classes_)
+    if 1 not in classes:
+        return [0.0] * len(matrix)
+    return probabilities[:, classes.index(1)].tolist()
+
+
+def group_cv_selection(
+    rows: list[dict], labels: list[int], estimator_names: list[str], seed: int,
+    selection_metric: str,
+) -> tuple[str, list[dict]]:
+    """Select model family on train papers only with group-disjoint folds."""
+    from sklearn.model_selection import GroupKFold
+
+    groups = [str(row.get("source") or row.get("question_id") or index)
+              for index, row in enumerate(rows)]
+    unique_groups = sorted(set(groups))
+    if len(unique_groups) < 2:
+        return estimator_names[0], [{
+            "estimator": name, "folds": 0, "selection_score": None,
+            "status": "insufficient_distinct_papers",
+        } for name in estimator_names]
+    folds = min(5, len(unique_groups))
+    splitter = GroupKFold(n_splits=folds)
+    matrix = features(rows)
+    reports: list[dict] = []
+    for name in estimator_names:
+        fold_scores: list[float] = []
+        for train_index, validation_index in splitter.split(matrix, labels, groups):
+            train_rows = [rows[index] for index in train_index]
+            validation_rows = [rows[index] for index in validation_index]
+            model = estimator(name, seed)
+            model.fit(
+                matrix[train_index], [labels[index] for index in train_index],
+                sample_weight=paper_sample_weights(train_rows),
+            )
+            probabilities = positive_probabilities(model, matrix[validation_index])
+            fold_scores.append(metrics(
+                probabilities, [labels[index] for index in validation_index], 0.5,
+                paper_sample_weights(validation_rows),
+            )[selection_metric])
+        reports.append({
+            "estimator": name, "folds": folds,
+            "fold_scores": fold_scores,
+            "selection_score": round(sum(fold_scores) / len(fold_scores), 4),
+        })
+    selected = max(reports, key=lambda report: report["selection_score"])
+    return str(selected["estimator"]), reports
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--train", required=True)
     parser.add_argument("--dev", required=True)
     parser.add_argument("--out", required=True)
     parser.add_argument("--label", required=True, choices=("parent", "section"))
-    parser.add_argument("--estimator", choices=("rf", "gb", "hgb"), required=True)
+    parser.add_argument("--estimator", choices=("auto", "rf", "gb", "hgb"), default="auto")
+    parser.add_argument("--selection-metric", choices=("accuracy", "balanced_accuracy"),
+                        default="balanced_accuracy")
     parser.add_argument("--epsilon", type=float, default=0.02)
     parser.add_argument("--delta", type=float, default=0.05)
     parser.add_argument("--tau", type=float, default=0.02)
@@ -139,28 +192,39 @@ def main() -> None:
     y_dev = [v5_label(row, args.label, args.epsilon, args.delta, args.tau) for row in dev_rows]
     train_weights = paper_sample_weights(train_rows)
     dev_weights = paper_sample_weights(dev_rows)
-    model = estimator(args.estimator, args.seed)
+    estimator_names = ["rf", "gb", "hgb"] if args.estimator == "auto" else [args.estimator]
+    selected_estimator, candidate_models = group_cv_selection(
+        train_rows, y_train, estimator_names, args.seed, args.selection_metric
+    )
+    model = estimator(selected_estimator, args.seed)
     model.fit(features(train_rows), y_train, sample_weight=train_weights)
-    p_train = model.predict_proba(features(train_rows))[:, 1].tolist()
-    p_dev = model.predict_proba(features(dev_rows))[:, 1].tolist()
+    p_train = positive_probabilities(model, features(train_rows))
+    p_dev = positive_probabilities(model, features(dev_rows))
 
     candidates = [index / 100 for index in range(5, 96)]
-    ranked = [
-        (metrics(p_dev, y_dev, threshold, dev_weights)["accuracy"],
-         metrics(p_dev, y_dev, threshold, dev_weights)["balanced_accuracy"], threshold)
+    threshold_table = [
+        {"threshold": threshold, **metrics(p_dev, y_dev, threshold, dev_weights)}
         for threshold in candidates
     ]
-    _, _, threshold = max(ranked, key=lambda item: (item[0], item[1]))
+    selected_threshold = max(
+        threshold_table,
+        key=lambda row: (row[args.selection_metric], row["balanced_accuracy"], row["accuracy"]),
+    )
+    threshold = selected_threshold["threshold"]
     out.parent.mkdir(parents=True, exist_ok=True)
     import joblib
 
     joblib.dump({
-        "schema_version": 1, "model": model, "threshold": threshold,
+        "schema_version": 2, "model": model, "threshold": threshold,
         "feature_dim": FEATURE_DIM, "label": args.label,
     }, out)
     report = {
-        "schema_version": 1, "created_at_utc": datetime.now(timezone.utc).isoformat(),
-        "label": args.label, "estimator": args.estimator, "threshold": threshold,
+        "schema_version": 2, "created_at_utc": datetime.now(timezone.utc).isoformat(),
+        "label": args.label, "estimator": selected_estimator,
+        "estimator_request": args.estimator, "threshold": threshold,
+        "selection_metric": args.selection_metric,
+        "candidate_models": candidate_models,
+        "candidate_thresholds": threshold_table,
         "seed": args.seed, "feature_dim": FEATURE_DIM,
         "paper_weighting": "inverse_rows_per_source_normalized_mean_one",
         "constraints": {"epsilon": args.epsilon, "delta": args.delta, "tau": args.tau},

@@ -178,6 +178,9 @@ class AdaptiveHierarchicalPipeline:
             ),
             "ceiling_level": float(level_rank(MAX_LEVEL_BY_QUERY_TYPE[query_type])),
             "total_latency_ms": total_ms,
+            "generation_contract_rejections": float(
+                len(raw_generation.validation_errors)
+            ),
             **{f"latency_{key}": value for key, value in timings.items()},
             **verification_metrics,
             **attribution_metrics(

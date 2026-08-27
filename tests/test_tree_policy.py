@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parents[1] / "scripts"))
 
-from train_tree_policy import metrics, paper_sample_weights
+from train_tree_policy import group_cv_selection, metrics, paper_sample_weights
 
 
 class PaperWeightingTests(unittest.TestCase):
@@ -28,6 +28,17 @@ class PaperWeightingTests(unittest.TestCase):
             ]),
         )
         self.assertAlmostEqual(result["accuracy"], 0.6667, places=4)
+
+    def test_group_cv_selection_is_paper_disjoint(self):
+        rows = [
+            {"source": f"paper-{index}", "features": [float(index)] * 14}
+            for index in range(6)
+        ]
+        selected, reports = group_cv_selection(
+            rows, [0, 1, 0, 1, 0, 1], ["rf"], 7, "balanced_accuracy"
+        )
+        self.assertEqual(selected, "rf")
+        self.assertEqual(reports[0]["folds"], 5)
 
 
 if __name__ == "__main__":

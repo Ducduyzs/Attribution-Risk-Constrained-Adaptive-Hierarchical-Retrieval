@@ -12,6 +12,8 @@ from __future__ import annotations
 
 import math
 import random
+import re
+import string
 from collections import Counter
 from collections.abc import Iterable, Sequence
 
@@ -156,12 +158,55 @@ def normalize_answer(answer: str) -> str:
     return " ".join(answer.lower().split())
 
 
+def normalize_qasper_answer(answer: str) -> str:
+    """QASPER's official SQuAD-v1.1 answer normalization."""
+    answer = answer.lower()
+    answer = "".join(char for char in answer if char not in string.punctuation)
+    answer = re.sub(r"\b(a|an|the)\b", " ", answer)
+    return " ".join(answer.split())
+
+
 def answer_exact_match(prediction: str, gold: str) -> float:
     return float(normalize_answer(prediction) == normalize_answer(gold))
 
 
 def answer_token_f1(prediction: str, gold: str) -> float:
     return _token_f1(normalize_answer(prediction), normalize_answer(gold))
+
+
+def qasper_answer_exact_match(prediction: str, references: Sequence[str]) -> float:
+    return max(
+        (float(normalize_qasper_answer(prediction) == normalize_qasper_answer(reference))
+         for reference in references),
+        default=0.0,
+    )
+
+
+def qasper_answer_token_f1(prediction: str, references: Sequence[str]) -> float:
+    normalized_prediction = normalize_qasper_answer(prediction)
+    return max(
+        (_token_f1(normalized_prediction, normalize_qasper_answer(reference))
+         for reference in references),
+        default=0.0,
+    )
+
+
+def qasper_evidence_f1(predicted: Sequence[str], reference_sets: Sequence[Sequence[str]]) -> float:
+    """Official max-over-annotators paragraph Evidence F1."""
+    predicted_set = set(predicted)
+
+    def score(reference: Sequence[str]) -> float:
+        reference_set = set(reference)
+        if not predicted_set and not reference_set:
+            return 1.0
+        overlap = len(predicted_set & reference_set)
+        if not overlap:
+            return 0.0
+        precision = overlap / len(predicted_set)
+        recall = overlap / len(reference_set)
+        return 2.0 * precision * recall / (precision + recall)
+
+    return max((score(reference) for reference in reference_sets), default=0.0)
 
 
 # ---------------------------------------------------------------------------

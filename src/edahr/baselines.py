@@ -42,6 +42,9 @@ from .evaluation import (
     provenance_accuracy,
     recall_at_k,
     reciprocal_rank,
+    qasper_answer_exact_match,
+    qasper_answer_token_f1,
+    qasper_evidence_f1,
     selective_accuracy_at_coverage,
 )
 from .hierarchy import HierarchyBuilder
@@ -189,6 +192,17 @@ def auto_label_gold_children(
     citation precision is understated by construction.
     """
     gold_children = set(record.get("gold_child_ids") or ())
+    gold_paragraph_ids = {
+        str(paragraph_id)
+        for paragraph_id in record.get("gold_paragraph_ids") or ()
+    }
+    if gold_paragraph_ids:
+        gold_children.update(
+            child_id for child_id in hierarchy.child_ids
+            if gold_paragraph_ids.intersection(
+                hierarchy.node(child_id).metadata.get("paragraph_ids") or ()
+            )
+        )
     allowed_sources = {str(key) for key in (record.get("gold_pages") or {})}
     if record.get("source"):
         allowed_sources.add(str(record["source"]))
@@ -216,6 +230,15 @@ def auto_label_gold_children(
             gold_children.update(matches)
             matched_quotes.append(str(quote))
     return gold_children, matched_quotes or [str(q) for q in record.get("gold_quotes") or ()]
+
+
+def children_for_paragraphs(hierarchy: Hierarchy, paragraph_ids: Iterable[str]) -> set[str]:
+    """Resolve a QASPER paragraph set to every overlapping child leaf."""
+    target = {str(paragraph_id) for paragraph_id in paragraph_ids}
+    return {
+        child_id for child_id in hierarchy.child_ids
+        if target.intersection(hierarchy.node(child_id).metadata.get("paragraph_ids") or ())
+    }
 
 
 def _quick_token_f1(first: str, second: str) -> float:
@@ -274,6 +297,10 @@ def run_benchmark(
         ranked_ids = [hit.node_id for hit in result.hits]
         evidence_nodes = [evidence.node_id for evidence in result.evidence.values()]
         evidence_quotes = [evidence.quote for evidence in result.evidence.values()]
+        predicted_paragraphs: dict[str, str] = {}
+        for evidence in result.evidence.values():
+            node = hierarchy.node(evidence.node_id)
+            predicted_paragraphs.update(node.metadata.get("paragraph_texts") or {})
         provenance = [
             (evidence.source, evidence.page_start, evidence.page_end)
             for evidence in result.evidence.values()
@@ -292,6 +319,7 @@ def run_benchmark(
         }
         graded = {child_id: 1.0 for child_id in gold_children}
         citation_evaluable = bool(gold_children)
+        is_qasper = "reference_evidence_sets" in record
         row: dict = {
             "query": query,
             "question_id": str(record.get("question_id") or ""),
@@ -323,8 +351,17 @@ def run_benchmark(
             provenance_accuracy(provenance, gold_pages) if gold_pages else 0.0
         )
         gold_answer = str(record.get("answer") or record.get("gold_answer") or "")
-        row["answer_em"] = answer_exact_match(answer_text, gold_answer) if gold_answer else 0.0
-        row["answer_f1"] = answer_token_f1(answer_text, gold_answer) if gold_answer else 0.0
+        references = [str(answer) for answer in record.get("reference_answers") or [gold_answer]]
+        if is_qasper:
+            official_answer = answer_text or "Unanswerable"
+            row["answer_em"] = qasper_answer_exact_match(official_answer, references)
+            row["answer_f1"] = qasper_answer_token_f1(official_answer, references)
+            row["official_qasper_evidence_f1"] = qasper_evidence_f1(
+                list(predicted_paragraphs.values()), record["reference_evidence_sets"]
+            )
+        else:
+            row["answer_em"] = answer_exact_match(answer_text, gold_answer) if gold_answer else 0.0
+            row["answer_f1"] = answer_token_f1(answer_text, gold_answer) if gold_answer else 0.0
         row["confidence"] = mean_confidence
         row["correct"] = (
             correct_fn(row["answer_f1"], float(row["citation_recall"]))
@@ -340,7 +377,13 @@ def run_benchmark(
             result.metrics.get("verified_claims", len(result.generation.claims))
         )
         row["verification_trace"] = list(result.verification_trace)
+        row["generation_validation_errors"] = list(
+            (result.raw_generation or result.generation).validation_errors
+        )
         row["gold_child_ids"] = sorted(gold_children)
+        row["gold_paragraph_ids"] = sorted(record.get("gold_paragraph_ids") or ())
+        row["predicted_paragraph_ids"] = sorted(predicted_paragraphs)
+        row["reference_paragraph_sets"] = list(record.get("reference_paragraph_sets") or ())
         row["evidence_node_ids"] = sorted(evidence_node_set)
         row["retrieved_child_ids"] = sorted(retrieved_child_set)
         row["candidate_child_ids"] = sorted(candidate_child_set)
