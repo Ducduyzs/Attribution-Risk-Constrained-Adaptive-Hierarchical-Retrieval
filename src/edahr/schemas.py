@@ -195,6 +195,8 @@ class Result:
     decisions: tuple[MergeDecision, ...]
     metrics: dict[str, float]
     expansion_trace: tuple[str, ...] = ()
+    raw_generation: Generation | None = None
+    verification_trace: tuple[dict[str, Any], ...] = ()
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
