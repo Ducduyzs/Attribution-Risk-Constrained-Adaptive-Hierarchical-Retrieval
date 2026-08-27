@@ -1,0 +1,48 @@
+{
+  "total_rows": 160,
+  "has_claim_counts": true,
+  "provenance": [
+    {
+      "path": "data/artifacts/v5_scifact_ood/artifacts_B_flat.jsonl",
+      "sha256": "8c4ca3c701532c2c42c283bec50911eca615dd31062fefe6fc26f9cc0613c605",
+      "rows": 40
+    },
+    {
+      "path": "data/artifacts/v5_scifact_ood/artifacts_B_static.jsonl",
+      "sha256": "5709c1cd02cb59b8d917b7345ee17f2ec7b5fe5cefaf7b40eab6398502efa198",
+      "rows": 40
+    },
+    {
+      "path": "data/artifacts/v5_scifact_ood/artifacts_prior.jsonl",
+      "sha256": "e17b2bfd8067c9707e66c3438ac0ce9f8f3f508d62bd1437638f55ce6c3e5cf0",
+      "rows": 40
+    },
+    {
+      "path": "data/artifacts/v5_scifact_ood/artifacts_learned_v5.jsonl",
+      "sha256": "152b9574e29df834fd69a922e5736ff9066c67fadfcf181411da5fca6d54c99c",
+      "rows": 40
+    }
+  ],
+  "counts": {
+    "B_flat": {
+      "full_grounding_success": 14,
+      "generation_empty": 22,
+      "partial_grounding_success": 4
+    },
+    "B_static": {
+      "full_grounding_success": 23,
+      "generation_empty": 6,
+      "partial_grounding_success": 11
+    },
+    "learned_v5": {
+      "full_grounding_success": 22,
+      "generation_empty": 6,
+      "partial_grounding_success": 12
+    },
+    "prior": {
+      "full_grounding_success": 22,
+      "generation_empty": 9,
+      "partial_grounding_success": 9
+    }
+  }
+}

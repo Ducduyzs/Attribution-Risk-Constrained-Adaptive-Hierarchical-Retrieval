@@ -11,7 +11,9 @@ class Settings:
     reranker_model: str = "BAAI/bge-reranker-v2-m3"
     nli_model: str = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
     llm_model: str = "gpt-4o-mini"
-    llm_provider: str = "openai"  # "openai" | "gemini"
+    llm_provider: str = "openai"  # "openai" | "gemini" | "antigravity"
+    antigravity_agent: str = "antigravity-preview-05-2026"
+    antigravity_max_total_tokens: int = 20000
     device: str = "cuda"
     use_fp16: bool = True
     child_target_tokens: int = 220

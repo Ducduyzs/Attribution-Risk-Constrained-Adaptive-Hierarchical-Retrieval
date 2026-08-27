@@ -158,6 +158,8 @@ class BenchmarkHarnessTests(unittest.TestCase):
         self.assertIn("latency_p95_ms", run.summary)
         self.assertTrue(run.rows[0]["citation_evaluable"])
         self.assertIn("question_id", run.rows[0])
+        self.assertEqual(run.rows[0]["generated_claim_count"], 1)
+        self.assertEqual(run.rows[0]["verified_claim_count"], 1)
         self.assertEqual(
             len(run.rows[0]["evidence_node_ids"]),
             len(set(run.rows[0]["evidence_node_ids"])),

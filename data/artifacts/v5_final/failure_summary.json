@@ -1,0 +1,51 @@
+{
+  "total_rows": 160,
+  "has_claim_counts": false,
+  "provenance": [
+    {
+      "path": "data/artifacts/v5_final/artifacts_B_flat.jsonl",
+      "sha256": "91f23f873b7075db8ac9aa8c7e4d3d15b7eba673988a78c82867cde46a7445e2",
+      "rows": 40
+    },
+    {
+      "path": "data/artifacts/v5_final/artifacts_B_static.jsonl",
+      "sha256": "3d658911cb7c02805067f23810a3a95958d90fd6275c915ce0426a9e26b8b5cc",
+      "rows": 40
+    },
+    {
+      "path": "data/artifacts/v5_final/artifacts_prior.jsonl",
+      "sha256": "5952c7084f3240973f2840650d630c785d548b7546c5e5fddd456a1b2eb41a79",
+      "rows": 40
+    },
+    {
+      "path": "data/artifacts/v5_final/artifacts_learned_v5.jsonl",
+      "sha256": "6a2a9c8b855a9648ba7482a4a00525d54de05a395fb8bd536677e3532beba6e6",
+      "rows": 40
+    }
+  ],
+  "counts": {
+    "B_flat": {
+      "full_grounding_success": 1,
+      "post_context_no_evidence": 37,
+      "retrieval_miss_at_10": 2
+    },
+    "B_static": {
+      "full_grounding_success": 1,
+      "partial_grounding_success": 4,
+      "post_context_no_evidence": 33,
+      "retrieval_miss_at_10": 2
+    },
+    "learned_v5": {
+      "candidate_selection_miss": 1,
+      "full_grounding_success": 1,
+      "partial_grounding_success": 2,
+      "post_context_no_evidence": 34,
+      "retrieval_miss_at_10": 2
+    },
+    "prior": {
+      "full_grounding_success": 1,
+      "post_context_no_evidence": 37,
+      "retrieval_miss_at_10": 2
+    }
+  }
+}

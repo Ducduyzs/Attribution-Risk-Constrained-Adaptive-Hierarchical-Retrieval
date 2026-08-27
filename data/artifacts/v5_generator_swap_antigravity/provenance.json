@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "label": "qasper-v5-antigravity-swap-10",
+  "created_at_utc": "2026-08-26T19:46:55.859908+00:00",
+  "files": [
+    {
+      "path": "config.local.json",
+      "bytes": 302,
+      "sha256": "e845ea4d261fb725efd7195786c9fdea2982ffe8154f066228df517ac9be5e3c"
+    },
+    {
+      "path": "data/manifests/qasper_test_papers.jsonl",
+      "bytes": 10219175,
+      "sha256": "cf32297b01693392ae5d295c94ff030dbda7a0f644864f73820d28d0c8b0e19e"
+    },
+    {
+      "path": "data/manifests/qasper_test_questions.jsonl",
+      "bytes": 3669114,
+      "sha256": "9fb81b1b4d986f5f7b32c14ed35b1294327b0cc80c60a59ce4a0d95eba2601c3"
+    },
+    {
+      "path": "checkpoints/policy_parent_v5_final.joblib",
+      "bytes": 1046000,
+      "sha256": "ab0b22478bbb3295f709e051cf0f449267b6de0727acc5587224cc571823498c"
+    },
+    {
+      "path": "checkpoints/policy_section_v5_final.joblib",
+      "bytes": 84240,
+      "sha256": "1d7d7aeae407cf2f12622df2e366e2e38907865b17291c1a8d61de9f03fd4dbb"
+    },
+    {
+      "path": "data/artifacts/v5_generator_swap_antigravity/artifacts_B_flat.jsonl",
+      "bytes": 22525,
+      "sha256": "d693c011414543a5fbec986e528edd8c6e5c09e122318311dbd5fdaf959d760b"
+    },
+    {
+      "path": "data/artifacts/v5_generator_swap_antigravity/artifacts_B_static.jsonl",
+      "bytes": 25265,
+      "sha256": "cfeb02a1d2c8fb5f524623c4c87ca2dcb1d6e4210dc56cee3de21f1b09197e82"
+    },
+    {
+      "path": "data/artifacts/v5_generator_swap_antigravity/artifacts_prior.jsonl",
+      "bytes": 24505,
+      "sha256": "4ef4dfc4004b4c309e125db7d3cf60ca83c0b4e1b15bc4de484076e9e5569334"
+    },
+    {
+      "path": "data/artifacts/v5_generator_swap_antigravity/artifacts_learned_v5.jsonl",
+      "bytes": 24350,
+      "sha256": "ac90a09af0a40f884200fe18a44025be985441d5144af72084fe32b07e861f8a"
+    },
+    {
+      "path": "data/artifacts/v5_generator_swap_antigravity/main_results.json",
+      "bytes": 6150,
+      "sha256": "24ed9342e3a7c0fb6f870cb98a1627db21b95ee8641c22880561e94cdf4624b8"
+    },
+    {
+      "path": "analysis/v5_generator_swap_antigravity.md",
+      "bytes": 1097,
+      "sha256": "934a6aefa9016b007e20e97528023493bc0624f903965dfbcff25a3b4379ce84"
+    }
+  ],
+  "environment": {
+    "python": "3.10.10",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "edahr-neural": "0.1.0",
+      "numpy": "2.2.6",
+      "torch": "2.13.0+cu130",
+      "transformers": "5.15.1",
+      "scikit-learn": "1.7.2",
+      "joblib": "1.5.3",
+      "openai": "3.3.1",
+      "google-genai": "2.20.0"
+    }
+  },
+  "git": {
+    "commit": "8fa6930ed03f0e3d700ff3c4cbe30ecb9b6671ec",
+    "dirty": true,
+    "status_porcelain_sha256": "473b87408f50f606452b4f64831107761a23ac8546d4433f2f7bdc71196a2067"
+  },
+  "security_note": "Configuration files are represented by hashes only; no secret values are copied."
+}

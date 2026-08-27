@@ -333,6 +333,8 @@ def run_benchmark(
         row["context_tokens"] = float(result.metrics.get("context_tokens", 0.0))
         row["latency_ms"] = float(result.metrics.get("total_latency_ms", 0.0))
         # Per-query artifacts for failure decomposition and manual audit.
+        row["generated_claim_count"] = len(result.generation.claims)
+        row["verified_claim_count"] = len(result.evidence)
         row["gold_child_ids"] = sorted(gold_children)
         row["evidence_node_ids"] = sorted(evidence_node_set)
         row["retrieved_child_ids"] = sorted(retrieved_child_set)
