@@ -141,24 +141,32 @@ class RolloutRunner:
         ]
         return self.run_records(records, out_path)
 
-    def run_records(self, records: Sequence[Mapping], out_path: str | Path) -> list[dict]:
-        """Run schema-rich question records with explicit IDs and gold data."""
+    def run_records(
+        self, records: Sequence[Mapping], out_path: str | Path, *, append: bool = False
+    ) -> list[dict]:
+        """Run records and flush each completed question for crash-safe resume."""
         rows: list[dict] = []
         out = Path(out_path)
         out.parent.mkdir(parents=True, exist_ok=True)
-        for record in records:
-            query = str(record["query"])
-            source = record.get("source")
-            rows.extend(self.run_query(
-                query, str(source) if source is not None else None,
-                question_id=str(record.get("question_id") or ""),
-                gold_answer=str(record.get("answer") or record.get("gold_answer") or "") or None,
-                gold_children=record.get("gold_child_ids") or record.get("gold") or (),
-            ))
-            print(f"[rollouts] {len(rows)} rows after {query[:48]!r}", flush=True)
-        with out.open("w", encoding="utf-8") as handle:
-            for row in rows:
-                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+        mode = "a" if append else "w"
+        with out.open(mode, encoding="utf-8") as handle:
+            for record in records:
+                query = str(record["query"])
+                source = record.get("source")
+                references = record.get("reference_answers") or [
+                    record.get("answer") or record.get("gold_answer") or ""
+                ]
+                fresh = self.run_query(
+                    query, str(source) if source is not None else None,
+                    question_id=str(record.get("question_id") or ""),
+                    gold_answers=[str(value) for value in references if str(value).strip()],
+                    gold_children=record.get("gold_child_ids") or record.get("gold") or (),
+                )
+                for row in fresh:
+                    handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+                handle.flush()
+                rows.extend(fresh)
+                print(f"[rollouts] {len(rows)} new rows after {query[:48]!r}", flush=True)
         return rows
 
     def run_query(
@@ -167,7 +175,7 @@ class RolloutRunner:
         source: str | None = None,
         *,
         question_id: str = "",
-        gold_answer: str | None = None,
+        gold_answers: Sequence[str] | None = None,
         gold_children: Sequence[str] | None = None,
     ) -> list[dict]:
         hierarchy = self.hierarchy
@@ -211,18 +219,20 @@ class RolloutRunner:
                 len(members_at_level(hierarchy, parent_id, Level.CHILD)),
                 query=query,
             )
-            gold = gold_answer if gold_answer is not None else self.gold_answers.get(query)
+            references = list(gold_answers or ())
+            if not references and self.gold_answers.get(query):
+                references = [self.gold_answers[query]]
             gold_ids = list(gold_children) if gold_children is not None else self.gold_child_map.get(query, [])
             branches = {
-                "keep": self._execute(query, query_type, members, retrieved_child_ids, gold),
+                "keep": self._execute(query, query_type, members, retrieved_child_ids, references),
                 "parent": self._execute(
-                    query, query_type, {parent_id: candidate_score}, retrieved_child_ids, gold
+                    query, query_type, {parent_id: candidate_score}, retrieved_child_ids, references
                 ),
             }
             if section_id and section_id in hierarchy.nodes:
                 section_score = self._score_cached(query, section_id, score_cache)
                 branches["section"] = self._execute(
-                    query, query_type, {section_id: section_score}, retrieved_child_ids, gold
+                    query, query_type, {section_id: section_score}, retrieved_child_ids, references
                 )
             tau = self.weights.label_margin_tau
 
@@ -329,7 +339,7 @@ class RolloutRunner:
         query_type: QueryType,
         selected_scores: Mapping[str, float],
         retrieved_child_ids: Sequence[str],
-        gold_answer: str | None = None,
+        gold_answers: Sequence[str] | None = None,
     ) -> dict:
         hierarchy = self.hierarchy
         settings = self.settings
@@ -360,8 +370,8 @@ class RolloutRunner:
             latency_ms = (time.perf_counter() - t0) * 1000.0 / self.samples
             answer_text = " ".join(claim.text for claim in generation.claims).strip()
             answer_f1 = (
-                answer_token_f1(answer_text, gold_answer)
-                if gold_answer and answer_text else 0.0
+                max(answer_token_f1(answer_text, gold) for gold in gold_answers)
+                if gold_answers and answer_text else 0.0
             )
             supports.extend(sample_supports)
 

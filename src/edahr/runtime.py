@@ -7,6 +7,7 @@ from .hierarchy import HierarchyBuilder
 from .index import MultiRepresentationIndex
 from .ingestion import DoclingScientificLoader
 from .models import (
+    AntigravityStructuredGenerator,
     BGEM3Encoder,
     BGEReranker,
     GeminiStructuredGenerator,
@@ -15,6 +16,7 @@ from .models import (
 )
 from .pipeline import AdaptiveHierarchicalPipeline
 from .policy import policies_from_settings
+from .schemas import ScientificDocument
 
 
 def build_pipeline(
@@ -22,11 +24,25 @@ def build_pipeline(
 ) -> AdaptiveHierarchicalPipeline:
     settings = settings or Settings()
     documents = DoclingScientificLoader().load(pdf_paths)
+    return build_pipeline_from_documents(documents, settings)
+
+
+def build_pipeline_from_documents(
+    documents: list[ScientificDocument], settings: Settings | None = None
+) -> AdaptiveHierarchicalPipeline:
+    """Build the same runtime from already structured scientific documents."""
+    settings = settings or Settings()
     hierarchy = HierarchyBuilder(settings).build(documents)
     encoder = BGEM3Encoder(settings.embedding_model, settings.device, settings.use_fp16)
     index = MultiRepresentationIndex(hierarchy, encoder, settings)
     reranker = BGEReranker(settings.reranker_model, settings.device, settings.use_fp16)
-    if settings.llm_provider == "gemini":
+    if settings.llm_provider == "antigravity":
+        generator = AntigravityStructuredGenerator(
+            settings.llm_model, settings.gemini_api_key,
+            agent_name=settings.antigravity_agent,
+            max_total_tokens=settings.antigravity_max_total_tokens,
+        )
+    elif settings.llm_provider == "gemini":
         generator = GeminiStructuredGenerator(settings.llm_model, settings.gemini_api_key)
     else:
         generator = OpenAIStructuredGenerator(settings.llm_model, settings.openai_api_key)

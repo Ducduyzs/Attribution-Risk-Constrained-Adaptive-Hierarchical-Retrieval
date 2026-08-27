@@ -27,7 +27,7 @@ second corpus or explicit domain/time shift is used.
   level-specific ablations.
 - Training emits a sidecar with checkpoint/data SHA-256 hashes, feature size,
   split report, seed and all v5 constraint parameters.
-- Full offline test suite: 55 passing tests after these changes.
+- Full offline test suite: 66 passing tests after these changes.
 
 ## Existing artifacts: diagnostic only
 
@@ -69,3 +69,30 @@ margin, its harmful-drift rate satisfies the dev-frozen ceiling, and any claimed
 recall gain has a paper-clustered confidence interval that does not contradict
 the claim. If it fails, report the negative result and narrow the contribution
 to the measured attribution-drift phenomenon and its diagnostic framework.
+
+## Frozen test outcomes
+
+The 40-question/40-paper QASPER unseen-paper test used `openai:gpt-4o-mini`.
+Learned v5 improved citation F1 from 0.0250 (B_flat) to 0.0560, but the paired
+comparison was not significant (p=0.2178; paper-clustered 95% CI for the
+difference [0.0000, 0.0786]). B_static reached 0.1062 and was the only system
+with a significant improvement over B_flat (p=0.0350). These results do not
+support a superiority claim for learned v5 on the main test.
+
+An exploratory generator swap used `antigravity:gemini-3.7-flash` on the first
+10 matched unseen test papers. Learned v5 reached citation F1 0.5519 versus
+0.4852 for B_flat, with p=0.5375 and a clustered 95% CI [0.0000, 0.2000]. The
+sample is too small for a comparative claim, but it confirms strong generator
+sensitivity and satisfies the requirement to evaluate a second generator
+condition without mixing it into the main table.
+
+## True out-of-domain result
+
+The QASPER-frozen checkpoints were evaluated once on 40 labeled SciFact dev
+evidence papers. Learned v5 reached citation F1 0.7358 versus 0.3833 for B_flat
+(paired p=0.0010; paper-clustered 95% CI for the difference [0.2250, 0.4867]).
+B_static remained slightly higher at 0.7450. Failure counters show 6/40 empty
+generations for learned/static versus 22/40 for flat, with no retrieval miss in
+the selected subset. SciFact answer F1 is not interpreted because the current
+generator is not a normalized stance classifier; this run supports only the
+rationale-attribution OOD claim.

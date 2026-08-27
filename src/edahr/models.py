@@ -118,6 +118,53 @@ Evidence:
         return _generation_from_payload(json.loads(response.choices[0].message.content))
 
 
+def _json_payload(text: str) -> dict:
+    """Parse requested JSON even when a preview agent adds markdown prose."""
+    value = text.strip()
+    if value.startswith("```"):
+        lines = value.splitlines()
+        value = "\n".join(lines[1:-1]).strip()
+        if value.lower().startswith("json"):
+            value = value[4:].lstrip()
+    try:
+        return json.loads(value)
+    except json.JSONDecodeError:
+        start, end = value.find("{"), value.rfind("}")
+        if start < 0 or end <= start:
+            raise
+        return json.loads(value[start:end + 1])
+
+
+class AntigravityStructuredGenerator:
+    """Preview generator-swap adapter over Gemini's Interactions API.
+
+    Antigravity does not guarantee structured output, so this adapter requests
+    JSON-only text and parses it defensively. Keep it out of primary training;
+    it is intended for the predeclared generator-robustness condition.
+    """
+
+    def __init__(self, model_name: str, api_key: str | None = None,
+                 agent_name: str = "antigravity-preview-05-2026",
+                 max_total_tokens: int = 20000):
+        try:
+            from google import genai
+        except ImportError as exc:  # pragma: no cover
+            raise RuntimeError("Install google-genai to use Antigravity") from exc
+        self.client = genai.Client(api_key=api_key or os.getenv("GEMINI_API_KEY"))
+        self.model_name = model_name
+        self.agent_name = agent_name
+        self.max_total_tokens = max_total_tokens
+
+    def generate(self, query: str, context: Sequence[ContextBlock]) -> Generation:
+        prompt = _grounded_prompt(query, context, json_only=True)
+        response = self.client.interactions.create(
+            agent=self.agent_name, input=prompt, environment="remote", tools=[],
+            agent_config={"type": "antigravity", "model": self.model_name,
+                          "max_total_tokens": self.max_total_tokens},
+        )
+        return _generation_from_payload(_json_payload(response.output_text))
+
+
 class GeminiStructuredGenerator:
     """Grounded generator that requires claim-level context identifiers."""
 
@@ -131,21 +178,7 @@ class GeminiStructuredGenerator:
         self.temperature = 0.0
 
     def generate(self, query: str, context: Sequence[ContextBlock]) -> Generation:
-        evidence = "\n\n".join(
-            f"[{block.context_id}] {block.source}, pages {block.page_start}-{block.page_end}\n{block.text}"
-            for block in context
-        )
-        prompt = f"""Answer the scientific question only from the supplied evidence.
-Return JSON with keys answerable (boolean), reason (string), and claims (array).
-Each claim must contain text, citations (context IDs), and confidence from 0 to 1.
-Do not cite an ID that is absent from the evidence. If evidence is insufficient,
-set answerable=false and return no claims.
-
-Question: {query}
-
-Evidence:
-{evidence}
-"""
+        prompt = _grounded_prompt(query, context)
         response = self.client.models.generate_content(
             model=self.model_name,
             contents=prompt,
@@ -155,6 +188,27 @@ Evidence:
             },
         )
         return _generation_from_payload(json.loads(response.text))
+
+
+def _grounded_prompt(
+    query: str, context: Sequence[ContextBlock], *, json_only: bool = False
+) -> str:
+    evidence = "\n\n".join(
+        f"[{block.context_id}] {block.source}, pages {block.page_start}-{block.page_end}\n{block.text}"
+        for block in context
+    )
+    prefix = "Return only valid JSON without markdown fences. " if json_only else ""
+    return f"""Answer the scientific question only from the supplied evidence.
+{prefix}Return JSON with keys answerable (boolean), reason (string), and claims (array).
+Each claim must contain text, citations (context IDs), and confidence from 0 to 1.
+Do not cite an ID that is absent from the evidence. If evidence is insufficient,
+set answerable=false and return no claims.
+
+Question: {query}
+
+Evidence:
+{evidence}
+"""
 
 
 def _generation_from_payload(payload: dict) -> Generation:

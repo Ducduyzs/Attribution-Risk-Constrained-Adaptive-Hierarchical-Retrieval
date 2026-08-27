@@ -38,14 +38,31 @@ class AdaptiveMergePolicy:
         self.evidence_gain_weight = evidence_gain_weight
         self.cost_penalty = cost_penalty
         self.model = None
+        self.model_kind = "prior"
         if checkpoint:
-            import torch
+            path = Path(checkpoint)
+            if path.suffix in {".joblib", ".pkl"}:
+                import joblib
 
-            self.model = torch.jit.load(str(checkpoint), map_location="cpu").eval()
+                bundle = joblib.load(path)
+                self.model = bundle["model"] if isinstance(bundle, dict) else bundle
+                if isinstance(bundle, dict) and "threshold" in bundle:
+                    self.threshold = float(bundle["threshold"])
+                self.model_kind = "sklearn"
+            else:
+                import torch
+
+                self.model = torch.jit.load(str(path), map_location="cpu").eval()
+                self.model_kind = "torchscript"
 
     def probability(self, features: MergeFeatures) -> float:
         """Calibrated estimate of U(candidate) in [0, 1]."""
         if self.model is not None:
+            if self.model_kind == "sklearn":
+                import numpy as np
+
+                vector = np.asarray([features.vector()], dtype=np.float32)
+                return float(self.model.predict_proba(vector)[0, 1])
             import torch
 
             with torch.inference_mode():

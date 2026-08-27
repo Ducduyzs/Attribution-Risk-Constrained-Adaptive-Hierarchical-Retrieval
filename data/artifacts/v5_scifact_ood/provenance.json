@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "label": "scifact-v5-ood-openai-40",
+  "created_at_utc": "2026-08-26T20:03:41.382405+00:00",
+  "files": [
+    {
+      "path": "config.local.json",
+      "bytes": 302,
+      "sha256": "e845ea4d261fb725efd7195786c9fdea2982ffe8154f066228df517ac9be5e3c"
+    },
+    {
+      "path": "data/scifact/data/corpus.jsonl",
+      "bytes": 8307875,
+      "sha256": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62"
+    },
+    {
+      "path": "data/scifact/data/claims_dev.jsonl",
+      "bytes": 65007,
+      "sha256": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+    },
+    {
+      "path": "data/manifests/scifact_dev_papers.jsonl",
+      "bytes": 355574,
+      "sha256": "3285e175a5e3bc6dbacd38abcca6f9ab4026614a6b1930d4fb2aad3713d83539"
+    },
+    {
+      "path": "data/manifests/scifact_dev_questions.jsonl",
+      "bytes": 178352,
+      "sha256": "25dc0ecdf26344178e2730a94658e5ec211922d770f91ae58786c4e2be3d131d"
+    },
+    {
+      "path": "data/manifests/scifact_dev_report.json",
+      "bytes": 359,
+      "sha256": "315f92836580e0a824ad405cda71a1895e7ee9fc2d09590f7928c0a004d90e3e"
+    },
+    {
+      "path": "checkpoints/policy_parent_v5_final.joblib",
+      "bytes": 1046000,
+      "sha256": "ab0b22478bbb3295f709e051cf0f449267b6de0727acc5587224cc571823498c"
+    },
+    {
+      "path": "checkpoints/policy_parent_v5_final.metadata.json",
+      "bytes": 1459,
+      "sha256": "a7e31b6d761c5edc3d960b42e636794d90dc2786d08e3bb4b2189e52d05f8c6b"
+    },
+    {
+      "path": "checkpoints/policy_section_v5_final.joblib",
+      "bytes": 84240,
+      "sha256": "1d7d7aeae407cf2f12622df2e366e2e38907865b17291c1a8d61de9f03fd4dbb"
+    },
+    {
+      "path": "checkpoints/policy_section_v5_final.metadata.json",
+      "bytes": 1460,
+      "sha256": "47083576fd7769ccdb9503cb90dc901b960585ff22e9ecc7d2c2df0eec8d5473"
+    },
+    {
+      "path": "data/artifacts/v5_scifact_ood/artifacts_B_flat.jsonl",
+      "bytes": 56695,
+      "sha256": "8c4ca3c701532c2c42c283bec50911eca615dd31062fefe6fc26f9cc0613c605"
+    },
+    {
+      "path": "data/artifacts/v5_scifact_ood/artifacts_B_static.jsonl",
+      "bytes": 61751,
+      "sha256": "5709c1cd02cb59b8d917b7345ee17f2ec7b5fe5cefaf7b40eab6398502efa198"
+    },
+    {
+      "path": "data/artifacts/v5_scifact_ood/artifacts_prior.jsonl",
+      "bytes": 60368,
+      "sha256": "e17b2bfd8067c9707e66c3438ac0ce9f8f3f508d62bd1437638f55ce6c3e5cf0"
+    },
+    {
+      "path": "data/artifacts/v5_scifact_ood/artifacts_learned_v5.jsonl",
+      "bytes": 62432,
+      "sha256": "152b9574e29df834fd69a922e5736ff9066c67fadfcf181411da5fca6d54c99c"
+    },
+    {
+      "path": "data/artifacts/v5_scifact_ood/main_results.json",
+      "bytes": 6186,
+      "sha256": "7cf9881d65203bf394dd5327ce8550d4f636b9ad3361f1459b10a781e01559f8"
+    },
+    {
+      "path": "data/artifacts/v5_scifact_ood/failure_summary.json",
+      "bytes": 1387,
+      "sha256": "7bbc6e96a5352a0ed42aa915e13ae724c951a6fe634dcf9ca3fd578ff8f9453f"
+    },
+    {
+      "path": "analysis/v5_scifact_ood.md",
+      "bytes": 969,
+      "sha256": "376599cbb78846b596a8202687f0abc3b20aff0a372aed3a50b510ea1c23e7c8"
+    },
+    {
+      "path": "analysis/v5_scifact_failure_analysis.md",
+      "bytes": 1150,
+      "sha256": "adbe00f9e34cbe740c340be5a8a51dc9f6a530a687f337407d581ed161ab33e6"
+    }
+  ],
+  "environment": {
+    "python": "3.10.10",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "edahr-neural": "0.1.0",
+      "numpy": "2.2.6",
+      "torch": "2.13.0+cu130",
+      "transformers": "5.15.1",
+      "scikit-learn": "1.7.2",
+      "joblib": "1.5.3",
+      "openai": "3.3.1",
+      "google-genai": "2.20.0"
+    }
+  },
+  "git": {
+    "commit": "8fa6930ed03f0e3d700ff3c4cbe30ecb9b6671ec",
+    "dirty": true,
+    "status_porcelain_sha256": "0b321142b7e6a4f8dc94b73169d61728404ae3fed53682ac6c93fb62225c4a59"
+  },
+  "security_note": "Configuration files are represented by hashes only; no secret values are copied."
+}

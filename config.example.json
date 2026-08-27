@@ -4,6 +4,8 @@
   "nli_model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
   "llm_model": "gpt-4o-mini",
   "llm_provider": "openai",
+  "antigravity_agent": "antigravity-preview-05-2026",
+  "antigravity_max_total_tokens": 20000,
   "device": "cuda",
   "use_fp16": true,
   "child_target_tokens": 220,

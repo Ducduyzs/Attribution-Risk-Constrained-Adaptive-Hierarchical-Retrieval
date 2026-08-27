@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-08-26T19:00:27.730424+00:00",
+  "label": "section",
+  "estimator": "gb",
+  "threshold": 0.32,
+  "seed": 42,
+  "feature_dim": 14,
+  "constraints": {
+    "epsilon": 0.02,
+    "delta": 0.05,
+    "tau": 0.02
+  },
+  "train_rows_total": 120,
+  "train_rows_citation_evaluable": 110,
+  "dev_rows_total": 40,
+  "dev_rows_citation_evaluable": 36,
+  "train_metrics": {
+    "accuracy": 0.8818,
+    "balanced_accuracy": 0.8818,
+    "auc": 0.995,
+    "positive_rate": 0.5
+  },
+  "dev_metrics": {
+    "accuracy": 0.7222,
+    "balanced_accuracy": 0.6823,
+    "auc": 0.6806,
+    "positive_rate": 0.6389
+  },
+  "train_rollouts": "D:\\AI PROJECT\\Evidence-Density-Aware Adaptive Hierarchical Retrieval for Scientific Document Question Answering\\data\\rollouts_v5_train_fresh.jsonl",
+  "train_sha256": "167f49d7d07a807976695d6d46649fc9b03ca68c36273d26843127dba33ca981",
+  "dev_rollouts": "D:\\AI PROJECT\\Evidence-Density-Aware Adaptive Hierarchical Retrieval for Scientific Document Question Answering\\data\\rollouts_v5_dev_fresh.jsonl",
+  "dev_sha256": "ac65d9097e0af60be7a7ff3422c1259abe0d9321f5ed01c0cde37d04e857b400",
+  "checkpoint": "D:\\AI PROJECT\\Evidence-Density-Aware Adaptive Hierarchical Retrieval for Scientific Document Question Answering\\checkpoints\\policy_section_v5_final.joblib",
+  "checkpoint_sha256": "1d7d7aeae407cf2f12622df2e366e2e38907865b17291c1a8d61de9f03fd4dbb"
+}

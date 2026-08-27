@@ -1,4 +1,5 @@
 __pycache__/
+.vscode/
 *.py[cod]
 .pytest_cache/
 .venv/
@@ -6,6 +7,8 @@ __pycache__/
 data/artifacts/
 data/qasper/
 data/raw_pdfs/
+data/manifests/
+data/scifact/
 data/*.progress
 ~$*
 .env

@@ -17,6 +17,7 @@ from edahr.attribution import (  # noqa: E402
 from edahr.config import Settings  # noqa: E402
 from edahr.hierarchy import HierarchyBuilder  # noqa: E402
 from edahr.invariants import validate_hierarchy  # noqa: E402
+from edahr.models import _json_payload  # noqa: E402
 from edahr.rollouts import RewardWeights  # noqa: E402
 from edahr.schemas import DocumentSection, ScientificDocument  # noqa: E402
 from edahr.training import sha256_file, v5_label, write_checkpoint_metadata  # noqa: E402
@@ -144,6 +145,14 @@ class CheckpointMetadataTests(unittest.TestCase):
             self.assertEqual(payload["feature_dim"], 14)
             self.assertTrue(payload["v5_constraints"]["enabled"])
             self.assertEqual(payload["training_report"]["val_auc"], 0.75)
+
+
+class PreviewAgentParsingTests(unittest.TestCase):
+    def test_antigravity_json_parser_accepts_fences_and_prose(self):
+        fenced = '```json\n{"answerable": false, "claims": []}\n```'
+        prose = 'Result follows: {"answerable": true, "claims": []} done.'
+        self.assertFalse(_json_payload(fenced)["answerable"])
+        self.assertTrue(_json_payload(prose)["answerable"])
 
 
 if __name__ == "__main__":

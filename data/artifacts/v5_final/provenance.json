@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "label": "qasper-v5-main-openai-40",
+  "created_at_utc": "2026-08-26T20:03:40.491281+00:00",
+  "files": [
+    {
+      "path": "config.local.json",
+      "bytes": 302,
+      "sha256": "e845ea4d261fb725efd7195786c9fdea2982ffe8154f066228df517ac9be5e3c"
+    },
+    {
+      "path": "data/manifests/qasper_test_papers.jsonl",
+      "bytes": 10219175,
+      "sha256": "cf32297b01693392ae5d295c94ff030dbda7a0f644864f73820d28d0c8b0e19e"
+    },
+    {
+      "path": "data/manifests/qasper_test_questions.jsonl",
+      "bytes": 3669114,
+      "sha256": "9fb81b1b4d986f5f7b32c14ed35b1294327b0cc80c60a59ce4a0d95eba2601c3"
+    },
+    {
+      "path": "checkpoints/policy_parent_v5_final.joblib",
+      "bytes": 1046000,
+      "sha256": "ab0b22478bbb3295f709e051cf0f449267b6de0727acc5587224cc571823498c"
+    },
+    {
+      "path": "checkpoints/policy_parent_v5_final.metadata.json",
+      "bytes": 1459,
+      "sha256": "a7e31b6d761c5edc3d960b42e636794d90dc2786d08e3bb4b2189e52d05f8c6b"
+    },
+    {
+      "path": "checkpoints/policy_section_v5_final.joblib",
+      "bytes": 84240,
+      "sha256": "1d7d7aeae407cf2f12622df2e366e2e38907865b17291c1a8d61de9f03fd4dbb"
+    },
+    {
+      "path": "checkpoints/policy_section_v5_final.metadata.json",
+      "bytes": 1460,
+      "sha256": "47083576fd7769ccdb9503cb90dc901b960585ff22e9ecc7d2c2df0eec8d5473"
+    },
+    {
+      "path": "data/artifacts/v5_final/artifacts_B_flat.jsonl",
+      "bytes": 71270,
+      "sha256": "91f23f873b7075db8ac9aa8c7e4d3d15b7eba673988a78c82867cde46a7445e2"
+    },
+    {
+      "path": "data/artifacts/v5_final/artifacts_B_static.jsonl",
+      "bytes": 82461,
+      "sha256": "3d658911cb7c02805067f23810a3a95958d90fd6275c915ce0426a9e26b8b5cc"
+    },
+    {
+      "path": "data/artifacts/v5_final/artifacts_prior.jsonl",
+      "bytes": 75400,
+      "sha256": "5952c7084f3240973f2840650d630c785d548b7546c5e5fddd456a1b2eb41a79"
+    },
+    {
+      "path": "data/artifacts/v5_final/artifacts_learned_v5.jsonl",
+      "bytes": 75413,
+      "sha256": "6a2a9c8b855a9648ba7482a4a00525d54de05a395fb8bd536677e3532beba6e6"
+    },
+    {
+      "path": "data/artifacts/v5_final/main_results.json",
+      "bytes": 5975,
+      "sha256": "91c4aa65dc1df0268c66cfb991a08757d3233f99e081a955bafa7358df75279c"
+    },
+    {
+      "path": "data/artifacts/v5_final/failure_summary.json",
+      "bytes": 1489,
+      "sha256": "4718a6ffda4642dc548658ad147765914fbbe67567954722a34e736049a507af"
+    },
+    {
+      "path": "analysis/v5_main_results.md",
+      "bytes": 980,
+      "sha256": "aec24c6564947fa8f08d597c7fb77379afe3e29e63f1cff3ad241dda8b2a25f9"
+    },
+    {
+      "path": "analysis/v5_failure_analysis_fresh.md",
+      "bytes": 1322,
+      "sha256": "022d9603b0dc2e3228771f922982b7b45d597531f641b71dcfd3498da874aacd"
+    }
+  ],
+  "environment": {
+    "python": "3.10.10",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "edahr-neural": "0.1.0",
+      "numpy": "2.2.6",
+      "torch": "2.13.0+cu130",
+      "transformers": "5.15.1",
+      "scikit-learn": "1.7.2",
+      "joblib": "1.5.3",
+      "openai": "3.3.1",
+      "google-genai": "2.20.0"
+    }
+  },
+  "git": {
+    "commit": "8fa6930ed03f0e3d700ff3c4cbe30ecb9b6671ec",
+    "dirty": true,
+    "status_porcelain_sha256": "0b321142b7e6a4f8dc94b73169d61728404ae3fed53682ac6c93fb62225c4a59"
+  },
+  "security_note": "Configuration files are represented by hashes only; no secret values are copied."
+}
