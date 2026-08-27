@@ -98,11 +98,14 @@ class OpenAIStructuredGenerator:
             f"[{block.context_id}] {block.source}, pages {block.page_start}-{block.page_end}\n{block.text}"
             for block in context
         )
+        id_list = ", ".join(f"[{block.context_id}]" for block in context)
         prompt = f"""Answer the scientific question only from the supplied evidence.
 Return JSON with keys answerable (boolean), reason (string), and claims (array).
 Each claim must contain text, citations (context IDs), and confidence from 0 to 1.
-Do not cite an ID that is absent from the evidence. If evidence is insufficient,
-set answerable=false and return no claims.
+CRITICAL: You MUST use the EXACT context IDs shown in brackets in the evidence below.
+Valid context IDs are: {id_list}
+Do NOT use numeric indices (1, 2, 3...) — use the bracketed IDs like [C1], [C2] exactly as shown.
+If evidence is insufficient, set answerable=false and return no claims.
 
 Question: {query}
 
@@ -197,12 +200,15 @@ def _grounded_prompt(
         f"[{block.context_id}] {block.source}, pages {block.page_start}-{block.page_end}\n{block.text}"
         for block in context
     )
+    id_list = ", ".join(f"[{block.context_id}]" for block in context)
     prefix = "Return only valid JSON without markdown fences. " if json_only else ""
     return f"""Answer the scientific question only from the supplied evidence.
 {prefix}Return JSON with keys answerable (boolean), reason (string), and claims (array).
 Each claim must contain text, citations (context IDs), and confidence from 0 to 1.
-Do not cite an ID that is absent from the evidence. If evidence is insufficient,
-set answerable=false and return no claims.
+CRITICAL: You MUST use the EXACT context IDs shown in brackets in the evidence below.
+Valid context IDs are: {id_list}
+Do NOT use numeric indices (1, 2, 3...) — use the bracketed IDs like [C1], [C2] exactly as shown.
+If evidence is insufficient, set answerable=false and return no claims.
 
 Question: {query}
 
@@ -215,7 +221,10 @@ def _generation_from_payload(payload: dict) -> Generation:
     claims = tuple(
         Claim(
             text=str(item["text"]),
-            citations=tuple(str(value) for value in item.get("citations", [])),
+            citations=tuple(
+                str(value) for value in item.get("citations", [])
+                if str(value).strip()
+            ),
             confidence=float(item.get("confidence", 0.0)),
         )
         for item in payload.get("claims", [])
