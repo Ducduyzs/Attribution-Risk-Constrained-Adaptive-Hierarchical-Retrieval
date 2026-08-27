@@ -151,10 +151,12 @@ class AdaptiveHierarchicalPipeline:
 
         t0 = time.perf_counter()
         claim_supports: list[tuple[str, float]] = []
+        verification_trace: list[dict] = []
         generation, evidence, verification_metrics = verify_generation(
             raw_generation, context, self.hierarchy, self.verifier,
             self.settings, claim_supports=claim_supports,
             retrieved_ids={hit.node_id for hit in reranked},
+            verification_trace=verification_trace,
         )
         timings["verification_ms"] = (time.perf_counter() - t0) * 1000
 
@@ -195,4 +197,6 @@ class AdaptiveHierarchicalPipeline:
             decisions=decisions,
             metrics=metrics,
             expansion_trace=tuple(trace),
+            raw_generation=raw_generation,
+            verification_trace=tuple(verification_trace),
         )

@@ -185,6 +185,46 @@ class ChildLevelVerificationTests(unittest.TestCase):
         self.assertEqual(evidence, {})
         self.assertEqual(metrics["claims_rejected_no_child_support"], 1.0)
 
+    def test_trace_records_lexical_fallback_as_effective_support(self):
+        from dataclasses import replace as data_replace
+
+        child = next(
+            child_id for child_id in self.hierarchy.child_ids
+            if "gold finding supports the claim" in self.hierarchy.node(child_id).text.lower()
+        )
+        block = _block(self.hierarchy, child, "C1")
+        generation = Generation(True, (
+            Claim("Gold finding supports the claim here.", ("C1",), 0.9),
+        ))
+
+        class NeutralVerifier:
+            def support_score(self, claim, evidence):
+                return 0.05
+
+        settings = data_replace(
+            self.settings,
+            nli_support_threshold=0.6,
+            lexical_support_min_coverage=0.8,
+            sibling_threshold_delta=0.0,
+        )
+        supports: list[tuple[str, float]] = []
+        trace: list[dict] = []
+        verified, evidence, metrics = verify_generation(
+            generation, [block], self.hierarchy, NeutralVerifier(), settings,
+            claim_supports=supports, retrieved_ids={child},
+            verification_trace=trace,
+        )
+
+        self.assertTrue(verified.answerable)
+        self.assertEqual(len(evidence), 1)
+        self.assertGreaterEqual(supports[0][1], 0.8)
+        self.assertEqual(trace[0]["status"], "accepted")
+        candidate = trace[0]["candidates"][0]
+        self.assertAlmostEqual(candidate["nli_support"], 0.05)
+        self.assertGreaterEqual(candidate["effective_support"], 0.8)
+        self.assertTrue(candidate["selected"])
+        self.assertEqual(metrics["claims_rejected_base_support"], 0.0)
+
 
 if __name__ == "__main__":
     unittest.main()

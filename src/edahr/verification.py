@@ -38,6 +38,7 @@ def verify_generation(
     settings: Settings,
     claim_supports: list[tuple[str, float]] | None = None,
     retrieved_ids: set[str] | None = None,
+    verification_trace: list[dict] | None = None,
 ) -> tuple[Generation, dict[str, Evidence], dict[str, float]]:
     """Child-level NLI verification with leaf-level attribution gating.
 
@@ -63,6 +64,10 @@ def verify_generation(
     rejected_no_child = 0
     ambiguous_claims = 0
     sibling_filtered = 0
+    rejected_invalid_citation = 0
+    rejected_low_confidence = 0
+    rejected_base_support = 0
+    rejected_sibling_guard = 0
 
     def add_evidence(claim: Claim, child_id: str, score: float, block: ContextBlock) -> str:
         node = hierarchy.node(child_id)
@@ -83,35 +88,80 @@ def verify_generation(
         )
         return evidence_id
 
-    for claim in generation.claims:
+    for claim_index, claim in enumerate(generation.claims):
         cited = [context_by_id[cid] for cid in claim.citations if cid in context_by_id]
-        if not cited or claim.confidence < settings.claim_confidence_threshold:
+        trace = {
+            "claim_index": claim_index,
+            "claim_text": claim.text,
+            "claim_confidence": float(claim.confidence),
+            "cited_context_ids": list(claim.citations),
+            "invalid_context_ids": [cid for cid in claim.citations if cid not in context_by_id],
+            "candidates": [],
+            "selected_child_ids": [],
+        }
+        if not cited:
+            rejected_invalid_citation += 1
+            trace["status"] = "invalid_or_missing_context_citation"
+            if verification_trace is not None:
+                verification_trace.append(trace)
+            continue
+        if claim.confidence < settings.claim_confidence_threshold:
+            rejected_low_confidence += 1
+            trace["status"] = "below_claim_confidence_threshold"
+            if verification_trace is not None:
+                verification_trace.append(trace)
             continue
         candidates = _candidate_children(cited, hierarchy)[: settings.max_children_per_claim]
+        if not candidates:
+            rejected_no_child += 1
+            rejected_base_support += 1
+            trace["status"] = "no_reachable_child"
+            if claim_supports is not None:
+                claim_supports.append((claim.text, 0.0))
+            if verification_trace is not None:
+                verification_trace.append(trace)
+            continue
         scored: list[tuple[str, float, ContextBlock]] = []
         best_support = 0.0
         for child_id in candidates:
             child_text = hierarchy.node(child_id).text
-            score = verifier.support_score(claim.text, child_text)
+            raw_score = float(verifier.support_score(claim.text, child_text))
             nli_calls += 1
-            best_support = max(best_support, float(score))
-            if score < settings.nli_support_threshold:
+            coverage = float(claim_coverage(claim.text, child_text))
+            score = raw_score
+            if raw_score < settings.nli_support_threshold:
                 # Deterministic fallback: near-verbatim restatements (including
                 # numeral paraphrases like "six" vs "N = 6") that the NLI
                 # checkpoint scores as neutral still count as supported.
-                coverage = claim_coverage(claim.text, child_text)
                 if (
                     settings.lexical_support_min_coverage > 0.0
                     and coverage >= settings.lexical_support_min_coverage
                 ):
                     score = max(score, coverage)
-            if score >= settings.nli_support_threshold:
-                origin = next(block for block in cited if child_id in block.evidence_ids)
+            best_support = max(best_support, float(score))
+            origin = next(block for block in cited if child_id in block.evidence_ids)
+            passed_base = score >= settings.nli_support_threshold
+            trace["candidates"].append({
+                "child_id": child_id,
+                "origin_context_id": origin.context_id,
+                "nli_support": round(raw_score, 6),
+                "lexical_coverage": round(coverage, 6),
+                "effective_support": round(float(score), 6),
+                "initially_retrieved": bool(retrieved_ids and child_id in retrieved_ids),
+                "passed_base_threshold": bool(passed_base),
+                "passed_sibling_guard": False,
+                "selected": False,
+            })
+            if passed_base:
                 scored.append((child_id, float(score), origin))
         if not scored:
             rejected_no_child += 1
+            rejected_base_support += 1
+            trace["status"] = "below_support_threshold"
             if claim_supports is not None:
                 claim_supports.append((claim.text, round(best_support, 4)))
+            if verification_trace is not None:
+                verification_trace.append(trace)
             continue
         if claim_supports is not None:
             claim_supports.append((claim.text, round(best_support, 4)))
@@ -124,8 +174,17 @@ def verify_generation(
                 if entry[0] in retrieved_ids or entry[1] >= bar
             ]
             sibling_filtered += before - len(scored)
+        surviving = {child_id for child_id, _, _ in scored}
+        for item in trace["candidates"]:
+            item["passed_sibling_guard"] = (
+                bool(item["passed_base_threshold"]) and item["child_id"] in surviving
+            )
         if not scored:
             rejected_no_child += 1
+            rejected_sibling_guard += 1
+            trace["status"] = "sibling_guard_rejected_all"
+            if verification_trace is not None:
+                verification_trace.append(trace)
             continue
         ambiguous = (
             len(scored) > 1
@@ -136,6 +195,13 @@ def verify_generation(
         if ambiguous:
             kept = kept[:1]
             ambiguous_claims += 1
+        selected_ids = {child_id for child_id, _, _ in kept}
+        trace["selected_child_ids"] = sorted(selected_ids)
+        trace["status"] = "accepted"
+        for item in trace["candidates"]:
+            item["selected"] = item["child_id"] in selected_ids
+        if verification_trace is not None:
+            verification_trace.append(trace)
         support_values.extend(score for _, score, _ in kept)
         verified_citations = tuple(
             add_evidence(claim, child_id, score, block)
@@ -163,5 +229,9 @@ def verify_generation(
         "verified_evidence_children": float(len(evidence)),
         "ambiguous_claims": float(ambiguous_claims),
         "sibling_filtered_children": float(sibling_filtered),
+        "claims_rejected_invalid_citation": float(rejected_invalid_citation),
+        "claims_rejected_low_confidence": float(rejected_low_confidence),
+        "claims_rejected_base_support": float(rejected_base_support),
+        "claims_rejected_sibling_guard": float(rejected_sibling_guard),
     }
     return verified, evidence, metrics

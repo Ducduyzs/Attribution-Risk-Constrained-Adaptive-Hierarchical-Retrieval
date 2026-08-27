@@ -72,6 +72,10 @@ def main() -> None:
                         choices=("openai", "gemini", "antigravity"))
     parser.add_argument("--model", default="gpt-4o-mini")
     parser.add_argument("--questions", type=int, default=40)
+    parser.add_argument(
+        "--systems", nargs="+", default=("B_flat", "B_static", "prior", "learned_v5"),
+        choices=("B_flat", "B_static", "prior", "learned_v5"),
+    )
     parser.add_argument("--parent-checkpoint",
                         default="checkpoints/policy_parent_v5_final.joblib")
     parser.add_argument("--section-checkpoint",
@@ -117,7 +121,7 @@ def main() -> None:
         evidence_gain_weight=prior_settings.evidence_gain_weight,
         cost_penalty=prior_settings.cost_penalty,
     )
-    systems = {
+    all_systems = {
         "B_flat": pipeline_like(
             learned, replace(prior_settings, expansion_max_depth=0),
             policy=NeverMergePolicy(),
@@ -131,6 +135,10 @@ def main() -> None:
         ),
         "learned_v5": learned,
     }
+    systems = {
+        name: all_systems[name]
+        for name in dict.fromkeys(args.systems)
+    }
 
     artifact_dir.mkdir(parents=True, exist_ok=True)
     runs = {}
@@ -143,17 +151,20 @@ def main() -> None:
         runs[name] = run
         print(json.dumps({"system": name, **run.summary}, indent=2), flush=True)
 
-    flat = runs["B_flat"]
     comparisons = {}
-    for name in ("B_static", "prior", "learned_v5"):
-        comparisons[name] = {
-            "citation_f1_p_vs_flat": significance_vs_baseline(
-                runs[name], flat, "citation_f1", settings.seed
-            ),
-            "citation_f1_diff_cluster_ci": clustered_ci_vs_baseline(
-                runs[name], flat, "citation_f1", settings.seed
-            ),
-        }
+    if "B_flat" in runs:
+        flat = runs["B_flat"]
+        for name in runs:
+            if name == "B_flat":
+                continue
+            comparisons[name] = {
+                "citation_f1_p_vs_flat": significance_vs_baseline(
+                    runs[name], flat, "citation_f1", settings.seed
+                ),
+                "citation_f1_diff_cluster_ci": clustered_ci_vs_baseline(
+                    runs[name], flat, "citation_f1", settings.seed
+                ),
+            }
     payload = {
         "dataset": args.dataset_name, "split": args.split_name,
         "questions": len(records), "papers": len(papers),
