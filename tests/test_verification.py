@@ -225,6 +225,29 @@ class ChildLevelVerificationTests(unittest.TestCase):
         self.assertTrue(candidate["selected"])
         self.assertEqual(metrics["claims_rejected_base_support"], 0.0)
 
+    def test_lexical_fallback_rejects_negated_or_conflicting_numbers(self):
+        child = self.hierarchy.child_ids[0]
+        block = _block(self.hierarchy, child, "C1")
+
+        class ContradictingVerifier:
+            def score_details(self, claim, evidence):
+                return 0.05, 0.99
+
+        from dataclasses import replace as data_replace
+        settings = data_replace(
+            self.settings, nli_support_threshold=0.6,
+            lexical_support_min_coverage=0.1,
+        )
+        generation = Generation(True, (
+            Claim("Gold finding does not support 7 participants.", ("C1",), 0.9),
+        ))
+        verified, evidence, metrics = verify_generation(
+            generation, [block], self.hierarchy, ContradictingVerifier(), settings
+        )
+        self.assertFalse(verified.answerable)
+        self.assertFalse(evidence)
+        self.assertGreater(metrics["candidate_safety_guard_rejections"], 0.0)
+
 
 if __name__ == "__main__":
     unittest.main()

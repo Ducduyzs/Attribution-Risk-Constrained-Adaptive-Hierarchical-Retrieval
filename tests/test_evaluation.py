@@ -23,6 +23,9 @@ from edahr.evaluation import (
     paired_bootstrap_test,
     precision_at_k,
     provenance_accuracy,
+    qasper_answer_exact_match,
+    qasper_answer_token_f1,
+    qasper_evidence_f1,
     risk_coverage_curve,
     selective_accuracy_at_coverage,
 )
@@ -68,6 +71,12 @@ class GroundingMetricTests(unittest.TestCase):
     def test_answer_metrics(self):
         self.assertEqual(answer_exact_match("The CAT sat", "the cat sat"), 1.0)
         self.assertGreater(answer_token_f1("cat sat on mat", "cat on the mat"), 0.6)
+
+    def test_official_qasper_multi_annotator_metrics(self):
+        self.assertEqual(qasper_answer_exact_match("The CAT!", ["a cat", "dog"]), 1.0)
+        self.assertEqual(qasper_answer_token_f1("The CAT!", ["a cat", "dog"]), 1.0)
+        self.assertEqual(qasper_evidence_f1(["p2"], [["p1"], ["p2", "p3"]]), 2 / 3)
+        self.assertEqual(qasper_evidence_f1([], [[]]), 1.0)
 
 
 class SelectivePredictionTests(unittest.TestCase):

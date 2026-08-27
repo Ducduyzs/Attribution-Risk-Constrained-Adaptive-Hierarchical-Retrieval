@@ -44,6 +44,7 @@ class HierarchyBuilder:
                 section_ids.append(section_id)
                 page_spans = self._page_spans(section)
                 local_children: list[str] = []
+                paragraphs = section.metadata.get("paragraphs") or ()
                 for position, (chunk, char_start, char_end) in enumerate(
                     pack_spans(
                         section.text,
@@ -56,6 +57,17 @@ class HierarchyBuilder:
                     child_ids.append(child_id)
                     document_evidence.append(child_id)
                     page_start, page_end = self._pages_for_span(page_spans, char_start, char_end, section)
+                    paragraph_ids = tuple(
+                        str(paragraph["paragraph_id"])
+                        for paragraph in paragraphs
+                        if int(paragraph.get("char_start", 0)) < char_end
+                        and int(paragraph.get("char_end", 0)) > char_start
+                    )
+                    paragraph_texts = {
+                        str(paragraph["paragraph_id"]): str(paragraph.get("text") or "")
+                        for paragraph in paragraphs
+                        if str(paragraph.get("paragraph_id") or "") in paragraph_ids
+                    }
                     document_pages.extend([page_start, page_end])
                     prefix = f"Document: {document.source}\nSection: {section.title}\n"
                     nodes[child_id] = Node(
@@ -72,6 +84,8 @@ class HierarchyBuilder:
                             "parser_version": parser_version,
                             "structure_source": structure,
                             "section_position": section_pos,
+                            "paragraph_ids": paragraph_ids,
+                            "paragraph_texts": paragraph_texts,
                         },
                     )
                 parent_ids = self._parents(

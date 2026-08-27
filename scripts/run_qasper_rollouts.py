@@ -12,7 +12,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-from edahr.baselines import auto_label_gold_children  # noqa: E402
+from edahr.baselines import auto_label_gold_children, children_for_paragraphs  # noqa: E402
 from edahr.config import Settings  # noqa: E402
 from edahr.qasper import documents_from_paper_records, read_jsonl, write_jsonl  # noqa: E402
 from edahr.rollouts import RolloutRunner  # noqa: E402
@@ -122,6 +122,10 @@ def main() -> None:
         copy = dict(record)
         gold_ids, _ = auto_label_gold_children(pipeline.hierarchy, copy)
         copy["gold_child_ids"] = sorted(gold_ids)
+        copy["reference_child_sets"] = [
+            sorted(children_for_paragraphs(pipeline.hierarchy, paragraph_ids))
+            for paragraph_ids in copy.get("reference_paragraph_sets") or ()
+        ]
         copy["citation_evaluable"] = bool(gold_ids)
         enriched.append(copy)
 

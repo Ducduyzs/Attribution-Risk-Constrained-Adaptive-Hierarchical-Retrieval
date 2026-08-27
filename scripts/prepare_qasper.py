@@ -44,7 +44,7 @@ def main() -> None:
         reports.append(report)
 
     summary = {
-        "schema_version": 1, "dataset": "qasper-v0.3",
+        "schema_version": 2, "dataset": "qasper-v0.3",
         "splits": reports,
         "total_papers": len(paper_ids), "total_questions": len(question_ids),
         "paper_overlap_across_splits": 0,

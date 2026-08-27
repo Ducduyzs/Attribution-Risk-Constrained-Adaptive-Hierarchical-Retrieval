@@ -9,6 +9,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parents[1] / "src"))
 
 from edahr.qasper import convert_qasper, documents_from_paper_records
+from edahr.config import Settings
+from edahr.hierarchy import HierarchyBuilder
 
 
 class QasperConversionTests(unittest.TestCase):
@@ -60,9 +62,21 @@ class QasperConversionTests(unittest.TestCase):
         self.assertEqual(
             questions[0]["gold_quotes"], ["Gold paragraph.", "Other paragraph."]
         )
+        self.assertEqual(
+            questions[0]["reference_evidence_sets"],
+            [["Gold paragraph."], ["Gold paragraph.", "Other paragraph."]],
+        )
+        self.assertEqual(len(questions[0]["reference_paragraph_sets"]), 2)
         documents = documents_from_paper_records(papers)
         self.assertEqual(documents[0].source, questions[0]["source"])
         self.assertTrue(any(section.title == "Abstract" for section in documents[0].sections))
+        hierarchy = HierarchyBuilder(Settings(child_target_tokens=1000)).build(documents)
+        paragraph_ids = set(questions[0]["gold_paragraph_ids"])
+        matching_children = [
+            node for node in hierarchy.nodes.values()
+            if paragraph_ids.intersection(node.metadata.get("paragraph_ids") or ())
+        ]
+        self.assertTrue(matching_children)
 
     def test_duplicate_question_id_is_rejected(self):
         qa = {"question": "q", "question_id": "same", "answers": []}

@@ -23,7 +23,7 @@ def _unique_text(values: Iterable[object]) -> list[str]:
 
 def _answer_text(answer: dict) -> str:
     if answer.get("unanswerable"):
-        return ""
+        return "Unanswerable"
     free_form = str(answer.get("free_form_answer") or "").strip()
     if free_form:
         return free_form
@@ -41,8 +41,9 @@ def _answer_text(answer: dict) -> str:
 def convert_qasper(raw_path: str | Path, split: str) -> tuple[list[dict], list[dict], dict]:
     """Convert one official QASPER JSON file into paper and question records.
 
-    Evidence is the deterministic union of annotator evidence. Reference
-    answers remain separate so answer F1 can use max-over-references.
+    Annotation references remain separate. Paragraph identifiers are stable
+    within a release and permit official paragraph scoring independently from
+    overlapping retrieval leaves.
     """
     source_path = Path(raw_path)
     raw = json.loads(source_path.read_text(encoding="utf-8-sig"))
@@ -53,22 +54,43 @@ def convert_qasper(raw_path: str | Path, split: str) -> tuple[list[dict], list[d
     for paper_id, paper in raw.items():
         source = f"{paper_id}.qasper"
         sections = []
+        paragraph_lookup: dict[str, str] = {}
         for position, section in enumerate(paper.get("full_text") or ()):
-            paragraphs = _unique_text(section.get("paragraphs") or ())
+            paragraphs = [" ".join(str(value or "").split())
+                          for value in section.get("paragraphs") or ()]
+            paragraphs = [value for value in paragraphs if value]
             text = "\n".join(paragraphs).strip()
             if not text:
                 continue
+            paragraph_metadata = []
+            cursor = 0
+            for paragraph_position, paragraph in enumerate(paragraphs):
+                paragraph_id = f"{paper_id}:section:{position}:paragraph:{paragraph_position}"
+                start, end = cursor, cursor + len(paragraph)
+                paragraph_metadata.append({
+                    "paragraph_id": paragraph_id, "text": paragraph,
+                    "char_start": start, "char_end": end,
+                })
+                paragraph_lookup.setdefault(paragraph, paragraph_id)
+                cursor = end + 1
             sections.append({
                 "title": str(section.get("section_name") or f"Section {position + 1}"),
                 "text": text,
                 "section_type": "document",
                 "position": position,
+                "paragraphs": paragraph_metadata,
             })
         abstract = str(paper.get("abstract") or "").strip()
         if abstract and not any(section["title"].casefold() == "abstract" for section in sections):
+            paragraph_id = f"{paper_id}:abstract:paragraph:0"
+            paragraph_lookup.setdefault(" ".join(abstract.split()), paragraph_id)
             sections.insert(0, {
                 "title": "Abstract", "text": abstract,
                 "section_type": "abstract", "position": -1,
+                "paragraphs": [{
+                    "paragraph_id": paragraph_id, "text": abstract,
+                    "char_start": 0, "char_end": len(abstract),
+                }],
             })
         papers.append({
             "dataset": "qasper", "split": split, "paper_id": paper_id,
@@ -84,15 +106,15 @@ def convert_qasper(raw_path: str | Path, split: str) -> tuple[list[dict], list[d
                 raise ValueError(f"duplicate question_id in {split}: {question_id}")
             seen_question_ids.add(question_id)
             annotations = [item.get("answer") or {} for item in (qa.get("answers") or ())]
-            references = _unique_text(_answer_text(answer) for answer in annotations)
-            evidence = _unique_text(
-                quote
-                for answer in annotations
-                for quote in [
-                    *(answer.get("evidence") or ()),
-                    *(answer.get("highlighted_evidence") or ()),
-                ]
-            )
+            references = [_answer_text(answer) for answer in annotations]
+            evidence_sets = [
+                _unique_text(answer.get("evidence") or ()) for answer in annotations
+            ]
+            paragraph_sets = [
+                [paragraph_lookup[quote] for quote in evidence if quote in paragraph_lookup]
+                for evidence in evidence_sets
+            ]
+            evidence = _unique_text(quote for values in evidence_sets for quote in values)
             questions.append({
                 "dataset": "qasper", "split": split,
                 "paper_id": paper_id, "source": source,
@@ -100,6 +122,9 @@ def convert_qasper(raw_path: str | Path, split: str) -> tuple[list[dict], list[d
                 "query": str(qa.get("question") or "").strip(),
                 "answer": references[0] if references else "",
                 "reference_answers": references,
+                "reference_evidence_sets": evidence_sets,
+                "reference_paragraph_sets": paragraph_sets,
+                "gold_paragraph_ids": sorted({item for values in paragraph_sets for item in values}),
                 "gold_quotes": evidence,
                 "citation_evaluable_source": bool(evidence),
                 "all_annotations_unanswerable": bool(annotations) and all(
@@ -146,7 +171,10 @@ def documents_from_paper_records(records: Sequence[dict]) -> list[ScientificDocu
             DocumentSection(
                 title=str(section["title"]), text=str(section["text"]),
                 section_type=str(section.get("section_type") or "document"),
-                metadata={"qasper_position": section.get("position")},
+                metadata={
+                    "qasper_position": section.get("position"),
+                    "paragraphs": list(section.get("paragraphs") or ()),
+                },
             )
             for section in record.get("sections") or ()
             if str(section.get("text") or "").strip()
