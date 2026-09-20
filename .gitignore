@@ -8,8 +8,13 @@ data/artifacts/
 data/qasper/
 data/raw_pdfs/
 data/manifests/
+data/manifests_frozen/
+data/manifests_test/
 data/scifact/
+data/rollouts/
 data/*.progress
+checkpoints/*.joblib
+checkpoints/*.ts
 ~$*
 .env
 config.local.json

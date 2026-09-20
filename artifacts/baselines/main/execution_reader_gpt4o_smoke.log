@@ -1,0 +1,6 @@
+[32mActivated conda/uv virtual environment at [36m/venv/main[0m
+gpt-4o reader: 0 existing, 1 selected of 75 pending
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:  50%|████▉     | 194/391 [00:00<00:00, 1939.49it/s]Loading weights:  99%|█████████▉| 388/391 [00:00<00:00, 1806.70it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 1832.67it/s]
+checkpoint 1/1: 455d4ef8611f62b1361be4f6387b222858bb5e56 (1/75 complete; tokens=3577)
+{"rows_after": 1, "errors_this_attempt": 0, "prompt_tokens": 3453, "completion_tokens": 124, "total_tokens": 3577, "response_models": ["gpt-4o-2024-08-06"]}

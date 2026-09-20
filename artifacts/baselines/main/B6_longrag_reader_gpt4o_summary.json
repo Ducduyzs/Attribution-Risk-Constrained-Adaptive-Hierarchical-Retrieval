@@ -1,0 +1,56 @@
+{
+ "system": "B6_longrag_reader_gpt4o",
+ "classification": "LongRAG reported reader configuration",
+ "requested_model": "gpt-4o",
+ "response_models": [
+  "gpt-4o-2024-08-06"
+ ],
+ "num_queries": 75,
+ "failures": 0,
+ "finish_reasons": [
+  "stop"
+ ],
+ "answer_f1": 0.2092033484891093,
+ "official_qasper_evidence_f1": 0.09641555527644986,
+ "b3_answer_f1": 0.1984680052804339,
+ "answer_f1_delta_vs_b3": 0.01073534320867539,
+ "paired_p_vs_b3_answer_f1": 0.7642357642357642,
+ "paper_clustered_95ci_delta_vs_b3_answer_f1": [
+  -0.06876857127544461,
+  0.08974780856727058
+ ],
+ "latency_ms": {
+  "mean": 9603.688103401413,
+  "median": 9962.569630006328,
+  "p95": 19468.22790009901,
+  "total": 720276.607755106
+ },
+ "usage": {
+  "prompt_tokens": 386798,
+  "cached_prompt_tokens": 0,
+  "completion_tokens": 6040,
+  "total_tokens": 392838
+ },
+ "estimated_api_cost_usd": 1.027395,
+ "pricing": {
+  "input_usd_per_million": 2.5,
+  "cached_input_usd_per_million": 1.25,
+  "output_usd_per_million": 10.0,
+  "source": "https://developers.openai.com/api/docs/models/gpt-4o",
+  "accessed_date": "2026-09-20"
+ },
+ "provenance": {
+  "predictions_sha256": "5123cb24cd6fb812a84dfcf8d3cd43f14e4dcba7e1c6dfd37853bd6b176c95b1",
+  "traces_sha256": "8fd426db0ce7cb1fc707f9881eb86ac580c0d597af71041ab614de3e9507b918",
+  "question_manifest_sha256": "dbdc9f30f9efd3a5569453c1d6086c639703965bd5d46d07ed7ac49a41e8d9df",
+  "run_metadata": "artifacts\\baselines\\main\\run_metadata_reader_gpt4o.json",
+  "execution_log": "artifacts/baselines/main/execution_reader_gpt4o.log"
+ },
+ "local_reader_answer_f1": 0.21772534923440076,
+ "answer_f1_delta_vs_local_reader": -0.00852200074529147,
+ "paired_p_vs_local_reader_answer_f1": 0.5754245754245755,
+ "paper_clustered_95ci_delta_vs_local_reader_answer_f1": [
+  -0.03723256672512554,
+  0.020594489917144448
+ ]
+}

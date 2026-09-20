@@ -1,0 +1,553 @@
+Bạn đang làm việc trong repository:
+
+D:\AI PROJECT\Evidence-Density-Aware Adaptive Hierarchical Retrieval for Scientific Document Question Answering
+
+MỤC TIÊU
+
+Nâng RAPTOR và LongRAG từ các baseline “RAPTOR-style/LongRAG-style” lexical rút gọn thành baseline thực nghiệm nghiêm túc, đủ trung thành với bài gốc và có thể dùng trong một bài báo khoa học.
+
+Không được coi công việc là hoàn thành chỉ vì:
+- code import được;
+- unit test chạy qua;
+- có class mang tên RAPTOR/LongRAG;
+- có kết quả từ BM25, TF-IDF, extractive summary hoặc token-overlap verifier;
+- sao chép các con số từ paper gốc;
+- tự tạo hoặc sửa số liệu kết quả mà không thực sự chạy thực nghiệm.
+
+YÊU CẦU LÀM VIỆC
+
+1. Trước khi sửa, đọc toàn bộ các file liên quan:
+
+- src/edahr/baselines.py
+- scripts/run_lexical_ladder_b5b6.py
+- tests/test_baselines.py
+- analysis/b5b6_lexical_ladder.md
+- analysis/b5b6_lexical_ladder.json
+- tools/create_ieee_paper.py
+- pyproject.toml
+- requirements.lock.txt
+- README.md
+- AI_HANDOFF_PUBLICATION_V7.md
+
+2. Kiểm tra git status trước khi sửa.
+3. Không xóa hoặc ghi đè thay đổi không liên quan của người dùng.
+4. Chia công việc thành từng task dưới đây. Hoàn thành và kiểm tra từng task trước khi chuyển sang task tiếp theo.
+5. Nếu thiếu GPU, API key, model weights, dữ liệu hoặc dung lượng, phải:
+   - xác định chính xác thành phần thiếu;
+   - chuẩn bị code/config/lệnh chạy đầy đủ;
+   - chạy được smoke test nhỏ nhất có thể;
+   - ghi rõ phần nào chưa chạy;
+   - tuyệt đối không tạo số liệu giả.
+6. Mọi kết quả phải có provenance và có thể tái tạo.
+
+==================================================
+TASK 1 — AUDIT BASELINE HIỆN TẠI
+==================================================
+
+Phân tích implementation hiện tại và viết:
+
+analysis/official_baseline_gap_audit.md
+
+Báo cáo phải có bảng so sánh:
+
+- Thành phần trong RAPTOR paper gốc
+- Thành phần hiện có trong repository
+- Khoảng cách cần khắc phục
+- Mức độ ảnh hưởng đến tính công bằng của baseline
+- Hướng triển khai
+
+Làm tương tự cho LongRAG.
+
+Phải chỉ ra rõ các shortcut hiện tại, bao gồm tối thiểu:
+
+- RAPTOR đang dùng TF-IDF thay cho semantic embeddings.
+- RAPTOR đang dùng extractive centroid sentence thay cho abstractive summaries.
+- LongRAG đang dùng section hiện có làm long retrieval unit.
+- LongRAG đang tổng hợp BM25 leaf scores để xếp hạng unit.
+- Benchmark hiện tại dùng extractive generator và token-overlap verifier.
+- B1_dense hiện có thể chỉ là BM25 stand-in.
+- Kích thước benchmark hiện tại chỉ khoảng 30 questions/10 papers.
+- Artifact hiện tại chưa đủ provenance/per-query traces cho publication-grade evaluation.
+
+Acceptance criteria:
+
+- Có file audit cụ thể, dẫn đến đúng file và dòng code.
+- Không mô tả implementation hiện tại là “official RAPTOR” hoặc “official LongRAG”.
+
+==================================================
+TASK 2 — XÁC MINH PAPER VÀ OFFICIAL IMPLEMENTATION
+==================================================
+
+Tìm và xác minh từ nguồn chính thức:
+
+RAPTOR:
+- Paper chính thức.
+- Official repository, nếu có.
+- Phiên bản model/embedding/summarizer.
+- Cách clustering.
+- Cách tạo tree.
+- Cách retrieval qua nhiều tầng.
+- Hyperparameters mặc định hoặc được paper báo cáo.
+
+LongRAG:
+- Paper chính thức.
+- Official repository, nếu có.
+- Cách tạo long retrieval units.
+- Retriever được sử dụng.
+- Long-context reader/generator.
+- Cách đánh giá và các hyperparameters quan trọng.
+
+Ưu tiên:
+1. Official GitHub repository của tác giả.
+2. Paper/proceedings chính thức.
+3. Model card hoặc documentation chính thức.
+
+Tạo:
+
+analysis/official_baseline_sources.md
+
+File phải ghi:
+
+- URL nguồn;
+- commit/tag/version được sử dụng;
+- ngày truy cập;
+- license;
+- model IDs;
+- dataset requirements;
+- hardware ước tính;
+- khác biệt bắt buộc nếu phải adapter sang QASPER.
+
+Không dựa vào blog hoặc bài tổng hợp khi có nguồn chính thức.
+
+==================================================
+TASK 3 — THIẾT KẾ ADAPTER CHUNG VÀ FAIR EVALUATION
+==================================================
+
+Thiết kế interface để RAPTOR, LongRAG và các baseline khác chạy trên cùng:
+
+- frozen QASPER questions;
+- ingestion;
+- answer/evidence evaluator;
+- token budget hoặc budget được báo cáo rõ;
+- generator settings;
+- seed;
+- output schema.
+
+Không ép RAPTOR và LongRAG dùng chung retrieval algorithm nếu việc đó làm mất đặc trưng của phương pháp gốc. Chỉ chuẩn hóa:
+
+- input questions/documents;
+- output contract;
+- evaluation metrics;
+- manifest;
+- generator khi cần so sánh controlled;
+- logging và provenance.
+
+Tạo tài liệu:
+
+analysis/official_baseline_protocol.md
+
+Protocol phải định nghĩa tối thiểu:
+
+- Primary run: faithful configuration.
+- Controlled run: cùng generator/reader nếu khả thi.
+- Smoke run: 2–5 questions.
+- Development run.
+- Frozen main evaluation.
+- Seeds.
+- Top-k.
+- Token/context budget.
+- Answer metrics.
+- Official QASPER paragraph evidence F1.
+- Leaf attribution precision/recall/F1.
+- Recall@k, MRR hoặc nDCG khi phù hợp.
+- Latency.
+- Peak memory/GPU memory.
+- Index construction time.
+- Inference cost.
+- Paired statistical comparison.
+- Paper-clustered confidence intervals.
+
+Acceptance criteria:
+
+- Mỗi metric có định nghĩa và nguồn dữ liệu.
+- Không dùng test set để chọn hyperparameters.
+- Không tiếp tục dùng `eligible[:N]` như manifest chính.
+- Manifest phải được tạo, lưu và hash trước inference.
+
+==================================================
+TASK 4 — FROZEN MANIFEST VÀ PROVENANCE
+==================================================
+
+Tạo script để sinh manifest QASPER cố định, paper-disjoint khi cần, có seed và stratification hợp lý.
+
+Artifact tối thiểu:
+
+- manifests/qasper_baseline_dev_papers.jsonl
+- manifests/qasper_baseline_dev_questions.jsonl
+- manifests/qasper_baseline_test_papers.jsonl
+- manifests/qasper_baseline_test_questions.jsonl
+- manifests/qasper_baseline_manifest_metadata.json
+
+Metadata phải có:
+
+- dataset name/version/split;
+- source SHA-256;
+- manifest SHA-256;
+- seed;
+- paper count;
+- question count;
+- selection rules;
+- creation timestamp;
+- script version hoặc git commit;
+- dirty-worktree flag.
+
+Không chạy test set trước khi protocol và configuration được khóa.
+
+==================================================
+TASK 5 — TRIỂN KHAI RAPTOR FAITHFUL BASELINE
+==================================================
+
+Ưu tiên tích hợp official RAPTOR implementation qua adapter. Nếu không thể tích hợp trực tiếp, triển khai faithful reimplementation và ghi rõ lý do.
+
+RAPTOR faithful phải có tối thiểu:
+
+- semantic embeddings, không dùng TF-IDF trong primary run;
+- recursive clustering theo thiết kế paper;
+- abstractive summaries bằng model/LLM được cấu hình rõ;
+- multi-level tree;
+- collapsed-tree hoặc traversal retrieval đúng theo cấu hình paper;
+- mapping từ retrieved tree nodes về leaf evidence;
+- deterministic caching;
+- seed control;
+- index serialization;
+- metadata về model và hyperparameters.
+
+Không được âm thầm fallback sang TF-IDF hoặc extractive summary trong primary run.
+
+Nếu fallback tồn tại:
+- phải có tên cấu hình riêng như `raptor_lightweight`;
+- phải hiện warning rõ;
+- kết quả không được gắn nhãn `RAPTOR official` hoặc `RAPTOR faithful`.
+
+Tách implementation khỏi `src/edahr/baselines.py` nếu file trở nên quá lớn, ví dụ:
+
+- src/edahr/baselines/raptor_official.py
+- src/edahr/baselines/adapters.py
+
+Cần test tối thiểu:
+
+- tree chứa đủ leaf documents;
+- recursion tạo được nhiều tầng;
+- summaries được cache;
+- retrieval thực sự xét internal nodes;
+- mapping về leaf evidence đúng;
+- source/paper filtering đúng;
+- index save/load không đổi kết quả;
+- cùng seed cho kết quả ổn định;
+- primary mode không gọi lexical fallback.
+
+==================================================
+TASK 6 — TRIỂN KHAI LONGRAG FAITHFUL BASELINE
+==================================================
+
+Ưu tiên official LongRAG implementation qua adapter. Nếu phải reimplement, bám sát paper và ghi lại mọi khác biệt.
+
+LongRAG faithful phải có tối thiểu:
+
+- long retrieval units được tạo theo phương pháp paper hoặc official code;
+- semantic retriever đúng loại hoặc model tương đương có lý giải;
+- long-context reader/generator;
+- context construction đúng thứ tự và đúng budget;
+- mapping unit-level retrieval về paragraph/leaf evidence;
+- batching và caching;
+- model/version/hyperparameter metadata.
+
+Không được coi “mỗi section là một unit + tổng hợp BM25 leaf scores” là faithful LongRAG primary baseline.
+
+Giữ implementation cũ dưới tên rõ ràng, ví dụ:
+
+- `B6_longrag_lightweight`
+
+Implementation faithful phải có tên riêng:
+
+- `B6_longrag_official`
+hoặc
+- `B6_longrag_faithful`
+
+Cần test tối thiểu:
+
+- unit construction deterministic;
+- units không làm mất paragraph provenance;
+- semantic retriever được gọi thật;
+- long-context reader nhận đúng context;
+- token budget được áp dụng;
+- kết quả map được về QASPER paragraph IDs;
+- cache/index save-load hoạt động;
+- source filtering đúng.
+
+==================================================
+TASK 7 — DEPENDENCIES VÀ CONFIGURATION
+==================================================
+
+Cập nhật:
+
+- pyproject.toml
+- requirements.lock.txt hoặc lockfile tương ứng
+- config.example.json
+- README.md
+
+Không hard-code API keys hoặc secrets.
+
+Cấu hình phải chỉ rõ:
+
+- embedding model;
+- summarization model;
+- generator/reader model;
+- device;
+- batch size;
+- precision;
+- cache directory;
+- seed;
+- retrieval top-k;
+- token budget;
+- offline/online mode;
+- RAPTOR clustering parameters;
+- LongRAG unit parameters.
+
+Nếu official repositories cần môi trường riêng, cung cấp:
+
+- requirements riêng hoặc environment file;
+- script setup;
+- version pin;
+- hướng dẫn license/model access.
+
+==================================================
+TASK 8 — SMOKE TEST THỰC TẾ
+==================================================
+
+Chạy cả RAPTOR faithful và LongRAG faithful trên cùng frozen smoke manifest.
+
+Smoke test tối thiểu:
+
+- 2–5 papers;
+- ít nhất một câu hỏi có nhiều evidence paragraphs;
+- ít nhất một câu hỏi cần evidence ở phần xa trong document.
+
+Lưu:
+
+artifacts/baselines/raptor/smoke/
+artifacts/baselines/longrag/smoke/
+
+Mỗi run phải có:
+
+- config.json;
+- run_metadata.json;
+- per_query_predictions.jsonl;
+- retrieval_traces.jsonl;
+- summary_metrics.json;
+- stdout.log hoặc execution.log;
+- error records;
+- index metadata;
+- model versions;
+- manifest hashes.
+
+Kiểm tra thủ công ít nhất 3 retrieval traces mỗi baseline và ghi:
+
+analysis/official_baseline_smoke_review.md
+
+Không được tổng hợp số liệu nếu run bị lỗi phần lớn hoặc số câu hợp lệ không đủ.
+
+==================================================
+TASK 9 — MAIN EVALUATION
+==================================================
+
+Chỉ chạy sau khi:
+
+- protocol đã khóa;
+- manifest đã hash;
+- smoke test qua;
+- evaluator tests qua;
+- configuration đã được lưu.
+
+Chạy tối thiểu:
+
+- RAPTOR faithful;
+- LongRAG faithful;
+- B3 flat baseline hợp lệ;
+- B4 static hierarchy;
+- EDAHR configuration được đánh giá.
+
+Nếu tài nguyên cho phép, chạy nhiều seed. Nếu model deterministic và index cố định, giải thích rõ phần nào deterministic.
+
+Tất cả systems phải chạy trên cùng câu hỏi.
+
+Báo cáo:
+
+- sample size;
+- failures;
+- valid/evaluable counts;
+- recall@k;
+- official evidence F1;
+- leaf attribution F1;
+- answer EM/F1;
+- context tokens;
+- latency;
+- indexing time;
+- memory;
+- API/GPU cost;
+- paired p-values;
+- paper-clustered 95% confidence intervals.
+
+Không tuyên bố superiority nếu confidence interval chứa 0 hoặc protocol không đủ lực thống kê.
+
+==================================================
+TASK 10 — REPRODUCTION COMMANDS
+==================================================
+
+Tạo hoặc cập nhật:
+
+analysis/repro_official_baselines.md
+
+Cung cấp lệnh chính xác cho:
+
+1. Cài dependencies.
+2. Chuẩn bị/download models.
+3. Tạo frozen manifest.
+4. Xây RAPTOR index.
+5. Xây LongRAG index.
+6. Chạy smoke test.
+7. Chạy dev evaluation.
+8. Chạy frozen main evaluation.
+9. Tạo bảng kết quả.
+10. Chạy tests.
+
+Mỗi command phải chạy từ repository root và không chứa đường dẫn máy cá nhân ngoài repository.
+
+==================================================
+TASK 11 — CẬP NHẬT TEST
+==================================================
+
+Bổ sung test cho official/faithful adapters, không chỉ test lightweight versions.
+
+Chạy tối thiểu:
+
+- tests/test_baselines.py
+- tests/test_evaluation.py
+- tests/test_qasper.py
+- tests/test_pipeline.py
+- toàn bộ test suite nếu thời gian cho phép.
+
+Báo cáo chính xác:
+
+- số test passed;
+- số skipped;
+- số failed;
+- lý do skip;
+- test nào cần model/API/GPU.
+
+Không sửa test để che lỗi implementation.
+
+==================================================
+TASK 12 — CẬP NHẬT BÀI BÁO
+==================================================
+
+Chỉ cập nhật `tools/create_ieee_paper.py` và DOCX sau khi có kết quả thực nghiệm hợp lệ.
+
+Quy tắc ghi tên:
+
+- Implementation lightweight hiện tại phải được ghi:
+  - RAPTOR-style lexical
+  - LongRAG-style long-unit
+- Chỉ dùng “RAPTOR faithful/official” và “LongRAG faithful/official” cho run mới thực sự bám sát phương pháp gốc.
+
+Bài phải nói rõ:
+
+- official code hay reimplementation;
+- model versions;
+- adaptations cho QASPER;
+- sample size;
+- frozen manifest;
+- primary và controlled setting;
+- compute/cost;
+- limitations;
+- statistical uncertainty.
+
+Không thay số liệu cũ bằng số liệu mới nếu artifact run tương ứng không tồn tại.
+
+Sau khi tạo DOCX:
+- chạy structural audit;
+- render toàn bộ DOCX;
+- kiểm tra trực quan từng trang;
+- kiểm tra bảng không tràn;
+- kiểm tra references và citation numbering.
+
+==================================================
+DEFINITION OF DONE
+==================================================
+
+Chỉ báo “hoàn thành” khi đáp ứng tất cả:
+
+[ ] Có audit khoảng cách với paper gốc.
+[ ] Có nguồn official, commit/version và license.
+[ ] Có frozen manifests và SHA-256.
+[ ] RAPTOR primary dùng semantic embeddings.
+[ ] RAPTOR primary dùng abstractive summaries.
+[ ] RAPTOR thực hiện recursive tree retrieval thực sự.
+[ ] LongRAG primary dùng semantic long-unit retrieval.
+[ ] LongRAG có long-context reader thực sự.
+[ ] Cả hai giữ được paragraph/leaf provenance.
+[ ] Cả hai chạy trên cùng frozen QASPER manifest.
+[ ] Có per-query predictions và retrieval traces.
+[ ] Có config, model IDs, seed và environment metadata.
+[ ] Có smoke results được kiểm tra.
+[ ] Có main evaluation hoặc ghi rõ blocker tài nguyên.
+[ ] Có statistical comparison.
+[ ] Tests qua.
+[ ] Reproduction commands chạy được.
+[ ] Bài báo phân biệt rõ lightweight và faithful baselines.
+[ ] Không có số liệu giả hoặc số liệu không truy được về run artifact.
+
+==================================================
+BÁO CÁO CUỐI CÙNG
+==================================================
+
+Khi kết thúc, trả về báo cáo theo cấu trúc:
+
+1. Kết luận
+   - Completed / Partially completed / Blocked.
+
+2. Files đã tạo hoặc sửa
+   - Liệt kê từng file và mục đích.
+
+3. RAPTOR
+   - Official source/version.
+   - Cách triển khai.
+   - Khác biệt còn lại với paper gốc.
+   - Kết quả smoke/main.
+
+4. LongRAG
+   - Official source/version.
+   - Cách triển khai.
+   - Khác biệt còn lại với paper gốc.
+   - Kết quả smoke/main.
+
+5. Evaluation
+   - Manifest.
+   - Sample size.
+   - Metrics.
+   - Statistical tests.
+   - Compute/cost.
+
+6. Verification
+   - Commands đã chạy.
+   - Test results.
+   - Artifact paths.
+
+7. Blockers
+   - API keys, model access, GPU, disk hoặc license.
+   - Phần nào đã chuẩn bị nhưng chưa chạy.
+
+8. Remaining work
+   - Danh sách cụ thể, không dùng mô tả chung chung.
+
+Hãy bắt đầu bằng TASK 1. Không nhảy trực tiếp sang sửa bài báo hoặc tạo bảng kết quả.

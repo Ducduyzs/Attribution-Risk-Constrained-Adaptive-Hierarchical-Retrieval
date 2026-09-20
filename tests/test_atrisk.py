@@ -142,7 +142,7 @@ class CheckpointMetadataTests(unittest.TestCase):
             self.assertEqual(payload["schema_version"], 1)
             self.assertEqual(payload["checkpoint_sha256"], sha256_file(checkpoint))
             self.assertEqual(payload["source_rollouts_sha256"], sha256_file(rollouts))
-            self.assertEqual(payload["feature_dim"], 14)
+            self.assertEqual(payload["feature_dim"], 13)
             self.assertTrue(payload["v5_constraints"]["enabled"])
             self.assertEqual(payload["training_report"]["val_auc"], 0.75)
 

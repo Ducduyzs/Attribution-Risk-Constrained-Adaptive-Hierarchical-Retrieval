@@ -48,5 +48,32 @@
   "bm25_b": 0.75,
   "seed": 42,
   "gemini_api_key": null,
-  "openai_api_key": null
+  "openai_api_key": null,
+  "raptor_faithful": {
+    "embedding_model": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
+    "summarizer_provider": "gemini",
+    "summarizer_model": "gemini-3.8-flash",
+    "umap_dim": 10,
+    "threshold": 0.1,
+    "max_clusters": 50,
+    "max_length_in_cluster": 3500,
+    "top_k": 10,
+    "retrieval_max_tokens": 3500,
+    "collapsed": true,
+    "max_layers": 5,
+    "seed": 224,
+    "cache_dir": "artifacts/baselines/raptor/index",
+    "device": "cuda"
+  },
+  "longrag_faithful": {
+    "embedding_model": "BAAI/bge-large-en-v1.5",
+    "subchunk_tokens": 512,
+    "top_k": 2,
+    "reader_provider": "shared-controlled",
+    "reader_model": "gemini-1.5-pro",
+    "reader_api_key": null,
+    "cache_dir": "artifacts/baselines/longrag/index",
+    "device": "cuda",
+    "batch_size": 32
+  }
 }

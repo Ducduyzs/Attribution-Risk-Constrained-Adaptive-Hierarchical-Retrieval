@@ -1,0 +1,9 @@
+{
+ "baseline": "B6_longrag_faithful",
+ "embedding_model": "BAAI/bge-large-en-v1.5",
+ "subchunk_tokens": 512,
+ "top_k": 2,
+ "reader": "shared-controlled",
+ "units": 3,
+ "index_build_time_s": 145.344789480092
+}

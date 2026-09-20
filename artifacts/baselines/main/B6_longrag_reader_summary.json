@@ -1,0 +1,31 @@
+{
+ "system": "B6_longrag_reader_local",
+ "reader_model": "Qwen/Qwen2.5-7B-Instruct",
+ "reader_classification": "local substitution; not an official LongRAG reader",
+ "num_queries": 75,
+ "num_unique_questions": 75,
+ "failures": 0,
+ "answer_f1": 0.21772534923440076,
+ "official_qasper_evidence_f1": 0.09641555527644986,
+ "b3_answer_f1": 0.19846800528043387,
+ "answer_f1_delta_vs_b3": 0.019257343953966888,
+ "paired_p_vs_b3_answer_f1": 0.5614385614385614,
+ "paper_clustered_95ci_delta_vs_b3_answer_f1": [
+  -0.05597571927841496,
+  0.09277104414360567
+ ],
+ "gpu_peak_gb": 17.26,
+ "latency": null,
+ "context_tokens": null,
+ "limitations": [
+  "Recovery rows did not record per-query latency.",
+  "Recovery rows did not record per-query context token counts.",
+  "Qwen2.5-7B-Instruct is an offline local substitution for the paper's Gemini-1.5-Pro/GPT-4o reader."
+ ],
+ "provenance": {
+  "predictions_sha256": "003617aa9e2477e474f78846502885dd19b82ec566fd6a5d19825836aba50527",
+  "question_manifest_sha256": "dbdc9f30f9efd3a5569453c1d6086c639703965bd5d46d07ed7ac49a41e8d9df",
+  "resume_metadata": "artifacts\\baselines\\main\\run_metadata_reader_resume.json",
+  "execution_log": "artifacts/baselines/main/execution_reader_resume.log"
+ }
+}

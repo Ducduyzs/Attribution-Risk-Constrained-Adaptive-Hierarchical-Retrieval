@@ -15,13 +15,14 @@ from __future__ import annotations
 
 import hashlib
 import json
+import math
 from datetime import datetime, timezone
 import random
 from pathlib import Path
 from typing import Sequence
 
 
-FEATURE_DIM = 14
+FEATURE_DIM = 13
 
 
 def load_rollout_rows(path: str | Path) -> list[dict]:
@@ -34,7 +35,7 @@ def _labels(rows: Sequence[dict], key: str) -> tuple[list[list[float]], list[int
     for row in rows:
         vector = [float(v) for v in row["features"][:FEATURE_DIM]]
         while len(vector) < FEATURE_DIM:
-            vector.append(0.0)  # legacy 10-dim rows
+            vector.append(0.0)
         features.append(vector)
     targets = [int(row[key]) for row in rows]
     return features, targets
@@ -111,6 +112,89 @@ def _rank_auc(logits: list[float], labels: Sequence[int]) -> float:
     return (wins + 0.5 * ties) / (len(positives) * len(negatives))
 
 
+def _brier_score(probs: list[float], labels: Sequence[int]) -> float:
+    """Brier score (mean squared error of probabilistic predictions)."""
+    return sum((p - y) ** 2 for p, y in zip(probs, labels)) / max(1, len(labels))
+
+
+def _ece(probs: list[float], labels: Sequence[int], n_bins: int = 10) -> float:
+    """Expected Calibration Error."""
+    if not probs:
+        return 0.0
+    bin_counts = [0] * n_bins
+    bin_conf = [0.0] * n_bins
+    bin_acc = [0.0] * n_bins
+    for p, y in zip(probs, labels):
+        idx = min(int(p * n_bins), n_bins - 1)
+        bin_counts[idx] += 1
+        bin_conf[idx] += p
+        bin_acc[idx] += y
+    ece = 0.0
+    total = len(probs)
+    for i in range(n_bins):
+        if bin_counts[i] > 0:
+            avg_conf = bin_conf[i] / bin_counts[i]
+            avg_acc = bin_acc[i] / bin_counts[i]
+            ece += (bin_counts[i] / total) * abs(avg_acc - avg_conf)
+    return ece
+
+
+def _paper_grouped_auc(
+    logits: list[float], labels: Sequence[int], sources: Sequence[str]
+) -> tuple[float, tuple[float, float]]:
+    """Compute paper-grouped AUC with clustered bootstrap CI.
+
+    Returns (auc, (ci_low, ci_high)) where CI is 95% clustered by source.
+    """
+    if not logits or not labels or not sources:
+        return 0.5, (0.5, 0.5)
+
+    def _auc_for_indices(indices: list[int]) -> float:
+        sub_logits = [logits[i] for i in indices]
+        sub_labels = [labels[i] for i in indices]
+        return _rank_auc(sub_logits, sub_labels)
+
+    auc = _rank_auc(logits, labels)
+
+    by_source: dict[str, list[int]] = {}
+    for i, src in enumerate(sources):
+        by_source.setdefault(str(src), []).append(i)
+    groups = list(by_source.values())
+
+    if len(groups) < 2:
+        return auc, (auc, auc)
+
+    rng = random.Random(42)
+    n_groups = len(groups)
+    bootstrap_aucs: list[float] = []
+    for _ in range(1000):
+        sampled_groups = [groups[rng.randrange(n_groups)] for _ in range(n_groups)]
+        sampled_indices = [idx for g in sampled_groups for idx in g]
+        if len(sampled_indices) < 2:
+            continue
+        bootstrap_aucs.append(_auc_for_indices(sampled_indices))
+
+    if not bootstrap_aucs:
+        return auc, (auc, auc)
+
+    bootstrap_aucs.sort()
+    low = bootstrap_aucs[int(0.025 * len(bootstrap_aucs))]
+    high = bootstrap_aucs[min(len(bootstrap_aucs) - 1, int(0.975 * len(bootstrap_aucs)))]
+    return auc, (low, high)
+
+
+def _sigmoid(x: float) -> float:
+    return 1.0 / (1.0 + math.exp(-x))
+
+
+def _logits_to_probs(logits: list[float]) -> list[float]:
+    return [_logits_to_probs_single(l) for l in logits]
+
+
+def _logits_to_probs_single(logit: float) -> float:
+    return 1.0 / (1.0 + math.exp(-logit))
+
+
 def train_label(
     rows: Sequence[dict],
     label_key: str,
@@ -121,11 +205,18 @@ def train_label(
     hidden: int = 16,
     seed: int = 42,
     min_margin: float = 0.0,
+    min_auc: float = 0.60,
+    require_ci_exclude_half: bool = True,
 ) -> tuple[object, dict]:
     """Fit a small MLP on one binary level-step label; returns (model, report).
 
     ``min_margin`` drops rows whose reward gap between the compared branches is
     ambiguous (|gap| <= min_margin), trading coverage for label cleanliness.
+
+    Dev acceptance criteria (fail-fast):
+    - Paper-grouped AUC > ``min_auc`` (default 0.60)
+    - 95% clustered CI of AUC does not contain 0.50
+    - Reports Brier score and ECE for calibration monitoring
     """
     import torch
     from torch import nn
@@ -191,7 +282,20 @@ def train_label(
         train_logits = model(x_t).flatten().tolist()
         val_logits = model(x_v).flatten().tolist()
 
+    train_probs = _logits_to_probs(train_logits)
+    val_probs = _logits_to_probs(val_logits)
+
     positive_rate = sum(y_train) / len(y_train)
+    val_auc = _rank_auc(val_logits, y_val)
+    val_sources = [str(row.get("source") or row["query"]) for row in val_rows]
+    paper_auc, (ci_low, ci_high) = _paper_grouped_auc(val_logits, y_val, val_sources)
+    val_brier = _brier_score(val_probs, y_val)
+    val_ece = _ece(val_probs, y_val)
+
+    ci_excludes_half = not (ci_low <= 0.5 <= ci_high)
+    auc_passes = paper_auc > min_auc
+    ci_passes = ci_excludes_half if require_ci_exclude_half else True
+
     report = {
         "label": label_key,
         "rows_total": len(rows),
@@ -202,10 +306,35 @@ def train_label(
         "positive_rate_train": round(positive_rate, 4),
         "train_acc": round(_accuracy(train_logits, y_train), 4),
         "val_acc": round(_accuracy(val_logits, y_val), 4),
-        "val_auc": round(_rank_auc(val_logits, y_val), 4),
+        "val_auc": round(val_auc, 4),
+        "paper_grouped_auc": round(paper_auc, 4),
+        "paper_auc_ci_low": round(ci_low, 4),
+        "paper_auc_ci_high": round(ci_high, 4),
+        "ci_excludes_half": ci_excludes_half,
+        "val_brier": round(val_brier, 4),
+        "val_ece": round(val_ece, 4),
         "always_merge_acc": round(positive_rate, 4),
         "never_merge_acc": round(1.0 - positive_rate, 4),
+        "dev_criteria": {
+            "min_auc": min_auc,
+            "auc_passes": auc_passes,
+            "ci_excludes_half_required": require_ci_exclude_half,
+            "ci_passes": ci_passes,
+            "all_pass": auc_passes and ci_passes,
+        },
     }
+
+    if not (auc_passes and ci_passes):
+        reasons = []
+        if not auc_passes:
+            reasons.append(f"paper-grouped AUC {paper_auc:.4f} <= {min_auc}")
+        if not ci_passes:
+            reasons.append(f"clustered CI [{ci_low:.4f}, {ci_high:.4f}] contains 0.50")
+        raise RuntimeError(
+            f"Dev criteria not met for {label_key}: {'; '.join(reasons)}. "
+            f"Brier={val_brier:.4f}, ECE={val_ece:.4f}."
+        )
+
     return model, report
 
 

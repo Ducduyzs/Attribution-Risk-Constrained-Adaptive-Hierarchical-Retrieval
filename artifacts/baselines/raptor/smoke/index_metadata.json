@@ -1,0 +1,29 @@
+{
+ "baseline": "B5_raptor_faithful",
+ "embedding_model": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
+ "summarizer_provider": "local",
+ "summarizer_model": "facebook/bart-large-cnn",
+ "umap_dim": 10,
+ "threshold": 0.1,
+ "max_clusters": 50,
+ "max_length_in_cluster": 3500,
+ "top_k": 10,
+ "retrieval_max_tokens": 3500,
+ "collapsed": true,
+ "seed": 224,
+ "sources": [
+  "1603.09631.qasper",
+  "1909.13104.qasper",
+  "1910.01863.qasper"
+ ],
+ "nodes_per_source": {
+  "1603.09631.qasper": 58,
+  "1909.13104.qasper": 56,
+  "1910.01863.qasper": 82
+ },
+ "layers_per_source": {
+  "1603.09631.qasper": 6,
+  "1909.13104.qasper": 6,
+  "1910.01863.qasper": 6
+ }
+}

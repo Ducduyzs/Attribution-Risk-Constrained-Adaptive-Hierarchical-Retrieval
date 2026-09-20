@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import gc
 import hashlib
 import json
 import sys
@@ -70,6 +71,10 @@ def main() -> None:
                         help="append and skip question IDs already in --out")
     parser.add_argument("--samples", type=int, default=1)
     parser.add_argument("--max-groups", type=int, default=4)
+    parser.add_argument(
+        "--paper-batch-size", type=int, default=16,
+        help="build/release neural indexes in paper batches; 0 loads the full split",
+    )
     parser.add_argument("--include-non-evaluable", action="store_true")
     args = parser.parse_args()
 
@@ -86,6 +91,8 @@ def main() -> None:
     )
     if not papers or not questions:
         raise ValueError("selection produced no QASPER papers/questions")
+    selected_papers = list(papers)
+    selected_questions = list(questions)
     out = Path(args.out)
     if not out.is_absolute():
         out = PROJECT_ROOT / out
@@ -115,36 +122,72 @@ def main() -> None:
         changes["llm_model"] = args.model
     settings = replace(settings, **changes)
 
-    documents = documents_from_paper_records(papers)
-    pipeline = build_pipeline_from_documents(documents, settings)
-    enriched: list[dict] = []
-    for record in questions:
-        copy = dict(record)
-        gold_ids, _ = auto_label_gold_children(pipeline.hierarchy, copy)
-        copy["gold_child_ids"] = sorted(gold_ids)
-        copy["reference_child_sets"] = [
-            sorted(children_for_paragraphs(pipeline.hierarchy, paragraph_ids))
-            for paragraph_ids in copy.get("reference_paragraph_sets") or ()
-        ]
-        copy["citation_evaluable"] = bool(gold_ids)
-        enriched.append(copy)
-
     selected_path = out.with_suffix(".selection.jsonl")
-    write_jsonl(enriched, selected_path)
-    rows = RolloutRunner(
-        pipeline, settings=settings, samples=args.samples,
-        max_groups_per_query=args.max_groups,
-    ).run_records(enriched, out, append=args.resume)
-    evaluable_questions = sum(bool(row.get("citation_evaluable")) for row in enriched)
+    selection_by_id = {
+        str(row.get("question_id") or ""): row
+        for row in (read_jsonl(selected_path) if args.resume and selected_path.is_file() else [])
+    }
+    pending_by_paper: dict[str, list[dict]] = {}
+    for record in questions:
+        pending_by_paper.setdefault(str(record["paper_id"]), []).append(record)
+    pending_paper_ids = list(pending_by_paper)
+    batch_size = args.paper_batch_size if args.paper_batch_size > 0 else len(pending_paper_ids)
+    paper_by_id = {str(row["paper_id"]): row for row in papers}
+    rows: list[dict] = []
+    first_batch = True
+    for start in range(0, len(pending_paper_ids), max(1, batch_size)):
+        batch_ids = pending_paper_ids[start:start + max(1, batch_size)]
+        batch_papers = [paper_by_id[paper_id] for paper_id in batch_ids]
+        pipeline = build_pipeline_from_documents(
+            documents_from_paper_records(batch_papers), settings
+        )
+        enriched: list[dict] = []
+        for paper_id in batch_ids:
+            for record in pending_by_paper[paper_id]:
+                copy = dict(record)
+                gold_ids, _ = auto_label_gold_children(pipeline.hierarchy, copy)
+                copy["gold_child_ids"] = sorted(gold_ids)
+                copy["reference_child_sets"] = [
+                    sorted(children_for_paragraphs(pipeline.hierarchy, paragraph_ids))
+                    for paragraph_ids in copy.get("reference_paragraph_sets") or ()
+                ]
+                copy["citation_evaluable"] = bool(gold_ids)
+                enriched.append(copy)
+                selection_by_id[str(copy["question_id"])] = copy
+        ordered_selection = [
+            selection_by_id[str(record["question_id"])]
+            for record in selected_questions
+            if str(record["question_id"]) in selection_by_id
+        ]
+        write_jsonl(ordered_selection, selected_path)
+        rows.extend(RolloutRunner(
+            pipeline, settings=settings, samples=args.samples,
+            max_groups_per_query=args.max_groups,
+        ).run_records(
+            enriched, out, append=(args.resume or not first_batch)
+        ))
+        first_batch = False
+        del pipeline
+        gc.collect()
+        try:
+            import torch
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+        except ImportError:
+            pass
+    final_selection = read_jsonl(selected_path)
+    evaluable_questions = sum(
+        bool(row.get("citation_evaluable")) for row in final_selection
+    )
     all_rows = read_jsonl(out)
     metadata = {
         "schema_version": 1, "dataset": "qasper-v0.3", "split": args.split,
         "provider": settings.llm_provider, "model": settings.llm_model,
-        "paper_count": len(papers), "question_count": len(enriched),
+        "paper_count": len(selected_papers), "question_count": len(selected_questions),
         "new_rollout_rows": len(rows), "total_rollout_rows": len(all_rows),
         "resumed_completed_question_ids": len(completed_ids),
         "citation_evaluable_questions": evaluable_questions,
-        "citation_evaluable_rate": evaluable_questions / max(1, len(enriched)),
+        "citation_evaluable_rate": evaluable_questions / max(1, len(selected_questions)),
         "paper_manifest_sha256": sha256(paper_path),
         "question_manifest_sha256": sha256(question_path),
         "selection_sha256": sha256(selected_path),

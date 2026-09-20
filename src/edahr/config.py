@@ -72,6 +72,11 @@ class Settings:
     seed: int = 42
     gemini_api_key: str | None = None
     openai_api_key: str | None = None
+    # Faithful external baselines (B5_raptor_faithful / B6_longrag_faithful).
+    # Dicts so model/version/hyperparameter choices stay in config files and
+    # run provenance; see RaptorFaithfulConfig / LongRagFaithfulConfig.
+    raptor_faithful: dict | None = None
+    longrag_faithful: dict | None = None
 
     @classmethod
     def from_json(cls, path: str | Path) -> "Settings":

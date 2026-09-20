@@ -1,0 +1,67 @@
+2026-09-19T13:46:43.939299 smoke papers=3 questions=6
+2026-09-19T13:46:43.939390 questions with >1 evidence paragraphs: 5
+2026-09-19T13:46:43.946238 loading shared stack (bge-m3 encoder/reranker, NLI verifier, generator)...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights:  85%|████████▍ | 334/393 [00:00<00:00, 3318.86it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 3249.98it/s]
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 3368.58it/s]
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:00<01:27,  4.95it/s]Loading weights:   4%|▎         | 16/434 [00:00<00:06, 63.70it/s]Loading weights:   6%|▌         | 27/434 [00:00<00:05, 73.61it/s]Loading weights:  12%|█▏        | 51/434 [00:00<00:03, 117.67it/s]Loading weights:  15%|█▍        | 64/434 [00:00<00:03, 114.09it/s]Loading weights:  18%|█▊        | 80/434 [00:00<00:02, 127.23it/s]Loading weights:  23%|██▎       | 99/434 [00:00<00:02, 130.18it/s]Loading weights:  26%|██▌       | 113/434 [00:01<00:02, 129.11it/s]Loading weights:  29%|██▉       | 127/434 [00:01<00:02, 129.21it/s]Loading weights:  34%|███▍      | 147/434 [00:01<00:01, 146.68it/s]Loading weights:  39%|███▉      | 171/434 [00:01<00:01, 142.52it/s]Loading weights:  43%|████▎     | 186/434 [00:01<00:01, 134.14it/s]Loading weights:  48%|████▊     | 207/434 [00:01<00:01, 127.93it/s]Loading weights:  53%|█████▎    | 231/434 [00:01<00:01, 146.94it/s]Loading weights:  57%|█████▋    | 247/434 [00:01<00:01, 139.77it/s]Loading weights:  62%|██████▏   | 267/434 [00:02<00:01, 146.99it/s]Loading weights:  65%|██████▍   | 282/434 [00:02<00:01, 136.32it/s]Loading weights:  70%|██████▉   | 303/434 [00:02<00:00, 145.37it/s]Loading weights:  73%|███████▎  | 318/434 [00:02<00:00, 140.79it/s]Loading weights:  78%|███████▊  | 339/434 [00:02<00:00, 146.02it/s]Loading weights:  82%|████████▏ | 354/434 [00:02<00:00, 138.75it/s]Loading weights:  86%|████████▋ | 375/434 [00:02<00:00, 132.46it/s]Loading weights:  92%|█████████▏| 399/434 [00:03<00:00, 152.43it/s]Loading weights:  96%|█████████▌| 415/434 [00:03<00:00, 144.97it/s]Loading weights: 100%|██████████| 434/434 [00:03<00:00, 133.99it/s]
+2026-09-19T13:47:16.376582 building hierarchy...
+2026-09-19T13:47:16.439389 children=90
+2026-09-19T13:47:16.454034 building B5_raptor_faithful pipeline (SBERT + LLM summaries)...
+[transformers] Please make sure the generation config includes `forced_bos_token_id=0`. 
+Loading weights:   0%|          | 0/511 [00:00<?, ?it/s]Loading weights:  66%|██████▌   | 336/511 [00:00<00:00, 3356.37it/s]Loading weights: 100%|██████████| 511/511 [00:00<00:00, 3148.93it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3626.73it/s]
+2026-09-19T13:48:43.117423 raptor summary: {"answer_em": 0.0, "answer_f1": 0.0, "citation_evaluable": 1.0, "citation_f1": 0.0, "citation_precision": 0.0, "citation_recall": 0.0, "confidence": 0.0, "context_tokens": 1463.1666666666667, "correct": 0.0, "evidence_span_recall": 0.0, "generated_claim_count": 3.8333333333333335, "hit_rate@10": 1.0, "hit_rate@3": 0.8333333333333334, "hit_rate@5": 1.0, "latency_ms": 13164.953595376574, "mrr": 0.6722222222222222, "ndcg@10": 0.6524899488101965, "ndcg@3": 0.5239780777904502, "ndcg@5": 0.573369135280423, "official_qasper_evidence_f1": 0.0, "precision@10": 0.26666666666666666, "precision@3": 0.38888888888888884, "precision@5": 0.3666666666666667, "provenance_accuracy": 0.0, "recall@10": 0.775, "recall@3": 0.43333333333333335, "recall@5": 0.5499999999999999, "verified_claim_count": 0.0, "latency_mean_ms": 13164.953595376574, "latency_p50_ms": 10447.012813063338, "latency_p95_ms": 32828.87310627848, "latency_max_ms": 32828.87310627848, "aurc": 1.0, "e_aurc": 0.0, "selective_accuracy@80cov": 0.0, "citation_f1_ci_low": 0.0, "citation_f1_ci_high": 0.0, "num_queries": 6.0, "citation_evaluable_queries": 6.0}
+2026-09-19T13:48:43.117762 building B6_longrag_faithful pipeline (bge-large-en-v1.5 units)...
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:  55%|█████▌    | 217/391 [00:00<00:00, 2169.70it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 1464.64it/s]
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-19T13:49:49.942229 LONGRAG READER PASS FAILED:
+Traceback (most recent call last):
+  File "/root/edahr/scripts/run_faithful_smoke.py", line 292, in main
+    answer = reader.generate_answer(record["query"], picked)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/edahr/src/edahr/baselines_longrag.py", line 408, in generate_answer
+    response = self.client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/google/genai/models.py", line 6270, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/google/genai/models.py", line 4707, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/google/genai/_api_client.py", line 1750, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/google/genai/_api_client.py", line 1537, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/venv/main/lib/python3.12/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/google/genai/_api_client.py", line 1514, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/venv/main/lib/python3.12/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/venv/main/lib/python3.12/site-packages/google/genai/errors.py", line 202, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash\nPlease retry in 17.742128425s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.8-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}
+
+2026-09-19T13:49:49.944108 longrag summary: {"answer_em": 0.0, "answer_f1": 0.0, "citation_evaluable": 1.0, "citation_f1": 0.0, "citation_precision": 0.0, "citation_recall": 0.0, "confidence": 0.0, "context_tokens": 1700.3333333333333, "correct": 0.0, "evidence_span_recall": 0.0, "generated_claim_count": 3.3333333333333335, "hit_rate@10": 1.0, "hit_rate@3": 0.8333333333333334, "hit_rate@5": 0.8333333333333334, "latency_ms": 10504.887212106647, "mrr": 0.6626984126984127, "ndcg@10": 0.6583981000185185, "ndcg@3": 0.5630846382923467, "ndcg@5": 0.5840332931943745, "official_qasper_evidence_f1": 0.0, "precision@10": 0.26666666666666666, "precision@3": 0.4444444444444444, "precision@5": 0.3666666666666667, "provenance_accuracy": 0.0, "recall@10": 0.7583333333333333, "recall@3": 0.47500000000000003, "recall@5": 0.5750000000000001, "verified_claim_count": 0.0, "latency_mean_ms": 10504.887212106647, "latency_p50_ms": 11012.937980005518, "latency_p95_ms": 20083.944944432005, "latency_max_ms": 20083.944944432005, "aurc": 1.0, "e_aurc": 0.0, "selective_accuracy@80cov": 0.0, "citation_f1_ci_low": 0.0, "citation_f1_ci_high": 0.0, "num_queries": 6.0, "citation_evaluable_queries": 6.0}
+2026-09-19T13:49:49.945509 smoke done

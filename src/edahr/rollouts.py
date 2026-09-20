@@ -273,24 +273,35 @@ class RolloutRunner:
                         "harmful_rate": round(harmful, 4),
                         "ambiguity": float(branch.get("ambiguous_rate", 0.0)),
                         "empty_evidence": int(not V),
-                    }
+}
 
-                weights = self.weights
-                for name_branch, branch in branches.items():
-                    metrics_v5 = v5_metrics(branch)
-                    branch["v5"] = metrics_v5
-                    branch["reward"] = round(
-                        weights.answer_quality * branch["answer_f1"]
-                        + weights.citation_recall_w * metrics_v5["citation_recall"]
-                        + weights.citation_precision_w * metrics_v5["citation_precision"]
-                        + weights.rescue_w * metrics_v5["rescue"] / max(1, len(G_ids))
-                        - weights.harmful_lambda * metrics_v5["harmful_rate"]
-                        - weights.ambiguity_lambda * metrics_v5["ambiguity"]
-                        - weights.empty_evidence_lambda * metrics_v5["empty_evidence"]
-                        - weights.tokens_beta * min(1.0, branch["tokens"] / max(1, settings.context_token_budget))
-                        - weights.latency_gamma * min(1.0, branch["latency_ms"] / 5000.0),
-                        6,
-                    )
+            weights = self.weights
+            for name_branch, branch in branches.items():
+                metrics_v5 = v5_metrics(branch)
+                branch["v5"] = metrics_v5
+                branch["reward"] = round(
+                    weights.citation_recall_w * metrics_v5["citation_recall"]
+                    + weights.citation_precision_w * metrics_v5["citation_precision"]
+                    + weights.rescue_w * metrics_v5["rescue"] / max(1, len(metrics_v5["gold_ids"]))
+                    - weights.harmful_lambda * metrics_v5["harmful_rate"]
+                    - weights.ambiguity_lambda * metrics_v5["ambiguity"]
+                    - weights.empty_evidence_lambda * metrics_v5["empty_evidence"]
+                    - weights.tokens_beta * min(1.0, branch["tokens"] / max(1, settings.context_token_budget))
+                    - weights.latency_gamma * min(1.0, branch["latency_ms"] / 5000.0),
+                    6,
+                )
+        else:
+            # Legacy reward without gold (retrieval/verification only)
+            weights = self.weights
+            for name_branch, branch in branches.items():
+                branch["reward"] = round(
+                    weights.evidence_recall * branch["coverage"]
+                    + weights.citation_quality * branch["citation_quality"]
+                    - weights.attribution_risk_lambda * branch["attribution_risk"]
+                    - weights.tokens_beta * min(1.0, branch["tokens"] / max(1, settings.context_token_budget))
+                    - weights.latency_gamma * min(1.0, branch["latency_ms"] / 5000.0),
+                    6,
+                )
 
             row = RolloutRow(
                 query=query,
@@ -461,6 +472,8 @@ class RolloutRunner:
             "attribution_risk": round(means["attribution_risk"], 4),
             "unsupported_claim_rate": round(means["unsupported_claim_rate"], 4),
             "citation_survival_rate": round(means["citation_survival_rate"], 4),
+            "coverage": round(means["coverage"], 4),
+            "citation_quality": round(means["citation_quality"], 4),
             "ambiguous_rate": round(
                 float(verification_metrics.get("ambiguous_claims", 0.0))
                 / max(1.0, means["generated_claims"]), 4),

@@ -43,6 +43,10 @@ def main() -> None:
                         help="harmful-drift ceiling in the v5 constraint")
     parser.add_argument("--tau", type=float, default=0.02,
                         help="minimum reward gain required to label EXPAND")
+    parser.add_argument("--min-auc", type=float, default=0.60,
+                        help="minimum paper-grouped AUC required on dev (fail-fast)")
+    parser.add_argument("--no-ci-check", action="store_true",
+                        help="disable fail-fast on clustered CI containing 0.50")
     args = parser.parse_args()
 
     rollout_path = PROJECT_ROOT / args.rollouts
@@ -50,7 +54,10 @@ def main() -> None:
     if args.v5:
         rows = relabel_v5(rows, args.label.removeprefix("label_"),
                           epsilon=args.epsilon, delta=args.delta, tau=args.tau)
-    model, report = train_label(rows, args.label, seed=args.seed, min_margin=args.min_margin)
+    model, report = train_label(
+        rows, args.label, seed=args.seed, min_margin=args.min_margin,
+        min_auc=args.min_auc, require_ci_exclude_half=not args.no_ci_check,
+    )
     out = export_checkpoint(model, PROJECT_ROOT / args.out)
     report["checkpoint"] = str(out)
     metadata = write_checkpoint_metadata(

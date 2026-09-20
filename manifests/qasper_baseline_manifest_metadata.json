@@ -1,0 +1,30 @@
+{
+  "script_version": "create_baseline_manifest v1",
+  "created_utc": "2026-09-19T11:12:05.083650+00:00",
+  "seed": 42,
+  "selection_rules": "seeded shuffle of paper ids; keep papers with >=1 gold-evidence question; per paper prefer questions with more gold paragraphs, capped at dev=3/paper, test=2/paper",
+  "splits": {
+    "dev": {
+      "dataset": "qasper-v0.3",
+      "split": "dev",
+      "source_file": "data\\qasper\\qasper-dev-v0.3.json",
+      "source_sha256": "2ae7ee62a65b1c4225791c70de80c2aad4e8998cf1fd4f09a53103db4f21af93",
+      "paper_count": 30,
+      "question_count": 75,
+      "papers_manifest_sha256": "de88ba40268be1f0fa535d60824b002bca46552b002652a9f9e3cd23a22068d0",
+      "questions_manifest_sha256": "dbdc9f30f9efd3a5569453c1d6086c639703965bd5d46d07ed7ac49a41e8d9df"
+    },
+    "test": {
+      "dataset": "qasper-v0.3",
+      "split": "test",
+      "source_file": "data\\qasper\\qasper-test-v0.3.json",
+      "source_sha256": "6e29ad410e6e39aa1936017fb965b30a20eb2e7751997f55b97c9d281aa884e5",
+      "paper_count": 60,
+      "question_count": 113,
+      "papers_manifest_sha256": "ab477eb27906b1fd643660ab24041c6a4f14ddfe510ff12dbc60b9596c82e964",
+      "questions_manifest_sha256": "d9bd0190a617ee60565b0284afc9eb4ce16a648f7f1077aa932d2c6774db2235"
+    }
+  },
+  "git_commit": "cdb875eb36ccf661325f0ceffcdf08173cc49e7d",
+  "dirty_worktree": true
+}

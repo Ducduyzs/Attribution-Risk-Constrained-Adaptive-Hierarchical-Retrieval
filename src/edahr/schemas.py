@@ -111,7 +111,6 @@ class MergeFeatures:
     # construction stays valid; checkpoints are dim-sensitive either way).
     member_count_norm: float = 0.0
     member_score_entropy: float = 0.0
-    section_tokens_norm: float = 0.0
     query_length_norm: float = 0.0
 
     def vector(self) -> list[float]:

@@ -1,0 +1,104 @@
+{
+ "task": "shared GPT-4o reader over leaf-normalized frozen contexts",
+ "num_questions": 75,
+ "pricing": {
+  "input_usd_per_million": 2.5,
+  "output_usd_per_million": 10.0,
+  "source": "https://developers.openai.com/api/docs/models/gpt-4o",
+  "accessed_date": "2026-09-20"
+ },
+ "systems": {
+  "B3_flat_neural": {
+   "num_queries": 75,
+   "failures": 0,
+   "answer_f1": 0.32083598545779396,
+   "official_qasper_evidence_f1": 0.189715123205068,
+   "mean_prompt_tokens": 1848.6133333333332,
+   "prompt_tokens": 138646,
+   "completion_tokens": 2781,
+   "total_tokens": 141427,
+   "mean_latency_ms": 3011.2284866689392,
+   "response_models": [
+    "gpt-4o-2024-08-06"
+   ],
+   "estimated_api_cost_usd": 0.374425,
+   "rows_sha256": "3e626c5f8ba3f80d1e52fc98b5655f26578383287bc49d2437dae69c78582fa0"
+  },
+  "B4_static_hierarchy": {
+   "num_queries": 75,
+   "failures": 0,
+   "answer_f1": 0.27956887303550054,
+   "official_qasper_evidence_f1": 0.1428501964382369,
+   "mean_prompt_tokens": 3371.306666666667,
+   "prompt_tokens": 252848,
+   "completion_tokens": 3062,
+   "total_tokens": 255910,
+   "mean_latency_ms": 6774.946729333606,
+   "response_models": [
+    "gpt-4o-2024-08-06"
+   ],
+   "estimated_api_cost_usd": 0.66274,
+   "rows_sha256": "8c0758fc639dbc6221c6165c65237a82881c765af0873fc811c6b55755c0a73a"
+  },
+  "edahr_prior": {
+   "num_queries": 75,
+   "failures": 0,
+   "answer_f1": 0.3139395222287205,
+   "official_qasper_evidence_f1": 0.1673499343669653,
+   "mean_prompt_tokens": 2575.213333333333,
+   "prompt_tokens": 193141,
+   "completion_tokens": 2912,
+   "total_tokens": 196053,
+   "mean_latency_ms": 5178.438915997588,
+   "response_models": [
+    "gpt-4o-2024-08-06"
+   ],
+   "estimated_api_cost_usd": 0.5119725,
+   "rows_sha256": "6365cf5240abeba52b4d3a2ae2fff8807a9948da8c82e74f7ffbfdf2d0fa6df1"
+  },
+  "B5_raptor_faithful": {
+   "num_queries": 75,
+   "failures": 0,
+   "answer_f1": 0.312587090605374,
+   "official_qasper_evidence_f1": 0.19902364317305762,
+   "mean_prompt_tokens": 1711.8133333333333,
+   "prompt_tokens": 128386,
+   "completion_tokens": 2803,
+   "total_tokens": 131189,
+   "mean_latency_ms": 3463.679731996575,
+   "response_models": [
+    "gpt-4o-2024-08-06"
+   ],
+   "estimated_api_cost_usd": 0.348995,
+   "rows_sha256": "8100bd1df8f7bc36b5903d7097f45e7c184301cf0743f4041a1bf678a0c30807"
+  }
+ },
+ "comparisons_vs_B3": {
+  "B4_static_hierarchy": {
+   "answer_f1_delta": -0.04126711242229342,
+   "paired_p": 0.02097902097902098,
+   "paper_clustered_95ci": [
+    -0.07412628977629326,
+    -0.010750978674907664
+   ]
+  },
+  "edahr_prior": {
+   "answer_f1_delta": -0.006896463229073446,
+   "paired_p": 0.5394605394605395,
+   "paper_clustered_95ci": [
+    -0.02849820111550035,
+    0.014411678395350208
+   ]
+  },
+  "B5_raptor_faithful": {
+   "answer_f1_delta": -0.008248894852419975,
+   "paired_p": 0.4875124875124875,
+   "paper_clustered_95ci": [
+    -0.032017061337909124,
+    0.013717063991393505
+   ]
+  }
+ },
+ "manifest_sha256": "dbdc9f30f9efd3a5569453c1d6086c639703965bd5d46d07ed7ac49a41e8d9df",
+ "total_estimated_api_cost_usd": 1.8981325
+}

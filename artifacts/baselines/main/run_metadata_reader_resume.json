@@ -1,0 +1,23 @@
+{
+ "task": "resume LongRAG local reader",
+ "seed": 42,
+ "questions_total": 75,
+ "rows_before": 38,
+ "rows_after": 75,
+ "selected_pending": 37,
+ "errors": 0,
+ "gpu_peak_gb": 17.26,
+ "manifest_hashes": {
+  "dev_papers": "de88ba40268be1f0fa535d60824b002bca46552b002652a9f9e3cd23a22068d0",
+  "dev_questions": "dbdc9f30f9efd3a5569453c1d6086c639703965bd5d46d07ed7ac49a41e8d9df"
+ },
+ "settings": {
+  "llm_provider": "openai",
+  "openai_api_key": "<redacted>",
+  "gemini_api_key": "<redacted>",
+  "raptor_faithful": {
+   "summarizer_provider": "local",
+   "summarizer_model": "facebook/bart-large-cnn"
+  }
+ }
+}

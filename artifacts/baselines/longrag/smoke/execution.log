@@ -1,0 +1,63 @@
+2026-09-19T14:21:15.816115 smoke papers=3 questions=6
+2026-09-19T14:21:15.816204 questions with >1 evidence paragraphs: 5
+2026-09-19T14:21:15.816882 loading shared stack (bge-m3 encoder/reranker, NLI verifier, generator)...
+2026-09-19T14:22:02.329500 building hierarchy...
+2026-09-19T14:22:02.417269 children=90
+2026-09-19T14:22:02.430289 building B5_raptor_faithful pipeline (SBERT + LLM summaries)...
+2026-09-19T14:23:05.997602 raptor summary: {"answer_em": 0.0, "answer_f1": 0.2136772486772487, "citation_evaluable": 1.0, "citation_f1": 0.2191919191919192, "citation_precision": 0.5833333333333334, "citation_recall": 0.14166666666666666, "confidence": 0.6666666666666666, "context_tokens": 1463.1666666666667, "correct": 0.16666666666666666, "evidence_span_recall": 0.2777777777777778, "generated_claim_count": 2.5, "hit_rate@10": 1.0, "hit_rate@3": 0.8333333333333334, "hit_rate@5": 1.0, "latency_ms": 9322.86397976956, "mrr": 0.6722222222222222, "ndcg@10": 0.6524899488101965, "ndcg@3": 0.5239780777904502, "ndcg@5": 0.573369135280423, "official_qasper_evidence_f1": 0.40277777777777773, "precision@10": 0.26666666666666666, "precision@3": 0.38888888888888884, "precision@5": 0.3666666666666667, "provenance_accuracy": 0.0, "recall@10": 0.775, "recall@3": 0.43333333333333335, "recall@5": 0.5499999999999999, "verified_claim_count": 1.0, "latency_mean_ms": 9322.86397976956, "latency_p50_ms": 6263.267296832055, "latency_p95_ms": 26826.980817131698, "latency_max_ms": 26826.980817131698, "aurc": 0.8416666666666667, "e_aurc": 0.25, "selective_accuracy@80cov": 0.2, "citation_f1_ci_low": 0.09696969696969697, "citation_f1_ci_high": 0.3414141414141414, "num_queries": 6.0, "citation_evaluable_queries": 6.0}
+2026-09-19T14:23:05.997860 building B6_longrag_faithful pipeline (bge-large-en-v1.5 units)...
+2026-09-19T14:32:01.369454 LONGRAG READER PASS FAILED:
+Traceback (most recent call last):
+  File "/root/edahr/scripts/run_faithful_smoke.py", line 296, in main
+    answer = reader.generate_answer(record["query"], picked)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/edahr/src/edahr/baselines_longrag.py", line 471, in generate_answer
+    output = self.model_nn.generate(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/transformers/generation/utils.py", line 2802, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/transformers/generation/utils.py", line 3030, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/accelerate/hooks.py", line 192, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/transformers/utils/generic.py", line 939, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 465, in forward
+    logits = self.lm_head(hidden_states[:, slice_indices, :])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/accelerate/hooks.py", line 187, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/accelerate/hooks.py", line 50, in wrapper
+    return wrapper._compiled_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 1263, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/accelerate/hooks.py", line 388, in pre_forward
+    set_module_tensor_to_device(
+  File "/venv/main/lib/python3.12/site-packages/accelerate/utils/modeling.py", line 353, in set_module_tensor_to_device
+    new_value = value.to(device, non_blocking=non_blocking)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.02 GiB. GPU 0 has a total capacity of 23.56 GiB of which 801.06 MiB is free. Including non-PyTorch memory, this process has 22.77 GiB memory in use. Of the allocated memory 21.40 GiB is allocated by PyTorch, and 1.06 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+2026-09-19T14:32:01.372037 longrag summary: {"answer_em": 0.0, "answer_f1": 0.27136243386243386, "citation_evaluable": 1.0, "citation_f1": 0.20000000000000004, "citation_precision": 0.5, "citation_recall": 0.125, "confidence": 0.6666666666666666, "context_tokens": 1700.3333333333333, "correct": 0.3333333333333333, "evidence_span_recall": 0.25, "generated_claim_count": 2.0, "hit_rate@10": 1.0, "hit_rate@3": 0.8333333333333334, "hit_rate@5": 0.8333333333333334, "latency_ms": 10081.332580613283, "mrr": 0.6626984126984127, "ndcg@10": 0.6583981000185185, "ndcg@3": 0.5630846382923467, "ndcg@5": 0.5840332931943745, "official_qasper_evidence_f1": 0.38888888888888884, "precision@10": 0.26666666666666666, "precision@3": 0.4444444444444444, "precision@5": 0.3666666666666667, "provenance_accuracy": 0.0, "recall@10": 0.7583333333333333, "recall@3": 0.47500000000000003, "recall@5": 0.5750000000000001, "verified_claim_count": 0.8333333333333334, "latency_mean_ms": 10081.332580613283, "latency_p50_ms": 8935.889478772879, "latency_p95_ms": 21666.108627337962, "latency_max_ms": 21666.108627337962, "aurc": 0.7388888888888889, "e_aurc": 0.3888888888888889, "selective_accuracy@80cov": 0.4, "citation_f1_ci_low": 0.06666666666666667, "citation_f1_ci_high": 0.3333333333333333, "num_queries": 6.0, "citation_evaluable_queries": 6.0}

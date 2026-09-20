@@ -175,11 +175,6 @@ def _features(
         probs = [v / value_sum for v in values if v > 0]
         entropy = -sum(p * math.log(p) for p in probs)
         entropy_norm = min(1.0, entropy / math.log(len(values)))
-    section_node = hierarchy.nodes.get(candidate.parent_id)
-    section_tokens_norm = (
-        min(1.0, section_node.token_count / max(1, token_budget))
-        if section_node is not None else 0.0
-    )
     query_length_norm = min(1.0, len(query.split()) / 25.0)
     return MergeFeatures(
         relevance=relevance,
@@ -194,7 +189,6 @@ def _features(
         query_global=float(query_type == QueryType.GLOBAL),
         member_count_norm=member_count_norm,
         member_score_entropy=entropy_norm,
-        section_tokens_norm=section_tokens_norm,
         query_length_norm=query_length_norm,
     )
 

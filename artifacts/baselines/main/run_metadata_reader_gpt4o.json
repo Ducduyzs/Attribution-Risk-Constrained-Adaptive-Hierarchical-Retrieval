@@ -1,0 +1,38 @@
+{
+ "task": "LongRAG reported GPT-4o reader on frozen dev manifest",
+ "reader_provider": "openai",
+ "requested_model": "gpt-4o",
+ "seed": 42,
+ "temperature": 0,
+ "max_output_tokens": 2048,
+ "questions_total": 75,
+ "rows_after": 75,
+ "selected_pending": 74,
+ "errors_this_attempt": 0,
+ "prompt_tokens": 386798,
+ "cached_prompt_tokens": 0,
+ "completion_tokens": 6040,
+ "total_tokens": 392838,
+ "total_latency_ms": 720276.607755106,
+ "response_models": [
+  "gpt-4o-2024-08-06"
+ ],
+ "system_fingerprints": [
+  "fp_087f6ae320",
+  "fp_40aced2ba4",
+  "fp_6359026e51",
+  "fp_636eed499b",
+  "fp_67bbf2f77c",
+  "fp_7ba010d88d",
+  "fp_b8176c105e",
+  "fp_c1c2969523",
+  "fp_f1fdc30c4a"
+ ],
+ "manifest_hashes": {
+  "dev_papers": "de88ba40268be1f0fa535d60824b002bca46552b002652a9f9e3cd23a22068d0",
+  "dev_questions": "dbdc9f30f9efd3a5569453c1d6086c639703965bd5d46d07ed7ac49a41e8d9df",
+  "manifest_metadata": "5895caa755c10a10d916b392d4ad9ca9be545ddaa15c26ef364a5fa12f008de9"
+ },
+ "predictions_sha256": "5123cb24cd6fb812a84dfcf8d3cd43f14e4dcba7e1c6dfd37853bd6b176c95b1",
+ "credentials_serialized": false
+}

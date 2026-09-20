@@ -1,0 +1,15 @@
+{
+ "task": "shared GPT-4o reader over leaf-normalized frozen contexts",
+ "system": "B5_raptor_faithful",
+ "requested_model": "gpt-4o",
+ "seed": 42,
+ "temperature": 0,
+ "questions_total": 75,
+ "rows_after": 75,
+ "errors_this_attempt": 0,
+ "prompt_tokens": 128386,
+ "completion_tokens": 2803,
+ "total_tokens": 131189,
+ "reader_input": "candidate_child_ids from frozen main rows, rendered as leaf text",
+ "api_key_serialized": false
+}

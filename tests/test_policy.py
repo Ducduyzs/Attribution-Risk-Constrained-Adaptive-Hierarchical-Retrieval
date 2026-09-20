@@ -175,7 +175,7 @@ class UtilityMarginTests(unittest.TestCase):
         from edahr.schemas import MergeFeatures
 
         model = LogisticRegression().fit(
-            np.asarray([[0.0] * 14, [1.0] * 14]), np.asarray([0, 1])
+            np.asarray([[0.0] * 13, [1.0] * 13]), np.asarray([0, 1])
         )
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "policy.joblib"
@@ -186,7 +186,7 @@ class UtilityMarginTests(unittest.TestCase):
                 noise=0.5, cost=0.5, query_factoid=1.0,
                 query_explanatory=0.0, query_comparative=0.0, query_global=0.0,
                 member_count_norm=0.5, member_score_entropy=0.5,
-                section_tokens_norm=0.5, query_length_norm=0.5,
+                query_length_norm=0.5,
             )
             self.assertEqual(policy.model_kind, "sklearn")
             self.assertAlmostEqual(policy.threshold, 0.37)

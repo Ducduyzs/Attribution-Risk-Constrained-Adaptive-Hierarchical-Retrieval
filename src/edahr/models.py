@@ -151,6 +151,79 @@ class OpenAIStructuredGenerator:
             return _invalid_generation("provider_invalid_json", str(exc))
 
 
+class LocalStructuredGenerator:
+    """Offline grounded generator from a local instruction-tuned LLM.
+
+    Used when no LLM API quota is available (controlled runs). The model must
+    support a chat template; output JSON is parsed leniently and validated by
+    the same citation contract as API generators, so format failures stay
+    visible as validation telemetry instead of silent drops.
+    """
+
+    def __init__(self, model_name: str = "Qwen/Qwen2.5-3B-Instruct",
+                 device: str = "cuda", max_new_tokens: int = 512):
+        self.model_name = model_name
+        self.max_new_tokens = max_new_tokens
+        try:
+            import torch
+            from transformers import AutoModelForCausalLM, AutoTokenizer
+        except Exception as exc:
+            raise RuntimeError(
+                "Local generation requires 'transformers' and 'torch'."
+            ) from exc
+        use_cuda = device == "cuda" and torch.cuda.is_available()
+        self.device = "cuda" if use_cuda else "cpu"
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+            self.model = AutoModelForCausalLM.from_pretrained(
+                model_name, dtype=torch.float16 if use_cuda else torch.float32,
+                device_map="auto" if use_cuda else None,
+            )
+            if not use_cuda:
+                self.model = self.model.to("cpu")
+            self.model.eval()
+        except Exception as exc:
+            raise RuntimeError(
+                f"Could not load generator model '{model_name}'. Check network "
+                "access to huggingface.co or pre-download the weights."
+            ) from exc
+
+    def generate(self, query: str, context: Sequence[ContextBlock]) -> Generation:
+        import torch
+
+        if not context:
+            return Generation(False, reason="No supplied context.")
+        prompt = _grounded_prompt(query, context, json_only=True)
+        context_ids = [block.context_id for block in context]
+        messages = [
+            {"role": "system",
+             "content": "Answer with a single JSON object only. No prose."},
+            {"role": "user", "content": prompt},
+        ]
+        inputs = self.tokenizer.apply_chat_template(
+            messages, return_tensors="pt", add_generation_prompt=True,
+            return_dict=True,
+        )
+        input_ids = inputs["input_ids"]
+        attention_mask = inputs.get("attention_mask")
+        if self.device == "cuda":
+            input_ids = input_ids.to("cuda")
+            if attention_mask is not None:
+                attention_mask = attention_mask.to("cuda")
+        with torch.inference_mode():
+            output = self.model.generate(
+                input_ids, attention_mask=attention_mask,
+                max_new_tokens=self.max_new_tokens, do_sample=False,
+            )
+        text = self.tokenizer.decode(
+            output[0][input_ids.shape[1]:], skip_special_tokens=True
+        )
+        try:
+            return _generation_from_payload(_json_payload(text), context_ids)
+        except (TypeError, ValueError) as exc:
+            return _invalid_generation("local_invalid_json", str(exc)[:300])
+
+
 def _json_payload(text: str) -> dict:
     """Parse requested JSON even when a preview agent adds markdown prose."""
     value = text.strip()
