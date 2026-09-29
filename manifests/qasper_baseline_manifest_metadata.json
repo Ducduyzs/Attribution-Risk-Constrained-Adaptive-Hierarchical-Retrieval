@@ -12,7 +12,7 @@
       "paper_count": 30,
       "question_count": 75,
       "papers_manifest_sha256": "de88ba40268be1f0fa535d60824b002bca46552b002652a9f9e3cd23a22068d0",
-      "questions_manifest_sha256": "dbdc9f30f9efd3a5569453c1d6086c639703965bd5d46d07ed7ac49a41e8d9df"
+      "questions_manifest_sha256": "1eec9e1ba64040ee317e164249a2cb375d2514991ffb138ef10657dbe46c478c"
     },
     "test": {
       "dataset": "qasper-v0.3",
@@ -22,9 +22,25 @@
       "paper_count": 60,
       "question_count": 113,
       "papers_manifest_sha256": "ab477eb27906b1fd643660ab24041c6a4f14ddfe510ff12dbc60b9596c82e964",
-      "questions_manifest_sha256": "d9bd0190a617ee60565b0284afc9eb4ce16a648f7f1077aa932d2c6774db2235"
+      "questions_manifest_sha256": "10f4afd408c5329be99aa9b4c3f70d2f3e2060027d6dd75be541b5b4af3511df"
     }
   },
   "git_commit": "cdb875eb36ccf661325f0ceffcdf08173cc49e7d",
-  "dirty_worktree": true
+  "dirty_worktree": true,
+  "reference_refresh": [
+    {
+      "refreshed_utc": "2026-09-29T05:29:53.439631+00:00",
+      "fields": [
+        "answer",
+        "reference_answers",
+        "reference_evidence_sets"
+      ],
+      "reason": "reference strings/evidence aligned with the official QASPER evaluator",
+      "script": "scripts/refresh_manifest_references.py",
+      "previous": {
+        "splits.dev.questions_manifest_sha256": "dbdc9f30f9efd3a5569453c1d6086c639703965bd5d46d07ed7ac49a41e8d9df",
+        "splits.test.questions_manifest_sha256": "d9bd0190a617ee60565b0284afc9eb4ce16a648f7f1077aa932d2c6774db2235"
+      }
+    }
+  ]
 }

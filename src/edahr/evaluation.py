@@ -192,18 +192,22 @@ def qasper_answer_token_f1(prediction: str, references: Sequence[str]) -> float:
 
 
 def qasper_evidence_f1(predicted: Sequence[str], reference_sets: Sequence[Sequence[str]]) -> float:
-    """Official max-over-annotators paragraph Evidence F1."""
-    predicted_set = set(predicted)
+    """Official max-over-annotators paragraph Evidence F1.
+
+    Mirrors ``paragraph_f1_score`` of the official evaluator: overlap is
+    counted on sets but precision/recall divide by the *list* lengths.
+    """
+    predicted = list(predicted)
 
     def score(reference: Sequence[str]) -> float:
-        reference_set = set(reference)
-        if not predicted_set and not reference_set:
+        reference = list(reference)
+        if not predicted and not reference:
             return 1.0
-        overlap = len(predicted_set & reference_set)
+        overlap = len(set(predicted) & set(reference))
         if not overlap:
             return 0.0
-        precision = overlap / len(predicted_set)
-        recall = overlap / len(reference_set)
+        precision = overlap / len(predicted)
+        recall = overlap / len(reference)
         return 2.0 * precision * recall / (precision + recall)
 
     return max((score(reference) for reference in reference_sets), default=0.0)

@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import argparse
+import gc
 import json
 import sys
+from typing import Callable
 from dataclasses import replace
 from pathlib import Path
 
@@ -12,15 +14,16 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 from edahr.baselines import (  # noqa: E402
-    BASELINE_NAMES,
+    auto_label_gold_children,
     clustered_ci_vs_baseline,
     make_baseline_pipeline,
     run_benchmark,
     significance_vs_baseline,
 )
 from edahr.config import Settings  # noqa: E402
+from edahr.context_baselines import FullDocumentPipeline, OracleEvidencePipeline  # noqa: E402
 from edahr.pipeline import AdaptiveHierarchicalPipeline  # noqa: E402
-from edahr.policy import AdaptiveMergePolicy, NeverMergePolicy, StaticMergePolicy  # noqa: E402
+from edahr.policy import AdaptiveMergePolicy, NeverMergePolicy  # noqa: E402
 from edahr.qasper import documents_from_paper_records, read_jsonl  # noqa: E402
 from edahr.runtime import build_pipeline_from_documents  # noqa: E402
 
@@ -39,9 +42,40 @@ def write_jsonl(rows: list[dict], path: Path) -> None:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
+def release_memory() -> None:
+    gc.collect()
+    try:
+        import torch
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+    except ImportError:
+        pass
+
+
 def value(summary: dict, key: str) -> float:
     raw = summary.get(key)
     return float(raw) if isinstance(raw, (int, float)) else 0.0
+
+
+SYSTEM_NAMES = (
+    "B0_bm25", "B1_dense", "B2_hybrid_rrf", "B3_flat_neural",
+    "B4_static_hierarchy", "prior", "learned_v7",
+    "learned_v7_parent_only", "learned_v7_section_only",
+    "learned_v7_no_rollback", "learned_v7_no_verifier",
+    "oracle_evidence", "full_document",
+)
+
+
+def gold_children_by_question(hierarchy, records: list[dict]) -> dict[tuple[str, str], list[str]]:
+    """Gold evidence leaves per (source, query), as labelled for every metric."""
+    gold: dict[tuple[str, str], list[str]] = {}
+    for record in records:
+        key = (str(record.get("source") or ""), record["query"])
+        if key in gold:
+            raise ValueError(f"duplicate (source, query) in manifest: {key!r}")
+        children, _ = auto_label_gold_children(hierarchy, record)
+        gold[key] = sorted(children)
+    return gold
 
 
 def build_systems(
@@ -53,220 +87,106 @@ def build_systems(
     settings: Settings,
     parent_checkpoint: str | None,
     section_checkpoint: str | None,
-    args,
-) -> dict[str, AdaptiveHierarchicalPipeline]:
-    """Build all benchmark systems from shared heavy components."""
-    all_systems: dict[str, AdaptiveHierarchicalPipeline] = {}
+    records: list[dict],
+    full_document_token_budget: int,
+) -> dict[str, Callable[[], AdaptiveHierarchicalPipeline]]:
+    """Lazy factories sharing heavy components.
 
-    # Standard baselines from baselines module
-    baseline_map = {
-        "B0_bm25": "B0_bm25",
-        "B1_dense": "B1_dense",
-        "B2_hybrid_rrf": "B2_hybrid_rrf",
-        "B3_flat_neural": "B3_flat_neural",
-        "B4_static_hierarchy": "B4_static_hierarchy",
-    }
+    Each system is constructed only when it runs, so baselines that build
+    their own index never coexist in RAM/VRAM.
+    """
+    encoder = getattr(retriever, "encoder", None)
 
-    # Get encoder from base retriever
-    encoder = getattr(retriever, 'encoder', None)
-    
     def index_factory(s: Settings):
         from edahr.index import MultiRepresentationIndex
         return MultiRepresentationIndex(hierarchy, encoder, s)
 
-    for name, baseline_name in baseline_map.items():
-        all_systems[name] = make_baseline_pipeline(
-            baseline_name, hierarchy, index_factory=index_factory,
-            reranker=reranker, generator=generator, verifier=verifier, settings=settings
+    def baseline(name: str) -> Callable[[], AdaptiveHierarchicalPipeline]:
+        return lambda: make_baseline_pipeline(
+            name, hierarchy, index_factory=index_factory,
+            reranker=reranker, generator=generator, verifier=verifier, settings=settings,
         )
 
-    # Prior policy (hand-tuned utility, no checkpoint)
-    prior_settings = replace(
-        settings,
-        parent_policy_checkpoint=None,
-        section_policy_checkpoint=None,
-        policy_version="prior",
-        enable_parent_expansion=True,
-        enable_section_expansion=True,
-    )
-    prior_policy = AdaptiveMergePolicy(
-        threshold=prior_settings.merge_threshold,
-        margin=prior_settings.merge_margin,
-        evidence_gain_weight=prior_settings.evidence_gain_weight,
-        cost_penalty=prior_settings.cost_penalty,
-    )
-    all_systems["prior"] = AdaptiveHierarchicalPipeline(
-        hierarchy=hierarchy, retriever=retriever, reranker=reranker,
-        generator=generator, verifier=verifier, settings=prior_settings,
-        parent_policy=prior_policy, section_policy=prior_policy,
-        rerank_enabled=True,
-    )
-
-    # Learned-v7 (with checkpoints) - reuse base retriever
-    if parent_checkpoint or section_checkpoint:
-        learned_settings = replace(
-            settings,
-            parent_policy_checkpoint=parent_checkpoint,
-            section_policy_checkpoint=section_checkpoint,
-            policy_version="v7",
-            enable_parent_expansion=bool(parent_checkpoint),
-            enable_section_expansion=bool(section_checkpoint),
-        )
-        all_systems["learned_v7"] = AdaptiveHierarchicalPipeline(
-            hierarchy=hierarchy, retriever=retriever, reranker=reranker,
-            generator=generator, verifier=verifier, settings=learned_settings,
-            parent_policy=AdaptiveMergePolicy(
-                threshold=learned_settings.merge_threshold,
-                margin=learned_settings.merge_margin,
-                evidence_gain_weight=learned_settings.evidence_gain_weight,
-                cost_penalty=learned_settings.cost_penalty,
-                checkpoint=parent_checkpoint,
-            ) if parent_checkpoint else NeverMergePolicy(),
-            section_policy=AdaptiveMergePolicy(
-                threshold=learned_settings.merge_threshold,
-                margin=learned_settings.merge_margin,
-                evidence_gain_weight=learned_settings.evidence_gain_weight,
-                cost_penalty=learned_settings.cost_penalty,
-                checkpoint=section_checkpoint,
-            ) if section_checkpoint else NeverMergePolicy(),
-            rerank_enabled=True,
+    def gate(s: Settings, checkpoint: str | None):
+        if not checkpoint:
+            return NeverMergePolicy()
+        return AdaptiveMergePolicy(
+            threshold=s.merge_threshold, margin=s.merge_margin,
+            evidence_gain_weight=s.evidence_gain_weight,
+            cost_penalty=s.cost_penalty, checkpoint=checkpoint,
         )
 
-    # Ablations - all reuse base retriever
-    # Parent-only (section gate disabled)
-    if parent_checkpoint:
-        parent_only_settings = replace(
-            settings,
-            parent_policy_checkpoint=parent_checkpoint,
-            section_policy_checkpoint=None,
-            policy_version="v7-parent_only",
-            enable_parent_expansion=True,
-            enable_section_expansion=False,
-        )
-        all_systems["learned_v7_parent_only"] = AdaptiveHierarchicalPipeline(
-            hierarchy=hierarchy, retriever=retriever, reranker=reranker,
-            generator=generator, verifier=verifier, settings=parent_only_settings,
-            parent_policy=AdaptiveMergePolicy(
-                threshold=parent_only_settings.merge_threshold,
-                margin=parent_only_settings.merge_margin,
-                evidence_gain_weight=parent_only_settings.evidence_gain_weight,
-                cost_penalty=parent_only_settings.cost_penalty,
-                checkpoint=parent_checkpoint,
-            ),
-            section_policy=NeverMergePolicy(),
-            rerank_enabled=True,
-        )
+    def learned(version: str, parent: str | None, section: str | None,
+                use_verifier: bool = True, **overrides) -> Callable[[], AdaptiveHierarchicalPipeline]:
+        def make() -> AdaptiveHierarchicalPipeline:
+            s = replace(
+                settings,
+                parent_policy_checkpoint=parent,
+                section_policy_checkpoint=section,
+                policy_version=version,
+                enable_parent_expansion=bool(parent),
+                enable_section_expansion=bool(section),
+                **overrides,
+            )
+            return AdaptiveHierarchicalPipeline(
+                hierarchy=hierarchy, retriever=retriever, reranker=reranker,
+                generator=generator, verifier=verifier if use_verifier else None,
+                settings=s, parent_policy=gate(s, parent),
+                section_policy=gate(s, section), rerank_enabled=True,
+            )
+        return make
 
-    # Section-only (parent gate disabled)
-    if section_checkpoint:
-        section_only_settings = replace(
-            settings,
-            parent_policy_checkpoint=None,
-            section_policy_checkpoint=section_checkpoint,
-            policy_version="v7_section_only",
-            enable_parent_expansion=False,
+    def prior() -> AdaptiveHierarchicalPipeline:
+        s = replace(
+            settings, parent_policy_checkpoint=None, section_policy_checkpoint=None,
+            policy_version="prior", enable_parent_expansion=True,
             enable_section_expansion=True,
         )
-        all_systems["learned_v7_section_only"] = AdaptiveHierarchicalPipeline(
+        policy = AdaptiveMergePolicy(
+            threshold=s.merge_threshold, margin=s.merge_margin,
+            evidence_gain_weight=s.evidence_gain_weight, cost_penalty=s.cost_penalty,
+        )
+        return AdaptiveHierarchicalPipeline(
             hierarchy=hierarchy, retriever=retriever, reranker=reranker,
-            generator=generator, verifier=verifier, settings=section_only_settings,
-            parent_policy=NeverMergePolicy(),
-            section_policy=AdaptiveMergePolicy(
-                threshold=section_only_settings.merge_threshold,
-                margin=section_only_settings.merge_margin,
-                evidence_gain_weight=section_only_settings.evidence_gain_weight,
-                cost_penalty=section_only_settings.cost_penalty,
-                checkpoint=section_checkpoint,
-            ),
-            rerank_enabled=True,
+            generator=generator, verifier=verifier, settings=s,
+            parent_policy=policy, section_policy=policy, rerank_enabled=True,
         )
 
-    # No drift penalty (disable rollback)
+    factories: dict[str, Callable[[], AdaptiveHierarchicalPipeline]] = {
+        name: baseline(name)
+        for name in ("B0_bm25", "B1_dense", "B2_hybrid_rrf",
+                     "B3_flat_neural", "B4_static_hierarchy")
+    }
+    factories["prior"] = prior
+
     if parent_checkpoint or section_checkpoint:
-        no_rollback_settings = replace(
-            settings,
-            parent_policy_checkpoint=parent_checkpoint,
-            section_policy_checkpoint=section_checkpoint,
-            policy_version="v7_no_rollback",
-            rollback_ratio=0.0,  # disable rollback
-            enable_parent_expansion=bool(parent_checkpoint),
-            enable_section_expansion=bool(section_checkpoint),
+        factories["learned_v7"] = learned("v7", parent_checkpoint, section_checkpoint)
+        # Inference-time rollback disabled. This is NOT the same experiment as
+        # removing the drift term from the training reward.
+        factories["learned_v7_no_rollback"] = learned(
+            "v7_no_rollback", parent_checkpoint, section_checkpoint, rollback_ratio=0.0,
         )
-        all_systems["learned_v7_no_rollback"] = AdaptiveHierarchicalPipeline(
-            hierarchy=hierarchy, retriever=retriever, reranker=reranker,
-            generator=generator, verifier=verifier, settings=no_rollback_settings,
-            parent_policy=AdaptiveMergePolicy(
-                threshold=no_rollback_settings.merge_threshold,
-                margin=no_rollback_settings.merge_margin,
-                evidence_gain_weight=no_rollback_settings.evidence_gain_weight,
-                cost_penalty=no_rollback_settings.cost_penalty,
-                checkpoint=parent_checkpoint,
-            ) if parent_checkpoint else NeverMergePolicy(),
-            section_policy=AdaptiveMergePolicy(
-                threshold=no_rollback_settings.merge_threshold,
-                margin=no_rollback_settings.merge_margin,
-                evidence_gain_weight=no_rollback_settings.evidence_gain_weight,
-                cost_penalty=no_rollback_settings.cost_penalty,
-                checkpoint=section_checkpoint,
-            ) if section_checkpoint else NeverMergePolicy(),
-            rerank_enabled=True,
+        factories["learned_v7_no_verifier"] = learned(
+            "v7_no_verifier", parent_checkpoint, section_checkpoint, use_verifier=False,
         )
+    if parent_checkpoint:
+        factories["learned_v7_parent_only"] = learned("v7-parent_only", parent_checkpoint, None)
+    if section_checkpoint:
+        factories["learned_v7_section_only"] = learned("v7_section_only", None, section_checkpoint)
 
-    # No verifier
-    if parent_checkpoint or section_checkpoint:
-        no_verifier_settings = replace(
-            settings,
-            parent_policy_checkpoint=parent_checkpoint,
-            section_policy_checkpoint=section_checkpoint,
-            policy_version="v7_no_verifier",
-            enable_parent_expansion=bool(parent_checkpoint),
-            enable_section_expansion=bool(section_checkpoint),
-        )
-        all_systems["learned_v7_no_verifier"] = AdaptiveHierarchicalPipeline(
-            hierarchy=hierarchy, retriever=retriever, reranker=reranker,
-            generator=generator, verifier=None, settings=no_verifier_settings,
-            parent_policy=AdaptiveMergePolicy(
-                threshold=no_verifier_settings.merge_threshold,
-                margin=no_verifier_settings.merge_margin,
-                evidence_gain_weight=no_verifier_settings.evidence_gain_weight,
-                cost_penalty=no_verifier_settings.cost_penalty,
-                checkpoint=parent_checkpoint,
-            ) if parent_checkpoint else NeverMergePolicy(),
-            section_policy=AdaptiveMergePolicy(
-                threshold=no_verifier_settings.merge_threshold,
-                margin=no_verifier_settings.merge_margin,
-                evidence_gain_weight=no_verifier_settings.evidence_gain_weight,
-                cost_penalty=no_verifier_settings.cost_penalty,
-                checkpoint=section_checkpoint,
-            ) if section_checkpoint else NeverMergePolicy(),
-            rerank_enabled=True,
-        )
-
-    # Oracle evidence (use gold evidence as context)
-    # This is implemented as a special pipeline mode
-    oracle_settings = replace(settings, expansion_max_depth=0)
-    all_systems["oracle_evidence"] = make_baseline_pipeline(
-        "B3_flat_neural", hierarchy, index_factory=index_factory,
-        reranker=reranker, generator=generator, verifier=verifier, settings=oracle_settings
-    )
-
-    # Oracle context (use full document)
-    full_doc_settings = replace(settings, context_token_budget=100000, expansion_max_depth=3)
-    all_systems["oracle_context"] = AdaptiveHierarchicalPipeline(
+    # Upper bound: the gold evidence leaves themselves are the context.
+    factories["oracle_evidence"] = lambda: OracleEvidencePipeline(
         hierarchy=hierarchy, retriever=retriever, reranker=reranker,
-        generator=generator, verifier=verifier, settings=full_doc_settings,
-        parent_policy=StaticMergePolicy(), section_policy=StaticMergePolicy(),
-        rerank_enabled=True,
+        generator=generator, verifier=verifier, settings=settings,
+        gold_children=gold_children_by_question(hierarchy, records),
     )
-
-    # Full-document long-context (no retrieval, just full doc)
-    full_doc_no_retrieve_settings = replace(settings, expansion_max_depth=0)
-    all_systems["full_document"] = make_baseline_pipeline(
-        "B3_flat_neural", hierarchy, index_factory=index_factory,
-        reranker=reranker, generator=generator, verifier=verifier, settings=full_doc_no_retrieve_settings
+    # Long-context baseline: the whole paper, no retrieval.
+    factories["full_document"] = lambda: FullDocumentPipeline(
+        hierarchy=hierarchy, retriever=retriever, reranker=reranker,
+        generator=generator, verifier=verifier, settings=settings,
+        token_budget=full_document_token_budget,
     )
-
-    return all_systems
+    return factories
 
 
 def main() -> None:
@@ -282,21 +202,11 @@ def main() -> None:
     parser.add_argument("--model", default="gpt-4o-mini")
     parser.add_argument("--questions", type=int, default=150)
     parser.add_argument(
-        "--systems", nargs="+",
-        default=(
-            "B0_bm25", "B1_dense", "B2_hybrid_rrf", "B3_flat_neural",
-            "B4_static_hierarchy", "prior", "learned_v7",
-            "learned_v7_parent_only", "learned_v7_section_only",
-            "learned_v7_no_rollback", "learned_v7_no_verifier",
-            "oracle_evidence", "oracle_context", "full_document"
-        ),
-        choices=(
-            "B0_bm25", "B1_dense", "B2_hybrid_rrf", "B3_flat_neural",
-            "B4_static_hierarchy", "prior", "learned_v7",
-            "learned_v7_parent_only", "learned_v7_section_only",
-            "learned_v7_no_rollback", "learned_v7_no_verifier",
-            "oracle_evidence", "oracle_context", "full_document"
-        ),
+        "--systems", nargs="+", default=SYSTEM_NAMES, choices=SYSTEM_NAMES,
+    )
+    parser.add_argument(
+        "--full-document-token-budget", type=int, default=100_000,
+        help="context budget for full_document (must fit the generator window)",
     )
     parser.add_argument("--parent-checkpoint",
                         default="checkpoints/policy_parent_v7_final.joblib")
@@ -360,7 +270,8 @@ def main() -> None:
         settings=base_settings,
         parent_checkpoint=parent_ckpt,
         section_checkpoint=section_ckpt,
-        args=args,
+        records=records,
+        full_document_token_budget=args.full_document_token_budget,
     )
 
     missing_systems = [
@@ -370,13 +281,16 @@ def main() -> None:
         raise ValueError(
             "requested systems were not constructed: " + ", ".join(missing_systems)
         )
-    systems = {name: all_systems[name] for name in dict.fromkeys(args.systems)}
+    factories = {name: all_systems[name] for name in dict.fromkeys(args.systems)}
 
     artifact_dir.mkdir(parents=True, exist_ok=True)
     runs = {}
-    for name, pipeline in systems.items():
+    for name, factory in factories.items():
         print(f"[benchmark] starting {name}", flush=True)
+        pipeline = factory()
         run = run_benchmark(name, pipeline, records, seed=base_settings.seed)
+        del pipeline
+        release_memory()
         for row in run.rows:
             row["system"] = name
         write_jsonl(run.rows, artifact_dir / f"artifacts_{name}.jsonl")

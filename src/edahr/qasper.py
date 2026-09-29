@@ -21,20 +21,33 @@ def _unique_text(values: Iterable[object]) -> list[str]:
     return output
 
 
+# Marks a reference evidence string that names a real paragraph but differs
+# from it in whitespace. The official evaluator compares raw strings exactly,
+# so such a reference can never be matched by a paragraph prediction; keeping
+# it (for the len() denominator) but unmatchable reproduces official scores.
+OFFICIAL_UNMATCHABLE_PREFIX = "\u0000official-unmatchable:"
+
+
 def _answer_text(answer: dict) -> str:
+    """Reference string exactly as AllenAI's official evaluator builds it.
+
+    Precedence extractive > free-form > yes/no, spans joined with ", " and
+    *not* de-duplicated (repeated spans change token-F1 denominators).
+    Verified per question by scripts/audit_evaluator.py.
+    """
     if answer.get("unanswerable"):
         return "Unanswerable"
-    free_form = str(answer.get("free_form_answer") or "").strip()
-    if free_form:
-        return free_form
-    spans = _unique_text(answer.get("extractive_spans") or ())
+    spans = answer.get("extractive_spans") or ()
     if spans:
-        return " ".join(spans)
+        return ", ".join(str(span) for span in spans)
+    free_form = answer.get("free_form_answer")
+    if free_form:
+        return str(free_form)
     yes_no = answer.get("yes_no")
-    if isinstance(yes_no, bool):
-        return "yes" if yes_no else "no"
-    if str(yes_no or "").strip().lower() in {"yes", "no"}:
-        return str(yes_no).strip().lower()
+    if yes_no:
+        return "Yes"
+    if yes_no is not None:
+        return "No"
     return ""
 
 
@@ -55,6 +68,12 @@ def convert_qasper(raw_path: str | Path, split: str) -> tuple[list[dict], list[d
         source = f"{paper_id}.qasper"
         sections = []
         paragraph_lookup: dict[str, str] = {}
+        raw_paragraphs = {
+            str(value) for section in paper.get("full_text") or ()
+            for value in section.get("paragraphs") or ()
+        }
+        if paper.get("abstract"):
+            raw_paragraphs.add(str(paper["abstract"]))
         for position, section in enumerate(paper.get("full_text") or ()):
             paragraphs = [" ".join(str(value or "").split())
                           for value in section.get("paragraphs") or ()]
@@ -107,11 +126,17 @@ def convert_qasper(raw_path: str | Path, split: str) -> tuple[list[dict], list[d
             seen_question_ids.add(question_id)
             annotations = [item.get("answer") or {} for item in (qa.get("answers") or ())]
             references = [_answer_text(answer) for answer in annotations]
+            # Kept as lists with duplicates: the official paragraph F1 divides
+            # by len(list), not by the number of distinct paragraphs.
             evidence_sets = [
-                _unique_text(answer.get("evidence") or ()) for answer in annotations
+                [" ".join(str(quote or "").split()) for quote in answer.get("evidence") or ()]
+                for answer in annotations
             ]
+            # Distinct paragraphs per annotator (leaf labels, stratification).
             paragraph_sets = [
-                [paragraph_lookup[quote] for quote in evidence if quote in paragraph_lookup]
+                list(dict.fromkeys(
+                    paragraph_lookup[quote] for quote in evidence if quote in paragraph_lookup
+                ))
                 for evidence in evidence_sets
             ]
             evidence = _unique_text(quote for values in evidence_sets for quote in values)
@@ -122,7 +147,14 @@ def convert_qasper(raw_path: str | Path, split: str) -> tuple[list[dict], list[d
                 "query": str(qa.get("question") or "").strip(),
                 "answer": references[0] if references else "",
                 "reference_answers": references,
-                "reference_evidence_sets": evidence_sets,
+                "reference_evidence_sets": [
+                    [
+                        quote if quote not in paragraph_lookup or raw_quote in raw_paragraphs
+                        else OFFICIAL_UNMATCHABLE_PREFIX + quote
+                        for raw_quote, quote in zip(answer.get("evidence") or (), evidence)
+                    ]
+                    for answer, evidence in zip(annotations, evidence_sets)
+                ],
                 "reference_paragraph_sets": paragraph_sets,
                 "gold_paragraph_ids": sorted({item for values in paragraph_sets for item in values}),
                 "gold_quotes": evidence,

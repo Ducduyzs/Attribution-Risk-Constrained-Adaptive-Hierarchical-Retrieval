@@ -8,6 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parents[1] / "src"))
 
+from edahr.evaluation import qasper_evidence_f1
 from edahr.qasper import convert_qasper, documents_from_paper_records
 from edahr.config import Settings
 from edahr.hierarchy import HierarchyBuilder
@@ -77,6 +78,48 @@ class QasperConversionTests(unittest.TestCase):
             if paragraph_ids.intersection(node.metadata.get("paragraph_ids") or ())
         ]
         self.assertTrue(matching_children)
+
+    def test_references_follow_official_evaluator(self):
+        """Regression for divergences found by scripts/audit_evaluator.py."""
+        def annotation(**answer):
+            base = {"unanswerable": False, "free_form_answer": "", "extractive_spans": [],
+                    "yes_no": None, "evidence": [], "highlighted_evidence": []}
+            return {"answer": {**base, **answer}}
+
+        raw = {
+            "paper": {
+                "title": "p", "abstract": "",
+                "full_text": [{"section_name": "S",
+                               "paragraphs": ["Exact paragraph.", "Padded paragraph. "]}],
+                "qas": [{"question": "q", "question_id": "q1", "answers": [
+                    # Extractive wins over free-form; repeated spans are kept.
+                    annotation(extractive_spans=["LDA", "LDA"], free_form_answer="topic models",
+                               evidence=["Exact paragraph.", "Exact paragraph."]),
+                    annotation(yes_no=False, evidence=["Padded paragraph."]),
+                    annotation(yes_no=True),
+                ]}],
+            }
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "qasper.json"
+            path.write_text(json.dumps(raw), encoding="utf-8")
+            _, questions, _ = convert_qasper(path, "dev")
+
+        record = questions[0]
+        self.assertEqual(record["reference_answers"], ["LDA, LDA", "No", "Yes"])
+        exact, padded, empty = record["reference_evidence_sets"]
+        self.assertEqual(exact, ["Exact paragraph.", "Exact paragraph."])
+        # Differs from its raw paragraph only in whitespace: the official exact
+        # string match can never hit it, so it must not match locally either.
+        self.assertEqual(len(padded), 1)
+        self.assertEqual(qasper_evidence_f1(["Padded paragraph."], [padded]), 0.0)
+        self.assertEqual(empty, [])
+        # Official paragraph F1 divides by list length (duplicates count).
+        self.assertAlmostEqual(
+            qasper_evidence_f1(["Exact paragraph."], [exact]), 2 * 0.5 / 1.5
+        )
+        # Leaf gold labels still resolve both paragraphs.
+        self.assertEqual(len(record["gold_paragraph_ids"]), 2)
 
     def test_duplicate_question_id_is_rejected(self):
         qa = {"question": "q", "question_id": "same", "answers": []}

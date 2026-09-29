@@ -92,7 +92,7 @@ def run_dev_benchmark():
         "B4_static_hierarchy", "prior", "learned_v7",
         "learned_v7_parent_only", "learned_v7_section_only",
         "learned_v7_no_rollback", "learned_v7_no_verifier",
-        "oracle_evidence", "oracle_context", "full_document",
+        "oracle_evidence", "full_document",
         "--parent-checkpoint", "checkpoints/policy_parent_v7_final.joblib",
         "--section-checkpoint", "checkpoints/policy_section_v7_final.joblib",
         "--artifact-dir", "data/artifacts/v7_dev_full",

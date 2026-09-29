@@ -693,6 +693,10 @@ def run_benchmark(
         )
         evidence_node_set = {evidence.node_id for evidence in result.evidence.values()}
         retrieved_child_set = set(ranked_ids[: pipeline.settings.rerank_k])
+        if getattr(pipeline, "retrieval_free", False):
+            # No retrieval set: rescue/drift decomposition is undefined, so
+            # treat every cited leaf as "kept" rather than as drift.
+            retrieved_child_set = {evidence.node_id for evidence in result.evidence.values()}
         candidate_child_set = {
             child_id for block in result.context for child_id in block.evidence_ids
         }
@@ -705,12 +709,16 @@ def run_benchmark(
             "source": record.get("source"),
             "citation_evaluable": citation_evaluable,
         }
+        # Oracle/full-document systems have no ranking: retrieval metrics
+        # are undefined (None), not zero.
+        retrieval_free = bool(getattr(pipeline, "retrieval_free", False))
+        row["retrieval_free"] = retrieval_free
         for k in ks:
-            row[f"recall@{k}"] = recall_at_k(ranked_ids, gold_children, k)
-            row[f"precision@{k}"] = precision_at_k(ranked_ids, gold_children, k)
-            row[f"ndcg@{k}"] = ndcg_at_k(ranked_ids, graded, k)
-            row[f"hit_rate@{k}"] = hit_rate_at_k(ranked_ids, gold_children, k)
-        row["mrr"] = reciprocal_rank(ranked_ids, gold_children)
+            row[f"recall@{k}"] = None if retrieval_free else recall_at_k(ranked_ids, gold_children, k)
+            row[f"precision@{k}"] = None if retrieval_free else precision_at_k(ranked_ids, gold_children, k)
+            row[f"ndcg@{k}"] = None if retrieval_free else ndcg_at_k(ranked_ids, graded, k)
+            row[f"hit_rate@{k}"] = None if retrieval_free else hit_rate_at_k(ranked_ids, gold_children, k)
+        row["mrr"] = None if retrieval_free else reciprocal_rank(ranked_ids, gold_children)
         row["evidence_span_recall"] = (
             evidence_span_recall(evidence_quotes, gold_quotes)
             if gold_quotes
@@ -726,13 +734,19 @@ def run_benchmark(
             row["citation_precision"] = None
             row["citation_recall"] = None
             row["citation_f1"] = None
+        # Undefined without gold page labels (e.g. QASPER JSON has no pages);
+        # 0.0 here previously reported a spurious zero for every system.
         row["provenance_accuracy"] = (
-            provenance_accuracy(provenance, gold_pages) if gold_pages else 0.0
+            provenance_accuracy(provenance, gold_pages) if gold_pages else None
         )
         gold_answer = str(record.get("answer") or record.get("gold_answer") or "")
         references = [str(answer) for answer in record.get("reference_answers") or [gold_answer]]
         if is_qasper:
             official_answer = answer_text or "Unanswerable"
+            # Exact strings fed to the metric, so scripts/audit_evaluator.py
+            # can re-score this row with AllenAI's official evaluator.
+            row["predicted_answer"] = official_answer
+            row["predicted_evidence_texts"] = list(predicted_paragraphs.values())
             row["answer_em"] = qasper_answer_exact_match(official_answer, references)
             row["answer_f1"] = qasper_answer_token_f1(official_answer, references)
             row["official_qasper_evidence_f1"] = qasper_evidence_f1(
