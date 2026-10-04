@@ -33,5 +33,6 @@ không dùng API). Dữ liệu: `artifacts/v11_qasper-{confirm,test}_qwen25-7b/`
 - Kết luận phải viết lại: Agreement Ranking không kém RAPTOR **với gpt-4o-mini**; với một
   generator mở 7B, chênh lệch giữa ba bộ chọn nằm trong dao động do generator, không có bộ
   chọn nào khác biệt có ý nghĩa. Lợi thế chi phí index (~400×) không phụ thuộc generator.
-- Qwen tạo JSON hợp lệ ở > 99% lượt (lỗi định dạng ghi nhận, không bị che); trung bình
+- Qwen tạo JSON hợp lệ ở 97,7% (xác nhận) và 98,7% (test) lượt; lượt lỗi định dạng được
+  ghi nhận và tính là không có claim (không bị che); trung bình
   ~1,3 claim / câu trả lời, ít hơn gpt-4o-mini.
