@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides various approaches to text analysis, including computational methods, qualitative analysis, and interdisciplinary collaboration.",
+    "claims": [
+      {
+        "text": "Computational text analysis helps identify patterns that are not obvious in specific contexts, allowing for broader insights into social and cultural phenomena.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Combining large-scale computational analyses with small-scale qualitative analyses allows researchers to leverage the strengths of both approaches.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Unsupervised approaches, such as topic models, are useful for exploration and can lead to theory emerging from the data.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Interdisciplinary collaboration is essential for effectively analyzing social and cultural concepts in computational text analysis.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 1815,
+    "total_tokens": 1995,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1474721999984467,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

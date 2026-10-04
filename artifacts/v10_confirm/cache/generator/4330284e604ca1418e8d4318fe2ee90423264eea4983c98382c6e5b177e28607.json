@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear method for calculating static embeddings using the first principal component of contextualized representations.",
+    "claims": [
+      {
+        "text": "Static embeddings for each word are calculated by taking the first principal component of its contextualized representations in a given layer.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The maximum explainable variance (MEV) indicates how well a static embedding can replace a word's contextualized representations, with a higher MEV suggesting a better fit.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Static embeddings created from the first layer of BERT perform better than those from other layers and models like GloVe and FastText.",
+        "citations": [
+          "C1",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 1234,
+    "total_tokens": 1401,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.219985600000655,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

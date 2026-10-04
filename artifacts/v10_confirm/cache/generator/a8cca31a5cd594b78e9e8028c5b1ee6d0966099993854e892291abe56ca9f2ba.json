@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence provided does not indicate the use of evaluation metrics other than ROUGE. It primarily discusses the optimization of ROUGE and mentions BLEU in a general context without confirming its use in the specific evaluation of the summarization models discussed.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1180,
+    "total_tokens": 1238,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3298955999998725,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

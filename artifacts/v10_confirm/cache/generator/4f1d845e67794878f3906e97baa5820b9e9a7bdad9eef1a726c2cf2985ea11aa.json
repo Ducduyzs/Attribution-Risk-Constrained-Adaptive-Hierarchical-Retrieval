@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that PARENT correlates better with human judgments compared to existing metrics, but does not specify the exact degree of improvement or comparison values.",
+    "claims": [
+      {
+        "text": "PARENT correlates with human judgments better than existing text generation metrics.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "PARENT is either competitive or better than other metrics in terms of average correlation to human ratings across grammaticality, fluency, and semantics.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Both variants of PARENT are significantly better than other metrics in making the same judgments as humans.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 1150,
+    "total_tokens": 1298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1606871000039973,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

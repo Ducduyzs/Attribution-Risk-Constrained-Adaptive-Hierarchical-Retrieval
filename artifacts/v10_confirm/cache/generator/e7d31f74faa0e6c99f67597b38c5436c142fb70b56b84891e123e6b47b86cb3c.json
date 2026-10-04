@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics for the proposed model, indicating improvements over previous models.",
+    "claims": [
+      {
+        "text": "The proposed model outperforms the previous best model by 2% in EM score and over 1.5% in F1 score.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed model achieves superior performance compared to the previous best model.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The results indicate that the proposed model effectively mitigates ASR errors and improves SQA results.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 1196,
+    "total_tokens": 1331,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7824942999941413,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the extraction of textual patterns based on word forms and part-of-speech tags from corrected sentences.",
+    "claims": [
+      {
+        "text": "Textual patterns are extracted in the form of (incorrect phrase, correct phrase) based on changes in word forms and POS tags.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Patterns are generated from a corpus of annotated corrections, allowing for the identification of various error types.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The extraction process involves aligning original and corrected sentences to identify transformation patterns.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 613,
+    "total_tokens": 754,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.085673899993708,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

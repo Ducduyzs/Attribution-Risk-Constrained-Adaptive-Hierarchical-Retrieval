@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about machine learning and deep learning methods used for Recognizing Question Entailment (RQE) in the context of question answering.",
+    "claims": [
+      {
+        "text": "Two machine learning (ML) and deep learning (DL) methods for RQE are evaluated in the study.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The study compares the performance of ML and DL methods for RQE using open-domain and clinical datasets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 660,
+    "total_tokens": 775,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8714408000014373,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

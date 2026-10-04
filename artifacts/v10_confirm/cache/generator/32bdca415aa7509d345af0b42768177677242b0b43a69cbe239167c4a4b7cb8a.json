@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that PARENT correlates better with human judgments compared to other text generation metrics, particularly in scenarios where reference texts diverge from the generated content.",
+    "claims": [
+      {
+        "text": "PARENT correlates with human judgments better than existing text generation metrics, especially when references diverge.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Both variants of PARENT show significantly better correlation with human judgments compared to other metrics across various settings.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "PARENT performs best for semantic aspects of generated text, while BLEU excels in grammaticality and fluency.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1845,
+    "total_tokens": 2002,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.390236699997331,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

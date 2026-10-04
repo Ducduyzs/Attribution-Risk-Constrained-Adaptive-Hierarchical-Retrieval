@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear description of how crowd workers were instructed to identify important elements in document collections through a new crowdsourcing scheme called low-context importance annotation.",
+    "claims": [
+      {
+        "text": "Crowd workers were instructed to use a low-context importance annotation scheme to identify important elements in document collections without reading all documents.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The low-context importance annotation scheme allows workers to determine summary-worthy parts of documents efficiently and intuitively, overcoming previous challenges in crowdsourcing.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 635,
+    "total_tokens": 760,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1899774000048637,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

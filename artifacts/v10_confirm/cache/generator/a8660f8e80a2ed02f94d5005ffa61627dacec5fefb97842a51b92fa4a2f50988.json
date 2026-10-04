@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that while ROUGE is a primary evaluation metric, other metrics such as BLEU are also mentioned in the context of reinforcement learning for summarization tasks.",
+    "claims": [
+      {
+        "text": "Reinforcement learning has been proposed to optimize evaluation metrics like BLEU and ROUGE in summarization tasks.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The proposed model focuses on optimizing the ROUGE metric but acknowledges the use of other metrics in related works.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 1867,
+    "total_tokens": 1985,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.879849099997955,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that tweets are obtained from 15 celebrities from various domains, indicating a diverse range of celebrity types.",
+    "claims": [
+      {
+        "text": "Tweets are obtained from 15 celebrities from various domains.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The analysis includes tweets that are characteristic of specific celebrities, indicating a focus on notable public figures.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 1143,
+    "total_tokens": 1238,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2551586999979918,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e166a9b559"
+}

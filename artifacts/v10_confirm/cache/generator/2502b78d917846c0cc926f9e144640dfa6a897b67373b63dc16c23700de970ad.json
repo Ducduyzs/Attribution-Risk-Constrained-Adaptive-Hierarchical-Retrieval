@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed information on how the tweets were annotated, including the filtering process, stance classification, and the structure of the annotated dataset.",
+    "claims": [
+      {
+        "text": "The tweets were filtered using names of the target clubs and annotated for stance as Favor or Against.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A total of 700 tweets were annotated, with an equal number of tweets for each stance category for two football clubs.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The annotated dataset includes tweet IDs, stance targets, and stance classifications in a publicly available CSV format.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1754,
+    "total_tokens": 1911,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2707253000044147,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the improvements in accuracy of the Attention-Sum Reader model when trained on the BookTest dataset compared to the Children's Book Test (CBT).",
+    "claims": [
+      {
+        "text": "Training on the BookTest dataset improves the accuracy of the Attention-Sum Reader model on the CBT test data by a much larger margin than many recent attempts to improve model architecture.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Training on the new dataset reduces the prediction error by almost one third, bringing the model's performance to the level of the human baseline on the named-entity version of CBT.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Moving model training from CBT to a subset of the BookTest results in a drop in accuracy of around 10% on the CBT test datasets, indicating the importance of data selection.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 198,
+    "prompt_tokens": 1812,
+    "total_tokens": 2010,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2443962000033935,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

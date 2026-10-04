@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes methods for extracting textual patterns used in automated error generation (AEG) from annotated corpora, focusing on incorrect and correct phrase pairs.",
+    "claims": [
+      {
+        "text": "Textual patterns are extracted in the form of (incorrect phrase, correct phrase) from an annotated corpus.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Patterns are learned for generating all types of errors by analyzing changes in word forms and using part-of-speech tags for matching.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The extraction process includes identifying short transformation patterns with context tokens on both sides of the affected phrase.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 1184,
+    "total_tokens": 1339,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9481927000015276,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e166a9b559"
+}

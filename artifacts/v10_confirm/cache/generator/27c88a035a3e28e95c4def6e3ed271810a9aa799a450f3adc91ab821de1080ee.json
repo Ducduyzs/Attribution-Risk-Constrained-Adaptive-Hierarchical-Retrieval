@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed information on how the tweets were annotated, including the stance classification and the filtering process.",
+    "claims": [
+      {
+        "text": "The tweets were filtered using names of target clubs and annotated for stance as Favor or Against.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A total of 700 tweets were annotated, with 175 tweets in favor of and 175 against each of the two targets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The stance annotations were made publicly available in a CSV format containing tweet id, target name, and stance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The study did not annotate tweets with the Neither class, focusing only on Favor or Against.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 1905,
+    "total_tokens": 2084,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 2.335457300003327,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

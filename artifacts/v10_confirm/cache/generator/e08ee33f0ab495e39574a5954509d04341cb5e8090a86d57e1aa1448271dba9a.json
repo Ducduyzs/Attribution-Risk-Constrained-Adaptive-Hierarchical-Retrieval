@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that PARENT correlates better with human judgments compared to other text generation metrics, specifically in various settings including the WebNLG challenge and WikiBio datasets.",
+    "claims": [
+      {
+        "text": "PARENT correlates with human judgments better than existing text generation metrics.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Both variants of PARENT show significantly better correlation with human judgments compared to other metrics.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "PARENT shows the highest correlation with humans across a range of settings with divergent references.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 1138,
+    "total_tokens": 1277,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7711526999992202,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

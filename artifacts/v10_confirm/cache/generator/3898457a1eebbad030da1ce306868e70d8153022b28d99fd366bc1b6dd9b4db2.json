@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details on how non-standard pronunciation is identified through annotations in transcriptions of conversations, including various types of disfluencies and mispronunciations.",
+    "claims": [
+      {
+        "text": "Non-standard pronunciation is identified through annotations in transcriptions that include mispronunciations, poor intelligibility, and undefined sounds.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Annotations for non-standard pronunciations also include labels for foreign words and other disfluencies such as hesitations and false starts.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The resource includes non-standardized orthographic transcriptions that aid in studying language change and normalization.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 702,
+    "total_tokens": 861,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.412421599998197,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

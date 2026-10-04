@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the baseline performance of models in comparison to other approaches, specifically mentioning the wFST model as a baseline for high resource languages.",
+    "claims": [
+      {
+        "text": "The baseline model for high resource languages is the wFST model, which does not use data adaptation due to sufficient training data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The LangID models outperform the baseline wFST model in WER 100, indicating that the baseline is lower than the performance achieved by these models.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 1156,
+    "total_tokens": 1286,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9105275999972946,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

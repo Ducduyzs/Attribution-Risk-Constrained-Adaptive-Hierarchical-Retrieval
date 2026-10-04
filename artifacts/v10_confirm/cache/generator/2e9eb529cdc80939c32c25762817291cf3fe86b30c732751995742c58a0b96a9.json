@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes how models are evaluated in the context of a human-machine communication game, focusing on efficiency, accuracy, and interpretability.",
+    "claims": [
+      {
+        "text": "Models are evaluated based on their efficiency in using fewer keywords and their accuracy in reconstructing the target sentence with high probability.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evaluation also considers interpretability, ensuring that the communication scheme retains important content words from the target sentence.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Experimental results indicate that the proposed approach improves accuracy by 52% at a given efficiency level compared to baselines.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The models are assessed for robustness against user variations and their ability to save time in communication.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 704,
+    "total_tokens": 889,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1785631000020658,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

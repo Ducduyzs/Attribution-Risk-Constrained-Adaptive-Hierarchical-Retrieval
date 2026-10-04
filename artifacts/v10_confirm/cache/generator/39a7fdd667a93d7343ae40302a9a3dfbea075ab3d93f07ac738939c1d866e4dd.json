@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the use of deep learning architectures for sentence segmentation, including T-LSTM and T-BRNN models.",
+    "claims": [
+      {
+        "text": "The deep learning architecture used for sentence segmentation includes T-LSTM and T-BRNN models.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed model integrates n-gram embedding and self-attention modules for sentence segmentation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 718,
+    "total_tokens": 820,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6288286999988486,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

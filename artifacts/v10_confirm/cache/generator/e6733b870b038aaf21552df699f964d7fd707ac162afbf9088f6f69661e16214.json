@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear descriptions of the use of question generation models in frameworks that involve question answering and knowledge-based reasoning tasks.",
+    "claims": [
+      {
+        "text": "A question generation model is used in frameworks that integrate question answering and knowledge extraction from documents and external knowledge bases.",
+        "citations": [
+          "C2",
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model generates questions based on the semantics of candidate answers, facilitating machine reading comprehension tasks.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The question generation model employs a sequence to sequence architecture to effectively generate questions from input facts.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 1835,
+    "total_tokens": 1986,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.86420999999973,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

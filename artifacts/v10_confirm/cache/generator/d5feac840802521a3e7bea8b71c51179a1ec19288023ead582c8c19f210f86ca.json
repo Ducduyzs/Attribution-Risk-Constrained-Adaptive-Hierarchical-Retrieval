@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of the model's performance against existing models, indicating improvements in ROUGE scores and METEOR.",
+    "claims": [
+      {
+        "text": "Our models outperform existing neural extractive models on all three ROUGE scores and METEOR.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Baseline model already achieves slightly better performance than previous works, indicating a significant improvement.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The improvements in performance are particularly notable for longer documents, suggesting the model is designed to handle them effectively.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 687,
+    "total_tokens": 827,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9402551999955904,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the annotated clinical notes were obtained from the 2010 i2b2/VA dataset, which is mentioned as easier to access and parse compared to other datasets.",
+    "claims": [
+      {
+        "text": "The annotated clinical notes were obtained from the 2010 i2b2/VA dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "22,489 tagged sentences were extracted from the clinical notes.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 1915,
+    "total_tokens": 2025,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8339370000030613,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

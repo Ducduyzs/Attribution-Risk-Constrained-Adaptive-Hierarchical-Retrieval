@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific labels for antisocial events identified in datasets, including personal attacks, harassment, hate speech, and general toxicity.",
+    "claims": [
+      {
+        "text": "Available labels for antisocial events in datasets include personal attacks, harassment, hate speech, and general toxicity.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The 'Conversations Gone Awry' dataset specifically labels conversations as containing personal attacks or remaining civil.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 1224,
+    "total_tokens": 1336,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.870248300001549,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the current state-of-the-art models and their performance on the WSJ dataset, including Word Error Rates (WER) and model architectures.",
+    "claims": [
+      {
+        "text": "The current best model on WSJ is an HMM-based system that combines convolutional, recurrent, and fully connected layers, achieving the lowest WER.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "DeepSpeech 2 achieves a higher WER than the best model but uses significantly more training data.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The best end-to-end system trained only on WSJ uses lattice-free MMI on augmented data, achieving competitive WER.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Replacing the n-gram language model with a convolutional one improves the WER of the baseline system to match the best end-to-end system.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 210,
+    "prompt_tokens": 735,
+    "total_tokens": 945,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.1196664000017336,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

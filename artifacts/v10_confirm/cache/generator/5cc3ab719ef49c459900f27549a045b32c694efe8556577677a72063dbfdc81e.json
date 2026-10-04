@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into how lexicons are compared through evaluations by crowds and experts, as well as the methodologies used for lexicon acquisition.",
+    "claims": [
+      {
+        "text": "Lexicon quality is assessed by comparing evaluations from crowds and expert linguists.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Crowdsourced lexicons can be more comprehensive and scalable compared to those created solely by experts.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation process includes filtering to ensure the quality of annotations from the crowd.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Comparisons with existing lexicons show moderate overlap, indicating a method of evaluation based on common terms.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 1973,
+    "total_tokens": 2142,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.556832599999325,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

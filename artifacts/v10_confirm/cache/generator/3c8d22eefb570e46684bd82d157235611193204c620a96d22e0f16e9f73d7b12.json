@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of how variance is reduced in the context of calculating Expected Gradient Length (EGL), which is related to model outputs.",
+    "claims": [
+      {
+        "text": "Variance is reduced by using Expected Gradient Length (EGL), which computes the expectation of the gradient norm over all possible labelings to identify informative instances.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "EGL is implemented by marginalizing over the most probable labelings obtained through beam search decoding, which helps in estimating the gradient norms effectively.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 1111,
+    "total_tokens": 1247,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8327916999987792,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

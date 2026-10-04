@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific machine learning and deep learning methods used for Recognizing Question Entailment (RQE) in the context of question answering systems.",
+    "claims": [
+      {
+        "text": "Logistic Regression is used as a machine learning method for RQE, achieving high performance in question-question similarity tasks.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Neural networks, including architectures like Bi-LSTM, GRU, and CNNs, are employed as deep learning methods for RQE, showing effectiveness on larger datasets.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study compares the performance of these methods on various datasets, indicating their applicability in both open-domain and clinical settings.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 1214,
+    "total_tokens": 1390,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.388426299999992,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e166a9b559"
+}

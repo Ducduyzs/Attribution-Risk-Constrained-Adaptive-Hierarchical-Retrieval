@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear method for calculating static embeddings using principal components of contextualized representations.",
+    "claims": [
+      {
+        "text": "Static embeddings for each word are calculated by taking the first principal component of its contextualized representations in a given layer.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The maximum explainable variance (MEV) indicates how well a static embedding can replace a word's contextualized representations, which is limited due to the anisotropic nature of these representations.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Static embeddings can be improved by making them more isotropic, which may enhance their performance on downstream tasks.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1047,
+    "total_tokens": 1203,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1890982999975677,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

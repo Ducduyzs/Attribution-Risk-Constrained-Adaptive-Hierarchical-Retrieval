@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence does not indicate that the authors tested their model on datasets other than SimpleQuestions.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 29,
+    "prompt_tokens": 1172,
+    "total_tokens": 1201,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 0.9820441999981995,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

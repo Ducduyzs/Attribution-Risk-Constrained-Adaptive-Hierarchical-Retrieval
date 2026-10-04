@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the identification of complaint-based posts in the transport domain, focusing on linguistic signals and markers associated with complaints, particularly in tweets.",
+    "claims": [
+      {
+        "text": "The paper explores the language used in complaint-based posts on social media, specifically Twitter.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Linguistic markers and features such as Bag of Words and POS tags are utilized to analyze complaints in tweets.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The methodology includes the analysis of sentiment markers and specific lexicons related to complaints.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 1606,
+    "total_tokens": 1755,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7054447000045911,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

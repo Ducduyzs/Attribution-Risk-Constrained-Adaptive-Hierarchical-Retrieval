@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about a new system that outperforms existing state-of-the-art systems in Word Sense Disambiguation (WSD) using BERT-based models.",
+    "claims": [
+      {
+        "text": "The proposed system achieves new state-of-the-art results on the WSD task by leveraging gloss information and fine-tuning a pre-trained BERT model.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The experimental results show that the new approach significantly outperforms previous methods in WSD benchmarks.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The system is evaluated on several English all-words WSD benchmark datasets, demonstrating its effectiveness.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 1290,
+    "total_tokens": 1449,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2134680000017397,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

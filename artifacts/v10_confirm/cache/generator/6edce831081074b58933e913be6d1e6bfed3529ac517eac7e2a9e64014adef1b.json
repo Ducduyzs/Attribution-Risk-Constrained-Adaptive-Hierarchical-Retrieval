@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of language pairs used in machine translation, particularly German-English, and mentions the application of neural networks in this context.",
+    "claims": [
+      {
+        "text": "The language pair used in machine translation includes German and English.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Neural machine translation tasks often involve pairs of languages such as German and English.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 1761,
+    "total_tokens": 1862,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.448054199994658,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

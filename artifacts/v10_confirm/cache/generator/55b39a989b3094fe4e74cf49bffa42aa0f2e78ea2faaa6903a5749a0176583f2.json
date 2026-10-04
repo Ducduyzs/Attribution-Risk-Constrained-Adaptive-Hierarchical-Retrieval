@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of how phrasal compositionality is scored, emphasizing context-dependent models and the likelihood of context words given a phrase representation.",
+    "claims": [
+      {
+        "text": "Phrasal compositionality is scored using a context-dependent model that computes the likelihood of surrounding context words given a phrase representation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The scoring model evaluates phrases based on their predictive power regarding context words, indicating whether they are used in a compositional or non-compositional manner.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The approach requires only shallow syntactic parsing, making it less reliant on complex resources compared to other models.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 1156,
+    "total_tokens": 1322,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2861621999982162,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

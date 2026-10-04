@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the dataset collection process, including the number of questions, the categorization method, and the annotation process.",
+    "claims": [
+      {
+        "text": "The dataset was constructed to include 7,787 science exam questions organized into a fine-grained hierarchical taxonomy of 406 problem domains.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Two annotators, including a lead annotator with professional domain expertise, annotated the entire dataset to ensure quality and consistency.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Questions from the training, development, and test sets were randomly shuffled to counterbalance learning effects during annotation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1222,
+    "total_tokens": 1378,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.948964999995951,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

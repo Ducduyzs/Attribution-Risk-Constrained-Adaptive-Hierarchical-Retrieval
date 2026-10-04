@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a list of datasets used for document classification tasks, detailing their sources and characteristics.",
+    "claims": [
+      {
+        "text": "The datasets used include Reuters, BBCSport, Polarity, Subjectivity, MPQA, IMDB, TREC, SST-1, SST-2, and Yelp2013.",
+        "citations": [
+          "C1",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Reuters consists of stories from the Reuters news agency from 1987, while BBCSport contains sports news articles from 2004-2005.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Polarity and SST-1 feature labeled snippets from Rotten Tomatoes, while SST-2 is a variant of SST-1 with neutral reviews removed.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Yelp2013 features reviews from the 2013 Yelp Dataset Challenge.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 207,
+    "prompt_tokens": 2091,
+    "total_tokens": 2298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.141938699998718,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

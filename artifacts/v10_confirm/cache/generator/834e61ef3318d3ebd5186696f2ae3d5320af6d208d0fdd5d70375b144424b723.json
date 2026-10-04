@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that manual annotations were performed on a dataset of named entities, but it does not specify the use of a crowdsourcing platform for these annotations.",
+    "claims": [
+      {
+        "text": "A named entities dataset comprising 53453 tokens and 2566 sentences was manually annotated.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The manual annotation was based on categories and guidelines from BBN Technologies.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The dataset includes annotations for people, organizations, and locations in CoNLL03 format.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 1922,
+    "total_tokens": 2060,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2838313999964157,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The experiments focus on the specific domain of question-answering (Q&A) sites, particularly analyzing the characteristics of questions on Quora to determine their answerability.",
+    "claims": [
+      {
+        "text": "The study focuses on the answerability of questions on Quora, specifically examining the differences between open questions and answered ones.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The experiments are limited to a small set of questions due to the complexity of characterizing question quality and answerability.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The research quantifies linguistic activities to predict whether questions will be answered, indicating a specific focus on language use in the Q&A domain.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The analysis includes psycholinguistic aspects of question askers, further emphasizing the domain-specific focus on how language affects question answerability.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 1912,
+    "total_tokens": 2123,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.282074399998237,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

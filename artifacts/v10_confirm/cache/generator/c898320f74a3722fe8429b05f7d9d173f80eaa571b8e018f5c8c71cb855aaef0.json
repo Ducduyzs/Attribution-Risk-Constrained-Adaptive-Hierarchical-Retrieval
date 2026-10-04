@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The experiments focus on specific domains related to Q&A sites, particularly analyzing linguistic activities and question characteristics that affect answerability.",
+    "claims": [
+      {
+        "text": "The experiments focus on quantifying linguistic activities to characterize answerability in Q&A sites like Quora.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The study emphasizes the importance of question quality and its impact on whether questions remain unanswered, indicating a specific domain focus.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The research involves analyzing question text edits and their effects on readability, which is domain-specific to Q&A interactions.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 1118,
+    "total_tokens": 1264,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9188721999962581,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

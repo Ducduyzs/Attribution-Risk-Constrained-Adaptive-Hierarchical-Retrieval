@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the capabilities of models in zero-shot settings, particularly in reading comprehension tasks, and indicates what the model learns in such scenarios.",
+    "claims": [
+      {
+        "text": "In a zero-shot setting, the model learns to perform reading comprehension tasks without needing translated source data, which can degrade performance.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model leverages pre-trained language representations to enable cross-lingual understanding and perform tasks in languages for which it has not been specifically trained.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 700,
+    "total_tokens": 824,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.759415300002729,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

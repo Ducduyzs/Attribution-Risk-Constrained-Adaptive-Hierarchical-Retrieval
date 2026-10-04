@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the experiments focus on specific domains related to question quality and answerability in Q&A sites.",
+    "claims": [
+      {
+        "text": "The experiments focus on specific domains related to question quality and answerability in Q&A sites.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The research works mentioned in the evidence are specifically about content quality in Q&A platforms.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 662,
+    "total_tokens": 764,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7952263999977731,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

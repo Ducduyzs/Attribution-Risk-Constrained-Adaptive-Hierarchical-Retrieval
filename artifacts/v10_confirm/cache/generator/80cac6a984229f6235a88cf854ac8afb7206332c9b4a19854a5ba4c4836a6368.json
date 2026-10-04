@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the baseline performance of models in comparison to the wFST-adaptation approach and other models, indicating that the baseline refers to the performance of these models in terms of WER and PER metrics.",
+    "claims": [
+      {
+        "text": "The baseline performance is represented by the wFST models, which are purely monolingual and do not use data adaptation.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "In high resource language experiments, none of the sequence-to-sequence approaches equal the performance of the wFST model in WER and PER, indicating the baseline performance level.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 1467,
+    "total_tokens": 1613,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7968626000001677,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

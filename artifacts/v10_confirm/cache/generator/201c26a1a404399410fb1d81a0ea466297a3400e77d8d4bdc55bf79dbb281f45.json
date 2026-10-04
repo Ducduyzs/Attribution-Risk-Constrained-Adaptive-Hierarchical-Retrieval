@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear information about the state-of-the-art system in the context of Word Sense Disambiguation (WSD), specifically mentioning the use of BERT-based models that outperform previous methods.",
+    "claims": [
+      {
+        "text": "The state-of-the-art system for Word Sense Disambiguation (WSD) is based on BERT, which has been fine-tuned to achieve new results on benchmark datasets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed method constructs context-gloss pairs and utilizes BERT to treat WSD as a sentence-pair classification problem, leading to state-of-the-art performance.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 1379,
+    "total_tokens": 1528,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9463957999978447,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

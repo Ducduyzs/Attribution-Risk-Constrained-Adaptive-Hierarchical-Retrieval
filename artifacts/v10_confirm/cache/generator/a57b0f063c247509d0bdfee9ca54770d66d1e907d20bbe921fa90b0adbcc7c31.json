@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for obtaining psychological dimensions of people through the analysis of language usage in social media, specifically blogs, and the creation of maps that reflect various psychological and demographic characteristics.",
+    "claims": [
+      {
+        "text": "Psychological dimensions are obtained by analyzing language usage in social media, particularly through a large dataset of blog posts.",
+        "citations": [
+          "C1",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Maps reflecting psycholinguistic and semantic properties are generated using word categories and their distributions in the dataset.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset allows for the visualization of demographic and psychological characteristics across different geographic locations.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 1176,
+    "total_tokens": 1342,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6064299999998184,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

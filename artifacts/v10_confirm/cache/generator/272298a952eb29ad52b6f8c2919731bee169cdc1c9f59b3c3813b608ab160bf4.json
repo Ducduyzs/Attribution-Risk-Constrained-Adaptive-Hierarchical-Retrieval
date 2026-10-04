@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific machine learning and deep learning methods used for Recognizing Question Entailment (RQE) in the context of question answering.",
+    "claims": [
+      {
+        "text": "The methods used for RQE include a deep learning model and a logistic regression classifier.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Logistic Regression outperformed other statistical learning algorithms such as SVM and Naive Bayes for classifying question pairs into entailment or no-entailment.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation of RQE methods was conducted using datasets like SNLI, multiNLI, Quora, Clinical-QE, and SemEval-cQA.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 1189,
+    "total_tokens": 1355,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.467530399997486,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

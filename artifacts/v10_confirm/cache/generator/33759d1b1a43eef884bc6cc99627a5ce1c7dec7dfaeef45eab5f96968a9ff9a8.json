@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that hashtag prediction for social media has been addressed in previous research, suggesting it is an established task.",
+    "claims": [
+      {
+        "text": "Hashtag prediction for social media has been addressed earlier in research.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The task of predicting hashtags is formulated as a training objective in existing models.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model proposed for hashtag prediction shows improved performance compared to a word-level baseline, indicating ongoing development in this established area.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 658,
+    "total_tokens": 790,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2764381999950274,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence outlines specific future work planned, including improvements to the sensationalism scorer and exploring dynamic balancing methods between reinforcement learning (RL) and maximum likelihood estimation (MLE).",
+    "claims": [
+      {
+        "text": "Future work includes improving the sensationalism scorer and investigating dynamic balancing methods between RL and MLE.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The work raises ethical questions about generating sensational headlines, which can be further explored in future research.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 1124,
+    "total_tokens": 1238,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6305437999981223,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the tasks evaluated in the current work are similar to those in previous studies, but with notable differences in methodology and data used.",
+    "claims": [
+      {
+        "text": "The tasks evaluated in the current work are similar to those in previous studies, as they involve comparing grammatical and ungrammatical sentences using language models.",
+        "citations": [
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Previous work utilized uni-directional language models, while the current work employs BERT models, which are trained on larger datasets and allow for bidirectional context.",
+        "citations": [
+          "C1",
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 1164,
+    "total_tokens": 1308,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.942560900002718,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

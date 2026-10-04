@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of language pairs used in machine translation, particularly German and English, as part of the IWSLT dataset.",
+    "claims": [
+      {
+        "text": "The language pair used in machine translation is German–English.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 1724,
+    "total_tokens": 1790,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.161520699999528,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

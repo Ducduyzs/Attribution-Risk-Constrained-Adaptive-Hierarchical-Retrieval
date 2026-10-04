@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the normal reading paradigm, including its definition and context within a study comparing it to a task-specific reading paradigm.",
+    "claims": [
+      {
+        "text": "A normal reading paradigm involves participants reading sentences without a specific task, allowing for natural reading processes to be observed.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "In the study, participants read 349 sentences in a normal reading paradigm, contrasting with 390 sentences in a task-specific paradigm.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The normal reading paradigm is designed to analyze cognitive processing during natural reading compared to reading during annotation.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1089,
+    "total_tokens": 1250,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9687607000014395,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

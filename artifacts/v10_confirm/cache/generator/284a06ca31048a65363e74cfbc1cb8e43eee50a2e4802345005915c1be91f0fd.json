@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics and comparisons for multilingual BERT (M-Bert) in various settings, indicating its effectiveness relative to baselines.",
+    "claims": [
+      {
+        "text": "M-Bert performs better than majority class baselines in cross-lingual and cross-target settings, although it performs worse in cross-target than in cross-lingual settings.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "M-Bert has established itself as state of the art for various multilingual tasks, outperforming feature-based and other neural approaches in monolingual English settings.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Cross-lingual performance of M-Bert improves when questions are presented in English, indicating a benefit from using a lingua franca during evaluation.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 665,
+    "total_tokens": 845,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7151970000049914,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

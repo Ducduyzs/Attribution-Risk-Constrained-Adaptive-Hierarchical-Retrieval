@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics and comparisons of the proposed model against existing models, indicating significant improvements in summarization tasks.",
+    "claims": [
+      {
+        "text": "The proposed model outperforms previous extractive and abstractive models on ROUGE-1, ROUGE-2, and METEOR scores.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The improvements over the Baseline model indicate that the model effectively identifies important sentences, especially in longer documents.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The benefits of the model become stronger as document length increases, outperforming traditional methods by a narrow margin overall.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 1967,
+    "total_tokens": 2121,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.8840497999990475,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

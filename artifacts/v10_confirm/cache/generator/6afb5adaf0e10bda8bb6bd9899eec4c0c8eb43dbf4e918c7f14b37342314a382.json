@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific labels for antisocial events identified in datasets, including harassment, cyberbullying, hate speech, personal attacks, and general toxicity.",
+    "claims": [
+      {
+        "text": "Available labels for antisocial events in datasets include harassment, cyberbullying, hate speech, personal attacks, and general toxicity.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The datasets used for forecasting antisocial events include conversations from Wikipedia and the subreddit ChangeMyView, which focus on different aspects of moderation.",
+        "citations": [
+          "C6",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 1981,
+    "total_tokens": 2111,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9077417999942554,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific word embedding models that were tested, including their names and descriptions.",
+    "claims": [
+      {
+        "text": "The word embeddings tested include Bernoulli embeddings (b-emb), continuous bag-of-words (CBOW), Distributed Memory version of Paragraph Vector (PV-DM), and Global Vectors (GloVe).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "EqEmb is a new model that extends the concept of word embeddings to equations, providing a semantic representation of equations based on surrounding words.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The performance of EqEmb was compared against existing models like CBOW, PV-DM, and GloVe in terms of semantic representation.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 1852,
+    "total_tokens": 2025,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.003550699999323,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

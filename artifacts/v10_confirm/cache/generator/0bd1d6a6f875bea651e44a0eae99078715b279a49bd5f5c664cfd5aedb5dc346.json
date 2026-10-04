@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the results are reported for multiple languages, specifically German and French, in addition to English, as part of the experiments conducted on the Multi30K dataset.",
+    "claims": [
+      {
+        "text": "The experiments report results for German and French in addition to English.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The models achieve state of the art performance on the English-German dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The dataset used includes English descriptions along with translations into other languages.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 730,
+    "total_tokens": 863,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.118384800000058,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

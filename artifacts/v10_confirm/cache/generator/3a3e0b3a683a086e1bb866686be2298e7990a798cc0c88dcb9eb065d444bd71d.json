@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly lists the datasets used for evaluation in the study.",
+    "claims": [
+      {
+        "text": "The models were evaluated on the CSAT dataset for CSAT prediction, which consists of spoken transcripts.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The 20 newsgroups dataset was used for topic identification, consisting of written text.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The Fisher Phase 1 corpus was used for topic identification, consisting of spoken transcripts.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 685,
+    "total_tokens": 813,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0441103000048315,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

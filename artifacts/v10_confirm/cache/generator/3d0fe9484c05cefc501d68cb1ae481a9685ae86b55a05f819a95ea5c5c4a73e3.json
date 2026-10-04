@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear method for calculating static embeddings using principal components of contextualized representations.",
+    "claims": [
+      {
+        "text": "Static embeddings for each word are calculated by taking the first principal component of its contextualized representations in a given layer.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Static embeddings created from lower layers of models like BERT and ELMo are more effective than those from upper layers.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Static embeddings created by taking the first principal component outperform GloVe and FastText embeddings on many benchmarks.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 703,
+    "total_tokens": 846,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0066116000016336,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

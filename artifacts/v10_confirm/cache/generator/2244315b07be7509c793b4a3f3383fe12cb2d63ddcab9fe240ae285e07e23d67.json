@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The experiments focus on the answerability of questions specifically on the Q&A site Quora, indicating a specific domain of inquiry.",
+    "claims": [
+      {
+        "text": "The experiments focus on the answerability of questions on Quora, which is a specific domain.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The study investigates the characteristics of open questions versus answered questions, indicating a targeted focus within the domain of Q&A sites.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The research includes various linguistic activities related to question quality, which are specific to the domain of Q&A interactions.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 1103,
+    "total_tokens": 1250,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8321460000006482,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

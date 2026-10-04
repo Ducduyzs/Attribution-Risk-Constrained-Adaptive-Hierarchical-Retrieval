@@ -1,0 +1,53 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly states that Multi-SimLex covers 12 languages, detailing both major and less-resourced languages.",
+    "claims": [
+      {
+        "text": "Multi-SimLex covers 12 languages, including Mandarin Chinese, Spanish, Russian, Welsh, and Kiswahili.",
+        "citations": [
+          "C1",
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The languages included in Multi-SimLex are typologically diverse, featuring both widely used and low-resource languages.",
+        "citations": [
+          "C2",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The resource includes datasets annotated for semantic similarity across these 12 languages.",
+        "citations": [
+          "C1",
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 2099,
+    "total_tokens": 2257,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.386110600004031,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

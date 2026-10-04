@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses how organizing models based on their objective functions aids in understanding the literature on tweet representation learning.",
+    "claims": [
+      {
+        "text": "Organizing models based on their objective functions helps in understanding the literature on tweet representation learning.",
+        "citations": [
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The survey of existing works based on objective functions provides vital perspectives to researchers.",
+        "citations": [
+          "C4",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Future research directions identified in the work can help advance the field of tweet representation learning.",
+        "citations": [
+          "C4",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 1628,
+    "total_tokens": 1768,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9013815999933286,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

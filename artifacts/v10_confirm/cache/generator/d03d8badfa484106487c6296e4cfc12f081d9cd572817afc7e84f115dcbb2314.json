@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods for evaluating models in the human-machine communication game, focusing on efficiency, accuracy, and interpretability.",
+    "claims": [
+      {
+        "text": "Models are evaluated based on the retention rate of tokens, which measures the fraction of tokens kept in the keywords.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The accuracy of a communication scheme is measured by the fraction of sentences generated that exactly match the target sentence.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Multi-objective optimization is used to achieve desirable tradeoffs between efficiency and accuracy in the communication schemes.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The communication schemes are designed to be interpretable by restricting keywords to subsequences of the source sentences.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 1730,
+    "total_tokens": 1910,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0111660999973537,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

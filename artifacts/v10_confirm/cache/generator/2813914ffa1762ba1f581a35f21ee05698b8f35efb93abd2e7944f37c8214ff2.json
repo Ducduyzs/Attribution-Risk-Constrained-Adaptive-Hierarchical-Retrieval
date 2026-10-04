@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the analysis of complaint-based posts primarily in the context of social media, specifically focusing on tweets, which indicates the language explored is English.",
+    "claims": [
+      {
+        "text": "The language explored in this paper is English, as it analyzes complaint-based posts from tweets.",
+        "citations": [
+          "C1",
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 1188,
+    "total_tokens": 1269,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3939004999992903,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

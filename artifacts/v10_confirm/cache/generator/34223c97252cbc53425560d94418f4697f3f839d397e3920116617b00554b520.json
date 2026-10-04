@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details on how non-standard pronunciation is identified through annotations in transcriptions, which include mispronunciations, poor intelligibility, and other disfluencies.",
+    "claims": [
+      {
+        "text": "Non-standard pronunciation is identified through annotations in transcriptions that include mispronunciations, poor intelligibility, and other disfluencies.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Annotations for non-standardized orthographic transcriptions are useful for studying historical language changes and building spelling normalization systems.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The lack of standardized orthography in Mapudungun contributes to the identification of non-standard pronunciations during transcription.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 1795,
+    "total_tokens": 1959,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.262041100002534,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

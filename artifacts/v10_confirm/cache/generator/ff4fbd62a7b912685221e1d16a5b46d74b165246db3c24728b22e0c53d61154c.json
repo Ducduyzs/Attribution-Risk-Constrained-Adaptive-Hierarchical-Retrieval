@@ -1,0 +1,34 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly states that VP ellipsis is the hardest phenomenon to capture using round-trip translations, making it a clear answer to the question.",
+    "claims": [
+      {
+        "text": "VP ellipsis is the hardest phenomenon to be captured using round-trip translations.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 596,
+    "total_tokens": 669,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3537639999995008,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

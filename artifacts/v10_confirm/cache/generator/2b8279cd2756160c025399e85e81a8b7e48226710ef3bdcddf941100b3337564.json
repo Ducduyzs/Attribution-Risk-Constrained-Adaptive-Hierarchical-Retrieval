@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear description of how crowd workers were instructed to identify important elements in document collections using a specific crowdsourcing scheme.",
+    "claims": [
+      {
+        "text": "Crowd workers were instructed to use a low-context importance annotation scheme, which allows them to determine important elements without reading all documents.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Workers were provided with a description of the document cluster's topic and propositions, enabling them to score the importance of propositions without needing to read the documents.",
+        "citations": [
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The task was designed to be simple and efficient, using a 5-point Likert scale for more nuanced importance ratings.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 1659,
+    "total_tokens": 1834,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6233093999981065,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear demonstrations of the interpretability merits of the approach through empirical results and the involvement of crowd workers in generating keyword-specific expectations.",
+    "claims": [
+      {
+        "text": "The approach improves model interpretability by providing human-understandable explanations through keyword-specific expectations obtained from crowd workers.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Empirical results show that the approach enhances accuracy and interpretability, improving state-of-the-art performance by 24.3%.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The iterative process of leveraging crowd input for keyword discovery allows for insights into model learning, enhancing interpretability.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 1219,
+    "total_tokens": 1373,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8885845999975572,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of how words are matched before reordering them, specifically through the use of pre-ordering rules that align the word order of the assisting language with that of the source language.",
+    "claims": [
+      {
+        "text": "Pre-ordering English sentences to match the source language's word order helps in aligning the contextual representations for translation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The CFILT-preorder system uses generic and Hindi-tuned rules to reorder English sentences for better alignment with Indian languages.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Pre-ordering addresses word order divergence, improving translation quality by aligning the assisting language with the source language.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Visualizing encoder representations shows that pre-ordering helps mitigate the differences caused by divergent word orders.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Pre-ordering has been effective in reducing word-order divergence in various translation systems, leading to performance improvements.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 235,
+    "prompt_tokens": 1212,
+    "total_tokens": 1447,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5823318000038853,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

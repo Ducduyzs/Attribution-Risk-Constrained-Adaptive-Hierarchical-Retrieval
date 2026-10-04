@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the performance of models compared to baseline models, specifically in terms of Word Error Rate (WER) and Phoneme Error Rate (PER).",
+    "claims": [
+      {
+        "text": "The baseline refers to the performance of the wFST models, which are purely monolingual and do not use data adaptation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The LangID models outperform the baseline in WER 100, indicating that the baseline performance is lower than that of the LangID models.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The baseline performance is established through comparisons with various models, including the wFST-adaptation approach.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1229,
+    "total_tokens": 1394,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.564156799999182,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

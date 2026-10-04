@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a comparison of the method's performance against baseline models, specifically the standard Transformer architecture using softmax and the novel 1.5-entmax model.",
+    "claims": [
+      {
+        "text": "Replacing softmax with entmax does not hurt performance; sparse attention Transformers tend to have slightly higher BLEU scores.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The models using α-entmax and 1.5-entmax achieve 75% and 90% of the training speed of the softmax model, respectively.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The α-entmax model learns different sparsity patterns at each layer, leading to more variance in individual head behavior compared to fixed α models.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 1194,
+    "total_tokens": 1368,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.091843100002734,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e166a9b559"
+}

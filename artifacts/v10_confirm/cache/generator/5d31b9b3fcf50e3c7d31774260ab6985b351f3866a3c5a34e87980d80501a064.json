@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific baseline models used for comparison in the experiments, particularly highlighting TransE as the primary baseline.",
+    "claims": [
+      {
+        "text": "The baseline model used for comparison is TransE.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The proposed models outperform the baseline TransE on all metrics in link prediction and triplet classification tasks.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance of the models is evaluated on datasets WN18 and FB15K, which are used for comparison against the baseline.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 2043,
+    "total_tokens": 2176,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8343916000012541,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics for the proposed model, including improvements over previous models.",
+    "claims": [
+      {
+        "text": "The proposed model outperforms the previous best model by 2% in EM score and over 1.5% in F1 score.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance gap when training on mismatched data is nearly 20% F1 score, indicating the model's effectiveness after fine-tuning.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The proposed model demonstrates superior performance in the Spoken-SQuAD domain compared to baselines.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 1166,
+    "total_tokens": 1315,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8130275000003166,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

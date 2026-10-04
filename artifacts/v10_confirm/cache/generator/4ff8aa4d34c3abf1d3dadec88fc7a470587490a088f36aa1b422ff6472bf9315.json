@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific reasons for the ineffectiveness of current ELS's, including ambiguity and coarseness of extracted entities.",
+    "claims": [
+      {
+        "text": "Current ELS's are not sufficiently effective due to unresolved ambiguities in the extracted entities, which can lead to confusion about their meanings.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The linked entities extracted by ELS's may be too common or irrelevant, introducing errors into the summaries.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Current ELS's have low precision rates, which affects the quality of the summaries generated.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1738,
+    "total_tokens": 1896,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 2.200859099997615,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

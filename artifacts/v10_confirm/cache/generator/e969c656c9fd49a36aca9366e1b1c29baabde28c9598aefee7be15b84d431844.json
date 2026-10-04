@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into how lexicons are compared through evaluations by both crowds and experts, highlighting the differences in their approaches and the quality of annotations.",
+    "claims": [
+      {
+        "text": "Crowd evaluations of lexicons are compared to those of expert linguists to assess lexicon quality.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The crowd is capable of evaluating lexicons effectively, often producing quality results without the need for gold standards.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Expert evaluations tend to be stricter on linguistic elements, while crowd evaluations are stricter on emotional aspects.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The diversity of crowd contributors can enhance the evaluation process compared to uniform expert judgments.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 1911,
+    "total_tokens": 2094,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3580579000044963,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

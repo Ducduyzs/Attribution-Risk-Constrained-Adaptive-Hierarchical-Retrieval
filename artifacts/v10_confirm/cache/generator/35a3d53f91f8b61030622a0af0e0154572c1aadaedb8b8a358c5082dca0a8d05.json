@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the quality of medical articles, including their use of domain-specific jargon, is critical for informativeness and evaluation. Therefore, a bad medical Wikipedia article is likely to contain less domain-specific jargon, as quality is linked to the use of specific vocabulary.",
+    "claims": [
+      {
+        "text": "Bad medical Wikipedia articles are likely to contain less domain-specific jargon due to their lower quality.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The quality of medical articles is affected by the usage of specific vocabulary, indicating that poor articles may lack such jargon.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 658,
+    "total_tokens": 794,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.649716400002944,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

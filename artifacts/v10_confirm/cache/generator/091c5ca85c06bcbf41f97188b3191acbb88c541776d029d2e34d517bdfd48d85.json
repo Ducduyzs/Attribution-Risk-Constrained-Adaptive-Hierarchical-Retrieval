@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of how lexicons are compared through evaluations by both crowds and expert linguists, highlighting the differences in methodology and outcomes.",
+    "claims": [
+      {
+        "text": "Crowd evaluations are compared to those of expert linguists to determine lexicon quality.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The crowd is responsible for identifying linguistic elements and evaluating existing annotations, which allows for a scalable lexicon acquisition process.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Comparisons with existing lexicons indicate a moderate overlap, suggesting a method of evaluating lexicon quality based on common terms.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The evaluation process includes both crowdsourced and expert assessments to ensure quality in lexicon acquisition.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 184,
+    "prompt_tokens": 1003,
+    "total_tokens": 1187,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.337567800001125,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

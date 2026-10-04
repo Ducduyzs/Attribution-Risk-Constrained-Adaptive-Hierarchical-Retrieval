@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the domain of the corpus as related to speech translation, specifically focusing on a multi-speaker dataset for Spanish-English translation.",
+    "claims": [
+      {
+        "text": "The domain of the corpus is speech translation, specifically the CALLHOME Spanish-English speech translation corpus.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The corpus consists of audio paired with text translations for multi-speaker scenarios.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The dataset includes 11 hours of audio with Spanish transcripts and English translations.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 660,
+    "total_tokens": 797,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.571834399997897,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

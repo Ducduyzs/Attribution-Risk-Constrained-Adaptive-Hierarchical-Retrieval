@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the model outperforms existing models, particularly on longer documents, although the overall improvement is described as narrow on both datasets.",
+    "claims": [
+      {
+        "text": "The model outperforms baseline and previous approaches by a narrow margin on both datasets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The benefits of the model become much stronger when applied to longer documents.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Neural extractive models outperform traditional extractive models on informativeness (ROUGE-1,2) by a wide margin.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 698,
+    "total_tokens": 841,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.112102800005232,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

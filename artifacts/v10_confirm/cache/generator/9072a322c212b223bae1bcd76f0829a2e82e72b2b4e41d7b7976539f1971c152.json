@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the use of deep learning architectures for sentence segmentation, particularly mentioning models like T-LSTM and Bi-LSTM-CRF.",
+    "claims": [
+      {
+        "text": "The proposed deep learning model for Thai sentence segmentation integrates n-gram embedding and self-attention modules.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Bi-LSTM-CRF model is adopted as a baseline for sentence segmentation tasks.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "T-LSTM and a bidirectional LSTM model with attention (T-BRNN) are mentioned as deep learning approaches for sequence tagging.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 1170,
+    "total_tokens": 1324,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.539544200000819,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

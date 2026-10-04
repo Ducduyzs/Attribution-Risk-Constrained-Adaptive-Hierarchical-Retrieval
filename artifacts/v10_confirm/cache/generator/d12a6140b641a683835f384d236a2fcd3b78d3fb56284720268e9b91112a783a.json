@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of the model's performance against existing models, particularly in terms of ROUGE scores and its effectiveness on longer documents.",
+    "claims": [
+      {
+        "text": "The proposed model outperforms both extractive and abstractive models on ROUGE-1, ROUGE-2, and METEOR scores, especially on longer documents.",
+        "citations": [
+          "C3",
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The improvements of the model are more pronounced when applied to longer documents, indicating a significant advantage over existing models.",
+        "citations": [
+          "C2",
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model's benefits come exclusively from modeling local context, which significantly enhances performance compared to traditional methods.",
+        "citations": [
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 2056,
+    "total_tokens": 2233,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1717378000030294,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

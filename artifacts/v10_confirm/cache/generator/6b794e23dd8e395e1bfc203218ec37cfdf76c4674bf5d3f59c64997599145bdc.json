@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies two tasks that the models are evaluated on: text classification and semantic matching.",
+    "claims": [
+      {
+        "text": "The models are evaluated on text classification tasks.",
+        "citations": [
+          "C2",
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The models are evaluated on a semantic matching task.",
+        "citations": [
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 1379,
+    "total_tokens": 1470,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7341065000000526,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

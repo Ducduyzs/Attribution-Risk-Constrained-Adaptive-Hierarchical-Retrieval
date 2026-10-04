@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the authors evaluate their model on the SimpleQuestions dataset, which includes various settings, but does not explicitly mention testing on other datasets beyond this.",
+    "claims": [
+      {
+        "text": "The authors evaluate their model on the SimpleQuestions dataset, which consists of 108,442 questions and is split into different settings (FB2M and FB5M).",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model's performance is reported in terms of accuracy on the SimpleQuestions dataset, indicating a focus on this dataset for evaluation.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2057,
+    "total_tokens": 2191,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0891805999999633,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

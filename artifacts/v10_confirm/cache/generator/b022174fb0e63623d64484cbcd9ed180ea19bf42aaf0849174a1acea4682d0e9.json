@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the use of a deep learning model for sentence segmentation that incorporates n-gram embedding and self-attention modules, indicating a specific architecture.",
+    "claims": [
+      {
+        "text": "The deep learning architecture used for sentence segmentation includes n-gram embedding and self-attention modules.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model adapts Cross-View Training (CVT) as a semi-supervised learning technique to improve representations.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The architecture focuses on sequence tagging, utilizing a deep convolutional neural network and T-BRNN for predicting sentence boundaries.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 1170,
+    "total_tokens": 1332,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.619148599995242,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

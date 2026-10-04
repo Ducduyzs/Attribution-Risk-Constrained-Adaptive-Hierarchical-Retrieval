@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the use of a question generation model in a framework that integrates knowledge from documents and external knowledge bases to generate questions based on candidate answers.",
+    "claims": [
+      {
+        "text": "A question generation model is used to generate questions based on the semantics of candidate answers in a framework that includes a question answering model.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The question generation model takes knowledge extracted from documents and external knowledge bases to improve question relevance.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 1093,
+    "total_tokens": 1218,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6133048000046983,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

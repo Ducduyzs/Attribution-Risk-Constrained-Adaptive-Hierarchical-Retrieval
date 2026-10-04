@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details on how the tweets were annotated, including the stance classification and the filtering process.",
+    "claims": [
+      {
+        "text": "The tweets were filtered using names of target clubs and annotated for stance as Favor or Against.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Tweets not explicitly mentioning the target were excluded from annotation, and the Neither class was not used.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The annotation process involved considering the club as the target of the stance, regardless of whether the management or a player was mentioned.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset also included sentiment information alongside stance annotations, created through crowdsourcing.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 670,
+    "total_tokens": 840,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.389421499996388,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

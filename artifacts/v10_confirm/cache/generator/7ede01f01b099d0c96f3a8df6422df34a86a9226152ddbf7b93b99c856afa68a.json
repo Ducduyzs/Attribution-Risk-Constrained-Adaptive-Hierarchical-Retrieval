@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the novel aspects of the document-level encoder introduced in the paper, specifically its ability to encode documents and obtain sentence representations, as well as its integration with both extractive and abstractive summarization models.",
+    "claims": [
+      {
+        "text": "The novel document-level encoder based on BERT can express the semantics of a document and obtain representations for its sentences.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The encoder is used in both extractive and abstractive summarization frameworks, enhancing the model's performance across different summarization tasks.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "A new fine-tuning schedule is introduced that uses different optimizers for the encoder and decoder to address their training differences.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1036,
+    "total_tokens": 1218,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4651436999993166,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

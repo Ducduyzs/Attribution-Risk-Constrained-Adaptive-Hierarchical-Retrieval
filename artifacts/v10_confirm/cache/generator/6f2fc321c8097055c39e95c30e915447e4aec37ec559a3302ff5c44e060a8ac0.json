@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The experiments focus on a specific domain, particularly the answerability of questions on the Q&A site Quora, as evidenced by the analysis of linguistic activities and question characteristics.",
+    "claims": [
+      {
+        "text": "The study focuses on the answerability of questions on Quora, specifically examining why some questions remain unanswered.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The experiments analyze linguistic activities to characterize the answerability of questions, indicating a specific focus on language use in the domain of Q&A.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset used in the experiments covers a wide range of topics, but the analysis is specifically directed towards understanding unanswered questions.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1802,
+    "total_tokens": 1965,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 2.1828504000004614,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

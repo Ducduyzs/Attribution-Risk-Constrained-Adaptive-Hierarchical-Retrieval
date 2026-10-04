@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into what the model learns in a zero-shot setting, particularly in cross-lingual transfer learning for reading comprehension tasks.",
+    "claims": [
+      {
+        "text": "In a zero-shot setting, the model learns to identify answer spans in context, albeit with less accuracy compared to models fine-tuned on the target language.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model encodes semantic and syntactic information in a language-agnostic way, allowing for effective zero-shot transfer between languages with low lexical similarity.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model demonstrates the ability to perform zero-shot learning on various natural language understanding tasks, including reading comprehension.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 1140,
+    "total_tokens": 1307,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.249598499998683,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

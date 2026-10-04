@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear description of how crowd workers were instructed to identify important elements in document collections using a novel crowdsourcing scheme.",
+    "claims": [
+      {
+        "text": "Crowd workers were instructed to provide importance scores for propositions related to document clusters without reading the documents, using only a description of the topic and the propositions themselves.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The crowdsourcing scheme employed a 5-point Likert scale for workers to rate the importance of propositions, allowing for more nuanced annotations.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The approach aimed to simplify tasks for workers, making them small and quick to complete, which improved efficiency and scalability compared to traditional methods.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 1667,
+    "total_tokens": 1836,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2975048999942373,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

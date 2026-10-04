@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific metrics and methods for evaluating models in the human-machine communication game, including efficiency and accuracy measures.",
+    "claims": [
+      {
+        "text": "Models are evaluated based on the retention rate of tokens, which measures the fraction of tokens kept in the keywords.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The accuracy of a communication scheme is measured by the fraction of sentences generated that exactly match the target sentence.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evaluation also considers the efficiency of using fewer keywords and the interpretability of the communication scheme.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 1052,
+    "total_tokens": 1197,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1873887999972794,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

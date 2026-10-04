@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides sufficient information on how lexicons are compared, particularly through crowd evaluations versus expert evaluations, and the quality of annotations in lexicon acquisition.",
+    "claims": [
+      {
+        "text": "Crowd evaluations of lexicons are compared to those of expert linguists to assess overall lexicon quality.",
+        "citations": [
+          "C1",
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Lexicon acquisition involves both subjective and objective tasks, with crowd diversity impacting the evaluation process.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The quality of lexicon annotations can be improved through filtering and evaluation processes involving both crowds and experts.",
+        "citations": [
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1891,
+    "total_tokens": 2049,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.640753300001961,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

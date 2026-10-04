@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the authors evaluated their model on the SimpleQuestions dataset and also utilized additional datasets for training, such as WebQuestions and WikiAnswers, which implies they tried the model on other datasets.",
+    "claims": [
+      {
+        "text": "The authors evaluated the proposed model on the SimpleQuestions dataset and used additional datasets for training.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The training included 3K questions from WebQuestions and 15M paraphrases from WikiAnswers.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 1172,
+    "total_tokens": 1292,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.998989599997003,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

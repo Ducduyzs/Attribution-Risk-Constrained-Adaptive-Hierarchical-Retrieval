@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the tasks involved in the experiments, including text classification and semantic matching, along with details about the datasets used for evaluation.",
+    "claims": [
+      {
+        "text": "The experiments involve five text classification tasks and a semantic matching task.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The models are evaluated on two typical NLP tasks: text classification and semantic matching.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The text classification tasks include analyzing emotional terms and idiomatic collocations for sentiment prediction.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 1108,
+    "total_tokens": 1241,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3067920000030426,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

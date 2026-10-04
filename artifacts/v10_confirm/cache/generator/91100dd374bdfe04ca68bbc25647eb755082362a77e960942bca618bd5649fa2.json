@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear description of how crowd workers were instructed to identify important elements in large document collections using a novel crowdsourcing scheme called low-context importance annotation.",
+    "claims": [
+      {
+        "text": "Crowd workers were instructed to determine important elements in document clusters without reading all documents, using only a description of the topic and propositions.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The crowdsourcing scheme involved collecting Likert-scores from workers for propositions to rank their importance, allowing for efficient and scalable annotation.",
+        "citations": [
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The task design was simple and intuitive, enabling workers to quickly assess the importance of propositions based on minimal context.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 1849,
+    "total_tokens": 2022,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3049399000010453,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

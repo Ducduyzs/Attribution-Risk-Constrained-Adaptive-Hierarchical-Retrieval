@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods and protocols for evaluating segmentation quality, including comparisons with manually annotated references and performance metrics like F-score and recall.",
+    "claims": [
+      {
+        "text": "Segmentation quality is evaluated by comparing automatic segmentations against a manually annotated reference corpus, such as the Annodis corpus.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An evaluation protocol was established to measure the performance of segmenters, focusing on metrics like F-score and recall.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation includes measuring the distance between human segmentations and automatic segmentations to assess quality.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 1105,
+    "total_tokens": 1259,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.098657500006084,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

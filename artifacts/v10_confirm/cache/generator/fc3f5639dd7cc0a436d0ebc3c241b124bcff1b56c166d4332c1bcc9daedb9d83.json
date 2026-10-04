@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The provided evidence does not explicitly state whether the model is trained starting from a checkpoint. It discusses various pre-training tasks and objectives but lacks specific information about checkpoint training.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 1987,
+    "total_tokens": 2031,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2029615999999805,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the dataset used for evaluation, which consists of large-scale antonym and synonym pairs collected from WordNet and Wordnik, along with details on how the dataset is structured and split for training, testing, and validation.",
+    "claims": [
+      {
+        "text": "The dataset used for evaluation consists of large-scale antonym and synonym pairs collected from WordNet and Wordnik.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset is structured with a ratio of 1:1 positive (antonym) to negative (synonym) pairs and is split into 70% training, 25% testing, and 5% validation sets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The final dataset contains the number of word pairs according to word classes as described in Table 1.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 190,
+    "prompt_tokens": 686,
+    "total_tokens": 876,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3915269000062835,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

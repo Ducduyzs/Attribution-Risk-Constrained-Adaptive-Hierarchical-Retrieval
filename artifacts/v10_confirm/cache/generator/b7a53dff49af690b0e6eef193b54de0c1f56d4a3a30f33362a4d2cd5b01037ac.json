@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses various aspects of active learning, including stopping methods and batch sizes, which are evaluated in the context of text classification tasks.",
+    "claims": [
+      {
+        "text": "The downstream tasks evaluated include text classification using active learning methods.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Different batch sizes corresponding to 1%, 5%, and 10% of the training data were considered in the experiments.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Stopping methods for active learning, such as the Oracle Method and BV2009, are evaluated based on their performance in determining when to stop the annotation process.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 1144,
+    "total_tokens": 1299,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9524802999949316,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

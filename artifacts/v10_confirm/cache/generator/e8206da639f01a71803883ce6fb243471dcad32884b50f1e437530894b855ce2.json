@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "Current ELS's are not sufficiently effective due to issues of ambiguity and irrelevance in the linked entities they extract, which can lead to errors in summarization.",
+    "claims": [
+      {
+        "text": "Current ELS's introduce unresolved ambiguities and irrelevant entities, affecting their effectiveness.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Extracted entities from ELS's often suffer from ambiguity, with 71.0% of the top entities having disambiguation pages, indicating a high rate of ambiguity.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Linked entities may be too common, leading to errors and irrelevance in summaries, as seen with the example of 'Wednesday'.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 1119,
+    "total_tokens": 1285,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1182393000053708,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

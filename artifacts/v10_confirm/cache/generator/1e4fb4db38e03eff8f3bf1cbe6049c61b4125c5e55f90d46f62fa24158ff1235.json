@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the dataset collection process, including the number of questions, categories, and the annotation procedure.",
+    "claims": [
+      {
+        "text": "The dataset was constructed to exceed the size and classification specificity of other datasets, with a total of 7,787 questions organized into various categories.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Questions were annotated by two annotators, with the lead annotator having professional domain expertise, to ensure quality and consistency.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The questions were randomly shuffled during the annotation process to counterbalance learning effects, while presented in grade order to reduce context switching.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 1089,
+    "total_tokens": 1248,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1779562999945483,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

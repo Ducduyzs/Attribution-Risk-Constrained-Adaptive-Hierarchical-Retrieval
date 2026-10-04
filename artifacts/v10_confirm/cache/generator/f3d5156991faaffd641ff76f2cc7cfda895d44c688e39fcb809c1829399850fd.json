@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear method for calculating static embeddings using principal components of contextualized representations.",
+    "claims": [
+      {
+        "text": "Static embeddings for each word are calculated by taking the first principal component of its contextualized representations in a given layer.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The maximum explainable variance (MEV) indicates how well a static embedding can replace a word's contextualized representations, with adjustments for anisotropy.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Static embeddings like those from GloVe and FastText are less effective than those derived from lower layers of contextualizing models like BERT and ELMo.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1048,
+    "total_tokens": 1209,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.047223000001395,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

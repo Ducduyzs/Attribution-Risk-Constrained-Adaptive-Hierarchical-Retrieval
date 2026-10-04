@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods and annotations used to identify non-standard pronunciation, including the transcription of mispronunciations and the use of phonetic alignment techniques.",
+    "claims": [
+      {
+        "text": "Non-standard pronunciation is identified through annotations for mispronunciations, poor intelligibility, and other speech disfluencies in transcriptions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Phonetic alignment techniques are used to measure the quality of speech generation and identify discrepancies in pronunciation.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The lack of standardized orthography in Mapudungun leads to varied orthographic conventions, which can indicate non-standard pronunciations.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1751,
+    "total_tokens": 1912,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9614644999965094,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

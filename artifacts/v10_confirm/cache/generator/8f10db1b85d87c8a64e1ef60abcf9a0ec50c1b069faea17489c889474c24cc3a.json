@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the dataset used to train the model consists of tweets, specifically mentioning that 3,216 tweets were utilized for training the sentiment analyzer.",
+    "claims": [
+      {
+        "text": "The dataset used to train the model consists of 3,216 tweets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model is trained on human annotated tweets, with plans to increase the dataset to over 10,000 tweets in the future.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 1511,
+    "total_tokens": 1625,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5899976000000606,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

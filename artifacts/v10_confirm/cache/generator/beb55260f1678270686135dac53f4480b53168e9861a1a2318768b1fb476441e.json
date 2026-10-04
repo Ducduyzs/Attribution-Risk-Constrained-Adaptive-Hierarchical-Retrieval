@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly states that jiant implements over 50 NLU tasks, including all GLUE and SuperGLUE benchmark tasks, confirming the involvement of datasets for these tasks.",
+    "claims": [
+      {
+        "text": "jiant implements over 50 NLU tasks, including all GLUE and SuperGLUE benchmark tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "jiant supports a task bank of over 50 tasks, including various individual tasks and benchmark tasks.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "jiant is designed for multitask and transfer learning experiments on English NLU tasks.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 1876,
+    "total_tokens": 2020,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.497820700002194,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

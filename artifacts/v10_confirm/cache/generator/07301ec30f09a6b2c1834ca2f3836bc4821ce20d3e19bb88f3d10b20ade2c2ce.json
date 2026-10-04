@@ -1,0 +1,34 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the dataset used for the debates as the transcripts of the 'Intelligence Squared Debates' (IQ2) held in the US from September 2006 to September 2015.",
+    "claims": [
+      {
+        "text": "The dataset consists of transcripts from the Intelligence Squared Debates (IQ2) held in the US from September 2006 to September 2015.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1836,
+    "total_tokens": 1939,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5530813000004855,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

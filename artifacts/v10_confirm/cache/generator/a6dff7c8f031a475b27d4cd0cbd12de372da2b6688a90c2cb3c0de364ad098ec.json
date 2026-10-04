@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics and results achieved by the proposed model using ELMo embeddings for fine-grained named entity classification.",
+    "claims": [
+      {
+        "text": "The proposed model achieves a total F-1 score of 88% on the OntoNotes dataset and a micro-averaged F-1 score of 53% on the Wiki(gold) dataset.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model's performance on other categories in the OntoNotes dataset shows F-1 scores between 80-90%, except for time which has a score of 65%.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The framework is designed to provide acceptable out-of-the-box performance for fine-grained datasets without specific tuning.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1798,
+    "total_tokens": 1980,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.349474700000428,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

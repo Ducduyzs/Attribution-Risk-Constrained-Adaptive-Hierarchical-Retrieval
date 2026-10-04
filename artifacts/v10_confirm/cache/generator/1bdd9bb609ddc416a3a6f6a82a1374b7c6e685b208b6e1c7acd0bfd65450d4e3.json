@@ -1,0 +1,58 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific machine learning and deep learning methods used for Recognizing Question Entailment (RQE) in the context of question answering systems.",
+    "claims": [
+      {
+        "text": "Machine learning methods for RQE include logistic regression classifiers.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Deep learning methods for RQE include neural networks such as Bi-LSTM, GRU, and CNNs.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "RQE methods were evaluated using datasets like SNLI, multiNLI, Quora, Clinical-QE, and SemEval-cQA.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "Combining information retrieval (IR) models with RQE methods improves the selection of entailed questions and ranking of answers.",
+        "citations": [
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 199,
+    "prompt_tokens": 1810,
+    "total_tokens": 2009,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 5.392250500000955,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

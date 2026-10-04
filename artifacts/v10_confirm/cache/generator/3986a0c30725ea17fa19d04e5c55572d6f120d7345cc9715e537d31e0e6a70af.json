@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of topics discussed on Reddit, including politics, business, science, and general inquiries.",
+    "claims": [
+      {
+        "text": "Reddit discussions cover a diverse set of topics including politics, business, science, and general inquiries.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Subreddits are oriented around specific interests or topics, such as technology or politics.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 680,
+    "total_tokens": 784,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.109420599997975,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

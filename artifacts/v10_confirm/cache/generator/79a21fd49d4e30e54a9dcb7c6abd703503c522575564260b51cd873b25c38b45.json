@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that while ROUGE is a primary evaluation metric, other evaluation methods are also utilized, particularly through human evaluations and reinforcement learning approaches that assess summary quality beyond ROUGE.",
+    "claims": [
+      {
+        "text": "The neural summarization model optimizes the ROUGE metric but also incorporates human evaluations to assess summary quality.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Reinforcement learning is used to improve sentence selection, indicating a method of evaluation beyond just ROUGE.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 1207,
+    "total_tokens": 1327,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9732285999998567,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into what the model learns in a zero-shot setting, particularly in the context of cross-lingual transfer learning and reading comprehension tasks.",
+    "claims": [
+      {
+        "text": "In a zero-shot setting, the model learns language-independent strategies that allow it to apply knowledge from one language to another without needing translation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model demonstrates the ability to transfer knowledge between languages with low lexical similarity, indicating it learns to generalize across different languages.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Pre-trained multilingual models like multi-BERT can effectively perform reading comprehension tasks in a zero-shot manner, leveraging their training on multilingual corpora.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 1149,
+    "total_tokens": 1317,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4299353000023984,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The paper explores the language used in complaint-based posts, specifically analyzing linguistic signals in tweets.",
+    "claims": [
+      {
+        "text": "The paper explores linguistic signals associated with complaint posts in tweets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The methodology includes analyzing linguistic markers and sentiment markers in the language of complaints.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 578,
+    "total_tokens": 668,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6276127999954042,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

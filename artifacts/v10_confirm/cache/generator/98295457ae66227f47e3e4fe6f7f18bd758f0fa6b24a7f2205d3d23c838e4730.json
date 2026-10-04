@@ -1,0 +1,68 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear list of datasets used for document classification tasks, detailing their sources and characteristics.",
+    "claims": [
+      {
+        "text": "The datasets used include Reuters, BBCSport, Polarity, Subjectivity, and MPQA.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The Reuters dataset consists of stories from the Reuters news agency collected in 1987.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The BBCSport dataset contains sports news articles from the BBC Sport website from 2004-2005.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The Polarity dataset features positive and negative labeled snippets from Rotten Tomatoes.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The Subjectivity dataset includes movie review snippets and plot summaries from Rotten Tomatoes and IMDb.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The MPQA dataset consists of positive and negative phrases annotated for multi-perspective question answering.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 216,
+    "prompt_tokens": 483,
+    "total_tokens": 699,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6846489000017755,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ce3836fcfd"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the dataset used for the debates, including details about the debates and their structure.",
+    "claims": [
+      {
+        "text": "The dataset consists of transcripts of all debates held by IQ2 in the US from September 2006 to September 2015, totaling 108 debates.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "Each debate in the dataset has an average of 12801 words and 117 turns by members of either side.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The dataset allows for analysis of conversational dynamics and includes rich metadata.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 673,
+    "total_tokens": 813,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.581252399999357,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

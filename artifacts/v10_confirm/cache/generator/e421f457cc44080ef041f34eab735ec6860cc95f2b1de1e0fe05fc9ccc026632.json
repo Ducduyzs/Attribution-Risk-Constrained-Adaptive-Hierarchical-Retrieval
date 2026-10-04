@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly states that the corpus includes information on typography, which is relevant to the question about typography in the corpus.",
+    "claims": [
+      {
+        "text": "The corpus contains information on typography, including aspects such as font type and font style.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Typography information is considered valuable for tasks like automatic readability assessment and text simplification.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 1007,
+    "total_tokens": 1115,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9835597999990568,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

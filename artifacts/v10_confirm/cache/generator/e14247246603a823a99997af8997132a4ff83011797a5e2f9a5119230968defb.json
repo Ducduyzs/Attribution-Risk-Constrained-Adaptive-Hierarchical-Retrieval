@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The paper explores the language used in tweets, specifically focusing on complaint-based posts in the transport domain.",
+    "claims": [
+      {
+        "text": "The paper analyzes linguistic signals in tweets, particularly those related to complaints.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The methodology includes the use of linguistic markers such as Bag of Words and POS tags to identify complaint-related content in tweets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study utilizes sentiment markers derived from various lexicons to assess the sentiment of complaint tweets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 1119,
+    "total_tokens": 1252,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9212342999962857,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

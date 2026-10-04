@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific word embedding models that were tested, including Bernoulli embeddings, continuous bag-of-words (CBOW), Distributed Memory version of Paragraph Vector (PV-DM), and Global Vectors (GloVe).",
+    "claims": [
+      {
+        "text": "The tested word embeddings include Bernoulli embeddings (b-emb), continuous bag-of-words (CBOW), Distributed Memory version of Paragraph Vector (PV-DM), and Global Vectors (GloVe).",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "EqEmb is based on Bernoulli embeddings (b-embs) and extends the concept of word embeddings to include equations.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 1913,
+    "total_tokens": 2072,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2390159999995376,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

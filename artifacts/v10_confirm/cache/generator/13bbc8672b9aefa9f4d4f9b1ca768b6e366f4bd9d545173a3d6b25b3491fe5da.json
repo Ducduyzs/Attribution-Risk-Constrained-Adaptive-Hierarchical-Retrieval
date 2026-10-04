@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly discusses the identification of complaint-based posts, particularly in the transport domain, which implies the exploration of language used in complaints on social media platforms like Twitter.",
+    "claims": [
+      {
+        "text": "The paper explores the language used in complaint-based posts on social media, specifically focusing on the transport domain.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 675,
+    "total_tokens": 762,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5910653000028105,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

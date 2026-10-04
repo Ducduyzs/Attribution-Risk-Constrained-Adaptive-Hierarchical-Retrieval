@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the tasks involved in the experiments conducted with the models.",
+    "claims": [
+      {
+        "text": "The experiments involve text classification and text semantic matching tasks.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Five text classification tasks and one semantic matching task were evaluated.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 653,
+    "total_tokens": 735,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3960753999999724,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

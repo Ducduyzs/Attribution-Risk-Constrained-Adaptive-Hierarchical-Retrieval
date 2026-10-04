@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the baseline performance of models in comparison to other approaches, specifically mentioning the wFST model as a baseline.",
+    "claims": [
+      {
+        "text": "The baseline performance is represented by the wFST model, which is compared against other models in terms of Word Error Rate (WER) and Phoneme Error Rate (PER).",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The wFST model is used as a baseline for high resource languages, indicating its significance in evaluating other models' performances.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 1516,
+    "total_tokens": 1653,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2053693999987445,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

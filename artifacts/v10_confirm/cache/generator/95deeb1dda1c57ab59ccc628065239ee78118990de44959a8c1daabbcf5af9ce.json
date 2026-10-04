@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides multiple methods for obtaining psychological dimensions of people through language analysis in social media.",
+    "claims": [
+      {
+        "text": "Psychological dimensions can be obtained by analyzing the vocabulary used in social media, particularly blogs, which reflect personality and motivations.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Maps can be generated from word categories that reflect psycholinguistic properties, allowing for the visualization of psychological dimensions across different demographics.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The Meaning Extraction Method (MEM) can be used to identify themes related to personal values, which are indicative of psychological dimensions.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1499,
+    "total_tokens": 1655,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 1.9707009999983711,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

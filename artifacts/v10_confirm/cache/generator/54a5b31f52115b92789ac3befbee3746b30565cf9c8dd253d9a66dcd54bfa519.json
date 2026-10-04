@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of topics discussed on Reddit, including politics, business, science, abortion, climate change, and various hobbies.",
+    "claims": [
+      {
+        "text": "Reddit discussions cover a diverse set of topics including politics, business, science, abortion, and climate change.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Subreddits are oriented around specific interests such as technology, politics, and hobbies.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Subreddits with high dogmatism levels are often related to politics and religion, while those with low levels focus on hobbies.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1215,
+    "total_tokens": 1373,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0899025999970036,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

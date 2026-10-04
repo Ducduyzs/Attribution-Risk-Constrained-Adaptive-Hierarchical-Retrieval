@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence does not specify whether the collected multimodal in-cabin dataset is public or not.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 30,
+    "prompt_tokens": 1171,
+    "total_tokens": 1201,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 0.947773199994117,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

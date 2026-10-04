@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed information about the current state-of-the-art models for speech recognition on the Wall Street Journal (WSJ) dataset, including their architectures and performance metrics.",
+    "claims": [
+      {
+        "text": "The current best model on WSJ is an HMM-based system that combines convolutional, recurrent, and fully connected layers, achieving the lowest Word Error Rate (WER).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An end-to-end system using lattice-free MMI on augmented data achieves state-of-the-art performance on WSJ, comparable to the best models.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "A fully convolutional approach trained end-to-end from raw waveforms matches the current state-of-the-art on WSJ.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1142,
+    "total_tokens": 1324,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2585548000060953,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

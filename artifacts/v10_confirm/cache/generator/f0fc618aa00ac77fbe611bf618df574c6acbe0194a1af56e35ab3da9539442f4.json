@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the model discussed outperforms existing systems and is considered state-of-the-art based on various performance metrics.",
+    "claims": [
+      {
+        "text": "The model outperforms the state-of-the-art model in terms of BLEU, relation generation, content selection, and content ordering metrics.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Our model shows a significant improvement over the state-of-the-art model in evaluations on the ROTOWIRE dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 714,
+    "total_tokens": 831,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.707275100001425,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of how reordering is performed to match words between languages with different word orders, specifically through the use of pre-ordering rules.",
+    "claims": [
+      {
+        "text": "Reordering is achieved by applying pre-ordering rules to English sentences to match the word order of the source language, such as swapping noun phrases and verbs.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The CFILT-preorder system utilizes generic and Hindi-tuned rules to improve the reordering of English sentences for Indian languages.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Pre-ordering significantly improves translation quality by addressing word-order divergence between the assisting and source languages.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 1760,
+    "total_tokens": 1933,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.85493910000514,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

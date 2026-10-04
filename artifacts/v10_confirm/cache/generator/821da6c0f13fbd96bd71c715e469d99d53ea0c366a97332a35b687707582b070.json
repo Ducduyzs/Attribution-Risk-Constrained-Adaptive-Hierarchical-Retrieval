@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the model is trained using Twitter data, specifically 3,216 tweets, and mentions the use of human-annotated tweets for sentiment analysis.",
+    "claims": [
+      {
+        "text": "The model is trained using Twitter data, specifically 3,216 tweets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The classifier uses features derived from human-annotated tweets for sentiment analysis.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Future work aims to incorporate more than 10,000 human-annotated tweets for training.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 1141,
+    "total_tokens": 1280,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9090413000012632,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

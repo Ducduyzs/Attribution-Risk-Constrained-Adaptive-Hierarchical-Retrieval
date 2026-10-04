@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition and explanation of a second order co-occurrence matrix, detailing its construction and application in measuring semantic relatedness.",
+    "claims": [
+      {
+        "text": "A second order co-occurrence matrix is constructed from a first-order co-occurrence matrix and is used to create second-order co-occurrence vectors that represent the meaning of terms.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Second order co-occurrence vectors incorporate contextual information and semantic similarity scores to measure relatedness between concepts.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The integration of semantic similarity into second order co-occurrence vectors improves correlation with human judgments of similarity and relatedness.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 1136,
+    "total_tokens": 1308,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9511367000013706,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

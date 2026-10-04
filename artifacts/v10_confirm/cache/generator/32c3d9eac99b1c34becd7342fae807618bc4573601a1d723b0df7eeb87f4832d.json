@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that PARENT correlates better with human judgments compared to other text generation metrics, specifically mentioning its performance against BLEU and ROUGE.",
+    "claims": [
+      {
+        "text": "PARENT correlates with human judgments better than existing text generation metrics like BLEU and ROUGE.",
+        "citations": [
+          "C1",
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "PARENT shows higher correlation with human ratings across grammaticality, fluency, and semantics compared to other metrics.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "PARENT's inclusion of source tables improves its correlation with human judgments, particularly for semantic fidelity.",
+        "citations": [
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 2047,
+    "total_tokens": 2207,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0157548999995925,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

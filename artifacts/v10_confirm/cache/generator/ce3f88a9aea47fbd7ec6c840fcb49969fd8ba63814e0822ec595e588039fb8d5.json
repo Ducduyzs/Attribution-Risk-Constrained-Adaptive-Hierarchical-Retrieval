@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies a specific model that achieves state-of-the-art performance in table-to-text generation tasks, particularly on the ROTOWIRE dataset.",
+    "claims": [
+      {
+        "text": "The model presented in the evidence achieves state-of-the-art performance in table-to-text generation tasks.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The model outperforms existing systems on various metrics, including BLEU and F1 scores.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "This is the first work on neural table-to-text generation that models column and time dimension information.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 1685,
+    "total_tokens": 1837,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.964683199999854,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

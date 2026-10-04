@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the model is trained using Twitter data, specifically 3,216 tweets, and mentions the potential for future training with more tweets and data from Stocktwits and news.",
+    "claims": [
+      {
+        "text": "The model is trained using Twitter data, specifically 3,216 tweets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Future work aims to incorporate more than 10,000 tweets for training the classifiers.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model may also include data from Stocktwits and news for sentiment analysis.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 1488,
+    "total_tokens": 1631,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2985726999977487,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

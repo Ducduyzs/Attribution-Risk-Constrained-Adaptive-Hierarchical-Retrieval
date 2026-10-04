@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of training set sizes for ELMo models, indicating that newer models are trained on significantly larger datasets than previous versions.",
+    "claims": [
+      {
+        "text": "The original ELMo model was trained on a one billion word corpus, while newer models for specific languages were trained on datasets significantly larger than 20 million tokens used in earlier models.",
+        "citations": [
+          "C3",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "For the Latvian language, the new ELMo model was trained on 270 million tokens compared to the 20 million tokens used by ELMoForManyLangs.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The evidence suggests that training on a few hundred million tokens is sufficient for effective ELMo model performance, indicating a substantial increase in training set size.",
+        "citations": [
+          "C6",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 198,
+    "prompt_tokens": 1749,
+    "total_tokens": 1947,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.522356300003594,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

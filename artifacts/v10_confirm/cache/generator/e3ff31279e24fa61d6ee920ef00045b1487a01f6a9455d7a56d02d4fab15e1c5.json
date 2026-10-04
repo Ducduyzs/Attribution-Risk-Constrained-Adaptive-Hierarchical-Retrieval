@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific labels for antisocial events identified in datasets, including hate speech, harassment, personal attacks, and general toxicity.",
+    "claims": [
+      {
+        "text": "Available labels for antisocial events in datasets include hate speech, harassment, personal attacks, and general toxicity.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The datasets used in the study contain labels for various antisocial events, which are crucial for forecasting conversational derailment.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 1091,
+    "total_tokens": 1203,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.486303300000145,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly lists the models that the SATA-LSTM was compared against, providing a clear answer to the question.",
+    "claims": [
+      {
+        "text": "The baselines compared against include neural models built on syntactic trees, latent trees, and non-tree models.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Specific models mentioned as baselines are Latent Syntax Tree-LSTM, Tree-based CNN, Gumbel Tree-LSTM, NSE, Reinforced Self-Attention Network, Residual stacked encoders, and BiLSTM with generalized pooling.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 506,
+    "total_tokens": 642,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.91257190000033,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ce3836fcfd"
+}

@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that newer ELMo models were trained on larger datasets compared to previous versions, specifically mentioning that the original ELMo was trained on one billion words, while newer models for seven languages were trained on much larger corpora than the 20-million-word datasets used in earlier models.",
+    "claims": [
+      {
+        "text": "The original ELMo model was trained on a one billion word corpus, while newer models for seven languages were trained on larger datasets.",
+        "citations": [
+          "C1",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The ELMoForManyLangs models were trained on only 20 million words, which is significantly smaller than the datasets used for the new ELMo models.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "New ELMo embeddings were trained on larger training sets, which improved their quality compared to previous models.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 207,
+    "prompt_tokens": 1776,
+    "total_tokens": 1983,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.140155400004005,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

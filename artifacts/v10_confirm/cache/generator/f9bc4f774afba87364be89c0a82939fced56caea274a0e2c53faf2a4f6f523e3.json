@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the model outperforms existing models, particularly on longer documents, and achieves state-of-the-art results on the evaluated datasets.",
+    "claims": [
+      {
+        "text": "The proposed model outperforms previous extractive and abstractive models on ROUGE-1, ROUGE-2, and METEOR scores.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance improvement of the model is more pronounced with longer documents, indicating its effectiveness in summarizing such texts.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model achieves state-of-the-art results on the Pubmed and arXiv datasets, outperforming traditional methods by a narrow margin.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1095,
+    "total_tokens": 1260,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9060265000007348,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence does not provide any information about the use of a crowdsourcing platform for annotations. It discusses the use of a large corpus and manual annotations but does not mention crowdsourcing.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 2015,
+    "total_tokens": 2062,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.1453486000027624,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5a65effc2c"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed information about the current state-of-the-art models and their performance on the WSJ dataset, including specific architectures and Word Error Rates (WER).",
+    "claims": [
+      {
+        "text": "The current best model on WSJ is an HMM-based system that combines convolutional, recurrent, and fully connected layers, achieving the lowest WER.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A fully convolutional model trained end-to-end shows state-of-the-art performance on WSJ, matching the best existing systems.",
+        "citations": [
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Replacing the n-gram language model with a convolutional one improves WER, making the model competitive with the best end-to-end systems.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1887,
+    "total_tokens": 2064,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.614556200001971,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5a65effc2c"
+}

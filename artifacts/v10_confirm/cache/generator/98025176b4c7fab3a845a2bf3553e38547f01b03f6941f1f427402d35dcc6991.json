@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly states that eight biomedical Named Entity Recognition (NER) tasks were evaluated, providing sufficient information to answer the question.",
+    "claims": [
+      {
+        "text": "They evaluated on eight biomedical Named Entity Recognition (NER) tasks.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The evaluation covered tasks used in BIBREF2.",
+        "citations": [
+          "C3",
+          "C7"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 1611,
+    "total_tokens": 1712,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3724820999996155,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

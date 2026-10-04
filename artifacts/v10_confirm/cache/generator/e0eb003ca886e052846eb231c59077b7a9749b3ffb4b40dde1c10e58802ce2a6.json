@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics indicating that the proposed model outperforms existing models on various ROUGE scores and METEOR, particularly for longer documents.",
+    "claims": [
+      {
+        "text": "Our model outperforms previous extractive and abstractive models on ROUGE-1, ROUGE-2, and METEOR scores.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The improvements over the Baseline model indicate that our model's combination of local and global contextual information enhances performance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The performance significantly improves with the addition of local topic information, especially for long documents.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1095,
+    "total_tokens": 1251,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.850667100006831,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

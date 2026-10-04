@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of the model's performance against existing models using ROUGE and METEOR scores, indicating significant improvements.",
+    "claims": [
+      {
+        "text": "Our model outperforms existing neural extractive models on all ROUGE scores and METEOR, showing better performance than the Baseline model and previous works.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance significantly improves with the addition of local context, especially for long documents, indicating a clear advantage over traditional models.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The neural extractive models outperform traditional extractive models on informativeness (ROUGE-1,2) by a wide margin, although results on ROUGE-L are mixed.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1235,
+    "total_tokens": 1412,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4143748999995296,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

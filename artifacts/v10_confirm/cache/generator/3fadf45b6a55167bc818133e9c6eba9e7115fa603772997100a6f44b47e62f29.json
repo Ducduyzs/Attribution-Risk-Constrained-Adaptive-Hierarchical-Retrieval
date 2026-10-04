@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of how the approach improves interpretability through human involvement and keyword discovery.",
+    "claims": [
+      {
+        "text": "The approach improves model interpretability by soliciting informative keywords from the crowd, providing human-understandable explanations for the model's performance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Empirical demonstrations show that the approach enhances both accuracy and interpretability on multiple datasets, improving the state of the art by 24.3%.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The method outperforms traditional query expansion techniques in discovering informative keywords, which contributes to better interpretability.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 735,
+    "total_tokens": 889,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.212522000001627,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

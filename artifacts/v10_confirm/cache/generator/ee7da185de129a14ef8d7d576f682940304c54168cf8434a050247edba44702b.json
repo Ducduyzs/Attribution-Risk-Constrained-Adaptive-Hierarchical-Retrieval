@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about experiments conducted on text-based games using the Go-Explore methodology.",
+    "claims": [
+      {
+        "text": "Experiments were performed on text-based games using the Go-Explore methodology, which extracts high-performing trajectories and trains a Seq2Seq model.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The experiments demonstrated that the Go-Explore approach outperforms existing solutions in solving text-based games and is more sample efficient.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The work presents an agent capable of state-of-the-art performance in playing text-based computer games, highlighting their complexity and the challenges they pose for learning agents.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 676,
+    "total_tokens": 836,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.005067500002042,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

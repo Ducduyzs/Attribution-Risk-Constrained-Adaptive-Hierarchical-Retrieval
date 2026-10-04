@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information on methods for calculating static embeddings, specifically mentioning models like Skip-gram with negative sampling and GloVe, which factorize a word-context matrix.",
+    "claims": [
+      {
+        "text": "Static embeddings are calculated using models like Skip-gram with negative sampling and GloVe, which factorize a word-context matrix containing co-occurrence statistics.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Static embeddings create a single representation for each word, which can be problematic for polysemous words as they must share a single vector.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 559,
+    "total_tokens": 693,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5090135999998893,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

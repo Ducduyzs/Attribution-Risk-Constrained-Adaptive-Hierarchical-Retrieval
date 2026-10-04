@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a comparison of the adaptively sparse Transformer method against standard softmax and other baseline models, highlighting performance metrics and characteristics.",
+    "claims": [
+      {
+        "text": "Replacing softmax with entmax does not hurt performance; sparse attention Transformers tend to have slightly higher BLEU scores.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The adaptively sparse Transformer improves interpretability and head diversity compared to softmax Transformers, with heads learning different sparsity preferences.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The end-to-end computational overhead of the adaptively sparse methods is relatively small, achieving 75% to 90% of the speed of the softmax model.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 1637,
+    "total_tokens": 1805,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0338749999937136,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a comparison of the method's performance against baselines, specifically in terms of computational speed and attention density.",
+    "claims": [
+      {
+        "text": "The models using α-entmax and 1.5-entmax achieve 75% and 90% of the training speed of the standard softmax model, respectively.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The adaptive model shows a median confidence of 95.9%, indicating effective performance compared to baseline models.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The ability of the adaptive model to learn different sparsity patterns suggests improved performance over fixed-sparsity models.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1214,
+    "total_tokens": 1372,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.193035999996937,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The paper explores the language used in complaint-based posts on social media, specifically focusing on the transport domain and utilizing linguistic markers for analysis.",
+    "claims": [
+      {
+        "text": "The paper explores the language of complaint-based posts on social media, particularly on Twitter.",
+        "citations": [
+          "C1",
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Linguistic markers such as Bag of Words and POS tags are used to analyze the language of complaints.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study focuses on the transport domain, analyzing how users express grievances in their posts.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 1184,
+    "total_tokens": 1335,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.511140200003865,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

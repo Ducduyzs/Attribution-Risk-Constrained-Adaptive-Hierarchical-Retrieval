@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the analysis of tweets related to complaints in the transport domain, indicating the exploration of the English language as it pertains to social media communication.",
+    "claims": [
+      {
+        "text": "The paper explores the English language as it is used in tweets related to complaints about transport services.",
+        "citations": [
+          "C1",
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1565,
+    "total_tokens": 1647,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.960064599996258,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes how psychological dimensions of people can be obtained through the analysis of language usage in social media, specifically blogs, which reflect personality and motivations.",
+    "claims": [
+      {
+        "text": "Psychological dimensions can be obtained by analyzing language usage in social media, particularly blogs.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A large dataset of blog posts allows for the mapping of psycholinguistic properties and demographics.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The analysis of vocabulary in blogs can reveal variations in psychological dimensions at a geographic level.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 554,
+    "total_tokens": 700,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.296272100000351,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

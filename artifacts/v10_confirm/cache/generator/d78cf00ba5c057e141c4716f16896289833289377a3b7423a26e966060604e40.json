@@ -1,0 +1,34 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the domain of the corpus as related to speech translation, specifically focusing on the CALLHOME Spanish-English speech translation corpus, which involves multi-speaker telephone calls in various Spanish dialects.",
+    "claims": [
+      {
+        "text": "The domain of the corpus is speech translation, specifically the CALLHOME Spanish-English speech translation corpus.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 673,
+    "total_tokens": 762,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7213615000000573,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

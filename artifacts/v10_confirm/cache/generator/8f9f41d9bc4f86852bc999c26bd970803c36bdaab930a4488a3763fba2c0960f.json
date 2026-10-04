@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides sufficient information about the performance of multilingual BERT (M-Bert) in various settings, including cross-lingual and cross-target tasks.",
+    "claims": [
+      {
+        "text": "M-Bert performs better than majority class baselines in cross-lingual and cross-target settings, although it shows a drop in performance compared to supervised settings.",
+        "citations": [
+          "C1",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "M-Bert demonstrates some capability for zero-shot transfer to unseen languages and targets, but there is room for improvement in performance.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model achieves reasonable accuracy on the x-stance dataset, comparable to previous benchmarks, but shows a performance drop of 6-8 percentage points in cross-lingual settings.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 1603,
+    "total_tokens": 1790,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.541448500000115,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

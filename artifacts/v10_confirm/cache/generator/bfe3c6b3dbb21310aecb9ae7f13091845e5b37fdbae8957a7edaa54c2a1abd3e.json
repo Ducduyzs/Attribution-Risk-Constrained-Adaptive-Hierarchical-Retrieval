@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the use of a question generation model in the context of knowledge-based machine reading comprehension, where it generates questions based on the semantics of candidate answers and integrates external knowledge.",
+    "claims": [
+      {
+        "text": "A question generation model is used in knowledge-based machine reading comprehension to generate questions based on the semantics of candidate answers.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The question generation model outputs questions by taking the path between an anchor and a candidate answer.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model incorporates external knowledge bases to improve the accuracy of question generation and answering.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 626,
+    "total_tokens": 776,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0208459999994375,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

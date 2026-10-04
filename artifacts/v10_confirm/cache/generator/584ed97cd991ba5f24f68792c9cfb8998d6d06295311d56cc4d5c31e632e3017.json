@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific metrics for evaluating models in the communication game, focusing on efficiency and accuracy.",
+    "claims": [
+      {
+        "text": "Models are evaluated based on the retention rate of tokens, which measures the fraction of tokens kept in the keywords.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The accuracy of a communication scheme is measured by the fraction of sentences generated that exactly match the target sentence.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A good communication scheme should be efficient (using fewer keywords) and accurate (reconstructing the target sentence with high probability).",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 652,
+    "total_tokens": 797,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4397017000010237,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

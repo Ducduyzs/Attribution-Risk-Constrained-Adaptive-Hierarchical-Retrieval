@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies experiments conducted on two text-based games: CoinCollector and CookingWorld, detailing their use in benchmarking and evaluating generalization capabilities.",
+    "claims": [
+      {
+        "text": "Experiments were performed on the CoinCollector game to benchmark exploration capabilities.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Experiments were also conducted on the CookingWorld game to evaluate generalization capabilities.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 710,
+    "total_tokens": 810,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0587529000040377,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

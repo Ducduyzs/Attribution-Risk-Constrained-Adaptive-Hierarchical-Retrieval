@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses methods related to variance reduction in model outputs, specifically through Expected Gradient Length (EGL) and its comparison with other methods.",
+    "claims": [
+      {
+        "text": "Expected Gradient Length (EGL) reduces the variance of an estimator by computing the expectation of the gradient norm over all possible labelings.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "EGL is implemented by marginalizing over the most likely labels and comparing its performance with other methods to assess variance in model outputs.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 623,
+    "total_tokens": 746,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7304205000036745,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

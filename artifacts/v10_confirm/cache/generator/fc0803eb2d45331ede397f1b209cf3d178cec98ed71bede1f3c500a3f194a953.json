@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that results are reported for multiple languages, including English, German, and French, specifically mentioning experiments conducted on English-German datasets and results for French and German. Therefore, they do not report results only on an English dataset.",
+    "claims": [
+      {
+        "text": "Results are reported for multiple languages including English, German, and French.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Experiments include English-German datasets, indicating results are not limited to English only.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 1729,
+    "total_tokens": 1853,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2288365999993403,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

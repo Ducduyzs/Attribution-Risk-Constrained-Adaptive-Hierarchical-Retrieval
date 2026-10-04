@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of text-based games used in experiments, including CoinCollector and CookingWorld, and discusses methodologies applied to these games.",
+    "claims": [
+      {
+        "text": "Experiments were performed on the CoinCollector game, which is designed to benchmark exploration capabilities in text-based games.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The CookingWorld game was used to evaluate the generalization capabilities of the proposed approach in text-based games.",
+        "citations": [
+          "C5",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The methodology discussed is applicable to a family of text-based games, including the 4,440 games from 'First TextWorld Problems'.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 1687,
+    "total_tokens": 1849,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1232796999975108,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

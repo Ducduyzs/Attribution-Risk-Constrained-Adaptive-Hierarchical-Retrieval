@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of how words are matched before reordering them, specifically through the use of pre-ordering rules that align the word order of the assisting language with that of the source language.",
+    "claims": [
+      {
+        "text": "Pre-ordering English sentences to match the word order of the source language improves translation quality.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The CFILT-preorder system uses generic and Hindi-tuned rules for reordering English sentences to align with Indian languages.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Handling word-order divergence is crucial for successful multilingual NMT, especially in low-resource settings.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 1133,
+    "total_tokens": 1300,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0743976999947336,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

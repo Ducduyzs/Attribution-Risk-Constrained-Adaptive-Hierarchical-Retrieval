@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence does not provide sufficient information to support or refute the presumption about the presence of domain-specific jargon in a bad medical Wikipedia article.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 40,
+    "prompt_tokens": 1126,
+    "total_tokens": 1166,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.1015941000005114,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

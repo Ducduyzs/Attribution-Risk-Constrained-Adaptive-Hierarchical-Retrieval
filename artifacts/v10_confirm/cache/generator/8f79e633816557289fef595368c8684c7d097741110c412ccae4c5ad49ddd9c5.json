@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the size of the parallel corpus used for training the model constraints, which is 1500 sentences from the ILCI English-Hindi Tourism parallel corpus.",
+    "claims": [
+      {
+        "text": "The size of the parallel corpus used to train the model constraints is 1500 sentences.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 654,
+    "total_tokens": 736,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4198746000038227,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

@@ -1,0 +1,68 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific datasets used for document classification tasks, detailing their sources and characteristics.",
+    "claims": [
+      {
+        "text": "The datasets used include Reuters, BBCSport, Polarity, Subjectivity, and MPQA.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Reuters contains stories from the Reuters news agency from 1987, using the ModApte split.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "BBCSport consists of sports news articles from the BBC Sport website from 2004-2005.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Polarity features positive and negative labeled snippets from Rotten Tomatoes.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Subjectivity includes movie review snippets and plot summaries from Rotten Tomatoes and IMDb.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "MPQA is made of positive and negative phrases annotated during a workshop.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 219,
+    "prompt_tokens": 1094,
+    "total_tokens": 1313,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4789118000044255,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

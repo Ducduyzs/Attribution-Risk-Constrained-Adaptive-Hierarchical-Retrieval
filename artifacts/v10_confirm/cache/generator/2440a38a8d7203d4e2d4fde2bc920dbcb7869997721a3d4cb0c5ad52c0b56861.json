@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a comparison of the adaptively sparse Transformers with standard Transformer architectures and other variants, detailing their performance in terms of speed and efficiency during training.",
+    "claims": [
+      {
+        "text": "The adaptively sparse Transformers (using $\beta$-entmax and 1.5-entmax) achieve 75% and 90% of the training speed of the standard softmax model, respectively.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The method is compared against standard Transformer architecture and two other model variants, indicating a comprehensive evaluation against baselines.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 662,
+    "total_tokens": 799,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1200883999990765,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

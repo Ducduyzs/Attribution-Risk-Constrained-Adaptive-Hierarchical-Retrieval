@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into what the model learns in a zero-shot setting, particularly regarding cross-lingual transfer learning and the model's ability to identify answer spans in different languages without direct training on those languages.",
+    "claims": [
+      {
+        "text": "In a zero-shot setting, the model learns to identify answer spans in context, although with less accuracy compared to models trained directly on the target language.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model can transfer knowledge between languages with low lexical similarity, indicating it encodes semantic and syntactic information in a language-agnostic manner.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "Zero-shot learning is feasible as the model employs language-independent strategies learned from one language to apply to others.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.6
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1610,
+    "total_tokens": 1792,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1733801000009407,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

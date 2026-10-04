@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that experiments were conducted on text-based games using methodologies like Go-Explore and imitation learning.",
+    "claims": [
+      {
+        "text": "Experiments were performed on text-based computer games as a testbed for language understanding and problem-solving.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The methodology used in the experiments includes the Go-Explore approach for solving text-based games.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 537,
+    "total_tokens": 644,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9791246999957366,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

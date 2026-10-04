@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence provided focuses primarily on the use of the ROUGE metric and does not mention any other evaluation metrics being used in the summarization process.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 40,
+    "prompt_tokens": 2002,
+    "total_tokens": 2042,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.01942599999893,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

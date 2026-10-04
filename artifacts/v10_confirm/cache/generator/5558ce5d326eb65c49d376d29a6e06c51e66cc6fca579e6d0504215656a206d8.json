@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly lists the datasets used for evaluation in the study.",
+    "claims": [
+      {
+        "text": "The datasets used for evaluation are CSAT, 20 newsgroups, and Fisher.",
+        "citations": [
+          "C1",
+          "C7"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The CSAT dataset consists of US English telephone speech from call centers, with 4331 calls split into training, validation, and testing sets.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The 20 newsgroups dataset contains approximately 20,000 English documents for topic identification.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The Fisher dataset is used for topic identification and is mentioned as having strong results in the study.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 1611,
+    "total_tokens": 1779,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.314490199998545,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the dataset used for evaluation, which consists of antonym and synonym pairs collected from WordNet and Wordnik, along with the English Wikipedia dump as the corpus resource.",
+    "claims": [
+      {
+        "text": "The dataset used for evaluation consists of antonym and synonym pairs collected from WordNet and Wordnik.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The English Wikipedia dump from June 2016 is used as the corpus resource for the methods.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 1176,
+    "total_tokens": 1293,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.893371099999058,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

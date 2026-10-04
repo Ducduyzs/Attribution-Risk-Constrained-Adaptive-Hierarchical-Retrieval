@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the performance of various models compared to baseline models, indicating that the baseline refers to the performance of the wFST models in specific contexts.",
+    "claims": [
+      {
+        "text": "The baseline refers to the performance of the wFST models, which are purely monolingual and do not use data adaptation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "In high resource language experiments, none of the sequence-to-sequence approaches equal the performance of the wFST model, indicating it serves as a baseline.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The LangID models outperform the baseline in WER 100, suggesting the baseline is a specific performance metric.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 711,
+    "total_tokens": 880,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.714175499997509,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

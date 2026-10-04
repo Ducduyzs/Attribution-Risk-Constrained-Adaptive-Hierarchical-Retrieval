@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for obtaining psychological dimensions of people through the analysis of language usage in social media, specifically blogs, and the generation of maps reflecting demographic and psycholinguistic properties.",
+    "claims": [
+      {
+        "text": "Psychological dimensions of people can be obtained by analyzing language usage in social media, particularly through a large dataset of blog posts that includes demographic and psycholinguistic information.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Maps generated from the analysis of word categories can reflect psycholinguistic properties, such as positive feelings and core values, which are indicative of psychological dimensions.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset allows for the visualization of geographic variations in language use, which can provide insights into regional personality traits and psychological characteristics.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 198,
+    "prompt_tokens": 1086,
+    "total_tokens": 1284,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.653193400001328,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

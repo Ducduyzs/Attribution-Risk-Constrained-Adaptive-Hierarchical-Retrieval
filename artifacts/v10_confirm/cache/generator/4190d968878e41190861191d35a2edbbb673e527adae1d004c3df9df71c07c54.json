@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the normal reading paradigm as part of a dataset that includes eye-tracking and EEG data during natural reading.",
+    "claims": [
+      {
+        "text": "A normal reading paradigm involves participants reading sentences naturally without specific tasks, as opposed to a task-specific paradigm where they annotate for semantic relations.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset includes 349 sentences specifically designed for the normal reading paradigm, allowing for analysis of cognitive processing during natural reading.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 651,
+    "total_tokens": 771,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4971698000008473,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

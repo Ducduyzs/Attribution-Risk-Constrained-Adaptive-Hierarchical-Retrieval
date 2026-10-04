@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods for extracting textual patterns used in error generation, detailing how these patterns are derived from annotated corpora and utilized in generating errors.",
+    "claims": [
+      {
+        "text": "Textual patterns are extracted from an annotated corpus by identifying incorrect and correct phrase pairs, which are then used to generate errors in grammatically correct sentences.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Patterns are learned over words and part-of-speech tags, allowing for the generation of various types of errors beyond those previously studied.",
+        "citations": [
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The system uses transformation patterns to insert errors into correct sentences, based on the frequency of these patterns in the training data.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 1824,
+    "total_tokens": 2000,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.0042751000000862,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

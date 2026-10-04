@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the size of the parallel corpus used for training the model constraints.",
+    "claims": [
+      {
+        "text": "The size of the ILCI English-Hindi Tourism parallel corpus used for training the classifiers is 1500 sentences.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "A corpus of 100 parallel sentences was created for testing from the Hindi-English Tourism parallel corpus.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 726,
+    "total_tokens": 826,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9129199000017252,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

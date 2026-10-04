@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the interfaces currently implemented for Macaw.",
+    "claims": [
+      {
+        "text": "Macaw has implemented three interfaces: File IO, Standard IO, and Telegram.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Standard IO interface is an interactive command line interface for development purposes.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The Telegram interface allows multi-modal interactions and is designed for real user interaction.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Macaw supports a potential Natural Language Interface for accessing structured data in future releases.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "Macaw is designed for multi-turn, multi-modal, and mixed-initiative interactions.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 626,
+    "total_tokens": 805,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.171235199995863,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

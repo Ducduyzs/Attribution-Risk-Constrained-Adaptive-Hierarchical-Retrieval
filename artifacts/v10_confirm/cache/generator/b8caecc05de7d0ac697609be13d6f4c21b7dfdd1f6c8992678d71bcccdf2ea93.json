@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods and approaches for extracting textual patterns used in artificial error generation (AEG).",
+    "claims": [
+      {
+        "text": "Textual patterns are extracted from an annotated corpus to insert errors into grammatically correct sentences.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Patterns are learned from incorrect and correct sentence pairs, capturing transformations in the form of (incorrect phrase, correct phrase).",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The patterns include word forms and part-of-speech tags, allowing for the generation of various types of errors.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "A total of 35,625 patterns were identified from the training data for generating errors.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 1846,
+    "total_tokens": 2021,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.440767499996582,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

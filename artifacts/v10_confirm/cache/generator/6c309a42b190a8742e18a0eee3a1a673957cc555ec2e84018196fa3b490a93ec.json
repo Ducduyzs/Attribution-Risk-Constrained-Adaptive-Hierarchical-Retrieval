@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used for training classifiers in sentiment analysis, including features derived from tweets and their corresponding sentiment values.",
+    "claims": [
+      {
+        "text": "The model is trained using aggregate sentiment values from tweets and stock price movements as features and outputs, respectively.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The classifier is trained on Word2vec representations of human annotated tweets, with a training split of 90% of the dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model also utilizes N-gram representations of the same dataset for training.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 689,
+    "total_tokens": 832,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.3169756999996025,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

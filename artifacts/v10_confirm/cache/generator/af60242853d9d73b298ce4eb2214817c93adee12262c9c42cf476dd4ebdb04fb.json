@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific metrics used for evaluation in question generation, including BLEU and ROUGE metrics.",
+    "claims": [
+      {
+        "text": "The evaluation metrics used in the experiments include BLEU-1, BLEU-2, BLEU-3, BLEU-4, METEOR, and ROUGE-L.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 1197,
+    "total_tokens": 1281,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8950870999979088,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the interfaces currently implemented in Macaw, including the command line interface and the Telegram bot, which supports multi-modal interactions.",
+    "claims": [
+      {
+        "text": "Macaw currently has a command line interface and a Telegram bot interface that supports multi-modal interactions such as text, speech, image, and click.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Telegram interface allows interaction across various devices and operating systems, including Android, iOS, Linux, Mac OS, and Windows.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Macaw's design is modular, allowing for easy configuration and addition of new interfaces in the future.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1894,
+    "total_tokens": 2059,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9342316999973264,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

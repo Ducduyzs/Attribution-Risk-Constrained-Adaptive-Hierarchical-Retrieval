@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence does not specify which stock market sector achieved the best performance, only that various sectors were evaluated and that models improved forecasting accuracy with news data.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 729,
+    "total_tokens": 770,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.183026600003359,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that while ROUGE is a common evaluation metric, there are mentions of other methods and approaches that suggest the use of additional evaluation metrics in summarization.",
+    "claims": [
+      {
+        "text": "The evidence discusses traditional summarization methods that use various features to rank sentences, implying the use of metrics beyond ROUGE.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The mention of max-margin methods and integer-linear programming suggests alternative evaluation strategies that may not rely solely on ROUGE.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 533,
+    "total_tokens": 655,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6333868999936385,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ce3836fcfd"
+}

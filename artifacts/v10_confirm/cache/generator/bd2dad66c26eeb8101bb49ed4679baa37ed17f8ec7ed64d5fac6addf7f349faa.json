@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the performance of different models compared to a baseline, specifically mentioning that the LangID version outperforms the baseline in various metrics.",
+    "claims": [
+      {
+        "text": "The baseline refers to the performance level that the LangID and NoLangID models are compared against in terms of Word Error Rate (WER) and other metrics.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The models LangID and NoLangID were evaluated against this baseline, with LangID showing a significant improvement over it.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 686,
+    "total_tokens": 821,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9989085999986855,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

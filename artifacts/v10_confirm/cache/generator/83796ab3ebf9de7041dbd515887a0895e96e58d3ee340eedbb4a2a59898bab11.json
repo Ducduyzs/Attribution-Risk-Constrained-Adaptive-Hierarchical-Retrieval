@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The experiments focus specifically on the answerability of questions on the Q&A site Quora, analyzing linguistic and psycholinguistic factors that influence whether questions are answered or remain open.",
+    "claims": [
+      {
+        "text": "The study focuses on the answerability of questions on Quora, distinguishing between answered and open questions.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Linguistic and psycholinguistic aspects of question askers are key factors in predicting whether questions will be answered.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The research highlights the importance of question quality and visibility in determining answerability.",
+        "citations": [
+          "C3",
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1737,
+    "total_tokens": 1898,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.325384000003396,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}
