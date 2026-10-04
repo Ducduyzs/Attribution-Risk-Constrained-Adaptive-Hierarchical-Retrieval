@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the extractive models trained on the GameWikiSum dataset, including their performance and comparisons.",
+    "claims": [
+      {
+        "text": "The extractive models trained on the GameWikiSum dataset include TextRank, LexRank, SumBasic, C_SKIP, and SemSentSum.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "C_SKIP and SemSentSum achieved the best results among the extractive models on the GameWikiSum dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "TextRank and LexRank performed worse than other extractive models on the GameWikiSum dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "SumBasic performed slightly better than TextRank and LexRank but did not achieve comparable results with embedding-based models.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 188,
+    "prompt_tokens": 615,
+    "total_tokens": 803,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4645462000044063,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

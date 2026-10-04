@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The dataset was obtained from TripAdvisor hotel reviews, which were collected over a period of nineteen years.",
+    "claims": [
+      {
+        "text": "The dataset HotelRec was created based on hotel reviews from TripAdvisor.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "HotelRec contains approximately 50 million hotel reviews collected from TripAdvisor.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The reviews in HotelRec span from February 1, 2001, to May 14, 2019.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 1169,
+    "total_tokens": 1298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7049725000033504,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

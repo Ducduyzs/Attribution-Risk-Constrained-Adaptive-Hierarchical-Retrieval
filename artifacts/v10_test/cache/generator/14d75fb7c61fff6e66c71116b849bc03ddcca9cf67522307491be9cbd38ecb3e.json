@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the use of LSTM-based RNN classifiers in the proposed detection scheme.",
+    "claims": [
+      {
+        "text": "The classifiers used in the proposed scheme are Long Short-Term Memory (LSTM) networks.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An ensemble of LSTM classifiers was employed, consisting of either 3 or 5 classifiers.",
+        "citations": [
+          "C6",
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The output layer of the classifiers has 3 neurons corresponding to the classes Neutral, Racism, and Sexism.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 1655,
+    "total_tokens": 1796,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0809928000016953,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,63 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses various NLG tasks and evaluation metrics used in the field, including readability, grammaticality, and automatic evaluation measures.",
+    "claims": [
+      {
+        "text": "NLG evaluation considers readability and grammaticality as important properties of texts.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Automatic evaluation measures, such as BLEU, are commonly used in NLG research.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Word-based metrics (WBMs) and grammar-based metrics (GBMs) are two types of evaluation metrics used in NLG.",
+        "citations": [
+          "C3",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The paper investigates end-to-end, data-driven NLG methods and compares different approaches.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The study emphasizes the need for novel evaluation metrics that are system- and data-independent.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 210,
+    "prompt_tokens": 2033,
+    "total_tokens": 2243,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7626559999989695,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

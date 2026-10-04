@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details on how the proposed training framework mitigates bias patterns in natural language inference datasets.",
+    "claims": [
+      {
+        "text": "The proposed training framework effectively mitigates the bias pattern by reducing the misleading effects of annotation artifacts and improving models' semantic learning ability.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Experimental results demonstrate that the framework improves the generalization ability of models in cross-dataset testing by alleviating the negative effects of annotation artifacts.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The framework does not require additional data or annotations, making it easy to adopt for improving model performance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1164,
+    "total_tokens": 1322,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0494541000007303,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

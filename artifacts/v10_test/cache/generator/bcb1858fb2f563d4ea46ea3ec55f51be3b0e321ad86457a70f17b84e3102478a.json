@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear explanations of how text segmentation is performed by breaking lengthy documents into smaller chunks to enhance comprehension and processing.",
+    "claims": [
+      {
+        "text": "Text segmentation involves splitting lengthy documents into smaller chunks to encapsulate context and improve results.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The process mimics human reading behavior, allowing for better memory storage and understanding of the document's context.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Document segmentation is analogous to audio segmentation, where distinct segments are created for better classification and analysis.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 573,
+    "total_tokens": 711,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9102630999987014,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

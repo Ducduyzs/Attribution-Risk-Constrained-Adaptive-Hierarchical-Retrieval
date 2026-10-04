@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the post-processing approaches used to restore special tokens to their original numerical values in the translated sentences.",
+    "claims": [
+      {
+        "text": "In post-processing, special tokens <NUMBER> and <DATE> are replaced with the corresponding numbers detected in the original source sentences.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The post-processing includes detecting complex patterns like <NUMBER> / <NUMBER> and replacing them with the corresponding numbers from the source sentences.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "A rescoring mechanism is used in post-processing to select translation candidates for fluency and consistency.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 716,
+    "total_tokens": 873,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.101790999993682,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8f25b31f48"
+}

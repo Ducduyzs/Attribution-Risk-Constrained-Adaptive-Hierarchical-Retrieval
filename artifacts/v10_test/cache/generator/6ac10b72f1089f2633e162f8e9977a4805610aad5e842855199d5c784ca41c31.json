@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The research was not adopted in the 1960s primarily due to a lack of funding and resources compared to superpowers like the USA and USSR, which had access to advanced computers and political support for machine translation efforts.",
+    "claims": [
+      {
+        "text": "The Croatian research group lacked federal funding, which hindered their ability to create a prototype for machine translation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Unlike their counterparts in the USA and USSR, the Croatian researchers had to work without an actual computer, limiting their results to theoretical work.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The political context of the time prioritized military applications of computational linguistics, which the Croatian group could not compete with due to their limited resources.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 1097,
+    "total_tokens": 1277,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2869502999965334,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

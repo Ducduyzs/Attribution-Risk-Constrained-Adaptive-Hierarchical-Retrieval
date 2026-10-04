@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the Span-Attribute Tagging (SAT) model as the state-of-the-art tagging model used for extracting clinical concepts from provider-patient conversations.",
+    "claims": [
+      {
+        "text": "The state-of-the-art tagging model used is the Span-Attribute Tagging (SAT) model.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The SAT model performs inference in a hierarchical manner using a BIO scheme to identify clinically relevant spans.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The SAT model captures relevant context information using a latent representation from a bidirectional encoder.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 1529,
+    "total_tokens": 1676,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6091489999962505,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

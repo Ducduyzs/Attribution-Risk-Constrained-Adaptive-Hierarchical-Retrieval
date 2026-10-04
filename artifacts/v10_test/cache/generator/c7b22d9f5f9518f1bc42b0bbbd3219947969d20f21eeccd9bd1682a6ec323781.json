@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods and results related to recovering from noisy entity linking in query generation systems.",
+    "claims": [
+      {
+        "text": "The system can still generate correct answers in 85% of cases despite an 11.4% decline in precision due to noisy entity linking.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Query structures are ranked and validated, allowing the filtering of many erroneous linking results through checks like empty query and domain/range checks.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Merging query substructures improves recall, especially with limited training data, which helps in recovering from noisy linking.",
+        "citations": [
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 2087,
+    "total_tokens": 2249,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.080458299999009,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

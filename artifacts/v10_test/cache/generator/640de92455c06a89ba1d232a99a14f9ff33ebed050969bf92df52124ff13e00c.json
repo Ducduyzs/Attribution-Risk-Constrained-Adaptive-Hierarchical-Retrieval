@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the models were compared against LSTM and transformer baselines, indicating the specific baselines used in the experiments.",
+    "claims": [
+      {
+        "text": "The models were compared to LSTM and transformer baselines.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The LSTM did not benefit from using BPE, while the transformer+ReWE with BPE showed improvement.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The LSTM+ReWE achieved the best results compared to the corresponding baselines.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 721,
+    "total_tokens": 856,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7288659000041662,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

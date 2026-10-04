@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics comparing the proposed similarity measure to BM25, indicating a clear improvement in average precision and NDCG scores.",
+    "claims": [
+      {
+        "text": "The proposed similarity measure outperforms BM25 by boosting average precision by 19% and 6% on TREC 2006 and 2007, respectively.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed method achieves better NDCG scores than BM25, with improvements of 23% for NDCG@20, 23% for NDCG@5, and 25% for NDCG@10.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 1233,
+    "total_tokens": 1384,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9125254999962635,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

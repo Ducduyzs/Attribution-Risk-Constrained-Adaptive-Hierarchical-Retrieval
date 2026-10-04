@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the dataset used for clickbait detection, including the number of records and the nature of the data.",
+    "claims": [
+      {
+        "text": "The dataset used consists of 17,000 records of tweets annotated for their clickbait nature, with 2,538 disjoint instances for testing.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset includes titles, article texts, target descriptions, target keywords, and linked images.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 1569,
+    "total_tokens": 1685,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6485335000033956,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

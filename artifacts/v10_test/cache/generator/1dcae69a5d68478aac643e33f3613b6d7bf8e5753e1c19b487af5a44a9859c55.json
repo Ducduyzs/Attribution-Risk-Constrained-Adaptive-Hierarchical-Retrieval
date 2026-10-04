@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the capabilities of M-Bert in transferring knowledge across languages, including those with different scripts and typological similarities, but does not specify the exact languages used in the experiments.",
+    "claims": [
+      {
+        "text": "M-Bert experiments involve languages with high lexical overlap and those written in different scripts.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "M-Bert shows effective transfer for typologically similar languages, but not for typologically divergent ones.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "The experiments suggest that M-Bert can handle code-switching and transliterated targets, but requires explicit multilingual training for better performance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.6
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 675,
+    "total_tokens": 839,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.456869399997231,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

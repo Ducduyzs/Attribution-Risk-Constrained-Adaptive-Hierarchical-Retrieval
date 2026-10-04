@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence identifies BERT as a previous model that achieved state-of-the-art results in various NLP tasks, including question answering and language inference.",
+    "claims": [
+      {
+        "text": "BERT is a language model that achieved state-of-the-art results on various natural language processing tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The focused attention model integrates BERT and outperforms state-of-the-art methods in specific tasks.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 624,
+    "total_tokens": 734,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9089603000029456,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about various post-processing approaches applied to the output of translations, including rescoring, unknown word replacement, and restoring special tokens.",
+    "claims": [
+      {
+        "text": "Post-processing includes language model rescoring to select fluent translation candidates.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Unknown word replacement (UWR) is used to reduce the impact of out-of-vocabulary words in translations.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Restoration of special tokens like <NUMBER> and <DATE> to their original values in the translated sentences is performed.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "An ensemble method is applied by selecting the top translations and rescoring them to choose the best one.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 184,
+    "prompt_tokens": 1105,
+    "total_tokens": 1289,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7013623000020743,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

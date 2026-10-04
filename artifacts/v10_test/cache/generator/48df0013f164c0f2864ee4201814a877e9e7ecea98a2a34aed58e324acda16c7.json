@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the process of crowdsourced annotations, including the involvement of non-expert annotators and expert reviewers, as well as the validation of annotations through majority voting.",
+    "claims": [
+      {
+        "text": "Crowdsourced annotations involve non-expert contributors labeling tweets, which are then validated by majority voting among multiple annotators.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Expert reviewers correct annotations where crowdworkers disagree, ensuring higher reliability in the labeled data.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The annotation process includes evaluating tweets with varying confidence scores to improve model accuracy.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1246,
+    "total_tokens": 1396,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1530996000001323,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

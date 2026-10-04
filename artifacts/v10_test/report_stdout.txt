@@ -1,0 +1,41 @@
+{
+  "metric": "official evidence F1, mean of 512/1024/2048 per question",
+  "split": "test",
+  "holm_family_size": 3,
+  "H_a_agreement_noninferior_to_raptor": {
+    "mean_diff": 0.020127643843244114,
+    "ci95": [
+      -0.0072855400469779485,
+      0.04793230868050269
+    ],
+    "test": "non-inferiority",
+    "margin": 0.02,
+    "p_one_sided": 0.0019499025048747563,
+    "p_holm": 0.0058497075146242685,
+    "supported": true
+  },
+  "T2_all_leaf_noninferior_to_raptor": {
+    "mean_diff": -0.007519889031326942,
+    "ci95": [
+      -0.036918030529141645,
+      0.022611980128319997
+    ],
+    "test": "non-inferiority",
+    "margin": 0.02,
+    "p_one_sided": 0.2008399580020999,
+    "p_holm": 0.2008399580020999,
+    "supported": false
+  },
+  "H_b_agreement_superior_to_all_leaf": {
+    "mean_diff": 0.027647532874571057,
+    "ci95": [
+      0.0006607444842738872,
+      0.05577771490826187
+    ],
+    "test": "superiority",
+    "margin": null,
+    "p_one_sided": 0.02599870006499675,
+    "p_holm": 0.0519974001299935,
+    "supported": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence identifies BERT as a previous model that achieved state-of-the-art results in various NLP tasks, including question answering and language inference.",
+    "claims": [
+      {
+        "text": "BERT is a language model that achieved state-of-the-art results on various NLP tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "BERT utilizes a bidirectional attention mechanism and large-scale unsupervised corpora for effective context-sensitive representations.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "BERT's structure includes a self attention encoder and a classification token for summarizing input sequences.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 1225,
+    "total_tokens": 1369,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0598398999936762,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

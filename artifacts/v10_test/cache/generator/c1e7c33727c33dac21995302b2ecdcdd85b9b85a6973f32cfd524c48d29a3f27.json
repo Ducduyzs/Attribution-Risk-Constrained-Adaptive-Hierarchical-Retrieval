@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific datasets used for evaluation in various tasks, including image captioning and neural machine translation.",
+    "claims": [
+      {
+        "text": "For image captioning, the evaluation was conducted on the Microsoft COCO 2014 dataset, which contains 123,287 images and a test set of 5,000 images.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "For neural machine translation, the evaluation used the WMT 2014 dataset for English-to-German translation, with newstest 2013 for validation and newstest 2014 for testing.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The IWSLT 2015 dataset was used for English-to-Vietnamese translation, with tst2012 for validation and tst2013 for testing.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The IWSLT 2014 dataset was used for German-to-English translation, with tst2012 for validation and tst2013 for testing.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 229,
+    "prompt_tokens": 1569,
+    "total_tokens": 1798,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.9444593000007444,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

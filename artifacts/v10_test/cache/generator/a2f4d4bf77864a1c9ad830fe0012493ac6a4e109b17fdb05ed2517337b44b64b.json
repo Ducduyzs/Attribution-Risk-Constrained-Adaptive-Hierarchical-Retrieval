@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods and metrics for measuring the quality of word vectors, including the use of Pearson correlation coefficient and the impact of noise distribution on vector quality.",
+    "claims": [
+      {
+        "text": "The quality of learned word vectors is measured using the Pearson correlation coefficient, which assesses the correlation between human judgment of word similarity and the cosine distances between word vectors.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The choice of noise distribution for negative sampling significantly affects the quality of word vectors, with empirical trials guiding the selection of a smoothed unigram distribution.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 1201,
+    "total_tokens": 1340,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8499386000039522,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

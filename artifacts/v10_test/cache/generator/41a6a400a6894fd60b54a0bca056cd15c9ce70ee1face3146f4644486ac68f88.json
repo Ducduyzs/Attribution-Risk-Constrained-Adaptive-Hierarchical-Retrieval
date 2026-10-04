@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the syntactic features proposed for speech act classification on Twitter, including the use of dependency sub-trees and n-grams.",
+    "claims": [
+      {
+        "text": "The proposed syntactic features include dependency sub-trees, which capture the relationships between words in a sentence.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "N-grams are also proposed as syntactic features, specifically unigrams, bigrams, and trigrams that signal different speech acts.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "A total of 1666 syntactic features were selected for the classification task.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 1632,
+    "total_tokens": 1785,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.206933499997831,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

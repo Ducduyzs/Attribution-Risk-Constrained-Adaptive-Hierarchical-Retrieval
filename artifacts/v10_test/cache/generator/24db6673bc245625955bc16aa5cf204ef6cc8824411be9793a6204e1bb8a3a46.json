@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly states that the dataset was created based on hotel reviews from TripAdvisor, which is the world's largest online travel site.",
+    "claims": [
+      {
+        "text": "The dataset was obtained from TripAdvisor hotel reviews, which is the world's largest online travel site.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset, named HotelRec, contains approximately 50 million hotel reviews.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "HotelRec includes user profiles, hotel URLs, overall ratings, written text, and dates from the reviews.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 1736,
+    "total_tokens": 1880,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7559911999996984,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

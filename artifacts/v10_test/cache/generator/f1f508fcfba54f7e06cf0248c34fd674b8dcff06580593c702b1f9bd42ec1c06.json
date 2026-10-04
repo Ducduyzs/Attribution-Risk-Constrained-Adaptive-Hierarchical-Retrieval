@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the process of crowdsourced annotation and the involvement of expert annotators to resolve disagreements among crowdworkers, indicating that the type of annotation performed is a combination of crowdsourced and expert review.",
+    "claims": [
+      {
+        "text": "The annotation performed is a combination of crowdsourced and expert review.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Crowdsourced annotations involved multiple rounds to assess labeling quality and inter-annotator reliability.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Expert annotators corrected tweets with divergent labels from crowdworkers, indicating a review process.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 691,
+    "total_tokens": 839,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7203456999995979,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

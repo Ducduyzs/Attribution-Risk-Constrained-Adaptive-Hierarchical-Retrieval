@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that fine-tuning BERT on natural language inference datasets, specifically MNLI and SNLI, improves the quality of embeddings significantly.",
+    "claims": [
+      {
+        "text": "Fine-tuning BERT on natural language inference datasets improves the quality of sentence embeddings.",
+        "citations": [
+          "C1",
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Two natural language inference datasets, MNLI and SNLI, were used in the experiments to fine-tune BERT.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 1707,
+    "total_tokens": 1825,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6668349999963539,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

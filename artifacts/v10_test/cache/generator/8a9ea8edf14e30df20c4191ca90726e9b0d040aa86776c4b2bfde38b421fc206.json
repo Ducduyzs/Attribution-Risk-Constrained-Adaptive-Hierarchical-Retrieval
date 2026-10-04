@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific measures and methods used for quality evaluation on Q&A platforms, particularly focusing on Zhihu Live.",
+    "claims": [
+      {
+        "text": "Quality evaluation on Q&A platforms like Zhihu Live is conducted using a data-driven approach that includes data collection, cleaning, normalization, and predictive analysis.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Mean Absolute Error (MAE) and Root Mean Square Error (RMSE) are used to estimate the performance of learning algorithms for quality evaluation.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Zhihu Live employs a reward mechanism (like up-votes) to encourage high-quality content generation, although it faces challenges with low-quality content due to insufficient filtering.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "There is no unique standard for evaluating the quality of Zhihu Live responses, leading to variability in user ratings.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 209,
+    "prompt_tokens": 1914,
+    "total_tokens": 2123,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.1914778999998816,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

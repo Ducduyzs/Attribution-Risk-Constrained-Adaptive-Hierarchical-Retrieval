@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies a widely used dataset of US Congressional speeches utilized by the authors for their experiments.",
+    "claims": [
+      {
+        "text": "The authors used a widely used dataset of US Congressional speeches for their experiments.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 725,
+    "total_tokens": 793,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3561208000028273,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of state-of-the-art baselines in the context of text-to-SQL models, including adaptations and performance metrics of various models.",
+    "claims": [
+      {
+        "text": "State-of-the-art baselines include models like CD-Seq2Seq and SyntaxSQL-con, which are adapted for context-dependent SQL generation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Recent results show that models using intermediate representations, such as those by guo2019towards, achieve state-of-the-art performance in bridging natural language and SQL queries.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The performance of models can be significantly improved by using BERT embeddings, achieving results comparable to state-of-the-art models like IRNet.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1781,
+    "total_tokens": 1958,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3830942999993567,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

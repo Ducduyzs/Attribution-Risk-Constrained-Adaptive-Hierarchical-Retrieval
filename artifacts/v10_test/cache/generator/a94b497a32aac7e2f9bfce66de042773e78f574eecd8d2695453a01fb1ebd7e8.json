@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details on how a per-word reward is tuned using the perceptron algorithm, including its sensitivity to various factors and the method of optimization.",
+    "claims": [
+      {
+        "text": "A per-word reward is tuned using a perceptron-like tuning method, which allows for quick post-training adjustments.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The optimal value of the word reward is sensitive to task, beam size, dataset, and language pair, indicating the need for specific tuning for each model.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The tuning process involves varying the word reward score and observing its impact on performance metrics like BLEU scores and length ratios.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 702,
+    "total_tokens": 869,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9405136000059429,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

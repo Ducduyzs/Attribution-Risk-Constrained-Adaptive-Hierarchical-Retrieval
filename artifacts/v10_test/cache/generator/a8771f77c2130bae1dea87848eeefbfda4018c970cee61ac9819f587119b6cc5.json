@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used in the experiment, including the LibriSpeech corpus and the GlobalPhone corpus, detailing their characteristics and the languages involved.",
+    "claims": [
+      {
+        "text": "The datasets used include the LibriSpeech corpus (English) and the GlobalPhone corpus (French, German, Czech, Spanish).",
+        "citations": [
+          "C1",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The LibriSpeech corpus consists of 960 hours of English audio data, while the GlobalPhone corpus includes segments from four low-resource languages.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 1662,
+    "total_tokens": 1795,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9570832000026712,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

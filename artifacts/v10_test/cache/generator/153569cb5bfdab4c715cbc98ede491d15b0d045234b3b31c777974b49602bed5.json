@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly mentions three variants of cross-validation that are examined in the study.",
+    "claims": [
+      {
+        "text": "The three variants of cross-validation examined are: 10-fold stratified blocked cross-validation, 10-fold not stratified blocked cross-validation, and 10-fold stratified random selection of examples.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1089,
+    "total_tokens": 1171,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.380186500005948,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

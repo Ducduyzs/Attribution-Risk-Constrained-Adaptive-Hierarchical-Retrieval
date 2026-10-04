@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a detailed analysis of authorship probabilities between Shakespeare and Fletcher, indicating a high confidence in the attribution results.",
+    "claims": [
+      {
+        "text": "The probability of Fletcher’s authorship is very low for the majority of Shakespeare’s work, with only a few exceptions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "text": "The accuracy of rolling attribution between Shakespeare and Fletcher is estimated to be as high as 0.9977.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "text": "Mixed authorship is supported by models indicating shifts in authorship between Shakespeare and Fletcher in specific scenes.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1226,
+    "total_tokens": 1376,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7007006999992882,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

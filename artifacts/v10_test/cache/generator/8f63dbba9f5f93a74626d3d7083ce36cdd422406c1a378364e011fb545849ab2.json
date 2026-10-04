@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that Model A, trained on LibriSpeech data, is taken as the baseline with a WER of 96.21%.",
+    "claims": [
+      {
+        "text": "The baseline was Model A, which achieved a WER of 96.21%.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 1023,
+    "total_tokens": 1096,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.0873040000005858,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

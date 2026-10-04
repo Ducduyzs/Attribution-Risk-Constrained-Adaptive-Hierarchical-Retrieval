@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly indicates a focus on English verbs, particularly in the context of their semantic representation and understanding.",
+    "claims": [
+      {
+        "text": "The paper focuses on English verbs and their semantic representations, particularly addressing their polysemy.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The research utilizes the English portion of the Google Books corpus to analyze verb phrases and patterns.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study introduces verb patterns specifically for English verbs to enhance semantic understanding.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 1703,
+    "total_tokens": 1840,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8901303000020562,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

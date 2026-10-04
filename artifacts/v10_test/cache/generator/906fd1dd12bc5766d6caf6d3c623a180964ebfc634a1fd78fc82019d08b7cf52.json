@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly lists the languages explored in the paper.",
+    "claims": [
+      {
+        "text": "The languages explored in the paper are Catalan, Chinese, Czech, English, German, Japanese, and Spanish.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The paper discusses the performance of semantic role labeling across these seven languages.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 1196,
+    "total_tokens": 1282,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2205333000019891,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly states that the model is compared against various state-of-the-art models and discusses the performance outcomes of these comparisons.",
+    "claims": [
+      {
+        "text": "The model is compared against several state-of-the-art models including NBOW, PV, MT-RNN, MT-CNN, MT-DNN, and GRNN.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model achieves competitive or better performance compared to state-of-the-art models on most tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "MT-RNN slightly outperforms the model on the SST dataset due to the nature of the data.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 637,
+    "total_tokens": 794,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.045470099998056,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific languages and contexts in which experiments were conducted, including datasets and language pairs.",
+    "claims": [
+      {
+        "text": "The experiments include Dutch, Spanish, English, and German from the CoNLL datasets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An in-house dataset was used that includes 16 languages.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The experiments also involved Hindi and English in a code-switching context.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Universal Dependencies data was used for experiments across 41 languages.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "M-BERT was pre-trained on monolingual corpora in 104 languages.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 1218,
+    "total_tokens": 1397,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.062762499997916,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

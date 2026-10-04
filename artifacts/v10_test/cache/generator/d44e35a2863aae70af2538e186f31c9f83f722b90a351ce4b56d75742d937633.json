@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the Convote dataset as the widely used dataset employed by the authors for their experiments.",
+    "claims": [
+      {
+        "text": "The authors used the publicly available Convote dataset for their experiments.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "text": "The Convote dataset provides transcripts of debates in the House of Representatives of the U.S Congress for the year 2005.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 1164,
+    "total_tokens": 1265,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3767741999981808,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

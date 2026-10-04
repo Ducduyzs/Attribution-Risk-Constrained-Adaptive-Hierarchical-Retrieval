@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the features used in the model are primarily text-based, focusing on various aspects such as emotions, sentiment, and stylistic elements to detect online trolls.",
+    "claims": [
+      {
+        "text": "The model uses a rich set of text-based features to identify IRA trolls.",
+        "citations": [
+          "C1",
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The features include thematic information, emotional cues, and stylistic features.",
+        "citations": [
+          "C2",
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model employs a Logistic Regression classifier for training using the textual features.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 1717,
+    "total_tokens": 1863,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.074614700002712,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

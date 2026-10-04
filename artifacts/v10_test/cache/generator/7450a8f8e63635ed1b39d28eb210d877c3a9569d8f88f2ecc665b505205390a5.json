@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that fine-tuning on natural language inference datasets, specifically SNLI, improves the quality of embeddings, particularly for semantic similarity and entailment tasks.",
+    "claims": [
+      {
+        "text": "Fine-tuning on natural language inference datasets improves the quality of sentence embeddings, especially on semantic similarity tasks and entailment tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The best model combines embeddings from the top and bottom layers of BERT fine-tuned on the SNLI dataset.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 711,
+    "total_tokens": 833,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7254111000002013,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

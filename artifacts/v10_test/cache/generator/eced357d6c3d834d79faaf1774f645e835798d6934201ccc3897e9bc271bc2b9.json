@@ -1,0 +1,62 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific names of extractive models trained on the GameWikiSum dataset, detailing their performance and characteristics.",
+    "claims": [
+      {
+        "text": "The extractive models trained on the dataset include LEAD-k, TextRank, LexRank, SumBasic, C_SKIP, and SemSentSum.",
+        "citations": [
+          "C1",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "LEAD-k serves as a strong baseline for single document summarization tasks.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "TextRank and LexRank are graph-based methods for extractive summarization.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "SumBasic is a frequency-based sentence selection method.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "C_SKIP and SemSentSum are near state-of-the-art extractive models that leverage semantics and sentence embeddings.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 1204,
+    "total_tokens": 1409,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3684895999977016,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

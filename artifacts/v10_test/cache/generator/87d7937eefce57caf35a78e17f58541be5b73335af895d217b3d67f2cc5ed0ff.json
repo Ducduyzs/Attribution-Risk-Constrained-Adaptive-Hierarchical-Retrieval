@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses how embeddings are evaluated through their correlation with human similarity judgments and the performance of different models on datasets containing out-of-vocabulary items.",
+    "claims": [
+      {
+        "text": "Word-based embedding models correlate better with human judgments than character-based models, particularly for morphologically simple words.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Character-based models perform reasonably well on datasets with out-of-vocabulary words, indicating their competitive nature in similarity judgments.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The evaluation of embeddings includes comparing model word similarity scores with human similarity judgments, which is a standard measure of effectiveness.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 567,
+    "total_tokens": 720,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.927204099993105,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

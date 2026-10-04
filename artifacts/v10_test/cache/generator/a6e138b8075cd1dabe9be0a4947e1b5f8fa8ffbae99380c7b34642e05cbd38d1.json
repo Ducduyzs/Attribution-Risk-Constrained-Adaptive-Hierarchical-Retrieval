@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that single-language BERT performs well in specific tasks, suggesting it may outperform multilingual BERT in those contexts.",
+    "claims": [
+      {
+        "text": "Single-language BERT performed above 80% accuracy in cloze tests assessing agreement relations, indicating strong performance in specific tasks.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The base BERT model (single-language) was noted to perform better than the larger multilingual model in certain experiments.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 526,
+    "total_tokens": 641,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5623694000023534,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

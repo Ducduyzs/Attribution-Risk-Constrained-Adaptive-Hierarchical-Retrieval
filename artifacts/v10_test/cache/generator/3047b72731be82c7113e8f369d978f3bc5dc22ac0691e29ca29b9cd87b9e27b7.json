@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the semantic tagset used, including its structure and purpose.",
+    "claims": [
+      {
+        "text": "The semantic tagset consists of 80 semantic tags grouped in 13 coarse-grained classes.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The semantic tags are designed to provide language-neutral semantic categories to words, overcoming limitations of traditional part-of-speech tagsets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The semantic tags are utilized in various tasks, including dependency parsing and natural language inference (NLI) models.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 1226,
+    "total_tokens": 1370,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.827639299997827,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

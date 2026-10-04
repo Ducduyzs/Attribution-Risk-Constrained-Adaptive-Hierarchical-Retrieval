@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear description of how hateful tweets aimed at women are detected and classified using the ParityBOT system, which employs the Perspective API's TOXICITY feature for classification.",
+    "claims": [
+      {
+        "text": "Hateful tweets aimed at women are detected and classified using the Perspective API's TOXICITY probability feature, which is predictive for identifying such tweets.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "ParityBOT collects tweets directed at women candidates and analyzes them in real-time to classify them as hateful or not.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The classification system of ParityBOT was validated on public online harassment datasets, ensuring its effectiveness in identifying abusive content.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 1945,
+    "total_tokens": 2115,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.171478500000376,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

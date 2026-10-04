@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the datasets used for experiments, specifically mentioning experimentation on a large number of language pairs spanning diverse language families and writing systems.",
+    "claims": [
+      {
+        "text": "The experiments were conducted on a large number of language pairs spanning diverse language families and writing systems.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The experiments included a joint bilingual BPE model and analyzed the effects of various parameters on translation accuracy.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The number of merge operations for BPE was varied between 1000 to 4000 across different language pairs to study its effect on translation accuracy.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 730,
+    "total_tokens": 885,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0876786000007996,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

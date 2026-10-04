@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a meta-learning algorithm that utilizes a meta network to share knowledge across tasks, specifically through a functional sharing scheme with a Meta-LSTM architecture.",
+    "claims": [
+      {
+        "text": "The algorithm uses a Meta-LSTM architecture for meta-learning, which captures shared knowledge across tasks.",
+        "citations": [
+          "C1",
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The meta network in the algorithm controls the parameters of task-specific networks, allowing for efficient knowledge transfer.",
+        "citations": [
+          "C3",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed model improves performance on new tasks by leveraging the meta knowledge stored in the meta network.",
+        "citations": [
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1881,
+    "total_tokens": 2039,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.204769199997827,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the features were used in a machine learning model designed to detect IRA trolls on Twitter, utilizing various textual features and emotional cues.",
+    "claims": [
+      {
+        "text": "The features were used in a machine learning model to detect IRA trolls on Twitter.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model utilized a rich set of textual features, including emotional and sentiment analysis.",
+        "citations": [
+          "C2",
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model incorporated bias cues and stance detection features to analyze tweets.",
+        "citations": [
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 1704,
+    "total_tokens": 1847,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.328452900001139,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

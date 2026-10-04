@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly states the datasets used for the experiments, specifically mentioning the English Penn Treebank and the spmrl datasets.",
+    "claims": [
+      {
+        "text": "The datasets used are the English Penn Treebank and the spmrl datasets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "text": "The English Penn Treebank is transformed into Stanford dependencies for evaluation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "text": "The spmrl datasets consist of parallel dependency and constituency treebanks for morphologically rich languages.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 1224,
+    "total_tokens": 1354,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8636183999988134,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

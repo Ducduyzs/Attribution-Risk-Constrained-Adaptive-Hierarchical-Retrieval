@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors suggest that Twitter data provides better predictions about language use because it captures a wider range of languages, especially in regions with sparse ground-truth data, and avoids biases associated with language-specific searches.",
+    "claims": [
+      {
+        "text": "Twitter has fewer missing languages compared to other corpora, providing a better representation of language use in countries with limited ground-truth data.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Twitter data matches populations better when weighted by GDP, indicating it represents wealthier populations more accurately than general web-crawled data.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The method of collecting Twitter data without language-specific searches helps avoid biases, leading to a more accurate representation of language use.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 1189,
+    "total_tokens": 1363,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1881341000043903,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

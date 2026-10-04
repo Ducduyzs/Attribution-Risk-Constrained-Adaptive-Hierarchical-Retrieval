@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance improvements of the proposed similarity measure over BM25, quantified in terms of NDCG and average precision.",
+    "claims": [
+      {
+        "text": "The proposed similarity measure outperforms BM25 by increasing NDCG@20 by 23%.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The embedding approach boosts the average precision of BM25 by 19% on the TREC 2006 dataset.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed method achieves stronger performance than BM25 on TREC and PubMed datasets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The semantic measure provides significantly better performance than BM25 in general.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 2141,
+    "total_tokens": 2313,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0239556999949855,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

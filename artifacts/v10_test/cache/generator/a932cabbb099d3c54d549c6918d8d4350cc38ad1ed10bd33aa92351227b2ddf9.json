@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about various NLG tasks and methods evaluated in the study.",
+    "claims": [
+      {
+        "text": "The paper focuses on end-to-end data-driven NLG methods, comparing three different approaches.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evaluation includes a large number of automated metrics, such as word-overlap metrics and semantic similarity measures.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Grammar-based measures for evaluating readability and grammaticality are also considered for NLG evaluation.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The study highlights the need for novel evaluation methods that do not rely on ground-truth references.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 2047,
+    "total_tokens": 2214,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.166098499998043,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

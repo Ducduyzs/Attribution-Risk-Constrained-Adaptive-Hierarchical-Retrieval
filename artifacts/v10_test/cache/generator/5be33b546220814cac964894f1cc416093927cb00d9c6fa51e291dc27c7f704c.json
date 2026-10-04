@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used in the experiment, including details about their sizes and languages.",
+    "claims": [
+      {
+        "text": "The datasets used are the LibriSpeech corpus and the GlobalPhone corpus.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "LibriSpeech corpus contains 960 hours of English audio data, while GlobalPhone corpus includes French, German, Czech, and Spanish.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "20 thousand segments from each language in the GlobalPhone corpus were used for calculating average cosine similarity.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 962,
+    "total_tokens": 1101,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8571961999987252,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

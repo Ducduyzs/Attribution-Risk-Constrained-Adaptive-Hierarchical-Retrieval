@@ -1,0 +1,34 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the Convote dataset as the dataset used by the authors for their experiments.",
+    "claims": [
+      {
+        "text": "The authors used the Convote dataset for their experiments.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 613,
+    "total_tokens": 673,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3009815999976126,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

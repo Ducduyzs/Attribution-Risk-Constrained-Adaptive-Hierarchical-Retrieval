@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into how the SubQG approach effectively handles noisy entity linking results in query generation for knowledge-based question answering.",
+    "claims": [
+      {
+        "text": "SubQG can generate correct answers in 85% of cases even with noisy entity/relation linking results by ranking query structures and filtering out errors through validation checks.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The approach utilizes multiple networks to learn predictors for different query substructures, allowing stable performance with limited training data and noisy linking results.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "SubQG merges question-contained query substructures to build new query structures, which helps in generating executable queries despite the absence of structurally-equivalent queries in training data.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 1973,
+    "total_tokens": 2152,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.315578200003074,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

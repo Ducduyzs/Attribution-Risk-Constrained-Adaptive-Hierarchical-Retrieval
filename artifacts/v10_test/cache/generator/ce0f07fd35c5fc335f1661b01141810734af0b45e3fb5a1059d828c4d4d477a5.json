@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that categories exist across languages and cultures, suggesting that languages share categories based on common cognitive structures and properties.",
+    "claims": [
+      {
+        "text": "Categories such as animal or furniture are fundamental cognitive building blocks that exist across cultures and languages, allowing efficient representation of the world.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Language influences the emergence and representation of categories, indicating that while categories are shared, their manifestations can differ across languages.",
+        "citations": [
+          "C3",
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Empirical studies show that meaningful categories can be learned from natural language text across multiple languages, demonstrating shared cognitive structures.",
+        "citations": [
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 2067,
+    "total_tokens": 2231,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.016461100000015,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

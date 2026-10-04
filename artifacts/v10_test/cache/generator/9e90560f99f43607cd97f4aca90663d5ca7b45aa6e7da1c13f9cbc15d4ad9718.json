@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition and explanation of a pseudo language model, particularly in the context of word sense disambiguation and its functionality in processing context embeddings.",
+    "claims": [
+      {
+        "text": "A pseudo language model is a feed forward neural network trained to predict target words and abstract context embeddings from a large unlabelled corpus using fixed-size ordinally forgetting encoding (FOFE).",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The pseudo language model discards the output layer during training, focusing on the remaining layers that generalize features from words to context, which are then used for classification tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Context embeddings produced by the pseudo language model can be utilized by traditional classifiers, such as k-nearest neighbor, to predict word senses based on cosine similarity.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 195,
+    "prompt_tokens": 719,
+    "total_tokens": 914,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.694458100006159,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

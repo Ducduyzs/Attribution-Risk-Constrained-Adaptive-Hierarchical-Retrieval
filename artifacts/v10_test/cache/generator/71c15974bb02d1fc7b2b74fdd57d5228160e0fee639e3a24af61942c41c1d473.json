@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors suggest that Twitter data provides better predictions about language inventory due to its higher representation of common languages and fewer missing languages compared to web-crawled data.",
+    "claims": [
+      {
+        "text": "Twitter data correlates better with actual language use in countries due to its representation of common languages like English and Spanish.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Twitter has fewer missing languages compared to web-crawled data, leading to better predictions of language inventory.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 707,
+    "total_tokens": 825,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.683709100005217,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

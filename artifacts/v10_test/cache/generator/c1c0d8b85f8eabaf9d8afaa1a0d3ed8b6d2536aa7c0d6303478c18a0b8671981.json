@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a specific count of tables in the tablestore.",
+    "claims": [
+      {
+        "text": "The tablestore contains 62 tables, each centered around a particular relation.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "Khashabi et al. provide the largest elementary science table store to date, containing approximately 65 tables based on science curriculum topics.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 1993,
+    "total_tokens": 2093,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.434840499998245,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

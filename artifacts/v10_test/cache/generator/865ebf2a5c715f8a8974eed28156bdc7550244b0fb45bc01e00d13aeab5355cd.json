@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for evaluating embeddings against human judgments, specifically through correlation measures and dataset descriptions.",
+    "claims": [
+      {
+        "text": "Model word vectors are evaluated by ranking word pairs according to their cosine similarity and measuring the correlation with human judgments using Spearman's rho.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Human annotators judge the similarity of word pairs on a fixed scale, which is then compared to model predictions to assess performance.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation uses datasets like WordSim353, MEN, and RW, which contain varying types of word pairs, including out of vocabulary items.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1044,
+    "total_tokens": 1205,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.1647016999995685,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

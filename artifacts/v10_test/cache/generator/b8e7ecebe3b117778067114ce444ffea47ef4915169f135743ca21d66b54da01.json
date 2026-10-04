@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The method described relies on the headers of the table as part of its retrieval process, indicating that headers are essential for understanding the structure and relevance of the data within the table.",
+    "claims": [
+      {
+        "text": "The method uses header embeddings to match relevance between a query and the table, indicating reliance on column headings.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Headers are defined as a crucial aspect of a table that helps identify columns, which is essential for the retrieval task.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Using headers, cells, and captions simultaneously yields the best results, highlighting the importance of headers in the method.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The relevance between a query and headers is specifically measured in the model, confirming their importance in the method.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 1163,
+    "total_tokens": 1357,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6208349999942584,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

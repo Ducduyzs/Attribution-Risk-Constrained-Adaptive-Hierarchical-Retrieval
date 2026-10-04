@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear comparison of single-system performance against system combination methods, highlighting the advantages of single-system approaches in terms of training data efficiency and word error rates (WER).",
+    "claims": [
+      {
+        "text": "The single-system approach achieved a WER of 41.6% on DEV and 43.2% on EVAL, which is a significant improvement over previous single-system results without system combination.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Using a single acoustic model with less training data (308hrs) resulted in better performance compared to a system that used 4500hrs of training data without system combination.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The single-system approach allows for faster and cheaper training of acoustic models compared to system combination methods.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 1603,
+    "total_tokens": 1795,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.732345600001281,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

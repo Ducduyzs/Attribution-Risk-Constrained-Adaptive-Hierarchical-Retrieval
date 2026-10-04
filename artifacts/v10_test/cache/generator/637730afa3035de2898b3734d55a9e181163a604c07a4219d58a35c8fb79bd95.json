@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific measures and approaches used to evaluate the quality of a Q&A platform, particularly Zhihu Live.",
+    "claims": [
+      {
+        "text": "A data-driven approach is used to evaluate the quality of the Zhihu Live platform, which includes data collection, cleaning, normalization, descriptive analysis, and predictive analysis.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Zhihu Live employs a reward mechanism, such as up-votes and following growth, to encourage high-quality content generation.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset ZhihuLive-DB, containing records and comments, is utilized for quality evaluation and analysis of the platform.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1019,
+    "total_tokens": 1180,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.284016400000837,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

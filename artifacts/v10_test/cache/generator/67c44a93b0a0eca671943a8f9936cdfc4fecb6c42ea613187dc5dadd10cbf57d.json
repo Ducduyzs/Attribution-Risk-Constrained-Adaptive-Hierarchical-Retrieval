@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly mentions several languages explored in the paper, including German, Japanese, Catalan, Czech, and Chinese.",
+    "claims": [
+      {
+        "text": "The languages explored in the paper include German, Japanese, Catalan, Czech, and Chinese.",
+        "citations": [
+          "C1",
+          "C3",
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 1212,
+    "total_tokens": 1291,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2945220999972662,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

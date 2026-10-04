@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes how the paper integrates a language model with cross-lingual word embeddings to enhance context-aware search for translation tasks.",
+    "claims": [
+      {
+        "text": "The paper integrates a language model (LM) with cross-lingual word embedding to improve context-aware word translation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Context-aware lexical choices are achieved using beam search with the language model, which assists in selecting the appropriate word based on context.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The language model helps in addressing reordering issues in translations, although it does not modify the word order directly.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 1900,
+    "total_tokens": 2053,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8984468999988167,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

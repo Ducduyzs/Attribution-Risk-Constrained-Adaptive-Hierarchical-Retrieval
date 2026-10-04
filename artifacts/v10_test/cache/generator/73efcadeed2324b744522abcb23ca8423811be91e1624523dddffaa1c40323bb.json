@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the system significantly improved precision and reduced false positives compared to a mature production system, although specific numerical improvements are not provided.",
+    "claims": [
+      {
+        "text": "The system led to large improvements in precision over a mature and highly tuned constraint-based production information extraction system used at Bloomberg.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The full pipeline resulted in a reduction in false positives of more than a certain percentage, indicating substantial improvement in extraction accuracy.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The architecture resulted in substantial improvements over a mature and highly tuned constraint-based information extraction system for financial language text.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 1024,
+    "total_tokens": 1179,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9968931999974302,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

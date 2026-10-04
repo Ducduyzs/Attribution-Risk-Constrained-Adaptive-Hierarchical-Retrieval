@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors suggest that Twitter data provides better predictions about language use in countries due to its broader representation of languages, particularly in wealthier populations, and fewer missing languages compared to web-crawled data.",
+    "claims": [
+      {
+        "text": "Twitter data has fewer missing languages compared to census data, leading to better predictions about language use.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Twitter represents more wealthy populations, which may correlate with better language representation.",
+        "citations": [
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The collection method for Twitter data avoids bias by not using language-specific keywords, enhancing its representativeness.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1891,
+    "total_tokens": 2048,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.133139300000039,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

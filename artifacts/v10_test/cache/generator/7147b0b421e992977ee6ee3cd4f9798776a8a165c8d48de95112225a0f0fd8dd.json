@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The method described relies on the headers of the table as part of its mechanism to match relevance between a query and the table's aspects.",
+    "claims": [
+      {
+        "text": "The method uses header embeddings to match relevance between a query and the table.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Headers are defined as part of the table's structure and are used to identify columns.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 705,
+    "total_tokens": 806,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9290041999993264,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the datasets used in the experiments, including the sources of the parallel corpora and the languages involved.",
+    "claims": [
+      {
+        "text": "The experiments used parallel corpora obtained from the multilingual Indian Language Corpora Initiative (ILCI) and the OpenSubtitles2016 section of the OPUS corpus collection.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The experiments involved 16 language pairs, 17 languages, and 10 writing systems, indicating a diverse set of datasets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The training set sizes varied, and different representation units were tested across these datasets.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1478,
+    "total_tokens": 1636,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1593129000029876,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

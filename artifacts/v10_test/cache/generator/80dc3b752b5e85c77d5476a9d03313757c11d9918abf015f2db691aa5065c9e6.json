@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of how the proposed training framework mitigates the bias pattern in NLI datasets by balancing annotation artifacts across labels and improving generalization ability through debiasing techniques.",
+    "claims": [
+      {
+        "text": "The proposed training framework mitigates the bias pattern by balancing annotation artifacts across different classes using specific weights for samples during training.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The framework improves models' generalization ability by reducing dependence on misleading annotation artifacts and enhancing semantic learning.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Experimental results demonstrate that the framework effectively alleviates the negative effects of annotation artifacts in cross-dataset testing.",
+        "citations": [
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 1651,
+    "total_tokens": 1815,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7608303999950294,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

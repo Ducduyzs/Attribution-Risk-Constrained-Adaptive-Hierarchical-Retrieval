@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed methods for building gazetteer resources from Wikipedia's knowledge base, specifically through the use of Wikidata and various processing techniques.",
+    "claims": [
+      {
+        "text": "Gazetteers can be built from Wikidata by processing official dumps into tuples of entities and types based on instance_of relationships.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Entity popularity is used to filter ambiguous entities in the gazetteer, retaining only the most popular types for each entity.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The GazSelfAttn approach enhances gazetteer representation by using self-attention and match span encoding, integrating these embeddings into neural models.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 2073,
+    "total_tokens": 2236,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.103121000000101,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

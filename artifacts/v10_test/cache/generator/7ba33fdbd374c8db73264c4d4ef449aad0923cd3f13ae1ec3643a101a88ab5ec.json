@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific measures and methods used for quality evaluation on Q&A platforms, particularly focusing on Zhihu Live.",
+    "claims": [
+      {
+        "text": "A data-driven approach is used to evaluate the quality of Zhihu Live, involving data collection, cleaning, normalization, and analysis.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Quality evaluation includes statistical analysis of review scores, with measures such as mean, variance, and review count considered.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The presence of badges for speakers, indicating expertise, correlates with higher quality ratings for Zhihu Lives.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Machine learning techniques, such as MTNet, are employed to predict quality based on review scores and other features.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 1761,
+    "total_tokens": 1947,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.284532700003183,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

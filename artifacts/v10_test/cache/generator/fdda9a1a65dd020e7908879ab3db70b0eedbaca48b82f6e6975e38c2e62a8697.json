@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear statistical analysis of the authorship probabilities between Shakespeare and Fletcher, indicating a high level of confidence in the conclusions drawn from the rolling attribution method.",
+    "claims": [
+      {
+        "text": "The probability of Fletcher’s authorship is very low for the vast majority of Shakespeare’s work, with only one instance showing a higher probability for Fletcher.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "text": "The probability of Shakespeare’s authorship is very low for the vast majority of Fletcher’s work, with only one instance showing a closer probability to Fletcher.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "text": "The accuracy of the rolling attribution method in distinguishing between Shakespeare and Fletcher is estimated to be as high as 0.9977.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.99
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 460,
+    "total_tokens": 636,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4255223000000115,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ce3836fcfd"
+}

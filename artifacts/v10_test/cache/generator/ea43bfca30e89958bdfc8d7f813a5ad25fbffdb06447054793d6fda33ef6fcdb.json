@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the evaluation is based on English data from TED talks and a Pun corpus, which are both in English.",
+    "claims": [
+      {
+        "text": "The evaluation is conducted using English data from the TED Talk corpus and the Pun of the Day corpus.",
+        "citations": [
+          "C1",
+          "C2",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The TED Talk corpus is specifically mentioned as a source for humorous utterances, confirming the use of English data.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 1848,
+    "total_tokens": 1966,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.463259800002561,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

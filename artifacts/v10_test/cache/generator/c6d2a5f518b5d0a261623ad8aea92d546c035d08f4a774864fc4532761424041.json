@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the SESAME dataset is generated from structured data sources and includes various entity types, which implies the possibility of discontiguous entities being present.",
+    "claims": [
+      {
+        "text": "The SESAME dataset includes various entity types, which may include discontiguous entities.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "SESAME is generated using an auxiliary NER predictor to capture missing entities, suggesting it may include complex entity structures.",
+        "citations": [
+          "C1",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 1161,
+    "total_tokens": 1287,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.811914900004922,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

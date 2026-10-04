@@ -1,0 +1,59 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of the proposed models against baseline models, including LSTM and transformer architectures, across various datasets.",
+    "claims": [
+      {
+        "text": "The models with ReWE consistently outperformed the LSTM and transformer baselines across different datasets.",
+        "citations": [
+          "C1",
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "In the eu-en dataset, ReWE+ReSE improved results by $+5.15$ BLEU pp over the corresponding baselines.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "In low-resource settings, regularizers like ReWE and ReSE show larger margins of improvement over baselines.",
+        "citations": [
+          "C3",
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "In high-resource settings, the performance of ReWE and ReSE may not be beneficial compared to the baseline.",
+        "citations": [
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 1993,
+    "total_tokens": 2196,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0584821999946143,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

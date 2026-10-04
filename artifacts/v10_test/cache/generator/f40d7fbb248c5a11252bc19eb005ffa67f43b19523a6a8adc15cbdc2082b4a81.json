@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses various NLG tasks and evaluation metrics used in the field.",
+    "claims": [
+      {
+        "text": "NLG tasks considered include readability and grammaticality evaluation, summarization, and text simplification.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Automatic evaluation measures such as BLEU, ROUGE, and METEOR are used to evaluate NLG systems.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The paper focuses on end-to-end, data-driven NLG methods that learn sentence planning and surface realization.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 1217,
+    "total_tokens": 1355,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9719024999940302,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

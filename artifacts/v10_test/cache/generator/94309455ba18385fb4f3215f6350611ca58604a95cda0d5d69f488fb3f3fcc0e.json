@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a process of crowdsourced annotation involving both non-expert and expert annotators to label tweets related to job and employment, indicating the type of annotation performed is related to job-related content.",
+    "claims": [
+      {
+        "text": "The annotation performed is crowdsourced labeling of tweets related to job and employment.",
+        "citations": [
+          "C1",
+          "C2",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Expert annotators reviewed and corrected tweets where crowdworkers disagreed, indicating a hybrid approach to annotation.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The process involved multiple rounds of annotations to improve labeling quality and inter-annotator agreement.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 1853,
+    "total_tokens": 2015,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7419760999982827,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

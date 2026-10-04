@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The method described relies on the headers of the table as part of its mechanism to measure relevance between a query and the table.",
+    "claims": [
+      {
+        "text": "The method uses header embeddings to represent the headers of a table, indicating that headers are integral to the model's functioning.",
+        "citations": [
+          "C1",
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model computes relevance between a query and headers, suggesting that the column headings are essential for the query matching process.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 2086,
+    "total_tokens": 2209,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.705289300000004,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

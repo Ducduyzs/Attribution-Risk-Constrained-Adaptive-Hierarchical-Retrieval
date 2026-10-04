@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that fine-tuning BERT on natural language inference datasets, specifically SNLI, improves the quality of embeddings, particularly for semantic similarity tasks.",
+    "claims": [
+      {
+        "text": "Fine-tuning BERT on natural language inference datasets improves the quality of sentence embeddings, especially for semantic similarity tasks.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Combining embeddings from different layers of BERT can further enhance performance on various tasks.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Fine-tuning on SNLI does not lead to significant improvements for QA datasets, indicating a domain mismatch.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1209,
+    "total_tokens": 1367,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 2.527898300002562,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

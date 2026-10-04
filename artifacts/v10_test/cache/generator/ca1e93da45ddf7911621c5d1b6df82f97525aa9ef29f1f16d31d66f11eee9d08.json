@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly lists three tasks evaluated by the AC-BLSTM model, and while it mentions achieving state-of-the-art results on five tasks, it does not specify the remaining two tasks. However, the three tasks are clearly identified.",
+    "claims": [
+      {
+        "text": "The five evaluated tasks include sentiment analysis, question type classification, and subjectivity classification.",
+        "citations": [
+          "C1",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The AC-BLSTM model achieves state-of-the-art results on these tasks.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 1025,
+    "total_tokens": 1156,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1259175000013784,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

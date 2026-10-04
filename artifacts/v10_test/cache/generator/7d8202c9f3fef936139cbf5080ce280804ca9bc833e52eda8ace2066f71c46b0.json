@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that single-language BERT models perform well in specific tasks, suggesting they may outperform multilingual BERT in certain contexts.",
+    "claims": [
+      {
+        "text": "Single-language BERT models perform better than multilingual BERT in tasks assessing agreement relations, achieving above 80% accuracy.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "BERT's performance on syntactic structure tasks is generally higher for single-language models compared to multilingual models, as indicated by the results across various languages.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The base BERT model, which is single-language, has been shown to outperform larger models, suggesting a potential advantage over multilingual BERT.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1633,
+    "total_tokens": 1798,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1953158999967854,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

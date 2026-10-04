@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides strong support for the conclusion that Shakespeare and Fletcher collaborated on the play Henry VIII, with high accuracy in distinguishing their authorship.",
+    "claims": [
+      {
+        "text": "The probability of authorship attribution between Shakespeare and Fletcher is very high, with accuracy estimates reaching 0.9977.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "text": "The combined analysis indicates that Henry VIII is a collaborative work between Shakespeare and Fletcher, with minimal involvement from Massinger.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The results align closely with previous attributions by Spedding, confirming the collaborative nature of the play.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 2041,
+    "total_tokens": 2199,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0495414000033634,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

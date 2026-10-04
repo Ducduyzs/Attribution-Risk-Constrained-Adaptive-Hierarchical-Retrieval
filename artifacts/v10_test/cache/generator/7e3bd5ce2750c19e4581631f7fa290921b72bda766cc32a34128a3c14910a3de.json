@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods and processes for building gazetteer resources from the Wikidata knowledge base, including the use of entity popularity filtering and the extraction of entity-type tuples.",
+    "claims": [
+      {
+        "text": "Gazetteer resources are built from the Wikidata knowledge base by processing official dumps into tuples of entity and type based on the instance_of triplet.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Entity popularity is used to filter ambiguous entities, retaining only the most popular types for each alias in the gazetteer.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The GazSelfAttn approach enhances gazetteer representation by using self-attention and match span encoding, which improves performance in named-entity recognition tasks.",
+        "citations": [
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 1936,
+    "total_tokens": 2119,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2709847999940393,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the two document understanding tasks evaluated, which are document retrieval and document clustering.",
+    "claims": [
+      {
+        "text": "The evaluated document understanding tasks are document retrieval and document clustering.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "Document retrieval involves deciding if a document should be retrieved based on a query.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "Document clustering aims to group academic papers by the venues in which they are published.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 1213,
+    "total_tokens": 1332,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5313352000011946,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

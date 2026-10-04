@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific factors that contribute to the stability of word embeddings, including properties of the words, data, and algorithms used.",
+    "claims": [
+      {
+        "text": "The stability of word embeddings is influenced by properties related to the word itself, the data used for training, and the algorithm employed to construct the embeddings.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Empirical evidence shows that even high frequency words can exhibit instability, indicating that frequency alone does not guarantee stability.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The overlap between nearest neighbors in an embedding space is used as a measure of stability, revealing substantial instabilities in common embedding spaces.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 705,
+    "total_tokens": 866,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3850747999968007,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

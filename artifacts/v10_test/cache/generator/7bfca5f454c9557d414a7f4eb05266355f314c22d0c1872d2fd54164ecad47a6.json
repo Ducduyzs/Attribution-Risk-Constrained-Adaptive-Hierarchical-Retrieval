@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear information on how text segmentation is performed, specifically in the context of document classification, and the benefits of this approach.",
+    "claims": [
+      {
+        "text": "Text segmentation involves dividing lengthy documents into smaller chunks to improve processing and classification results.",
+        "citations": [
+          "C1",
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The segmented chunks are processed using a BiLSTM architecture to create a single document embedding, enhancing model performance.",
+        "citations": [
+          "C2",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Models trained on segmented text chunks yield higher accuracy compared to those using the entire document as input.",
+        "citations": [
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1862,
+    "total_tokens": 2018,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.4552201999977115,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses various lexical features used in semantic parsing, including cross-lingual word embeddings, universal PoS tags, and universal dependencies, but does not specify an exact number of features considered.",
+    "claims": [
+      {
+        "text": "The parser utilizes language-independent features such as cross-lingual word embeddings, universal PoS tags, and universal dependencies.",
+        "citations": [
+          "C1",
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Dependency relations are also considered beneficial as features in the encoding process.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Lexical predicates are mentioned as a category of features used in the parsing process.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1808,
+    "total_tokens": 1966,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.623909599999024,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

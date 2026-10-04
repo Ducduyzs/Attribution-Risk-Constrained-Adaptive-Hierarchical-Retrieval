@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the ERNIE-tiny model as the worst performing model based on its F1 value, which is significantly lower than the baseline and other pre-training models.",
+    "claims": [
+      {
+        "text": "The ERNIE-tiny model has the lowest F1 value, even 4 percentage points lower than the baseline model.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The F1 value of ERNIE-2.0-tiny is lower than the baseline model, indicating poor performance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 1674,
+    "total_tokens": 1802,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8814459999994142,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into how embeddings are evaluated against human judgments, particularly focusing on the correlation between model outputs and human similarity assessments.",
+    "claims": [
+      {
+        "text": "Word-based embedding models generally correlate better with human judgments than character-based models, especially for morphologically simple words.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Character-level models can still perform reasonably well on datasets with out-of-vocabulary words, indicating their competitive nature in evaluation against human judgments.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Incorporating morphology into character-level models improves their performance in producing embeddings that correlate with human judgments.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 707,
+    "total_tokens": 859,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1860570999997435,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

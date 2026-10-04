@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly states the number of tables in the tablestore.",
+    "claims": [
+      {
+        "text": "The tablestore includes 62 tables centered around various relations.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "Khashabi et al. provide a tablestore containing 65 tables based on science curriculum topics.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The largest elementary science table store contains approximately 5,000 rows across 65 tables.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 1158,
+    "total_tokens": 1275,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7765676000053645,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

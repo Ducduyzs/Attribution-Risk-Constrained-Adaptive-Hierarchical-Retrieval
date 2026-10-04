@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about state-of-the-art baseline models used for SQL generation, including their adaptations and performance characteristics.",
+    "claims": [
+      {
+        "text": "The two baseline models are Context-dependent Seq2Seq (CD-Seq2Seq) and SyntaxSQL-con, both adapted for SQL generation tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "CD-Seq2Seq incorporates a bi-LSTM database schema encoder to improve context-dependent SQL generation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "SyntaxSQL-con uses bi-LSTMs and a column attention mechanism to enhance performance in SQL query response tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Performance of the baselines decreases as the turn number increases in interaction tasks.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 681,
+    "total_tokens": 863,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1878871000008075,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

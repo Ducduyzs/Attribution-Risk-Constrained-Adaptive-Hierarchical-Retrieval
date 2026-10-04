@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that LSTM and GRU with Attention outperform other models in offensive language identification, making them the best performing methods.",
+    "claims": [
+      {
+        "text": "LSTM and GRU with Attention outperform all other models in terms of macro-F1, precision, and recall for both Offensive and Not Offensive classes.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Linear SVM is considered the marginally best model trained with OGTD due to higher weighted average precision and recall scores.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 1150,
+    "total_tokens": 1272,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6715569000007235,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

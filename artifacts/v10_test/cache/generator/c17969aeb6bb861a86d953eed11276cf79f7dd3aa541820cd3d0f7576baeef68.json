@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for measuring grammatical correctness through both automatic and manual evaluations, including the use of POS tagging and statistical language models.",
+    "claims": [
+      {
+        "text": "Grammatical correctness is evaluated by identifying POS tags for each sentence and checking for matching sequences of POS tags across the corpus.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The system uses a statistical language model based on n-grams to ensure grammatical correctness in generated speeches.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Manual evaluations indicated that grammatical correctness scored an average of 2.3 out of 3, confirming the effectiveness of the evaluation methods.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1600,
+    "total_tokens": 1757,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2384725000010803,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

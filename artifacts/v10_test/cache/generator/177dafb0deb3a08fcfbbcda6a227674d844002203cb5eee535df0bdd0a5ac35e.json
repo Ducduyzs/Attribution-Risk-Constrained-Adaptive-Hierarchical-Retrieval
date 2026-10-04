@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly mentions the language pairs explored in the context of Neural Machine Translation experiments.",
+    "claims": [
+      {
+        "text": "The language pairs explored include Chinese-to-English (CH-EN) and English-to-Japanese (EN-JA).",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 1627,
+    "total_tokens": 1695,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3482297999944421,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

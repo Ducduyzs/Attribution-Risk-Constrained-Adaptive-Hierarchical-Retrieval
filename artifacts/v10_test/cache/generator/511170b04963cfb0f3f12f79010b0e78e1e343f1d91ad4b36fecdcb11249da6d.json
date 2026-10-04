@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates a correlation between daytime activity and socioeconomic status (SEC), suggesting that people active during the day tend to have higher SEC and use more standard language compared to those active at night.",
+    "claims": [
+      {
+        "text": "People active during the day have higher average income than those active at night, indicating a correlation between daytime activity and socioeconomic status.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Standard language is more likely to be used during the daytime, while non-standard variants are predominant at night, linking language use to socioeconomic status.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Higher socioeconomic status is associated with the use of more standard language, which is more prevalent among daytime Twitter users.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 1922,
+    "total_tokens": 2092,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1311468000058085,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the extractive models that were trained on the GameWikiSum dataset.",
+    "claims": [
+      {
+        "text": "Extractive models trained on the GameWikiSum dataset include LEAD-k, TextRank, LexRank, SumBasic, C_SKIP, and SemSentSum.",
+        "citations": [
+          "C2",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "C_SKIP and SemSentSum are noted as near state-of-the-art models for extractive summarization.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "LEAD-k serves as a strong baseline for single document summarization tasks.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 1897,
+    "total_tokens": 2045,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.240248000001884,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

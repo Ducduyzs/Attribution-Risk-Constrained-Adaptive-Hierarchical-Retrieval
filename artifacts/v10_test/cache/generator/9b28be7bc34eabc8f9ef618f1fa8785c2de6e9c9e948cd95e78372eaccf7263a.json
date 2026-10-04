@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides methods for recovering from noisy entity linking, including generating multiple candidate links and validating query structures.",
+    "claims": [
+      {
+        "text": "They recover from noisy entity linking by mixing correct linking results with top candidates and generating answers from the top-5 candidates.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "They validate query structures by checking grammar, domain/range, and ensuring non-empty queries after combining linking results.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 701,
+    "total_tokens": 810,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6778848999965703,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

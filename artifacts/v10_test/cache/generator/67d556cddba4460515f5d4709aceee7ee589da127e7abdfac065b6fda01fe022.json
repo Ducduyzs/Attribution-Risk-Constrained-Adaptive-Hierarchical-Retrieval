@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that Twitter data is more comprehensive in representing local languages, which may lead to better predictions about language use in different countries.",
+    "claims": [
+      {
+        "text": "Twitter data has fewer missing languages compared to other corpora, which may improve predictions about language use.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The methodology of collecting Twitter data avoids bias by not using language-specific keywords, potentially leading to a more accurate representation of language use.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 590,
+    "total_tokens": 705,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6276262999963365,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

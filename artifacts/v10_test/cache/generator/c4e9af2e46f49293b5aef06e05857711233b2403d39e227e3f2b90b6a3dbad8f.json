@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific datasets used for evaluation in different translation tasks and image captioning.",
+    "claims": [
+      {
+        "text": "For English-to-German (En-De) translation, the dataset used is the WMT 2014 dataset with around 4.5 million sentence pairs, using newstest 2013 for validation and newstest 2014 for testing.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "For English-to-Vietnamese (En-Vi) translation, the dataset is from IWSLT 2015, consisting of around 133K sentence pairs, with tst2012 for validation and tst2013 for testing.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "For image captioning, the Microsoft COCO 2014 dataset was used, containing 123,287 images with 5 descriptive sentences each, evaluated on the MSCOCO 2014 test set.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "For German-to-English (De-En) translation, the IWSLT 2014 dataset was used, with a training set of 160K sentence pairs and a test set of around 7K sentences.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 267,
+    "prompt_tokens": 1205,
+    "total_tokens": 1472,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.074729500003741,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

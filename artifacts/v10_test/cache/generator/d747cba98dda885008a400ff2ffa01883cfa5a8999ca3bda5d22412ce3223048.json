@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The research was not adopted in the 1960s primarily due to a lack of federal funding and access to computers, which hindered practical implementation and led to results that remained largely theoretical.",
+    "claims": [
+      {
+        "text": "The Croatian research group lacked federal funding, which prevented them from creating a prototype machine translation system.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Unlike their counterparts in the USA and USSR, the Croatian group had to manage without an actual computer, limiting their research to theoretical results.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The research was primarily a military effort in other countries, which received significant political support and funding, unlike the Croatian group.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 2007,
+    "total_tokens": 2178,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9068218999964301,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

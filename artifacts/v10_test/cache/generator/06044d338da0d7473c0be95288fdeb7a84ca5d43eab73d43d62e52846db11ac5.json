@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly mentions the downstream tasks analyzed, including sentiment classification and question answering, as well as performance evaluations on the GLUE benchmark.",
+    "claims": [
+      {
+        "text": "The downstream tasks analyzed include sentiment classification (IMDb) and question answering (SQuAD v1.1).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "DistilBERT's performance was also evaluated on the General Language Understanding Evaluation (GLUE) benchmark, which consists of 9 tasks for natural language understanding.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 1788,
+    "total_tokens": 1912,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9001640999995288,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

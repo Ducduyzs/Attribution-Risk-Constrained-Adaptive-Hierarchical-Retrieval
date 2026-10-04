@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of state-of-the-art baselines in the context of text-to-SQL generation, including models and their adaptations.",
+    "claims": [
+      {
+        "text": "State-of-the-art baselines include Context-dependent Seq2Seq (CD-Seq2Seq) and SyntaxSQL-con, which are adapted for context-dependent SQL generation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Recent advancements in state-of-the-art performance include models that utilize recursive decoding and graph neural networks for encoding schemas.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The proposed editing mechanism improves generation quality over previous state-of-the-art baselines by reusing previous SQL query results.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The SParC dataset serves as a benchmark for evaluating state-of-the-art models in context-dependent semantic parsing.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 1829,
+    "total_tokens": 2029,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.9140609000023687,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

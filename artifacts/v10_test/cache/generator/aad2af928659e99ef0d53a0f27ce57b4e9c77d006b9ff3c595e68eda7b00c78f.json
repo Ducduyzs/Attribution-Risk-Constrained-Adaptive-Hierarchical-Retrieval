@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of how confidences are decreased for incorrectly predicted domains by leveraging negative system responses and formulating a loss function.",
+    "claims": [
+      {
+        "text": "Confidences of incorrectly predicted domains are decreased by leveraging utterances with negative system responses.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The approach explicitly demotes the prediction confidences of the top-ranked domains that resulted in negative responses.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The demotion of confidences is formulated as a loss function, applied only to the highest ranked negative ground-truth domains to avoid overwhelming influence.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 537,
+    "total_tokens": 689,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8221029999986058,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The re-ranking approach described in the paper is a transductive learning technique because it utilizes information from the deployed QA system and its top-10 candidates to improve answer selection without retraining the entire model.",
+    "claims": [
+      {
+        "text": "The re-ranking approach learns a similarity function using features from the query and the initial system confidence, indicating it operates on the outputs of a pre-trained model.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The method improves the performance of already deployed QA systems by re-ranking the top-10 candidates based on user feedback, characteristic of transductive learning.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 1015,
+    "total_tokens": 1162,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.08189300000231,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

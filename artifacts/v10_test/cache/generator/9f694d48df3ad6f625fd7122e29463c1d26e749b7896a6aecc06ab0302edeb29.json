@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the amount of additional data generated from translations, particularly highlighting that the size of the extra data used is about 10 times larger than a specific dataset due to the reliance on additional training data and the exploitation of intra-sentential instances.",
+    "claims": [
+      {
+        "text": "The size of the extra data used in the study is about 10 times larger than the 2-votes data due to reliance on additional training data and intra-sentential instances.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Using back-translations of explicit connectives improves discourse relation parsing performance, indicating that additional data from translations is beneficial.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 1667,
+    "total_tokens": 1822,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.113215700002911,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

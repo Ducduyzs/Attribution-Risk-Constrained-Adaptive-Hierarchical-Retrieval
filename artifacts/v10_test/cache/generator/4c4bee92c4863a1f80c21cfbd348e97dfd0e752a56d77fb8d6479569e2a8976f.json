@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes how the paper integrates a language model with cross-lingual word embedding to enhance context-aware search in translation tasks.",
+    "claims": [
+      {
+        "text": "The paper integrates a language model (LM) with cross-lingual word embedding to improve context-aware word-by-word translation.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The use of a language model assists in making context-aware lexical choices during translation, enhancing the overall translation quality.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed methods, including the LM and denoising autoencoder, outperform existing unsupervised neural translation systems without requiring back-translation.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 1983,
+    "total_tokens": 2150,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.0017688000007183,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

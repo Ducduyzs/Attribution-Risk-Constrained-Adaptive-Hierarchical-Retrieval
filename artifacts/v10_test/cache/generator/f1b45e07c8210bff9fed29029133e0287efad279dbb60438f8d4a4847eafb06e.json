@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the ERNIE-tiny model performed the worst among the pre-training models, achieving an F1 value significantly lower than the baseline and other models.",
+    "claims": [
+      {
+        "text": "The ERNIE-tiny model has the lowest F1 value, 4 percentage points lower than the baseline model.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Among the pre-training models, RoBERTa achieves the highest F1 value, indicating that other models, including ERNIE-tiny, perform worse.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 578,
+    "total_tokens": 710,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0207026999996742,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

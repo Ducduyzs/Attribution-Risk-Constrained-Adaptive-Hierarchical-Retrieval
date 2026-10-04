@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the inference model used to estimate socioeconomic status (SES) from online behavioral data.",
+    "claims": [
+      {
+        "text": "The inference model for estimating socioeconomic status relies on three datasets: socioeconomic census data, crawled professional profiles, and expert annotated Google Street View images.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model uses online semantics from Twitter users to infer SES, indicating a combination of individual characteristics and environmental variables.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The approach allows for the estimation of SES for a large sample of Twitter users, contributing to insights on social stratification and inequalities.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 640,
+    "total_tokens": 799,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.172039000004588,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

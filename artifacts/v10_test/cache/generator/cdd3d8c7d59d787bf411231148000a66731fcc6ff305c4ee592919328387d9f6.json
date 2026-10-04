@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a detailed explanation of how the BERT-based model works for query-focused summarization, including input processing, scoring mechanisms, and sentence selection.",
+    "claims": [
+      {
+        "text": "The BERT-based model encodes query relevance and document context into vector representations using BERT, which are then used to predict sentence labels or scores.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model takes the concatenation of the query and document as input and uses a self-attention mechanism to jointly model query-sentence and sentence-sentence relationships.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The input representation for each token is constructed using token, segmentation, and position embeddings, following standard BERT practices.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Sentences are selected for the summary based on their estimated scores, with redundancy constraints applied to minimize overlap.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 209,
+    "prompt_tokens": 1590,
+    "total_tokens": 1799,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.397881700002472,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear comparison between single-system and system combination approaches in terms of word error rate (WER) performance and training efficiency.",
+    "claims": [
+      {
+        "text": "The single-system approach achieved a WER of 41.6% on the DEV set and 43.2% on the EVAL set, which is a significant improvement over previous single-system results without system combination.",
+        "citations": [
+          "C1",
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Single-system methods can achieve competitive performance with less training data compared to system combination methods, which often require larger datasets for similar results.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The single-system approach demonstrated a relative WER reduction of 8% compared to the best previous results without system combination.",
+        "citations": [
+          "C1",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 190,
+    "prompt_tokens": 1805,
+    "total_tokens": 1995,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4584439000027487,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the method relies on the headers of the table as part of the query matching process, suggesting that column headings are integral to the method.",
+    "claims": [
+      {
+        "text": "The method uses header embeddings to match the relevance between a query and a table, indicating reliance on column headings.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The most effective aspect for table retrieval in WikiTableQuestions is the header, demonstrating its importance in the method.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The method incorporates different aspects of a table, including headers, to compute query representation and relevance.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 2123,
+    "total_tokens": 2274,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6254073000018252,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

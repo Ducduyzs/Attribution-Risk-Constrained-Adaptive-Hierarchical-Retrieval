@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly indicates a focus on English verbs, particularly in the context of their semantics and polysemy.",
+    "claims": [
+      {
+        "text": "The paper focuses on verbs that collocate with objects and their polysemy, indicating a specific focus on English verbs.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The introduction of verb patterns aims to represent the semantics of verbs, demonstrating a focus on English verbs and their meanings.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The analysis of traditional verb representations highlights their limitations in capturing the semantics of English verbs.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The proposed verb patterns are designed to distinguish different verb semantics, further emphasizing the focus on English verbs.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 1613,
+    "total_tokens": 1791,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6689632999987225,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

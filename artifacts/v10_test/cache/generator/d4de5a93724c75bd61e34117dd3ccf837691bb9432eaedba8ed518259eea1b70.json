@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific metrics and methods used to evaluate the experiment, particularly focusing on the hits@k metric and the comparison of different models.",
+    "claims": [
+      {
+        "text": "The experiment was evaluated using the hits@k metric, which measures the average number of times the correct selection appears in the top k predictions.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Two scenarios were considered for evaluation: predicting the next clicked hotel among all hotels and predicting among hotels within the same market.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Cosine similarity of embedding vectors was also used to measure hits@k, showing that it can be effective even without using the model's output probabilities.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 674,
+    "total_tokens": 841,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.2498610999973607,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8f25b31f48"
+}

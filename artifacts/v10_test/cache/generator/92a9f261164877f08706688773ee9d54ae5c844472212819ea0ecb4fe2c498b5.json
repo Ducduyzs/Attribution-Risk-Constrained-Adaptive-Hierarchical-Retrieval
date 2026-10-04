@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed methods on how gazetteer resources are built from the Wikidata knowledge base, including the processing of entity types and filtering based on popularity.",
+    "claims": [
+      {
+        "text": "Gazetteer resources are built from Wikidata by processing official dumps into tuples of entity and type based on the 'instance_of' triplet.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Entities in Wikidata are associated with sitelink counts, which are used to filter and retain the most popular types for each entity in the gazetteer.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Wikidata is preferred over Wikipedia for building gazetteers due to its larger size and structured format, which provides more reliable data.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 982,
+    "total_tokens": 1168,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0766612000006717,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

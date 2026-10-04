@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly mentions the evaluation of three models in the context of BLI (Bilingual Lexical Induction) tasks, which are identified as the best performing models.",
+    "claims": [
+      {
+        "text": "The three SOTA models evaluated are the best performing BLI models referenced as BIBREF3, BIBREF4, and BIBREF5.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 1934,
+    "total_tokens": 2026,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9484119999979157,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

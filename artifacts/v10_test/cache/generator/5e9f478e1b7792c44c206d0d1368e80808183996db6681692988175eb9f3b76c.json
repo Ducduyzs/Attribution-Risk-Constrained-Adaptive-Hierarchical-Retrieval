@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides high accuracy rates for distinguishing between the works of Shakespeare and Fletcher, indicating a strong confidence in the conclusion about their authorship.",
+    "claims": [
+      {
+        "text": "The accuracy of distinguishing between Shakespeare and Fletcher's works is very high, estimated at 0.9977.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The probability of Fletcher's authorship in Shakespeare's works is very low, with only one instance showing higher probability for Fletcher.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Combined models provide a reliable discriminator between the styles of Shakespeare and Fletcher.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 703,
+    "total_tokens": 849,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3857205000022077,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

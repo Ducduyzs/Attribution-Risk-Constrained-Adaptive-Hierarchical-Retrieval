@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the pruning process used in the KDG model, including its impact on model performance and the method of eliminating spurious logical forms.",
+    "claims": [
+      {
+        "text": "The KDG model performed pruning of spurious logical forms using an algorithm that filters out logical forms failing to provide correct answers on fictitious tables.",
+        "citations": [
+          "C3",
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Without the pruning step, the accuracy of the KDG model dropped significantly from 43.3% to 36.3%.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The pruning algorithm eliminated 92.1% of spurious logical forms, enhancing the training data quality for the KDG model.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 1744,
+    "total_tokens": 1924,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 2.625108899999759,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

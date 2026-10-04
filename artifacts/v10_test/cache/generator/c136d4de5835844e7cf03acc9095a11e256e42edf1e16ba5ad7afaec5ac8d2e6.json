@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about post-processing approaches applied to translation outputs, including rescoring, unknown word replacement, and delexicalization of tokens.",
+    "claims": [
+      {
+        "text": "Post-processing approaches include language model rescoring to select fluent translation candidates and unknown word replacement to address out-of-vocabulary issues.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Delexicalization of tokens representing quantities and dates is performed, replacing them with special tokens during post-processing.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 694,
+    "total_tokens": 816,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5414220000020578,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

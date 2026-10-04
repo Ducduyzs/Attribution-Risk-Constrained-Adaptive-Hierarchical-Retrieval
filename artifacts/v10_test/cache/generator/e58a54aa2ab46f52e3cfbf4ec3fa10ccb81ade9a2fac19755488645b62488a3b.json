@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the generation of additional data from translations, specifically highlighting the effectiveness of using multiple back-translations to improve data quality.",
+    "claims": [
+      {
+        "text": "Using back-translations from multiple languages can significantly increase the amount of additional data generated for discourse relation classification.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The size of the extra data generated can be about 10 times larger than other methods, indicating a substantial increase in data volume.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The best results in terms of data quality are achieved when at least two back-translations agree, which optimizes the reliability of the labels.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1181,
+    "total_tokens": 1342,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8184361000021454,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

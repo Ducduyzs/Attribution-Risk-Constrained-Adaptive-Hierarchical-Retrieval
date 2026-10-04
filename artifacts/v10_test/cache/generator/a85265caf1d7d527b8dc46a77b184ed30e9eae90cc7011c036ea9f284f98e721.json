@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific metrics used for evaluating the quality of generated text, including BLEU, perplexity, self-BLEU, and the percentage of unique n-grams.",
+    "claims": [
+      {
+        "text": "BLEU is used to measure the similarity between generated sentences and original data distributions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Perplexity of a trained language model is evaluated as a proxy for fluency of the generations.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Self-BLEU measures the similarity of generated sentences to each other, indicating diversity.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The percentage of unique n-grams is evaluated to assess the diversity of the generations.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1631,
+    "total_tokens": 1808,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.13354330000584,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

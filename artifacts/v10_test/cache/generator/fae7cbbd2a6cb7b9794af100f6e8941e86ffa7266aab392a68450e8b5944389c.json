@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific languages used in experiments, including Dutch, Spanish, English, German, and mentions a dataset with 16 languages, as well as Universal Dependencies data for 41 languages.",
+    "claims": [
+      {
+        "text": "The experiments include languages such as Dutch, Spanish, English, and German.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Universal Dependencies data was used for experiments involving 41 languages.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "M-BERT is pre-trained on monolingual corpora from 104 languages.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 1698,
+    "total_tokens": 1837,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0041578999953344,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

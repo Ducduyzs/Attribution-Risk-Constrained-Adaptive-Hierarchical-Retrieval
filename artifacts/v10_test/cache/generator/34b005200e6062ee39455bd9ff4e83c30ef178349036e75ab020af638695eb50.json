@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence does not guarantee that all answers are substrings of the text, nor does it provide specific coverage metrics for answers being substrings.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 39,
+    "prompt_tokens": 1184,
+    "total_tokens": 1223,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.02775219999603,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_a5e38b2795"
+}

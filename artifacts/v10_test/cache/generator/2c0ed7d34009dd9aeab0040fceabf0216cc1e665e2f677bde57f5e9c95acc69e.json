@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition and explanation of a pseudo language model, specifically in the context of word sense disambiguation (WSD).",
+    "claims": [
+      {
+        "text": "A pseudo language model is designed to predict a target word using both preceding and succeeding sequences, accommodating the needs of word sense disambiguation tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The pseudo language model abstracts context into embeddings, which are then used to train classifiers for predicting the sense of polysemous words.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model is trained using FOFE encoding from unlabelled data to create context embeddings that help in understanding word meanings based on surrounding context.",
+        "citations": [
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 1192,
+    "total_tokens": 1367,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5481626000037068,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

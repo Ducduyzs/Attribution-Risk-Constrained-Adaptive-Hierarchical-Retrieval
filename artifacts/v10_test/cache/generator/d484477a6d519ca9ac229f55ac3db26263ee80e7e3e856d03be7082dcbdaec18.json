@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the analysis of ISIS propaganda and mentions the intention to expand the analysis to other languages, indicating that multiple languages may be involved in the dataset.",
+    "claims": [
+      {
+        "text": "The dataset may include multiple languages, as the authors plan to expand their analysis to other languages in future work.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The primary focus of the dataset is on English tweets related to ISIS, as indicated by the analysis of English hashtags and tweets.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 1839,
+    "total_tokens": 1959,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8258304999981192,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

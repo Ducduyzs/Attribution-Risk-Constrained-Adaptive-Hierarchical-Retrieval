@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods and metrics used to measure the quality of word vectors, including correlation with human judgment and cosine similarity.",
+    "claims": [
+      {
+        "text": "The quality of word vectors is measured using the Pearson correlation coefficient, which assesses the correlation between human judgment of word similarity and the cosine distances between word vectors.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Cosine similarity is used to determine the most semantically similar word to a given stem word, indicating the quality of the word vectors based on their ability to capture semantic relationships.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Word vectors are evaluated through tasks like word analogy, where the ability to predict relationships between words reflects their quality.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 1992,
+    "total_tokens": 2162,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2592900000017835,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

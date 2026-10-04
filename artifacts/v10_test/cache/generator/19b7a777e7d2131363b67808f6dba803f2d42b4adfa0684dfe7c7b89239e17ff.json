@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific sources from which the data was obtained, including various literary, religious, and journalistic texts, as well as personal libraries and public-domain sources.",
+    "claims": [
+      {
+        "text": "The data was aggregated from a variety of online public-domain sources, literary and religious texts, news magazines, and personal libraries.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Global Voices, a corpus of journalistic news text, was selected as a source for modern, colloquial text.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The dataset was significantly expanded from a majority Biblical text corpus to include millions of tokens from over a dozen sources.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1205,
+    "total_tokens": 1368,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.934552699996857,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

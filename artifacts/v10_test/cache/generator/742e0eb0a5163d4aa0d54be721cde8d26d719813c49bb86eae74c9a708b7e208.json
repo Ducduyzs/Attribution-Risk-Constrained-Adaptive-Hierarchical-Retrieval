@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific graph-based features that are considered in the analysis.",
+    "claims": [
+      {
+        "text": "The graph-based features include Coreness, Eccentricity, and Strength.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Coreness is computed for the Before and After graphs, while Eccentricity reflects changes in interactions around the targeted author.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Strength is also mentioned as a graph-based feature used in various fusion strategies.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "Topological measures can handle/ignore edge weights and directions, and can be vertex- or graph-focused.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Different scales and scopes of topological measures are used, including microscopic, mesoscopic, and macroscopic measures.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 1126,
+    "total_tokens": 1326,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2965639000030933,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear information about the intents that the model classifies, including thanks, cancel, stop, search, and unknown.",
+    "claims": [
+      {
+        "text": "The most common intents classified by the model are thanks, cancel, stop, search, and unknown.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The intent model processes user messages to determine the appropriate response or further action, such as directing to a human agent for unknown intents.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Search intent is specifically identified for queries related to hotels and locations, which triggers named entity recognition.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 1150,
+    "total_tokens": 1298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7997247999956016,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

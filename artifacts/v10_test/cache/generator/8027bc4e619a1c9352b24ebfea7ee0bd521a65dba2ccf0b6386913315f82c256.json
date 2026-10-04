@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed descriptions of the inference models built to estimate socioeconomic status (SES) using various data sources and methodologies.",
+    "claims": [
+      {
+        "text": "The inference model for estimating socioeconomic status (SES) combines data from socioeconomic census data, crawled profession information, and expert annotated Google Street View images of users' home locations.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model utilizes advanced semantic analysis of tweets to discriminate between individuals of different income levels.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The methodology includes a two-way classification problem to separate users into lower and higher SES classes based on income distributions.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 1891,
+    "total_tokens": 2049,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.280664699996123,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

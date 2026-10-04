@@ -1,0 +1,63 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific graph-based features that are considered in the analysis.",
+    "claims": [
+      {
+        "text": "The graph-based features include Coreness, Strength, Closeness, and Reciprocity.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Coreness reflects the targeted author's position in the graph before and after interactions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Strength measures the intensity of connections in the graph.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Closeness indicates the average node centrality in terms of distance within the graph.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.75
+      },
+      {
+        "text": "Reciprocity measures the general reciprocity of exchanges between users.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 671,
+    "total_tokens": 850,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2449802000046475,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

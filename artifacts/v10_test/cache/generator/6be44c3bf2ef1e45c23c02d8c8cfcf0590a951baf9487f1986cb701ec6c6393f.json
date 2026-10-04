@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the G-SAT model consistently outperforms existing systems (GLAD and GCE) in terms of accuracy across multiple experiments and languages.",
+    "claims": [
+      {
+        "text": "G-SAT outperforms GLAD and GCE in accuracy on both development and test datasets across three languages.",
+        "citations": [
+          "C1",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "G-SAT achieves higher joint goal performance compared to GLAD and GCE, indicating superior accuracy.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The performance of G-SAT is consistent across different embedding sizes, further supporting its accuracy advantage.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1942,
+    "total_tokens": 2099,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.00212069999543,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

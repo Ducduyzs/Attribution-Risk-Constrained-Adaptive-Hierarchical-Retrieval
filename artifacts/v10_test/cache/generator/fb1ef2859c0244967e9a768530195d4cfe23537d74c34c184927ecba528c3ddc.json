@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a systematic approach involving expert evaluation to discover missing hypotheses in entailment problems.",
+    "claims": [
+      {
+        "text": "Missing hypotheses were discovered through a systematic evaluation by a crowd of experts who re-rated problems and identified additional implicit hypotheses.",
+        "citations": [
+          "C1",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The process involved consulting three experts per problem, who were instructed to be especially wary of missing hypotheses during their evaluations.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "A significant portion of problems (42%) required additional hypotheses for entailment to hold, indicating that many missing hypotheses were not initially detected.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 1113,
+    "total_tokens": 1267,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9996211000034236,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

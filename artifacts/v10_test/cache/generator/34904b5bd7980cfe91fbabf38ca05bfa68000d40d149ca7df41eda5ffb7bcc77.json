@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes how the paper integrates a language model to enhance context-aware search in word translation, addressing limitations of traditional methods.",
+    "claims": [
+      {
+        "text": "The paper integrates a language model for context-aware search in word translation, improving the accuracy of translations by considering the context around words.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "By combining a language model with cross-lingual word embedding, the paper addresses the limitations of nearest neighbor search that ignores context, leading to better translation outcomes.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 576,
+    "total_tokens": 701,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6177569000064977,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

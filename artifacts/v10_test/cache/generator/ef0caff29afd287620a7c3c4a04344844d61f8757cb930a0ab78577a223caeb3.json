@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance improvements of the proposed similarity measure over BM25, quantifying the gains in average precision and NDCG scores.",
+    "claims": [
+      {
+        "text": "The embedding approach boosts the average precision of BM25 by 19% and 6% on TREC 2006 and 2007, respectively.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Using titles (BM25 + SEMTitle) increases NDCG@20 by 23%, NDCG@10 by 25%, and NDCG@5 by 23% compared to BM25.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed method achieves stronger performance than BM25 on TREC and PubMed datasets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The experimental results showed that the new approach was better than BM25 ranking based solely on semantic measures.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 1211,
+    "total_tokens": 1422,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.588287999999011,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

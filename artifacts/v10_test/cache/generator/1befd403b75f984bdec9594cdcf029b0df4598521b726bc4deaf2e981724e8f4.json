@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of baseline models used in the context of SQL generation, detailing their adaptations and performance metrics, which qualifies them as state-of-the-art baselines.",
+    "claims": [
+      {
+        "text": "The state-of-the-art baselines include Context-dependent Seq2Seq (CD-Seq2Seq) and SyntaxSQL-con, which are adapted for context-dependent SQL generation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Recent models achieving state-of-the-art performance include those using recursive decoding and graph neural networks, as well as an intermediate representation for bridging natural language and SQL.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model achieves performance comparable to state-of-the-art results from IRNet with BERT, indicating its competitive nature in the field.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1158,
+    "total_tokens": 1340,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.402639399995678,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific metrics used for evaluating the quality of generated text, including BLEU, perplexity, self-BLEU, and the percentage of unique n-grams.",
+    "claims": [
+      {
+        "text": "The evaluation metrics include BLEU, perplexity, self-BLEU, and the percentage of unique n-grams.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "BLEU measures the similarity between generated sentences and original data distributions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Perplexity serves as a proxy for fluency in the generated text.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Self-BLEU measures the diversity of the generated sentences by comparing them to each other.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The percentage of unique n-grams indicates the diversity of the generated text compared to the original data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 212,
+    "prompt_tokens": 1539,
+    "total_tokens": 1751,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.850632699999551,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

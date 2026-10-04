@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a process involving multiple rounds of crowdsourced annotations, expert reviews, and automatic labeling of tweets related to job/employment.",
+    "claims": [
+      {
+        "text": "The type of annotation performed includes crowdsourced annotations and expert reviews of tweets.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Crowdsourced annotations involved multiple rounds (R1, R2, R4) to assess labeling quality and inter-annotator reliability.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Experts corrected tweets with divergent labels from crowdworkers, indicating a quality control mechanism in the annotation process.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 1048,
+    "total_tokens": 1207,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9498566999973264,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the datasets used in the experiments, including the number of languages and language pairs involved.",
+    "claims": [
+      {
+        "text": "The experiments involved 16 language pairs, 17 languages, and 10 writing systems.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The languages used in the experiments span 4 major language families, including Indo-Aryan, Slavic, and Germanic.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The experiments included diverse writing systems and morphological complexities across the chosen languages.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 1169,
+    "total_tokens": 1307,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6804229999979725,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

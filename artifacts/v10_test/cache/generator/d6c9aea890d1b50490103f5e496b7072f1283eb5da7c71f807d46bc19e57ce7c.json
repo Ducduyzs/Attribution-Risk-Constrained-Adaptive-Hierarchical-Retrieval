@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a comparison of a single-system performance against system combination results, highlighting improvements in word error rates (WER).",
+    "claims": [
+      {
+        "text": "The single-system achieved a WER of 41.6% on DEV and 43.2% on EVAL, which is a significant improvement over previous single-system results without system combination.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The single-system's WER of 41.6% and 43.2% compares favorably to the best previous single-system results of 45.1% and 47.3% without system combination.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The single-system uses 308 hours of training data, while the best previous results used 4500 hours, indicating efficiency in performance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 701,
+    "total_tokens": 893,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.572023000000627,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

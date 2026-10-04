@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the use of Long Short-Term Memory Networks (LSTM) as part of the ensemble of RNN classifiers employed in the study.",
+    "claims": [
+      {
+        "text": "The classifiers used in the study include Long Short-Term Memory Networks (LSTM) as part of an ensemble of Recurrent Neural Network (RNN) classifiers.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The study experimented with various setups of LSTM models enhanced with novel features in an ensemble.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The output layer of the classifiers consists of 3 neurons for classifying Neutral, Racism, and Sexism.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 1076,
+    "total_tokens": 1235,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.254220599999826,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

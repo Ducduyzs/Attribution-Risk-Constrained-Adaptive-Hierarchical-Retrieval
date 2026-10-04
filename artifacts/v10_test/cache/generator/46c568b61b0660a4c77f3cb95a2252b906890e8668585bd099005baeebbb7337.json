@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods and sources used to build gazetteer resources from the Wikipedia knowledge base, particularly focusing on Wikidata.",
+    "claims": [
+      {
+        "text": "Gazetteer resources are built using Wikidata as a structured knowledge base, which provides data on around 45 million entities.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The process involves mapping entities to types, utilizing properties that describe entity relations, such as 'instance_of' and 'part_of'.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Previous methods have also extracted gazetteers from Wikipedia, but the data is smaller and noisier compared to Wikidata.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 732,
+    "total_tokens": 891,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.32334969999647,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

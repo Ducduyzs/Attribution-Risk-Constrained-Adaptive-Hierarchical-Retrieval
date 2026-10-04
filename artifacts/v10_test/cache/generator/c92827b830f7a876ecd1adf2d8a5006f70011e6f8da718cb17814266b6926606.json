@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a detailed explanation of how the BERT-based model operates, including its input structure, encoding process, and sentence selection mechanism.",
+    "claims": [
+      {
+        "text": "The BERT-based model encodes query relevance and document context into vector representations using BERT, which are then used to predict sentence labels or scores.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model takes the concatenation of the query and document as input, modeling relationships through a self-attention mechanism.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Input representations are constructed using token, segmentation, and position embeddings, with special tokens indicating sentence boundaries.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model is fine-tuned on the uncased version of BERT-base, optimizing parameters with specific settings for training.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Sentence selection for the summary is based on ranking scores while avoiding redundancy by checking bigram overlaps.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 231,
+    "prompt_tokens": 1099,
+    "total_tokens": 1330,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.11895050000021,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

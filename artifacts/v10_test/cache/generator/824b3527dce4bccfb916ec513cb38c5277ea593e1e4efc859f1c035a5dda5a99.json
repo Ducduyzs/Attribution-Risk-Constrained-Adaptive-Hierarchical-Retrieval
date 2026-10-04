@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the use of two deep neural network models for evaluation in the context of Image Captioning: the Neural Image Captioning (NIC) model and an Image Captioning model from a Pytorch tutorial.",
+    "claims": [
+      {
+        "text": "The evaluation uses the Neural Image Captioning (NIC) model and a Pytorch tutorial Image Captioning model.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The models utilize an encoder-decoder architecture with CNN for feature extraction and RNN-LSTM for decoding.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 697,
+    "total_tokens": 824,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7168826999986777,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8f25b31f48"
+}

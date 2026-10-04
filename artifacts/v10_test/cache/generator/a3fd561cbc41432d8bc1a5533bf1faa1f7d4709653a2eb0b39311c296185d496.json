@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about state-of-the-art baselines in the context of text-to-SQL generation, including details about the models used for comparison.",
+    "claims": [
+      {
+        "text": "State-of-the-art baselines include Context-dependent Seq2Seq (CD-Seq2Seq) and SyntaxSQL-con models.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "CD-Seq2Seq is adapted for context-dependent SQL generation by incorporating a bi-LSTM database schema encoder.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "SyntaxSQL-con uses bi-LSTMs and a column attention mechanism to enhance SQL query generation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 643,
+    "total_tokens": 797,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.104805999995733,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

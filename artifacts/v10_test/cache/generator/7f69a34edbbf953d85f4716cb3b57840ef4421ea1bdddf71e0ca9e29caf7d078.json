@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly mentions five tasks on which the AC-BLSTM model achieves state-of-the-art results, including sentiment analysis, question type classification, and subjectivity classification.",
+    "claims": [
+      {
+        "text": "The five evaluated tasks include sentiment analysis, question type classification, and subjectivity classification.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "AC-BLSTM achieves state-of-the-art results on five tasks.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1186,
+    "total_tokens": 1289,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6394024000037462,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

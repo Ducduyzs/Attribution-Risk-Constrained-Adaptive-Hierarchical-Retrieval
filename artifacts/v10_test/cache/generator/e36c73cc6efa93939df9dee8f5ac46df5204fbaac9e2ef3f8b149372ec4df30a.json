@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides high accuracy rates for distinguishing between Shakespeare and Fletcher's works, indicating a strong confidence in the conclusions drawn from the analysis.",
+    "claims": [
+      {
+        "text": "The probability of Fletcher’s authorship is very low for the vast majority of Shakespeare’s work, with an estimated accuracy of 0.9977 when distinguishing between Shakespeare and Fletcher.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "text": "The probability that the text of H8 is a result of collaboration between Shakespeare and Fletcher is very high, with models consistently agreeing on authorship for multiple scenes.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "Combined models provide a reliable discriminator between Shakespeare’s and Fletcher’s styles, yielding very high accuracy in attribution.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.97
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 1171,
+    "total_tokens": 1344,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1258448000007775,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

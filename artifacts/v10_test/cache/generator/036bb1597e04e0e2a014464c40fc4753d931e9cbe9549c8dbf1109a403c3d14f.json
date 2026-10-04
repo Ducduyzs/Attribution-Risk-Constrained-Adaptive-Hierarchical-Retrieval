@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific thresholds for classification based on the correctness of answers to generated questions.",
+    "claims": [
+      {
+        "text": "The classification threshold ($\\phi$) is empirically derived from the precision-recall curve, with specific values indicating the number of correct answers needed for classification.",
+        "citations": [
+          "C1",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "For $\\phi = 0.76$, at least 3 out of 4 questions must be answered correctly, while for $\\phi = 0.67$, at least 2 out of 3 questions must be answered correctly to classify a claim as 'SUPPORTS'.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 1436,
+    "total_tokens": 1595,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1827740000007907,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

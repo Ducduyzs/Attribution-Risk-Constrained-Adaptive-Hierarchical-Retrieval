@@ -1,0 +1,34 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the system is designed to output substrings of the provided text snippets, confirming that answers are guaranteed to be substrings.",
+    "claims": [
+      {
+        "text": "The system outputs are guaranteed to be substrings of the provided text snippets.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 651,
+    "total_tokens": 724,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2694999000013922,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

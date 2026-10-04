@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of how confidences of incorrectly predicted domains are decreased using negative feedback from utterances with negative responses.",
+    "claims": [
+      {
+        "text": "Confidences of incorrectly predicted domains are decreased by leveraging utterances with negative system responses, specifically when these domains are among the top predictions.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The approach formulates a loss function that demotes the confidences of negative ground-truth domains only when they are the highest ranked, preventing overwhelming influence on the model.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "This method helps reduce prediction errors and improves model performance in domain classification tasks.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 1913,
+    "total_tokens": 2079,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.10772839999845,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

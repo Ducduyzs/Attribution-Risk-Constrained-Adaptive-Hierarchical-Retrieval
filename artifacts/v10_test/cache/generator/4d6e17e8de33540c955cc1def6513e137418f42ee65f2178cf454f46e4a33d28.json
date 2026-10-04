@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the dataset consists of 5000 reviews for each TV series selected, indicating the total size of the dataset.",
+    "claims": [
+      {
+        "text": "The dataset contains 5000 reviews for each selected TV series.",
+        "citations": [
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 1174,
+    "total_tokens": 1246,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.0524893999972846,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

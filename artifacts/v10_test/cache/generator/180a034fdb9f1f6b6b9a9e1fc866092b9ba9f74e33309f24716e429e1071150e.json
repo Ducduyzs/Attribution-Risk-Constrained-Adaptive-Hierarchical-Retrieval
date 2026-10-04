@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific sources from which the data was obtained, including various literary, religious, and conversational texts, as well as a specific corpus of journalistic news text.",
+    "claims": [
+      {
+        "text": "The data was aggregated from a variety of online public-domain sources, physical books, and included literary, religious, and conversational texts.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A specific source of data was the Global Voices corpus, which consists of journalistic news text from a multilingual community.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 643,
+    "total_tokens": 771,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7971307999978308,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly states that the model is compared against various state-of-the-art models in multiple scenarios, demonstrating its performance relative to these benchmarks.",
+    "claims": [
+      {
+        "text": "The model is compared against several state-of-the-art models in text classification tasks.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model achieves competitive or better performances compared to state-of-the-art models, except for specific datasets.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The empirical performances of the model are evaluated against existing state-of-the-art models across different scenarios.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 1541,
+    "total_tokens": 1693,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3598970000020927,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

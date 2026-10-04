@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the BLEU score improvement achieved by the Insertion-Deletion Transformer compared to the insertion-only model, quantifying the difference as approximately 2 BLEU points.",
+    "claims": [
+      {
+        "text": "The Insertion-Deletion Transformer improves the BLEU score by around 2 points over the insertion-only model.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Insertion-Deletion framework significantly increases the BLEU score compared to the insertion-only framework.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 1815,
+    "total_tokens": 1936,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3379941000021063,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the languages and writing systems used in the experiments, indicating a diverse set of datasets.",
+    "claims": [
+      {
+        "text": "The experiments involved 16 language pairs, 17 languages, and 10 writing systems spanning 4 major language families.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The chosen languages include those from the Indo-Aryan, Slavic, and Germanic sub-groups of the Indo-European family, as well as Japanese and Korean.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The experiments utilized various representation units including character, morpheme, word, orthographic syllable, and BPE unit.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1618,
+    "total_tokens": 1781,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0636774000013247,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific evaluation metrics used in the context of natural language generation (NLG) research, including BLEU-4 score and slot error rate (ERR), as well as manual evaluation metrics for informativeness and naturalness.",
+    "claims": [
+      {
+        "text": "The evaluation metrics used include BLEU-4 score and slot error rate (ERR).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Manual evaluation metrics include informativeness and naturalness, rated by human annotators.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Fleiss’ kappa was used to measure inter-rater consistency for the manual evaluation metrics.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 1174,
+    "total_tokens": 1334,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8181226000015158,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

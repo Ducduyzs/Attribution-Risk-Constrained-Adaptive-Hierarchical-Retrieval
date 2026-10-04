@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a process of crowdsourced annotation involving multiple rounds of human labeling and expert review to classify tweets as job-related or not.",
+    "claims": [
+      {
+        "text": "The type of annotation performed is crowdsourced annotation, where non-expert contributors label tweets with the assistance of expert reviewers for quality assurance.",
+        "citations": [
+          "C1",
+          "C2",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The annotation process includes multiple rounds of human annotations and automatic predictions to improve the labeling accuracy of job-related tweets.",
+        "citations": [
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Expert annotators review and correct tweets that received divergent labels from crowdworkers to ensure higher labeling quality.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1859,
+    "total_tokens": 2024,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0185761999964598,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

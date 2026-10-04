@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific measures and methods used to evaluate the quality of a Q&A platform, particularly Zhihu Live, through a data-driven approach.",
+    "claims": [
+      {
+        "text": "A data-driven approach is used to evaluate the quality of the Zhihu Live platform, which includes data collection, cleaning, normalization, descriptive analysis, and predictive analysis.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset ZhihuLive-DB, containing 7242 records and 286,938 comments, is utilized for quality evaluation and analysis of the Zhihu Live platform.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation method includes predicting the quality of Zhihu Live using a model named MTNet, which has shown superior performance compared to baseline methods.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Consideration of malicious comments and assessments on social networking platforms is highlighted as an important aspect of quality evaluation.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 217,
+    "prompt_tokens": 655,
+    "total_tokens": 872,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.431412400001136,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The research was not adopted in the 1960s primarily due to a lack of federal funding and resources, which hindered the Croatian research group's ability to produce practical results compared to their counterparts in the USA and USSR.",
+    "claims": [
+      {
+        "text": "The Croatian research group lacked federal funding, which prevented them from creating a prototype and conducting practical research.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Unlike researchers in the USA and USSR, the Croatian group had to manage without an actual computer, limiting their results to theoretical work.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Research in computational linguistics was a top-priority military effort in other countries, which the Croatian group could not compete with due to resource limitations.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 714,
+    "total_tokens": 890,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.169162799997139,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

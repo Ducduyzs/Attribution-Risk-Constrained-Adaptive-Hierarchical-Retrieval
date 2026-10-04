@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence does not specify the languages of the datasets used for evaluation, only mentioning social media platforms like Twitter and Reddit without indicating if they are exclusively English or include other languages.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 1236,
+    "total_tokens": 1282,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 0.9566940000004251,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

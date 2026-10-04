@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses various lexical features used in cross-lingual semantic parsing, including word embeddings, PoS tags, and dependency relations, but does not specify an exact number of features considered.",
+    "claims": [
+      {
+        "text": "The parser utilizes monolingual lexical features, cross-lingual word embeddings, universal PoS tags, and universal dependencies as lexical features.",
+        "citations": [
+          "C1",
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Dependency features significantly improve performance in cross-lingual semantic parsing, indicating their importance as a lexical feature.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study includes an ablation analysis of features such as word embeddings, PoS embeddings, and dependency relation embeddings.",
+        "citations": [
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 1718,
+    "total_tokens": 1897,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.488982399998349,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

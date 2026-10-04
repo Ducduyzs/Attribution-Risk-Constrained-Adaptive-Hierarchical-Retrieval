@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors suggest that Twitter data makes better predictions about language inventory due to its broader representation of languages used in various regions, particularly in North America and Oceania, and its ability to capture languages that may not be reflected in census data.",
+    "claims": [
+      {
+        "text": "Twitter data provides a better representation of language use in North America and Oceania compared to web-crawled data.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Twitter has fewer missing languages compared to other datasets, allowing for better predictions of language use.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The ability of Twitter data to predict language use is enhanced by its coverage of a large number of tweets from diverse locations.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 1153,
+    "total_tokens": 1325,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.179040700000769,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

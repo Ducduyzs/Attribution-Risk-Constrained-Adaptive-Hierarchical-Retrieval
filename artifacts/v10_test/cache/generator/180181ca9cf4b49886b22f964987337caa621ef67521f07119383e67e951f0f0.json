@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that tie strength is quantified in terms of embeddedness, which suggests that it is not solely represented by the number of social ties.",
+    "claims": [
+      {
+        "text": "Tie strength is quantified in terms of embeddedness, not just the number of social ties.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Strong ties are characterized by dense embedding and mutual friends, indicating a qualitative aspect beyond mere quantity.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Weak ties, while more numerous, play a significant role in information diffusion, highlighting the complexity of tie strength.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 705,
+    "total_tokens": 850,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4845492000022205,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

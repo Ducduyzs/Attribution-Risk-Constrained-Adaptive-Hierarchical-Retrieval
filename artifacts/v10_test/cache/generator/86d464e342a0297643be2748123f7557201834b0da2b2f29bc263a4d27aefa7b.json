@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods used to address imbalanced datasets, including data expansion and loss control.",
+    "claims": [
+      {
+        "text": "Data expansion using oversampling is one method to deal with imbalanced datasets, which includes duplicating texts with low pattern proportions and modifying characters.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Adding loss control in the model helps focus on harder cases in different classes, reducing the impact of imbalanced data.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Different approaches to handle imbalanced datasets were experimented with in the context of a hybrid text normalization system.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 1059,
+    "total_tokens": 1212,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2402327000017976,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

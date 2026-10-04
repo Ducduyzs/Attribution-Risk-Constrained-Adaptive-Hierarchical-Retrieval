@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the baseline models used in the context of learner language annotation and parsing.",
+    "claims": [
+      {
+        "text": "The baseline models include the Universal Dependencies (UD) POS tags and dependency relations, which are used in conjunction with ESL-specific annotation guidelines.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The training for the models utilizes the English Web Treebank (EWT) and the TLE corpus, which includes both original and corrected sentences for parsing experiments.",
+        "citations": [
+          "C8",
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 1835,
+    "total_tokens": 1961,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8156763000006322,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

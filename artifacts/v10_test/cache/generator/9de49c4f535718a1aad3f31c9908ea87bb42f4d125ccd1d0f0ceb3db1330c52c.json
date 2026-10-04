@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about fine-grained semantic types in the context of entity typing, including the approach of multi-label classification and the use of richer ontologies.",
+    "claims": [
+      {
+        "text": "Fine-grained semantic types are used in entity typing to assign multiple types to an entity based on its context.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The task of fine-grained entity typing is approached as a multi-label classification problem, allowing entities to have multiple types.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Recent work has moved towards finer-grained semantic types with richer ontologies to improve performance in natural language tasks.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 729,
+    "total_tokens": 895,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6362958999961847,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

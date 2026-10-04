@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific datasets used for evaluation, including NIST datasets and the Baidu Speech Translation Corpus (BSTC).",
+    "claims": [
+      {
+        "text": "The datasets evaluated include NIST 2002, 2003, 2004, 2005, 2006, and 2008 datasets as test sets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Baidu Speech Translation Corpus (BSTC) is also used for evaluation, particularly for testing models with ASR errors.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 699,
+    "total_tokens": 826,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6338206000000355,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

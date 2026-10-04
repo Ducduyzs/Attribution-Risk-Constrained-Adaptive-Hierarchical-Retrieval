@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear methods for segmenting text, particularly in the context of lengthy legal documents, and explains how these segments are processed to improve classification results.",
+    "claims": [
+      {
+        "text": "Text is segmented into smaller chunks to encapsulate context and improve processing results.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Dividing text into segments and combining embeddings with a BiLSTM architecture enhances classification outcomes.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Document segmentation mimics human reading behavior by allowing the machine to identify and determine the relevance of each chunk.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Different models are created based on the number of chunks to observe their effect on model efficiency.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 1013,
+    "total_tokens": 1188,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1420289000016055,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

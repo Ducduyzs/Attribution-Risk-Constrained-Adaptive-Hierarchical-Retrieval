@@ -1,0 +1,53 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a systematic approach involving expert evaluations to identify missing hypotheses in entailment problems.",
+    "claims": [
+      {
+        "text": "Missing hypotheses were discovered by consulting a crowd of experts who re-evaluated problems marked as entailment, specifically looking for implicit hypotheses.",
+        "citations": [
+          "C1",
+          "C6",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The process involved tagging problems with missing hypotheses and classifying them based on expert judgments, revealing that many problems were incorrectly labeled as entailment.",
+        "citations": [
+          "C2",
+          "C7",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The method of using multiple experts per problem increased the likelihood of identifying missing hypotheses and incorrect entailments.",
+        "citations": [
+          "C3",
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 1696,
+    "total_tokens": 1864,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.050402299995767,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The research in machine translation was not adopted in the 1960s due to its failure to produce successful systems and the reliance on logical and knowledge-heavy processing, which was not effective at the time.",
+    "claims": [
+      {
+        "text": "The Indonesian-to-Russian machine translation system developed in the early 1960s ultimately failed, similar to early USA systems.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Croatian group's approach to machine translation was different from mainstream logical approaches, which were not widely accepted until later.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 677,
+    "total_tokens": 806,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.706485700000485,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

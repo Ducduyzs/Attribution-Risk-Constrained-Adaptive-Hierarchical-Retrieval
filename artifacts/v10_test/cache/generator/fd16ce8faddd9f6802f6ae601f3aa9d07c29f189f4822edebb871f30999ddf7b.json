@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies the dataset used for training and testing the model, which consists of tweets annotated for clickbait detection.",
+    "claims": [
+      {
+        "text": "The dataset used consists of 19538 tweets that were curated and annotated for their clickbait nature, with 17000 records used for training and 2538 for testing.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "Each record in the dataset includes the title and text of the article, along with supplementary information such as target description and keywords.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 1548,
+    "total_tokens": 1675,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.62472980000166,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

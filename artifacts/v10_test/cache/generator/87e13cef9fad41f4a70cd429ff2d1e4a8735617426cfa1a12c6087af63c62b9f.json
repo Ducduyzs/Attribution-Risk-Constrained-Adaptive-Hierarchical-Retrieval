@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used in the experiments, including the Amazon product review datasets and the Yelp challenge dataset.",
+    "claims": [
+      {
+        "text": "The experiments were conducted on 10 different datasets, including 9 Amazon product review datasets and the Yelp challenge dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The datasets include reviews from various domains, specifically focusing on restaurant reviews in the Yelp dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 1133,
+    "total_tokens": 1234,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5201052999982494,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_a5e38b2795"
+}

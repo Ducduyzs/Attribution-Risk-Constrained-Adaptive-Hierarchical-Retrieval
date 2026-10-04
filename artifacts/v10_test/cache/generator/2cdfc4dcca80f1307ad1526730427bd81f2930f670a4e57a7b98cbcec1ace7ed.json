@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the unsupervised representation-learning objectives introduced in the paper.",
+    "claims": [
+      {
+        "text": "The authors propose two new unsupervised representation-learning objectives: Sequential Denoising Autoencoders (SDAEs) and FastSent.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "SDAEs perform well on paraphrase identification tasks, while FastSent excels in unsupervised benchmarks like the SICK sentence relatedness task.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 1230,
+    "total_tokens": 1347,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5933894999980112,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the training method of the selected sharing layer in the context of a multi-task learning framework for stance and fake news detection.",
+    "claims": [
+      {
+        "text": "The selected sharing layer is trained using a sifted multi-task learning method that incorporates a gate mechanism and attention mechanism to filter shared features between tasks.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The sifted multi-task learning method aims to improve performance by selecting relevant shared features and discarding irrelevant ones, thus enhancing task-specific outputs.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 512,
+    "total_tokens": 641,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4723777000035625,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

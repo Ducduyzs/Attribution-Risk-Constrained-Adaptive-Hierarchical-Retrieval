@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific morphological features associated with different word types, such as nouns and verbs, and discusses their roles in linguistic annotation and translation performance.",
+    "claims": [
+      {
+        "text": "Nouns have morphological features including case, number, and gender, while verbs have person, number, tense, and aspect.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Different features, including morphological features, help distinguish between subjects and objects in German sentences.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Lemmas are included as a linguistic feature to improve generalization over inflectional variants of words.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Subword tags encode the segmentation of words into subword units, which are derived from original word-level features.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 1158,
+    "total_tokens": 1344,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.322382300000754,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

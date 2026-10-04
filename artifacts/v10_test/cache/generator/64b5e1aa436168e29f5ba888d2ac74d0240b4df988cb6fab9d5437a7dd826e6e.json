@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific numbers regarding the size of the datasets created for sentiment analysis in Catalan and Basque languages.",
+    "claims": [
+      {
+        "text": "The published dataset contains a total of 568 reviews in Catalan and 343 reviews in Basque.",
+        "citations": [
+          "C1",
+          "C3",
+          "C7"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 1638,
+    "total_tokens": 1715,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2004597000050126,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

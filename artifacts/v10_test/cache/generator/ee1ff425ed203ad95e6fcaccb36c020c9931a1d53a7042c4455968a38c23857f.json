@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the nature of the restricted track in the BEA 2019 Shared Task on grammatical error correction, indicating that it is a purely neural system without additional tools.",
+    "claims": [
+      {
+        "text": "The restricted track submission is a purely neural system that does not use additional tools like spell checkers.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The restricted track system is based on standard neural machine translation (NMT) and language model (LM) architectures.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Techniques from machine translation research, such as back-translation and fine-tuning, are utilized in the restricted track.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 615,
+    "total_tokens": 777,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.030565299995942,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

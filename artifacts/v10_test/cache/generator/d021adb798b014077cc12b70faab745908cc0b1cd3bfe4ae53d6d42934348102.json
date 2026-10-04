@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of word error rates (WER) between single-system and system combination approaches, demonstrating the performance of a single-system model against a baseline that includes system combination.",
+    "claims": [
+      {
+        "text": "The single-system model achieved a WER of 41.6% on DEV and 43.2% on EVAL, which is better than the previous best single-system results of 45.1% and 47.3% without system combination.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed single-system model shows a 16% relative WER reduction on the DEV set compared to a system combination baseline, indicating its competitive performance.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1204,
+    "total_tokens": 1367,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.1610015999976895,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

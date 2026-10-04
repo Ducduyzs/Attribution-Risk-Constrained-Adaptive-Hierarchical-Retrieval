@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific datasets used for evaluation in different tasks, including image captioning and translation.",
+    "claims": [
+      {
+        "text": "The evaluation for the image captioning task was conducted on the Microsoft COCO 2014 dataset, which contains 123,287 images.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "For the translation task, the tst2012 dataset was used for validation and tst2013 for testing, with the IWSLT 2014 dataset for De-En.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The IWSLT 2014 dataset for De-En contains 160K sentence pairs for training and around 7K sentences for testing.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The evaluation for WMT14 En-De used case-sensitive tokenized BLEU score, while IWSLT 2015 En-Vi and IWSLT 2014 De-En used case-insensitive BLEU.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 224,
+    "prompt_tokens": 706,
+    "total_tokens": 930,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.8842483000044012,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

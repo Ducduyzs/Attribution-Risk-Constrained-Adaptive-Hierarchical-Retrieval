@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear comparison of single-system performance against system combination performance, highlighting improvements in word error rates (WER).",
+    "claims": [
+      {
+        "text": "The single-system achieved a WER of 41.6% on DEV and 43.2% on EVAL, which is a significant improvement over previous single-system results without system combination.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The single-system performance is better than the previously published top-line results of 45.1% and 47.3% WER on DEV and EVAL, respectively, which used a larger training dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed single-system shows a 16% relative WER reduction on DEV compared to a system from BIBREF12, indicating its competitive edge over system combinations.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 199,
+    "prompt_tokens": 1156,
+    "total_tokens": 1355,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.344489800001611,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

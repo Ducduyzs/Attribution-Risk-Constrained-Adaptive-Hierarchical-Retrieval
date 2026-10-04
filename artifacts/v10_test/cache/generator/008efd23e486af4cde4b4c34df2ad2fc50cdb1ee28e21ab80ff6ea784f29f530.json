@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a detailed description of the training process and components of the selected sharing layer, including its structure and mechanisms.",
+    "claims": [
+      {
+        "text": "The selected sharing layer is trained using a gated sharing cell to filter useless features and an attention sharing cell to focus on valuable features for specific tasks.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The training involves a global loss function that minimizes the cross-entropy of predictions across tasks, with a focus on the task of fake news detection.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The selected sharing layer enhances performance by selectively sharing features between tasks, addressing the issue of integrating useless features.",
+        "citations": [
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 1607,
+    "total_tokens": 1776,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.449791400002141,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

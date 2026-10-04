@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific mentions of various languages explored in the paper, including German, Japanese, Catalan, Czech, and Chinese.",
+    "claims": [
+      {
+        "text": "The languages explored in the paper include German, Japanese, Catalan, Czech, and Chinese.",
+        "citations": [
+          "C1",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The paper discusses the performance of polyglot training on low-resource languages, specifically mentioning German and Catalan.",
+        "citations": [
+          "C1",
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Czech and Chinese are also mentioned in the context of language performance in the study.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1568,
+    "total_tokens": 1724,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9695310999959474,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

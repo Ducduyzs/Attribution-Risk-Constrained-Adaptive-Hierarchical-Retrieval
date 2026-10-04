@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that both single-language and multilingual BERT models perform well on structure-dependent agreement tasks, but does not definitively state that one outperforms the other across all contexts.",
+    "claims": [
+      {
+        "text": "Single-language BERT performs well on structure-dependent agreement tasks, achieving above 80% accuracy in cloze tests.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Multilingual BERT also captures syntax-sensitive agreement patterns, but specific performance comparisons are not detailed.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "The performance of BERT models varies by language and task, suggesting context-dependent effectiveness rather than a clear superiority of single-language BERT.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.6
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1227,
+    "total_tokens": 1390,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.533401699998649,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

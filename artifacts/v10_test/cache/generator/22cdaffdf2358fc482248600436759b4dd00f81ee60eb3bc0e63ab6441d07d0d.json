@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific datasets used for evaluation in different tasks, including image captioning and translation.",
+    "claims": [
+      {
+        "text": "For validation, the tst2012 dataset was used, and for testing, the tst2013 dataset was utilized.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evaluation for image captioning was conducted on the Microsoft COCO 2014 dataset, which includes a test set of 5,000 images.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 495,
+    "total_tokens": 609,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9129389000008814,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

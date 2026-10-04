@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors suggest that Twitter data provides a better representation of language use due to its broad coverage and the nature of language usage in tweets, which can reflect real-time language dynamics that census data may miss.",
+    "claims": [
+      {
+        "text": "Twitter data offers a better representation of language use because it captures real-time dynamics and includes languages not reflected in census data, leading to a higher true positive rate for common languages like English and Spanish.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The methodology of collecting tweets from a wide area without biasing by language-specific keywords allows for a more accurate representation of language use in different countries compared to web-crawled data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 671,
+    "total_tokens": 828,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3847155999974348,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

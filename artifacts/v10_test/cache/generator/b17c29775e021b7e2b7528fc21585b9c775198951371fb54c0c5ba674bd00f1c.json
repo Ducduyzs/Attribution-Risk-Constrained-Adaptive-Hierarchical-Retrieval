@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific use cases that demonstrate the capabilities of the system.",
+    "claims": [
+      {
+        "text": "The system can be utilized to create an abstract Wikipedia, addressing challenges in presenting computational results to non-expert users.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The system generates an intermediate representation of paragraphs for automatic translation, assessing the adequacy of the representation by comparing generated sentences to original ones from Wikipedia.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 1113,
+    "total_tokens": 1227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0511792999968748,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

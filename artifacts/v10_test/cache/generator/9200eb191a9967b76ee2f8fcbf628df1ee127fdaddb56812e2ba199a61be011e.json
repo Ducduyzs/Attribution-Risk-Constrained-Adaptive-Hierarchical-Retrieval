@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the semantic tagset used, including its structure and purpose.",
+    "claims": [
+      {
+        "text": "The semantic tagset consists of 80 semantic tags grouped into 13 coarse-grained classes.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The semantic tags include distinctions such as negation, modals, types of quantification, and named entity types.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The semantic tagset is language-neutral and abstracts over part-of-speech and named-entity classes.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The tags include specific types like ART (artifacts), PER (persons), GEO (geographical entities), and ORG (organizations).",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 1744,
+    "total_tokens": 1924,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.306574099995487,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

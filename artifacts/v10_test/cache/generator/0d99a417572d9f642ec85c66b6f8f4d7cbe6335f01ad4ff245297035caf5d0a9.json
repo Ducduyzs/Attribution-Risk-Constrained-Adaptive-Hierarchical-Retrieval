@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that user embeddings significantly improve performance in a moderation method, leading to the best results compared to other methods.",
+    "claims": [
+      {
+        "text": "User embeddings lead to the biggest performance gains in the RNN-based moderation method.",
+        "citations": [
+          "C1",
+          "C3",
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "User embeddings improve the performance of the RNN-based method more than user type embeddings and user-specific biases.",
+        "citations": [
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 1798,
+    "total_tokens": 1913,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0944300000046496,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

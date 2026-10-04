@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the process of crowdsourced annotation, including the involvement of non-expert annotators and expert reviewers, as well as the evaluation of inter-annotator agreement.",
+    "claims": [
+      {
+        "text": "Crowdsourced annotations involve non-expert contributors labeling tweets, which are then reviewed by experts for reliability.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The quality of annotations is assessed using metrics like Fleiss' kappa and Krippendorff's alpha to measure inter-annotator reliability.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The annotation process includes multiple rounds (R1, R2, R4) where tweets are labeled and re-evaluated to improve accuracy.",
+        "citations": [
+          "C4",
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 1918,
+    "total_tokens": 2098,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2327590999993845,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

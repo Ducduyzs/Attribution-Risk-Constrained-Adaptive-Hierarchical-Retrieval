@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the use of a Meta-LSTM as a meta learning algorithm for multi-task learning, which captures shared knowledge across tasks and predicts parameters for task-specific networks.",
+    "claims": [
+      {
+        "text": "The algorithm used is a Meta-LSTM, which serves as a meta network to capture shared knowledge across tasks.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Meta-LSTM can learn at the meta-level, predicting parameters for task-specific networks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The Meta-LSTM facilitates knowledge transfer to new tasks, improving performance on unseen tasks.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1074,
+    "total_tokens": 1231,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0659353000010015,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

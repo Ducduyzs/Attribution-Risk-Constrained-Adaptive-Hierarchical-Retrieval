@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors suggest that Twitter data provides better predictions about language inventory due to its broader representation of languages used in urban areas and its ability to capture languages that may not be reflected in census data.",
+    "claims": [
+      {
+        "text": "Twitter data correlates better with actual language use in countries, particularly in North America and Oceania, due to its coverage of urban populations and wealthier demographics.",
+        "citations": [
+          "C1",
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Twitter has fewer missing languages compared to web-crawled data, allowing for better predictions of language use where ground-truth data is sparse.",
+        "citations": [
+          "C5",
+          "C2"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "The platform's user base includes a higher representation of languages like English and Spanish, which are prevalent in many countries, enhancing its predictive accuracy.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 1830,
+    "total_tokens": 2022,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0936212000015075,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

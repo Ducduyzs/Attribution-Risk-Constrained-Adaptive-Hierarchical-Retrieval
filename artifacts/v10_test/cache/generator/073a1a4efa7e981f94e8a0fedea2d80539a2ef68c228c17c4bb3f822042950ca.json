@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the classification threshold used in the context of a question-answering system, including empirical values and their implications for classification accuracy.",
+    "claims": [
+      {
+        "text": "The classification threshold ($\\phi$) is derived empirically based on the precision-recall curve and is set at values such as 0.76 and 0.67 for classifying claims as 'SUPPORTS'.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A threshold of $\\phi = 0.76$ requires at least 3 out of 4 questions to be answered correctly for a claim to be classified as 'SUPPORTS'.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "A threshold of $\\phi = 0.67$ requires at least 2 out of 3 questions to be answered correctly for the same classification.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 1174,
+    "total_tokens": 1380,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.791815899996436,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

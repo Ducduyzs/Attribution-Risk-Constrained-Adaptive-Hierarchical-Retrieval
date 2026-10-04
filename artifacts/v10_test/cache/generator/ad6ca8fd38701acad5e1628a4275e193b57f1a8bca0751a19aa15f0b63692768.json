@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The research was not adopted in the 1960s due to a combination of failures in early systems, lack of funding, and the theoretical nature of some research efforts without practical implementation.",
+    "claims": [
+      {
+        "text": "The Indonesian-to-Russian machine translation system was a failure, similar to early USA systems, which hindered adoption.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Yugoslav research group could not create a prototype due to lack of federal funding, limiting their progress.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Research in computational linguistics was primarily a military effort in other countries, which may have influenced priorities and funding.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 710,
+    "total_tokens": 870,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.988805200002389,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

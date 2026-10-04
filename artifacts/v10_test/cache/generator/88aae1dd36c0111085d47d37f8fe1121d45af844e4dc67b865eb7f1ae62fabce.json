@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the amount of additional data generated from translations, particularly highlighting the effectiveness of using multiple back-translations to improve data quality.",
+    "claims": [
+      {
+        "text": "The additional data generated from translations is about 10 times larger than the 2-votes data used in the experiment.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Using back-translations where at least two agree yields the best quality of additional data.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The method of using multiple translations improves the quality of the additional data significantly compared to using data from just one language.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1757,
+    "total_tokens": 1914,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2979389000029187,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

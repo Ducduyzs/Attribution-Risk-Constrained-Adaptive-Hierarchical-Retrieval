@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the NLG tasks considered in the study, including the focus on end-to-end data-driven NLG and the comparison of different approaches and metrics.",
+    "claims": [
+      {
+        "text": "The paper focuses on end-to-end data-driven NLG methods, comparing three different approaches.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The study evaluates 21 automated metrics across different domains and datasets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The systems can produce ungrammatical output by generating word-by-word and learning from noisy data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The paper includes a detailed error analysis indicating metrics' reliability issues at the sentence-level.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 659,
+    "total_tokens": 834,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9553069999965373,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

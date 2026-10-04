@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly describes the use of a machine learning model based on textual features to detect IRA trolls on social media.",
+    "claims": [
+      {
+        "text": "The features used in the model are primarily text-based, including thematic and profiling features.",
+        "citations": [
+          "C2",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model incorporates emotional and linguistic features to enhance detection performance.",
+        "citations": [
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model utilizes a logistic regression classifier trained on a dataset of tweets.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 1822,
+    "total_tokens": 1954,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9285940999980085,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

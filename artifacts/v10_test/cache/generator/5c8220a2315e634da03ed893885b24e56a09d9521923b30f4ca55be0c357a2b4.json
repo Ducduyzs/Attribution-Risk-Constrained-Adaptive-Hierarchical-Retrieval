@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a meta-learning algorithm that utilizes a functional sharing scheme with a Meta-LSTM and Basic-LSTM architecture for multi-task learning.",
+    "claims": [
+      {
+        "text": "The meta-learning algorithm uses a functional sharing scheme with a Meta-LSTM to capture shared knowledge across tasks.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The architecture consists of a shared meta network and task-specific basic networks, allowing for knowledge transfer between tasks.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The Meta-LSTM captures meta knowledge that can be transferred to new tasks, enhancing learning efficiency.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 1065,
+    "total_tokens": 1217,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.141816600000311,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

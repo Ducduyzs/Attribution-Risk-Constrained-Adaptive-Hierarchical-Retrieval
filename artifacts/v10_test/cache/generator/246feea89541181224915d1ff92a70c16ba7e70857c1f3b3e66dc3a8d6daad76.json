@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the restrictions of the restricted track in the BEA 2019 Shared Task on grammatical error correction.",
+    "claims": [
+      {
+        "text": "The restricted track does not use spell checkers or other NLP tools, relying solely on neural sequence models.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Insertions are restricted to three tokens: ',', '-', and ''s', with only one insertion allowed per sentence.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The training data for the restricted track includes 1.2M pairs of corrected and uncorrected sentences, with a focus on exploring purely neural models.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1238,
+    "total_tokens": 1395,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8569763999985298,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

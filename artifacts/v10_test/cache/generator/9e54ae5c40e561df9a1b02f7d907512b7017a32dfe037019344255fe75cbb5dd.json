@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the deep neural network models used in the evaluation of the dataset for Image Captioning.",
+    "claims": [
+      {
+        "text": "The Neural Image Captioning (NIC) model is used for evaluation.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An Image Captioning model from the Pytorch-tutorial by Yunjey is also used for evaluation.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 1198,
+    "total_tokens": 1304,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5331270999959088,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets used for evaluation are primarily in English, as tweets in languages other than English were removed, and sarcastic posts from Reddit were collected without mention of other languages.",
+    "claims": [
+      {
+        "text": "The datasets used for evaluation are primarily in English, as tweets in other languages were removed during preprocessing.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The sarcastic posts collected from Reddit do not specify any languages other than English, implying the focus is on English datasets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 1141,
+    "total_tokens": 1265,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7641349999976228,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

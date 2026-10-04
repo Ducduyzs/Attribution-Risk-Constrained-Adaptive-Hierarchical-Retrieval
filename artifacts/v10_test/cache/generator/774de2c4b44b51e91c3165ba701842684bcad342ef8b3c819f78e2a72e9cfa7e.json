@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific sources of data used in the corpus, including social media, news websites, and the Snopes fact-checking platform.",
+    "claims": [
+      {
+        "text": "The data comes from various sources including social media (11%), news websites (38%), and false news or satirical articles (30%).",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The corpus is based on data collected by Snopes fact-checkers and includes documents from discussion blogs, news, and social media.",
+        "citations": [
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The original documents are extracted from the Snopes platform, which validates claims and provides evidence snippets.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 1481,
+    "total_tokens": 1645,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.056270900000527,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

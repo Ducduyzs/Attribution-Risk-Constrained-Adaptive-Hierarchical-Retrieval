@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a specific meta learning algorithm involving a shared meta network and task-specific networks, specifically using Meta-LSTM and Basic-LSTM architectures.",
+    "claims": [
+      {
+        "text": "The algorithm uses a Meta-LSTM for shared knowledge and a Basic-LSTM for task-specific learning.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The meta network captures shared knowledge across different tasks and predicts parameters for task-specific networks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 573,
+    "total_tokens": 681,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5264989999996033,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ce3836fcfd"
+}

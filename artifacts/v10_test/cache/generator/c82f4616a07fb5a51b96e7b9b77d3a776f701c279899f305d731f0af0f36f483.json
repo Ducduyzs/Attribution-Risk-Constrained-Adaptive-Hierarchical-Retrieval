@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about state-of-the-art baselines in the context of text-to-SQL generation, including comparisons with existing models and their performance metrics.",
+    "claims": [
+      {
+        "text": "State-of-the-art baselines in text-to-SQL generation include Context-dependent Seq2Seq (CD-Seq2Seq) and SyntaxSQL-con, which are adapted for context-dependent SQL generation across multiple domains.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Recent approaches achieving state-of-the-art performance include models that utilize recursive decoding and graph neural networks for encoding schemas.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The proposed model demonstrates a 7% improvement in question match accuracy over previous state-of-the-art methods by utilizing an editing mechanism for SQL generation.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1815,
+    "total_tokens": 1997,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.3811789999963366,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

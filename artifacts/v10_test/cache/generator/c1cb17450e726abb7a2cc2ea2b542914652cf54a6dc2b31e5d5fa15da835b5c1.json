@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that SESAME is a dataset for Named Entity Recognition (NER) that includes various entity types, but does not explicitly mention the presence of discontiguous entities.",
+    "claims": [
+      {
+        "text": "SESAME includes various entity types for Named Entity Recognition (NER).",
+        "citations": [
+          "C1",
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset does not explicitly mention the presence of discontiguous entities.",
+        "citations": [
+          "C1",
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 1562,
+    "total_tokens": 1679,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7476294999942183,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

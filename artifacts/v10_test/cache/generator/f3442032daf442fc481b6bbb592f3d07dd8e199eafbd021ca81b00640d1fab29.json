@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific values for the classification thresholds used in the system, indicating how many questions must be answered correctly to classify a claim as 'SUPPORTS'.",
+    "claims": [
+      {
+        "text": "The classification threshold ($\\phi$) is empirically derived based on the precision-recall curve, with values such as $\\phi = 0.76$ and $\\phi = 0.67$ indicating the number of correct answers required for classification.",
+        "citations": [
+          "C1",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "At $\\phi = 0.76$, at least 3 out of 4 questions must be answered correctly, while at $\\phi = 0.67$, at least 2 out of 3 questions must be answered correctly for a claim to be classified as 'SUPPORTS'.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 198,
+    "prompt_tokens": 1799,
+    "total_tokens": 1997,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.972033400001237,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

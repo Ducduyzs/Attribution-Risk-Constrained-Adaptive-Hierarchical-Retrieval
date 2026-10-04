@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly states the dataset used for evaluation.",
+    "claims": [
+      {
+        "text": "The evaluation dataset used was the Clinical TempEval corpus, which consists of 600 clinical notes and pathology reports from cancer patients at the Mayo Clinic.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The Clinical TempEval corpus includes manually annotated time expressions, events, and temporal relations in clinical notes.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 606,
+    "total_tokens": 703,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7121123999968404,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

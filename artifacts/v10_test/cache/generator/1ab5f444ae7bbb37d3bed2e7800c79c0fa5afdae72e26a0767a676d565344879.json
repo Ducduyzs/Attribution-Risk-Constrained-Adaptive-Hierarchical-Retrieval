@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the languages involved in the experiments, including both datasets and the number of languages tested.",
+    "claims": [
+      {
+        "text": "The experiments involve Dutch, Spanish, English, and German from the CoNLL datasets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An in-house dataset is used that includes 16 languages.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The experiments also include Hindi and English in a code-switching context.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "The experiments utilize data from 41 languages for part-of-speech tasks.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 678,
+    "total_tokens": 832,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8193373999965843,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

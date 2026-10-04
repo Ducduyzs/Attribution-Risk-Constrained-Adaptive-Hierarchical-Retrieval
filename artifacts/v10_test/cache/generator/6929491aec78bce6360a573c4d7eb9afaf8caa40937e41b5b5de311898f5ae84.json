@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics comparing the similarity measure to BM25, indicating a clear improvement in average precision and NDCG scores.",
+    "claims": [
+      {
+        "text": "The embedding approach boosts the average precision of BM25 by 19% and 6% on TREC 2006 and 2007, respectively.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Reranking documents by learning to rank (BM25 + SEMTitle) increases NDCG@20 by 23%, NDCG@10 by 25%, and NDCG@5 by 23%, outperforming BM25.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 731,
+    "total_tokens": 880,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.429206599997997,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_c604161aa5"
+}

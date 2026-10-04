@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a meta-learning algorithm that utilizes a shared meta network and task-specific basic networks for multi-task learning, specifically through a functional sharing scheme involving Meta-LSTMs.",
+    "claims": [
+      {
+        "text": "The algorithm uses a functional sharing scheme with a shared meta network and task-specific basic networks for multi-task learning.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The shared meta network captures meta knowledge and generates parameters for the task-specific networks.",
+        "citations": [
+          "C2",
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed model is based on Meta-LSTMs which improve performance in multi-task learning scenarios.",
+        "citations": [
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 1943,
+    "total_tokens": 2107,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.36113540000224,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}
