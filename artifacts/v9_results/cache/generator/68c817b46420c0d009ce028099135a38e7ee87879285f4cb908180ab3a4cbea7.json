@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that while there are advancements in end-to-end neural models, many industrial dialogue systems still rely on rule-based approaches and handcrafted features, suggesting they do not primarily use off-the-shelf NLP systems.",
+    "claims": [
+      {
+        "text": "Many industrially deployed dialogue systems still use manual features or handcrafted rules instead of off-the-shelf NLP systems.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "End-to-end approaches, despite their advantages, are not yet suitable for commercial conversational agents operating on real-world data.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 701,
+    "total_tokens": 830,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7535110999997414,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

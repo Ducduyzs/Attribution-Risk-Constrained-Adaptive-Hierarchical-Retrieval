@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance results related to the detection of cyberbullying using various models and techniques, including the impact of oversampling and transfer learning.",
+    "claims": [
+      {
+        "text": "Oversampling the bullying class improved the performance of DNN models significantly across evaluation measures, particularly for the smallest dataset, Formspring.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Traditional machine learning models (LR, SVM, RF, NB) performed significantly lower than DNN models in cyberbullying detection.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Transfer learning showed low recall but higher precision, indicating different natures of cyberbullying across datasets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 2265,
+    "total_tokens": 2425,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0005709000033676,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

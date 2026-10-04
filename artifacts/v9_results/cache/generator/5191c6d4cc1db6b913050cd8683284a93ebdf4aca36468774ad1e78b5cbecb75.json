@@ -1,0 +1,63 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "definition of pivot-based baselines",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "requirement": "comparison of pivot-based baselines with other methods",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides definitions and comparisons of pivot-based baselines in the context of translation models.",
+    "claims": [
+      {
+        "text": "Pivot-based baselines include traditional transfer learning, pivot-based methods, and multilingual NMT.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Pivoting is the strongest baseline, outperforming other methods in zero-shot translation scenarios.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The performance of pivot-based methods is significantly improved when combined with other techniques like MLM and TLM.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 820,
+    "total_tokens": 999,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6978656999999657,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

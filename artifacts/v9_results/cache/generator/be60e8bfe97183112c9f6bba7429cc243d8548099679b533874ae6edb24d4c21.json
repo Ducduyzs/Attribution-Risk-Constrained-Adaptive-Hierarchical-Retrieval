@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the Jasper architecture and its role as a baseline for further exploration in model training and evaluation.",
+    "claims": [
+      {
+        "text": "The Jasper architecture serves as a good baseline approach for exploring more sophisticated techniques.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The training data for the models included the 2000hr Fisher+Switchboard dataset, which is a standard baseline in the field.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The Hub5 Year 2000 evaluation is a widely used baseline in academia for model performance assessment.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 699,
+    "total_tokens": 841,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5250584000023082,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

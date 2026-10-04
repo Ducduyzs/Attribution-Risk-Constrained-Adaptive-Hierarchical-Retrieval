@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about various types of baselines used in experiments, including pre-training and multi-task settings.",
+    "claims": [
+      {
+        "text": "Pre-training baselines include encoder pre-training from an ASR model, decoder pre-training from an MT model, and encoder-decoder pre-training.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Multi-task baselines consist of one-to-many, many-to-one, and many-to-many settings.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The char-level models outperform subword-level models in the vanilla baseline setting.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Baselines are implemented based on ESPnet for fair comparison due to different data pre-processing methods.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 727,
+    "total_tokens": 905,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3785867000005965,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

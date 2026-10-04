@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about pivot-based methods as baselines in translation models, indicating their performance relative to other methods.",
+    "claims": [
+      {
+        "text": "Pivot-based methods are used as baselines in translation models and show significant advantages over other methods.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Pivoting is identified as the strongest baseline compared to traditional transfer learning and multilingual NMT.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The performance of pivoting is superior to cross-lingual transfer methods that do not utilize source-pivot parallel data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 720,
+    "total_tokens": 861,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1147608999999647,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

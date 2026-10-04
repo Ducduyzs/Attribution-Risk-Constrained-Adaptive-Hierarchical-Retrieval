@@ -18,3 +18,12 @@ checkpoints/*.ts
 ~$*
 .env
 config.local.json
+
+# v9: per-row / pending copies duplicate artifacts_*.jsonl; prepare copies duplicate v9_results/prepared
+artifacts/v9_results/rows/
+artifacts/v9_results/pending/
+artifacts/v9_results/cache/reranker/
+artifacts/v9_results/cache/verifier/
+artifacts/v9_directions/
+artifacts/v9_directions_split/
+artifacts/v9_results/*.log

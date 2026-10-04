@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the evaluation metric used is the ratio of correct translations (matches).",
+    "claims": [
+      {
+        "text": "The evaluation metric used is the ratio of correct translations (matches).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "For evaluation, three topics were used: economics, law, and history.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evaluation data consists of comparable corpora of Russian and Ukrainian academic texts.",
+        "citations": [
+          "C17"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Accuracy of 'quazi-translation' via Damerau-Levenshtein edit distance is reported as a baseline.",
+        "citations": [
+          "C18"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 1243,
+    "total_tokens": 1398,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9378689999975904,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of the proposed model with other models, including the R.M.-Reader + Verifier and the Stochastic Answer Network (SAN).",
+    "claims": [
+      {
+        "text": "The model is compared to the R.M.-Reader + Verifier, which is more complicated and includes several components.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model is compared to the Stochastic Answer Network (SAN), showing that the proposed joint model outperforms the SAN baseline.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed model is also compared to existing machine reading comprehension systems that extract answers by finding sub-strings in passages.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The extended SAN model is noted for its competitive results on the Stanford Question Answering Dataset (SQuAD) 2.0.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 1115,
+    "total_tokens": 1318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.269122799996694,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

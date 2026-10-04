@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific types of offensive content that have been explored in research, including aggression, bullying, hate speech, toxic comments, and offensive language.",
+    "claims": [
+      {
+        "text": "Different kinds of offensive content explored include aggression identification, bullying detection, hate speech, toxic comments, and offensive language.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Previous work has focused on specific types of offensive content such as hate speech, cyberbullying, and cyber-aggression.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Research has identified offensive content as pervasive in social media, leading to various studies on its detection.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 717,
+    "total_tokens": 873,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0112434000002395,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

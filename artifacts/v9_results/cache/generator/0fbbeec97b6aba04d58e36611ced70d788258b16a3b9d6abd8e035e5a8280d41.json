@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific references to the baselines used in the study, particularly the Jasper architecture and its performance on the Hub5'00 evaluation dataset.",
+    "claims": [
+      {
+        "text": "The Jasper architecture serves as a good baseline approach for exploring more sophisticated methods.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Hub5 Year 2000 (Hub5'00) evaluation is widely used as a baseline in academia.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Jasper was evaluated on the LibriSpeech and Wall Street Journal datasets, which serve as baselines for performance comparison.",
+        "citations": [
+          "C38"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 2237,
+    "total_tokens": 2386,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.571479999998701,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

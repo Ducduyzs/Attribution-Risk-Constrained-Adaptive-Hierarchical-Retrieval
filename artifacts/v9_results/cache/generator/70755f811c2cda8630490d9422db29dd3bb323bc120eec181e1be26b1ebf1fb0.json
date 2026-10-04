@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear definitions and context for pivot-based methods, including their use in translation and their comparison to other methods.",
+    "claims": [
+      {
+        "text": "Pivot-based methods are a strategy to create a source to target model by using a pivot language for translation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "In translation tasks, pivoting often involves translating from a source language to a pivot language (like English) and then to a target language.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Pivot-based methods are considered strong baselines in zero-shot translation scenarios, outperforming other approaches like multilingual NMT.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Despite their effectiveness, pivot-based methods can be computationally expensive and suffer from error propagation issues.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 2245,
+    "total_tokens": 2432,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.761281999999483,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

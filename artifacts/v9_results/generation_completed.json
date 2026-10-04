@@ -1,0 +1,22 @@
+{
+  "pending": 2700,
+  "questions": 75,
+  "systems": [
+    "flat24",
+    "all_leaf",
+    "contextual24",
+    "contextual_all",
+    "mmr",
+    "coverage",
+    "sentence",
+    "window",
+    "dependency",
+    "evidence_first",
+    "dependency_first",
+    "raptor"
+  ],
+  "budgets": [
+    512,
+    2048
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the authors utilize a scientific summarization dataset (TAC 2014) which is likely to include English data, but does not explicitly confirm that results are reported only on English data.",
+    "claims": [
+      {
+        "text": "The authors utilize the TAC 2014 scientific summarization dataset, which is likely in English.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "The study discusses summarization tasks that are different from general domain summarization, implying a focus on English scientific papers.",
+        "citations": [
+          "C19"
+        ],
+        "confidence": 0.6
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 1213,
+    "total_tokens": 1338,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2686410999995132,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

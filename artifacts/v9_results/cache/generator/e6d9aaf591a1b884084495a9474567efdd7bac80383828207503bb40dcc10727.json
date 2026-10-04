@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly states that BioIE systems aim to extract information from electronic health records among other sources.",
+    "claims": [
+      {
+        "text": "The paper explores extraction from electronic health records as part of Biomedical Information Extraction (BioIE).",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 704,
+    "total_tokens": 768,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3135516000002099,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

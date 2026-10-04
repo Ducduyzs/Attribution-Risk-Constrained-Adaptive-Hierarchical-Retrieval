@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Do they report results only on English datasets?",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the results are filtered using an English vocabulary, suggesting that the datasets used are English-based.",
+    "claims": [
+      {
+        "text": "The results are reported using an English vocabulary, indicating the datasets are in English.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evaluation is based on recent datasets composed of tweets, which are primarily in English.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The tasks evaluated are common in English NLP, further supporting the use of English datasets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 770,
+    "total_tokens": 931,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0470084000007773,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

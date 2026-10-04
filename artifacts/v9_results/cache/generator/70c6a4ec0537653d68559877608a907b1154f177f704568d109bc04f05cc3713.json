@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the model NCEL uses both local contexts and adjacent mentions, suggesting that it does not limit itself to only adjacent entity mentions but also incorporates surrounding information.",
+    "claims": [
+      {
+        "text": "NCEL utilizes both local contexts and adjacent mentions to construct feature vectors for entity linking.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model performs graph convolution on a subgraph of adjacent entity mentions rather than the entire text, indicating a focus on adjacent entities but not exclusively.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Collective methods like NCEL improve performance by integrating global coherence information, which implies the use of more than just adjacent mentions.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1211,
+    "total_tokens": 1376,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9116920999986178,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

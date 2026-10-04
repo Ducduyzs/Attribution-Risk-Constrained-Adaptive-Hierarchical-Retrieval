@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the pretrained word embeddings used in the experiments, including Edinburgh embeddings and Emoji embeddings, as well as GloVe.",
+    "claims": [
+      {
+        "text": "Edinburgh embeddings were obtained by training a skip-gram model on the Edinburgh corpus.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Emoji embeddings were learned from emoji descriptions and used in the system.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "GloVe is mentioned as an unsupervised learning algorithm for obtaining vector representations for words.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 728,
+    "total_tokens": 860,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7091073999981745,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

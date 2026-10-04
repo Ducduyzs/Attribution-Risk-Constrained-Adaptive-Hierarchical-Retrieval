@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that G-BERT is designed for specific tasks in the healthcare domain, particularly medication recommendation, but it also suggests potential for broader applications through future enhancements.",
+    "claims": [
+      {
+        "text": "G-BERT achieved state-of-the-art performance on medication recommendation, indicating its effectiveness in this specific task.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Future work on G-BERT aims to incorporate auxiliary tasks, which could enhance its utility beyond the current applications.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "G-BERT's architecture allows for the integration of hierarchical medical knowledge, suggesting it could be adapted for other healthcare-related tasks.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 731,
+    "total_tokens": 889,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7560651999992842,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

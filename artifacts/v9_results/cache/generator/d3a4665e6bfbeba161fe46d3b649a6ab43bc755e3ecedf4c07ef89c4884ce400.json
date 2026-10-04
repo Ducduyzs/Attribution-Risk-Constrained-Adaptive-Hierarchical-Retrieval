@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that G-BERT is designed for medication recommendation but also indicates potential for broader applications in healthcare by adapting to larger datasets and incorporating auxiliary tasks.",
+    "claims": [
+      {
+        "text": "G-BERT is the first model to utilize language model pre-training techniques in the healthcare domain, indicating its innovative approach that could be applicable beyond medication recommendation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Future work suggests adapting G-BERT for larger datasets and additional tasks, implying its usefulness beyond the current task of medication recommendation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "G-BERT's architecture allows for enhanced medical embedding, which could be beneficial for various healthcare predictive tasks beyond medication recommendation.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 729,
+    "total_tokens": 897,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9904940000014903,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

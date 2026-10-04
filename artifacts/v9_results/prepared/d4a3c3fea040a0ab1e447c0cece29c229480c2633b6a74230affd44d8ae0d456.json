@@ -1,0 +1,2073 @@
+{
+  "question_id": "52f9cd05d8312ae3c7a43689804bac63f7cac34b",
+  "source": "1809.03449.qasper",
+  "query": "Do the authors hypothesize that humans' robustness to noise is due to their general knowledge?",
+  "rankings": {
+    "flat24": [
+      [
+        "e4269357ac0547ff694c",
+        0.8933094060543487
+      ],
+      [
+        "23b8ec99ee660d307518",
+        0.7884203206608902
+      ],
+      [
+        "729c07873350bcb80e5d",
+        0.6835251187227644
+      ],
+      [
+        "bd422e3f8a6a7f34a91f",
+        0.6669307825162067
+      ],
+      [
+        "9aafeaa77cd894da45b8",
+        0.3826026999812996
+      ],
+      [
+        "b909866956f83603c7bc",
+        0.0258096220343115
+      ],
+      [
+        "62863da2745e524a2e20",
+        0.023689471299374428
+      ],
+      [
+        "ff5698127fc6568bd0c0",
+        0.02037129400865451
+      ],
+      [
+        "22ed7674c67c83b23459",
+        0.007489624898808397
+      ],
+      [
+        "f7d0ffe9edb142bd2bde",
+        0.007232763803479049
+      ],
+      [
+        "4f42804ec9abdf440518",
+        0.006026951588401447
+      ],
+      [
+        "b17d4c68309260579fbb",
+        0.004829721745804341
+      ],
+      [
+        "07d2f3c9243bc261daaf",
+        0.004700060535050778
+      ],
+      [
+        "0c411c95a2811e881424",
+        0.0025809041635899074
+      ],
+      [
+        "9e97b3e6ef3d505a8541",
+        0.001585430675821233
+      ],
+      [
+        "fe62896f5b65ce77ca0c",
+        0.0007793660930208434
+      ],
+      [
+        "4b0c5d8962e04264d0ac",
+        0.0007124459916397521
+      ],
+      [
+        "18f5b56ad7fc7e5bc1f7",
+        0.0007014082876992124
+      ],
+      [
+        "76c829010d0a409f6d7f",
+        0.0006905414693000791
+      ],
+      [
+        "c5f23cb8908dee02153e",
+        0.0006118340200729554
+      ],
+      [
+        "ae946a6e7c34dfa290a9",
+        0.0005680935199787149
+      ],
+      [
+        "95e18d7a683c6c166b4e",
+        0.000527478412523148
+      ],
+      [
+        "16138cdb882d3ddfe420",
+        0.0001941131867789626
+      ],
+      [
+        "0d4380133fb12bcd4897",
+        8.481104172358075e-05
+      ]
+    ],
+    "all_leaf": [
+      [
+        "e4269357ac0547ff694c",
+        0.8933094060543487
+      ],
+      [
+        "23b8ec99ee660d307518",
+        0.7884203206608902
+      ],
+      [
+        "729c07873350bcb80e5d",
+        0.6835251187227644
+      ],
+      [
+        "bd422e3f8a6a7f34a91f",
+        0.6669307825162067
+      ],
+      [
+        "9aafeaa77cd894da45b8",
+        0.3826026999812996
+      ],
+      [
+        "b909866956f83603c7bc",
+        0.0258096220343115
+      ],
+      [
+        "62863da2745e524a2e20",
+        0.023689471299374428
+      ],
+      [
+        "ff5698127fc6568bd0c0",
+        0.02037129400865451
+      ],
+      [
+        "22ed7674c67c83b23459",
+        0.007489624898808397
+      ],
+      [
+        "f7d0ffe9edb142bd2bde",
+        0.007232763803479049
+      ],
+      [
+        "4f42804ec9abdf440518",
+        0.006026951588401447
+      ],
+      [
+        "b17d4c68309260579fbb",
+        0.004829721745804341
+      ],
+      [
+        "07d2f3c9243bc261daaf",
+        0.004700060535050778
+      ],
+      [
+        "0c411c95a2811e881424",
+        0.0025809041635899074
+      ],
+      [
+        "9e97b3e6ef3d505a8541",
+        0.001585430675821233
+      ],
+      [
+        "fe62896f5b65ce77ca0c",
+        0.0007793660930208434
+      ],
+      [
+        "4b0c5d8962e04264d0ac",
+        0.0007124459916397521
+      ],
+      [
+        "18f5b56ad7fc7e5bc1f7",
+        0.0007014082876992124
+      ],
+      [
+        "76c829010d0a409f6d7f",
+        0.0006905414693000791
+      ],
+      [
+        "c5f23cb8908dee02153e",
+        0.0006118340200729554
+      ],
+      [
+        "ae946a6e7c34dfa290a9",
+        0.0005680935199787149
+      ],
+      [
+        "95e18d7a683c6c166b4e",
+        0.000527478412523148
+      ],
+      [
+        "6aa86f29b1c929af5ad0",
+        0.0002472934613244585
+      ],
+      [
+        "16138cdb882d3ddfe420",
+        0.0001941131867789626
+      ],
+      [
+        "0d4380133fb12bcd4897",
+        8.481104172358075e-05
+      ],
+      [
+        "3ddd097503e8ead8f5e3",
+        6.976470974169522e-05
+      ],
+      [
+        "e3446ee3845e1edc28d2",
+        3.024195853395102e-05
+      ],
+      [
+        "e2af1717ad3b6c710eec",
+        2.0623422291335766e-05
+      ],
+      [
+        "37057f8266450ebbed46",
+        1.9833367060283615e-05
+      ],
+      [
+        "191979a087e4a7c91796",
+        1.848675576370609e-05
+      ],
+      [
+        "25f21a228c75ddd0569d",
+        1.8342893327886845e-05
+      ],
+      [
+        "715da5481a689bb7756e",
+        1.8342893327886845e-05
+      ],
+      [
+        "dacdaeda09cddb0fb47b",
+        1.750292578877821e-05
+      ],
+      [
+        "fadfe84baa3efa72ef13",
+        1.723157275214239e-05
+      ],
+      [
+        "bf9d2c3589c26cfd82aa",
+        1.723157275214239e-05
+      ],
+      [
+        "15343ae9140fe50d8fc5",
+        1.696442651054333e-05
+      ],
+      [
+        "bbf1269a183470751208",
+        1.696442651054333e-05
+      ]
+    ],
+    "contextual24": [
+      [
+        "e4269357ac0547ff694c",
+        0.9663470356814963
+      ],
+      [
+        "ff5698127fc6568bd0c0",
+        0.8615382094310357
+      ],
+      [
+        "729c07873350bcb80e5d",
+        0.8429924439131272
+      ],
+      [
+        "9aafeaa77cd894da45b8",
+        0.8341368428246111
+      ],
+      [
+        "23b8ec99ee660d307518",
+        0.8296300758720911
+      ],
+      [
+        "0c411c95a2811e881424",
+        0.785637692336557
+      ],
+      [
+        "bd422e3f8a6a7f34a91f",
+        0.6824679306309819
+      ],
+      [
+        "62863da2745e524a2e20",
+        0.376852428770526
+      ],
+      [
+        "22ed7674c67c83b23459",
+        0.2382842120358022
+      ],
+      [
+        "b17d4c68309260579fbb",
+        0.14282864911055923
+      ],
+      [
+        "b909866956f83603c7bc",
+        0.061424040054670184
+      ],
+      [
+        "4f42804ec9abdf440518",
+        0.03574581027405513
+      ],
+      [
+        "95e18d7a683c6c166b4e",
+        0.019870713960402048
+      ],
+      [
+        "f7d0ffe9edb142bd2bde",
+        0.019794778861558834
+      ],
+      [
+        "ae946a6e7c34dfa290a9",
+        0.01005236865796813
+      ],
+      [
+        "07d2f3c9243bc261daaf",
+        0.00959645473238191
+      ],
+      [
+        "c5f23cb8908dee02153e",
+        0.005281333906052279
+      ],
+      [
+        "fe62896f5b65ce77ca0c",
+        0.0015011822567369917
+      ],
+      [
+        "76c829010d0a409f6d7f",
+        0.0013250224172131609
+      ],
+      [
+        "9e97b3e6ef3d505a8541",
+        0.0011604196251799289
+      ],
+      [
+        "18f5b56ad7fc7e5bc1f7",
+        0.0009146136866700927
+      ],
+      [
+        "4b0c5d8962e04264d0ac",
+        0.0007180297626119062
+      ],
+      [
+        "16138cdb882d3ddfe420",
+        0.0004673480880780747
+      ],
+      [
+        "0d4380133fb12bcd4897",
+        3.734356896287336e-05
+      ]
+    ],
+    "contextual_all": [
+      [
+        "e4269357ac0547ff694c",
+        0.9663470356814963
+      ],
+      [
+        "ff5698127fc6568bd0c0",
+        0.8615382094310357
+      ],
+      [
+        "729c07873350bcb80e5d",
+        0.8429924439131272
+      ],
+      [
+        "9aafeaa77cd894da45b8",
+        0.8341368428246111
+      ],
+      [
+        "23b8ec99ee660d307518",
+        0.8296300758720911
+      ],
+      [
+        "0c411c95a2811e881424",
+        0.785637692336557
+      ],
+      [
+        "bd422e3f8a6a7f34a91f",
+        0.6824679306309819
+      ],
+      [
+        "62863da2745e524a2e20",
+        0.376852428770526
+      ],
+      [
+        "22ed7674c67c83b23459",
+        0.2382842120358022
+      ],
+      [
+        "b17d4c68309260579fbb",
+        0.14282864911055923
+      ],
+      [
+        "b909866956f83603c7bc",
+        0.061424040054670184
+      ],
+      [
+        "4f42804ec9abdf440518",
+        0.03574581027405513
+      ],
+      [
+        "6aa86f29b1c929af5ad0",
+        0.024987794590900315
+      ],
+      [
+        "95e18d7a683c6c166b4e",
+        0.019870713960402048
+      ],
+      [
+        "f7d0ffe9edb142bd2bde",
+        0.019794778861558834
+      ],
+      [
+        "ae946a6e7c34dfa290a9",
+        0.01005236865796813
+      ],
+      [
+        "07d2f3c9243bc261daaf",
+        0.00959645473238191
+      ],
+      [
+        "c5f23cb8908dee02153e",
+        0.005281333906052279
+      ],
+      [
+        "fe62896f5b65ce77ca0c",
+        0.0015011822567369917
+      ],
+      [
+        "76c829010d0a409f6d7f",
+        0.0013250224172131609
+      ],
+      [
+        "9e97b3e6ef3d505a8541",
+        0.0011604196251799289
+      ],
+      [
+        "18f5b56ad7fc7e5bc1f7",
+        0.0009146136866700927
+      ],
+      [
+        "4b0c5d8962e04264d0ac",
+        0.0007180297626119062
+      ],
+      [
+        "fadfe84baa3efa72ef13",
+        0.0005658799865413885
+      ],
+      [
+        "16138cdb882d3ddfe420",
+        0.0004673480880780747
+      ],
+      [
+        "37057f8266450ebbed46",
+        0.00010391067562761452
+      ],
+      [
+        "15343ae9140fe50d8fc5",
+        8.547616611085637e-05
+      ],
+      [
+        "e3446ee3845e1edc28d2",
+        8.481104172358075e-05
+      ],
+      [
+        "3ddd097503e8ead8f5e3",
+        3.822911232549001e-05
+      ],
+      [
+        "0d4380133fb12bcd4897",
+        3.734356896287336e-05
+      ],
+      [
+        "dacdaeda09cddb0fb47b",
+        2.212566909570261e-05
+      ],
+      [
+        "191979a087e4a7c91796",
+        2.144494842091395e-05
+      ],
+      [
+        "e2af1717ad3b6c710eec",
+        2.0948187132262702e-05
+      ],
+      [
+        "25f21a228c75ddd0569d",
+        1.9988918976691774e-05
+      ],
+      [
+        "bbf1269a183470751208",
+        1.9679025610662346e-05
+      ],
+      [
+        "715da5481a689bb7756e",
+        1.8631746484712008e-05
+      ],
+      [
+        "bf9d2c3589c26cfd82aa",
+        1.723157275214239e-05
+      ]
+    ],
+    "raptor": [
+      [
+        "e4269357ac0547ff694c",
+        0.8933094060543487
+      ],
+      [
+        "23b8ec99ee660d307518",
+        0.7884203206608902
+      ],
+      [
+        "729c07873350bcb80e5d",
+        0.6835251187227644
+      ],
+      [
+        "bd422e3f8a6a7f34a91f",
+        0.6669307825162067
+      ],
+      [
+        "9aafeaa77cd894da45b8",
+        0.3826026999812996
+      ],
+      [
+        "62863da2745e524a2e20",
+        0.023689471299374428
+      ],
+      [
+        "ff5698127fc6568bd0c0",
+        0.02037129400865451
+      ],
+      [
+        "4f42804ec9abdf440518",
+        0.006026951588401447
+      ],
+      [
+        "0c411c95a2811e881424",
+        0.0025809041635899074
+      ],
+      [
+        "ae946a6e7c34dfa290a9",
+        0.0005680935199787149
+      ]
+    ]
+  },
+  "initial_ids": [
+    "e4269357ac0547ff694c",
+    "729c07873350bcb80e5d",
+    "23b8ec99ee660d307518",
+    "9aafeaa77cd894da45b8",
+    "ff5698127fc6568bd0c0",
+    "bd422e3f8a6a7f34a91f",
+    "22ed7674c67c83b23459",
+    "b17d4c68309260579fbb",
+    "0c411c95a2811e881424",
+    "62863da2745e524a2e20",
+    "b909866956f83603c7bc",
+    "4f42804ec9abdf440518",
+    "c5f23cb8908dee02153e",
+    "f7d0ffe9edb142bd2bde",
+    "9e97b3e6ef3d505a8541",
+    "07d2f3c9243bc261daaf",
+    "4b0c5d8962e04264d0ac",
+    "18f5b56ad7fc7e5bc1f7",
+    "ae946a6e7c34dfa290a9",
+    "fe62896f5b65ce77ca0c",
+    "16138cdb882d3ddfe420",
+    "76c829010d0a409f6d7f",
+    "95e18d7a683c6c166b4e",
+    "0d4380133fb12bcd4897",
+    "3ddd097503e8ead8f5e3",
+    "e3446ee3845e1edc28d2",
+    "e2af1717ad3b6c710eec",
+    "715da5481a689bb7756e",
+    "6aa86f29b1c929af5ad0",
+    "25f21a228c75ddd0569d",
+    "bf9d2c3589c26cfd82aa",
+    "dacdaeda09cddb0fb47b",
+    "bbf1269a183470751208",
+    "15343ae9140fe50d8fc5",
+    "37057f8266450ebbed46",
+    "191979a087e4a7c91796",
+    "fadfe84baa3efa72ef13"
+  ],
+  "sentences": [
+    {
+      "uid": "0fed6c1e4b8e0ef3e776",
+      "text": "To bridge the gap between Machine Reading Comprehension (MRC) models and human beings, which is mainly reflected in the hunger for data and the robustness to noise, in this paper, we explore how to integrate the neural networks of MRC models with the general knowledge of human beings.",
+      "leaf_id": "23b8ec99ee660d307518",
+      "section_id": "39c0bc45760923c55c6f",
+      "start": 0,
+      "end": 285,
+      "score": 0.5521171416634741
+    },
+    {
+      "uid": "981057431ee498256d01",
+      "text": "On the one hand, we propose a data enrichment method, which uses WordNet to extract inter-word semantic connections as general knowledge from each given passage-question pair.",
+      "leaf_id": "23b8ec99ee660d307518",
+      "section_id": "39c0bc45760923c55c6f",
+      "start": 286,
+      "end": 461,
+      "score": 0.0005506247438936138
+    },
+    {
+      "uid": "98d7030655a6b28bd96a",
+      "text": "On the other hand, we propose an end-to-end MRC model named as Knowledge Aided Reader (KAR), which explicitly uses the above extracted general knowledge to assist its attention mechanisms.",
+      "leaf_id": "23b8ec99ee660d307518",
+      "section_id": "39c0bc45760923c55c6f",
+      "start": 462,
+      "end": 650,
+      "score": 0.003350423414809838
+    },
+    {
+      "uid": "8b85152b3f120c83632d",
+      "text": "Based on the data enrichment method, KAR is comparable in performance with the state-of-the-art MRC models, and significantly more robust to noise than them.",
+      "leaf_id": "23b8ec99ee660d307518",
+      "section_id": "39c0bc45760923c55c6f",
+      "start": 651,
+      "end": 808,
+      "score": 0.0044510412268872835
+    },
+    {
+      "uid": "433328c7305bada9e556",
+      "text": "When only a subset (20%-80%) of the training examples are available, KAR outperforms the state-of-the-art MRC models by a large margin, and is still reasonably robust to noise.",
+      "leaf_id": "23b8ec99ee660d307518",
+      "section_id": "39c0bc45760923c55c6f",
+      "start": 809,
+      "end": 985,
+      "score": 0.0028671585933937867
+    },
+    {
+      "uid": "40585be8a038ff842b36",
+      "text": "Machine Reading Comprehension (MRC), as the name suggests, requires a machine to read a passage and answer its relevant questions.",
+      "leaf_id": "c5f23cb8908dee02153e",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 0,
+      "end": 130,
+      "score": 1.723157275214239e-05
+    },
+    {
+      "uid": "0fa251551f3241a58e53",
+      "text": "Since the answer to each question is supposed to stem from the corresponding passage, a common MRC solution is to develop a neural-network-based MRC model that predicts an answer span (i.e. the answer start position and the answer end position) from the passage of each given passage-question pair.",
+      "leaf_id": "c5f23cb8908dee02153e",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 131,
+      "end": 429,
+      "score": 1.9223170236538176e-05
+    },
+    {
+      "uid": "00fa93d839023b5468fa",
+      "text": "To facilitate the explorations and innovations in this area, many MRC datasets have been established, such as SQuAD BIBREF0 , MS MARCO BIBREF1 , and TriviaQA BIBREF2 .",
+      "leaf_id": "c5f23cb8908dee02153e",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 430,
+      "end": 597,
+      "score": 2.3737339634846014e-05
+    },
+    {
+      "uid": "9891fddd23aba03f2705",
+      "text": "Consequently, many pioneering MRC models have been proposed, such as BiDAF BIBREF3 , R-NET BIBREF4 , and QANet BIBREF5 .",
+      "leaf_id": "c5f23cb8908dee02153e",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 598,
+      "end": 718,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "57d02de7f3211e8532b0",
+      "text": "According to the leader board of SQuAD, the state-of-the-art MRC models have achieved the same performance as human beings.",
+      "leaf_id": "c5f23cb8908dee02153e",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 719,
+      "end": 842,
+      "score": 9.535461188204107e-05
+    },
+    {
+      "uid": "ce43d57ea9ed7467178f",
+      "text": "However, does this imply that they have possessed the same reading comprehension ability as human beings?",
+      "leaf_id": "c5f23cb8908dee02153e",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 843,
+      "end": 948,
+      "score": 0.02442309005410721
+    },
+    {
+      "uid": "ec431452f563d1b2aa32",
+      "text": "OF COURSE NOT.",
+      "leaf_id": "c5f23cb8908dee02153e",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 949,
+      "end": 963,
+      "score": 5.605828752595003e-05
+    },
+    {
+      "uid": "39e7afca5214e3d66b1c",
+      "text": "There is a huge gap between MRC models and human beings, which is mainly reflected in the hunger for data and the robustness to noise.",
+      "leaf_id": "e4269357ac0547ff694c",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 964,
+      "end": 1098,
+      "score": 0.06233103588192477
+    },
+    {
+      "uid": "396d999b0e4e9f919041",
+      "text": "On the one hand, developing MRC models requires a large amount of training examples (i.e. the passage-question pairs labeled with answer spans), while human beings can achieve good performance on evaluation examples (i.e. the passage-question pairs to address) without training examples.",
+      "leaf_id": "e4269357ac0547ff694c",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 1099,
+      "end": 1386,
+      "score": 0.00013238186559744397
+    },
+    {
+      "uid": "46ff7ecf44c6316ddae9",
+      "text": "On the other hand, BIBREF6 revealed that intentionally injected noise (e.g. misleading sentences) in evaluation examples causes the performance of MRC models to drop significantly, while human beings are far less likely to suffer from this.",
+      "leaf_id": "e4269357ac0547ff694c",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 1387,
+      "end": 1627,
+      "score": 0.0072890775835919245
+    },
+    {
+      "uid": "d3ea2748e12e4c707047",
+      "text": "The reason for these phenomena, we believe, is that MRC models can only utilize the knowledge contained in each given passage-question pair, but in addition to this, human beings can also utilize general knowledge.",
+      "leaf_id": "e4269357ac0547ff694c",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 1628,
+      "end": 1842,
+      "score": 0.0210043657325086
+    },
+    {
+      "uid": "51d78f4075eca312eaf7",
+      "text": "A typical category of general knowledge is inter-word semantic connections.",
+      "leaf_id": "e4269357ac0547ff694c",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 1843,
+      "end": 1918,
+      "score": 0.0015011822567369917
+    },
+    {
+      "uid": "02f36bf1e03d59921b04",
+      "text": "As shown in Table TABREF1 , such general knowledge is essential to the reading comprehension ability of human beings.",
+      "leaf_id": "e4269357ac0547ff694c",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 1919,
+      "end": 2036,
+      "score": 0.057599205866579545
+    },
+    {
+      "uid": "55dcb39629ae62cefa91",
+      "text": "A promising strategy to bridge the gap mentioned above is to integrate the neural networks of MRC models with the general knowledge of human beings.",
+      "leaf_id": "62863da2745e524a2e20",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 2037,
+      "end": 2185,
+      "score": 0.02655657099549924
+    },
+    {
+      "uid": "994b3b262e4371cb3578",
+      "text": "To this end, it is necessary to solve two problems: extracting general knowledge from passage-question pairs and utilizing the extracted general knowledge in the prediction of answer spans.",
+      "leaf_id": "62863da2745e524a2e20",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 2186,
+      "end": 2375,
+      "score": 0.0008659809856528889
+    },
+    {
+      "uid": "0629aba80e113e9df50f",
+      "text": "The first problem can be solved with knowledge bases, which store general knowledge in structured forms.",
+      "leaf_id": "62863da2745e524a2e20",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 2376,
+      "end": 2480,
+      "score": 0.0030396496140834887
+    },
+    {
+      "uid": "64cdc80c39e8e1fc053c",
+      "text": "A broad variety of knowledge bases are available, such as WordNet BIBREF7 storing semantic knowledge, ConceptNet BIBREF8 storing commonsense knowledge, and Freebase BIBREF9 storing factoid knowledge.",
+      "leaf_id": "62863da2745e524a2e20",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 2481,
+      "end": 2680,
+      "score": 4.037790297412686e-05
+    },
+    {
+      "uid": "e818d68a25e6ea29c224",
+      "text": "In this paper, we limit the scope of general knowledge to inter-word semantic connections, and thus use WordNet as our knowledge base.",
+      "leaf_id": "62863da2745e524a2e20",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 2681,
+      "end": 2815,
+      "score": 0.0019117693602301456
+    },
+    {
+      "uid": "df15f7e936a4d9e4bc11",
+      "text": "The existing way to solve the second problem is to encode general knowledge in vector space so that the encoding results can be used to enhance the lexical or contextual representations of words BIBREF10 , BIBREF11 .",
+      "leaf_id": "62863da2745e524a2e20",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 2816,
+      "end": 3032,
+      "score": 0.0011291546285049482
+    },
+    {
+      "uid": "044288c99d5e8088b1c3",
+      "text": "However, this is an implicit way to utilize general knowledge, since in this way we can neither understand nor control the functioning of general knowledge.",
+      "leaf_id": "4f42804ec9abdf440518",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 3033,
+      "end": 3189,
+      "score": 0.005663865237178831
+    },
+    {
+      "uid": "fa272ffce41639ebb12a",
+      "text": "In this paper, we discard the existing implicit way and instead explore an explicit (i.e. understandable and controllable) way to utilize general knowledge.",
+      "leaf_id": "4f42804ec9abdf440518",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 3190,
+      "end": 3346,
+      "score": 0.005730246514992078
+    },
+    {
+      "uid": "13f37574bbd20c143384",
+      "text": "The contribution of this paper is two-fold.",
+      "leaf_id": "4f42804ec9abdf440518",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 3347,
+      "end": 3390,
+      "score": 0.0004356301410126391
+    },
+    {
+      "uid": "4476cfdd44dc365f75e2",
+      "text": "On the one hand, we propose a data enrichment method, which uses WordNet to extract inter-word semantic connections as general knowledge from each given passage-question pair.",
+      "leaf_id": "4f42804ec9abdf440518",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 3391,
+      "end": 3566,
+      "score": 0.0005506247438936138
+    },
+    {
+      "uid": "a19d8a4871e9f93457be",
+      "text": "On the other hand, we propose an end-to-end MRC model named as Knowledge Aided Reader (KAR), which explicitly uses the above extracted general knowledge to assist its attention mechanisms.",
+      "leaf_id": "4f42804ec9abdf440518",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 3567,
+      "end": 3755,
+      "score": 0.003350423414809838
+    },
+    {
+      "uid": "3343db1edf115fcd8cfc",
+      "text": "Based on the data enrichment method, KAR is comparable in performance with the state-of-the-art MRC models, and significantly more robust to noise than them.",
+      "leaf_id": "9aafeaa77cd894da45b8",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 3756,
+      "end": 3913,
+      "score": 0.0044510412268872835
+    },
+    {
+      "uid": "d5bc7f43e9af4daa2d4d",
+      "text": "When only a subset ( INLINEFORM0 – INLINEFORM1 ) of the training examples are available, KAR outperforms the state-of-the-art MRC models by a large margin, and is still reasonably robust to noise.",
+      "leaf_id": "9aafeaa77cd894da45b8",
+      "section_id": "9896faba7f0c5ca435f1",
+      "start": 3914,
+      "end": 4110,
+      "score": 0.0037362205834114964
+    },
+    {
+      "uid": "a6013738fee43bccc2e6",
+      "text": "In this section, we elaborate a WordNet-based data enrichment method, which is aimed at extracting inter-word semantic connections from each passage-question pair in our MRC dataset.",
+      "leaf_id": "6aa86f29b1c929af5ad0",
+      "section_id": "c5e103da58e06c5eb693",
+      "start": 0,
+      "end": 182,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "a5974bf8321cebcfc5be",
+      "text": "The extraction is performed in a controllable manner, and the extracted results are provided as general knowledge to our MRC model.",
+      "leaf_id": "6aa86f29b1c929af5ad0",
+      "section_id": "c5e103da58e06c5eb693",
+      "start": 183,
+      "end": 314,
+      "score": 0.0031358358772830336
+    },
+    {
+      "uid": "32ec66b00e7bd0f4819b",
+      "text": "WordNet is a lexical database of English, where words are organized into synsets according to their senses.",
+      "leaf_id": "dacdaeda09cddb0fb47b",
+      "section_id": "916c798d7071c97f4fb3",
+      "start": 0,
+      "end": 107,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "1f84c036360978c934b7",
+      "text": "A synset is a set of words expressing the same sense so that a word having multiple senses belongs to multiple synsets, with each synset corresponding to a sense.",
+      "leaf_id": "dacdaeda09cddb0fb47b",
+      "section_id": "916c798d7071c97f4fb3",
+      "start": 108,
+      "end": 270,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "fa05a4f892daac828a5f",
+      "text": "Synsets are further related to each other through semantic relations.",
+      "leaf_id": "dacdaeda09cddb0fb47b",
+      "section_id": "916c798d7071c97f4fb3",
+      "start": 271,
+      "end": 340,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "a3a6d99e5bb5742c4a70",
+      "text": "According to the WordNet interface provided by NLTK BIBREF12 , there are totally sixteen types of semantic relations (e.g. hypernyms, hyponyms, holonyms, meronyms, attributes, etc.).",
+      "leaf_id": "dacdaeda09cddb0fb47b",
+      "section_id": "916c798d7071c97f4fb3",
+      "start": 341,
+      "end": 523,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "4ccf53bbc4eb389079a4",
+      "text": "Based on synset and semantic relation, we define a new concept: semantic relation chain.",
+      "leaf_id": "dacdaeda09cddb0fb47b",
+      "section_id": "916c798d7071c97f4fb3",
+      "start": 524,
+      "end": 612,
+      "score": 1.8342893327886845e-05
+    },
+    {
+      "uid": "ce9c851a3405517cbe3f",
+      "text": "A semantic relation chain is a concatenated sequence of semantic relations, which links a synset to another synset.",
+      "leaf_id": "dacdaeda09cddb0fb47b",
+      "section_id": "916c798d7071c97f4fb3",
+      "start": 613,
+      "end": 728,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "ff7805228ff8362f4ca7",
+      "text": "For example, the synset “keratin.n.01” is related to the synset “feather.n.01” through the semantic relation “substance holonym”, the synset “feather.n.01” is related to the synset “bird.n.01” through the semantic relation “part holonym”, and the synset “bird.n.01” is related to the synset “parrot.n.01” through the semantic relation “hyponym”, thus “substance holonym INLINEFORM0 part holonym INLINEFORM1 hyponym” is a semantic relation chain, which links the synset “keratin.n.01” to the synset “parrot.n.01”.",
+      "leaf_id": "25f21a228c75ddd0569d",
+      "section_id": "916c798d7071c97f4fb3",
+      "start": 729,
+      "end": 1241,
+      "score": 4.1335397768930325e-05
+    },
+    {
+      "uid": "dd833f66987f6cdc7362",
+      "text": "We name each semantic relation in a semantic relation chain as a hop, therefore the above semantic relation chain is a 3-hop chain.",
+      "leaf_id": "25f21a228c75ddd0569d",
+      "section_id": "916c798d7071c97f4fb3",
+      "start": 1242,
+      "end": 1373,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "83e8b5c845c3c0dc75b9",
+      "text": "By the way, each single semantic relation is equivalent to a 1-hop chain.",
+      "leaf_id": "25f21a228c75ddd0569d",
+      "section_id": "916c798d7071c97f4fb3",
+      "start": 1374,
+      "end": 1447,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "62509566f8e5eacd97f0",
+      "text": "The key problem in the data enrichment method is determining whether a word is semantically connected to another word.",
+      "leaf_id": "15343ae9140fe50d8fc5",
+      "section_id": "151bb2399761e3eb8406",
+      "start": 0,
+      "end": 118,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "8344b92e2ff06d908288",
+      "text": "If so, we say that there exists an inter-word semantic connection between them.",
+      "leaf_id": "15343ae9140fe50d8fc5",
+      "section_id": "151bb2399761e3eb8406",
+      "start": 119,
+      "end": 198,
+      "score": 2.840974294610978e-05
+    },
+    {
+      "uid": "88452ad1d2daf42e68c5",
+      "text": "To solve this problem, we define another new concept: the extended synsets of a word.",
+      "leaf_id": "15343ae9140fe50d8fc5",
+      "section_id": "151bb2399761e3eb8406",
+      "start": 199,
+      "end": 284,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "3e15a629f163e2fc2426",
+      "text": "Given a word INLINEFORM0 , whose synsets are represented as a set INLINEFORM1 , we use another set INLINEFORM2 to represent its extended synsets, which includes all the synsets that are in INLINEFORM3 or that can be linked to from INLINEFORM4 through semantic relation chains.",
+      "leaf_id": "15343ae9140fe50d8fc5",
+      "section_id": "151bb2399761e3eb8406",
+      "start": 285,
+      "end": 561,
+      "score": 2.6480843287604657e-05
+    },
+    {
+      "uid": "6c6202c921344eef89bc",
+      "text": "Theoretically, if there is no limitation on semantic relation chains, INLINEFORM5 will include all the synsets in WordNet, which is meaningless in most situations.",
+      "leaf_id": "15343ae9140fe50d8fc5",
+      "section_id": "151bb2399761e3eb8406",
+      "start": 562,
+      "end": 725,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "f9e2fc099b1735a63e88",
+      "text": "Therefore, we use a hyper-parameter INLINEFORM6 to represent the permitted maximum hop count of semantic relation chains.",
+      "leaf_id": "15343ae9140fe50d8fc5",
+      "section_id": "151bb2399761e3eb8406",
+      "start": 726,
+      "end": 847,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "d8aeb37fba5a3c500d6f",
+      "text": "That is to say, only the chains having no more than INLINEFORM7 hops can be used to construct INLINEFORM8 so that INLINEFORM9 becomes a function of INLINEFORM10 : INLINEFORM11 (if INLINEFORM12 , we will have INLINEFORM13 ).",
+      "leaf_id": "15343ae9140fe50d8fc5",
+      "section_id": "151bb2399761e3eb8406",
+      "start": 848,
+      "end": 1071,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "89de6ad2f6fd18dfa0e5",
+      "text": "Based on the above statements, we formulate a heuristic rule for determining inter-word semantic connections: a word INLINEFORM14 is semantically connected to another word INLINEFORM15 if and only if INLINEFORM16 .",
+      "leaf_id": "fadfe84baa3efa72ef13",
+      "section_id": "151bb2399761e3eb8406",
+      "start": 1072,
+      "end": 1286,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "ddfb4a799c8633f1553a",
+      "text": "Given a passage-question pair, the inter-word semantic connections that connect any word to any passage word are regarded as the general knowledge we need to extract.",
+      "leaf_id": "4b0c5d8962e04264d0ac",
+      "section_id": "ba33dc9e92bb9d63a94c",
+      "start": 0,
+      "end": 166,
+      "score": 0.0019418168866865047
+    },
+    {
+      "uid": "6c21b75e33d2639024e0",
+      "text": "Considering the requirements of our MRC model, we only extract the positional information of such inter-word semantic connections.",
+      "leaf_id": "4b0c5d8962e04264d0ac",
+      "section_id": "ba33dc9e92bb9d63a94c",
+      "start": 167,
+      "end": 297,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "e520a5c2fd4642953ca7",
+      "text": "Specifically, for each word INLINEFORM0 , we extract a set INLINEFORM1 , which includes the positions of the passage words that INLINEFORM2 is semantically connected to (if INLINEFORM3 itself is a passage word, we will exclude its own position from INLINEFORM4 ).",
+      "leaf_id": "4b0c5d8962e04264d0ac",
+      "section_id": "ba33dc9e92bb9d63a94c",
+      "start": 298,
+      "end": 561,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "6e38585fdf10c460abe9",
+      "text": "We can control the amount of the extracted results by setting the hyper-parameter INLINEFORM5 : if we set INLINEFORM6 to 0, inter-word semantic connections will only exist between synonyms; if we increase INLINEFORM7 , inter-word semantic connections will exist between more words.",
+      "leaf_id": "4b0c5d8962e04264d0ac",
+      "section_id": "ba33dc9e92bb9d63a94c",
+      "start": 562,
+      "end": 843,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "80012712a199e55943df",
+      "text": "That is to say, by increasing INLINEFORM8 within a certain range, we can usually extract more inter-word semantic connections from a passage-question pair, and thus can provide the MRC model with more general knowledge.",
+      "leaf_id": "4b0c5d8962e04264d0ac",
+      "section_id": "ba33dc9e92bb9d63a94c",
+      "start": 844,
+      "end": 1063,
+      "score": 0.001085944368942709
+    },
+    {
+      "uid": "3badb25aed91e649a303",
+      "text": "However, due to the complexity and diversity of natural languages, only a part of the extracted results can serve as useful general knowledge, while the rest of them are useless for the prediction of answer spans, and the proportion of the useless part always rises when INLINEFORM9 is set larger.",
+      "leaf_id": "07d2f3c9243bc261daaf",
+      "section_id": "ba33dc9e92bb9d63a94c",
+      "start": 1064,
+      "end": 1361,
+      "score": 0.006564249220774553
+    },
+    {
+      "uid": "8e949f5c99c16d06eb14",
+      "text": "Therefore we set INLINEFORM10 through cross validation (i.e. according to the performance of the MRC model on the development examples).",
+      "leaf_id": "07d2f3c9243bc261daaf",
+      "section_id": "ba33dc9e92bb9d63a94c",
+      "start": 1362,
+      "end": 1498,
+      "score": 2.6274773144808218e-05
+    },
+    {
+      "uid": "b0c2864c14cb8e21dba9",
+      "text": "In this section, we elaborate our MRC model: Knowledge Aided Reader (KAR).",
+      "leaf_id": "ae946a6e7c34dfa290a9",
+      "section_id": "d9aebbea08c0aa2bc5f4",
+      "start": 0,
+      "end": 74,
+      "score": 2.526822782693578e-05
+    },
+    {
+      "uid": "25d3d032c1b537afdcbe",
+      "text": "The key components of most existing MRC models are their attention mechanisms BIBREF13 , which are aimed at fusing the associated representations of each given passage-question pair.",
+      "leaf_id": "ae946a6e7c34dfa290a9",
+      "section_id": "d9aebbea08c0aa2bc5f4",
+      "start": 75,
+      "end": 257,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "0e94aedbb15d1fdcce77",
+      "text": "These attention mechanisms generally fall into two categories: the first one, which we name as mutual attention, is aimed at fusing the question representations into the passage representations so as to obtain the question-aware passage representations; the second one, which we name as self attention, is aimed at fusing the question-aware passage representations into themselves so as to obtain the final passage representations.",
+      "leaf_id": "ae946a6e7c34dfa290a9",
+      "section_id": "d9aebbea08c0aa2bc5f4",
+      "start": 258,
+      "end": 689,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "9e13baaa9d1965f000e8",
+      "text": "Although KAR is equipped with both categories, its most remarkable feature is that it explicitly uses the general knowledge extracted by the data enrichment method to assist its attention mechanisms.",
+      "leaf_id": "ae946a6e7c34dfa290a9",
+      "section_id": "d9aebbea08c0aa2bc5f4",
+      "start": 690,
+      "end": 889,
+      "score": 0.0021997980436915168
+    },
+    {
+      "uid": "2d93d1f5effc765fa1bc",
+      "text": "Therefore we separately name the attention mechanisms of KAR as knowledge aided mutual attention and knowledge aided self attention.",
+      "leaf_id": "ae946a6e7c34dfa290a9",
+      "section_id": "d9aebbea08c0aa2bc5f4",
+      "start": 890,
+      "end": 1022,
+      "score": 0.00011147903794271353
+    },
+    {
+      "uid": "a4f04f43a33a30a71da7",
+      "text": "Given a passage INLINEFORM0 and a relevant question INLINEFORM1 , the task is to predict an answer span INLINEFORM2 , where INLINEFORM3 , so that the resulting subsequence INLINEFORM4 from INLINEFORM5 is an answer to INLINEFORM6 .",
+      "leaf_id": "bbf1269a183470751208",
+      "section_id": "46b3bedacd919d44cb4b",
+      "start": 0,
+      "end": 230,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "769d317b0f9c194d2206",
+      "text": "As shown in Figure FIGREF7 , KAR is an end-to-end MRC model consisting of five layers: Lexicon Embedding Layer.",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 0,
+      "end": 111,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "d161e1302f69aab9d8b4",
+      "text": "This layer maps the words to the lexicon embeddings.",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 112,
+      "end": 164,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "de28fc14c856a850d031",
+      "text": "The lexicon embedding of each word is composed of its word embedding and character embedding.",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 165,
+      "end": 258,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "0194121821158362d2d0",
+      "text": "For each word, we use the pre-trained GloVe BIBREF14 word vector as its word embedding, and obtain its character embedding with a Convolutional Neural Network (CNN) BIBREF15 .",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 259,
+      "end": 434,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "c0ba7ce1ad6578ff6561",
+      "text": "For both the passage and the question, we pass the concatenation of the word embeddings and the character embeddings through a shared dense layer with ReLU activation, whose output dimensionality is INLINEFORM0 .",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 435,
+      "end": 647,
+      "score": 1.848675576370609e-05
+    },
+    {
+      "uid": "cc82d477eee237c5139d",
+      "text": "Therefore we obtain the passage lexicon embeddings INLINEFORM1 and the question lexicon embeddings INLINEFORM2 .",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 648,
+      "end": 760,
+      "score": 2.6897844674087318e-05
+    },
+    {
+      "uid": "68607732372345b7e47f",
+      "text": "Context Embedding Layer.",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 761,
+      "end": 785,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "ac6e5860b4bbe0a0acbf",
+      "text": "This layer maps the lexicon embeddings to the context embeddings.",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 786,
+      "end": 851,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "7a2aa616c6bf2565c158",
+      "text": "For both the passage and the question, we process the lexicon embeddings (i.e.",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 852,
+      "end": 930,
+      "score": 5.064471653194113e-05
+    },
+    {
+      "uid": "2443de69a260babfa166",
+      "text": "INLINEFORM0 for the passage and INLINEFORM1 for the question) with a shared bidirectional LSTM (BiLSTM) BIBREF16 , whose hidden state dimensionality is INLINEFORM2 .",
+      "leaf_id": "e2af1717ad3b6c710eec",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 931,
+      "end": 1096,
+      "score": 2.1112482331487176e-05
+    },
+    {
+      "uid": "a87572d12946257f044a",
+      "text": "By concatenating the forward LSTM outputs and the backward LSTM outputs, we obtain the passage context embeddings INLINEFORM3 and the question context embeddings INLINEFORM4 .",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 1097,
+      "end": 1272,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "2ac3812b3739f27d8ca2",
+      "text": "Coarse Memory Layer.",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 1273,
+      "end": 1293,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "047c6c62ed285d8da3c6",
+      "text": "This layer maps the context embeddings to the coarse memories.",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 1294,
+      "end": 1356,
+      "score": 1.9373936508326677e-05
+    },
+    {
+      "uid": "c83c5abe85855b41a4be",
+      "text": "First we use knowledge aided mutual attention (introduced later) to fuse INLINEFORM0 into INLINEFORM1 , the outputs of which are represented as INLINEFORM2 .",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 1357,
+      "end": 1514,
+      "score": 0.0002050221485061691
+    },
+    {
+      "uid": "0eafc17a95862e0e2b81",
+      "text": "Then we process INLINEFORM3 with a BiLSTM, whose hidden state dimensionality is INLINEFORM4 .",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 1515,
+      "end": 1608,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "c4aada78a92793c3da7b",
+      "text": "By concatenating the forward LSTM outputs and the backward LSTM outputs, we obtain the coarse memories INLINEFORM5 , which are the question-aware passage representations.",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 1609,
+      "end": 1779,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "b71554b066761955a338",
+      "text": "Refined Memory Layer.",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 1780,
+      "end": 1801,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "c754fb75025e0d544420",
+      "text": "This layer maps the coarse memories to the refined memories.",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 1802,
+      "end": 1862,
+      "score": 1.723157275214239e-05
+    },
+    {
+      "uid": "7a73e24018e34d0a30ca",
+      "text": "First we use knowledge aided self attention (introduced later) to fuse INLINEFORM0 into themselves, the outputs of which are represented as INLINEFORM1 .",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 1863,
+      "end": 2016,
+      "score": 0.0003053489321118595
+    },
+    {
+      "uid": "b8563f9a2c80d654ab90",
+      "text": "Then we process INLINEFORM2 with a BiLSTM, whose hidden state dimensionality is INLINEFORM3 .",
+      "leaf_id": "0d4380133fb12bcd4897",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 2017,
+      "end": 2110,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "5a4ed6846a6a63656f25",
+      "text": "By concatenating the forward LSTM outputs and the backward LSTM outputs, we obtain the refined memories INLINEFORM4 , which are the final passage representations.",
+      "leaf_id": "715da5481a689bb7756e",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 2111,
+      "end": 2273,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "d57d07a79f7a8ff87620",
+      "text": "Answer Span Prediction Layer.",
+      "leaf_id": "715da5481a689bb7756e",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 2274,
+      "end": 2303,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "ed29ce8e24bb25e5d7c2",
+      "text": "This layer predicts the answer start position and the answer end position based on the above layers.",
+      "leaf_id": "715da5481a689bb7756e",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 2304,
+      "end": 2404,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "0cd0594c279bb96452a5",
+      "text": "First we obtain the answer start position distribution INLINEFORM0 : INLINEFORM1 INLINEFORM2 where INLINEFORM0 , INLINEFORM1 , and INLINEFORM2 are trainable parameters; INLINEFORM3 represents the refined memory of each passage word INLINEFORM4 (i.e. the INLINEFORM5 -th column in INLINEFORM6 ); INLINEFORM7 represents the question summary obtained by performing an attention pooling over INLINEFORM8 .",
+      "leaf_id": "715da5481a689bb7756e",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 2405,
+      "end": 2806,
+      "score": 5.9673520701231884e-05
+    },
+    {
+      "uid": "b01c1940478e8d77a422",
+      "text": "Then we obtain the answer end position distribution INLINEFORM9 : INLINEFORM10 INLINEFORM11 where INLINEFORM0 , INLINEFORM1 , and INLINEFORM2 are trainable parameters; INLINEFORM3 represents vector concatenation.",
+      "leaf_id": "715da5481a689bb7756e",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 2807,
+      "end": 3019,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "f3f0b153730337f98def",
+      "text": "Finally we construct an answer span prediction matrix INLINEFORM4 , where INLINEFORM5 represents the upper triangular matrix of a matrix INLINEFORM6 .",
+      "leaf_id": "715da5481a689bb7756e",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 3020,
+      "end": 3170,
+      "score": 1.8925148246037342e-05
+    },
+    {
+      "uid": "2a4ed6e002beddcc0964",
+      "text": "Therefore, for the training, we minimize INLINEFORM7 on each training example whose labeled answer span is INLINEFORM8 ; for the inference, we separately take the row index and column index of the maximum element in INLINEFORM9 as INLINEFORM10 and INLINEFORM11 .",
+      "leaf_id": "191979a087e4a7c91796",
+      "section_id": "fbc50761a3a68359b5a2",
+      "start": 3171,
+      "end": 3433,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "086b112ce1b8a00485bf",
+      "text": "As a part of the coarse memory layer, knowledge aided mutual attention is aimed at fusing the question context embeddings INLINEFORM0 into the passage context embeddings INLINEFORM1 , where the key problem is to calculate the similarity between each passage context embedding INLINEFORM2 (i.e. the INLINEFORM3 -th column in INLINEFORM4 ) and each question context embedding INLINEFORM5 (i.e. the INLINEFORM6 -th column in INLINEFORM7 ).",
+      "leaf_id": "fe62896f5b65ce77ca0c",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 0,
+      "end": 436,
+      "score": 6.302758756443266e-05
+    },
+    {
+      "uid": "d6aba301ed27d362a950",
+      "text": "To solve this problem, BIBREF3 proposed a similarity function: INLINEFORM8 where INLINEFORM0 is a trainable parameter; INLINEFORM1 represents element-wise multiplication.",
+      "leaf_id": "fe62896f5b65ce77ca0c",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 437,
+      "end": 607,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "4b36b564267dd26ac017",
+      "text": "This similarity function has also been adopted by several other works BIBREF17 , BIBREF5 .",
+      "leaf_id": "fe62896f5b65ce77ca0c",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 608,
+      "end": 698,
+      "score": 0.00018961741228916415
+    },
+    {
+      "uid": "0c54bebcb15a4988b455",
+      "text": "However, since context embeddings contain high-level information, we believe that introducing the pre-extracted general knowledge into the calculation of such similarities will make the results more reasonable.",
+      "leaf_id": "fe62896f5b65ce77ca0c",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 699,
+      "end": 909,
+      "score": 0.0020748668989992733
+    },
+    {
+      "uid": "6b9c17c960f8cb8a4a17",
+      "text": "Therefore we modify the above similarity function to the following form: INLINEFORM2 where INLINEFORM0 represents the enhanced context embedding of a word INLINEFORM1 .",
+      "leaf_id": "fe62896f5b65ce77ca0c",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 910,
+      "end": 1078,
+      "score": 2.229919899951376e-05
+    },
+    {
+      "uid": "f7a345747f84dab840d8",
+      "text": "We use the pre-extracted general knowledge to construct the enhanced context embeddings.",
+      "leaf_id": "fe62896f5b65ce77ca0c",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 1079,
+      "end": 1167,
+      "score": 0.002736221099148039
+    },
+    {
+      "uid": "454de6b91df55a13e701",
+      "text": "Specifically, for each word INLINEFORM2 , whose context embedding is INLINEFORM3 , to construct its enhanced context embedding INLINEFORM4 , first recall that we have extracted a set INLINEFORM5 , which includes the positions of the passage words that INLINEFORM6 is semantically connected to, thus by gathering the columns in INLINEFORM7 whose indexes are given by INLINEFORM8 , we obtain the matching context embeddings INLINEFORM9 .",
+      "leaf_id": "76c829010d0a409f6d7f",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 1168,
+      "end": 1603,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "c1726f65f7666e60d1c2",
+      "text": "Then by constructing a INLINEFORM10 -attended summary of INLINEFORM11 , we obtain the matching vector INLINEFORM12 (if INLINEFORM13 , which makes INLINEFORM14 , we will set INLINEFORM15 ): INLINEFORM16 INLINEFORM17 where INLINEFORM0 , INLINEFORM1 , and INLINEFORM2 are trainable parameters; INLINEFORM3 represents the INLINEFORM4 -th column in INLINEFORM5 .",
+      "leaf_id": "76c829010d0a409f6d7f",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 1604,
+      "end": 1961,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "2553f713c440c4608192",
+      "text": "Finally we pass the concatenation of INLINEFORM6 and INLINEFORM7 through a dense layer with ReLU activation, whose output dimensionality is INLINEFORM8 .",
+      "leaf_id": "76c829010d0a409f6d7f",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 1962,
+      "end": 2115,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "c1b706435e4c03c4490b",
+      "text": "Therefore we obtain the enhanced context embedding INLINEFORM9 .",
+      "leaf_id": "76c829010d0a409f6d7f",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 2116,
+      "end": 2180,
+      "score": 2.0462932829931794e-05
+    },
+    {
+      "uid": "daaffbc11d428e91304f",
+      "text": "Based on the modified similarity function and the enhanced context embeddings, to perform knowledge aided mutual attention, first we construct a knowledge aided similarity matrix INLINEFORM0 , where each element INLINEFORM1 .",
+      "leaf_id": "76c829010d0a409f6d7f",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 2181,
+      "end": 2406,
+      "score": 4.7206228829964175e-05
+    },
+    {
+      "uid": "6f5a6f6e8069e03c58dc",
+      "text": "Then following BIBREF5 , we construct the passage-attended question summaries INLINEFORM2 and the question-attended passage summaries INLINEFORM3 : INLINEFORM4 INLINEFORM5 where INLINEFORM0 represents softmax along the row dimension and INLINEFORM1 along the column dimension.",
+      "leaf_id": "3ddd097503e8ead8f5e3",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 2407,
+      "end": 2683,
+      "score": 1.9073577192252488e-05
+    },
+    {
+      "uid": "1b0165f2bc3da1414d82",
+      "text": "Finally following BIBREF17 , we pass the concatenation of INLINEFORM2 , INLINEFORM3 , INLINEFORM4 , and INLINEFORM5 through a dense layer with ReLU activation, whose output dimensionality is INLINEFORM6 .",
+      "leaf_id": "3ddd097503e8ead8f5e3",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 2684,
+      "end": 2888,
+      "score": 1.7917988275182845e-05
+    },
+    {
+      "uid": "9674d1bd79f8a1123a93",
+      "text": "Therefore we obtain the outputs INLINEFORM7 .",
+      "leaf_id": "3ddd097503e8ead8f5e3",
+      "section_id": "bb73c2a638af5924ce7d",
+      "start": 2889,
+      "end": 2934,
+      "score": 1.9988918976691774e-05
+    },
+    {
+      "uid": "a8ea196c2543edd95f14",
+      "text": "As a part of the refined memory layer, knowledge aided self attention is aimed at fusing the coarse memories INLINEFORM0 into themselves.",
+      "leaf_id": "9e97b3e6ef3d505a8541",
+      "section_id": "f78a9d2acf3f00b415f4",
+      "start": 0,
+      "end": 137,
+      "score": 0.00013135179706526775
+    },
+    {
+      "uid": "b1d04316a7058a54b2ac",
+      "text": "If we simply follow the self attentions of other works BIBREF4 , BIBREF18 , BIBREF19 , BIBREF17 , then for each passage word INLINEFORM1 , we should fuse its coarse memory INLINEFORM2 (i.e. the INLINEFORM3 -th column in INLINEFORM4 ) with the coarse memories of all the other passage words.",
+      "leaf_id": "9e97b3e6ef3d505a8541",
+      "section_id": "f78a9d2acf3f00b415f4",
+      "start": 138,
+      "end": 428,
+      "score": 0.00022516824185623812
+    },
+    {
+      "uid": "9aec5397acd5bc6a4747",
+      "text": "However, we believe that this is both unnecessary and distracting, since each passage word has nothing to do with many of the other passage words.",
+      "leaf_id": "9e97b3e6ef3d505a8541",
+      "section_id": "f78a9d2acf3f00b415f4",
+      "start": 429,
+      "end": 575,
+      "score": 1.9373936508326677e-05
+    },
+    {
+      "uid": "e5ffc3f9fb6e9a7ec562",
+      "text": "Thus we use the pre-extracted general knowledge to guarantee that the fusion of coarse memories for each passage word will only involve a precise subset of the other passage words.",
+      "leaf_id": "9e97b3e6ef3d505a8541",
+      "section_id": "f78a9d2acf3f00b415f4",
+      "start": 576,
+      "end": 756,
+      "score": 0.0012113064505123326
+    },
+    {
+      "uid": "88011ca128b1e3194c55",
+      "text": "Specifically, for each passage word INLINEFORM5 , whose coarse memory is INLINEFORM6 , to perform the fusion of coarse memories, first recall that we have extracted a set INLINEFORM7 , which includes the positions of the other passage words that INLINEFORM8 is semantically connected to, thus by gathering the columns in INLINEFORM9 whose indexes are given by INLINEFORM10 , we obtain the matching coarse memories INLINEFORM11 .",
+      "leaf_id": "18f5b56ad7fc7e5bc1f7",
+      "section_id": "f78a9d2acf3f00b415f4",
+      "start": 757,
+      "end": 1185,
+      "score": 3.4808121961114686e-05
+    },
+    {
+      "uid": "f94271a9348c71256259",
+      "text": "Then by constructing a INLINEFORM12 -attended summary of INLINEFORM13 , we obtain the matching vector INLINEFORM14 (if INLINEFORM15 , which makes INLINEFORM16 , we will set INLINEFORM17 ): INLINEFORM18 INLINEFORM19 where INLINEFORM0 , INLINEFORM1 , and INLINEFORM2 are trainable parameters.",
+      "leaf_id": "18f5b56ad7fc7e5bc1f7",
+      "section_id": "f78a9d2acf3f00b415f4",
+      "start": 1186,
+      "end": 1476,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "df387bb6083b75689966",
+      "text": "Finally we pass the concatenation of INLINEFORM3 and INLINEFORM4 through a dense layer with ReLU activation, whose output dimensionality is INLINEFORM5 .",
+      "leaf_id": "18f5b56ad7fc7e5bc1f7",
+      "section_id": "f78a9d2acf3f00b415f4",
+      "start": 1477,
+      "end": 1630,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "20db757c26454b61f977",
+      "text": "Therefore we obtain the fusion result INLINEFORM6 , and further the outputs INLINEFORM7 .",
+      "leaf_id": "18f5b56ad7fc7e5bc1f7",
+      "section_id": "f78a9d2acf3f00b415f4",
+      "start": 1631,
+      "end": 1720,
+      "score": 2.3552618543037957e-05
+    },
+    {
+      "uid": "173d32f4c93a11f3314d",
+      "text": "Attention Mechanisms.",
+      "leaf_id": "16138cdb882d3ddfe420",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 0,
+      "end": 21,
+      "score": 2.4111139329084935e-05
+    },
+    {
+      "uid": "1d48e4235cb0ad35850a",
+      "text": "Besides those mentioned above, other interesting attention mechanisms include performing multi-round alignment to avoid the problems of attention redundancy and attention deficiency BIBREF20 , and using mutual attention as a skip-connector to densely connect pairwise layers BIBREF21 .",
+      "leaf_id": "16138cdb882d3ddfe420",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 22,
+      "end": 307,
+      "score": 2.526822782693578e-05
+    },
+    {
+      "uid": "c79430189e995626992d",
+      "text": "Data Augmentation.",
+      "leaf_id": "16138cdb882d3ddfe420",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 308,
+      "end": 326,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "247c24b5e9ed40d8dcea",
+      "text": "It is proved that properly augmenting training examples can improve the performance of MRC models.",
+      "leaf_id": "16138cdb882d3ddfe420",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 327,
+      "end": 425,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "28db36a0ebbb137f5ca4",
+      "text": "For example, BIBREF22 trained a generative model to generate questions based on unlabeled text, which substantially boosted their performance; BIBREF5 trained a back-and-forth translation model to paraphrase training examples, which brought them a significant performance gain.",
+      "leaf_id": "16138cdb882d3ddfe420",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 426,
+      "end": 703,
+      "score": 3.21923344970378e-05
+    },
+    {
+      "uid": "76ed774ac21f801ce041",
+      "text": "Multi-step Reasoning.",
+      "leaf_id": "16138cdb882d3ddfe420",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 704,
+      "end": 725,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "baed583031c2da9e9de6",
+      "text": "Inspired by the fact that human beings are capable of understanding complex documents by reading them over and over again, multi-step reasoning was proposed to better deal with difficult MRC tasks.",
+      "leaf_id": "16138cdb882d3ddfe420",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 726,
+      "end": 923,
+      "score": 0.0003541936514549752
+    },
+    {
+      "uid": "c0f2a997e737384938c6",
+      "text": "For example, BIBREF23 used reinforcement learning to dynamically determine the number of reasoning steps; BIBREF19 fixed the number of reasoning steps, but used stochastic dropout in the output layer to avoid step bias.",
+      "leaf_id": "16138cdb882d3ddfe420",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 924,
+      "end": 1143,
+      "score": 1.9679025610662346e-05
+    },
+    {
+      "uid": "d946c4db718ec1213f0c",
+      "text": "Linguistic Embeddings.",
+      "leaf_id": "16138cdb882d3ddfe420",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 1144,
+      "end": 1166,
+      "score": 2.4876490010363496e-05
+    },
+    {
+      "uid": "cb740c34615296759015",
+      "text": "It is both easy and effective to incorporate linguistic embeddings into the input layer of MRC models.",
+      "leaf_id": "e3446ee3845e1edc28d2",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 1167,
+      "end": 1269,
+      "score": 1.7640200515540418e-05
+    },
+    {
+      "uid": "3b7995ad22aa47ed8dcc",
+      "text": "For example, BIBREF24 and BIBREF19 used POS embeddings and NER embeddings to construct their input embeddings; BIBREF25 used structural embeddings based on parsing trees to constructed their input embeddings.",
+      "leaf_id": "e3446ee3845e1edc28d2",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 1270,
+      "end": 1478,
+      "score": 2.5466403947055452e-05
+    },
+    {
+      "uid": "12bb9299d0fead801c40",
+      "text": "Transfer Learning.",
+      "leaf_id": "e3446ee3845e1edc28d2",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 1479,
+      "end": 1497,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "6ac2f246f0930bec275e",
+      "text": "Several recent breakthroughs in MRC benefit from feature-based transfer learning BIBREF26 , BIBREF27 and fine-tuning-based transfer learning BIBREF28 , BIBREF29 , which are based on certain word-level or sentence-level models pre-trained on large external corpora in certain supervised or unsupervised manners.",
+      "leaf_id": "e3446ee3845e1edc28d2",
+      "section_id": "d0caf8773b9c87dff44b",
+      "start": 1498,
+      "end": 1808,
+      "score": 2.6897844674087318e-05
+    },
+    {
+      "uid": "01b97ee38bde76ddb766",
+      "text": "MRC Dataset.",
+      "leaf_id": "b909866956f83603c7bc",
+      "section_id": "501ad979021471e6aac3",
+      "start": 0,
+      "end": 12,
+      "score": 1.750292578877821e-05
+    },
+    {
+      "uid": "bbb0cb77d38782aa8559",
+      "text": "The MRC dataset used in this paper is SQuAD 1.1, which contains over INLINEFORM0 passage-question pairs and has been randomly partitioned into three parts: a training set ( INLINEFORM1 ), a development set ( INLINEFORM2 ), and a test set ( INLINEFORM3 ).",
+      "leaf_id": "b909866956f83603c7bc",
+      "section_id": "501ad979021471e6aac3",
+      "start": 13,
+      "end": 267,
+      "score": 4.165958180576519e-05
+    },
+    {
+      "uid": "76b1087d7d7363c5c858",
+      "text": "Besides, we also use two of its adversarial sets, namely AddSent and AddOneSent BIBREF6 , to evaluate the robustness to noise of MRC models.",
+      "leaf_id": "b909866956f83603c7bc",
+      "section_id": "501ad979021471e6aac3",
+      "start": 268,
+      "end": 408,
+      "score": 0.0038543638269116958
+    },
+    {
+      "uid": "8236dd5d8de8b333df21",
+      "text": "The passages in the adversarial sets contain misleading sentences, which are aimed at distracting MRC models.",
+      "leaf_id": "b909866956f83603c7bc",
+      "section_id": "501ad979021471e6aac3",
+      "start": 409,
+      "end": 518,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "570d61c4690f82effa48",
+      "text": "Specifically, each passage in AddSent contains several sentences that are similar to the question but not contradictory to the answer, while each passage in AddOneSent contains a human-approved random sentence that may be unrelated to the passage.",
+      "leaf_id": "b909866956f83603c7bc",
+      "section_id": "501ad979021471e6aac3",
+      "start": 519,
+      "end": 766,
+      "score": 5.307507822667364e-05
+    },
+    {
+      "uid": "4a5323bad8a452c159ec",
+      "text": "Implementation Details.",
+      "leaf_id": "b909866956f83603c7bc",
+      "section_id": "501ad979021471e6aac3",
+      "start": 767,
+      "end": 790,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "316dc988e5cfc36f752d",
+      "text": "We tokenize the MRC dataset with spaCy 2.0.13 BIBREF30 , manipulate WordNet 3.0 with NLTK 3.3, and implement KAR with TensorFlow 1.11.0 BIBREF31 .",
+      "leaf_id": "b909866956f83603c7bc",
+      "section_id": "501ad979021471e6aac3",
+      "start": 791,
+      "end": 937,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "73102e0016e8d0675f81",
+      "text": "For the data enrichment method, we set the hyper-parameter INLINEFORM0 to 3.",
+      "leaf_id": "b909866956f83603c7bc",
+      "section_id": "501ad979021471e6aac3",
+      "start": 938,
+      "end": 1014,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "73f3a5c090f11fb74c43",
+      "text": "For the dense layers and the BiLSTMs, we set the dimensionality unit INLINEFORM1 to 600.",
+      "leaf_id": "b909866956f83603c7bc",
+      "section_id": "501ad979021471e6aac3",
+      "start": 1015,
+      "end": 1103,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "bb7789f1171055ba9b44",
+      "text": "For model optimization, we apply the Adam BIBREF32 optimizer with a learning rate of INLINEFORM2 and a mini-batch size of 32.",
+      "leaf_id": "bf9d2c3589c26cfd82aa",
+      "section_id": "501ad979021471e6aac3",
+      "start": 1104,
+      "end": 1229,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "8750fb48ad5f418cdef4",
+      "text": "For model evaluation, we use Exact Match (EM) and F1 score as evaluation metrics.",
+      "leaf_id": "bf9d2c3589c26cfd82aa",
+      "section_id": "501ad979021471e6aac3",
+      "start": 1230,
+      "end": 1311,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "3f7be72de5ba1f3a86f8",
+      "text": "To avoid overfitting, we apply dropout BIBREF33 to the dense layers and the BiLSTMs with a dropout rate of INLINEFORM3 .",
+      "leaf_id": "bf9d2c3589c26cfd82aa",
+      "section_id": "501ad979021471e6aac3",
+      "start": 1312,
+      "end": 1432,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "8fdf333e3db2544e95a6",
+      "text": "To boost the performance, we apply exponential moving average with a decay rate of INLINEFORM4 .",
+      "leaf_id": "bf9d2c3589c26cfd82aa",
+      "section_id": "501ad979021471e6aac3",
+      "start": 1433,
+      "end": 1529,
+      "score": 1.750292578877821e-05
+    },
+    {
+      "uid": "cab92f8780bad34d7aa8",
+      "text": "We compare KAR with other MRC models in both performance and the robustness to noise.",
+      "leaf_id": "b17d4c68309260579fbb",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 0,
+      "end": 85,
+      "score": 0.003914823605637168
+    },
+    {
+      "uid": "ea654f762a212ac8059f",
+      "text": "Specifically, we not only evaluate the performance of KAR on the development set and the test set, but also do this on the adversarial sets.",
+      "leaf_id": "b17d4c68309260579fbb",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 86,
+      "end": 226,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "09ee1bf5d83e45ea0e31",
+      "text": "As for the comparative objects, we only consider the single MRC models that rank in the top 20 on the SQuAD 1.1 leader board and have reported their performance on the adversarial sets.",
+      "leaf_id": "b17d4c68309260579fbb",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 227,
+      "end": 412,
+      "score": 3.6764631874206064e-05
+    },
+    {
+      "uid": "a4ebd81baeb0684742e3",
+      "text": "There are totally five such comparative objects, which can be considered as representatives of the state-of-the-art MRC models.",
+      "leaf_id": "b17d4c68309260579fbb",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 413,
+      "end": 540,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "0dc38c4c3db827989f93",
+      "text": "As shown in Table TABREF12 , on the development set and the test set, the performance of KAR is on par with that of the state-of-the-art MRC models; on the adversarial sets, KAR outperforms the state-of-the-art MRC models by a large margin.",
+      "leaf_id": "b17d4c68309260579fbb",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 541,
+      "end": 781,
+      "score": 2.77516502232539e-05
+    },
+    {
+      "uid": "5f34cdf64bf363a66503",
+      "text": "That is to say, KAR is comparable in performance with the state-of-the-art MRC models, and significantly more robust to noise than them.",
+      "leaf_id": "b17d4c68309260579fbb",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 782,
+      "end": 918,
+      "score": 0.0014953384533104661
+    },
+    {
+      "uid": "beef1ed2b6a3c5265530",
+      "text": "To verify the effectiveness of general knowledge, we first study the relationship between the amount of general knowledge and the performance of KAR.",
+      "leaf_id": "729c07873350bcb80e5d",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 919,
+      "end": 1068,
+      "score": 0.009055264186722084
+    },
+    {
+      "uid": "5d9e4de4ea9df8cc407c",
+      "text": "As shown in Table TABREF13 , by increasing INLINEFORM0 from 0 to 5 in the data enrichment method, the amount of general knowledge rises monotonically, but the performance of KAR first rises until INLINEFORM1 reaches 3 and then drops down.",
+      "leaf_id": "729c07873350bcb80e5d",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 1069,
+      "end": 1307,
+      "score": 0.006513498559668185
+    },
+    {
+      "uid": "65d47b92ff648aee06f8",
+      "text": "Then we conduct an ablation study by replacing the knowledge aided attention mechanisms with the mutual attention proposed by BIBREF3 and the self attention proposed by BIBREF4 separately, and find that the F1 score of KAR drops by INLINEFORM2 on the development set, INLINEFORM3 on AddSent, and INLINEFORM4 on AddOneSent.",
+      "leaf_id": "729c07873350bcb80e5d",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 1308,
+      "end": 1630,
+      "score": 0.00026947915555885544
+    },
+    {
+      "uid": "f14ef421efb7bb4b14a4",
+      "text": "Finally we find that after only one epoch of training, KAR already achieves an EM of INLINEFORM5 and an F1 score of INLINEFORM6 on the development set, which is even better than the final performance of several strong baselines, such as DCN (EM / F1: INLINEFORM7 / INLINEFORM8 ) BIBREF36 and BiDAF (EM / F1: INLINEFORM9 / INLINEFORM10 ) BIBREF3 .",
+      "leaf_id": "ff5698127fc6568bd0c0",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 1631,
+      "end": 1977,
+      "score": 1.8777874339495478e-05
+    },
+    {
+      "uid": "8a3df2cfc4799b459c41",
+      "text": "The above empirical findings imply that general knowledge indeed plays an effective role in KAR.",
+      "leaf_id": "ff5698127fc6568bd0c0",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 1978,
+      "end": 2074,
+      "score": 0.01998515199474335
+    },
+    {
+      "uid": "6e3632da94f458dececa",
+      "text": "To demonstrate the advantage of our explicit way to utilize general knowledge over the existing implicit way, we compare the performance of KAR with that reported by BIBREF10 , which used an encoding-based method to utilize the general knowledge dynamically retrieved from Wikipedia and ConceptNet.",
+      "leaf_id": "ff5698127fc6568bd0c0",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 2075,
+      "end": 2373,
+      "score": 0.0021827164453451808
+    },
+    {
+      "uid": "50632bdffd8e253e23af",
+      "text": "Since their best model only achieved an EM of INLINEFORM0 and an F1 score of INLINEFORM1 on the development set, which is much lower than the performance of KAR, we have good reason to believe that our explicit way works better than the existing implicit way.",
+      "leaf_id": "0c411c95a2811e881424",
+      "section_id": "2a636f51bdf01becebff",
+      "start": 2374,
+      "end": 2633,
+      "score": 2.818866280462178e-05
+    },
+    {
+      "uid": "9cd45a7dbe0a1e66b070",
+      "text": "We compare KAR with other MRC models in the hunger for data.",
+      "leaf_id": "37057f8266450ebbed46",
+      "section_id": "2ac1ab2b829d84e179bb",
+      "start": 0,
+      "end": 60,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "d53ec47459247836498c",
+      "text": "Specifically, instead of using all the training examples, we produce several training subsets (i.e. subsets of the training examples) so as to study the relationship between the proportion of the available training examples and the performance.",
+      "leaf_id": "37057f8266450ebbed46",
+      "section_id": "2ac1ab2b829d84e179bb",
+      "start": 61,
+      "end": 305,
+      "score": 3.047914192507958e-05
+    },
+    {
+      "uid": "2c41bc1264271ebb48cd",
+      "text": "We produce each training subset by sampling a specific number of questions from all the questions relevant to each passage.",
+      "leaf_id": "37057f8266450ebbed46",
+      "section_id": "2ac1ab2b829d84e179bb",
+      "start": 306,
+      "end": 429,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "9df747c0ac0567ef596e",
+      "text": "By separately sampling 1, 2, 3, and 4 questions on each passage, we obtain four training subsets, which separately contain INLINEFORM0 , INLINEFORM1 , INLINEFORM2 , and INLINEFORM3 of the training examples.",
+      "leaf_id": "37057f8266450ebbed46",
+      "section_id": "2ac1ab2b829d84e179bb",
+      "start": 430,
+      "end": 636,
+      "score": 2.6897844674087318e-05
+    },
+    {
+      "uid": "07e10d2a1820866c3bca",
+      "text": "As shown in Figure FIGREF15 , with KAR, SAN (re-implemented), and QANet (re-implemented without data augmentation) trained on these training subsets, we evaluate their performance on the development set, and find that KAR performs much better than SAN and QANet.",
+      "leaf_id": "37057f8266450ebbed46",
+      "section_id": "2ac1ab2b829d84e179bb",
+      "start": 637,
+      "end": 899,
+      "score": 3.169325442919291e-05
+    },
+    {
+      "uid": "699d2faf330adf9de5dd",
+      "text": "As shown in Figure FIGREF16 and Figure FIGREF17 , with the above KAR, SAN, and QANet trained on the same training subsets, we also evaluate their performance on the adversarial sets, and still find that KAR performs much better than SAN and QANet.",
+      "leaf_id": "f7d0ffe9edb142bd2bde",
+      "section_id": "2ac1ab2b829d84e179bb",
+      "start": 900,
+      "end": 1147,
+      "score": 3.095910371044124e-05
+    },
+    {
+      "uid": "34abcd3c879133e246d9",
+      "text": "That is to say, when only a subset of the training examples are available, KAR outperforms the state-of-the-art MRC models by a large margin, and is still reasonably robust to noise.",
+      "leaf_id": "f7d0ffe9edb142bd2bde",
+      "section_id": "2ac1ab2b829d84e179bb",
+      "start": 1148,
+      "end": 1330,
+      "score": 0.004133968090452445
+    },
+    {
+      "uid": "9a722c24b1fe623a99f8",
+      "text": "According to the experimental results, KAR is not only comparable in performance with the state-of-the-art MRC models, but also superior to them in terms of both the hunger for data and the robustness to noise.",
+      "leaf_id": "22ed7674c67c83b23459",
+      "section_id": "793a8ee83191dd68e8c2",
+      "start": 0,
+      "end": 210,
+      "score": 0.006121281290728531
+    },
+    {
+      "uid": "995d2f473885768fbd82",
+      "text": "The reasons for these achievements, we believe, are as follows:",
+      "leaf_id": "22ed7674c67c83b23459",
+      "section_id": "793a8ee83191dd68e8c2",
+      "start": 211,
+      "end": 274,
+      "score": 4.794958311981737e-05
+    },
+    {
+      "uid": "bea13a2de2b41d5f66c3",
+      "text": "In this paper, we innovatively integrate the neural networks of MRC models with the general knowledge of human beings.",
+      "leaf_id": "bd422e3f8a6a7f34a91f",
+      "section_id": "bfef276cd7c9847a2201",
+      "start": 0,
+      "end": 118,
+      "score": 0.015014748005819525
+    },
+    {
+      "uid": "70a0ee7ed8ef8394062e",
+      "text": "Specifically, inter-word semantic connections are first extracted from each given passage-question pair by a WordNet-based data enrichment method, and then provided as general knowledge to an end-to-end MRC model named as Knowledge Aided Reader (KAR), which explicitly uses the general knowledge to assist its attention mechanisms.",
+      "leaf_id": "bd422e3f8a6a7f34a91f",
+      "section_id": "bfef276cd7c9847a2201",
+      "start": 119,
+      "end": 450,
+      "score": 0.0028009269671209736
+    },
+    {
+      "uid": "77ea0f8ecf5e44306b89",
+      "text": "Experimental results show that KAR is not only comparable in performance with the state-of-the-art MRC models, but also superior to them in terms of both the hunger for data and the robustness to noise.",
+      "leaf_id": "bd422e3f8a6a7f34a91f",
+      "section_id": "bfef276cd7c9847a2201",
+      "start": 451,
+      "end": 653,
+      "score": 0.005448068085189641
+    },
+    {
+      "uid": "02629992f78980e35beb",
+      "text": "In the future, we plan to use some larger knowledge bases, such as ConceptNet and Freebase, to improve the quality and scope of the general knowledge.",
+      "leaf_id": "bd422e3f8a6a7f34a91f",
+      "section_id": "bfef276cd7c9847a2201",
+      "start": 654,
+      "end": 804,
+      "score": 0.001410358496618023
+    },
+    {
+      "uid": "55a6a952d59b0c909ae9",
+      "text": "This work is partially supported by a research donation from iFLYTEK Co., Ltd., Hefei, China, and a discovery grant from Natural Sciences and Engineering Research Council (NSERC) of Canada.",
+      "leaf_id": "95e18d7a683c6c166b4e",
+      "section_id": "2c97a1fd421913d0d2d8",
+      "start": 0,
+      "end": 189,
+      "score": 0.000527478412523148
+    }
+  ],
+  "prepare_seconds": 1.963728783186525,
+  "leaf_count": 37
+}

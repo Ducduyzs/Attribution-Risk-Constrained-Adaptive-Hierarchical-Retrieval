@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a model that uses a keyword extraction algorithm and similarity metrics to structure unstructured documents.",
+    "claims": [
+      {
+        "text": "The model uses a keyword extraction algorithm to extract keywords from the text.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model is designed to structure unstructured documents by mapping sentences to keywords based on similarity.",
+        "citations": [
+          "C6",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model employs similarity metrics to evaluate the mapping of sentences to keywords.",
+        "citations": [
+          "C15",
+          "C16"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 1219,
+    "total_tokens": 1348,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0063947000016924,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_f5dd669434"
+}

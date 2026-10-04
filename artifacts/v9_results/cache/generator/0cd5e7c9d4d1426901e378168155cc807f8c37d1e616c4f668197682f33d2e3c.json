@@ -1,0 +1,78 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Dataset collection methodology",
+        "citations": [
+          "C1",
+          "C4"
+        ]
+      },
+      {
+        "requirement": "Sources of data",
+        "citations": [
+          "C1",
+          "C4",
+          "C2"
+        ]
+      },
+      {
+        "requirement": "Speaker diversity and demographics",
+        "citations": [
+          "C6",
+          "C8"
+        ]
+      },
+      {
+        "requirement": "Quality assurance measures",
+        "citations": [
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides detailed information on how the dataset was collected, including the methodology, sources, speaker diversity, and quality assurance measures.",
+    "claims": [
+      {
+        "text": "The CoVoST dataset was created using validated speech clips from the Common Voice corpus, which were recorded by contributors reading from a bank of donated sentences.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset includes contributions from over 11,000 speakers across 11 languages, ensuring a diverse representation of accents and demographics.",
+        "citations": [
+          "C1",
+          "C6"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "Quality assurance measures included manual inspections of translations and checks for sentence length and perplexity to ensure high-quality data.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 238,
+    "prompt_tokens": 2136,
+    "total_tokens": 2374,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.981918500001484,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

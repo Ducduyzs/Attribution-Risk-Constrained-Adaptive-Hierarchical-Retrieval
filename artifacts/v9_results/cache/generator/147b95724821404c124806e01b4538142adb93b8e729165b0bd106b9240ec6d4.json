@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that while some models focus on adjacent mentions, there are instances where additional context from non-adjacent mentions is utilized for better disambiguation and coherence.",
+    "claims": [
+      {
+        "text": "Some models primarily use adjacent mentions for efficiency, but they also consider non-adjacent mentions when necessary for disambiguation.",
+        "citations": [
+          "C1",
+          "C3",
+          "C8",
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The use of adjacent mentions is emphasized for computational efficiency, but the context from surrounding mentions can enhance understanding.",
+        "citations": [
+          "C4",
+          "C6",
+          "C12"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 1254,
+    "total_tokens": 1391,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8187754999999015,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

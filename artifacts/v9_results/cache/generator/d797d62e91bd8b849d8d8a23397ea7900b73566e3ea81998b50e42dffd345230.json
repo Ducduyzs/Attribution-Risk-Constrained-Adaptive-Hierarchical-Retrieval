@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the dataset used primarily consists of Twitter data, which is indicated by the focus on word vector representations created specifically using this dataset.",
+    "claims": [
+      {
+        "text": "The dataset used was primarily the Twitter dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dev data set BIBREF19 was small, leading to the merging of train and dev sets for cross-validation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 722,
+    "total_tokens": 826,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4549987000027613,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

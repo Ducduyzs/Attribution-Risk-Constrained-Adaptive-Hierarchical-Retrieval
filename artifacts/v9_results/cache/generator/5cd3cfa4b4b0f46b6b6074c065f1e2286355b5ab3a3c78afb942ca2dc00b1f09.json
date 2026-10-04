@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "kinds of offensive content",
+        "citations": [
+          "C1",
+          "C2",
+          "C4",
+          "C5",
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides a comprehensive overview of various types of offensive content explored in research, including hate speech, cyberbullying, aggression, and insults.",
+    "claims": [
+      {
+        "text": "Offensive content includes hate speech, cyberbullying, aggression, and toxic comments.",
+        "citations": [
+          "C2",
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Offensive language can be categorized into targeted insults and untargeted profanity.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The hierarchical model identifies offensive content as either explicit or implicit, directed at individuals or groups.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 1954,
+    "total_tokens": 2130,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.01409600000261,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

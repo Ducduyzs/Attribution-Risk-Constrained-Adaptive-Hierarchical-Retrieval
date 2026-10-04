@@ -1,0 +1,2707 @@
+{
+  "question_id": "ed2eb4e54b641b7670ab5a7060c7b16c628699ab",
+  "source": "2004.01853.qasper",
+  "query": "Which of the three pretraining tasks is the most helpful?",
+  "rankings": {
+    "flat24": [
+      [
+        "0f39a4bdd675aaa4b862",
+        0.9875683491468141
+      ],
+      [
+        "4c43cadb9dfa3e376cfe",
+        0.9645224968348787
+      ],
+      [
+        "dd4a2c0e2eb453fffb37",
+        0.9383503740450254
+      ],
+      [
+        "f0edecc04a2464786e5d",
+        0.8519528019683106
+      ],
+      [
+        "a57ac56e693d80d59029",
+        0.8487216007111212
+      ],
+      [
+        "34d77002f4caae03cb07",
+        0.8338664465831974
+      ],
+      [
+        "7838a39e73cdc50e4f3f",
+        0.7565374791252202
+      ],
+      [
+        "c3f8e0f99172f81ebe6c",
+        0.5979013976892245
+      ],
+      [
+        "0a8ee06025be5b9c1567",
+        0.46690636261808394
+      ],
+      [
+        "3b5e397b92e3f9a95002",
+        0.3612773864465049
+      ],
+      [
+        "3534a181cacb0daa4aac",
+        0.22354652136612801
+      ],
+      [
+        "ceeeeb9d88f4865ab4d7",
+        0.19253935386136437
+      ],
+      [
+        "13b973ff7e2dce0ea2f3",
+        0.1759624741797008
+      ],
+      [
+        "4e161352ea5e91fbb011",
+        0.1541848750571675
+      ],
+      [
+        "104cfcde623019de638f",
+        0.14438997749831523
+      ],
+      [
+        "89169755d9bfe9fcc511",
+        0.1392792675672533
+      ],
+      [
+        "aa70e743b47beaacb396",
+        0.1223133843238468
+      ],
+      [
+        "42706223669267f832ae",
+        0.09285216083166364
+      ],
+      [
+        "1efb521bf88b01b447b1",
+        0.044265878099717125
+      ],
+      [
+        "1f91f59b64e4e161a2be",
+        0.039342503264258206
+      ],
+      [
+        "7ec03670e1f32bcf6c1f",
+        0.006265533775839072
+      ],
+      [
+        "2eb986481c875dddae07",
+        0.005260852257235711
+      ],
+      [
+        "4bc9d162c11b7c0925ed",
+        0.0030753698500482333
+      ],
+      [
+        "62c9461f10e283d6a5c0",
+        0.0005861161745166738
+      ]
+    ],
+    "all_leaf": [
+      [
+        "0f39a4bdd675aaa4b862",
+        0.9875683491468141
+      ],
+      [
+        "4c43cadb9dfa3e376cfe",
+        0.9645224968348787
+      ],
+      [
+        "dd4a2c0e2eb453fffb37",
+        0.9383503740450254
+      ],
+      [
+        "f0edecc04a2464786e5d",
+        0.8519528019683106
+      ],
+      [
+        "a57ac56e693d80d59029",
+        0.8487216007111212
+      ],
+      [
+        "34d77002f4caae03cb07",
+        0.8338664465831974
+      ],
+      [
+        "7838a39e73cdc50e4f3f",
+        0.7565374791252202
+      ],
+      [
+        "c3f8e0f99172f81ebe6c",
+        0.5979013976892245
+      ],
+      [
+        "0a8ee06025be5b9c1567",
+        0.46690636261808394
+      ],
+      [
+        "3b5e397b92e3f9a95002",
+        0.3612773864465049
+      ],
+      [
+        "3534a181cacb0daa4aac",
+        0.22354652136612801
+      ],
+      [
+        "ceeeeb9d88f4865ab4d7",
+        0.19253935386136437
+      ],
+      [
+        "13b973ff7e2dce0ea2f3",
+        0.1759624741797008
+      ],
+      [
+        "4e161352ea5e91fbb011",
+        0.1541848750571675
+      ],
+      [
+        "104cfcde623019de638f",
+        0.14438997749831523
+      ],
+      [
+        "89169755d9bfe9fcc511",
+        0.1392792675672533
+      ],
+      [
+        "aa70e743b47beaacb396",
+        0.1223133843238468
+      ],
+      [
+        "7fe519fa3c2f2999e2a0",
+        0.11260009974533915
+      ],
+      [
+        "42706223669267f832ae",
+        0.09285216083166364
+      ],
+      [
+        "1efb521bf88b01b447b1",
+        0.044265878099717125
+      ],
+      [
+        "1f91f59b64e4e161a2be",
+        0.039342503264258206
+      ],
+      [
+        "462056febbc46f2a9cc7",
+        0.033273941086340214
+      ],
+      [
+        "7698c91148f684521034",
+        0.022371459837761478
+      ],
+      [
+        "6f893dd1c31e06f893cd",
+        0.02025469056473905
+      ],
+      [
+        "b22f46cb8560c69f0572",
+        0.015424552081841137
+      ],
+      [
+        "869571344fc6233d8c76",
+        0.009859855303538787
+      ],
+      [
+        "a02c2defcb96838cb820",
+        0.006538824977235004
+      ],
+      [
+        "7ec03670e1f32bcf6c1f",
+        0.006265533775839072
+      ],
+      [
+        "6a742ea8424dca8c95a9",
+        0.006265533775839072
+      ],
+      [
+        "2eb986481c875dddae07",
+        0.005260852257235711
+      ],
+      [
+        "4bc9d162c11b7c0925ed",
+        0.0030753698500482333
+      ],
+      [
+        "86a43bd476603310d0cc",
+        0.0012644219446392272
+      ],
+      [
+        "e7d3290fc8d5806aae9e",
+        0.0011030266413981568
+      ],
+      [
+        "62c9461f10e283d6a5c0",
+        0.0005861161745166738
+      ],
+      [
+        "3e6a36e1e247c125d4f6",
+        0.00018093576989406792
+      ],
+      [
+        "99b7e9207c9bda85eeb9",
+        0.00017813112047189374
+      ],
+      [
+        "57d76612cd5682a212c8",
+        0.00016346470245419303
+      ],
+      [
+        "a945ed3bceceb70db000",
+        0.00015236754767429124
+      ],
+      [
+        "75b98ea848a9876c9fdb",
+        5.104190769226477e-05
+      ],
+      [
+        "1355175d3528954aceee",
+        1.8777874339495478e-05
+      ],
+      [
+        "5d537ba4e505be16242e",
+        1.750292578877821e-05
+      ]
+    ],
+    "contextual24": [
+      [
+        "0f39a4bdd675aaa4b862",
+        0.9819446650265006
+      ],
+      [
+        "dd4a2c0e2eb453fffb37",
+        0.9587699726751935
+      ],
+      [
+        "4c43cadb9dfa3e376cfe",
+        0.9517736584118671
+      ],
+      [
+        "a57ac56e693d80d59029",
+        0.9277569977504976
+      ],
+      [
+        "f0edecc04a2464786e5d",
+        0.923592316649553
+      ],
+      [
+        "7838a39e73cdc50e4f3f",
+        0.8403900110513648
+      ],
+      [
+        "2eb986481c875dddae07",
+        0.83960249747165
+      ],
+      [
+        "34d77002f4caae03cb07",
+        0.7492707188143424
+      ],
+      [
+        "c3f8e0f99172f81ebe6c",
+        0.6384972353472438
+      ],
+      [
+        "3b5e397b92e3f9a95002",
+        0.2549724637637575
+      ],
+      [
+        "ceeeeb9d88f4865ab4d7",
+        0.2533064787376871
+      ],
+      [
+        "3534a181cacb0daa4aac",
+        0.2510963818818426
+      ],
+      [
+        "4bc9d162c11b7c0925ed",
+        0.21683958827016742
+      ],
+      [
+        "0a8ee06025be5b9c1567",
+        0.20609398011016158
+      ],
+      [
+        "13b973ff7e2dce0ea2f3",
+        0.19117662757762663
+      ],
+      [
+        "42706223669267f832ae",
+        0.17909941966896972
+      ],
+      [
+        "4e161352ea5e91fbb011",
+        0.1762458559415404
+      ],
+      [
+        "62c9461f10e283d6a5c0",
+        0.15443975787007322
+      ],
+      [
+        "1f91f59b64e4e161a2be",
+        0.15291561784917637
+      ],
+      [
+        "aa70e743b47beaacb396",
+        0.13660839002621936
+      ],
+      [
+        "89169755d9bfe9fcc511",
+        0.1347759174229568
+      ],
+      [
+        "1efb521bf88b01b447b1",
+        0.11596071825396675
+      ],
+      [
+        "7ec03670e1f32bcf6c1f",
+        0.09912085510042458
+      ],
+      [
+        "104cfcde623019de638f",
+        0.05845324104109675
+      ]
+    ],
+    "contextual_all": [
+      [
+        "0f39a4bdd675aaa4b862",
+        0.9819446650265006
+      ],
+      [
+        "dd4a2c0e2eb453fffb37",
+        0.9587699726751935
+      ],
+      [
+        "4c43cadb9dfa3e376cfe",
+        0.9517736584118671
+      ],
+      [
+        "a57ac56e693d80d59029",
+        0.9277569977504976
+      ],
+      [
+        "f0edecc04a2464786e5d",
+        0.923592316649553
+      ],
+      [
+        "7838a39e73cdc50e4f3f",
+        0.8403900110513648
+      ],
+      [
+        "2eb986481c875dddae07",
+        0.83960249747165
+      ],
+      [
+        "34d77002f4caae03cb07",
+        0.7492707188143424
+      ],
+      [
+        "c3f8e0f99172f81ebe6c",
+        0.6384972353472438
+      ],
+      [
+        "3b5e397b92e3f9a95002",
+        0.2549724637637575
+      ],
+      [
+        "ceeeeb9d88f4865ab4d7",
+        0.2533064787376871
+      ],
+      [
+        "3534a181cacb0daa4aac",
+        0.2510963818818426
+      ],
+      [
+        "462056febbc46f2a9cc7",
+        0.21866937668390204
+      ],
+      [
+        "4bc9d162c11b7c0925ed",
+        0.21683958827016742
+      ],
+      [
+        "0a8ee06025be5b9c1567",
+        0.20609398011016158
+      ],
+      [
+        "86a43bd476603310d0cc",
+        0.19482697856563788
+      ],
+      [
+        "13b973ff7e2dce0ea2f3",
+        0.19117662757762663
+      ],
+      [
+        "42706223669267f832ae",
+        0.17909941966896972
+      ],
+      [
+        "4e161352ea5e91fbb011",
+        0.1762458559415404
+      ],
+      [
+        "62c9461f10e283d6a5c0",
+        0.15443975787007322
+      ],
+      [
+        "1f91f59b64e4e161a2be",
+        0.15291561784917637
+      ],
+      [
+        "aa70e743b47beaacb396",
+        0.13660839002621936
+      ],
+      [
+        "89169755d9bfe9fcc511",
+        0.1347759174229568
+      ],
+      [
+        "1efb521bf88b01b447b1",
+        0.11596071825396675
+      ],
+      [
+        "7ec03670e1f32bcf6c1f",
+        0.09912085510042458
+      ],
+      [
+        "7fe519fa3c2f2999e2a0",
+        0.08756383952305867
+      ],
+      [
+        "7698c91148f684521034",
+        0.07356305033897523
+      ],
+      [
+        "104cfcde623019de638f",
+        0.05845324104109675
+      ],
+      [
+        "a945ed3bceceb70db000",
+        0.03561141336294632
+      ],
+      [
+        "6f893dd1c31e06f893cd",
+        0.01665704000922906
+      ],
+      [
+        "869571344fc6233d8c76",
+        0.007968814953315289
+      ],
+      [
+        "a02c2defcb96838cb820",
+        0.006564249220774553
+      ],
+      [
+        "b22f46cb8560c69f0572",
+        0.006388320909721285
+      ],
+      [
+        "6a742ea8424dca8c95a9",
+        0.004365326111393966
+      ],
+      [
+        "99b7e9207c9bda85eeb9",
+        0.003403005358749695
+      ],
+      [
+        "57d76612cd5682a212c8",
+        0.0018102110262026483
+      ],
+      [
+        "e7d3290fc8d5806aae9e",
+        0.0008231385881888256
+      ],
+      [
+        "3e6a36e1e247c125d4f6",
+        0.0005549409507143756
+      ],
+      [
+        "75b98ea848a9876c9fdb",
+        6.352188765951866e-05
+      ],
+      [
+        "1355175d3528954aceee",
+        1.7917988275182845e-05
+      ],
+      [
+        "5d537ba4e505be16242e",
+        1.7366719305164412e-05
+      ]
+    ],
+    "raptor": [
+      [
+        "0f39a4bdd675aaa4b862",
+        0.9875683491468141
+      ],
+      [
+        "dd4a2c0e2eb453fffb37",
+        0.9383503740450254
+      ],
+      [
+        "34d77002f4caae03cb07",
+        0.8338664465831974
+      ],
+      [
+        "ceeeeb9d88f4865ab4d7",
+        0.19253935386136437
+      ],
+      [
+        "13b973ff7e2dce0ea2f3",
+        0.1759624741797008
+      ],
+      [
+        "89169755d9bfe9fcc511",
+        0.1392792675672533
+      ],
+      [
+        "42706223669267f832ae",
+        0.09285216083166364
+      ],
+      [
+        "1efb521bf88b01b447b1",
+        0.044265878099717125
+      ],
+      [
+        "1f91f59b64e4e161a2be",
+        0.039342503264258206
+      ],
+      [
+        "2eb986481c875dddae07",
+        0.005260852257235711
+      ],
+      [
+        "99b7e9207c9bda85eeb9",
+        0.00017813112047189374
+      ]
+    ]
+  },
+  "initial_ids": [
+    "dd4a2c0e2eb453fffb37",
+    "0f39a4bdd675aaa4b862",
+    "4c43cadb9dfa3e376cfe",
+    "f0edecc04a2464786e5d",
+    "a57ac56e693d80d59029",
+    "3534a181cacb0daa4aac",
+    "4e161352ea5e91fbb011",
+    "34d77002f4caae03cb07",
+    "ceeeeb9d88f4865ab4d7",
+    "3b5e397b92e3f9a95002",
+    "7838a39e73cdc50e4f3f",
+    "42706223669267f832ae",
+    "2eb986481c875dddae07",
+    "13b973ff7e2dce0ea2f3",
+    "89169755d9bfe9fcc511",
+    "1f91f59b64e4e161a2be",
+    "1efb521bf88b01b447b1",
+    "104cfcde623019de638f",
+    "c3f8e0f99172f81ebe6c",
+    "aa70e743b47beaacb396",
+    "4bc9d162c11b7c0925ed",
+    "7ec03670e1f32bcf6c1f",
+    "62c9461f10e283d6a5c0",
+    "0a8ee06025be5b9c1567",
+    "869571344fc6233d8c76",
+    "86a43bd476603310d0cc",
+    "462056febbc46f2a9cc7",
+    "b22f46cb8560c69f0572",
+    "7fe519fa3c2f2999e2a0",
+    "99b7e9207c9bda85eeb9",
+    "6f893dd1c31e06f893cd",
+    "a945ed3bceceb70db000",
+    "a02c2defcb96838cb820",
+    "7698c91148f684521034",
+    "e7d3290fc8d5806aae9e",
+    "6a742ea8424dca8c95a9",
+    "57d76612cd5682a212c8",
+    "3e6a36e1e247c125d4f6",
+    "75b98ea848a9876c9fdb",
+    "5d537ba4e505be16242e",
+    "1355175d3528954aceee"
+  ],
+  "sentences": [
+    {
+      "uid": "9d700c1d9322565588cb",
+      "text": "Abstractive summarization aims to rewrite a long document to its shorter form, which is usually modeled as a sequence-to-sequence (Seq2Seq) learning problem.",
+      "leaf_id": "a57ac56e693d80d59029",
+      "section_id": "a9c6f9d5b00ad65c4d30",
+      "start": 0,
+      "end": 157,
+      "score": 0.00016219281637167373
+    },
+    {
+      "uid": "74388caa2b65cf856522",
+      "text": "Seq2Seq Transformers are powerful models for this problem.",
+      "leaf_id": "a57ac56e693d80d59029",
+      "section_id": "a9c6f9d5b00ad65c4d30",
+      "start": 158,
+      "end": 216,
+      "score": 2.7969303025826768e-05
+    },
+    {
+      "uid": "02758dc96c3fbe776d50",
+      "text": "Unfortunately, training large Seq2Seq Transformers on limited supervised summarization data is challenging.",
+      "leaf_id": "a57ac56e693d80d59029",
+      "section_id": "a9c6f9d5b00ad65c4d30",
+      "start": 217,
+      "end": 324,
+      "score": 2.1782649863110498e-05
+    },
+    {
+      "uid": "421cbe1b127281d3249f",
+      "text": "We, therefore, propose STEP (as shorthand for Sequence-to-Sequence Transformer Pre-training), which can be trained on large scale unlabeled documents.",
+      "leaf_id": "a57ac56e693d80d59029",
+      "section_id": "a9c6f9d5b00ad65c4d30",
+      "start": 325,
+      "end": 475,
+      "score": 0.03753800746527978
+    },
+    {
+      "uid": "865baaabbb76374b4b18",
+      "text": "Specifically, STEP is pre-trained using three different tasks, namely sentence reordering, next sentence generation, and masked document generation.",
+      "leaf_id": "a57ac56e693d80d59029",
+      "section_id": "a9c6f9d5b00ad65c4d30",
+      "start": 476,
+      "end": 624,
+      "score": 0.9256342970258704
+    },
+    {
+      "uid": "a9538cf54a429ba33217",
+      "text": "Experiments on two summarization datasets show that all three tasks can improve performance upon a heavily tuned large Seq2Seq Transformer which already includes a strong pre-trained encoder by a large margin.",
+      "leaf_id": "a57ac56e693d80d59029",
+      "section_id": "a9c6f9d5b00ad65c4d30",
+      "start": 625,
+      "end": 834,
+      "score": 0.5718861531887576
+    },
+    {
+      "uid": "84f1d733168fa55b7fe1",
+      "text": "By using our best task to pre-train STEP, we outperform the best published abstractive model on CNN/DailyMail by 0.8 ROUGE-2 and New York Times by 2.4 ROUGE-2.",
+      "leaf_id": "a57ac56e693d80d59029",
+      "section_id": "a9c6f9d5b00ad65c4d30",
+      "start": 835,
+      "end": 994,
+      "score": 0.3255205477769307
+    },
+    {
+      "uid": "aad55e05ac347fc1e9fc",
+      "text": "Large pre-trained language models BIBREF0, BIBREF1, BIBREF2, BIBREF3, BIBREF4 improved the state-of-the-art of various natural language understanding (NLU) tasks such as question answering (e.g., SQuAD; BIBREF5), natural language inference (e.g., MNLI; BIBREF6) as well as text classification BIBREF7.",
+      "leaf_id": "aa70e743b47beaacb396",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 0,
+      "end": 301,
+      "score": 0.0874079174912833
+    },
+    {
+      "uid": "d206060cb59ddaad2f80",
+      "text": "These models (i.e., large LSTMs; BIBREF8 or Transformers; BIBREF9) are pre-trained on large scale unlabeled text with language modeling BIBREF0, BIBREF1, masked language modeling BIBREF2, BIBREF4 and permutation language modeling BIBREF3 objectives.",
+      "leaf_id": "aa70e743b47beaacb396",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 302,
+      "end": 551,
+      "score": 0.020488554684743848
+    },
+    {
+      "uid": "b87cd9dd2b277772718e",
+      "text": "In NLU tasks, pre-trained language models are mostly used as text encoders.",
+      "leaf_id": "aa70e743b47beaacb396",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 552,
+      "end": 627,
+      "score": 0.02976009394596422
+    },
+    {
+      "uid": "e9627b21d2aca5e2b68a",
+      "text": "Abstractive document summarization aims to rewrite a long document to its shorter form while still retaining its important information.",
+      "leaf_id": "aa70e743b47beaacb396",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 628,
+      "end": 763,
+      "score": 4.4694071442156975e-05
+    },
+    {
+      "uid": "49b02369067b56250ed1",
+      "text": "Different from extractive document summarization that extacts important sentences, abstractive document summarization may paraphrase original sentences or delete contents from them.",
+      "leaf_id": "aa70e743b47beaacb396",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 764,
+      "end": 945,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "a206b4a37f06c56b9a3b",
+      "text": "For more details on differences between abstractive and extractive document summary, we refer the interested readers to Nenkova:McKeown:2011 and Section SECREF2.",
+      "leaf_id": "aa70e743b47beaacb396",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 946,
+      "end": 1107,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "651ff9d60d8449df54c7",
+      "text": "This task is usually framed as a sequence-to-sequence learning problem BIBREF10, BIBREF11.",
+      "leaf_id": "aa70e743b47beaacb396",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 1108,
+      "end": 1198,
+      "score": 0.00039204178923762814
+    },
+    {
+      "uid": "576de43fa44b00d4bd8a",
+      "text": "In this paper, we adopt the sequence-to-sequence (seq2seq) Transformer BIBREF9, which has been demonstrated to be the state-of-the-art for seq2seq modeling BIBREF9, BIBREF12.",
+      "leaf_id": "462056febbc46f2a9cc7",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 1199,
+      "end": 1373,
+      "score": 1.848675576370609e-05
+    },
+    {
+      "uid": "349f50bedf9af741f33c",
+      "text": "Unfortunately, training large seq2seq Transformers on limited supervised summarization data is challenging BIBREF12 (refer to Section SECREF5).",
+      "leaf_id": "462056febbc46f2a9cc7",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 1374,
+      "end": 1517,
+      "score": 7.311254328107719e-05
+    },
+    {
+      "uid": "52d1f6714e7b916a1927",
+      "text": "The seq2seq Transformer has an encoder and a decoder Transformer.",
+      "leaf_id": "462056febbc46f2a9cc7",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 1518,
+      "end": 1583,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "6c1f00ad2ccbdcf57f0e",
+      "text": "Abstractive summarization requires both encoding of an input document and generation of a summary usually containing multiple sentences.",
+      "leaf_id": "462056febbc46f2a9cc7",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 1584,
+      "end": 1720,
+      "score": 0.00010975090534032795
+    },
+    {
+      "uid": "54530bb87e9b31e8f2fe",
+      "text": "As mentioned earlier, we can take advantage of recent pre-trained Transformer encoders for the document encoding part as in liu2019text.",
+      "leaf_id": "462056febbc46f2a9cc7",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 1721,
+      "end": 1857,
+      "score": 0.01020905431880827
+    },
+    {
+      "uid": "eea9423b07cf270a9ea4",
+      "text": "However, liu2019text leave the decoder randomly initialized.",
+      "leaf_id": "462056febbc46f2a9cc7",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 1858,
+      "end": 1918,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "35e3c078ebc8fe694cda",
+      "text": "In this paper, we aim to pre-train both the encoder (i.e., the encoding part) and decoder (i.e., the generation part) of a seq2seq Transformer , which is able to improve abstractive summarization performance.",
+      "leaf_id": "462056febbc46f2a9cc7",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 1919,
+      "end": 2127,
+      "score": 0.01518904880798395
+    },
+    {
+      "uid": "203548a278b9ba7091ae",
+      "text": "Based on the above observations, we propose Step (as shorthand for Sequence-to-Sequence TransformEr Pre-training), which can be pre-trained on large scale unlabeled documents.",
+      "leaf_id": "f0edecc04a2464786e5d",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 2128,
+      "end": 2303,
+      "score": 0.0573875346753933
+    },
+    {
+      "uid": "62b34c9dca94773bbd55",
+      "text": "Specifically, we design three tasks for seq2seq model pre-training, namely Sentence Reordering (SR), Next Sentence Generation (NSG), and Masked Document Generation (MDG).",
+      "leaf_id": "f0edecc04a2464786e5d",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 2304,
+      "end": 2474,
+      "score": 0.9294404038127071
+    },
+    {
+      "uid": "506c8b5ea158d2b19d1f",
+      "text": "SR learns to recover a document with randomly shuffled sentences.",
+      "leaf_id": "f0edecc04a2464786e5d",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 2475,
+      "end": 2540,
+      "score": 3.619466971831003e-05
+    },
+    {
+      "uid": "f911c584ed5587a2962a",
+      "text": "NSG generates the next segment of a document based on its preceding segment.",
+      "leaf_id": "f0edecc04a2464786e5d",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 2541,
+      "end": 2617,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "96f13cc5b4c7031a833f",
+      "text": "MDG recovers a masked document to its original form.",
+      "leaf_id": "f0edecc04a2464786e5d",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 2618,
+      "end": 2670,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "014ccaad52008d280351",
+      "text": "After pre-trianing Step using the three tasks on unlabeled documents, we fine-tune it on supervised summarization datasets.",
+      "leaf_id": "f0edecc04a2464786e5d",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 2671,
+      "end": 2794,
+      "score": 0.274448591016273
+    },
+    {
+      "uid": "b0ca2192842f7a188d1a",
+      "text": "We evaluate our methods on two summarization datasets (i.e., the CNN/DailyMail and the New York Times datasets).",
+      "leaf_id": "f0edecc04a2464786e5d",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 2795,
+      "end": 2907,
+      "score": 2.1112482331487176e-05
+    },
+    {
+      "uid": "1da6a352f3e6384e27fb",
+      "text": "Experiments show that all three tasks we propose can improve upon a heavily tuned large seq2seq Transformer which already includes a strong pre-trained encoder by a large margin.",
+      "leaf_id": "7838a39e73cdc50e4f3f",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 2908,
+      "end": 3086,
+      "score": 0.5234964749441433
+    },
+    {
+      "uid": "f177907957387852c1cb",
+      "text": "Compared to the best published abstractive models, Step improves the ROUGE-2 by 0.8 on the CNN/DailyMail dataset and by 2.4 on the New York Times dataset using our best performing task for pre-training.",
+      "leaf_id": "7838a39e73cdc50e4f3f",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 3087,
+      "end": 3289,
+      "score": 0.2099552274668466
+    },
+    {
+      "uid": "0c5333cea61d96bd79e8",
+      "text": "Human experiments also show that Step can produce significantly better summaries in comparison with recent strong abstractive models.",
+      "leaf_id": "7838a39e73cdc50e4f3f",
+      "section_id": "dcd6a88b57bd6ba53b0a",
+      "start": 3290,
+      "end": 3423,
+      "score": 0.0002305067219931397
+    },
+    {
+      "uid": "1b9183343a1ffb5b03d1",
+      "text": "This section introduces extractive and abstractive document summarization as well as pre-training methods for natural language processing tasks.",
+      "leaf_id": "104cfcde623019de638f",
+      "section_id": "1a3213eb80bcac90a52b",
+      "start": 0,
+      "end": 144,
+      "score": 0.14438997749831523
+    },
+    {
+      "uid": "ea2e2ff0ed23cd304515",
+      "text": "Extractive summarization systems learn to find the informative sentences in a document as its summary.",
+      "leaf_id": "a02c2defcb96838cb820",
+      "section_id": "019599ef4923a6b6d9f8",
+      "start": 0,
+      "end": 102,
+      "score": 3.373722476473661e-05
+    },
+    {
+      "uid": "95410866c4ea689a5f5d",
+      "text": "This task is usually viewed as a sentence ranking problem BIBREF13, BIBREF14 using scores from a binary (sequence) classification model, which predicts whether a sentence is in the summary or not.",
+      "leaf_id": "a02c2defcb96838cb820",
+      "section_id": "019599ef4923a6b6d9f8",
+      "start": 103,
+      "end": 299,
+      "score": 0.0004955359475635505
+    },
+    {
+      "uid": "58c8570d295509459aae",
+      "text": "Extractive neural models employ hierarchical LSTMs/CNNs as the feature learning part of the binary (sequence) classifier BIBREF15, BIBREF16, BIBREF17, BIBREF18, which largely outperforms discrete feature based models BIBREF19, BIBREF20, BIBREF21.",
+      "leaf_id": "a02c2defcb96838cb820",
+      "section_id": "019599ef4923a6b6d9f8",
+      "start": 300,
+      "end": 546,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "8cfdb762edbe1e0b975f",
+      "text": "Very recently, the feature learning part was replaced again with pre-trained transformers BIBREF22, BIBREF23 that lead to another huge improvement of summarization performance.",
+      "leaf_id": "a02c2defcb96838cb820",
+      "section_id": "019599ef4923a6b6d9f8",
+      "start": 547,
+      "end": 723,
+      "score": 0.026912304073801845
+    },
+    {
+      "uid": "fe2cc06f23b3f56a8628",
+      "text": "However, extractive models have their own limitations.",
+      "leaf_id": "a02c2defcb96838cb820",
+      "section_id": "019599ef4923a6b6d9f8",
+      "start": 724,
+      "end": 778,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "47562d91f45e89f0ab98",
+      "text": "For example, the extracted sentences might be too long and redundant.",
+      "leaf_id": "a02c2defcb96838cb820",
+      "section_id": "019599ef4923a6b6d9f8",
+      "start": 779,
+      "end": 848,
+      "score": 1.8777874339495478e-05
+    },
+    {
+      "uid": "6eb2f93a8f3b93fcc090",
+      "text": "Besides, human written summaries in their nature are abstractive.",
+      "leaf_id": "a02c2defcb96838cb820",
+      "section_id": "019599ef4923a6b6d9f8",
+      "start": 849,
+      "end": 914,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "619032b5890c8eec0990",
+      "text": "Therefore, we focus on abstractive summarization in this paper.",
+      "leaf_id": "a02c2defcb96838cb820",
+      "section_id": "019599ef4923a6b6d9f8",
+      "start": 915,
+      "end": 978,
+      "score": 2.43002407432796e-05
+    },
+    {
+      "uid": "abfaa33140fd754e9b67",
+      "text": "The goal of abstractive summarization is to generate summaries by rewriting a document, which is a sequence-to-sequence learning problem. seq2seq attentive LSTMs BIBREF8, BIBREF24 are employed in nallapati2016abstractive.",
+      "leaf_id": "869571344fc6233d8c76",
+      "section_id": "4f61373d208ced4d259c",
+      "start": 0,
+      "end": 221,
+      "score": 5.1845659107128626e-05
+    },
+    {
+      "uid": "915c6a546afba2107bb1",
+      "text": "Even these models are extended with copy mechanism BIBREF25, coverage model BIBREF11 and reinforcement learning BIBREF26, their results are still very close to that of Lead3 which selects the leading three sentences of a document as its summary.",
+      "leaf_id": "869571344fc6233d8c76",
+      "section_id": "4f61373d208ced4d259c",
+      "start": 222,
+      "end": 467,
+      "score": 0.00016865275398914432
+    },
+    {
+      "uid": "78bca97b62785ea55c45",
+      "text": "One possible reason is that LSTMs without pre-training are not powerful enough. liu2019text used a seq2seq Transformer model with its encoder initialized with a pre-trained Transformer (i.e., BERT; BIBREF2) and achieved the state-of-the-art performance.",
+      "leaf_id": "869571344fc6233d8c76",
+      "section_id": "4f61373d208ced4d259c",
+      "start": 468,
+      "end": 721,
+      "score": 0.006797531550373377
+    },
+    {
+      "uid": "1340ff1d6ce9ac50477f",
+      "text": "Our work goes one step further, we propose a method to pre-train the decoder together with the encoder and then initialize both the encoder and decoder of a summarization model with the pre-trained Transformers.",
+      "leaf_id": "869571344fc6233d8c76",
+      "section_id": "4f61373d208ced4d259c",
+      "start": 722,
+      "end": 933,
+      "score": 0.010169657753872614
+    },
+    {
+      "uid": "b12229c1f49b50149748",
+      "text": "There is also a line of work that bridges extractive and abstractive models with reinforcement learning BIBREF27, attention fusion BIBREF28 and bottom-up attention BIBREF29, while our model is conceptually simpler.",
+      "leaf_id": "869571344fc6233d8c76",
+      "section_id": "4f61373d208ced4d259c",
+      "start": 934,
+      "end": 1148,
+      "score": 4.165958180576519e-05
+    },
+    {
+      "uid": "7964caebcc569370b3bf",
+      "text": "Pre-training methods draw a lot of attention recently. peters2018deep and radford:2019:arxiv pre-trained LSTM and Transformer encoders using language modeling objectives.",
+      "leaf_id": "42706223669267f832ae",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 0,
+      "end": 170,
+      "score": 0.035211136421575806
+    },
+    {
+      "uid": "f476f2c6c63526e03e76",
+      "text": "To leverage the context in both directions, BIBREF2 proposed BERT, which is trained with the mask language modeling objective.",
+      "leaf_id": "42706223669267f832ae",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 171,
+      "end": 297,
+      "score": 0.00020662982488383407
+    },
+    {
+      "uid": "66947014eff0de2d7e85",
+      "text": "XLNet BIBREF3 is trained with permutation language modeling objective, which removes the independence assumption of masked tokens in BERT.",
+      "leaf_id": "42706223669267f832ae",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 298,
+      "end": 436,
+      "score": 2.77516502232539e-05
+    },
+    {
+      "uid": "772e04e16c364e53779f",
+      "text": "RoBERTa BIBREF4 extends BERT with more training data and better training strategies.",
+      "leaf_id": "42706223669267f832ae",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 437,
+      "end": 521,
+      "score": 3.1941819764587e-05
+    },
+    {
+      "uid": "f34244b3df354c83901b",
+      "text": "All the methods above focus on pre-training an encoder, while we propose methods to pre-train both the encoder and decoder of a seq2seq model. dong2019unified proposed a Transformer language model that can be used for both natural language understanding and generation tasks, which is pre-trained using masked, unidirectional and seq2seq language modeling objectives.",
+      "leaf_id": "42706223669267f832ae",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 522,
+      "end": 889,
+      "score": 0.14669741042535941
+    },
+    {
+      "uid": "d68c7d2905ec68a07127",
+      "text": "Their method tries to pre-train a seq2seq Transformer with its encoder and decoder parameters shared.",
+      "leaf_id": "42706223669267f832ae",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 890,
+      "end": 991,
+      "score": 0.0013777325890227494
+    },
+    {
+      "uid": "d0580b6b7f06ccdf4628",
+      "text": "Differently, we pre-train a seq2seq Transformer with separate parameters for the encoder and decoder. song2019mass proposed a method to pre-train a seq2seq Transformer by masking a span of text and then predicting the original text with masked tokens at other positions.",
+      "leaf_id": "4e161352ea5e91fbb011",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 992,
+      "end": 1262,
+      "score": 0.004520818046171076
+    },
+    {
+      "uid": "32ed01de75fdb1b40ffa",
+      "text": "Their pre-training task is similar to our Masked Document Generation task, but we apply a different masking strategy and predict the original text without masked tokens.",
+      "leaf_id": "4e161352ea5e91fbb011",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 1263,
+      "end": 1432,
+      "score": 0.19117662757762663
+    },
+    {
+      "uid": "67c8186ac5ebd5bbc7cc",
+      "text": "Besides, we propose another two tasks for seq2seq model pre-training.",
+      "leaf_id": "4e161352ea5e91fbb011",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 1433,
+      "end": 1502,
+      "score": 0.0656048374590693
+    },
+    {
+      "uid": "79638bd14e1f1a17f1c5",
+      "text": "BIBREF30 tested their model on sentence-level tasks (e.g., machine translation and sentence compression), while we aim to solve document-level tasks (e.g., abstractive document summarization).",
+      "leaf_id": "4e161352ea5e91fbb011",
+      "section_id": "01a39d4a99c33efa591c",
+      "start": 1503,
+      "end": 1695,
+      "score": 0.0012693644703670255
+    },
+    {
+      "uid": "e14f76522a72ef25b3ac",
+      "text": "This section first introduces the backbone architecture of our abstractive summarization model Step.",
+      "leaf_id": "7ec03670e1f32bcf6c1f",
+      "section_id": "8e56f1386c5c43f117f0",
+      "start": 0,
+      "end": 100,
+      "score": 3.426849054255501e-05
+    },
+    {
+      "uid": "4a3aeb2de3b5bf1fd968",
+      "text": "We then describe methods to pre-train Step and finally move on to the fine-tuning on summarization datasets.",
+      "leaf_id": "7ec03670e1f32bcf6c1f",
+      "section_id": "8e56f1386c5c43f117f0",
+      "start": 101,
+      "end": 209,
+      "score": 0.011642224164666004
+    },
+    {
+      "uid": "04c322798d5495f88d39",
+      "text": "In this work, the task of abstractive document summarization is modeled as a sequence-to-sequence learning problem, where a document is viewed as a sequence of tokens and its corresponding summary as another sequence of tokens.",
+      "leaf_id": "a945ed3bceceb70db000",
+      "section_id": "8819fe3c600de8cdd30c",
+      "start": 0,
+      "end": 227,
+      "score": 0.00016219281637167373
+    },
+    {
+      "uid": "0f573f5f288fc043e6c1",
+      "text": "We adopt the seq2seq Transformer architecture BIBREF9, which includes an encoder Transformer and a decoder Transformer.",
+      "leaf_id": "a945ed3bceceb70db000",
+      "section_id": "8819fe3c600de8cdd30c",
+      "start": 228,
+      "end": 347,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "b807bc1fae3b1fea2087",
+      "text": "Both the encoder and decoder Transformers have multiple layers and each layer contains a multi-head attentive sub-layer followed by a fully connected sub-layer with residual connections BIBREF31 and layer normalization BIBREF32.",
+      "leaf_id": "a945ed3bceceb70db000",
+      "section_id": "8819fe3c600de8cdd30c",
+      "start": 348,
+      "end": 576,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "584352da3e8ae05a5495",
+      "text": "Let us use $X = (x_1, x_2, \\dots , x_{|X|})$ to denote a document and use $Y = (y_1, y_2, \\dots , y_{|Y|})$ to denote its summary.",
+      "leaf_id": "a945ed3bceceb70db000",
+      "section_id": "8819fe3c600de8cdd30c",
+      "start": 577,
+      "end": 707,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "5fc1ba02ebdf93bc6462",
+      "text": "The encoder takes the document $X$ as input and transforms it to its contextual representations.",
+      "leaf_id": "a945ed3bceceb70db000",
+      "section_id": "8819fe3c600de8cdd30c",
+      "start": 708,
+      "end": 804,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "fccfba333922c2cdddc2",
+      "text": "The decoder learns to generate the summary $Y$ one token at a time based on the contextual representations and all preceding tokens that have been generated so far: where $y_{<t}$ stands for all tokens before position $t$ (i.e., $y_{<t}=(y_1, y_2, \\dots , y_{t-1})$).",
+      "leaf_id": "a945ed3bceceb70db000",
+      "section_id": "8819fe3c600de8cdd30c",
+      "start": 805,
+      "end": 1072,
+      "score": 2.7321412520836726e-05
+    },
+    {
+      "uid": "b20f0007ea828379f35e",
+      "text": "This model can be trained by minimizing the negative log-likelihood of the training document-summary pairs.",
+      "leaf_id": "99b7e9207c9bda85eeb9",
+      "section_id": "8819fe3c600de8cdd30c",
+      "start": 1073,
+      "end": 1180,
+      "score": 5.307507822667364e-05
+    },
+    {
+      "uid": "66c507027a05de62c7c4",
+      "text": "Training a seq2seq Transformer model on a summarization dataset from scratch is difficult due to the limited number of document-summary pairs.",
+      "leaf_id": "3534a181cacb0daa4aac",
+      "section_id": "1960221026a38b2236b7",
+      "start": 0,
+      "end": 142,
+      "score": 3.8831109868779e-05
+    },
+    {
+      "uid": "616f1610006e250ee796",
+      "text": "Pre-trained Transformer encoders such as BERT BIBREF2 and RoBERTa BIBREF4 have achieved great success in many natural language understanding tasks.",
+      "leaf_id": "3534a181cacb0daa4aac",
+      "section_id": "1960221026a38b2236b7",
+      "start": 143,
+      "end": 290,
+      "score": 0.08834722695778002
+    },
+    {
+      "uid": "2c321071f8659831a6af",
+      "text": "Therefore, we first initialize the encoder of our seq2seq Transformer summarization model Step with an existing pre-trained Transformer encoder (i.e., RoBERTa) to enhance its language understanding capabilities.",
+      "leaf_id": "3534a181cacb0daa4aac",
+      "section_id": "1960221026a38b2236b7",
+      "start": 291,
+      "end": 502,
+      "score": 0.005021149947632315
+    },
+    {
+      "uid": "4a57d860d38dce6fb52b",
+      "text": "To help Step gain language generation capabilities and the abilities of associating generated text with encoder outputs, we continue to pre-train it on unlabeled text.",
+      "leaf_id": "3534a181cacb0daa4aac",
+      "section_id": "1960221026a38b2236b7",
+      "start": 503,
+      "end": 670,
+      "score": 0.007636216494667212
+    },
+    {
+      "uid": "963db9c78b2626289bab",
+      "text": "In the following, we describe our pre-training tasks.",
+      "leaf_id": "3534a181cacb0daa4aac",
+      "section_id": "1960221026a38b2236b7",
+      "start": 671,
+      "end": 724,
+      "score": 0.04778006636357074
+    },
+    {
+      "uid": "52f509d752d3f5997630",
+      "text": "A document is typically composed of multiple sentences separated by full stops.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 0,
+      "end": 79,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "423004b2e39899e01e2e",
+      "text": "In this task, we first shuffle the document by sentences and then recover the original document.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 80,
+      "end": 176,
+      "score": 0.0002396868650226788
+    },
+    {
+      "uid": "75eef743ef79281eb52e",
+      "text": "There are several reasons why we design this task.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 177,
+      "end": 227,
+      "score": 8.284655882222745e-05
+    },
+    {
+      "uid": "8678f817d7258f746005",
+      "text": "First, a summary of a document usually consists of multiple sentences.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 228,
+      "end": 298,
+      "score": 2.77516502232539e-05
+    },
+    {
+      "uid": "993cdd14e125ef71e3be",
+      "text": "We expect that Step learns to generate long and coherent summaries (across sentences).",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 299,
+      "end": 385,
+      "score": 0.00011061159714638083
+    },
+    {
+      "uid": "1520ebaf2e476e4cd928",
+      "text": "The output of the task (i.e., the original document) also contains multiple sentences.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 386,
+      "end": 472,
+      "score": 3.975192649653812e-05
+    },
+    {
+      "uid": "faf66bef8b07a8f048fb",
+      "text": "Second, sentence reordering (or content reordering) is necessary for summarization.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 473,
+      "end": 556,
+      "score": 0.002350482860025996
+    },
+    {
+      "uid": "9c6982572ea827dbce08",
+      "text": "According to the statistics on training sets of our summarization datasets, contents of the original documents are reordered in their summaries for 40% of cases.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 557,
+      "end": 718,
+      "score": 0.0003379794251899563
+    },
+    {
+      "uid": "5275d476701a978b836a",
+      "text": "We define content reordering as follows.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 719,
+      "end": 759,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "7007e314cb6a516380c7",
+      "text": "For each document-summary pair, we first map each sentence in the summary to one sentence in its paired document by maximizing the ROUGE score.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 760,
+      "end": 903,
+      "score": 6.452214729219313e-05
+    },
+    {
+      "uid": "b30f24a436c592e6c52a",
+      "text": "If the sequence of sentences in the summary is different from the sequence of their mapped sentences in the original document, we count this as one content reordering.",
+      "leaf_id": "4bc9d162c11b7c0925ed",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 904,
+      "end": 1071,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "f1566a29a23ace44ff4f",
+      "text": "Thirdly, abstractive summary requires reproducing factual details (e.g., named entities, figures) from source text.",
+      "leaf_id": "86a43bd476603310d0cc",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 1072,
+      "end": 1187,
+      "score": 0.0004092474464933876
+    },
+    {
+      "uid": "3ad5b795a6cce2796b8e",
+      "text": "We also expect Step to learn to copy tokens.",
+      "leaf_id": "86a43bd476603310d0cc",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 1188,
+      "end": 1232,
+      "score": 6.553815667339151e-05
+    },
+    {
+      "uid": "d8075962e80d062c9c64",
+      "text": "Here is a formal definition of this task.",
+      "leaf_id": "86a43bd476603310d0cc",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 1233,
+      "end": 1274,
+      "score": 2.6897844674087318e-05
+    },
+    {
+      "uid": "c1f139b4fc894877cd45",
+      "text": "Let us change the notation of a document slightly in this paragraph.",
+      "leaf_id": "86a43bd476603310d0cc",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 1275,
+      "end": 1343,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "2c26c619920219c0b7c4",
+      "text": "Let $X=(S_1, S_2, \\dots , S_m)$ denote a document, where $S_i = (w^i_1, w^i_2, \\dots , w^i_{|S_i|})$ is a sentence in it, $w^i_j$ is a word in $S_i$ and $m$ is the number of sentences. $X$ is still a sequence of tokens (by concatenating tokens in all sentences).",
+      "leaf_id": "86a43bd476603310d0cc",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 1344,
+      "end": 1606,
+      "score": 2.0462932829931794e-05
+    },
+    {
+      "uid": "6bd90475a2cca680e013",
+      "text": "Let $A=\\text{\\tt permutation}(m)=(a_1,a_2,\\dots , a_m)$ denote a permuted range of $(1, 2, \\dots , m)$ and therefore $\\hat{X}_S=(S_{a_1}, S_{a_2}, \\dots , S_{a_m})$ is the shuffled document.",
+      "leaf_id": "86a43bd476603310d0cc",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 1607,
+      "end": 1797,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "e77ea4adbeff97074278",
+      "text": "Note that $\\hat{X}_S$ is a sequence of tokens by concatenating all shuffled sentences.",
+      "leaf_id": "86a43bd476603310d0cc",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 1798,
+      "end": 1884,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "e600fab4a8c2eca82262",
+      "text": "Step can be trained on $\\langle \\hat{X}_S, X \\rangle $ pairs constructed from unlabeled documents, as demonstrated in Figure FIGREF5.",
+      "leaf_id": "62c9461f10e283d6a5c0",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 1885,
+      "end": 2018,
+      "score": 0.00010310211970688582
+    },
+    {
+      "uid": "c10758c57bfd0bcf2f31",
+      "text": "Note that document rotation is a special case of sentence reordering with significant amount of partially ordered sentences, which we believe is a simpler task.",
+      "leaf_id": "62c9461f10e283d6a5c0",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 2019,
+      "end": 2179,
+      "score": 0.0004821761556921275
+    },
+    {
+      "uid": "f7c07170a7ccf13e6019",
+      "text": "In this work, we thus only consider the general case of sentence reordering.",
+      "leaf_id": "62c9461f10e283d6a5c0",
+      "section_id": "2e2dbb62ab48774f06a0",
+      "start": 2180,
+      "end": 2256,
+      "score": 1.9073577192252488e-05
+    },
+    {
+      "uid": "a0ade63f90eb1cec07ef",
+      "text": "The second pre-training task leverages the natural order of text.",
+      "leaf_id": "13b973ff7e2dce0ea2f3",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 0,
+      "end": 65,
+      "score": 0.29655238466488915
+    },
+    {
+      "uid": "182e19aba2294fd36351",
+      "text": "Next Sentence Generation (NSG) uses one span of text in a document to predict its next span of text, as shown in Figure FIGREF5.",
+      "leaf_id": "13b973ff7e2dce0ea2f3",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 66,
+      "end": 194,
+      "score": 6.814872211615988e-05
+    },
+    {
+      "uid": "428edb2fea8584b0673d",
+      "text": "Specifically, we split a document into two segments (i.e., $G_1$ and $G_2$).",
+      "leaf_id": "13b973ff7e2dce0ea2f3",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 195,
+      "end": 271,
+      "score": 2.212566909570261e-05
+    },
+    {
+      "uid": "854373100d48910c4907",
+      "text": "Note that each segment might contain multiple sentences, which fits the document summarization task very well, since either a document or its summary usually includes multiple sentences.",
+      "leaf_id": "13b973ff7e2dce0ea2f3",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 272,
+      "end": 458,
+      "score": 0.0007208380258812108
+    },
+    {
+      "uid": "a6da6a57cc4f6cb78860",
+      "text": "Intuitively, in a document, sentences are highly correlated with their preceding sentences due to the context dependent nature of documents or language.",
+      "leaf_id": "13b973ff7e2dce0ea2f3",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 459,
+      "end": 611,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "0092bcc60339448b35e4",
+      "text": "We intend our model to learn to generate multiple sentences and also learn to focus on preceding context.",
+      "leaf_id": "13b973ff7e2dce0ea2f3",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 612,
+      "end": 717,
+      "score": 0.00014539114412297376
+    },
+    {
+      "uid": "d1835c03240943b4e364",
+      "text": "We have at least two options for the splitting position of the two segments.",
+      "leaf_id": "13b973ff7e2dce0ea2f3",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 718,
+      "end": 794,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "25aa917d96cc4cdeb006",
+      "text": "Option one: the position right after a full-stop symbol (such as period, question mark, etc.) is selected as the splitting point, which ensures full sentences for each segment.",
+      "leaf_id": "13b973ff7e2dce0ea2f3",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 795,
+      "end": 971,
+      "score": 0.00023231418862275664
+    },
+    {
+      "uid": "46e0492a8a6e84455943",
+      "text": "Option two: the splitting point can be at any position within the document.",
+      "leaf_id": "13b973ff7e2dce0ea2f3",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 972,
+      "end": 1047,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "cbad99113f1cd3fab9b2",
+      "text": "We choose the second option, which may lead to incomplete sentences in segments.",
+      "leaf_id": "1f91f59b64e4e161a2be",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 1048,
+      "end": 1128,
+      "score": 4.5397868702434395e-05
+    },
+    {
+      "uid": "ae26652a4c6a05b18063",
+      "text": "We intend to force the encoder and decoder to understand input text without complete information, which we believe is more challenging compared to option one.",
+      "leaf_id": "1f91f59b64e4e161a2be",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 1129,
+      "end": 1287,
+      "score": 3.2444813913887076e-05
+    },
+    {
+      "uid": "f39503686965f586f59f",
+      "text": "Besides, as a common wisdom in abstractive summarization, documents are truncated to a fixed number of tokens, which may also contain incomplete sentences.",
+      "leaf_id": "1f91f59b64e4e161a2be",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 1288,
+      "end": 1443,
+      "score": 3.426849054255501e-05
+    },
+    {
+      "uid": "b25ce9373478992c6842",
+      "text": "We use option two to reduce the pre-training and fine-tuning input mismatch.",
+      "leaf_id": "1f91f59b64e4e161a2be",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 1444,
+      "end": 1520,
+      "score": 0.01052971212461742
+    },
+    {
+      "uid": "71942c003dc5481a3fbb",
+      "text": "In this task, we train the model Step on large amount of $\\langle G_1, G_2\\rangle $ pairs constructed following the option two splitting strategy.",
+      "leaf_id": "1f91f59b64e4e161a2be",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 1521,
+      "end": 1667,
+      "score": 0.0001559802763374382
+    },
+    {
+      "uid": "73a9e7fbb3df6ea15b5c",
+      "text": "Next sentence prediction has been used in skip-thought vectors BIBREF33.",
+      "leaf_id": "1f91f59b64e4e161a2be",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 1668,
+      "end": 1740,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "5b7d4f27b951895ca753",
+      "text": "There are two differences.",
+      "leaf_id": "1f91f59b64e4e161a2be",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 1741,
+      "end": 1767,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "f441e26d22f231708e8a",
+      "text": "First, each segment in their model only has one sentence; second, they use this task to pre-train an encoder rather than an entire seq2seq model.",
+      "leaf_id": "1f91f59b64e4e161a2be",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 1768,
+      "end": 1913,
+      "score": 0.057705316146563324
+    },
+    {
+      "uid": "7cdee327c06c83459305",
+      "text": "BIBREF2 introduced a task named next sentence prediction (NSP), which is different from this task.",
+      "leaf_id": "1f91f59b64e4e161a2be",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 1914,
+      "end": 2012,
+      "score": 0.0003125878098696676
+    },
+    {
+      "uid": "b16b6aa3e93f64349651",
+      "text": "NSP is a classification task, but NSG is a generation task, which intends to pre-train a generation model.",
+      "leaf_id": "1efb521bf88b01b447b1",
+      "section_id": "705d4af17c457a1e1865",
+      "start": 2013,
+      "end": 2119,
+      "score": 0.13072868194347034
+    },
+    {
+      "uid": "4f256871aa58128e250a",
+      "text": "The third task we consider is Masked Document Generation (MDG) that learns to recover a document with a masked span of tokens (see Figure FIGREF5).",
+      "leaf_id": "2eb986481c875dddae07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 0,
+      "end": 147,
+      "score": 0.04603390239924038
+    },
+    {
+      "uid": "fb7c098e79b4d93f4c0c",
+      "text": "For simplicity, a document consisting of a sequence of tokens is denoted as $X=(x_1, x_2, \\cdots , x_{|X|})$.",
+      "leaf_id": "2eb986481c875dddae07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 148,
+      "end": 257,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "d60633e7c923be3aa4d5",
+      "text": "We randomly sample the length of the span $l$ from a discrete uniform distribution $\\mathcal {U}(a, b)$ and the span start position $k$ from another discrete uniform distribution $\\mathcal {U}(1, |X|-l+1)$ (see Section SECREF4 for more details).",
+      "leaf_id": "2eb986481c875dddae07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 258,
+      "end": 503,
+      "score": 2.4682904407607285e-05
+    },
+    {
+      "uid": "e63346201999daa9e1bc",
+      "text": "Thus, $\\mathcal {M}=(x_k, x_{k+1}, \\cdots , x_{k+l-1})$ is the text span to be masked.",
+      "leaf_id": "2eb986481c875dddae07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 504,
+      "end": 590,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "a5955ddb53fe4204aa4e",
+      "text": "One straightforward masking strategy is to replace each token residing in $\\mathcal {M}$ with a special [MASK] token.",
+      "leaf_id": "2eb986481c875dddae07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 591,
+      "end": 708,
+      "score": 1.9679025610662346e-05
+    },
+    {
+      "uid": "497e508a467a07cd536e",
+      "text": "However, we refrain from doing so because of the following three reasons.",
+      "leaf_id": "2eb986481c875dddae07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 709,
+      "end": 782,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "ff1cea6042dbbe6c7404",
+      "text": "Usually, [MASK] tokens will not appear in downstream tasks.",
+      "leaf_id": "2eb986481c875dddae07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 783,
+      "end": 842,
+      "score": 1.8925148246037342e-05
+    },
+    {
+      "uid": "86581a937d2ac9e1698d",
+      "text": "Second, entirely masking a continuous sub-sequence of $X$ may make the whole document incomprehensible, which might be too challenging for our model to learn.",
+      "leaf_id": "2eb986481c875dddae07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 843,
+      "end": 1001,
+      "score": 2.01456908529364e-05
+    },
+    {
+      "uid": "ab956b8537b30ca89d0e",
+      "text": "Third, similar to SR, avoiding replacing every token with [MASK] also helps our model learn the ability of copying tokens from the input while preserving the ability of generating novel tokens.",
+      "leaf_id": "34d77002f4caae03cb07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 1002,
+      "end": 1195,
+      "score": 0.0014269596332777224
+    },
+    {
+      "uid": "36e1148f5f5f85f23436",
+      "text": "In the sub-sequence $\\mathcal {M}$, each token is processed with one of the three strategies: 1) replaced with the [MASK] token; 2) replaced with a random token; 3) remain unchanged.",
+      "leaf_id": "34d77002f4caae03cb07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 1196,
+      "end": 1378,
+      "score": 0.00010071400221737607
+    },
+    {
+      "uid": "94301718581055f83254",
+      "text": "Inspired by BERT BIBREF2, for 80% tokens, we follow strategy 1).",
+      "leaf_id": "34d77002f4caae03cb07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 1379,
+      "end": 1443,
+      "score": 4.006369222920724e-05
+    },
+    {
+      "uid": "51ef7b73365ba4ff14ea",
+      "text": "In 10% of cases, we employ strategy 2) and we use strategy 3) for the remaining 10% of cases.",
+      "leaf_id": "34d77002f4caae03cb07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 1444,
+      "end": 1537,
+      "score": 0.0001740054355270893
+    },
+    {
+      "uid": "fdc779ae94609cc2bfc0",
+      "text": "Let $\\hat{X}_M$ denote the document after the application of our masking strategy.",
+      "leaf_id": "34d77002f4caae03cb07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 1538,
+      "end": 1620,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "5a26ffeef55518457f1d",
+      "text": "We could create infinite amount of $\\langle \\hat{X}_M,X\\rangle $ pairs to train Step.",
+      "leaf_id": "34d77002f4caae03cb07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 1621,
+      "end": 1706,
+      "score": 0.00018667821557931117
+    },
+    {
+      "uid": "e3b444f28a0121b01694",
+      "text": "During pre-training, we could also employ all the three tasks (i.e., SR, NSG, MDG) together.",
+      "leaf_id": "34d77002f4caae03cb07",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 1707,
+      "end": 1799,
+      "score": 0.9571177628369031
+    },
+    {
+      "uid": "1ce97807204e21912b38",
+      "text": "For each training batch, we randomly choose one task and each task is used for $1/3$ of the time.",
+      "leaf_id": "dd4a2c0e2eb453fffb37",
+      "section_id": "27bde3b5b9316454e8b5",
+      "start": 1800,
+      "end": 1897,
+      "score": 0.0012793074828344202
+    },
+    {
+      "uid": "fbb58df1ead32dc2293b",
+      "text": "After pre-training Step with the three tasks introduced in Section SECREF9, we fine-tune the model on abstractive document summarization datasets.",
+      "leaf_id": "3b5e397b92e3f9a95002",
+      "section_id": "c822413a50c6a5d7977c",
+      "start": 0,
+      "end": 146,
+      "score": 0.36590972416905576
+    },
+    {
+      "uid": "d5205aae3d2d51f749bb",
+      "text": "The fine-tuning process is straightforward.",
+      "leaf_id": "3b5e397b92e3f9a95002",
+      "section_id": "c822413a50c6a5d7977c",
+      "start": 147,
+      "end": 190,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "702efcedb24be55383a2",
+      "text": "We simply continue to train Step on the supervised document-summary pairs.",
+      "leaf_id": "3b5e397b92e3f9a95002",
+      "section_id": "c822413a50c6a5d7977c",
+      "start": 191,
+      "end": 265,
+      "score": 9.610241549947396e-05
+    },
+    {
+      "uid": "d5f7a3cbe63b4bdefcae",
+      "text": "Similar to other seq2seq summarization models, we do beam search during the generation of summaries.",
+      "leaf_id": "3b5e397b92e3f9a95002",
+      "section_id": "c822413a50c6a5d7977c",
+      "start": 266,
+      "end": 366,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "4d839ff532fa0a5b636e",
+      "text": "In this section, we present the experimental setup for evaluating our summarization models.",
+      "leaf_id": "75b98ea848a9876c9fdb",
+      "section_id": "37f3311753db9752e330",
+      "start": 0,
+      "end": 91,
+      "score": 1.9073577192252488e-05
+    },
+    {
+      "uid": "317796e450d28a6e5dc9",
+      "text": "We first introduce the datasets used for our experiments.",
+      "leaf_id": "75b98ea848a9876c9fdb",
+      "section_id": "37f3311753db9752e330",
+      "start": 92,
+      "end": 149,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "4a5af3c011f76e656be2",
+      "text": "Then we describe training details of our models as well as our evaluation protocols.",
+      "leaf_id": "75b98ea848a9876c9fdb",
+      "section_id": "37f3311753db9752e330",
+      "start": 150,
+      "end": 234,
+      "score": 0.00013342001090985438
+    },
+    {
+      "uid": "effbe5023e797b6f099e",
+      "text": "We assess the summarization performance of our models on two benchmark datasets: the CNN/DailyMail (CNNDM) dataset BIBREF34, BIBREF11 and the New York Times (NYT) dataset BIBREF35.",
+      "leaf_id": "e7d3290fc8d5806aae9e",
+      "section_id": "1c2384f7bf2e695144d9",
+      "start": 0,
+      "end": 180,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "4e1b7ec3a73493fc0c8c",
+      "text": "We pre-train our models on the GIGA-CM dataset introduced in zhang-etal-2019-hibert.",
+      "leaf_id": "e7d3290fc8d5806aae9e",
+      "section_id": "1c2384f7bf2e695144d9",
+      "start": 181,
+      "end": 265,
+      "score": 0.0014269596332777224
+    },
+    {
+      "uid": "73a359540ba28a2808a0",
+      "text": "CNNDM contains news articles and their associated highlights (i.e., summaries) collected from the CNN and Daily Mail Online websites.",
+      "leaf_id": "3e6a36e1e247c125d4f6",
+      "section_id": "939ee5d2362dcc5604bd",
+      "start": 0,
+      "end": 133,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "b9d20aec9bb1b52cced8",
+      "text": "Following previous work BIBREF11, BIBREF22, BIBREF23, we use the non-anonymized version of CNNDM.",
+      "leaf_id": "3e6a36e1e247c125d4f6",
+      "section_id": "939ee5d2362dcc5604bd",
+      "start": 134,
+      "end": 231,
+      "score": 0.0001941131867789626
+    },
+    {
+      "uid": "4d701798509f5512d460",
+      "text": "Specifically, we preprocess the dataset with the publicly available scripts provided by see2017get and obtain 287,226 document-summary pairs for training, 13,368 for validation and 11,490 for test.",
+      "leaf_id": "3e6a36e1e247c125d4f6",
+      "section_id": "939ee5d2362dcc5604bd",
+      "start": 232,
+      "end": 429,
+      "score": 0.0002234163601827719
+    },
+    {
+      "uid": "1e0850db2f8524ce7774",
+      "text": "The NYT dataset is a collection of articles along with multi-sentence summaries written by library scientists.",
+      "leaf_id": "57d76612cd5682a212c8",
+      "section_id": "1e649f793bb21f3d0820",
+      "start": 0,
+      "end": 110,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "9f167d4791b5aac942e1",
+      "text": "We closely follow the preprocessing procedures described in durrett2016learning and liu2019text.",
+      "leaf_id": "57d76612cd5682a212c8",
+      "section_id": "1e649f793bb21f3d0820",
+      "start": 111,
+      "end": 207,
+      "score": 8.220189478350844e-05
+    },
+    {
+      "uid": "c23b2bc7fe3610dd8d3f",
+      "text": "The test set is constructed by including all articles published on January 1, 2017 or later, which contains 9,076 articles.",
+      "leaf_id": "57d76612cd5682a212c8",
+      "section_id": "1e649f793bb21f3d0820",
+      "start": 208,
+      "end": 331,
+      "score": 3.6478537675800285e-05
+    },
+    {
+      "uid": "4a6ed9b0d48381fdf417",
+      "text": "The remaining 100,834 articles are split into a training set of 96,834 examples and a validation set of 4,000 examples.",
+      "leaf_id": "57d76612cd5682a212c8",
+      "section_id": "1e649f793bb21f3d0820",
+      "start": 332,
+      "end": 451,
+      "score": 3.734356896287336e-05
+    },
+    {
+      "uid": "120cbf9e4c40d82216c1",
+      "text": "As in BIBREF36, we also remove articles whose summaries contain less than 50 words from the test set, and the resulting test set contains 3,452 examples.",
+      "leaf_id": "57d76612cd5682a212c8",
+      "section_id": "1e649f793bb21f3d0820",
+      "start": 452,
+      "end": 605,
+      "score": 4.037790297412686e-05
+    },
+    {
+      "uid": "37cdf74fa9dc878ff845",
+      "text": "To pre-train our model with the tasks introduced in Section SECREF9, following the procedures in BIBREF22, we created the GIGA-CM dataset, which contains only unlabeled documents.",
+      "leaf_id": "7698c91148f684521034",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 0,
+      "end": 179,
+      "score": 0.052521674709736586
+    },
+    {
+      "uid": "bbcd1f97ae26916d8777",
+      "text": "The training set of GIGA-CM is composed of 6,521,658 documents sampled from the English Gigaword dataset and the training documents in CNNDM.",
+      "leaf_id": "7698c91148f684521034",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 180,
+      "end": 321,
+      "score": 2.3187477504664322e-05
+    },
+    {
+      "uid": "cc66446829706c5e84b5",
+      "text": "We used the 13,368 documents in the validation split of CNNDM as its validation set.",
+      "leaf_id": "7698c91148f684521034",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 322,
+      "end": 406,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "e5a5505e691733745793",
+      "text": "Note that the Gigaword dataset overlaps with the NYT dataset and we therefore exclude the test set of NYT from the training set of GIGA-CM.",
+      "leaf_id": "7698c91148f684521034",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 407,
+      "end": 546,
+      "score": 5.307507822667364e-05
+    },
+    {
+      "uid": "13f7f568551c5d5a2efa",
+      "text": "For CNNDM, NYT and GIGA-CM datasets, we segment and tokenize documents and/or summaries (GIGA-CM only contains documents) using the Stanford CoreNLP toolkit BIBREF37.",
+      "leaf_id": "7698c91148f684521034",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 547,
+      "end": 713,
+      "score": 2.265035233314773e-05
+    },
+    {
+      "uid": "deaec8843e1db45e868e",
+      "text": "To reduce the vocabulary size, we further apply the UTF8 based BPE BIBREF38 introduced in GPT-2 BIBREF39 to all datasets.",
+      "leaf_id": "7698c91148f684521034",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 714,
+      "end": 835,
+      "score": 2.2474089854291754e-05
+    },
+    {
+      "uid": "58e70b91d62f43336150",
+      "text": "As a common wisdom in abstractive summarization, documents and summaries in CNNDM and NYT are usually truncated to 512 and 256 tokens, respectively.",
+      "leaf_id": "7698c91148f684521034",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 836,
+      "end": 984,
+      "score": 2.77516502232539e-05
+    },
+    {
+      "uid": "7ab74900c990d29f702c",
+      "text": "We leverage unlabeled documents differently for different pre-training tasks (see Section SECREF9).",
+      "leaf_id": "7fe519fa3c2f2999e2a0",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 985,
+      "end": 1084,
+      "score": 0.01691491326672651
+    },
+    {
+      "uid": "fecdaee7e15838c34ca6",
+      "text": "We first split each document into 512 token segments if it contains more than 512 tokens (segments or documents with less than 512 tokens are removed).",
+      "leaf_id": "7fe519fa3c2f2999e2a0",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 1085,
+      "end": 1236,
+      "score": 2.0623422291335766e-05
+    },
+    {
+      "uid": "f90a36b59afc492594d5",
+      "text": "In Sentence Reordering (SR) and Masked Document Generation (MDG), we use the segment after transformation to predict the original segment.",
+      "leaf_id": "7fe519fa3c2f2999e2a0",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 1237,
+      "end": 1375,
+      "score": 0.00020184421628825368
+    },
+    {
+      "uid": "90f2a004d09cb026604e",
+      "text": "We set the minimum masked length $a=100$ and the maximum masked length $b=256$ in MDG.",
+      "leaf_id": "7fe519fa3c2f2999e2a0",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 1376,
+      "end": 1462,
+      "score": 2.1613139600748423e-05
+    },
+    {
+      "uid": "9375edb4c8befd8717b2",
+      "text": "In Next Sentence Generation (NSG), each segment is used to predict its next 256 tokens.",
+      "leaf_id": "7fe519fa3c2f2999e2a0",
+      "section_id": "a6c99cbd08fdb211d38e",
+      "start": 1463,
+      "end": 1550,
+      "score": 5.225226840386987e-05
+    },
+    {
+      "uid": "ff0cbb79290aaced25ef",
+      "text": "As mentioned in Section SECREF3, our model is a Seq2Seq Transformer model BIBREF9.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 0,
+      "end": 82,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "709e5a122a2a69cb39ce",
+      "text": "The encoder is initialized with the $\\text{RoBERTa}_{\\text{LARGE}}$ model BIBREF4, and therefore they share the same architecture.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 83,
+      "end": 213,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "e7ae1bcaf041066add40",
+      "text": "Specifically, the encoder is a 24-layer Transformer.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 214,
+      "end": 266,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "82409b24d3129af89a94",
+      "text": "Each layer has 16 attention heads and its hidden size and feed-forward filter size are 1,024 and 4,096, respectively.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 267,
+      "end": 384,
+      "score": 1.9988918976691774e-05
+    },
+    {
+      "uid": "9c939981d371cb113a5d",
+      "text": "The decoder is shallower with 6 layers.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 385,
+      "end": 424,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "6c50f566d0aba31b1a43",
+      "text": "The hidden size and number of attention head of the decoder are identical to these of the encoder, but the feed-forward filter size is 2,048.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 425,
+      "end": 566,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "ef06a4852bb53bf8cea0",
+      "text": "We use a smaller filter size in the decoder to reduce the computational and memory cost.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 567,
+      "end": 655,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "fc921bfcd593d7ad4ced",
+      "text": "The dropout rates of all layers in the encoder are set to 0.1 and all dropout rates in the decoder are set to 0.3.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 656,
+      "end": 770,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "7d6f906e042b9125cbc4",
+      "text": "Our models are optimized using Adam BIBREF40 with $\\beta _1=0.9$, $\\beta _2=0.98$.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 771,
+      "end": 853,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "f66b0f4963cb432708e5",
+      "text": "The other optimization hyper-parameters for pre-training and fine-tuning are different.",
+      "leaf_id": "6a742ea8424dca8c95a9",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 854,
+      "end": 941,
+      "score": 0.002856012525852807
+    },
+    {
+      "uid": "cc2388385fcf1720bdc3",
+      "text": "In the pre-training stage, the encoder is initialized with a pre-trained model while the decoder is randomly initialized.",
+      "leaf_id": "89169755d9bfe9fcc511",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 942,
+      "end": 1063,
+      "score": 0.014447852533602465
+    },
+    {
+      "uid": "decf12c4bc804d38def4",
+      "text": "Therefore, we used two separate optimizers for the encoder and decoder with a smaller learning rate for the encoder optimizer.",
+      "leaf_id": "89169755d9bfe9fcc511",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1064,
+      "end": 1190,
+      "score": 1.8925148246037342e-05
+    },
+    {
+      "uid": "dd22bbc8918efa98f4ef",
+      "text": "Learning rates of the encoder and decoder are set to $2e-5$ and $1e-4$ with 10,000 warmup steps, respectively.",
+      "leaf_id": "89169755d9bfe9fcc511",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1191,
+      "end": 1301,
+      "score": 0.0004955359475635505
+    },
+    {
+      "uid": "adb2c5799deaffc58bf4",
+      "text": "We also adopted the same learning rate schedule strategies as BIBREF9.",
+      "leaf_id": "89169755d9bfe9fcc511",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1302,
+      "end": 1372,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "b57b5d948e33cb279034",
+      "text": "We used smaller batch sizes for datasets with less examples (i.e., 1,024 for GIGA-CM, 256 for CNNDM and 128 for NYT) to ensure each epoch has sufficient number of model updates.",
+      "leaf_id": "89169755d9bfe9fcc511",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1373,
+      "end": 1550,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "803836bebcb0ec7654ba",
+      "text": "We trained our models until their convergence of validation perplexities (around 30 epochs on GIGA-CM, 60 epochs on CNNDM and 40 epochs on NYT).",
+      "leaf_id": "89169755d9bfe9fcc511",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1551,
+      "end": 1695,
+      "score": 3.508111586796275e-05
+    },
+    {
+      "uid": "6792e1d456159895189d",
+      "text": "One epoch on GIGA-CM takes around 24 hours with 8 Nvidia Tesla V100 GPUs.",
+      "leaf_id": "89169755d9bfe9fcc511",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1696,
+      "end": 1769,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "1dc591623ad8ab0c8fec",
+      "text": "The time costs for different pre-training tasks are close.",
+      "leaf_id": "89169755d9bfe9fcc511",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1770,
+      "end": 1828,
+      "score": 0.023065226516949835
+    },
+    {
+      "uid": "8206b30fb25dece310b3",
+      "text": "Most of the hyper-parameters in the fine-tuning stage are the same as these in the pre-training stage.",
+      "leaf_id": "ceeeeb9d88f4865ab4d7",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1829,
+      "end": 1931,
+      "score": 0.007907291504628556
+    },
+    {
+      "uid": "313fc2883623155cf300",
+      "text": "The differences are as follows.",
+      "leaf_id": "ceeeeb9d88f4865ab4d7",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1932,
+      "end": 1963,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "87602d3704c36dd93cdc",
+      "text": "The learning rates for both the encoder and decoder are set to $2e-5$ with 4,000 warmup steps, since both the encoder and decoder are already pre-trained.",
+      "leaf_id": "ceeeeb9d88f4865ab4d7",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 1964,
+      "end": 2118,
+      "score": 0.008677716704989246
+    },
+    {
+      "uid": "713984fd5b029feddee2",
+      "text": "We trained our models for 50 epochs (saved per epoch) and selected the best model w.r.t.",
+      "leaf_id": "ceeeeb9d88f4865ab4d7",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 2119,
+      "end": 2207,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "51fea1f8b049eea62102",
+      "text": "ROUGE score on the validation set .",
+      "leaf_id": "ceeeeb9d88f4865ab4d7",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 2208,
+      "end": 2243,
+      "score": 1.7640200515540418e-05
+    },
+    {
+      "uid": "f38a11339395d52e05b5",
+      "text": "During decoding, we applied beam search with beam size of 5.",
+      "leaf_id": "ceeeeb9d88f4865ab4d7",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 2244,
+      "end": 2304,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "9328fad45d28d0fa9f48",
+      "text": "Following BIBREF26, we also blocked repeating trigrams during beam search and tuned the minimum summary length on the validation set.",
+      "leaf_id": "ceeeeb9d88f4865ab4d7",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 2305,
+      "end": 2438,
+      "score": 4.264746818557913e-05
+    },
+    {
+      "uid": "f4d330ef07a8932cf089",
+      "text": "Similar to the pre-training process, the datasets with less instances were fine-tuned with smaller batch size (i.e., 768 for CNNDM and 64 for NYT).",
+      "leaf_id": "ceeeeb9d88f4865ab4d7",
+      "section_id": "0f5042ac5b5760e2d81d",
+      "start": 2439,
+      "end": 2586,
+      "score": 0.003945406806602022
+    },
+    {
+      "uid": "d05b3ef227f86cc9c7ba",
+      "text": "We used ROUGE BIBREF41 to measure the quality of different summarization model outputs.",
+      "leaf_id": "5d537ba4e505be16242e",
+      "section_id": "60853c8c6857a2c83177",
+      "start": 0,
+      "end": 87,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "157cc5800e2292717f1e",
+      "text": "We reported full-length F1 based ROUGE-1, ROUGE-2 and ROUGE-L scores on CNNDM, while we used the limited-length recall based ROUGE-1, ROUGE-2 and ROUGE-L on NYT following BIBREF36.",
+      "leaf_id": "5d537ba4e505be16242e",
+      "section_id": "60853c8c6857a2c83177",
+      "start": 88,
+      "end": 268,
+      "score": 7.662101864956481e-05
+    },
+    {
+      "uid": "72a51f0473973fd08eb1",
+      "text": "The ROUGE scores are computed using the ROUGE-1.5.5.pl script.",
+      "leaf_id": "5d537ba4e505be16242e",
+      "section_id": "60853c8c6857a2c83177",
+      "start": 269,
+      "end": 331,
+      "score": 1.848675576370609e-05
+    },
+    {
+      "uid": "c4f8fe2564433b0e2b4d",
+      "text": "Since summaries generated by abstractive models may produce disfluent or ungrammatical outputs, we also evaluated abstractive systems by eliciting human judgements.",
+      "leaf_id": "5d537ba4e505be16242e",
+      "section_id": "60853c8c6857a2c83177",
+      "start": 332,
+      "end": 496,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "33e6799362c11978dbf2",
+      "text": "Following previous work BIBREF15, BIBREF17, 20 documents are randomly sampled from the test split of CNNDM.",
+      "leaf_id": "5d537ba4e505be16242e",
+      "section_id": "60853c8c6857a2c83177",
+      "start": 497,
+      "end": 604,
+      "score": 7.722191834067996e-05
+    },
+    {
+      "uid": "1e4469c363eaa2be8df9",
+      "text": "Participants are presented with a document and a list of outputs generated by different abstractive summarization systems.",
+      "leaf_id": "5d537ba4e505be16242e",
+      "section_id": "60853c8c6857a2c83177",
+      "start": 605,
+      "end": 727,
+      "score": 2.526822782693578e-05
+    },
+    {
+      "uid": "726541b60b8d3239d76f",
+      "text": "Then they are asked to rank the outputs according to informativeness (does the summary capture the informative part of the document?), fluency (is the summary grammatical?), and succinctness (does the summary express the document clearly in a few words?)",
+      "leaf_id": "5d537ba4e505be16242e",
+      "section_id": "60853c8c6857a2c83177",
+      "start": 728,
+      "end": 982,
+      "score": 5.1845659107128626e-05
+    },
+    {
+      "uid": "440722926c82913cda85",
+      "text": "The results on the CNNDM are summarized in Table TABREF25.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 0,
+      "end": 58,
+      "score": 5.605828752595003e-05
+    },
+    {
+      "uid": "437b5fd692164a87e9ea",
+      "text": "The first and second blocks show results of previous extractive and abstractive models, respectively.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 59,
+      "end": 160,
+      "score": 3.426849054255501e-05
+    },
+    {
+      "uid": "0fab2a483a4a0afcb5ed",
+      "text": "Results of Step are all listed in the third block.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 161,
+      "end": 211,
+      "score": 0.0002148592528014818
+    },
+    {
+      "uid": "83aefe3424e166dea771",
+      "text": "Lead3 is a baseline which simply takes the first three sentences of a document as its summary.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 212,
+      "end": 306,
+      "score": 0.00013032974249234988
+    },
+    {
+      "uid": "705e836657a3c1282be4",
+      "text": "BERTExt BIBREF23 is an extractive model fine-tuning on BERT BIBREF2 that outperforms other extractive systems.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 307,
+      "end": 417,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "f562ac95457a93627aa1",
+      "text": "PTGen BIBREF11, DRM BIBREF26, and DCA BIBREF42 are sequence-to-sequence learning based models extended with copy and coverage mechanism, reinforcement learning, and deep communicating agents individually.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 418,
+      "end": 622,
+      "score": 3.6478537675800285e-05
+    },
+    {
+      "uid": "d7a6a003939d9d3f0e34",
+      "text": "BottomUp BIBREF29 assisted summary generation with a word prediction model.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 623,
+      "end": 698,
+      "score": 4.331903899346328e-05
+    },
+    {
+      "uid": "d6d706446a4175261e55",
+      "text": "BERTAbs BIBREF23 and UniLM BIBREF43 are both pre-training based seq2seq summarization models.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 699,
+      "end": 792,
+      "score": 0.002406088839117293
+    },
+    {
+      "uid": "b41b5021ee153268cb5c",
+      "text": "We also implemented three abstractive models as our baselines.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 793,
+      "end": 855,
+      "score": 7.484622751061123e-05
+    },
+    {
+      "uid": "e8b5c827717ad12829ee",
+      "text": "Transformer-S2S is 6-layer seq2seq Transformer BIBREF9 with random initialization.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 856,
+      "end": 938,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "370f9a3fab9e3bfcf258",
+      "text": "When we replaced the encoder of Transformer-S2S with $\\text{RoBERTa}_\\text{BASE}$ BIBREF4, $\\text{RoBERTa}_\\text{BASE}$-S2S outperforms Transformer-S2S by nearly 2 ROUGE, which demonstrates the effectiveness of pre-trained models.",
+      "leaf_id": "6f893dd1c31e06f893cd",
+      "section_id": "b4369afed967049c702b",
+      "start": 939,
+      "end": 1169,
+      "score": 0.004485794577039704
+    },
+    {
+      "uid": "e6033a6244d5248921fe",
+      "text": "With even larger pre-trained model $\\text{RoBERTa}_\\text{LARGE}$, $\\text{RoBERTa}$-S2S is comparable with the best published abstractive model UniLM BIBREF43.",
+      "leaf_id": "c3f8e0f99172f81ebe6c",
+      "section_id": "b4369afed967049c702b",
+      "start": 1170,
+      "end": 1328,
+      "score": 0.005343255956149592
+    },
+    {
+      "uid": "dbfd55ce473ab30c8260",
+      "text": "Based on $\\text{RoBERTa}$-S2S (the sizes of Step and $\\text{RoBERTa}$-S2S are identical), we study the effect of different pre-training tasks (see Section SECREF9).",
+      "leaf_id": "c3f8e0f99172f81ebe6c",
+      "section_id": "b4369afed967049c702b",
+      "start": 1329,
+      "end": 1493,
+      "score": 0.08240150306085739
+    },
+    {
+      "uid": "07886b37b6ea75409f5a",
+      "text": "We first pre-train Step on unlabeled documents of CNNDM training split to get quick feedback, denoted as Step (in-domain).",
+      "leaf_id": "c3f8e0f99172f81ebe6c",
+      "section_id": "b4369afed967049c702b",
+      "start": 1494,
+      "end": 1616,
+      "score": 0.01307078477418707
+    },
+    {
+      "uid": "909fbe29f18af60a2fa9",
+      "text": "From the top part of the third block in Table TABREF25, we can see that Sentence Reordering (SR), Next Sentence Generation (NSG) and Masked Document Generation (MDG) can all improve $\\text{RoBERTa}$-S2S significantly measured by the ROUGE script.",
+      "leaf_id": "c3f8e0f99172f81ebe6c",
+      "section_id": "b4369afed967049c702b",
+      "start": 1617,
+      "end": 1863,
+      "score": 0.0012693644703670255
+    },
+    {
+      "uid": "4981ecd7ae01c26aa540",
+      "text": "Note that according to the ROUGE script, $\\pm 0.22$ ROUGE almost always means a significant difference with $p < 0.05$.",
+      "leaf_id": "c3f8e0f99172f81ebe6c",
+      "section_id": "b4369afed967049c702b",
+      "start": 1864,
+      "end": 1983,
+      "score": 2.1112482331487176e-05
+    },
+    {
+      "uid": "c5c622c7e67a7cde7acc",
+      "text": "Interesting, even Step is pre-trained on 230 million words, it outperforms UniLM that is pre-trained on 3,000 million words BIBREF43.",
+      "leaf_id": "b22f46cb8560c69f0572",
+      "section_id": "b4369afed967049c702b",
+      "start": 1984,
+      "end": 2117,
+      "score": 0.011597361823632971
+    },
+    {
+      "uid": "6f0fb00053c804177115",
+      "text": "When we pre-train Step on even larger dataset (i.e., GIGA-CM), the results are further improved and Step outperforms all models in comparison, as listed in the bottom part of Table TABREF25.",
+      "leaf_id": "b22f46cb8560c69f0572",
+      "section_id": "b4369afed967049c702b",
+      "start": 2118,
+      "end": 2308,
+      "score": 0.012673735693033067
+    },
+    {
+      "uid": "d407bad80ef3124a8fa0",
+      "text": "Table TABREF26 presents results on NYT dataset.",
+      "leaf_id": "b22f46cb8560c69f0572",
+      "section_id": "b4369afed967049c702b",
+      "start": 2309,
+      "end": 2356,
+      "score": 1.8342893327886845e-05
+    },
+    {
+      "uid": "7aa16c0540b08e4d7af9",
+      "text": "Following the same evaluation protocol as BIBREF36, we adopted the limited-length recall based ROUGE, where we truncated the predicted summaries to the length of the gold ones.",
+      "leaf_id": "b22f46cb8560c69f0572",
+      "section_id": "b4369afed967049c702b",
+      "start": 2357,
+      "end": 2533,
+      "score": 7.54332094672397e-05
+    },
+    {
+      "uid": "91ae62f8979ce616ec9f",
+      "text": "Again, the first and second blocks show results of previous extractive and abstractive models, respectively.",
+      "leaf_id": "b22f46cb8560c69f0572",
+      "section_id": "b4369afed967049c702b",
+      "start": 2534,
+      "end": 2642,
+      "score": 3.705296977158347e-05
+    },
+    {
+      "uid": "969c500c24a1201bdc29",
+      "text": "Results of Step are listed in the third block.",
+      "leaf_id": "b22f46cb8560c69f0572",
+      "section_id": "b4369afed967049c702b",
+      "start": 2643,
+      "end": 2689,
+      "score": 0.0001647465607888151
+    },
+    {
+      "uid": "8f4b6fa97e50d53f3e4f",
+      "text": "Similar to the trends in CNNDM, Step leads significant performance gains (with $p<0.05$) compared to all other models in Table TABREF26.",
+      "leaf_id": "b22f46cb8560c69f0572",
+      "section_id": "b4369afed967049c702b",
+      "start": 2690,
+      "end": 2826,
+      "score": 0.00041406952838583545
+    },
+    {
+      "uid": "68bc36643d77ba78d665",
+      "text": "Among all three pre-training tasks, SR works slightly better than the other two tasks (i.e., NSG and MDG).",
+      "leaf_id": "0f39a4bdd675aaa4b862",
+      "section_id": "b4369afed967049c702b",
+      "start": 2827,
+      "end": 2933,
+      "score": 0.979706514428458
+    },
+    {
+      "uid": "d8286401bfe2e23afd6e",
+      "text": "We also tried to randomly use all the three tasks during training with 1/3 probability each (indicated as ALL).",
+      "leaf_id": "0f39a4bdd675aaa4b862",
+      "section_id": "b4369afed967049c702b",
+      "start": 2934,
+      "end": 3045,
+      "score": 0.025662705546089896
+    },
+    {
+      "uid": "ef073ae4dea3a45a50a0",
+      "text": "Interesting, we observed that, in general, All outperforms all three tasks when employing unlabeled documents of training splits of CNNDM or NYT, which might be due to limited number of unlabeled documents of the training splits.",
+      "leaf_id": "0f39a4bdd675aaa4b862",
+      "section_id": "b4369afed967049c702b",
+      "start": 3046,
+      "end": 3275,
+      "score": 0.05686154864494637
+    },
+    {
+      "uid": "94a3c3c7ccdf09cb9a44",
+      "text": "After adding more data (i.e., GIAG-CM) to pre-training, SR consistently achieves highest ROUGE-2 on both CNNDM and NYT.",
+      "leaf_id": "0f39a4bdd675aaa4b862",
+      "section_id": "b4369afed967049c702b",
+      "start": 3276,
+      "end": 3395,
+      "score": 0.01757688326733593
+    },
+    {
+      "uid": "0df7b5801c439f183726",
+      "text": "We conclude that SR is the most effective task for pre-training since sentence reordering task requires comprehensively understanding a document in a wide coverage, going beyond individual words and sentences, which is highly close to the essense of abstractive document summarization.",
+      "leaf_id": "0f39a4bdd675aaa4b862",
+      "section_id": "b4369afed967049c702b",
+      "start": 3396,
+      "end": 3681,
+      "score": 0.9526622845323623
+    },
+    {
+      "uid": "8c89c4a8e8c8c211c5eb",
+      "text": "We also conducted human evaluation with 20 documents randomly sampled from the test split of CNNDM.",
+      "leaf_id": "0a8ee06025be5b9c1567",
+      "section_id": "37c06d48cc761fde1c2c",
+      "start": 0,
+      "end": 99,
+      "score": 2.6897844674087318e-05
+    },
+    {
+      "uid": "20c8db760dd73e89e746",
+      "text": "We compared the best preforming Step model (i.e., pre-training on the GIGA-CM dataset using SR task) with human references (denoted as Gold), $\\text{RoBERTa}$-S2S, and two pre-training based models, BERTAbs BIBREF23 and UniLM BIBREF43.",
+      "leaf_id": "0a8ee06025be5b9c1567",
+      "section_id": "37c06d48cc761fde1c2c",
+      "start": 100,
+      "end": 335,
+      "score": 0.32831404176634127
+    },
+    {
+      "uid": "09869268156e3d5f0ca0",
+      "text": "Participants were asked to rank the outputs of these systems from best to worst.",
+      "leaf_id": "0a8ee06025be5b9c1567",
+      "section_id": "37c06d48cc761fde1c2c",
+      "start": 336,
+      "end": 416,
+      "score": 1.9988918976691774e-05
+    },
+    {
+      "uid": "9978aacae6c50676fb1e",
+      "text": "We report the proportions of system rankings and mean rank (lower is better) in Table TABREF29.",
+      "leaf_id": "0a8ee06025be5b9c1567",
+      "section_id": "37c06d48cc761fde1c2c",
+      "start": 417,
+      "end": 512,
+      "score": 2.336933489472016e-05
+    },
+    {
+      "uid": "29c4a743cf4559282475",
+      "text": "The output of Step is selected as the best for the 25% of cases and we obtained lower mean rank than all systems except for Gold, which shows the participants' preference for our model.",
+      "leaf_id": "0a8ee06025be5b9c1567",
+      "section_id": "37c06d48cc761fde1c2c",
+      "start": 513,
+      "end": 698,
+      "score": 0.001410358496618023
+    },
+    {
+      "uid": "93dd8b2cb6d96173deb1",
+      "text": "Then we converted ranking numbers into ratings (i.e., rank $i$ is converted into $6-i$) and applied the student $t$-test on the ratings.",
+      "leaf_id": "0a8ee06025be5b9c1567",
+      "section_id": "37c06d48cc761fde1c2c",
+      "start": 699,
+      "end": 835,
+      "score": 2.840974294610978e-05
+    },
+    {
+      "uid": "1b54d0b589de947509db",
+      "text": "Step is significantly better than all other systems in comparison with $p<0.05$.",
+      "leaf_id": "0a8ee06025be5b9c1567",
+      "section_id": "37c06d48cc761fde1c2c",
+      "start": 836,
+      "end": 916,
+      "score": 0.0005152656843015681
+    },
+    {
+      "uid": "bea870c0edd387e1da61",
+      "text": "But it still lags behind human.",
+      "leaf_id": "0a8ee06025be5b9c1567",
+      "section_id": "37c06d48cc761fde1c2c",
+      "start": 917,
+      "end": 948,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "3371d7635b3f5dc86058",
+      "text": "One possible reason is that Step (as well as other systems) only takes the first 512 tokens of a long document as input and thus may lose information residing in the following tokens.",
+      "leaf_id": "1355175d3528954aceee",
+      "section_id": "37c06d48cc761fde1c2c",
+      "start": 949,
+      "end": 1132,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "6aa7bad3ce8479756474",
+      "text": "We proposed Step, a seq2seq transformer pre-training approach, for abstractive document summarization.",
+      "leaf_id": "4c43cadb9dfa3e376cfe",
+      "section_id": "4907253a690712a24ff1",
+      "start": 0,
+      "end": 102,
+      "score": 0.03711690880775959
+    },
+    {
+      "uid": "2a03d9aeaccc8852ff72",
+      "text": "Specifically, three pre-training tasks are designed, sentence reordering, next sentence generation, and masked document generation.",
+      "leaf_id": "4c43cadb9dfa3e376cfe",
+      "section_id": "4907253a690712a24ff1",
+      "start": 103,
+      "end": 234,
+      "score": 0.9883577758353339
+    },
+    {
+      "uid": "6ade9f2a410e49536295",
+      "text": "When we only employ the unlabeled documents in the training splits of summarization datasets to pre-training Step with our proposed tasks, the summarization model based on the pre-trained Step outperforms the best published abstractive system.",
+      "leaf_id": "4c43cadb9dfa3e376cfe",
+      "section_id": "4907253a690712a24ff1",
+      "start": 235,
+      "end": 478,
+      "score": 0.07055959618729296
+    },
+    {
+      "uid": "7854eb02f5b43f061f0e",
+      "text": "Involving large scale data to pre-training leads to larger performance gains.",
+      "leaf_id": "4c43cadb9dfa3e376cfe",
+      "section_id": "4907253a690712a24ff1",
+      "start": 479,
+      "end": 556,
+      "score": 0.011687257995694433
+    },
+    {
+      "uid": "5f05f665778c4cbd28d6",
+      "text": "By using the best performing pre-training task, Step achieves 0.8 absolute ROUGE-2 improvements on CNN/DailyMail and 2.4 absolute ROUGE-2 improvements on New York Times.",
+      "leaf_id": "4c43cadb9dfa3e376cfe",
+      "section_id": "4907253a690712a24ff1",
+      "start": 557,
+      "end": 726,
+      "score": 0.25552939100895733
+    },
+    {
+      "uid": "8951cee2dfd873d048e8",
+      "text": "In the future, we would like to investigate other tasks to pre-train the seq2seq transformer model.",
+      "leaf_id": "4c43cadb9dfa3e376cfe",
+      "section_id": "4907253a690712a24ff1",
+      "start": 727,
+      "end": 826,
+      "score": 0.04153996561206153
+    },
+    {
+      "uid": "9ebe0ddc4e6c6e83d86c",
+      "text": "Pre-training for unsupervised abstractive summarization is also an interesting direction and worth exploration.",
+      "leaf_id": "4c43cadb9dfa3e376cfe",
+      "section_id": "4907253a690712a24ff1",
+      "start": 827,
+      "end": 938,
+      "score": 0.038683497086407705
+    }
+  ],
+  "prepare_seconds": 2.325091617181897,
+  "leaf_count": 41
+}

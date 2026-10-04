@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly outlines the three layers of the annotation scheme used in the OLID dataset, which are defined as levels A, B, and C.",
+    "claims": [
+      {
+        "text": "The three layers of the annotation scheme are: Level A (offensive vs not offensive), Level B (type of offense), and Level C (target of the offense).",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Level B categorizes the type of offense into targeted (TIN) and untargeted (UNT) insults and threats.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Level C categorizes the targets of insults and threats as individual (IND), group (GRP), and other (OTH).",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 2201,
+    "total_tokens": 2379,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.1625182000025234,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_48cfd4552f"
+}

@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "What kind of model do they use?",
+        "citations": [
+          "C1",
+          "C2",
+          "C4",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence describes a model that structures unordered documents using keyword extraction and clustering techniques.",
+    "claims": [
+      {
+        "text": "The model proposed is designed to structure unordered documents by extracting keywords and clustering relevant sentences.",
+        "citations": [
+          "C1",
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model utilizes the TextRank algorithm for keyword extraction and Google's Universal Sentence Encoder for calculating sentence similarity.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 1163,
+    "total_tokens": 1301,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.592402400001447,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

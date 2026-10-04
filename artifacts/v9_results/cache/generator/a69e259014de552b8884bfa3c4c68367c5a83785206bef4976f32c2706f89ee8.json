@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that unordered text documents exist and are relevant in various text processing applications.",
+    "claims": [
+      {
+        "text": "Unordered text documents are documents that lack a specific structure or organization.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Unordered text documents arise in real-world corpora and are used in applications like summarization and question answering.",
+        "citations": [
+          "C1",
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Structuring unordered documents is essential for effective text processing tasks.",
+        "citations": [
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 725,
+    "total_tokens": 862,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7190536000016436,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

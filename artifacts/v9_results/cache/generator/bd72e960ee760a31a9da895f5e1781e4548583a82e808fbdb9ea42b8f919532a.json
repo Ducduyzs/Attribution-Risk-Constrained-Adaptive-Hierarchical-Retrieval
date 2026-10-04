@@ -1,0 +1,58 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Identify the multiple datasets used during joint training",
+        "citations": [
+          "C3",
+          "C4",
+          "C9"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used in joint training, namely the BioScope Corpus and SFU Review Corpus.",
+    "claims": [
+      {
+        "text": "The datasets used during joint training are the BioScope Corpus and SFU Review Corpus.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Joint training on multiple datasets improves model performance compared to single dataset training.",
+        "citations": [
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study involved experimenting with training on multiple datasets.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 1387,
+    "total_tokens": 1540,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7985939999998664,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

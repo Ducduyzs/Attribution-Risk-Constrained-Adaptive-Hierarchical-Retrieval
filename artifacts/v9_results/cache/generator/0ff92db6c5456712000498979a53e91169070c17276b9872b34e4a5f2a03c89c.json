@@ -1,0 +1,71 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "evaluation criteria",
+        "citations": [
+          "C1",
+          "C2",
+          "C4",
+          "C6",
+          "C7",
+          "C8"
+        ]
+      },
+      {
+        "requirement": "metrics used",
+        "citations": [
+          "C4",
+          "C7",
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific evaluation criteria and metrics used for evaluating the generated text, including edit distance and word error rate.",
+    "claims": [
+      {
+        "text": "The evaluation criteria include gold standard event selection and edit distance measurement.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Metrics used for evaluation include word error rate (WER) and minimum edit evaluation.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Automatic evaluation metrics were also employed to compare against existing references.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 846,
+    "total_tokens": 1029,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1252096999996866,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

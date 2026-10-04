@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the different types of baselines used in the study, including pre-training methods and model architectures.",
+    "claims": [
+      {
+        "text": "The pre-training baselines include encoder pre-training, decoder pre-training, and encoder-decoder pre-training.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The vanilla ST baseline consists of a speech encoder and a decoder without additional features.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "All baselines are implemented based on ESPnet, with a specific RNN size of 1024 for all models.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study compares its method with end-to-end baselines and cascaded systems.",
+        "citations": [
+          "C9",
+          "C10"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 715,
+    "total_tokens": 892,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9645844000006036,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

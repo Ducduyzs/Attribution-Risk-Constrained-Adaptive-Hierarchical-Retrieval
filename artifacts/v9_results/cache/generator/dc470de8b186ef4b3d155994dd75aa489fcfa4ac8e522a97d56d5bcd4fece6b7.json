@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "How were the clusters extracted?",
+        "citations": [
+          "C1",
+          "C5",
+          "C20"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that clusters were extracted through a feature extraction pipeline that incorporates cluster membership features, and the selection of word vectors and the number of clusters is a trial-and-error process.",
+    "claims": [
+      {
+        "text": "Clusters were extracted using a feature extraction pipeline that incorporates cluster membership features.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The selection of word vectors and the number of clusters is a trial-and-error procedure.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Brown clusters were used in a POS tagger, indicating their utility in extracting clusters with rich lexical knowledge.",
+        "citations": [
+          "C20"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 1396,
+    "total_tokens": 1570,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2156790000008186,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

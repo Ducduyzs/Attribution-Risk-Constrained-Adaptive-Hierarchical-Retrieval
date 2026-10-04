@@ -1,0 +1,59 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Empirical evaluation of data quality",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides multiple methods for empirically evaluating the quality of the data, including BLEU scores, model output variance, and manual inspections.",
+    "claims": [
+      {
+        "text": "The quality of the data is evaluated using BLEU scores and model output variance to assess translation quality and stability across different speakers.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Validated transcripts are used for CoVoST, ensuring that only high-quality data is included in the dataset.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "Manual inspections and perplexity measurements are conducted to ensure translation quality, with low-quality translations sent back for revision.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 188,
+    "prompt_tokens": 1336,
+    "total_tokens": 1524,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.477752499999042,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the IPA labels data by interacting with users, augmenting resources with structured and labeled training data, and utilizing a rule-based system for automatic labeling of user inputs.",
+    "claims": [
+      {
+        "text": "The IPA system augments resources with structured and labeled training data through user interaction.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "User inputs are automatically labeled by a rule-based system with the corresponding next action and dialogue-id.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The system accumulates structured and labeled data without requiring manual annotation from human tutors.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 1213,
+    "total_tokens": 1360,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.684658500002115,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of baseline methods used in sentiment classification, detailing their characteristics and limitations.",
+    "claims": [
+      {
+        "text": "Baseline methods include Naive, NaiveNN, mSDA, AuxNN, and ADAN, which are primarily trained on the source domain without adaptation to the target domain.",
+        "citations": [
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Naive is a non-domain-adaptive baseline using bag-of-words and SVM, while NaiveNN is a CNN variant trained solely on the source domain.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "ADAN employs adversarial training to minimize domain discrepancies, contrasting with the other baselines that do not adapt to the target domain.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 2209,
+    "total_tokens": 2392,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.708094000001438,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_48cfd4552f"
+}

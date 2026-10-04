@@ -1,0 +1,65 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "What are the baselines?",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides detailed descriptions of various baseline models used in the study, including vanilla ST, pre-training, and multi-task baselines.",
+    "claims": [
+      {
+        "text": "The baselines include a vanilla ST model, pre-training models (encoder, decoder, and encoder-decoder pre-training), and multi-task models (one-to-many, many-to-one, many-to-many).",
+        "citations": [
+          "C1",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The pre-training baselines utilize ASR and MT models for initialization, enhancing performance in speech translation tasks.",
+        "citations": [
+          "C1",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Multi-task baselines are tested in various settings, showing different configurations of training parameters for optimal performance.",
+        "citations": [
+          "C6",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 220,
+    "prompt_tokens": 2021,
+    "total_tokens": 2241,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5823431000026176,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

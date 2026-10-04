@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance results for various datasets and models used in the study, including F1 scores and accuracy metrics.",
+    "claims": [
+      {
+        "text": "The F1 scores achieved were 0.94 for the Wikipedia and Twitter datasets, and 0.95 for the Formspring dataset, with an accuracy of 98%.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The previous best F1 scores for the Wikipedia and Twitter datasets were 0.68 and 0.93, respectively.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The accuracy score for the Formspring dataset using the authors' method was reported as 78.5%.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "Traditional machine learning models showed significantly lower performance compared to DNN models in cyberbullying detection.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 198,
+    "prompt_tokens": 651,
+    "total_tokens": 849,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.547261800002161,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

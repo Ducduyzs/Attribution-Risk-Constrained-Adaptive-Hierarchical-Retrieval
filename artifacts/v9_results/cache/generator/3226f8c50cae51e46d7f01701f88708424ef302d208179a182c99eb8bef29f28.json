@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Identify models compared to in the evidence",
+        "citations": [
+          "C4",
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of the proposed model with existing models, indicating which models are referenced.",
+    "claims": [
+      {
+        "text": "The proposed model is compared to existing MRC systems and the R.M.-Reader + Verifier model.",
+        "citations": [
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 2454,
+    "total_tokens": 2551,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5972163000005821,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

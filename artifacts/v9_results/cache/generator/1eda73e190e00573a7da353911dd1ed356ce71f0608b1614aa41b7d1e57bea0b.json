@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "datasets used in experiments",
+        "citations": [
+          "C2",
+          "C3"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used in the experiments conducted in the study.",
+    "claims": [
+      {
+        "text": "The experiments were conducted on two public datasets: Europarl and MultiUN.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The approach significantly outperforms strong baselines on the mentioned datasets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 819,
+    "total_tokens": 929,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6481779999994615,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

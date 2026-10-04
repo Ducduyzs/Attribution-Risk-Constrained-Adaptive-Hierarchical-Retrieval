@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the baseline systems used in the study, including the training data and methods applied for translation between Japanese and Vietnamese.",
+    "claims": [
+      {
+        "text": "The baseline systems were built using KyTea-segmented Japanese texts and pyvi-segmented Vietnamese texts, employing both traditional phrase-based SMT and NMT systems.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The study aimed to establish reproducible NMT systems as a baseline for further research in low-resourced language pairs.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 2056,
+    "total_tokens": 2188,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 2.1063602000031096,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

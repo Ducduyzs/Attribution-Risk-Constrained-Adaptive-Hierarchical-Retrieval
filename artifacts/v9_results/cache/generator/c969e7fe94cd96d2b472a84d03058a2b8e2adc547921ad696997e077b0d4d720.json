@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific evaluation criteria and metrics used for evaluating the generated text, including the use of gold standard event selection and various automatic evaluation metrics.",
+    "claims": [
+      {
+        "text": "The evaluation includes comparing generated event descriptions to existing reference text using gold standard event selection.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Word Error Rate (WER) is used as a metric, defined as the number of insertions, substitutions, and deletions divided by the total length of the reference in tokens.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The edit distance between the generated text and its corrected variant is also used to measure the effort needed to correct the output.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 721,
+    "total_tokens": 887,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9388728000012634,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

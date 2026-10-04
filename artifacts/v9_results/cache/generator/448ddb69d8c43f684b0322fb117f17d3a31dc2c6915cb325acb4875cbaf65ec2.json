@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the Pyramid scoring system used in scientific summarization, including its structure and evaluation methodology.",
+    "claims": [
+      {
+        "text": "The Pyramid scoring system organizes content units in a pyramid structure, with higher tiers indicating higher importance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Manual Pyramid scores are used to evaluate the quality of candidate summaries by comparing them to gold human-written summaries.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Among the variants of Rouge, Rouge-2 and Rouge-3 are better correlated with manual Pyramid scores in scientific summarization.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 1242,
+    "total_tokens": 1390,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.151581800000713,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

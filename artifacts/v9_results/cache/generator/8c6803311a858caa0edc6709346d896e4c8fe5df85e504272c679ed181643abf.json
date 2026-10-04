@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the results reported are based on English datasets, specifically mentioning the use of English tweets and filtering results using an English vocabulary.",
+    "claims": [
+      {
+        "text": "The results are based on English datasets, specifically using English tweets.",
+        "citations": [
+          "C3",
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The filtering of results was done using an English vocabulary.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 725,
+    "total_tokens": 822,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3482796999996935,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

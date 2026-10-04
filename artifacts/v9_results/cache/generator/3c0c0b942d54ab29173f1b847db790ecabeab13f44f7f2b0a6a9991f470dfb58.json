@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "evaluation metric",
+        "citations": [
+          "C1",
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies that the evaluation metric used is the ratio of correct translations (matches) for the task of clustering documents by topic.",
+    "claims": [
+      {
+        "text": "The evaluation metric used is the ratio of correct translations (matches).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evaluation involved clustering documents into three topics: economics, law, and history.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 1161,
+    "total_tokens": 1281,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6492695000015374,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets used, such as SQuAD, are primarily in English, suggesting that results are reported on English datasets.",
+    "claims": [
+      {
+        "text": "The MRC dataset used in this paper is SQuAD 1.1, which is an English dataset.",
+        "citations": [
+          "C13"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "WordNet, a resource mentioned in the paper, is a lexical database of English.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The paper discusses the performance of models on datasets like SQuAD, which is known to be in English.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 2250,
+    "total_tokens": 2397,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.635785100002977,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

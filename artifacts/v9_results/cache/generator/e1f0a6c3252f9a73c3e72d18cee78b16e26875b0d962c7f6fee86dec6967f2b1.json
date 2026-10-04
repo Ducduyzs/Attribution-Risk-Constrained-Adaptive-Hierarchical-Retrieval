@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the dataset used is derived from Twitter, particularly for the WASSA-2017 Shared Task on Emotion Intensity, which involved tweets and their associated emotional content.",
+    "claims": [
+      {
+        "text": "The dataset used is from Twitter, specifically for the WASSA-2017 Shared Task on Emotion Intensity.",
+        "citations": [
+          "C20",
+          "C21",
+          "C19"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset includes tweets with emotional intensity scores and various features extracted from them.",
+        "citations": [
+          "C21",
+          "C34"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 2263,
+    "total_tokens": 2389,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.196856700000353,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

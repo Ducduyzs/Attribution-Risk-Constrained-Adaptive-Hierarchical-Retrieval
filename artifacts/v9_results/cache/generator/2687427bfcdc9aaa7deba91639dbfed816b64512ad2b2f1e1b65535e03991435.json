@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific competitive results obtained by the Jasper model on various datasets, including LibriSpeech and Wall Street Journal.",
+    "claims": [
+      {
+        "text": "The Jasper model achieved state-of-the-art results on LibriSpeech test-clean with a WER of 2.95%.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Competitive results were reported on the Wall Street Journal (WSJ) dataset, although specific WER values are not provided.",
+        "citations": [
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model also showed good performance on the Hub5'00 conversational evaluation dataset, particularly for the Switchboard subset.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 1885,
+    "total_tokens": 2045,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.170858400000725,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

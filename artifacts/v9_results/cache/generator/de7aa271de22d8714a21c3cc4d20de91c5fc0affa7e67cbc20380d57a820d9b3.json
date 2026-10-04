@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear list of languages included in the CoVoST corpus, detailing the specific languages and their respective speech durations.",
+    "claims": [
+      {
+        "text": "The CoVoST corpus includes the following languages: French, German, Dutch, Russian, Spanish, Italian, Turkish, Persian, Swedish, Mongolian, and Chinese.",
+        "citations": [
+          "C2",
+          "C5",
+          "C6"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "CoVoST contains a total of 708 hours of speeches across the 11 languages mentioned.",
+        "citations": [
+          "C2",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 2200,
+    "total_tokens": 2328,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0110161999982665,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

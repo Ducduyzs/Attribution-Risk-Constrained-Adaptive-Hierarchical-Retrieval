@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the research utilizes WordNet, which is a lexical database of English, suggesting that the datasets used are likely English-based.",
+    "claims": [
+      {
+        "text": "The research utilizes WordNet, a lexical database of English, indicating a focus on English datasets.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The task of Machine Reading Comprehension (MRC) described involves passages and questions, which are typically in English in the context of the datasets mentioned.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 2230,
+    "total_tokens": 2350,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2054809000001114,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_48cfd4552f"
+}

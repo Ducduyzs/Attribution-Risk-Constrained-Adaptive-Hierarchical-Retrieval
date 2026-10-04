@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific datasets used in the context of human language processing, including eye-tracking, self-paced reading, ERP components, and EEG data.",
+    "claims": [
+      {
+        "text": "The datasets used include eye-tracking, self-paced reading time, and ERP data.",
+        "citations": [
+          "C4",
+          "C8",
+          "C12"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Electroencephalography (EEG) recordings are used to study language comprehension.",
+        "citations": [
+          "C9",
+          "C13"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 1221,
+    "total_tokens": 1336,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8620947999988857,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

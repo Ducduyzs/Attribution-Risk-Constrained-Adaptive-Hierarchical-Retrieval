@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the dataset used for Japanese-Vietnamese translation, including its source and characteristics.",
+    "claims": [
+      {
+        "text": "The dataset used for Japanese-Vietnamese translation is a parallel corpus collected from TED talks extracted from WIT3's corpus.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Japanese-Vietnamese parallel corpus is limited in availability and often of low quality.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The authors created a synthetic corpus to match the size of the Japanese-Vietnamese parallel corpus using Vietnamese monolingual data.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 712,
+    "total_tokens": 858,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.075371399998403,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

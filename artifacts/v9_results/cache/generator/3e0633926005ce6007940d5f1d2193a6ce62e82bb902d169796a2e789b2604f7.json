@@ -1,0 +1,77 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Definition of masked document generation",
+        "citations": [
+          "C1",
+          "C2",
+          "C5",
+          "C6"
+        ]
+      },
+      {
+        "requirement": "Purpose of masked document generation",
+        "citations": [
+          "C2",
+          "C5",
+          "C6"
+        ]
+      },
+      {
+        "requirement": "Methodology of masked document generation",
+        "citations": [
+          "C1",
+          "C3",
+          "C7",
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides a clear definition, purpose, and methodology for masked document generation, allowing for a comprehensive answer.",
+    "claims": [
+      {
+        "text": "Masked Document Generation (MDG) is a task that learns to recover a document with a masked span of tokens.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The purpose of MDG is to recover a masked document to its original form, aiding in the pre-training of seq2seq models for tasks like summarization.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "MDG employs a masking strategy where a span of text is masked, and the model predicts the original text using various strategies for the masked tokens.",
+        "citations": [
+          "C1",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 248,
+    "prompt_tokens": 2227,
+    "total_tokens": 2475,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.5565516999995452,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

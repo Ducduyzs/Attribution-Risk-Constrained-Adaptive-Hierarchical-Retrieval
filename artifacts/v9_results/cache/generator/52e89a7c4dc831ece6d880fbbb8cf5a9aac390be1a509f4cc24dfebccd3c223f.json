@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that two pairs of ERPs benefit from joint training, although specific pairs are not named in the provided context.",
+    "claims": [
+      {
+        "text": "Two pairs of ERPs previously identified in the literature benefit from joint training.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Several other pairs of ERPs that benefit from joint training are suggestive of potential relationships.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 2267,
+    "total_tokens": 2367,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3480866000027163,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

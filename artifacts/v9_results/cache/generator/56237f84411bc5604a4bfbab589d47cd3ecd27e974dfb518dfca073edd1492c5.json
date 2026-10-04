@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides comparisons of the proposed model with existing models and mentions specific models that are compared against.",
+    "claims": [
+      {
+        "text": "The proposed model is compared with existing MRC systems that extract answers by finding sub-strings in passages.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed model outperforms the R.M.-Reader + Verifier model, which is more complicated and includes several components.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed model is evaluated against a baseline model called Joint SAN, showing improved performance in EM and F1 scores.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 1221,
+    "total_tokens": 1367,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9743059000029461,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_f5dd669434"
+}

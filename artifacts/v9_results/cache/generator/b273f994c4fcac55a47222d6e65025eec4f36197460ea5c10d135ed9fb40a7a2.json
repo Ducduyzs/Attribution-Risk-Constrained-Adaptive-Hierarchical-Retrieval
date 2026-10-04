@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the variations of the attention-based approach examined in the context of harassment detection in tweets.",
+    "claims": [
+      {
+        "text": "The attention-based approach includes variations such as multi-attention and single attention models.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The MultiAttentionRNN model incorporates four attention mechanisms, one for each harassment category.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The models evaluated include LastStateRNN, AvgRNN, AttentionRNN, and MultiAttentionRNN.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The multi-attention method with a projected layer achieved the highest performance in experiments.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 2058,
+    "total_tokens": 2225,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.071373800001311,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

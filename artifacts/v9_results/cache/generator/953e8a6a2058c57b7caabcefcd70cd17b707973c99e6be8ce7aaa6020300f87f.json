@@ -1,0 +1,73 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Datasets used for human language processing",
+        "citations": [
+          "C1",
+          "C6",
+          "C7"
+        ]
+      },
+      {
+        "requirement": "Types of data used in training",
+        "citations": [
+          "C2",
+          "C6"
+        ]
+      },
+      {
+        "requirement": "Neural and behavioral data",
+        "citations": [
+          "C6",
+          "C9"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides information about the datasets and types of data used in the context of human language processing, including neural and behavioral data.",
+    "claims": [
+      {
+        "text": "Heterogeneous datasets, including eye-tracking, self-paced reading, and ERP components, are used in human language processing.",
+        "citations": [
+          "C1",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Electroencephalography (EEG) recordings are commonly used to study language comprehension.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Neural and behavioral data are utilized to train neural networks for language processing tasks.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 217,
+    "prompt_tokens": 2421,
+    "total_tokens": 2638,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.9801602000006824,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

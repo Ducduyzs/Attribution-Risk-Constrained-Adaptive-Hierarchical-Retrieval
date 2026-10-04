@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Size of the SnapCaptions dataset",
+        "citations": [
+          "C1"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence clearly states the size of the SnapCaptions dataset as 10K user-generated image and textual caption pairs.",
+    "claims": [
+      {
+        "text": "The SnapCaptions dataset consists of 10K user-generated image and textual caption pairs.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 2099,
+    "total_tokens": 2192,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6754774000000907,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

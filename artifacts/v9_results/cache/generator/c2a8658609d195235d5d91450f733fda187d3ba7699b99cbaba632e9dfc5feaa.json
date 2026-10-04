@@ -1,0 +1,53 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Datasets used for human language processing",
+        "citations": [
+          "C1",
+          "C6",
+          "C7"
+        ]
+      },
+      {
+        "requirement": "Types of data used in the study",
+        "citations": [
+          "C6",
+          "C7"
+        ]
+      },
+      {
+        "requirement": "Neural and behavioral data",
+        "citations": [
+          "C2",
+          "C6"
+        ]
+      },
+      {
+        "requirement": "Specific datasets mentioned",
+        "citations": []
+      }
+    ],
+    "answerable": false,
+    "reason": "The evidence does not specify particular datasets used in the study, only general types of data and their applications.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 1369,
+    "total_tokens": 1482,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6039560999997775,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,63 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "What are the baselines?",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific details about various baseline methods used in the study, including vanilla ST, pre-training, and multi-task baselines.",
+    "claims": [
+      {
+        "text": "The baselines include a vanilla ST baseline, pre-training baselines (encoder, decoder, and encoder-decoder pre-training), and multi-task baselines (one-to-many, many-to-one, and many-to-many settings).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The vanilla ST baseline consists of a speech encoder and decoder trained from scratch on the ST-TED corpus.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Pre-training baselines involve initializing the ST encoder from an ASR model and the decoder from an MT model.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Multi-task baselines include experiments with different settings such as one-to-many and many-to-many.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 233,
+    "prompt_tokens": 829,
+    "total_tokens": 1062,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.593541300000652,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

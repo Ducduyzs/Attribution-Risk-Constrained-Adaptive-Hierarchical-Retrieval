@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance results related to the detection of cyberbullying across different datasets and models.",
+    "claims": [
+      {
+        "text": "Oversampled datasets (F+, T+, W+) show significantly better performance compared to their non-oversampled counterparts (F, T, W).",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Using TL1, the cyberbullying detection performance for the Formspring dataset is higher with Wikipedia as the base model (precision=0.51, recall=0.66) compared to Twitter (precision=0.38, recall=0.04).",
+        "citations": [
+          "C31"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Recall scores improved dramatically with TL2 compared to TL1, indicating significant performance enhancement.",
+        "citations": [
+          "C36"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Improvements in precision were also significant with TL2, highlighting the effectiveness of learned word embeddings in knowledge transfer for cyberbullying detection.",
+        "citations": [
+          "C38"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 219,
+    "prompt_tokens": 2251,
+    "total_tokens": 2470,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.1199846000017715,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

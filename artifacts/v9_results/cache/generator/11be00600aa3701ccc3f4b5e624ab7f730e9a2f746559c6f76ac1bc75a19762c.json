@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The quality of the data is empirically evaluated through various methods including manual inspection of translations, validation by multiple users, and the use of benchmarks such as word error rate (WER) and character error rate (CER).",
+    "claims": [
+      {
+        "text": "Translations with low scores were manually inspected and sent back to translators for correction.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Each voice clip was validated by at least two other users to ensure quality.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The dataset includes benchmarks like word error rate (WER) and character error rate (CER) for evaluation.",
+        "citations": [
+          "C20"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 1246,
+    "total_tokens": 1398,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.6296996000019135,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

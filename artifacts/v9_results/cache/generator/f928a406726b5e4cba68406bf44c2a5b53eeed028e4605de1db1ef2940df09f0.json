@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific competitive results obtained by the Jasper model on various datasets, including WER percentages and comparisons with other models.",
+    "claims": [
+      {
+        "text": "The Jasper model achieved 2.95% WER on LibriSpeech test-clean using a beam-search decoder.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Jasper model achieved 3.86% WER on LibriSpeech test-clean using a greedy decoder.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Jasper model reported good results on the Hub5'00 evaluation dataset, particularly for the Switchboard subset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The Jasper model's performance on the Callhome subset of the Hub5'00 evaluation dataset needs improvement.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 613,
+    "total_tokens": 798,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.3284621000020707,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

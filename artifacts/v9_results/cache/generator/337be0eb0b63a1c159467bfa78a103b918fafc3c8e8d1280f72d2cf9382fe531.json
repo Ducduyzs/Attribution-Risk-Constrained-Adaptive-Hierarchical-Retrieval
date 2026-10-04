@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used during joint training, which include BF, BA, SFU, and Sherlock.",
+    "claims": [
+      {
+        "text": "The models were trained jointly on four datasets: BF, BA, SFU, and Sherlock.",
+        "citations": [
+          "C20"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Joint training on multiple datasets improves performance compared to single dataset training.",
+        "citations": [
+          "C2",
+          "C8",
+          "C11"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 2264,
+    "total_tokens": 2366,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6468853999977,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the concept of unordered text documents and their relevance in real-world applications, confirming their existence and the need for structuring them.",
+    "claims": [
+      {
+        "text": "An unordered text document is a document where sentences are not arranged in a specific order, which can arise in real-world applications such as summarization and question answering.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Unordered text documents can be structured into sections using methods like the TextRank algorithm, demonstrating their practical occurrence in corpora like Wikipedia.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The process of structuring unordered documents involves clustering sentences based on keywords and their similarities, indicating that such documents are common in text processing tasks.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 181,
+    "prompt_tokens": 738,
+    "total_tokens": 919,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0444486000014876,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a model that structures unordered documents using keyword extraction and clustering techniques.",
+    "claims": [
+      {
+        "text": "The model uses a combination of the TextRank algorithm for keyword extraction and Google's Universal Sentence Encoder (USE) for calculating sentence similarity.",
+        "citations": [
+          "C1",
+          "C2",
+          "C10"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model clusters sentences based on their similarity to keywords and to other sentences within the same cluster.",
+        "citations": [
+          "C4",
+          "C7",
+          "C11"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 2185,
+    "total_tokens": 2300,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6992547000008926,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

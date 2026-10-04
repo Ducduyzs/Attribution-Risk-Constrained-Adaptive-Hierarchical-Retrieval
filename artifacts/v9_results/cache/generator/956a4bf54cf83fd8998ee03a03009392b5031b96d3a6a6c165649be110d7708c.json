@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the model utilizes both adjacent mentions and surrounding words to improve entity linking, suggesting that it does not rely solely on adjacent mentions.",
+    "claims": [
+      {
+        "text": "The model uses both adjacent mentions and surrounding words to construct feature vectors for entity linking.",
+        "citations": [
+          "C1",
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The approach incorporates global coherence information from adjacent mentions to enhance disambiguation.",
+        "citations": [
+          "C4",
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model's efficiency is achieved by focusing on a subgraph of adjacent mentions rather than the entire document.",
+        "citations": [
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 1985,
+    "total_tokens": 2139,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2073528000000806,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

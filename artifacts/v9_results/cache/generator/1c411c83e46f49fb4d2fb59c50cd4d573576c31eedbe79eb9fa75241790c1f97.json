@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides multiple instances of evaluating the generalization ability of the NCEL model across various datasets, demonstrating its robustness and effectiveness in entity linking tasks.",
+    "claims": [
+      {
+        "text": "NCEL demonstrates good generalization ability by consistently outperforming various baselines across five publicly available datasets.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model's performance on challenging datasets indicates its robustness and generalization ability, particularly in difficult entity linking scenarios.",
+        "citations": [
+          "C6",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "NCEL achieves the best performance on multiple datasets, showcasing its ability to generalize well compared to other methods that perform variably across datasets.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1233,
+    "total_tokens": 1396,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.244979200000671,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

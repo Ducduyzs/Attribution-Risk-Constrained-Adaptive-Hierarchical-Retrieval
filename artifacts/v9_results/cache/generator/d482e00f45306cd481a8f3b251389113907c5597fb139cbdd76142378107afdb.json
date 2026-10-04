@@ -1,0 +1,68 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics and comparisons for different models on the tasks of speculation detection and scope resolution, which can be interpreted as the baselines for these tasks.",
+    "claims": [
+      {
+        "text": "The baseline for speculation detection on the BioScope Full Papers (BF) dataset is an F1 score gain of 0.42 points when trained on a single dataset.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The baseline for speculation detection on the BioScope Abstracts (BA) dataset is an F1 score gain of 1.98 points when trained on a single dataset.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The baseline for speculation detection on the SFU Review Corpus (SFU) dataset is an F1 score gain of 0.29 points when trained on a single dataset.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The baseline for scope resolution on the BF dataset is an F1 score gain of 8.06 points when trained on a single dataset.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The baseline for scope resolution on the BA dataset is an F1 score gain of 4.27 points when trained on a single dataset.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The baseline for scope resolution on the SFU dataset is an F1 score gain of 11.87 points when trained on a single dataset.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 323,
+    "prompt_tokens": 2217,
+    "total_tokens": 2540,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.7824058000005607,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

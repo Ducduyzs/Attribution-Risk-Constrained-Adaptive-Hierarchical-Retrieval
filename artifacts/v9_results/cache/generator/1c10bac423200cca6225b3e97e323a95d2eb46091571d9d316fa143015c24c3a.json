@@ -1,0 +1,53 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that unordered text documents are real and arise in various applications, necessitating structuring and segmentation for effective processing.",
+    "claims": [
+      {
+        "text": "Unordered text documents exist and are processed in applications like summarization and question answering.",
+        "citations": [
+          "C1",
+          "C2",
+          "C5",
+          "C19"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The process of structuring unordered documents is essential for improving coherence and flow in text processing.",
+        "citations": [
+          "C3",
+          "C10",
+          "C24"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Experiments have been conducted on unordered documents, demonstrating their presence in real-world corpora such as Wikipedia.",
+        "citations": [
+          "C8",
+          "C18"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 2258,
+    "total_tokens": 2414,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.189087399998243,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

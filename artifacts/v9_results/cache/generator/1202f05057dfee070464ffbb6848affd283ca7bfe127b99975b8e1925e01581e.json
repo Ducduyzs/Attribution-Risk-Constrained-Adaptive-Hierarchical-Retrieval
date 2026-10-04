@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "What is the attention module pretrained on?",
+        "citations": [
+          "C6",
+          "C11"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the attention module is pretrained on CTC-based ASR (Automatic Speech Recognition) tasks and MT (Machine Translation) tasks.",
+    "claims": [
+      {
+        "text": "The attention module is pretrained on CTC-based ASR and MT tasks.",
+        "citations": [
+          "C6",
+          "C11"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 1393,
+    "total_tokens": 1495,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6943902999992133,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

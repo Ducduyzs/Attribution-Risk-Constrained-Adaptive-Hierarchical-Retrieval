@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides multiple methods for empirically evaluating the quality of data, including BLEU scores, manual inspections, and perplexity measurements.",
+    "claims": [
+      {
+        "text": "The quality of translations in CoVoST is evaluated using BLEU scores, comparing human translations to automatic translations, with low-scoring translations being manually inspected.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Manual inspections are conducted for translations with high perplexity and low ratios of English characters, ensuring quality control.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "An evaluation set is constructed from Tatoeba, which undergoes the same quality checks as CoVoST, confirming no poor quality translations were found.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 1994,
+    "total_tokens": 2160,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7185417000000598,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

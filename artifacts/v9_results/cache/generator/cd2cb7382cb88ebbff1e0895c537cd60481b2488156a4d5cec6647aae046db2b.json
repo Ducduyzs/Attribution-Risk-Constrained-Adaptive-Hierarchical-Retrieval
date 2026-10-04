@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets used for the experiments consist of English tweets, suggesting that the results are reported only on English datasets.",
+    "claims": [
+      {
+        "text": "The experimental study uses 36 million English tweets collected between August and September 2017.",
+        "citations": [
+          "C34"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "A pre-processing step was applied to the English tweets, indicating the focus on English data.",
+        "citations": [
+          "C35"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 2238,
+    "total_tokens": 2338,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.839196200002334,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that G-BERT is a novel model that has been specifically designed for the healthcare domain and has shown superior performance in medication recommendation. It also indicates potential for adaptation to other tasks and larger datasets, implying its usefulness beyond the initial task considered.",
+    "claims": [
+      {
+        "text": "G-BERT outperforms existing models in medication recommendation, indicating its effectiveness in this task.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "G-BERT is the first to apply language model pre-training techniques in healthcare, suggesting its innovative approach may be applicable to other healthcare tasks.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Future work suggests adapting G-BERT for larger datasets and additional tasks, indicating its potential for broader applications.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 644,
+    "total_tokens": 820,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.281185399999231,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

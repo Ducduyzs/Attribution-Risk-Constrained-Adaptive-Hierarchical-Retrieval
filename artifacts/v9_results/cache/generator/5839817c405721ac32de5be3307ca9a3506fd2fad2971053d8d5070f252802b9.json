@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies KAR as an end-to-end Machine Reading Comprehension (MRC) model that integrates general knowledge to enhance its performance and robustness.",
+    "claims": [
+      {
+        "text": "KAR is an end-to-end Machine Reading Comprehension (MRC) model.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "KAR explicitly uses general knowledge to assist its attention mechanisms.",
+        "citations": [
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "KAR is designed to be more robust to noise compared to state-of-the-art MRC models.",
+        "citations": [
+          "C1",
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1834,
+    "total_tokens": 1995,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9600202000001445,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

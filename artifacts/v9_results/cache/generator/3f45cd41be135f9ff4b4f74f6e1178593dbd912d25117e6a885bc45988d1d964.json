@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the datasets used in the research, including their structure and categories.",
+    "claims": [
+      {
+        "text": "The dataset consists of a train set, a validation set, and a test set derived from Twitter.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset is categorized into harassment and non-harassment tweets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset is imbalanced, affecting the classification results.",
+        "citations": [
+          "C17"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The dataset includes categories of indirect and physical harassment, which are less represented in the training set.",
+        "citations": [
+          "C16"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 2253,
+    "total_tokens": 2407,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.9244820999992953,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

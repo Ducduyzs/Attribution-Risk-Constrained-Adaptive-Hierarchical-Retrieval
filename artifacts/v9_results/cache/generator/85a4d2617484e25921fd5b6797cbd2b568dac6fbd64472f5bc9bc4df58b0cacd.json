@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance improvements of the model compared to baseline models, quantifying the enhancements in F1-scores for various discourse relations.",
+    "claims": [
+      {
+        "text": "The model improved the macro-average F1-score by over 7% compared to the baseline Bi-LSTM model.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model achieved a macro-average F1-score of 48.82%, outperforming previous neural tensor network models by more than 2%.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The ensemble model achieved a performance boost of 3.02 in macro F1-score for implicit discourse relations.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 1646,
+    "total_tokens": 1808,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3381206000012753,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

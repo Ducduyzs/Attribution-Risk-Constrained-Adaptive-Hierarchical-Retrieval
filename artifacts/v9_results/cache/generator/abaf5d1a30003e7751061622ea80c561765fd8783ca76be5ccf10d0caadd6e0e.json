@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed information on the dataset collection methodology, including manual inspections, validation processes, and the types of data included.",
+    "claims": [
+      {
+        "text": "The dataset was created by collecting (speech, transcript, English translation) triplets for multiple languages, ensuring that only those with valid URLs and CC licenses were included.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Samples with low translation scores were manually inspected and sent back for translation when necessary, ensuring quality control.",
+        "citations": [
+          "C34"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset includes a diverse range of speakers, with validation performed by multiple users to ensure data quality.",
+        "citations": [
+          "C31"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Transcripts were deduplicated before translation to avoid redundancy due to multiple speakers.",
+        "citations": [
+          "C36"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 2242,
+    "total_tokens": 2428,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 5.141881299998204,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

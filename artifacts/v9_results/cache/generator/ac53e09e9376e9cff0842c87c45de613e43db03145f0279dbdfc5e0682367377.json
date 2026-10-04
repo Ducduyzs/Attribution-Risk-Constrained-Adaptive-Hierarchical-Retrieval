@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the dataset collection methodology, including validation processes and filtering criteria.",
+    "claims": [
+      {
+        "text": "The dataset was created by collecting voice clips validated by at least two users to ensure quality.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Samples were filtered by sentence lengths to reduce the portion of short sentences, making the evaluation set more challenging and realistic.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset includes a diverse range of speakers and accents, with over 11,000 speakers contributing.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "An additional evaluation corpus was collected from Tatoeba for several languages, adding to the dataset's richness.",
+        "citations": [
+          "C14"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 1241,
+    "total_tokens": 1416,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4171384000001126,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_f5dd669434"
+}

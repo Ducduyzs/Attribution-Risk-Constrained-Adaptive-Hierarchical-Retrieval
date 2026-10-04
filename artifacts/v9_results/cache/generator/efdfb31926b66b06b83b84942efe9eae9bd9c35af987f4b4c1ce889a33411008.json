@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Identify the baselines used in the study",
+        "citations": [
+          "C30"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides information about the baselines used in the study, specifically mentioning the models and datasets employed.",
+    "claims": [
+      {
+        "text": "The baselines used in the study include BERT, XLNet, and RoBERTa, applied to the BioScope Corpus and SFU Review Corpus datasets.",
+        "citations": [
+          "C30"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 2463,
+    "total_tokens": 2569,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9976540000025125,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

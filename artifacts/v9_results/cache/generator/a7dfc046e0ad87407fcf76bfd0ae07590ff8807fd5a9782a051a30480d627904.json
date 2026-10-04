@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "pretrained word embeddings used",
+        "citations": [
+          "C3"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies the pretrained word embeddings used in the study, including GloVe, Edinburgh embeddings, and Emoji embeddings.",
+    "claims": [
+      {
+        "text": "The pretrained word embeddings used include GloVe embeddings, Edinburgh embeddings, and Emoji embeddings.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 1316,
+    "total_tokens": 1407,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.29696580000018,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

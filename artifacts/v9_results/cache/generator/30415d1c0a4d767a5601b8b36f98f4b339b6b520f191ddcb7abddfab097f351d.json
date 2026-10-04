@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics for predicting different types of discourse relations, indicating which types the model performs best and worst on.",
+    "claims": [
+      {
+        "text": "The model achieves the best performance for predicting explicit discourse relations, with a macro F1-score of 94.17%.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model shows improved performance on implicit discourse relations, achieving a macro F1-score of 48.82%.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The classification performance for contingency relations improved by 1.42%, indicating better performance on this specific relation.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model achieves significant improvements on Comparison and Temporal relations, with F1-score improvements of 6 and 7 points respectively.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 191,
+    "prompt_tokens": 2261,
+    "total_tokens": 2452,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.962482800001453,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

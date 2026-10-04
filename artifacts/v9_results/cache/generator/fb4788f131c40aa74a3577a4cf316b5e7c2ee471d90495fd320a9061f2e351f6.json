@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific pretrained word embeddings used in the experiments, including Edinburgh embeddings and GloVe embeddings, as well as Emoji embeddings.",
+    "claims": [
+      {
+        "text": "The pretrained word embeddings used include Edinburgh embeddings, GloVe embeddings, and Emoji embeddings.",
+        "citations": [
+          "C4",
+          "C9",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Edinburgh embeddings outperform GloVe embeddings in certain emotion categories.",
+        "citations": [
+          "C22"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Emoji embeddings provide better results than plain GloVe and Edinburgh embeddings.",
+        "citations": [
+          "C21"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 1234,
+    "total_tokens": 1369,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.288091099999292,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

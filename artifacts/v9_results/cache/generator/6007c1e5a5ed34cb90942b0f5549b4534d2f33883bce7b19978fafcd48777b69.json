@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the manual Pyramid scores used in summarization evaluation, specifically in the context of scientific summarization.",
+    "claims": [
+      {
+        "text": "The manual Pyramid scores are used to evaluate the quality of candidate summaries based on the identification of important content units organized in a pyramid structure.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Different variants of Rouge scores, particularly Rouge-2 and Rouge-3, show varying correlations with manual Pyramid scores, indicating their effectiveness in scientific summarization evaluation.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 1237,
+    "total_tokens": 1362,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3990598999989743,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

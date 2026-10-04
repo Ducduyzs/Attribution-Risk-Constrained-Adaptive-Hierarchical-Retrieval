@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the manual Pyramid scores used in summarization evaluation, specifically in the context of the TAC 2014 dataset.",
+    "claims": [
+      {
+        "text": "The manual Pyramid scores are derived from the organization of content units in gold human-written summaries, structured in a pyramid format.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Pyramid scoring system evaluates the presence of 'nuggets' in candidate summaries, which are key pieces of information.",
+        "citations": [
+          "C17"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The effectiveness of evaluation metrics is analyzed by correlating them with manual Pyramid scores, indicating their reliability in summarization.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 1238,
+    "total_tokens": 1393,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.348254900000029,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

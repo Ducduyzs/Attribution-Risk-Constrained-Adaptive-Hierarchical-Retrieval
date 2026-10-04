@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the use of BERT and CNN neural models for different tasks.",
+    "claims": [
+      {
+        "text": "The model used for answerability prediction is a CNN neural encoder.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "BERT is utilized as a bidirectional transformer-based language model for various tasks including answerability identification.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "BERT is fine-tuned for a binary answerability identification task.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 2261,
+    "total_tokens": 2381,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7936114999974961,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

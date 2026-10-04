@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the datasets used in the paper, including their structure and categorization.",
+    "claims": [
+      {
+        "text": "The dataset consists of a train set, a validation set, and a test set from Twitter.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset is categorized into harassment and non-harassment tweets.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Tweets are further divided into three sub-categories: indirect harassment, sexual harassment, and physical harassment.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 719,
+    "total_tokens": 848,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.66909079999823,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

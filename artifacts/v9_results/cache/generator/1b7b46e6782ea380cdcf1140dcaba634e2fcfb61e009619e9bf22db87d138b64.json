@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "language pairs explored",
+        "citations": [
+          "C1"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence discusses specific language pairs involved in translation tasks, particularly low-resource languages and their translation methods.",
+    "claims": [
+      {
+        "text": "The language pair Arabic to Spanish is explored in the context of translation tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evidence mentions the use of a rich-resource language (English) as a pivot for translating low-resource languages.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 586,
+    "total_tokens": 705,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7544505999976536,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8a183b9d76"
+}

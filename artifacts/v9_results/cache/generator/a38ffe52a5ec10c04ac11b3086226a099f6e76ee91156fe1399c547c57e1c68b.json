@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition and explanation of Masked Document Generation (MDG), detailing its purpose and methodology.",
+    "claims": [
+      {
+        "text": "Masked Document Generation (MDG) is a task that learns to recover a document with a masked span of tokens.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "MDG involves predicting the original text of a document after applying a masking strategy to certain spans of text.",
+        "citations": [
+          "C8",
+          "C21"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The task is part of pre-training for sequence-to-sequence models, enhancing their ability to generate coherent text.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 2266,
+    "total_tokens": 2418,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.9618606000003638,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

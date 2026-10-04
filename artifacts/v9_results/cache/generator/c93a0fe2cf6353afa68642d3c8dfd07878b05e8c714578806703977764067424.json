@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the Pyramid scoring system used in summarization evaluation, specifically mentioning its correlation with other metrics and its structure.",
+    "claims": [
+      {
+        "text": "The Pyramid scoring system organizes content units from human-written summaries into a pyramid structure for evaluation.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Pyramid scores are used to assess the effectiveness of summarization metrics by comparing them with automatic evaluation metrics like Rouge.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Different variants of evaluation metrics, including Pyramid scores, show varying correlations with human judgments in summarization.",
+        "citations": [
+          "C14"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 2222,
+    "total_tokens": 2366,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.5405437000008533,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

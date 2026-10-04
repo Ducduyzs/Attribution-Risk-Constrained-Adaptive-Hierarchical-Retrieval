@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific datasets and types of data used in the study, including EEG recordings and behavioral data related to language processing.",
+    "claims": [
+      {
+        "text": "The datasets used include EEG recordings of brain activity and behavioral data from language comprehension tasks.",
+        "citations": [
+          "C10",
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Heterogeneous data types such as eye-tracking, self-paced reading, and ERP components are utilized to enhance understanding of human language processing.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study emphasizes the use of multitask learning to analyze relationships between ERP components and behavioral data.",
+        "citations": [
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 1237,
+    "total_tokens": 1392,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.060570599998755,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

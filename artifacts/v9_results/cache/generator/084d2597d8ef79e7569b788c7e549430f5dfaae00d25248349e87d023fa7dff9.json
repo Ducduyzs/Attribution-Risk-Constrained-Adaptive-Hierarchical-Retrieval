@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the model utilizes both adjacent mentions and surrounding words to improve entity linking, suggesting that it does not limit itself to only adjacent mentions.",
+    "claims": [
+      {
+        "text": "The NCEL model uses both adjacent mentions and surrounding words to construct feature vectors for entity linking.",
+        "citations": [
+          "C1",
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model's approach to collective entity linking incorporates coherence information from adjacent mentions, indicating it uses more than just adjacent entities in some cases.",
+        "citations": [
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 2264,
+    "total_tokens": 2391,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.097713400002249,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

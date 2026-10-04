@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "Different variants of ROUGE scores yield varying correlations with human judgments, particularly in the context of scientific summarization.",
+    "claims": [
+      {
+        "text": "Rouge-2 and Rouge-3 are the highest correlated ROUGE variants with pyramid scores.",
+        "citations": [
+          "C1",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Different variants of ROUGE result in different correlation values with human judgments, indicating variability in effectiveness.",
+        "citations": [
+          "C6",
+          "C18"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Rouge-1 and Rouge-L have the lowest F-score correlations, indicating they are less effective than other variants.",
+        "citations": [
+          "C13"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Keyword-based reduction variants show high correlation with ROUGE, suggesting some variants perform better than others.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 1212,
+    "total_tokens": 1395,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.082935800000996,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

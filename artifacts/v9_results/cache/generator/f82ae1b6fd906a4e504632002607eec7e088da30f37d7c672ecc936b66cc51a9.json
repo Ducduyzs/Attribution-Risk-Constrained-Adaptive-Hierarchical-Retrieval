@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific numerical improvements over previously reported results in speculation detection and scope resolution, indicating that the new methods outperformed earlier approaches.",
+    "claims": [
+      {
+        "text": "The reported improvements over previously reported results include at least 0.29 F1 points on cue detection and 4.27 F1 points on scope resolution.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "XLNet consistently outperformed BERT and RoBERTa, which contrasts with results on other benchmark datasets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "On the negation scope resolution task, XLNet and RoBERTa achieved a gain of 3.16 F1 points on BF, 0.06 F1 points on BA, and 0.3 F1 points on SFU.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 189,
+    "prompt_tokens": 1200,
+    "total_tokens": 1389,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.250184699998499,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

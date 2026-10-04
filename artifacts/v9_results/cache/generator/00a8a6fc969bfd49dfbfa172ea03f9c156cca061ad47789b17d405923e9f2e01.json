@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the correlations of different ROUGE variants with manual evaluations, indicating that different variants yield different correlation values.",
+    "claims": [
+      {
+        "text": "Different variants of ROUGE result in different correlation values with human judgments, indicating that not all ROUGE scores are equally effective.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "ROUGE-2 and ROUGE-3 are better correlated with manual judgments in the context of scientific summarization compared to other variants.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "There is a large variance of correlations between different ROUGE variants and manual evaluations, affecting the reliability of ROUGE for evaluating scientific summaries.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 714,
+    "total_tokens": 876,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.13036959999954,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the pretrained word embeddings used in the study, including GloVe, Edinburgh embeddings, and Emoji embeddings.",
+    "claims": [
+      {
+        "text": "The pretrained word embeddings used include GloVe embeddings, Edinburgh embeddings, and Emoji embeddings.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "GloVe embeddings are 200-dimensional and trained on 2 billion tweets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Edinburgh embeddings are obtained by training a skip-gram model on the Edinburgh corpus.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Emoji embeddings are learned from emoji descriptions and are used due to the abundance of emojis in tweets.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 1231,
+    "total_tokens": 1403,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.023754800000461,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

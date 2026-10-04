@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the use of BERT and CNN neural models for different tasks.",
+    "claims": [
+      {
+        "text": "A BERT variant was used for comparison against other models.",
+        "citations": [
+          "C1",
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A CNN neural encoder was utilized for answerability prediction.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 728,
+    "total_tokens": 815,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2994164999981876,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

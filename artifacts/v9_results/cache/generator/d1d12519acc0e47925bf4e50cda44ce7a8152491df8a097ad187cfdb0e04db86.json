@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that various baselines were tested, including a majority-class baseline and a No-answer baseline, which were compared against the neural baseline (Bert + Unanswerable).",
+    "claims": [
+      {
+        "text": "Various baselines were tested, including a majority-class baseline and a No-answer baseline, which were compared with the neural baseline.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The neural baseline (Bert + Unanswerable) was evaluated against other baselines, showing its performance relative to them.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The results indicate that the neural baseline underperforms compared to human performance, suggesting the need for further improvements.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 650,
+    "total_tokens": 816,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.531969300001947,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

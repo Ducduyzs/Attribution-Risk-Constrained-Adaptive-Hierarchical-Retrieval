@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the authors believe general knowledge contributes to humans' robustness to noise, as they discuss the integration of general knowledge in reading comprehension and its effectiveness in improving performance against noise.",
+    "claims": [
+      {
+        "text": "The authors hypothesize that general knowledge plays a role in humans' robustness to noise.",
+        "citations": [
+          "C6",
+          "C10",
+          "C13",
+          "C17"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Human beings are less likely to suffer from noise compared to MRC models, indicating a reliance on general knowledge.",
+        "citations": [
+          "C10",
+          "C13",
+          "C19"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 2249,
+    "total_tokens": 2382,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.4418369000013627,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

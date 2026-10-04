@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the Pyramid scoring system used in summarization evaluation, specifically in the context of scientific articles.",
+    "claims": [
+      {
+        "text": "The manual Pyramid scores are used to evaluate the quality of candidate summaries based on the organization of content units in a pyramid structure, where higher tiers indicate greater importance.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Pyramid scores are correlated with other evaluation metrics like Rouge and Sera, but they serve as a semi-manual evaluation framework for summarization effectiveness.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The Pyramid scoring system organizes content units into tiers, allowing for a structured assessment of summary quality based on the importance of content.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 1880,
+    "total_tokens": 2050,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4133970999973826,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

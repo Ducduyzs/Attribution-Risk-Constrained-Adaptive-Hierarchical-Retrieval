@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the Pyramid score and its evaluation in relation to other metrics, specifically in the context of scientific summarization.",
+    "claims": [
+      {
+        "text": "The manual Pyramid score is used as an evaluation metric for scientific summarization.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Pyramid scores are correlated with automatic evaluation metrics like Rouge and Sera, indicating their effectiveness in summarization evaluation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The Pyramid score is calculated based on the presence of 'nuggets' in the candidate summary, which are categorized into tiers based on importance.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1053,
+    "total_tokens": 1203,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8563805000012508,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

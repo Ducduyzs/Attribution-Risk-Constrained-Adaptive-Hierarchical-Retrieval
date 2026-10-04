@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Do they report results only on English datasets?",
+        "citations": [
+          "C2",
+          "C3",
+          "C32"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets mentioned, such as WordNet and various MRC datasets, are primarily English-based, suggesting that results are reported on English datasets.",
+    "claims": [
+      {
+        "text": "The datasets referenced, including WordNet, are primarily English-based, indicating results are reported on English datasets.",
+        "citations": [
+          "C2",
+          "C3",
+          "C32"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 2445,
+    "total_tokens": 2563,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9960283000000345,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

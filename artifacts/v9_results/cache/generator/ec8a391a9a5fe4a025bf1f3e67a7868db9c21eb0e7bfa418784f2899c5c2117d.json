@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics for different discourse relations, indicating which types the model performs best and worst on.",
+    "claims": [
+      {
+        "text": "The model achieves the best performance improvements on Comparison and Temporal discourse relations, with F1-score improvements of 6 and 7 points respectively.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model performs poorly on implicit discourse relations overall, achieving a macro-average F1-score of 48.82%, which is lower than explicit relations that exceed 90% F1-score.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The CRF layer improves implicit discourse relation recognition but is not suitable for binary classification, indicating limitations in performance for certain relations.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 1950,
+    "total_tokens": 2120,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.26135830000203,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

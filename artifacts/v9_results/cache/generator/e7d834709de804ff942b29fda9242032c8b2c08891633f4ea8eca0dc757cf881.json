@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Identify the experts used for annotation",
+        "citations": [
+          "C2",
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies that seven experts with legal training were recruited for the annotation task, and it also lists additional individuals who contributed expertise.",
+    "claims": [
+      {
+        "text": "Seven experts with legal training were recruited for the annotation task.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The authors acknowledge several individuals for their expertise, including Elias Wright, Gian Mascioli, Kiara Pillay, Harrison Kay, Eliel Talo, Alexander Fagella, and N. Cameron Russell.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 1938,
+    "total_tokens": 2086,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8741360999993049,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

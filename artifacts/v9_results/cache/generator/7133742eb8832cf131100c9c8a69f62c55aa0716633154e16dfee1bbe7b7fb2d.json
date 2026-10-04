@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that multiple baselines were tested, including a majority-class baseline, a No-answer baseline, and human performance baselines, among others.",
+    "claims": [
+      {
+        "text": "Multiple baselines were tested, including a majority-class baseline and a human performance baseline.",
+        "citations": [
+          "C2",
+          "C5",
+          "C17"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The No-answer (NA) baseline was also evaluated, providing a lower bound on performance.",
+        "citations": [
+          "C8",
+          "C15"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "BERT-based baselines were implemented for evidence identification.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "A word count baseline was used to assess lexical matching effectiveness.",
+        "citations": [
+          "C14"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 1235,
+    "total_tokens": 1404,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.1213630000020203,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

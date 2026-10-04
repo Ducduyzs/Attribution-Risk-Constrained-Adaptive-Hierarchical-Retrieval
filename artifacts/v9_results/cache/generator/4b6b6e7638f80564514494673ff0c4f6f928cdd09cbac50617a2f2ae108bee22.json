@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methodologies for evaluating the quality of data in the CoVoST dataset, including the use of BLEU scores and model output variance.",
+    "claims": [
+      {
+        "text": "The quality of the data is evaluated using corpus-level BLEU scores and a normalized quality score called BLEU_MS, which accounts for model output variance across different speakers.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Model stability is assessed using the coefficient of variation (CoefVar_MS), which measures the consistency of model outputs across different speakers.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 679,
+    "total_tokens": 812,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.38222229999883,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

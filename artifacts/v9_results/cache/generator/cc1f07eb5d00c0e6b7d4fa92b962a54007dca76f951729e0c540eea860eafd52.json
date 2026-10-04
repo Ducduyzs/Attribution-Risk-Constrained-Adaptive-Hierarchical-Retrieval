@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "type of model",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence clearly identifies KAR as an end-to-end Machine Reading Comprehension (MRC) model that integrates general knowledge to enhance its performance.",
+    "claims": [
+      {
+        "text": "KAR is an end-to-end Machine Reading Comprehension (MRC) model.",
+        "citations": [
+          "C1",
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "KAR explicitly uses general knowledge to assist its attention mechanisms.",
+        "citations": [
+          "C3",
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 1851,
+    "total_tokens": 1996,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8885875999985728,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

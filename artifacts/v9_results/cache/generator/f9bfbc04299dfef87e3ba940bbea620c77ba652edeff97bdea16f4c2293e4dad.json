@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides multiple methods for empirically evaluating data quality, including BLEU scores, manual inspections, and sanity checks.",
+    "claims": [
+      {
+        "text": "The quality of the data is evaluated using BLEU scores, which are calculated by grouping samples and averaging their scores.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Manual inspections are conducted for samples with low scores or high perplexity, ensuring translations meet quality standards.",
+        "citations": [
+          "C11",
+          "C33"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "Sanity checks are applied to confirm the integrity of the translation data and its disjoint nature across datasets.",
+        "citations": [
+          "C20"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 2264,
+    "total_tokens": 2412,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.120985600002314,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

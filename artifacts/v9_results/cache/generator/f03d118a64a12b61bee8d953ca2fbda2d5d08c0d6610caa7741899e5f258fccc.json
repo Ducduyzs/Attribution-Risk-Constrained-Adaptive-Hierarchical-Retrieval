@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence mentions various datasets used in the context of human language processing, including eye-tracking, self-paced reading, and ERP data.",
+    "claims": [
+      {
+        "text": "The datasets used include eye-tracking, self-paced reading, and ERP components.",
+        "citations": [
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Neural and behavioral data are also utilized to train neural networks.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 732,
+    "total_tokens": 836,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3603939000022365,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

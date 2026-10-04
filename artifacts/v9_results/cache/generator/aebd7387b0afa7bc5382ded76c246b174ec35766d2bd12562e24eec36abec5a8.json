@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a detailed classification of offensive content types and their targets, indicating a comprehensive exploration of the subject.",
+    "claims": [
+      {
+        "text": "Offensive content includes hate speech, cyberbullying, cyber-aggression, toxic comments, and abusive language.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Offensive content can be categorized into targeted insults (TIN) and untargeted profanity (UNT).",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Targets of offensive content can be individuals (IND), groups (GRP), or other entities (OTH).",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 1212,
+    "total_tokens": 1356,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.015148499998759,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_f5dd669434"
+}

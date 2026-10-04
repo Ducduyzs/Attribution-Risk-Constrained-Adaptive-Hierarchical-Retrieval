@@ -1,0 +1,1923 @@
+{
+  "question_id": "d201b9992809142fe59ae74508bc576f8ca538ff",
+  "source": "1906.00346.qasper",
+  "query": "IS the graph representation supervised?",
+  "rankings": {
+    "flat24": [
+      [
+        "047c179e6e4939d64564",
+        0.7312505391412322
+      ],
+      [
+        "288f0a4532aa0f21d11a",
+        0.03803509253268274
+      ],
+      [
+        "560d9b3cc18c64e7d2d0",
+        0.020138740827729155
+      ],
+      [
+        "f27bdbc79e936fee9c4b",
+        0.00989806371602365
+      ],
+      [
+        "0d4bc8fe78b88c95123d",
+        0.008985428752560174
+      ],
+      [
+        "06404d0593ae92608923",
+        0.007547923375900623
+      ],
+      [
+        "fdd2783f3d1c4063b53e",
+        0.00740301408887263
+      ],
+      [
+        "f27e1f4ace349f349316",
+        0.0023596606820630445
+      ],
+      [
+        "7e86f0eee3d332156d03",
+        0.0011786720362815634
+      ],
+      [
+        "8ce7d867e9fcb0bb601e",
+        0.0009622125595974063
+      ],
+      [
+        "1218a8b7fb015c9c75fb",
+        0.0008103873490573212
+      ],
+      [
+        "cc726ed8f8c386329e6d",
+        0.0007854739357252539
+      ],
+      [
+        "75093a44d7f527a9100f",
+        0.0006719278067448447
+      ],
+      [
+        "b42039e0f23e3f7b47e6",
+        0.0005152656843015681
+      ],
+      [
+        "40f4fbc57701b40698d4",
+        0.00048029723188631633
+      ],
+      [
+        "bceccbbefc72aacf10df",
+        0.0003125878098696676
+      ],
+      [
+        "5240939c2f45443ba732",
+        0.0002982776415551503
+      ],
+      [
+        "7999d558038846efd8cd",
+        0.00023597174148291185
+      ],
+      [
+        "7dcc9bf2af4fc7e6492b",
+        0.00019871553360735275
+      ],
+      [
+        "88c130740cc553c1345e",
+        0.00019871553360735275
+      ],
+      [
+        "de719521a48d6b2bc068",
+        0.00018093576989406792
+      ],
+      [
+        "1132e95ed9256051aba1",
+        0.00013446629631566167
+      ],
+      [
+        "87e640aa7e7a82686d00",
+        9.242113003743326e-05
+      ],
+      [
+        "37e1a82fca7a969edc88",
+        6.976470974169522e-05
+      ]
+    ],
+    "all_leaf": [
+      [
+        "047c179e6e4939d64564",
+        0.7312505391412322
+      ],
+      [
+        "288f0a4532aa0f21d11a",
+        0.03803509253268274
+      ],
+      [
+        "560d9b3cc18c64e7d2d0",
+        0.020138740827729155
+      ],
+      [
+        "f27bdbc79e936fee9c4b",
+        0.00989806371602365
+      ],
+      [
+        "0d4bc8fe78b88c95123d",
+        0.008985428752560174
+      ],
+      [
+        "06404d0593ae92608923",
+        0.007547923375900623
+      ],
+      [
+        "fdd2783f3d1c4063b53e",
+        0.00740301408887263
+      ],
+      [
+        "7603cfe01b09e2db2686",
+        0.004773722390757114
+      ],
+      [
+        "f27e1f4ace349f349316",
+        0.0023596606820630445
+      ],
+      [
+        "58ef03746ddb23ace1ac",
+        0.0019955386155334604
+      ],
+      [
+        "7e86f0eee3d332156d03",
+        0.0011786720362815634
+      ],
+      [
+        "8ce7d867e9fcb0bb601e",
+        0.0009622125595974063
+      ],
+      [
+        "1218a8b7fb015c9c75fb",
+        0.0008103873490573212
+      ],
+      [
+        "cc726ed8f8c386329e6d",
+        0.0007854739357252539
+      ],
+      [
+        "75093a44d7f527a9100f",
+        0.0006719278067448447
+      ],
+      [
+        "b42039e0f23e3f7b47e6",
+        0.0005152656843015681
+      ],
+      [
+        "40f4fbc57701b40698d4",
+        0.00048029723188631633
+      ],
+      [
+        "bceccbbefc72aacf10df",
+        0.0003125878098696676
+      ],
+      [
+        "5240939c2f45443ba732",
+        0.0002982776415551503
+      ],
+      [
+        "7999d558038846efd8cd",
+        0.00023597174148291185
+      ],
+      [
+        "8b0a862a397fd1505f45",
+        0.00022693385749600553
+      ],
+      [
+        "88c130740cc553c1345e",
+        0.00019871553360735275
+      ],
+      [
+        "7dcc9bf2af4fc7e6492b",
+        0.00019871553360735275
+      ],
+      [
+        "7c23b823f15c607a5c3c",
+        0.00019110431587777673
+      ],
+      [
+        "de719521a48d6b2bc068",
+        0.00018093576989406792
+      ],
+      [
+        "fdc1d7c04b87657e2bff",
+        0.0001488384825728813
+      ],
+      [
+        "1132e95ed9256051aba1",
+        0.00013446629631566167
+      ],
+      [
+        "7cd5c7238287b106f3f6",
+        0.00011591934318633098
+      ],
+      [
+        "6a5388da25deec3f3d9a",
+        0.00010554685795431097
+      ],
+      [
+        "f5ac86c0e16b27c8dd62",
+        0.00010554685795431097
+      ],
+      [
+        "87e640aa7e7a82686d00",
+        9.242113003743326e-05
+      ],
+      [
+        "37e1a82fca7a969edc88",
+        6.976470974169522e-05
+      ],
+      [
+        "51ef2b3378c05137e9f7",
+        6.302758756443266e-05
+      ],
+      [
+        "7f835d83b13397fd36b7",
+        5.694102683483241e-05
+      ],
+      [
+        "81575081c0ab105b6001",
+        2.818866280462178e-05
+      ]
+    ],
+    "contextual24": [
+      [
+        "047c179e6e4939d64564",
+        0.8720207761598445
+      ],
+      [
+        "560d9b3cc18c64e7d2d0",
+        0.03277498389995642
+      ],
+      [
+        "288f0a4532aa0f21d11a",
+        0.019568675555312352
+      ],
+      [
+        "f27bdbc79e936fee9c4b",
+        0.018055334973499374
+      ],
+      [
+        "7999d558038846efd8cd",
+        0.017242777557652904
+      ],
+      [
+        "cc726ed8f8c386329e6d",
+        0.01536534144130222
+      ],
+      [
+        "0d4bc8fe78b88c95123d",
+        0.013325147705881427
+      ],
+      [
+        "7e86f0eee3d332156d03",
+        0.011869121046339474
+      ],
+      [
+        "1218a8b7fb015c9c75fb",
+        0.011642224164666004
+      ],
+      [
+        "de719521a48d6b2bc068",
+        0.010652510839726164
+      ],
+      [
+        "f27e1f4ace349f349316",
+        0.01005236865796813
+      ],
+      [
+        "fdd2783f3d1c4063b53e",
+        0.01005236865796813
+      ],
+      [
+        "06404d0593ae92608923",
+        0.007846239292520898
+      ],
+      [
+        "8ce7d867e9fcb0bb601e",
+        0.0072890775835919245
+      ],
+      [
+        "bceccbbefc72aacf10df",
+        0.0012644219446392272
+      ],
+      [
+        "b42039e0f23e3f7b47e6",
+        0.0007854739357252539
+      ],
+      [
+        "75093a44d7f527a9100f",
+        0.0006411777211655284
+      ],
+      [
+        "37e1a82fca7a969edc88",
+        0.0005013742398679934
+      ],
+      [
+        "40f4fbc57701b40698d4",
+        0.0003726376876619113
+      ],
+      [
+        "5240939c2f45443ba732",
+        0.0003175087886569813
+      ],
+      [
+        "88c130740cc553c1345e",
+        0.00018961741228916415
+      ],
+      [
+        "7dcc9bf2af4fc7e6492b",
+        0.00017952796934677737
+      ],
+      [
+        "87e640aa7e7a82686d00",
+        0.0001387341225792179
+      ],
+      [
+        "1132e95ed9256051aba1",
+        0.000125337514256461
+      ]
+    ],
+    "contextual_all": [
+      [
+        "047c179e6e4939d64564",
+        0.8720207761598445
+      ],
+      [
+        "560d9b3cc18c64e7d2d0",
+        0.03277498389995642
+      ],
+      [
+        "288f0a4532aa0f21d11a",
+        0.019568675555312352
+      ],
+      [
+        "f27bdbc79e936fee9c4b",
+        0.018055334973499374
+      ],
+      [
+        "7999d558038846efd8cd",
+        0.017242777557652904
+      ],
+      [
+        "cc726ed8f8c386329e6d",
+        0.01536534144130222
+      ],
+      [
+        "7603cfe01b09e2db2686",
+        0.01342825474196852
+      ],
+      [
+        "0d4bc8fe78b88c95123d",
+        0.013325147705881427
+      ],
+      [
+        "7e86f0eee3d332156d03",
+        0.011869121046339474
+      ],
+      [
+        "1218a8b7fb015c9c75fb",
+        0.011642224164666004
+      ],
+      [
+        "de719521a48d6b2bc068",
+        0.010652510839726164
+      ],
+      [
+        "f27e1f4ace349f349316",
+        0.01005236865796813
+      ],
+      [
+        "fdd2783f3d1c4063b53e",
+        0.01005236865796813
+      ],
+      [
+        "06404d0593ae92608923",
+        0.007846239292520898
+      ],
+      [
+        "8ce7d867e9fcb0bb601e",
+        0.0072890775835919245
+      ],
+      [
+        "58ef03746ddb23ace1ac",
+        0.001761469680073981
+      ],
+      [
+        "bceccbbefc72aacf10df",
+        0.0012644219446392272
+      ],
+      [
+        "6a5388da25deec3f3d9a",
+        0.0009888596979506555
+      ],
+      [
+        "b42039e0f23e3f7b47e6",
+        0.0007854739357252539
+      ],
+      [
+        "75093a44d7f527a9100f",
+        0.0006411777211655284
+      ],
+      [
+        "7f835d83b13397fd36b7",
+        0.0005233756913394545
+      ],
+      [
+        "37e1a82fca7a969edc88",
+        0.0005013742398679934
+      ],
+      [
+        "40f4fbc57701b40698d4",
+        0.0003726376876619113
+      ],
+      [
+        "5240939c2f45443ba732",
+        0.0003175087886569813
+      ],
+      [
+        "7c23b823f15c607a5c3c",
+        0.00031015598671268335
+      ],
+      [
+        "7cd5c7238287b106f3f6",
+        0.00021654404989510326
+      ],
+      [
+        "8b0a862a397fd1505f45",
+        0.0002115288734611408
+      ],
+      [
+        "88c130740cc553c1345e",
+        0.00018961741228916415
+      ],
+      [
+        "7dcc9bf2af4fc7e6492b",
+        0.00017952796934677737
+      ],
+      [
+        "fdc1d7c04b87657e2bff",
+        0.00015000566214994787
+      ],
+      [
+        "87e640aa7e7a82686d00",
+        0.0001387341225792179
+      ],
+      [
+        "1132e95ed9256051aba1",
+        0.000125337514256461
+      ],
+      [
+        "f5ac86c0e16b27c8dd62",
+        9.761566060239503e-05
+      ],
+      [
+        "81575081c0ab105b6001",
+        7.662101864956481e-05
+      ],
+      [
+        "51ef2b3378c05137e9f7",
+        7.197911994931084e-05
+      ]
+    ],
+    "raptor": [
+      [
+        "047c179e6e4939d64564",
+        0.7312505391412322
+      ],
+      [
+        "288f0a4532aa0f21d11a",
+        0.03803509253268274
+      ],
+      [
+        "7603cfe01b09e2db2686",
+        0.004773722390757114
+      ],
+      [
+        "58ef03746ddb23ace1ac",
+        0.0019955386155334604
+      ],
+      [
+        "7e86f0eee3d332156d03",
+        0.0011786720362815634
+      ],
+      [
+        "1218a8b7fb015c9c75fb",
+        0.0008103873490573212
+      ],
+      [
+        "cc726ed8f8c386329e6d",
+        0.0007854739357252539
+      ],
+      [
+        "bceccbbefc72aacf10df",
+        0.0003125878098696676
+      ],
+      [
+        "5240939c2f45443ba732",
+        0.0002982776415551503
+      ],
+      [
+        "7999d558038846efd8cd",
+        0.00023597174148291185
+      ],
+      [
+        "de719521a48d6b2bc068",
+        0.00018093576989406792
+      ],
+      [
+        "1132e95ed9256051aba1",
+        0.00013446629631566167
+      ],
+      [
+        "37e1a82fca7a969edc88",
+        6.976470974169522e-05
+      ]
+    ]
+  },
+  "initial_ids": [
+    "047c179e6e4939d64564",
+    "560d9b3cc18c64e7d2d0",
+    "7e86f0eee3d332156d03",
+    "f27bdbc79e936fee9c4b",
+    "1218a8b7fb015c9c75fb",
+    "288f0a4532aa0f21d11a",
+    "cc726ed8f8c386329e6d",
+    "f27e1f4ace349f349316",
+    "06404d0593ae92608923",
+    "b42039e0f23e3f7b47e6",
+    "fdd2783f3d1c4063b53e",
+    "75093a44d7f527a9100f",
+    "de719521a48d6b2bc068",
+    "0d4bc8fe78b88c95123d",
+    "40f4fbc57701b40698d4",
+    "bceccbbefc72aacf10df",
+    "8ce7d867e9fcb0bb601e",
+    "7dcc9bf2af4fc7e6492b",
+    "88c130740cc553c1345e",
+    "87e640aa7e7a82686d00",
+    "7999d558038846efd8cd",
+    "37e1a82fca7a969edc88",
+    "1132e95ed9256051aba1",
+    "5240939c2f45443ba732",
+    "8b0a862a397fd1505f45",
+    "f5ac86c0e16b27c8dd62",
+    "7cd5c7238287b106f3f6",
+    "fdc1d7c04b87657e2bff",
+    "58ef03746ddb23ace1ac",
+    "7c23b823f15c607a5c3c",
+    "51ef2b3378c05137e9f7",
+    "7f835d83b13397fd36b7",
+    "7603cfe01b09e2db2686",
+    "6a5388da25deec3f3d9a",
+    "81575081c0ab105b6001"
+  ],
+  "sentences": [
+    {
+      "uid": "62740a335943742a5ed3",
+      "text": "Medication recommendation is an important healthcare application.",
+      "leaf_id": "560d9b3cc18c64e7d2d0",
+      "section_id": "26482b10280a68c9710e",
+      "start": 0,
+      "end": 65,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "03f451ae099f2716918d",
+      "text": "It is commonly formulated as a temporal prediction task.",
+      "leaf_id": "560d9b3cc18c64e7d2d0",
+      "section_id": "26482b10280a68c9710e",
+      "start": 66,
+      "end": 122,
+      "score": 0.00026947915555885544
+    },
+    {
+      "uid": "84000ada30059a5514ba",
+      "text": "Hence, most existing works only utilize longitudinal electronic health records (EHRs) from a small number of patients with multiple visits ignoring a large number of patients with a single visit (selection bias).",
+      "leaf_id": "560d9b3cc18c64e7d2d0",
+      "section_id": "26482b10280a68c9710e",
+      "start": 123,
+      "end": 335,
+      "score": 9.761566060239503e-05
+    },
+    {
+      "uid": "a550085d42679eb8a122",
+      "text": "Moreover, important hierarchical knowledge such as diagnosis hierarchy is not leveraged in the representation learning process.",
+      "leaf_id": "560d9b3cc18c64e7d2d0",
+      "section_id": "26482b10280a68c9710e",
+      "start": 336,
+      "end": 463,
+      "score": 0.0029810327298548972
+    },
+    {
+      "uid": "bfa4a454041ba2952fa7",
+      "text": "To address these challenges, we propose G-BERT, a new model to combine the power of Graph Neural Networks (GNNs) and BERT (Bidirectional Encoder Representations from Transformers) for medical code representation and medication recommendation.",
+      "leaf_id": "560d9b3cc18c64e7d2d0",
+      "section_id": "26482b10280a68c9710e",
+      "start": 464,
+      "end": 706,
+      "score": 0.01317194988155645
+    },
+    {
+      "uid": "aba409c735b84563db2c",
+      "text": "We use GNNs to represent the internal hierarchical structures of medical codes.",
+      "leaf_id": "560d9b3cc18c64e7d2d0",
+      "section_id": "26482b10280a68c9710e",
+      "start": 707,
+      "end": 786,
+      "score": 9.387641443080781e-05
+    },
+    {
+      "uid": "0597d859d2753d363e8f",
+      "text": "Then we integrate the GNN representation into a transformer-based visit encoder and pre-train it on EHR data from patients only with a single visit.",
+      "leaf_id": "560d9b3cc18c64e7d2d0",
+      "section_id": "26482b10280a68c9710e",
+      "start": 787,
+      "end": 935,
+      "score": 0.00035836727790970003
+    },
+    {
+      "uid": "b29ad6c5c3b76aa3842b",
+      "text": "The pre-trained visit encoder and representation are then fine-tuned for downstream predictive tasks on longitudinal EHRs from patients with multiple visits.",
+      "leaf_id": "560d9b3cc18c64e7d2d0",
+      "section_id": "26482b10280a68c9710e",
+      "start": 936,
+      "end": 1093,
+      "score": 0.0019267346633274757
+    },
+    {
+      "uid": "abb46fe1026e3d01d913",
+      "text": "G-BERT is the first to bring the language model pre-training schema into the healthcare domain and it achieved state-of-the-art performance on the medication recommendation task.",
+      "leaf_id": "8ce7d867e9fcb0bb601e",
+      "section_id": "26482b10280a68c9710e",
+      "start": 1094,
+      "end": 1272,
+      "score": 1.9073577192252488e-05
+    },
+    {
+      "uid": "589b4d4aa3d2322a1494",
+      "text": "The availability of massive electronic health records (EHR) data and the advances of deep learning technologies have provided unprecedented resource and opportunity for predictive healthcare, including the computational medication recommendation task.",
+      "leaf_id": "288f0a4532aa0f21d11a",
+      "section_id": "f0686e2facb003c1b0f2",
+      "start": 0,
+      "end": 251,
+      "score": 6.352188765951866e-05
+    },
+    {
+      "uid": "981f439cc0b5a88fba49",
+      "text": "A number of deep learning models were proposed to assist doctors in making medication recommendation BIBREF0 , BIBREF1 , BIBREF2 , BIBREF3 , BIBREF4 .",
+      "leaf_id": "288f0a4532aa0f21d11a",
+      "section_id": "f0686e2facb003c1b0f2",
+      "start": 252,
+      "end": 402,
+      "score": 3.822911232549001e-05
+    },
+    {
+      "uid": "f72138de561b75911fb9",
+      "text": "They often learn representations for medical entities (e.g., patients, diagnosis, medications) from patient EHR data, and then use the learned representations to predict medications that are suited to the patient's health condition.",
+      "leaf_id": "288f0a4532aa0f21d11a",
+      "section_id": "f0686e2facb003c1b0f2",
+      "start": 403,
+      "end": 635,
+      "score": 0.0004255430739740088
+    },
+    {
+      "uid": "3235b91a6bdaff0a4180",
+      "text": "To provide effective medication recommendation, it is important to learn accurate representation of medical codes.",
+      "leaf_id": "288f0a4532aa0f21d11a",
+      "section_id": "f0686e2facb003c1b0f2",
+      "start": 636,
+      "end": 750,
+      "score": 0.0007180297626119062
+    },
+    {
+      "uid": "c06255d252a9eef82514",
+      "text": "Despite that various considerations were handled in previous works for improving medical code representations BIBREF4 , BIBREF2 , BIBREF3 , there are two limitations with the existing work: To mitigate the aforementioned limitations, we propose G-BERT that combines the pre-training techniques and graph neural networks for better medical code representation and medication recommendation.",
+      "leaf_id": "288f0a4532aa0f21d11a",
+      "section_id": "f0686e2facb003c1b0f2",
+      "start": 751,
+      "end": 1140,
+      "score": 0.02310927773615126
+    },
+    {
+      "uid": "55203c69cdf1f80bedc8",
+      "text": "G-BERT is enabled and demonstrated by the following technical contributions:",
+      "leaf_id": "288f0a4532aa0f21d11a",
+      "section_id": "f0686e2facb003c1b0f2",
+      "start": 1141,
+      "end": 1217,
+      "score": 3.913565411910919e-05
+    },
+    {
+      "uid": "1bf949a77fc4ce0a4029",
+      "text": "Medication Recommendation Medication Recommendation can be categorized into instance-based and longitudinal recommendation methods BIBREF1 .",
+      "leaf_id": "58ef03746ddb23ace1ac",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 0,
+      "end": 140,
+      "score": 3.734356896287336e-05
+    },
+    {
+      "uid": "484fcb2128810e09c064",
+      "text": "Instance-based methods focus on current health conditions.",
+      "leaf_id": "58ef03746ddb23ace1ac",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 141,
+      "end": 199,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "fb651878436cee290cb1",
+      "text": "Among them, Leap BIBREF9 formulates a multi-instance multi-label learning framework and proposes a variant of sequence-to-sequence model based on content-attention mechanism to predict combination of medicines given patient's diagnoses.",
+      "leaf_id": "58ef03746ddb23ace1ac",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 200,
+      "end": 436,
+      "score": 2.4111139329084935e-05
+    },
+    {
+      "uid": "ecda9f7424fe3bb942fa",
+      "text": "Longitudinal-based methods leverage the temporal dependencies among clinical events, see BIBREF10 , BIBREF11 , BIBREF12 .",
+      "leaf_id": "58ef03746ddb23ace1ac",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 437,
+      "end": 558,
+      "score": 0.0001355207856240677
+    },
+    {
+      "uid": "a5f2bb081872c69931ad",
+      "text": "Among them, RETAIN BIBREF10 uses a two-level neural attention model to detect influential past visits and significant clinical variables within those visits for improved medication recommendation.",
+      "leaf_id": "58ef03746ddb23ace1ac",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 559,
+      "end": 755,
+      "score": 4.50445955990996e-05
+    },
+    {
+      "uid": "576af18d884dd70c2525",
+      "text": "Pre-training Techniques The goal of pre-training techniques is to provide model training with good initializations.",
+      "leaf_id": "58ef03746ddb23ace1ac",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 756,
+      "end": 871,
+      "score": 3.705296977158347e-05
+    },
+    {
+      "uid": "c824d5f24fbb77035915",
+      "text": "Pre-training has been shown extremely effective in various areas such as image classification BIBREF13 , BIBREF14 and machine translation BIBREF15 .",
+      "leaf_id": "58ef03746ddb23ace1ac",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 872,
+      "end": 1020,
+      "score": 0.00020342697805520653
+    },
+    {
+      "uid": "697daa26cd29daf7d142",
+      "text": "The unsupervised pre-training can be considered as a regularizer that supports better generalization from the training dataset BIBREF16 .",
+      "leaf_id": "58ef03746ddb23ace1ac",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 1021,
+      "end": 1158,
+      "score": 0.0031974869372464253
+    },
+    {
+      "uid": "de6c89429804a20827f8",
+      "text": "Recently, language model pre-training techniques such as BIBREF5 , BIBREF6 , BIBREF7 have shown to largely improve the performance on multiple NLP tasks.",
+      "leaf_id": "047c179e6e4939d64564",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 1159,
+      "end": 1312,
+      "score": 4.037790297412686e-05
+    },
+    {
+      "uid": "687a8b314af94dc29b87",
+      "text": "As the most widely used one, BERT BIBREF7 builds on the Transformer BIBREF8 architecture and improves the pre-training using a masked language model for bidirectional representation.",
+      "leaf_id": "047c179e6e4939d64564",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 1313,
+      "end": 1495,
+      "score": 0.00026323832090326084
+    },
+    {
+      "uid": "4dc9273fcfb1697b1dd3",
+      "text": "In this paper, we adapt the framework of BERT and pre-train our model on each visit of the EHR data to leverage the single-visit data that were not fit for model training in other medication recommendation models.",
+      "leaf_id": "047c179e6e4939d64564",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 1496,
+      "end": 1709,
+      "score": 5.649793328376293e-05
+    },
+    {
+      "uid": "f3663bd0f727b98a4c2d",
+      "text": "Graph Neural Networks (GNN) GNNs are neural networks that learn node or graph representations from graph-structured data.",
+      "leaf_id": "047c179e6e4939d64564",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 1710,
+      "end": 1831,
+      "score": 0.01847559420954457
+    },
+    {
+      "uid": "559f0e134d90d702b899",
+      "text": "Various graph neural networks have been proposed to encode the graph-structure information, including graph convolutional neural networks (GCN) BIBREF17 , message passing networks (MPNN) BIBREF18 , graph attention networks (GAT) BIBREF19 .",
+      "leaf_id": "047c179e6e4939d64564",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 1832,
+      "end": 2071,
+      "score": 0.0015188508413778435
+    },
+    {
+      "uid": "5e5b8bb4092a37130593",
+      "text": "GNNs have already been demonstrated useful on EHR modeling BIBREF20 , BIBREF1 .",
+      "leaf_id": "047c179e6e4939d64564",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 2072,
+      "end": 2151,
+      "score": 9.098840359922044e-05
+    },
+    {
+      "uid": "26559945395da5dfd80f",
+      "text": "GRAM BIBREF20 represented a medical concept as a combination of its ancestors in the medical ontology using an attention mechanism.",
+      "leaf_id": "f27bdbc79e936fee9c4b",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 2152,
+      "end": 2283,
+      "score": 0.00028021097671886315
+    },
+    {
+      "uid": "09cad6f5ed8f5b2aa59b",
+      "text": "It's different from G-BERT from two aspects as described in Section \"Input Representation\" .",
+      "leaf_id": "f27bdbc79e936fee9c4b",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 2284,
+      "end": 2376,
+      "score": 0.0008796062064765496
+    },
+    {
+      "uid": "52e71060dc2831fbbe5e",
+      "text": "Another work worth mentioning is GAMENet BIBREF1 , which also used graph neural network to assist the medication recommendation task.",
+      "leaf_id": "f27bdbc79e936fee9c4b",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 2377,
+      "end": 2510,
+      "score": 0.0011116681693652307
+    },
+    {
+      "uid": "2f5716fed7bed7e53688",
+      "text": "However, GAMENet has a different motivation which results in using graph neural networks on drug-drug-interaction graphs instead of medical ontology.",
+      "leaf_id": "f27bdbc79e936fee9c4b",
+      "section_id": "a619ffb0c1ba39b4b47c",
+      "start": 2511,
+      "end": 2660,
+      "score": 0.000758359964634202
+    },
+    {
+      "uid": "40297d7015d9bfea48d2",
+      "text": "Definition 1 (Longitudinal Patient Records) In longitudinal EHR data, each patient can be represented as a sequence of multivariate observations: $ \\mathcal {X}^{(n)} = \\lbrace \\mathcal {X}_1^{(n)}, \\mathcal {X}_2^{(n)}, \\cdots , \\mathcal {X}_{T^{(n)}}^{(n)} \\rbrace $ where $n\\in \\lbrace 1,2,\\ldots , N\\rbrace $ , $N$ is the total number of patients; $T^{(n)}$ is the number of visits of the $n^{th}$ patient.",
+      "leaf_id": "40f4fbc57701b40698d4",
+      "section_id": "56e9a581f5f98313acef",
+      "start": 0,
+      "end": 410,
+      "score": 0.0003740956047302422
+    },
+    {
+      "uid": "51fdc7eba79bfac57169",
+      "text": "Here we choose two main medical code to represent each visit $\\mathcal {X}_t = \\mathcal {C}_d^t \\cup \\mathcal {C}_m^t$ of a patient which is a union set of corresponding diagnoses codes $\\mathcal {C}_d^t \\subset \\mathcal {C}_d$ and medications codes $\\mathcal {C}_m^t \\subset \\mathcal {C}_m$ .",
+      "leaf_id": "40f4fbc57701b40698d4",
+      "section_id": "56e9a581f5f98313acef",
+      "start": 411,
+      "end": 704,
+      "score": 0.00013238186559744397
+    },
+    {
+      "uid": "21e52e7c68da797877fe",
+      "text": "For simplicity, we use $\\mathcal {C}_\\ast ^t$ to indicate the unified definition for different type of medical codes and drop the superscript $(n)$ for a single patient whenever it is unambiguous. $n\\in \\lbrace 1,2,\\ldots , N\\rbrace $0 denotes the medical code set and $n\\in \\lbrace 1,2,\\ldots , N\\rbrace $1 the size of the code set. $n\\in \\lbrace 1,2,\\ldots , N\\rbrace $2 is the medical code.",
+      "leaf_id": "6a5388da25deec3f3d9a",
+      "section_id": "56e9a581f5f98313acef",
+      "start": 705,
+      "end": 1098,
+      "score": 5.307507822667364e-05
+    },
+    {
+      "uid": "6283ac9213c01f6603e3",
+      "text": "Definition 2 (Medical Ontology) Medical codes are usually categorized according to a tree-structured classification system such as ICD-9 ontoloy for diagnosis and ATC ontology for medication.",
+      "leaf_id": "6a5388da25deec3f3d9a",
+      "section_id": "56e9a581f5f98313acef",
+      "start": 1099,
+      "end": 1290,
+      "score": 1.9679025610662346e-05
+    },
+    {
+      "uid": "740b0cc4649ac0644986",
+      "text": "We use $\\mathcal {O}_d, \\mathcal {O}_m$ to denote the ontology for diagnosis and medication.",
+      "leaf_id": "6a5388da25deec3f3d9a",
+      "section_id": "56e9a581f5f98313acef",
+      "start": 1291,
+      "end": 1383,
+      "score": 1.9223170236538176e-05
+    },
+    {
+      "uid": "c9cc030686255a0910b6",
+      "text": "Similarly, we use $\\mathcal {O}_\\ast $ to indicate the unified definition for different type of medical codes.",
+      "leaf_id": "81575081c0ab105b6001",
+      "section_id": "56e9a581f5f98313acef",
+      "start": 1384,
+      "end": 1494,
+      "score": 2.1782649863110498e-05
+    },
+    {
+      "uid": "2b67a2aee5f30ec68db3",
+      "text": "In detial, $\\mathcal {O}_\\ast = \\overline{\\mathcal {C}_\\ast } \\cup \\mathcal {C}_\\ast $ where $\\overline{\\mathcal {C}_\\ast }$ denotes the codes excluding leaf codes.",
+      "leaf_id": "81575081c0ab105b6001",
+      "section_id": "56e9a581f5f98313acef",
+      "start": 1495,
+      "end": 1659,
+      "score": 4.6838884249524555e-05
+    },
+    {
+      "uid": "c3dbde970f60cf6ed550",
+      "text": "For simplicity, we define two function $pa(\\cdot ), ch(\\cdot )$ which accept target medical code and return ancestors' code set and direct child code set.",
+      "leaf_id": "81575081c0ab105b6001",
+      "section_id": "56e9a581f5f98313acef",
+      "start": 1660,
+      "end": 1814,
+      "score": 2.1112482331487176e-05
+    },
+    {
+      "uid": "046846ab6539eb97a594",
+      "text": "Problem Definition (Medication Recommendation) Given diagnosis codes $\\mathcal {C}_d^t$ of the visit at time $t$ , patient history $\\mathcal {X}_{1:t} = \\lbrace \\mathcal {X}_1, \\mathcal {X}_2, \\cdots , \\mathcal {X}_{t-1}\\rbrace $ , we want to recommend multiple medications by generating multi-label output $\\hat{\\mathbf {y}}_t \\in \\lbrace 0,1\\rbrace ^{|\\mathcal {C}_m|}$ .",
+      "leaf_id": "81575081c0ab105b6001",
+      "section_id": "56e9a581f5f98313acef",
+      "start": 1815,
+      "end": 2188,
+      "score": 4.98595821272702e-05
+    },
+    {
+      "uid": "b48f83255f22d5ef077a",
+      "text": "The overall framework of G-BERT is described in Figure 2 .",
+      "leaf_id": "06404d0593ae92608923",
+      "section_id": "36c02689b81521f25615",
+      "start": 0,
+      "end": 58,
+      "score": 8.415109250079663e-05
+    },
+    {
+      "uid": "4369fc0390f824ad85c8",
+      "text": "G-BERT first derives the initial embedding of medical codes from medical ontology using graph neural networks.",
+      "leaf_id": "06404d0593ae92608923",
+      "section_id": "36c02689b81521f25615",
+      "start": 59,
+      "end": 169,
+      "score": 0.000527478412523148
+    },
+    {
+      "uid": "9a55cb2fc11c41fcd4f4",
+      "text": "Then, in order to fully utilize the rich EHR data, G-BERT constructs an adaptive BERT model on the discarded single-visit data for visit representation.",
+      "leaf_id": "06404d0593ae92608923",
+      "section_id": "36c02689b81521f25615",
+      "start": 170,
+      "end": 322,
+      "score": 0.00031999824407395836
+    },
+    {
+      "uid": "d1647db9c21855ab2ad3",
+      "text": "Finally we add a prediction layer and fine-tune the model in the medication recommendation task.",
+      "leaf_id": "06404d0593ae92608923",
+      "section_id": "36c02689b81521f25615",
+      "start": 323,
+      "end": 419,
+      "score": 8.156224673856543e-05
+    },
+    {
+      "uid": "9be71223b58a575dd809",
+      "text": "In the following we will describe G-BERT in detail.",
+      "leaf_id": "06404d0593ae92608923",
+      "section_id": "36c02689b81521f25615",
+      "start": 420,
+      "end": 471,
+      "score": 2.144494842091395e-05
+    },
+    {
+      "uid": "9bc8c16cb09fbd2fa639",
+      "text": "But firstly, we give a brief background of BERT especially for the two pre-training objectives which will be later adapted to EHR data in Section \"Pre-training\" .",
+      "leaf_id": "06404d0593ae92608923",
+      "section_id": "36c02689b81521f25615",
+      "start": 472,
+      "end": 634,
+      "score": 9.761566060239503e-05
+    },
+    {
+      "uid": "c1ab2ae15c281e9586a7",
+      "text": "Background of BERT Based on a multi-layer Transformer encoder BIBREF8 (The transformer architecture has been ubiquitously used in many sequence modeling tasks recently, so we will not introduce the details here), BERT is pre-trained using two unsupervised tasks: A typical input to BERT is as follows ( BIBREF7 ): Input = [CLS] the man went to [MASK] store [SEP] he bought a gallon [MASK] milk [SEP] Label = IsNext where [CLS] is the first token of each sentence pair to represent the special classification embedding, i.e. the final state of this token is used as the aggregated sequence representation for classification tasks; [SEP] is used to separate two sentences; [MASK] is used to mask out the predicted words in the masked language model.",
+      "leaf_id": "0d4bc8fe78b88c95123d",
+      "section_id": "36c02689b81521f25615",
+      "start": 635,
+      "end": 1382,
+      "score": 0.009522485670336662
+    },
+    {
+      "uid": "8a43e1d7b2593a683ff5",
+      "text": "Using this form, these inputs facilitate the two tasks described above, and they will also be used in our method description in the following section.",
+      "leaf_id": "0d4bc8fe78b88c95123d",
+      "section_id": "36c02689b81521f25615",
+      "start": 1383,
+      "end": 1533,
+      "score": 0.0001609308249869283
+    },
+    {
+      "uid": "b81130aa4cb7f7f6f572",
+      "text": "The G-BERT model takes medical codes' ontology embeddings as input, and obtains intermediate representations from a Transformer encoder as the visit embeddings.",
+      "leaf_id": "f27e1f4ace349f349316",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 0,
+      "end": 160,
+      "score": 0.0001476803833660436
+    },
+    {
+      "uid": "4e46c3e90f4a0ee63c35",
+      "text": "It is then pre-trained on EHR from patients who only have one hospital visit.",
+      "leaf_id": "f27e1f4ace349f349316",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 161,
+      "end": 238,
+      "score": 4.069457790466838e-05
+    },
+    {
+      "uid": "c7c4786c059e87273ea6",
+      "text": "The derived encoder and visit embedding will be fed into a classifier and fine-tuned to make predictions.",
+      "leaf_id": "f27e1f4ace349f349316",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 239,
+      "end": 344,
+      "score": 0.0002936546333159843
+    },
+    {
+      "uid": "e7d5ed2a2090afb99a6c",
+      "text": "Ontology Embedding We constructed ontology embedding from diagnosis ontology $\\mathcal {O}_d$ and medication ontology $\\mathcal {O}_m$ .",
+      "leaf_id": "f27e1f4ace349f349316",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 345,
+      "end": 481,
+      "score": 5.829126566113865e-05
+    },
+    {
+      "uid": "6bbd82868857638e1fbd",
+      "text": "Since the medical codes in raw EHR data can be considered as leaf nodes in these ontology trees, we can enhance the medical code embedding using graph neural networks (GNNs) to integrate the ancestors' information of these codes.",
+      "leaf_id": "f27e1f4ace349f349316",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 482,
+      "end": 711,
+      "score": 0.00044770084688020684
+    },
+    {
+      "uid": "ed3fc162c064fba0fa3f",
+      "text": "Here we perform a two-stage procedure with a specially designed GNN for ontology embedding.",
+      "leaf_id": "f27e1f4ace349f349316",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 712,
+      "end": 803,
+      "score": 0.0001387341225792179
+    },
+    {
+      "uid": "b6b25898c27f0d49f155",
+      "text": "To start, we assign an initial embedding vector to every medical code $c_\\ast \\in \\mathcal {O}_\\ast $ with a learnable embedding matrix $\\mathbf {W}_e \\in \\mathbb {R}^{|\\mathcal {O}_\\ast | \\times d}$ where $d$ is the embedding dimension.",
+      "leaf_id": "f27e1f4ace349f349316",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 804,
+      "end": 1041,
+      "score": 0.00011959857805023158
+    },
+    {
+      "uid": "245cbf561d45737f8a08",
+      "text": "Stage 1.",
+      "leaf_id": "f27e1f4ace349f349316",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 1042,
+      "end": 1050,
+      "score": 8.547616611085637e-05
+    },
+    {
+      "uid": "e8a0400d630e5a302b8f",
+      "text": "For each non-leaf node $c_\\ast \\in \\overline{\\mathcal {C}_\\ast }$ , we obtain its enhanced medical embedding $\\mathbf {h}_{c_\\ast } \\in \\mathbb {R}^{d}$ as follows: $$\\mathbf {h}_{c_\\ast } = g(c_\\ast , ch(c_\\ast ), \\mathbf {W}_e)$$ (Eq.",
+      "leaf_id": "de719521a48d6b2bc068",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 1051,
+      "end": 1287,
+      "score": 0.0001488384825728813
+    },
+    {
+      "uid": "56e6bbc81036b356275b",
+      "text": "11) where $g(\\cdot ,\\cdot ,\\cdot )$ is an aggregation function which accepts the target medical code $c_\\ast $ , its direct child codes $ch(c_\\ast )$ and initial embedding matrix.",
+      "leaf_id": "de719521a48d6b2bc068",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 1288,
+      "end": 1467,
+      "score": 3.5633543371896295e-05
+    },
+    {
+      "uid": "76bfcca58bf7ea8ecffd",
+      "text": "Intuitively, the aggregation function can pass and fuse information in target node from its direct children which result in the more related embedding of ancestor' code to child codes' embedding.",
+      "leaf_id": "de719521a48d6b2bc068",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 1468,
+      "end": 1663,
+      "score": 7.602479448313689e-05
+    },
+    {
+      "uid": "e7032d2252d63ca407bf",
+      "text": "Stage 2.",
+      "leaf_id": "de719521a48d6b2bc068",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 1664,
+      "end": 1672,
+      "score": 3.0718185454758056e-05
+    },
+    {
+      "uid": "9a946bc7cc1cc6d759cc",
+      "text": "After obtaining enhanced embeddings, we pass the enhance embedding matrix $\\mathbf {H}_e \\in \\mathbb {R}^{|\\mathcal {O}_\\ast | \\times d}$ back to get ontology embedding for leaf codes $c_\\ast \\in \\mathcal {C}_\\ast $ as follows: $$\\mathbf {o}_{c_\\ast } = g(c_\\ast , pa(c_\\ast ), \\mathbf {H}_e)$$ (Eq.",
+      "leaf_id": "de719521a48d6b2bc068",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 1673,
+      "end": 1972,
+      "score": 0.0001376546336890011
+    },
+    {
+      "uid": "244e1305774461950fb9",
+      "text": "12) where $g(\\cdot ,\\cdot ,\\cdot )$ accepts ancestor codes of target medical code $c_\\ast $ .",
+      "leaf_id": "cc726ed8f8c386329e6d",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 1973,
+      "end": 2066,
+      "score": 1.9833367060283615e-05
+    },
+    {
+      "uid": "eb566207722d41a4d6f8",
+      "text": "Here, we use $pa(c_\\ast )$ instead of $ch(c_\\ast )$ , since utilizing the ancestors' embedding can indirectly associate all medical codes instead of taking each leaf code as independent input.",
+      "leaf_id": "cc726ed8f8c386329e6d",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 2067,
+      "end": 2259,
+      "score": 6.156764496180697e-05
+    },
+    {
+      "uid": "dc82f1fc0119073bd766",
+      "text": "The option for the aggregation function $g(\\cdot ,\\cdot ,\\cdot )$ is flexible, including sum, mean.",
+      "leaf_id": "cc726ed8f8c386329e6d",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 2260,
+      "end": 2359,
+      "score": 4.908661889889002e-05
+    },
+    {
+      "uid": "d1f8b303a46cb0e06509",
+      "text": "Here we choose the one from graph attention networks (GAT) BIBREF19 , which has shown efficient embedding learning ability on graph-structured tasks, e.g., node classification and link prediction.",
+      "leaf_id": "cc726ed8f8c386329e6d",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 2360,
+      "end": 2556,
+      "score": 0.0004936049895909173
+    },
+    {
+      "uid": "a8b51e76a4f55fc63ebc",
+      "text": "In particular, we implement the aggregation function $g(\\cdot ,\\cdot ,\\cdot )$ as follows: $$g (c_\\ast , p(c_\\ast ), \\mathbf {H}_e) = \\operatornamewithlimits{\\scalebox {1}[1.5]{\\parallel }}_{k=1}^K \\sigma \\left( \\sum _{j \\in \\lbrace c_\\ast \\rbrace \\cup pa(c_\\ast )} \\alpha _{i,j}^k \\mathbf {W}^k \\mathbf {h}_j \\right)$$ (Eq.",
+      "leaf_id": "7e86f0eee3d332156d03",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 2557,
+      "end": 2881,
+      "score": 0.00013658354314419533
+    },
+    {
+      "uid": "e3309dbff4f9ec9019e9",
+      "text": "13) where $\\operatornamewithlimits{\\scalebox {1}[1.5]{\\parallel }}$ represents concatenation which enables the multi-head attention mechanism, $\\sigma $ is a nonlinear activation function, $\\mathbf {W}^k \\in \\mathbb {R}^{m \\times d}$ is the weight matrix for input transformation, and $\\alpha _{i,j}^k$ are the corresponding $k$ -th normalized attention coefficients computed as follows: $$\\alpha _{i,j}^k = \\frac{e^{\\left(\\text{LeakyReLU}(\\mathbf {a}^\\intercal [\\mathbf {W}^k \\mathbf {h}_i || \\mathbf {W}^k \\mathbf {h}_j])\\right)}}{\\sum _{k \\in \\mathcal {N}_i} e^{\\left(\\text{LeakyReLU}(\\mathbf {a}^\\intercal [\\mathbf {W}^k \\mathbf {h}_i || \\mathbf {W}^k \\mathbf {h}_k])\\right)}}$$ (Eq.",
+      "leaf_id": "bceccbbefc72aacf10df",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 2882,
+      "end": 3569,
+      "score": 0.0001609308249869283
+    },
+    {
+      "uid": "c5a187714cc0fa05ce09",
+      "text": "14) where $\\mathbf {a} \\in \\mathbb {R}^{2m}$ is a learnable weight vector and LeakyReLU is a nonlinear function.",
+      "leaf_id": "7999d558038846efd8cd",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 3570,
+      "end": 3682,
+      "score": 2.449082522588366e-05
+    },
+    {
+      "uid": "e6988271938fdee690bb",
+      "text": "(we assume $m = d/K$ ).",
+      "leaf_id": "7999d558038846efd8cd",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 3683,
+      "end": 3706,
+      "score": 3.4808121961114686e-05
+    },
+    {
+      "uid": "dc784cd88ea096691a9b",
+      "text": "As shown in Figure 2 , we construct ICD-9 tree for diagnosis and ATC tree for medication using the same structure.",
+      "leaf_id": "7999d558038846efd8cd",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 3707,
+      "end": 3821,
+      "score": 5.307507822667364e-05
+    },
+    {
+      "uid": "9541accaa420a04c513a",
+      "text": "Here the direction of arrow shows the information flow where ancestor nodes can get information from their direct children (in stage 1) and similarly leaf nodes can get information from their connected ancestors (in stage 2).",
+      "leaf_id": "1218a8b7fb015c9c75fb",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 3822,
+      "end": 4047,
+      "score": 0.00010071400221737607
+    },
+    {
+      "uid": "a202146404d434ce8d2c",
+      "text": "It is worth mentioning that our graph embedding method on medical ontology is different from GRAM BIBREF20 from the following two aspects: Initialization: we initialize all the node embeddings from a learnable embedding matrix, while GRAM learns them using Glove from the co-occurrence information.",
+      "leaf_id": "1218a8b7fb015c9c75fb",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 4048,
+      "end": 4346,
+      "score": 0.0008295891883591028
+    },
+    {
+      "uid": "3e34df670da45db4e1fe",
+      "text": "Updating: we develop a two-step updating function for both leaf nodes and ancestor nodes; while in GRAM, only the leaf nodes are updated (as a combination of their ancestor nodes and themselves).",
+      "leaf_id": "1218a8b7fb015c9c75fb",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 4347,
+      "end": 4542,
+      "score": 0.000251186788490731
+    },
+    {
+      "uid": "f2b103e3958c73f9d1f2",
+      "text": "Visit Embedding Similar to BERT, we use a multi-layer Transformer architecture BIBREF8 as our visit encoder.",
+      "leaf_id": "1218a8b7fb015c9c75fb",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 4543,
+      "end": 4651,
+      "score": 8.750299760661308e-05
+    },
+    {
+      "uid": "fde1f96a21d8d521cdb5",
+      "text": "The model takes the ontology embedding as input and derive visit embedding $\\mathbf {v}_\\ast ^t \\in \\mathbb {R}^d$ for a patient at $t$ -th visit: $$\\mathbf {v}_\\ast ^t = \\mathrm {Transformer}(\\lbrace \\textit {[CLS]}\\rbrace \\cup \\lbrace \\mathbf {o}_{c_\\ast }^t| c_\\ast \\in \\mathcal {C}_\\ast ^t\\rbrace )[0]$$ (Eq.",
+      "leaf_id": "75093a44d7f527a9100f",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 4652,
+      "end": 4964,
+      "score": 0.00022516824185623812
+    },
+    {
+      "uid": "683916800eb380df7db5",
+      "text": "17) where [CLS] is a special token as in BERT.",
+      "leaf_id": "75093a44d7f527a9100f",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 4965,
+      "end": 5011,
+      "score": 2.4111139329084935e-05
+    },
+    {
+      "uid": "8f455a72fafd8e7fe0b9",
+      "text": "It is put in the first position of each visit of type $\\ast $ and its final state can be used as the representation of the visit.",
+      "leaf_id": "75093a44d7f527a9100f",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 5012,
+      "end": 5141,
+      "score": 0.0010242063784298284
+    },
+    {
+      "uid": "470ab3ef2d64b4485cee",
+      "text": "Intuitively, it is more reasonable to use Transformers as encoders (multi-head attention based architecture) than RNN or mean/sum to aggregate multiple medical embedding for visit embedding since the set of medical codes within one visit is not ordered.",
+      "leaf_id": "75093a44d7f527a9100f",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 5142,
+      "end": 5395,
+      "score": 4.198630823683514e-05
+    },
+    {
+      "uid": "d3be8deacc1a6333dc1b",
+      "text": "It is worth noting that our Transformer encoder is different from the original one in the position embedding part.",
+      "leaf_id": "75093a44d7f527a9100f",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 5396,
+      "end": 5510,
+      "score": 9.685608308164991e-05
+    },
+    {
+      "uid": "4f1dee7c81a0f1f4a818",
+      "text": "Position embedding, as an important component in Transformers and BERT, is used to encode the position and order information of each token in a sequence.",
+      "leaf_id": "f5ac86c0e16b27c8dd62",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 5511,
+      "end": 5664,
+      "score": 9.461262661302226e-05
+    },
+    {
+      "uid": "91619e04784ce0041abe",
+      "text": "However, one big difference between language sentences and EHR sequences is that the medical codes within the same visit do not generally have an order, so we remove the position embedding in our model.",
+      "leaf_id": "f5ac86c0e16b27c8dd62",
+      "section_id": "a1109c8098f4d8d9aae4",
+      "start": 5665,
+      "end": 5867,
+      "score": 7.031184266914956e-05
+    },
+    {
+      "uid": "0f689743e2ed6fe10f8f",
+      "text": "We adapted the original BERT model to be more suitable for our data and task.",
+      "leaf_id": "7f835d83b13397fd36b7",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 0,
+      "end": 77,
+      "score": 0.00010229985472581486
+    },
+    {
+      "uid": "64e8196b3864580b82a8",
+      "text": "In particular, we pre-train the model on each EHR visit (within both single-visit EHR sequences and multi-visit EHR sequences).",
+      "leaf_id": "7f835d83b13397fd36b7",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 78,
+      "end": 205,
+      "score": 0.0002199533724320648
+    },
+    {
+      "uid": "de620ea834567ccde824",
+      "text": "We modified the input and pre-training objectives of the BERT model: (1) For the input, we built the Transformer encoder on the GNN outputs, i.e. ontology embeddings, for visit embedding.",
+      "leaf_id": "7f835d83b13397fd36b7",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 206,
+      "end": 393,
+      "score": 4.6112748142641196e-05
+    },
+    {
+      "uid": "0caafcb724d8c6d26768",
+      "text": "For the original EHR sequence, it means essentially we combine the GNN model with a Transformer to become a new integrated encoder.",
+      "leaf_id": "7f835d83b13397fd36b7",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 394,
+      "end": 525,
+      "score": 0.00010071400221737607
+    },
+    {
+      "uid": "81ee66b82ab721da696f",
+      "text": "In addition, we removed the position embedding as we explained before.",
+      "leaf_id": "7f835d83b13397fd36b7",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 526,
+      "end": 596,
+      "score": 3.120191139396651e-05
+    },
+    {
+      "uid": "09b3ce379cb3216220a7",
+      "text": "(2) As for the pre-training procedures, we modified the original pre-training tasks i.e., Masked LM (language model) task and Next Sentence prediction task to self-prediction task and dual-prediction task.",
+      "leaf_id": "7f835d83b13397fd36b7",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 597,
+      "end": 802,
+      "score": 2.526822782693578e-05
+    },
+    {
+      "uid": "469b558686dffd501d48",
+      "text": "The idea to conduct these tasks is to make the visit embedding absorb enough information about what it is made of and what it is able to predict.",
+      "leaf_id": "7f835d83b13397fd36b7",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 803,
+      "end": 948,
+      "score": 0.0001941131867789626
+    },
+    {
+      "uid": "3a55939665857bd158cc",
+      "text": "Thus, for the self-prediction task, we want the visit embedding $v^1_\\ast $ to recover what it is made of, i.e., the input medical codes $\\mathcal {C}_\\ast ^t$ for each visit as follows: $$\\begin{aligned} &\\mathcal {L}_{se}(\\mathbf {v}^1_\\ast , \\mathcal {C}_\\ast ^1) = -\\log p(\\mathcal {C}_\\ast ^1 | \\mathbf {v}^1_\\ast ) \\\\ & = - \\sum _{c \\in \\mathcal {C}_\\ast ^1}\\log p(c_\\ast ^1 | \\mathbf {v}^1_\\ast ) + \\sum _{c \\in \\mathcal {C}_\\ast \\setminus \\mathcal {C}_\\ast ^1}\\log p(c_\\ast ^1 | \\mathbf {v}^1_\\ast ) \\end{aligned}$$ (Eq.",
+      "leaf_id": "8b0a862a397fd1505f45",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 949,
+      "end": 1477,
+      "score": 0.00012339457598623172
+    },
+    {
+      "uid": "683a589f03fdd305e90d",
+      "text": "19) we minimize the binary cross entropy loss $\\mathcal {L}_s$ , and in practise, $\\text{Sigmoid}(f(\\mathbf {v}_\\ast ))$ should be transformed by applying a fully connected neural network $f(\\cdot )$ with one hidden layer.",
+      "leaf_id": "8b0a862a397fd1505f45",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 1478,
+      "end": 1700,
+      "score": 8.682210299865953e-05
+    },
+    {
+      "uid": "2bded1f5f9862f26afe7",
+      "text": "With an analogy to the Masked LM task in BERT, we also used specific symbol [MASK] to randomly replace the original medical code $c_\\ast \\in \\mathcal {C}_\\ast ^1$ .",
+      "leaf_id": "88c130740cc553c1345e",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 1701,
+      "end": 1865,
+      "score": 4.794958311981737e-05
+    },
+    {
+      "uid": "49c1227d09285e1c50f4",
+      "text": "So there are $15\\%$ codes in $\\mathcal {C}_\\ast $ which will be replaced randomly and the model should have the ability to predict the masked code based on others.",
+      "leaf_id": "88c130740cc553c1345e",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 1866,
+      "end": 2029,
+      "score": 0.00011501735545699999
+    },
+    {
+      "uid": "5439549e33d5ee82ff1f",
+      "text": "Likewise, for the dual-prediction task, since the visit embedding $\\mathbf {v}_\\ast $ carries the information of medical codes of type $\\ast $ , we can further expect it has the ability to do more task-specific prediction as follows: $$\\begin{aligned} \\mathcal {L}_{du} = -\\log p(\\mathcal {C}_d^1 | \\mathbf {v}_m^1) - \\log p(\\mathcal {C}_m^1 | \\mathbf {v}_d^1) \\end{aligned}$$ (Eq.",
+      "leaf_id": "88c130740cc553c1345e",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 2030,
+      "end": 2411,
+      "score": 0.00017130819343483193
+    },
+    {
+      "uid": "bd1329925dcfca26c41a",
+      "text": "20) where we use the same transformation function $\\text{Sigmoid}(f_1(\\mathbf {v}_m^1))$ , $\\text{Sigmoid}(f_2(\\mathbf {v}_d^1))$ with different weight matrix to transform the visit embedding and optimize the binary cross entropy loss $\\mathcal {L}_{du}$ expanded same as $\\mathcal {L}_{se}$ in Eq.",
+      "leaf_id": "7c23b823f15c607a5c3c",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 2412,
+      "end": 2710,
+      "score": 5.1845659107128626e-05
+    },
+    {
+      "uid": "9fce02ae6f525d55ee64",
+      "text": "19 .",
+      "leaf_id": "7c23b823f15c607a5c3c",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 2711,
+      "end": 2715,
+      "score": 3.76364471809744e-05
+    },
+    {
+      "uid": "a56611df0f31f34facec",
+      "text": "This is a direct adaptation of the next sentence prediction task.",
+      "leaf_id": "7c23b823f15c607a5c3c",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 2716,
+      "end": 2781,
+      "score": 2.1782649863110498e-05
+    },
+    {
+      "uid": "184f256b7fdce185e247",
+      "text": "In BERT, the next sentence prediction task facilitates the prediction of sentence relations, which is a common task in NLP.",
+      "leaf_id": "7c23b823f15c607a5c3c",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 2782,
+      "end": 2905,
+      "score": 5.605828752595003e-05
+    },
+    {
+      "uid": "0b4a92605c744288eba9",
+      "text": "However, in healthcare, most predictive tasks do not have a sequence pair to classify.",
+      "leaf_id": "7c23b823f15c607a5c3c",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 2906,
+      "end": 2992,
+      "score": 3.321419494792514e-05
+    },
+    {
+      "uid": "a96933146fbc8b343d33",
+      "text": "Instead, we are often interested in predicting unknown disease or medication codes of the sequence.",
+      "leaf_id": "fdc1d7c04b87657e2bff",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 2993,
+      "end": 3092,
+      "score": 7.602479448313689e-05
+    },
+    {
+      "uid": "6a16723595eb9038cb04",
+      "text": "For example, in medication recommendation, we want to predict multiple medications given only the diagnosis codes.",
+      "leaf_id": "fdc1d7c04b87657e2bff",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 3093,
+      "end": 3207,
+      "score": 1.952588520864222e-05
+    },
+    {
+      "uid": "30598e6b4897c8d812b4",
+      "text": "Inversely, we can also predict unknown diagnosis given the medication codes.",
+      "leaf_id": "fdc1d7c04b87657e2bff",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 3208,
+      "end": 3284,
+      "score": 1.8925148246037342e-05
+    },
+    {
+      "uid": "2f7115814dcf2fdda941",
+      "text": "Thus, our final pre-training optimization objective can simply be the combination of the aforementioned losses, as shown in Eq.",
+      "leaf_id": "fdc1d7c04b87657e2bff",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 3285,
+      "end": 3412,
+      "score": 6.10885510164857e-05
+    },
+    {
+      "uid": "a1b789bc09d893ae7e06",
+      "text": "21 .",
+      "leaf_id": "fdc1d7c04b87657e2bff",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 3413,
+      "end": 3417,
+      "score": 5.605828752595003e-05
+    },
+    {
+      "uid": "4934d298d4b7214fb689",
+      "text": "It is used to train on EHR data from all patients who only have one hospital visits.. $$\\begin{aligned} \\mathcal {L}_{pr} = \\frac{1}{N} \\sum _{n=1}^N (( &\\mathcal {L}_{se}(\\mathbf {v}_d^{1, (n)}, \\mathcal {C}_d^{1, (n)}) + \\mathcal {L}_{se}(\\mathbf {v}_m^{1, (n)}, \\mathcal {C}_m^{1, (n)})\\\\ & + \\mathcal {L}_{du}^{(n)}) ) \\end{aligned}$$ (Eq.",
+      "leaf_id": "fdc1d7c04b87657e2bff",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 3418,
+      "end": 3761,
+      "score": 0.0003250358452365473
+    },
+    {
+      "uid": "576fe28acd182ceb11b9",
+      "text": "21)",
+      "leaf_id": "fdc1d7c04b87657e2bff",
+      "section_id": "da26be089a1f37ec1655",
+      "start": 3762,
+      "end": 3765,
+      "score": 3.8831109868779e-05
+    },
+    {
+      "uid": "343d60210cdb5397b7f2",
+      "text": "After obtaining pre-trained visit representation for each visit, for a prediction task on a multi-visit sequence data, we aggregate all the visit embedding and add a prediction layer for the medication recommendation task.",
+      "leaf_id": "b42039e0f23e3f7b47e6",
+      "section_id": "570a25f67a269e7d7168",
+      "start": 0,
+      "end": 222,
+      "score": 0.0004821761556921275
+    },
+    {
+      "uid": "03453312f0a147ff4954",
+      "text": "To be specific, from pre-training on all visits, we have a pre-trained Transformer encoder, which can then be used to get the visit embedding $\\mathbf {v}_*^\\tau $ at time $\\tau $ .",
+      "leaf_id": "b42039e0f23e3f7b47e6",
+      "section_id": "570a25f67a269e7d7168",
+      "start": 223,
+      "end": 404,
+      "score": 8.750299760661308e-05
+    },
+    {
+      "uid": "b12ae912d39bf1532a2e",
+      "text": "The known diagnosis codes $\\mathcal {C}_d^t$ at the prediction time $t$ is also represented using the same model as $\\mathbf {v}_*^t$ .",
+      "leaf_id": "b42039e0f23e3f7b47e6",
+      "section_id": "570a25f67a269e7d7168",
+      "start": 405,
+      "end": 540,
+      "score": 0.0003611769721424466
+    },
+    {
+      "uid": "8c24d508dc3c9bda0e58",
+      "text": "Concatenating the mean of previous diagnoses visit embeddings and medication visit embeddings, also the last diagnoses visit embedding, we built an MLP based prediction layer to predict the recommended medication codes as in Equation 23 . $$\\mathbf {y}_t = \\mathrm {Sigmoid}(\\mathbf {W}_1 [(\\frac{1}{t}\\sum _{\\tau < t} \\mathbf {v}_d^\\tau ) || (\\frac{1}{t}\\sum _{\\tau < t} \\mathbf {v}_m^\\tau ) ||\\mathbf {v}_d^t] + b)$$ (Eq.",
+      "leaf_id": "b42039e0f23e3f7b47e6",
+      "section_id": "570a25f67a269e7d7168",
+      "start": 541,
+      "end": 964,
+      "score": 4.264746818557913e-05
+    },
+    {
+      "uid": "1203656f60577c99218f",
+      "text": "23) where $\\mathbf {W}_1 \\in \\mathbb {R}^{|\\mathcal {C}_m| \\times 3d} $ is a learnable transformation matrix.",
+      "leaf_id": "7cd5c7238287b106f3f6",
+      "section_id": "570a25f67a269e7d7168",
+      "start": 965,
+      "end": 1074,
+      "score": 6.352188765951866e-05
+    },
+    {
+      "uid": "65a60acb3eea08eefa26",
+      "text": "Given the true labels $\\hat{\\mathbf {y}}_t$ at each time stamp $t$ , the loss function for the whole EHR sequence (i.e. a patient) is $$\\mathcal {L} = - \\frac{1}{T-1} \\sum _{t=2}^T (\\mathbf {y}_t^\\intercal \\log (\\hat{\\mathbf {y}}_t) + (1 - \\mathbf {y}_t^\\intercal ) \\log (1 - \\hat{\\mathbf {y}}_t))$$ (Eq.",
+      "leaf_id": "7cd5c7238287b106f3f6",
+      "section_id": "570a25f67a269e7d7168",
+      "start": 1075,
+      "end": 1379,
+      "score": 5.9673520701231884e-05
+    },
+    {
+      "uid": "c0c0f33ee2479b29bb9e",
+      "text": "24)",
+      "leaf_id": "7cd5c7238287b106f3f6",
+      "section_id": "570a25f67a269e7d7168",
+      "start": 1380,
+      "end": 1383,
+      "score": 3.426849054255501e-05
+    },
+    {
+      "uid": "0ca8df11cbfdc1641048",
+      "text": "Data We used EHR data from MIMIC-III BIBREF21 and conducted all our experiments on a cohort where patients have more than one visit.",
+      "leaf_id": "1132e95ed9256051aba1",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 0,
+      "end": 132,
+      "score": 0.00011061159714638083
+    },
+    {
+      "uid": "932d6a6d0053be484cd6",
+      "text": "We utilize data from patients with both single visit and multiple visits in the training dataset as pre-training data source (multi-visit data are split into visit slices).",
+      "leaf_id": "1132e95ed9256051aba1",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 133,
+      "end": 305,
+      "score": 6.156764496180697e-05
+    },
+    {
+      "uid": "6fe7ca974c0ec9516905",
+      "text": "In this work, we transform the drug coding from NDC to ATC Third Level for using the ontology information.",
+      "leaf_id": "1132e95ed9256051aba1",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 306,
+      "end": 412,
+      "score": 1.848675576370609e-05
+    },
+    {
+      "uid": "02243aa2dbd414118c3e",
+      "text": "The statistics of the datasets are summarized in Table 2 .",
+      "leaf_id": "1132e95ed9256051aba1",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 413,
+      "end": 471,
+      "score": 4.101373634453307e-05
+    },
+    {
+      "uid": "1ee241f5184cd22a427b",
+      "text": "Baseline We compared G-BERT with the following baselines.",
+      "leaf_id": "1132e95ed9256051aba1",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 472,
+      "end": 529,
+      "score": 5.605828752595003e-05
+    },
+    {
+      "uid": "f7f4d376c9c8f6c63348",
+      "text": "All methods are implemented in PyTorch BIBREF22 and trained on an Ubuntu 16.04 with 8GB memory and Nvidia 1080 GPU.",
+      "leaf_id": "1132e95ed9256051aba1",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 530,
+      "end": 645,
+      "score": 4.757645425657628e-05
+    },
+    {
+      "uid": "43dee67cbb49daba31ad",
+      "text": "We also evaluated three G-BERT variants for model ablation.",
+      "leaf_id": "1132e95ed9256051aba1",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 646,
+      "end": 705,
+      "score": 4.264746818557913e-05
+    },
+    {
+      "uid": "54bbcedfbf72890d3ead",
+      "text": "Metrics To measure the prediction accuracy, we used Jaccard Similarity Score (Jaccard), Average F1 (F1) and Precision Recall AUC (PR-AUC).",
+      "leaf_id": "1132e95ed9256051aba1",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 706,
+      "end": 844,
+      "score": 0.00011147903794271353
+    },
+    {
+      "uid": "a237fb9dcb2c68ac9e2b",
+      "text": "Jaccard is defined as the size of the intersection divided by the size of the union of ground truth set $Y_t^{(k)}$ and predicted set $\\hat{Y}_t^{(k)}$ . $$\\text{Jaccard} = \\frac{1}{\\sum _k^N \\sum _t^{T_k} 1}\\sum _k^N \\sum _t^{T_k} \\frac{|Y_t^{(k)} \\cap \\hat{Y}_t^{(k)}|}{|Y_t^{(k)} \\cup \\hat{Y}_t^{(k)}|}\\nonumber $$ (Eq.",
+      "leaf_id": "5240939c2f45443ba732",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 845,
+      "end": 1167,
+      "score": 4.264746818557913e-05
+    },
+    {
+      "uid": "538ab53c5c4ae05c5dac",
+      "text": "36) where $N$ is the number of patients in test set and $T_k$ is the number of visits of the $k^{th}$ patient.",
+      "leaf_id": "5240939c2f45443ba732",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 1168,
+      "end": 1278,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "dd4d45fc508329bccd06",
+      "text": "Implementation Details We randomly divide the dataset into training, validation and testing set in a $0.6 : 0.2 : 0.2$ ratio.",
+      "leaf_id": "5240939c2f45443ba732",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 1279,
+      "end": 1404,
+      "score": 0.00014091855924157302
+    },
+    {
+      "uid": "40a7f33b34cb80a729b2",
+      "text": "For G-BERT, the hyperparameters are adjusted on evaluation set: (1) GAT part: input embedding dimension as 75, number of attention heads as 4; (2) BERT part: hidden dimension as 300, dimension of position-wise feed-forward networks as 300, 2 hidden layers with 4 attention heads for each layer.",
+      "leaf_id": "7dcc9bf2af4fc7e6492b",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 1405,
+      "end": 1699,
+      "score": 0.0001442598644847886
+    },
+    {
+      "uid": "3ff9c4c0e47cf4b0b1a9",
+      "text": "Specially, we alternated the pre-training with 5 epochs and fine-tuning procedure with 5 epochs for 15 times to stabilize the training procedure.",
+      "leaf_id": "7dcc9bf2af4fc7e6492b",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 1700,
+      "end": 1845,
+      "score": 0.00012830942637841788
+    },
+    {
+      "uid": "4292d806138ca63cef31",
+      "text": "For LR, we use the grid search over typical range of hyper-parameter to search the best hyperparameter values which result in L1 norm penalty with weight as $1.1$ .",
+      "leaf_id": "7dcc9bf2af4fc7e6492b",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 1846,
+      "end": 2010,
+      "score": 5.694102683483241e-05
+    },
+    {
+      "uid": "37ea1d8b8e31cb45d209",
+      "text": "For deep learning models, we implemented RNN using a gated recurrent unit (GRU) BIBREF24 and utilize dropout with a probability of 0.4 on the output of embedding.",
+      "leaf_id": "7dcc9bf2af4fc7e6492b",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 2011,
+      "end": 2173,
+      "score": 9.028039015031105e-05
+    },
+    {
+      "uid": "747d2d2441d5ee272ae8",
+      "text": "We test several embedding choice for baseline methods and determine the dimension for medical embedding as 300 and thershold for final prediction as 0.3 for better performance.",
+      "leaf_id": "51ef2b3378c05137e9f7",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 2174,
+      "end": 2350,
+      "score": 8.415109250079663e-05
+    },
+    {
+      "uid": "3aff929f9c83c45d6bc6",
+      "text": "Training is done through Adam BIBREF25 at learning rate 5e-4.",
+      "leaf_id": "51ef2b3378c05137e9f7",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 2351,
+      "end": 2412,
+      "score": 2.43002407432796e-05
+    },
+    {
+      "uid": "014dfd5b3f4eaf3a765a",
+      "text": "We fix the best model on evaluation set within 100 epochs and report the performance in test set.",
+      "leaf_id": "51ef2b3378c05137e9f7",
+      "section_id": "7e08d07cc230b12dcaa1",
+      "start": 2413,
+      "end": 2510,
+      "score": 7.36859298114082e-05
+    },
+    {
+      "uid": "3b8ab46b41789ed955af",
+      "text": "Experimental Results Table.",
+      "leaf_id": "7603cfe01b09e2db2686",
+      "section_id": "be77624a2186825156ec",
+      "start": 0,
+      "end": 27,
+      "score": 6.156764496180697e-05
+    },
+    {
+      "uid": "c1ed3d47656b0195d73e",
+      "text": "3 compares the performance on the medication recommendation task.",
+      "leaf_id": "7603cfe01b09e2db2686",
+      "section_id": "be77624a2186825156ec",
+      "start": 28,
+      "end": 93,
+      "score": 2.3923509443082864e-05
+    },
+    {
+      "uid": "2c849fd8f99b7c0ee282",
+      "text": "For variants of G-BERT, $\\texttt {G-BERT}_{G^-,P^-}$ performs worse compared with $\\texttt {G-BERT}_{G^-}$ and $\\texttt {G-BERT}_{P^-}$ which demonstrate the effectiveness of using ontology information to get enhanced medical embedding as input and employ an unsupervised pre-training procedure on larger abundant data.",
+      "leaf_id": "7603cfe01b09e2db2686",
+      "section_id": "be77624a2186825156ec",
+      "start": 94,
+      "end": 413,
+      "score": 0.007636216494667212
+    },
+    {
+      "uid": "b37550601c292ac5bc11",
+      "text": "Incorporating both hierarchical ontology information and pre-training procedure, the end-to-end model G-BERT has more capacity and achieve comparable results with others.",
+      "leaf_id": "7603cfe01b09e2db2686",
+      "section_id": "be77624a2186825156ec",
+      "start": 414,
+      "end": 584,
+      "score": 8.750299760661308e-05
+    },
+    {
+      "uid": "2f0f94c4f7f7bc63e7b1",
+      "text": "As for baseline models, LR and Leap are worse than our most basic model ( $\\texttt {G-BERT}_{G^-,P^-}$ ) in terms of most metrics.",
+      "leaf_id": "7603cfe01b09e2db2686",
+      "section_id": "be77624a2186825156ec",
+      "start": 585,
+      "end": 715,
+      "score": 8.156224673856543e-05
+    },
+    {
+      "uid": "8365bc9c78b35694cd98",
+      "text": "Comparing $\\texttt {G-BERT}_{P^-}$ and GRAM, which both used medical ontology information without pre-training, the scores of our $\\texttt {G-BERT}_{P^-}$ is slightly higher in all metrics.",
+      "leaf_id": "7603cfe01b09e2db2686",
+      "section_id": "be77624a2186825156ec",
+      "start": 716,
+      "end": 905,
+      "score": 9.761566060239503e-05
+    },
+    {
+      "uid": "7f87a646463ed3ec33ce",
+      "text": "This can demonstrate the validness of using Transformer encoders and the specific prediction layer for medication recommendation.",
+      "leaf_id": "7603cfe01b09e2db2686",
+      "section_id": "be77624a2186825156ec",
+      "start": 906,
+      "end": 1035,
+      "score": 5.025061602588551e-05
+    },
+    {
+      "uid": "cd91b03eea8add98530a",
+      "text": "Our final model G-BERT is also better than the attention based model, RETAIN, and the recently published state-of-the-art model, GAMENet.",
+      "leaf_id": "87e640aa7e7a82686d00",
+      "section_id": "be77624a2186825156ec",
+      "start": 1036,
+      "end": 1173,
+      "score": 4.8325638187255363e-05
+    },
+    {
+      "uid": "fad024694417bc20a9e9",
+      "text": "Specifically, even adding the extra information of DDI knowledge and procedure codes, GAMENet still performs worse than G-BERT.",
+      "leaf_id": "87e640aa7e7a82686d00",
+      "section_id": "be77624a2186825156ec",
+      "start": 1174,
+      "end": 1301,
+      "score": 3.734356896287336e-05
+    },
+    {
+      "uid": "f23ba65e768e9479b380",
+      "text": "In addition, we visualized the pre-training medical code embeddings of $\\texttt {G-BERT}_{G^-}$ and G-BERT to show the effectiveness of ontology embedding using online embedding projector shown in (https://raw.githubusercontent.com/jshang123/G-Bert/master/saved/tsne.png/).",
+      "leaf_id": "87e640aa7e7a82686d00",
+      "section_id": "be77624a2186825156ec",
+      "start": 1302,
+      "end": 1575,
+      "score": 9.610241549947396e-05
+    },
+    {
+      "uid": "01b92d89a1ac926c4156",
+      "text": "In this paper we proposed a pre-training model named G-BERT for medical code representation and medication recommendation.",
+      "leaf_id": "fdd2783f3d1c4063b53e",
+      "section_id": "a64930920aee75409086",
+      "start": 0,
+      "end": 122,
+      "score": 0.00043224150570179065
+    },
+    {
+      "uid": "cd9630f09559432aca30",
+      "text": "To our best knowledge, G-BERT is the first that utilizes language model pre-training techniques in healthcare domain.",
+      "leaf_id": "fdd2783f3d1c4063b53e",
+      "section_id": "a64930920aee75409086",
+      "start": 123,
+      "end": 240,
+      "score": 1.750292578877821e-05
+    },
+    {
+      "uid": "375dda3d33f49fcd114c",
+      "text": "It adapted BERT to the EHR data and integrated medical ontology information using graph neural networks.",
+      "leaf_id": "fdd2783f3d1c4063b53e",
+      "section_id": "a64930920aee75409086",
+      "start": 241,
+      "end": 345,
+      "score": 0.0005506247438936138
+    },
+    {
+      "uid": "ed4fc729668754ef9ca1",
+      "text": "By additional pre-training on the EHR from patients who only have one hospital visit which are generally discarded before model training, G-BERT outperforms all baselines in prediction accuracy on medication recommendation task.",
+      "leaf_id": "fdd2783f3d1c4063b53e",
+      "section_id": "a64930920aee75409086",
+      "start": 346,
+      "end": 574,
+      "score": 8.029784284533197e-05
+    },
+    {
+      "uid": "af8e15f80d379b204515",
+      "text": "One direction for the future work is to add more auxiliary and structural tasks to improve the ability of code representaion.",
+      "leaf_id": "fdd2783f3d1c4063b53e",
+      "section_id": "a64930920aee75409086",
+      "start": 575,
+      "end": 700,
+      "score": 0.0016678823271748684
+    },
+    {
+      "uid": "48f5f7c2d220d1ed532f",
+      "text": "Another direction may be to adapt our model to be suitable for even larger datasets with more heterogeneous modalities.",
+      "leaf_id": "fdd2783f3d1c4063b53e",
+      "section_id": "a64930920aee75409086",
+      "start": 701,
+      "end": 820,
+      "score": 0.00034196205732869996
+    },
+    {
+      "uid": "7226af37c805728acfd7",
+      "text": "This work was supported by the National Science Foundation award IIS-1418511, CCF-1533768 and IIS-1838042, the National Institute of Health award 1R01MD011682-01 and R56HL138415.",
+      "leaf_id": "37e1a82fca7a969edc88",
+      "section_id": "9247050ff342bce06874",
+      "start": 0,
+      "end": 178,
+      "score": 6.976470974169522e-05
+    }
+  ],
+  "prepare_seconds": 2.270083134062588,
+  "leaf_count": 35
+}

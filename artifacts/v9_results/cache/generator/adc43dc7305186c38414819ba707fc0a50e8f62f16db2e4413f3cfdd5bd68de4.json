@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "source domain",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "requirement": "target domain",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence clearly defines both the source and target domains in the context of cross-domain sentiment classification.",
+    "claims": [
+      {
+        "text": "The source domain is the existing domain with sufficient labeled data.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The target domain is the new domain with few or no labeled data.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 1199,
+    "total_tokens": 1324,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5582383000000846,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

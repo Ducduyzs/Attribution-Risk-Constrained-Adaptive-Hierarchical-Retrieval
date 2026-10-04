@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that while many dialogue systems utilize statistical NLP models, most industrially deployed systems still rely on manual features or handcrafted rules, suggesting they do not primarily use off-the-shelf NLP systems.",
+    "claims": [
+      {
+        "text": "Most industrially deployed dialogue systems still use manual features or handcrafted rules rather than off-the-shelf NLP systems.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "End-to-end approaches, which are more adaptable, remain unattainable for commercial conversational agents operating on real-world data, indicating reliance on traditional methods.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 1232,
+    "total_tokens": 1366,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4298140999999305,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

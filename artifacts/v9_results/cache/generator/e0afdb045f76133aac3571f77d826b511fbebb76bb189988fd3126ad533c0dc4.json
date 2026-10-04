@@ -1,0 +1,60 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Different correlations resulting from different variants of ROUGE scores",
+        "citations": [
+          "C1",
+          "C11",
+          "C18",
+          "C19",
+          "C39"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides insights into how different ROUGE variants correlate with manual evaluations, indicating variability in effectiveness.",
+    "claims": [
+      {
+        "text": "Different variants of ROUGE result in varying correlation values with manual Pyramid scores, indicating that not all ROUGE scores are equally effective.",
+        "citations": [
+          "C11",
+          "C18"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Among all variants, ROUGE-2 and ROUGE-3 show better correlations with manual judgments in scientific summarization.",
+        "citations": [
+          "C19"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "ROUGE-L and its weighted version ROUGE-W have weak correlations with Pyramid scores.",
+        "citations": [
+          "C39"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 2477,
+    "total_tokens": 2663,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6358899000006204,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

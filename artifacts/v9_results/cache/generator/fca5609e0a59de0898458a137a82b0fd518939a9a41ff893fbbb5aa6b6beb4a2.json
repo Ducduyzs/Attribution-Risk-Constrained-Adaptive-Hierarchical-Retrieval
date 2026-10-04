@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides multiple instances of how the generalization ability of the NCEL model is verified through evaluations on various datasets and comparisons with baseline models.",
+    "claims": [
+      {
+        "text": "The generalization ability of NCEL is verified by evaluating its performance on five different benchmarks, demonstrating consistent outperformance compared to baselines.",
+        "citations": [
+          "C2",
+          "C3",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "NCEL shows good generalization ability, particularly in challenging datasets, indicating robustness against noise and data sparsity.",
+        "citations": [
+          "C5",
+          "C9"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model's performance across diverse datasets indicates its ability to generalize well beyond the training data, as evidenced by consistent results.",
+        "citations": [
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 2239,
+    "total_tokens": 2411,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.866413499999908,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1ea57068b6"
+}

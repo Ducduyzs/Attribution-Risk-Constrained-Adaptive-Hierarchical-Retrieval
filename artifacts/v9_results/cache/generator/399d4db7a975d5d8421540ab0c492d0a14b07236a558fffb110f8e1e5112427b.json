@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "What kind of model do they use?",
+        "citations": [
+          "C6",
+          "C21",
+          "C30"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence describes a model that uses a keyword extraction algorithm and mentions the use of Google's Universal Sentence Encoder (USE) for sentence embeddings.",
+    "claims": [
+      {
+        "text": "The model uses a keyword extraction algorithm and Google's Universal Sentence Encoder (USE) for processing text.",
+        "citations": [
+          "C6",
+          "C21",
+          "C30"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 2482,
+    "total_tokens": 2592,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7242645000005723,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

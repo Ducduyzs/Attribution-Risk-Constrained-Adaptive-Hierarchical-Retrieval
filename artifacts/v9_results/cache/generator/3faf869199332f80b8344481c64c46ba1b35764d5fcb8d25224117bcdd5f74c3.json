@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the annotators are experts, particularly those with legal training, who provide valid opinions and identify relevant evidence in privacy policies.",
+    "claims": [
+      {
+        "text": "The experts used for annotation are seven individuals with legal training.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The annotators are considered experts rather than crowdworkers, ensuring their judgments are valid.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Every question is answered by at least one expert, and often by multiple experts for reliability.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 1239,
+    "total_tokens": 1374,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5795686999990721,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Do the authors hypothesize that humans' robustness to noise is due to their general knowledge?",
+        "citations": [
+          "C1",
+          "C4",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The authors suggest that humans' robustness to noise is linked to their ability to utilize general knowledge, which is not limited to specific passage-question pairs.",
+    "claims": [
+      {
+        "text": "The authors hypothesize that humans' robustness to noise is due to their ability to utilize general knowledge beyond specific passage-question pairs.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 849,
+    "total_tokens": 974,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4550722000021779,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

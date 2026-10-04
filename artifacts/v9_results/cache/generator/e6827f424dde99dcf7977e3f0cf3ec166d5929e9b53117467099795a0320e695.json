@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that multiple baselines were tested, including a majority-class baseline and other specific baselines for answerability identification.",
+    "claims": [
+      {
+        "text": "Three baselines were described for the answerability task, which improved performance over a majority-class baseline.",
+        "citations": [
+          "C25"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The best performing BERT variant was compared against the NA model and human performance.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "BERT exhibited the best performance on a binary answerability identification task, indicating it was one of the tested baselines.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 2278,
+    "total_tokens": 2420,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.854366499999742,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

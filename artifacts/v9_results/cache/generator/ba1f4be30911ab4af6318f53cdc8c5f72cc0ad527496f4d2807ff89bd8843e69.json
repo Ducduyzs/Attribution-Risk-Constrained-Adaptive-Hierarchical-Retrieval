@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance improvements of the model over state-of-the-art systems, including percentage increases in F1-scores for implicit discourse relation classification.",
+    "claims": [
+      {
+        "text": "The model improved the macro-average F1-score by over 7% compared to the baseline Bi-LSTM model.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model achieved performance gains of around 2% and 8% on contingency and temporal relations respectively, compared to the baseline Bi-LSTM model with tensor.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The ensemble model achieved a performance boost of 3.02 in macro F1-score for predicting implicit discourse relations.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 2241,
+    "total_tokens": 2406,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9639147999987472,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

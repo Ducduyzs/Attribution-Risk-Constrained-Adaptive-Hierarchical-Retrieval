@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides multiple methods for empirically evaluating data quality, including BLEU scores, perplexity measurements, and manual inspections.",
+    "claims": [
+      {
+        "text": "The quality of the data is evaluated using BLEU scores, which are calculated by grouping samples and averaging their scores.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Perplexity of translations is measured using a language model trained on clean monolingual data to assess translation quality.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Manual inspections are conducted for samples with low scores to ensure quality control in translations.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Sanity checks are applied to professional translations to control their quality.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 729,
+    "total_tokens": 901,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.933739299998706,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

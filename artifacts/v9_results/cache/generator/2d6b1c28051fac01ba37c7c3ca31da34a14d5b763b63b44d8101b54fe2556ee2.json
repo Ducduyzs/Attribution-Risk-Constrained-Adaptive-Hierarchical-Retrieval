@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that while some methods focus on adjacent mentions, there are instances where more than just adjacent mentions are utilized, particularly in the context of global models and attention mechanisms.",
+    "claims": [
+      {
+        "text": "NCEL primarily considers adjacent mentions for efficiency, but it also incorporates surrounding words and other entities to enhance feature vectors.",
+        "citations": [
+          "C2",
+          "C19",
+          "C20"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The use of a sliding adjacent window suggests that mentions beyond immediate adjacency can influence the model's performance.",
+        "citations": [
+          "C33"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 2273,
+    "total_tokens": 2399,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.694182199997158,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

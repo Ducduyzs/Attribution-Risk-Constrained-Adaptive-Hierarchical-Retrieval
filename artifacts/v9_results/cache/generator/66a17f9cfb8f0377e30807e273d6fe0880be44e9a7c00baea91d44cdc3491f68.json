@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used during joint training, including the BioScope Corpus and SFU Review Corpus, as well as mentions of additional datasets like BF and BA.",
+    "claims": [
+      {
+        "text": "The models were trained on multiple datasets including BioScope Corpus and SFU Review Corpus.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Joint training on multiple datasets, such as BF and BA, improved performance over single dataset training.",
+        "citations": [
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The training involved a total of four datasets: BF, BA, SFU, and Sherlock.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 2265,
+    "total_tokens": 2413,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9268303000026208,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a model that utilizes various algorithms for keyword extraction and document structuring, specifically mentioning TextRank and Google's Universal Sentence Encoder (USE).",
+    "claims": [
+      {
+        "text": "The model uses knowledge from the entire text to extract keywords and structure unstructured documents.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model can utilize different keyword extraction algorithms, including TextRank and Google's USE.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model employs statistical and predictive methods for processing documents.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model calculates similarity using cosine similarity of embeddings from Google's USE.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 726,
+    "total_tokens": 891,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0353713000004063,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

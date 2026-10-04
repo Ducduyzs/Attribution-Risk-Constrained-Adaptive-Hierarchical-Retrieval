@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The dataset was collected through a combination of methods including the use of existing corpora like Tatoeba and Common Voice, and involved manual inspections and quality checks to ensure data integrity.",
+    "claims": [
+      {
+        "text": "The CoVoST dataset was created from 11 languages into English, utilizing over 11,000 speakers and 60 accents, with a total of 708 hours of speech collected.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An evaluation set was constructed from Tatoeba, filtering for quality by excluding samples with broken URLs and ensuring sentence lengths were appropriate.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Quality checks included manual inspections and measures of translation perplexity, ensuring high-quality translations were maintained.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 1114,
+    "total_tokens": 1292,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1380067999998573,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

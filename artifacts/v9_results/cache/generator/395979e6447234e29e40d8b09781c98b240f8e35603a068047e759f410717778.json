@@ -1,0 +1,58 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "What kind of model do they use?",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence describes a model for structuring unordered documents using keyword extraction and similarity measures.",
+    "claims": [
+      {
+        "text": "They use a model that structures unordered documents based on keywords extracted using algorithms like TextRank and Google's USE.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model is not limited to TextRank and can incorporate other keyword extraction algorithms.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model has been evaluated and shows significant improvement over baseline methods.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 739,
+    "total_tokens": 897,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5148770999985572,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methodologies and metrics used to evaluate the quality of the data, including BLEU scores and manual inspections of translations.",
+    "claims": [
+      {
+        "text": "The quality of the data is evaluated using sentence-level BLEU scores compared to human translations.",
+        "citations": [
+          "C27"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Translations with low scores are manually inspected and sent back to translators for correction.",
+        "citations": [
+          "C32"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation also considers model output variance across different speakers to assess stability.",
+        "citations": [
+          "C15"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "A normalized quality score, $\textrm{BLEU}_{MS}$, is calculated to provide a more accurate measure of translation quality.",
+        "citations": [
+          "C16"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 2230,
+    "total_tokens": 2403,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.8367557999990822,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the Jasper architecture and its performance, which can be interpreted as baseline results for speech recognition tasks.",
+    "claims": [
+      {
+        "text": "Jasper serves as a good baseline approach for exploring more sophisticated techniques in speech recognition.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Using SGD with momentum, Jasper DR 10x5 achieved a WER of 3.64% on dev-clean LibriSpeech, indicating its effectiveness as a baseline model.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Jasper was evaluated on various datasets, including LibriSpeech and Hub5'00, providing baseline performance metrics for comparison.",
+        "citations": [
+          "C8",
+          "C9"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 2211,
+    "total_tokens": 2373,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0324403000013262,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Japanese-Vietnamese dataset used",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific details about the Japanese-Vietnamese dataset used, including its source and the number of sentence pairs.",
+    "claims": [
+      {
+        "text": "The Japanese-Vietnamese dataset consists of 106758 pairs of sentences collected from TED talks extracted from WIT3's corpus.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset was used to build the first Japanese-Vietnamese NMT systems and includes validation and test sets named dev2010 and tst2010.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 654,
+    "total_tokens": 802,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3720393999974476,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

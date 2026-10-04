@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific evaluation criteria and metrics used to assess the generated text, including WER, BLEU score, and human evaluations for usability and fluency.",
+    "claims": [
+      {
+        "text": "The evaluation metrics include Word Error Rate (WER) and BLEU score, with a WER of 5.6% for factual and grammatical corrections and a BLEU score of 19.67.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Human evaluations assessed the acceptability of the generated text for production use, focusing on usability and fluency improvements made by journalists.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The Conditional Random Field (CRF) model achieved an overall F-score of 67.1% for event selection, indicating the effectiveness of the model in predicting relevant events.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 1712,
+    "total_tokens": 1905,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.252498400001059,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

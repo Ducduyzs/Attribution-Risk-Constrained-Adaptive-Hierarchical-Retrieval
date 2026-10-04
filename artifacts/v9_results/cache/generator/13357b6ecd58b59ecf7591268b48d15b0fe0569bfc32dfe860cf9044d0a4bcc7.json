@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the evaluation and analysis primarily focus on English datasets, particularly in the context of sentiment classification and Named Entity Recognition tasks.",
+    "claims": [
+      {
+        "text": "The analysis and evaluation of the tasks are conducted using an English vocabulary, indicating a focus on English datasets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The datasets used for the NLP tasks are composed of tweets, which are predominantly in English.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The study mentions the use of out-of-domain embeddings trained on Wikipedia, which is primarily in English, suggesting a reliance on English data.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1098,
+    "total_tokens": 1248,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.679470200000651,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

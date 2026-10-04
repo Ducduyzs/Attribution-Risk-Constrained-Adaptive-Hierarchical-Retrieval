@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Were other baselines tested to compare with the neural baseline?",
+        "citations": [
+          "C3",
+          "C5",
+          "C6",
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that multiple baselines were tested, including a human performance baseline and various models such as SVM and BERT, to compare with the neural baseline.",
+    "claims": [
+      {
+        "text": "Multiple baselines, including SVM and BERT, were tested to compare with the neural baseline.",
+        "citations": [
+          "C3",
+          "C5",
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 2064,
+    "total_tokens": 2191,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6318645999999717,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

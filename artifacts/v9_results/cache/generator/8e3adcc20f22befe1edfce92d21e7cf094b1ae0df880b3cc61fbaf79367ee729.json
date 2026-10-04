@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methodologies and metrics used to evaluate the quality of the data, including BLEU scores and error rates.",
+    "claims": [
+      {
+        "text": "The quality of the data is empirically evaluated using metrics such as BLEU scores for machine translation and word error rates for automatic speech recognition.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Initial benchmarks and quality checks indicate that the CoVoST dataset does not contain poor quality translations according to established criteria.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset creation methodology includes empirical evidence of data quality, which is essential for evaluating its effectiveness.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 693,
+    "total_tokens": 844,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8282092999979795,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

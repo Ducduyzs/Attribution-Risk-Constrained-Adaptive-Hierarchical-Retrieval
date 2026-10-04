@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "cyberbullying topics addressed",
+        "citations": [
+          "C1",
+          "C3",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific topics of cyberbullying that were addressed, including racism and sexism, as well as personal attacks.",
+    "claims": [
+      {
+        "text": "Cyberbullying topics addressed include race, religion, and gender.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Specific topics of cyberbullying include racism and sexism.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The work targets three topics of cyberbullying: personal attack, racism, and sexism.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 842,
+    "total_tokens": 994,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2863461000015377,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

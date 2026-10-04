@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the annotators are experts and mentions that at least two additional experts answer every question to ensure reliability.",
+    "claims": [
+      {
+        "text": "The annotators are experts rather than crowdworkers.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Every question in the test set is answered by at least two additional experts to estimate annotation reliability.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The corpus includes over 3500 expert annotations of relevant answers to privacy policy questions.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The annotators agree on the answer for 74% of the questions, indicating a level of expertise in their assessments.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 1230,
+    "total_tokens": 1399,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9964196000000811,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1ea57068b6"
+}

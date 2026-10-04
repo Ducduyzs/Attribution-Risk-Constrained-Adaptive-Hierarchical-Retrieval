@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence does not provide sufficient information to determine whether the graph representation is supervised or not. It discusses the use of GNNs and BERT in the context of EHR data and medication recommendation but does not explicitly state the nature of the graph representation (supervised or unsupervised).",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1913,
+    "total_tokens": 1983,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 1.192582299998321,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

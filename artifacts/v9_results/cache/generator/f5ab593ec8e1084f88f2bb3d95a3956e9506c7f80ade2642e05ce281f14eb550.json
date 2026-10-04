@@ -1,0 +1,62 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Identify manual Pyramid scores used",
+        "citations": [
+          "C3",
+          "C5",
+          "C7",
+          "C8",
+          "C9"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides information about the manual Pyramid scores used in the evaluation of summarization metrics, specifically in the context of the TAC 2014 dataset.",
+    "claims": [
+      {
+        "text": "Manual Pyramid scores are used to evaluate summarization effectiveness in the TAC 2014 dataset.",
+        "citations": [
+          "C3",
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Pyramid evaluation framework correlates with automatic evaluation metrics like Rouge.",
+        "citations": [
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The Pyramid score is calculated based on the number of nuggets in the summary.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 825,
+    "total_tokens": 1001,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8244313999966835,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

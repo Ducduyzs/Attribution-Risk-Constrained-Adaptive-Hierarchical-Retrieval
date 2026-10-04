@@ -1,0 +1,1487 @@
+{
+  "question_id": "aefa333b2cf0a4000cd40566149816f5b36135e7",
+  "source": "1604.05372.qasper",
+  "query": "What evaluation metric do they use?",
+  "rankings": {
+    "flat24": [
+      [
+        "2b03c6ad78ad125fd0f0",
+        0.0162774609127135
+      ],
+      [
+        "9f09b523a680f0e0ff8f",
+        0.006121281290728531
+      ],
+      [
+        "d1facbc106b8f6d23cdf",
+        0.0041662561210387946
+      ],
+      [
+        "d431c8f598e656d4f805",
+        0.0029810327298548972
+      ],
+      [
+        "f9c0c57e213bc2a6eaf3",
+        0.001142449539817763
+      ],
+      [
+        "b8e7cee33ba0efdf216d",
+        0.001098731072924643
+      ],
+      [
+        "6129129c2a0834c31baa",
+        0.0009436192455752618
+      ],
+      [
+        "1a7e16edd0873cb8a192",
+        0.0008072304985619872
+      ],
+      [
+        "f517feaa21e9c29e98c3",
+        0.0007466114612710289
+      ],
+      [
+        "28d1349663b74b47212b",
+        0.00048595607238530826
+      ],
+      [
+        "8bfd21dead2b31ebe967",
+        0.0003711854502457685
+      ],
+      [
+        "64ff8da4ef25c52f4759",
+        0.00018667821557931117
+      ],
+      [
+        "a55ef7a49cf55f7ce96d",
+        0.00017952796934677737
+      ],
+      [
+        "030441165cc11986a887",
+        0.00014313738600443555
+      ],
+      [
+        "5669d5792d2103c76eef",
+        9.387641443080781e-05
+      ],
+      [
+        "4641ad17f226a0bb4912",
+        7.484622751061123e-05
+      ],
+      [
+        "58f970840e55649b9e0f",
+        5.649793328376293e-05
+      ],
+      [
+        "dc1aee1f7fc852506609",
+        3.453725236238312e-05
+      ],
+      [
+        "bbc78477540e6c4a1c40",
+        3.21923344970378e-05
+      ],
+      [
+        "030124133183f4ee8975",
+        2.931153855960119e-05
+      ],
+      [
+        "1e2cd622c8fbf7e75a8a",
+        1.68324105182435e-05
+      ]
+    ],
+    "all_leaf": [
+      [
+        "2b03c6ad78ad125fd0f0",
+        0.0162774609127135
+      ],
+      [
+        "9f09b523a680f0e0ff8f",
+        0.006121281290728531
+      ],
+      [
+        "d1facbc106b8f6d23cdf",
+        0.0041662561210387946
+      ],
+      [
+        "d431c8f598e656d4f805",
+        0.0029810327298548972
+      ],
+      [
+        "f9c0c57e213bc2a6eaf3",
+        0.001142449539817763
+      ],
+      [
+        "b8e7cee33ba0efdf216d",
+        0.001098731072924643
+      ],
+      [
+        "6129129c2a0834c31baa",
+        0.0009436192455752618
+      ],
+      [
+        "1a7e16edd0873cb8a192",
+        0.0008072304985619872
+      ],
+      [
+        "f517feaa21e9c29e98c3",
+        0.0007466114612710289
+      ],
+      [
+        "28d1349663b74b47212b",
+        0.00048595607238530826
+      ],
+      [
+        "8bfd21dead2b31ebe967",
+        0.0003711854502457685
+      ],
+      [
+        "64ff8da4ef25c52f4759",
+        0.00018667821557931117
+      ],
+      [
+        "a55ef7a49cf55f7ce96d",
+        0.00017952796934677737
+      ],
+      [
+        "030441165cc11986a887",
+        0.00014313738600443555
+      ],
+      [
+        "5669d5792d2103c76eef",
+        9.387641443080781e-05
+      ],
+      [
+        "4641ad17f226a0bb4912",
+        7.484622751061123e-05
+      ],
+      [
+        "58f970840e55649b9e0f",
+        5.649793328376293e-05
+      ],
+      [
+        "dc1aee1f7fc852506609",
+        3.453725236238312e-05
+      ],
+      [
+        "bbc78477540e6c4a1c40",
+        3.21923344970378e-05
+      ],
+      [
+        "030124133183f4ee8975",
+        2.931153855960119e-05
+      ],
+      [
+        "1e2cd622c8fbf7e75a8a",
+        1.68324105182435e-05
+      ]
+    ],
+    "contextual24": [
+      [
+        "f9c0c57e213bc2a6eaf3",
+        0.03739713359499579
+      ],
+      [
+        "2b03c6ad78ad125fd0f0",
+        0.01243165085318582
+      ],
+      [
+        "9f09b523a680f0e0ff8f",
+        0.010368156650788154
+      ],
+      [
+        "d431c8f598e656d4f805",
+        0.005405900078026988
+      ],
+      [
+        "1a7e16edd0873cb8a192",
+        0.00459168367777983
+      ],
+      [
+        "d1facbc106b8f6d23cdf",
+        0.00226946865448694
+      ],
+      [
+        "28d1349663b74b47212b",
+        0.0015669887925500435
+      ],
+      [
+        "f517feaa21e9c29e98c3",
+        0.0010775025886693322
+      ],
+      [
+        "a55ef7a49cf55f7ce96d",
+        0.0008761799515142256
+      ],
+      [
+        "4641ad17f226a0bb4912",
+        0.0004655269187520153
+      ],
+      [
+        "b8e7cee33ba0efdf216d",
+        0.0004390453304730707
+      ],
+      [
+        "6129129c2a0834c31baa",
+        0.00043393251701919963
+      ],
+      [
+        "dc1aee1f7fc852506609",
+        0.00028240807799315707
+      ],
+      [
+        "030441165cc11986a887",
+        0.0001387341225792179
+      ],
+      [
+        "bbc78477540e6c4a1c40",
+        0.00011323437855834611
+      ],
+      [
+        "030124133183f4ee8975",
+        7.843789122138342e-05
+      ],
+      [
+        "1e2cd622c8fbf7e75a8a",
+        7.722191834067996e-05
+      ],
+      [
+        "58f970840e55649b9e0f",
+        7.254361823018916e-05
+      ],
+      [
+        "64ff8da4ef25c52f4759",
+        6.10885510164857e-05
+      ],
+      [
+        "8bfd21dead2b31ebe967",
+        5.7837665669557245e-05
+      ],
+      [
+        "5669d5792d2103c76eef",
+        3.21923344970378e-05
+      ]
+    ],
+    "contextual_all": [
+      [
+        "f9c0c57e213bc2a6eaf3",
+        0.03739713359499579
+      ],
+      [
+        "2b03c6ad78ad125fd0f0",
+        0.01243165085318582
+      ],
+      [
+        "9f09b523a680f0e0ff8f",
+        0.010368156650788154
+      ],
+      [
+        "d431c8f598e656d4f805",
+        0.005405900078026988
+      ],
+      [
+        "1a7e16edd0873cb8a192",
+        0.00459168367777983
+      ],
+      [
+        "d1facbc106b8f6d23cdf",
+        0.00226946865448694
+      ],
+      [
+        "28d1349663b74b47212b",
+        0.0015669887925500435
+      ],
+      [
+        "f517feaa21e9c29e98c3",
+        0.0010775025886693322
+      ],
+      [
+        "a55ef7a49cf55f7ce96d",
+        0.0008761799515142256
+      ],
+      [
+        "4641ad17f226a0bb4912",
+        0.0004655269187520153
+      ],
+      [
+        "b8e7cee33ba0efdf216d",
+        0.0004390453304730707
+      ],
+      [
+        "6129129c2a0834c31baa",
+        0.00043393251701919963
+      ],
+      [
+        "dc1aee1f7fc852506609",
+        0.00028240807799315707
+      ],
+      [
+        "030441165cc11986a887",
+        0.0001387341225792179
+      ],
+      [
+        "bbc78477540e6c4a1c40",
+        0.00011323437855834611
+      ],
+      [
+        "030124133183f4ee8975",
+        7.843789122138342e-05
+      ],
+      [
+        "1e2cd622c8fbf7e75a8a",
+        7.722191834067996e-05
+      ],
+      [
+        "58f970840e55649b9e0f",
+        7.254361823018916e-05
+      ],
+      [
+        "64ff8da4ef25c52f4759",
+        6.10885510164857e-05
+      ],
+      [
+        "8bfd21dead2b31ebe967",
+        5.7837665669557245e-05
+      ],
+      [
+        "5669d5792d2103c76eef",
+        3.21923344970378e-05
+      ]
+    ],
+    "raptor": [
+      [
+        "2b03c6ad78ad125fd0f0",
+        0.0162774609127135
+      ],
+      [
+        "9f09b523a680f0e0ff8f",
+        0.006121281290728531
+      ],
+      [
+        "d1facbc106b8f6d23cdf",
+        0.0041662561210387946
+      ],
+      [
+        "d431c8f598e656d4f805",
+        0.0029810327298548972
+      ],
+      [
+        "f9c0c57e213bc2a6eaf3",
+        0.001142449539817763
+      ],
+      [
+        "b8e7cee33ba0efdf216d",
+        0.001098731072924643
+      ],
+      [
+        "6129129c2a0834c31baa",
+        0.0009436192455752618
+      ],
+      [
+        "1a7e16edd0873cb8a192",
+        0.0008072304985619872
+      ],
+      [
+        "f517feaa21e9c29e98c3",
+        0.0007466114612710289
+      ],
+      [
+        "28d1349663b74b47212b",
+        0.00048595607238530826
+      ],
+      [
+        "8bfd21dead2b31ebe967",
+        0.0003711854502457685
+      ],
+      [
+        "64ff8da4ef25c52f4759",
+        0.00018667821557931117
+      ],
+      [
+        "a55ef7a49cf55f7ce96d",
+        0.00017952796934677737
+      ],
+      [
+        "030441165cc11986a887",
+        0.00014313738600443555
+      ],
+      [
+        "5669d5792d2103c76eef",
+        9.387641443080781e-05
+      ],
+      [
+        "4641ad17f226a0bb4912",
+        7.484622751061123e-05
+      ],
+      [
+        "dc1aee1f7fc852506609",
+        3.453725236238312e-05
+      ],
+      [
+        "030124133183f4ee8975",
+        2.931153855960119e-05
+      ]
+    ]
+  },
+  "initial_ids": [
+    "2b03c6ad78ad125fd0f0",
+    "d431c8f598e656d4f805",
+    "9f09b523a680f0e0ff8f",
+    "d1facbc106b8f6d23cdf",
+    "8bfd21dead2b31ebe967",
+    "1a7e16edd0873cb8a192",
+    "f9c0c57e213bc2a6eaf3",
+    "64ff8da4ef25c52f4759",
+    "b8e7cee33ba0efdf216d",
+    "f517feaa21e9c29e98c3",
+    "5669d5792d2103c76eef",
+    "6129129c2a0834c31baa",
+    "a55ef7a49cf55f7ce96d",
+    "28d1349663b74b47212b",
+    "030124133183f4ee8975",
+    "4641ad17f226a0bb4912",
+    "58f970840e55649b9e0f",
+    "030441165cc11986a887",
+    "dc1aee1f7fc852506609",
+    "bbc78477540e6c4a1c40",
+    "1e2cd622c8fbf7e75a8a"
+  ],
+  "sentences": [
+    {
+      "uid": "dad71bdd656663bd54ba",
+      "text": "We present our experience in applying distributional semantics (neural word embeddings) to the problem of representing and clustering documents in a bilingual comparable corpus.",
+      "leaf_id": "030441165cc11986a887",
+      "section_id": "fc578de71def5a1dbad0",
+      "start": 0,
+      "end": 177,
+      "score": 5.5622062736470347e-05
+    },
+    {
+      "uid": "8bbafcf55781f7a35216",
+      "text": "Our data is a collection of Russian and Ukrainian academic texts, for which topics are their academic fields.",
+      "leaf_id": "030441165cc11986a887",
+      "section_id": "fc578de71def5a1dbad0",
+      "start": 178,
+      "end": 287,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "a1fd78c84f6b04148679",
+      "text": "In order to build language-independent semantic representations of these documents, we train neural distributional models on monolingual corpora and learn the optimal linear transformation of vectors from one language to another.",
+      "leaf_id": "030441165cc11986a887",
+      "section_id": "fc578de71def5a1dbad0",
+      "start": 288,
+      "end": 517,
+      "score": 5.7837665669557245e-05
+    },
+    {
+      "uid": "882723e9beffbff11f13",
+      "text": "The resulting vectors are then used to produce `semantic fingerprints' of documents, serving as input to a clustering algorithm.",
+      "leaf_id": "030441165cc11986a887",
+      "section_id": "fc578de71def5a1dbad0",
+      "start": 518,
+      "end": 646,
+      "score": 0.000251186788490731
+    },
+    {
+      "uid": "81bd9ac3efb90b84e9de",
+      "text": "The presented method is compared to several baselines including `orthographic translation' with Levenshtein edit distance and outperforms them by a large margin.",
+      "leaf_id": "030441165cc11986a887",
+      "section_id": "fc578de71def5a1dbad0",
+      "start": 647,
+      "end": 808,
+      "score": 0.00017674513810355872
+    },
+    {
+      "uid": "fe858d1c263249dfa071",
+      "text": "We also show that language-independent `semantic fingerprints' are superior to multi-lingual clustering algorithms proposed in the previous work, at the same time requiring less linguistic resources.",
+      "leaf_id": "030441165cc11986a887",
+      "section_id": "fc578de71def5a1dbad0",
+      "start": 809,
+      "end": 1008,
+      "score": 6.10885510164857e-05
+    },
+    {
+      "uid": "4d5e793e8f4f652896c4",
+      "text": "This research addresses the problem of representing the semantics of text documents in multi-lingual comparable corpora.",
+      "leaf_id": "dc1aee1f7fc852506609",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 0,
+      "end": 120,
+      "score": 2.0785170435063725e-05
+    },
+    {
+      "uid": "82b3cb258cd527431f9b",
+      "text": "We present a new approach to this problem, based on neural embeddings, and test it on the task of clustering texts into meaningful classes depending on their topics.",
+      "leaf_id": "dc1aee1f7fc852506609",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 121,
+      "end": 286,
+      "score": 4.908661889889002e-05
+    },
+    {
+      "uid": "446dc3325b3a53a7c957",
+      "text": "The setting is unsupervised, meaning that one either does not have enough annotated data to train a supervised classifier or does not want to be limited with a pre-defined set of classes.",
+      "leaf_id": "dc1aee1f7fc852506609",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 287,
+      "end": 474,
+      "score": 1.8342893327886845e-05
+    },
+    {
+      "uid": "2a2a7329a308c03f1546",
+      "text": "There is a lot of sufficiently good approaches to this problem in the case of mono-lingual text collections, but the presence of multiple languages introduces complications.",
+      "leaf_id": "dc1aee1f7fc852506609",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 475,
+      "end": 648,
+      "score": 2.212566909570261e-05
+    },
+    {
+      "uid": "2375cbc94f810a47e11a",
+      "text": "When a text collection contains documents in several languages, it becomes impractical to simply represent the documents as vectors of words occurring in them (\"bag-of-words\"), as the words surface forms are different, even in closely-related languages.",
+      "leaf_id": "dc1aee1f7fc852506609",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 649,
+      "end": 902,
+      "score": 2.144494842091395e-05
+    },
+    {
+      "uid": "136a44642beb865882ac",
+      "text": "Thus, one has to invent means to cross the inter-lingual gap and bring all documents to some sort of shared representation, without losing information about their topics or categories.",
+      "leaf_id": "dc1aee1f7fc852506609",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 903,
+      "end": 1087,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "25b12b1cbc842c459390",
+      "text": "Of course, one obvious way to solve this problem is to translate all documents into one language, and then apply any clustering algorithm.",
+      "leaf_id": "4641ad17f226a0bb4912",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 1088,
+      "end": 1226,
+      "score": 3.5356250741744315e-05
+    },
+    {
+      "uid": "6a129322bd3888b9ca28",
+      "text": "However, this requires either buying human/machine translation services (which can be expensive if you deal with large text collection) or training own statistical machine translation model (which as a rule requires big parallel corpus).",
+      "leaf_id": "4641ad17f226a0bb4912",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 1227,
+      "end": 1464,
+      "score": 0.0001063745841626834
+    },
+    {
+      "uid": "9e5651e927e82b36ce8c",
+      "text": "This is the reason to search for other solutions.",
+      "leaf_id": "4641ad17f226a0bb4912",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 1465,
+      "end": 1514,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "04c10830ea47543fa32c",
+      "text": "In this paper, a novel way of reducing the problem of cross-lingual document representation to a monolingual setting is proposed.",
+      "leaf_id": "4641ad17f226a0bb4912",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 1515,
+      "end": 1644,
+      "score": 1.8200150397513547e-05
+    },
+    {
+      "uid": "1f934c9ad76bf912a0a0",
+      "text": "Essentially, we train Continuous Bag-of-Words models BIBREF0 on large comparable monolingual corpora for two languages our dataset consists of.",
+      "leaf_id": "4641ad17f226a0bb4912",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 1645,
+      "end": 1788,
+      "score": 0.00010071400221737607
+    },
+    {
+      "uid": "ec3c9f4a49451409920c",
+      "text": "This provides us with vector representations of words, allowing to measure their semantic similarity.",
+      "leaf_id": "4641ad17f226a0bb4912",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 1789,
+      "end": 1890,
+      "score": 0.00024923252458203564
+    },
+    {
+      "uid": "c1f2eaaf996b92629853",
+      "text": "Then, a linear transformation matrix from vectors of language A to vectors of language B is learned, using a small bilingual dictionary as training data.",
+      "leaf_id": "1a7e16edd0873cb8a192",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 1891,
+      "end": 2044,
+      "score": 0.0003077430764601415
+    },
+    {
+      "uid": "1cd456d3755580074812",
+      "text": "This matrix is then employed to `project' word and document representations from semantic space of language A to semantic space of language B.",
+      "leaf_id": "1a7e16edd0873cb8a192",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 2045,
+      "end": 2187,
+      "score": 0.00046190583290238495
+    },
+    {
+      "uid": "bad327dd124849566f5c",
+      "text": "It allows not only quite accurate `translation' of words, but also of document `semantic fingerprints' (dense representations of document semantics, calculated as an average of the trained distributional vectors for all the words in document).",
+      "leaf_id": "1a7e16edd0873cb8a192",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 2188,
+      "end": 2431,
+      "score": 6.814872211615988e-05
+    },
+    {
+      "uid": "97607b66633c44b9c432",
+      "text": "This approach is evaluated in a setting, where the input is a collection of documents in several languages and some number of topics to which these documents belong (we also have large monolingual corpora to train distributional models on).",
+      "leaf_id": "1a7e16edd0873cb8a192",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 2432,
+      "end": 2672,
+      "score": 0.00045121062377819225
+    },
+    {
+      "uid": "4b98dd272c827941d3e3",
+      "text": "For each document, we are given its language, but not its topic.",
+      "leaf_id": "1a7e16edd0873cb8a192",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 2673,
+      "end": 2737,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "ceb4d952f162ab187070",
+      "text": "The task is to cluster this collection so that documents belonging to one topic were clustered together, independent of their language.",
+      "leaf_id": "1a7e16edd0873cb8a192",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 2738,
+      "end": 2873,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "f1a7863d45e4a5c74d73",
+      "text": "Note that we are interested in clustering the collection as a whole, not each language separately (which is trivial).",
+      "leaf_id": "9f09b523a680f0e0ff8f",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 2874,
+      "end": 2991,
+      "score": 1.952588520864222e-05
+    },
+    {
+      "uid": "76db7d229965288d46c0",
+      "text": "Our evaluation data consists of comparable corpora of Russian and Ukrainian academic texts.",
+      "leaf_id": "9f09b523a680f0e0ff8f",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 2992,
+      "end": 3083,
+      "score": 0.0003740956047302422
+    },
+    {
+      "uid": "1f12ed1a31b6b779bb14",
+      "text": "On this material, we show that the `translated semantic fingerprints' method represents documents in different languages precisely enough to allow almost exact clustering according to document topics, with only 5% of incorrect assignments.",
+      "leaf_id": "9f09b523a680f0e0ff8f",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 3084,
+      "end": 3323,
+      "score": 0.00016734050747377145
+    },
+    {
+      "uid": "7f41f30afedf2073b7e4",
+      "text": "It significantly outperforms both naive bag-of-words baseline and the not-so-naive method of `orthographic translation' based on Damerau-Levenshtein distance, even enriched with dictionary mappings.",
+      "leaf_id": "9f09b523a680f0e0ff8f",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 3324,
+      "end": 3522,
+      "score": 0.0002115288734611408
+    },
+    {
+      "uid": "80d8b78abbddcaea2f87",
+      "text": "At the same time, it does not require large parallel corpora or a ready-made statistical machine translation model.",
+      "leaf_id": "9f09b523a680f0e0ff8f",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 3523,
+      "end": 3638,
+      "score": 0.00012731104162213555
+    },
+    {
+      "uid": "ca3af41c9803d8938528",
+      "text": "The rest of the paper is structured as follows.",
+      "leaf_id": "9f09b523a680f0e0ff8f",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 3639,
+      "end": 3686,
+      "score": 2.9083440990898244e-05
+    },
+    {
+      "uid": "67e6ff470d20ed63ba5c",
+      "text": "In Section \"Related Work\" we describe the foundations of our approach and the related work.",
+      "leaf_id": "9f09b523a680f0e0ff8f",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 3687,
+      "end": 3778,
+      "score": 2.195348955279121e-05
+    },
+    {
+      "uid": "d9a5aefae408a5cd82ca",
+      "text": "Section \"Academic texts as Comparable Corpora\" introduces the employed corpora and the story behind them.",
+      "leaf_id": "9f09b523a680f0e0ff8f",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 3779,
+      "end": 3884,
+      "score": 3.321419494792514e-05
+    },
+    {
+      "uid": "1b8fa573257fd81d8066",
+      "text": "Section \"Learning to Translate: Ukrainian-to-Russian transformations\" is dedicated to learning the transformation matrix, and Section \"Experiment Design and Evaluation\" describes our experimental setting and evaluation results.",
+      "leaf_id": "d1facbc106b8f6d23cdf",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 3885,
+      "end": 4112,
+      "score": 0.0028783480347663727
+    },
+    {
+      "uid": "3fad404d1d7f238c4630",
+      "text": "We discuss the findings in Section \"Discussion\" and conclude in Section \"Conclusion and Future Work\" , also suggesting directions for future work.",
+      "leaf_id": "d1facbc106b8f6d23cdf",
+      "section_id": "c6ceb26cbeb1baedd0e8",
+      "start": 4113,
+      "end": 4259,
+      "score": 3.5356250741744315e-05
+    },
+    {
+      "uid": "f47666805cd7237531a5",
+      "text": "Clustering multi-lingual documents has received much attention in natural language processing.",
+      "leaf_id": "28d1349663b74b47212b",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 0,
+      "end": 94,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "5e82e5a36e977c67f4d5",
+      "text": "Among approaches not using some form of machine translation, one can mention BIBREF1 , who essentially employ a bilingual dictionary to bring some words in the documents to a language-independent form and then to perform clustering.",
+      "leaf_id": "28d1349663b74b47212b",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 95,
+      "end": 327,
+      "score": 0.00018093576989406792
+    },
+    {
+      "uid": "19e7623c872741579f6c",
+      "text": "In the section \"Experiment Design and Evaluation\" we show that our approach based on neural embeddings significantly outperforms their reported results.",
+      "leaf_id": "28d1349663b74b47212b",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 328,
+      "end": 480,
+      "score": 0.001585430675821233
+    },
+    {
+      "uid": "ed20017c92772eb1e253",
+      "text": "BIBREF2 proposed training joint multi-lingual neural embedding models.",
+      "leaf_id": "28d1349663b74b47212b",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 481,
+      "end": 551,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "0694f0eb68d5ad171407",
+      "text": "Theoretically, this can be used to achieve our aim of language-independent semantic representations for documents.",
+      "leaf_id": "28d1349663b74b47212b",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 552,
+      "end": 666,
+      "score": 0.0002050221485061691
+    },
+    {
+      "uid": "f40412a8a346a6babd92",
+      "text": "Unfortunately, it demands a large word-aligned parallel corpus.",
+      "leaf_id": "28d1349663b74b47212b",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 667,
+      "end": 730,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "8f287b9caa875f0701e0",
+      "text": "This is not the case with the more recent Trans-gram approach introduced in BIBREF3 , also able to learn multi-lingual models.",
+      "leaf_id": "28d1349663b74b47212b",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 731,
+      "end": 857,
+      "score": 0.0004205874321516123
+    },
+    {
+      "uid": "1df1558f2bbef0564cae",
+      "text": "However, it still needs sentence-aligned corpora to train on (in the size of millions of paired sentences).",
+      "leaf_id": "28d1349663b74b47212b",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 858,
+      "end": 965,
+      "score": 2.5666134302273185e-05
+    },
+    {
+      "uid": "648f3916a30280f516d1",
+      "text": "Large parallel corpora (whether word- or sentence-aligned) are often a scarce resource, especially in the case of under-represented languages.",
+      "leaf_id": "28d1349663b74b47212b",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 966,
+      "end": 1108,
+      "score": 1.9988918976691774e-05
+    },
+    {
+      "uid": "164a5d7703b88c9bbf19",
+      "text": "The approach described in this paper takes as an input only comparable monolingual corpora and bilingual dictionaries in the size of several thousand word pairs.",
+      "leaf_id": "f517feaa21e9c29e98c3",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 1109,
+      "end": 1270,
+      "score": 0.0001699752890963125
+    },
+    {
+      "uid": "288abf6ca7db214e5ac0",
+      "text": "Such resources are much easier to find and evaluate.",
+      "leaf_id": "f517feaa21e9c29e98c3",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 1271,
+      "end": 1323,
+      "score": 3.852893541726541e-05
+    },
+    {
+      "uid": "a3c5e6e0004519a15e36",
+      "text": "We employ the idea of learning a linear transformation matrix to map or project word embeddings from the semantic space of one language to that of another.",
+      "leaf_id": "f517feaa21e9c29e98c3",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 1324,
+      "end": 1479,
+      "score": 0.0006667023092435893
+    },
+    {
+      "uid": "698c7a88e00820252833",
+      "text": "This idea was first proposed in BIBREF4 , who applied it to lexical translation between English, Spanish, Czech and Vietnamese.",
+      "leaf_id": "f517feaa21e9c29e98c3",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 1480,
+      "end": 1607,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "38867bf14a2adcb639f9",
+      "text": "We extend it from continuous representations of single words or collocations to `semantic fingerprints' of documents as a whole.",
+      "leaf_id": "f517feaa21e9c29e98c3",
+      "section_id": "4e3b5ff40526cb89efca",
+      "start": 1608,
+      "end": 1736,
+      "score": 7.14190139989638e-05
+    },
+    {
+      "uid": "4b9ec848d0b6a1abb222",
+      "text": "The Russian and Ukrainian languages are mainly spoken in Russian Federation and the Ukraine and belong to the East-Slavic group of the Indo-European language family.",
+      "leaf_id": "58f970840e55649b9e0f",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 0,
+      "end": 165,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "f78df437d67b1bd01059",
+      "text": "They share many common morphosyntactic features: both are SVO languages with free word order and rich morphology, both use the Cyrillic alphabet and share many common cognates.",
+      "leaf_id": "58f970840e55649b9e0f",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 166,
+      "end": 342,
+      "score": 6.352188765951866e-05
+    },
+    {
+      "uid": "08cb6105b30a3edd413f",
+      "text": "Both Russia and the Ukraine have common academic tradition that makes it easier to collect corpora, which are comparable in terms of both genre and strictly defined academic fields.",
+      "leaf_id": "58f970840e55649b9e0f",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 343,
+      "end": 524,
+      "score": 1.750292578877821e-05
+    },
+    {
+      "uid": "662d749a39fc5dcba1bf",
+      "text": "We work with such a corpus of Russian and Ukrainian academic texts, initially collected for the purposes of cross-lingual plagiarism detection.",
+      "leaf_id": "58f970840e55649b9e0f",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 525,
+      "end": 668,
+      "score": 5.5622062736470347e-05
+    },
+    {
+      "uid": "cae20d6bd16b401496b9",
+      "text": "This data is available online through a number of library services, but unfortunately cannot be republished due to copyright limitations.",
+      "leaf_id": "58f970840e55649b9e0f",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 669,
+      "end": 806,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "7bb5a1f8dff64ff2468c",
+      "text": "The Ukrainian subcorpus contains about 60 thousand extended summaries (Russian and Ukrainian russian`автореферат', `avtoreferat') of theses submitted between 1998 and 2011.",
+      "leaf_id": "58f970840e55649b9e0f",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 807,
+      "end": 979,
+      "score": 1.8200150397513547e-05
+    },
+    {
+      "uid": "3fb482a67f5d83c4d834",
+      "text": "The Russian subcorpus is smaller in the number of documents (about 16 thousand, approximately the same time period), but the documents are full texts of theses, thus the total volume of the Russian subcorpus is notably larger: 830 million tokens versus 250 million tokens in the Ukrainian one.",
+      "leaf_id": "bbc78477540e6c4a1c40",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 980,
+      "end": 1273,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "2d90a4e3a652f7fa7f61",
+      "text": "Generally, the texts belong to one genre that can be defined as post-Soviet expository academic prose, submitted for academic degree award process.",
+      "leaf_id": "bbc78477540e6c4a1c40",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 1274,
+      "end": 1421,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "cd7f34aad57f9d811818",
+      "text": "The documents were converted to plain text files from MS Word format in the case of the Ukrainian subcorpus and mainly from OCRed PDF files in the case of the Russian subcorpus.",
+      "leaf_id": "bbc78477540e6c4a1c40",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 1422,
+      "end": 1599,
+      "score": 1.9833367060283615e-05
+    },
+    {
+      "uid": "65f3dbe67dcb9fcd0f16",
+      "text": "Because of this, the Russian documents often suffer from OCR artifacts, such as words split with line breaks, incorrectly recognized characters and so on.",
+      "leaf_id": "bbc78477540e6c4a1c40",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 1600,
+      "end": 1754,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "af620dd9fa463270cfc8",
+      "text": "However, it does not influence the resulting model much, as we show below.",
+      "leaf_id": "bbc78477540e6c4a1c40",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 1755,
+      "end": 1829,
+      "score": 1.750292578877821e-05
+    },
+    {
+      "uid": "1aa31b1a922ca2d76f41",
+      "text": "Both Ukrainian and Russian documents come with meta data allowing to separate them into academic fields, with economics, medicine and law being most frequent topics for the Ukrainian data and economics, history and pedagogy dominating the Russian data.",
+      "leaf_id": "d431c8f598e656d4f805",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 1830,
+      "end": 2082,
+      "score": 4.298194204721344e-05
+    },
+    {
+      "uid": "75a1f5fb911046b9a0f5",
+      "text": "For evaluation, 3 topics were used, distant enough from each other and abundantly presented in both subcorpora: economics, law and history.",
+      "leaf_id": "d431c8f598e656d4f805",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 2083,
+      "end": 2222,
+      "score": 0.02489280142341535
+    },
+    {
+      "uid": "8b44eb608bc9245ebcbd",
+      "text": "We randomly selected 100 texts in each language for each topic.",
+      "leaf_id": "d431c8f598e656d4f805",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 2223,
+      "end": 2286,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "268eb187bfec1b0cc5fa",
+      "text": "As an average length of Russian texts is significantly higher (them being full theses), we cropped them, leaving only the first 5 thousand words, to mimic the size of the Ukrainian summaries.",
+      "leaf_id": "d431c8f598e656d4f805",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 2287,
+      "end": 2478,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "3a9286569cc44fda62a3",
+      "text": "These 600 documents in 3 classes are used as a test set (see Section \"Experiment Design and Evaluation\" for the description of the conducted experiments).",
+      "leaf_id": "d431c8f598e656d4f805",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 2479,
+      "end": 2633,
+      "score": 0.0012255674483830521
+    },
+    {
+      "uid": "1c8d0c01bf6ca085feef",
+      "text": "The corpora (including test set) were PoS-tagged.",
+      "leaf_id": "d431c8f598e656d4f805",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 2634,
+      "end": 2683,
+      "score": 3.508111586796275e-05
+    },
+    {
+      "uid": "837f4fe1398679788bc5",
+      "text": "Each word was replaced with its lemma followed by a PoS-tag (`russianдиссертация_S', `russianдиссертацiя_N').",
+      "leaf_id": "d431c8f598e656d4f805",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 2684,
+      "end": 2793,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "dccc5f98c11c9972f8ff",
+      "text": "Functional parts of speech (conjunctions, pronouns, prepositions, etc.) and numerals were removed from the texts.",
+      "leaf_id": "1e2cd622c8fbf7e75a8a",
+      "section_id": "b6153fdc6102de4d00c1",
+      "start": 2794,
+      "end": 2907,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "3c22160572c846726047",
+      "text": "As already stated, our main proposal is using neural embedding models to `project' documents in one language into the semantic space of another language.",
+      "leaf_id": "a55ef7a49cf55f7ce96d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 0,
+      "end": 153,
+      "score": 0.0003711854502457685
+    },
+    {
+      "uid": "6eafcea0476bbb87e957",
+      "text": "For this, we first trained a Continuous Bag-of-Words (CBOW) and a Continuous SkipGram model BIBREF0 for each of our monolingual subcorpora.",
+      "leaf_id": "a55ef7a49cf55f7ce96d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 154,
+      "end": 293,
+      "score": 0.0005399804480965611
+    },
+    {
+      "uid": "88e8cf5f2f1703ba7a83",
+      "text": "The models were trained with identical hyperparameters: vector size of 300 components, symmetric window of 2 words, negative sampling with 10 samples, 5 iterations over the corpus, no down-sampling.",
+      "leaf_id": "a55ef7a49cf55f7ce96d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 294,
+      "end": 492,
+      "score": 0.0002234163601827719
+    },
+    {
+      "uid": "beae6e3233ae1fd0a5cb",
+      "text": "The only language-dependent difference was that for the Ukrainian model we ignored words with the corpus frequency less than 10 and for the Russian model this threshold was set to 15 (as the Russian corpus is 3 times larger).",
+      "leaf_id": "a55ef7a49cf55f7ce96d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 493,
+      "end": 718,
+      "score": 8.029784284533197e-05
+    },
+    {
+      "uid": "a20fd653c576d6e70d7e",
+      "text": "All in all, the final Ukrainian model recognizes 429 215 words and the Russian one 271 720 words.",
+      "leaf_id": "a55ef7a49cf55f7ce96d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 719,
+      "end": 816,
+      "score": 3.120191139396651e-05
+    },
+    {
+      "uid": "b0751982106efe3aa26f",
+      "text": "Training was performed using CBOW and SkipGram implementation in Gensim library BIBREF7 .",
+      "leaf_id": "a55ef7a49cf55f7ce96d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 817,
+      "end": 906,
+      "score": 0.00012339457598623172
+    },
+    {
+      "uid": "957ce615b653da4545cd",
+      "text": "After the models were trained, we followed the path outlined in BIBREF4 to learn a linear transformation matrix from Ukrainian to Russian.",
+      "leaf_id": "a55ef7a49cf55f7ce96d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 907,
+      "end": 1045,
+      "score": 3.347468838730701e-05
+    },
+    {
+      "uid": "ee63a5470c4d6992d0de",
+      "text": "First, we extracted all noun pairs from Russian-Ukrainian bilingual dictionary BIBREF8 , with the constraint that their frequency in our corpora was above the already mentioned thresholds 15 and 10 for Russian and Ukrainian words correspondingly.",
+      "leaf_id": "030124133183f4ee8975",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 1046,
+      "end": 1292,
+      "score": 5.649793328376293e-05
+    },
+    {
+      "uid": "99149e1274856b03317c",
+      "text": "That made it a list of about 5 thousand pairs of nouns being translations of each other.",
+      "leaf_id": "030124133183f4ee8975",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 1293,
+      "end": 1381,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "d236806f0211f4bcf30e",
+      "text": "For all these words, their vectors were found in the models corresponding to the words' languages.",
+      "leaf_id": "030124133183f4ee8975",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 1382,
+      "end": 1480,
+      "score": 1.8631746484712008e-05
+    },
+    {
+      "uid": "98d706125e4739dfe37a",
+      "text": "It provided us with a matrix of 5 thousand of 300-dimensional Ukrainian vectors and the matrix of corresponding 5 thousand of 300-dimensional Russian vectors.",
+      "leaf_id": "030124133183f4ee8975",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 1481,
+      "end": 1639,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "3e347b59d9a069d7ecf6",
+      "text": "This data served as a training set to learn an optimal transformation matrix.",
+      "leaf_id": "030124133183f4ee8975",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 1640,
+      "end": 1717,
+      "score": 0.00025915824667153183
+    },
+    {
+      "uid": "3ed97fa38ac6afcf7bfc",
+      "text": "The latter is actually a 300x301 matrix of coefficients, such that when the initial Ukrainian matrix is multiplied by this transformation matrix, the result is maximally close to the corresponding Russian matrix.",
+      "leaf_id": "030124133183f4ee8975",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 1718,
+      "end": 1930,
+      "score": 7.722191834067996e-05
+    },
+    {
+      "uid": "b1cbe42bb3d28196c189",
+      "text": "This transformation matrix has 301 (not 300) columns, because we add one component equal to 1 to each vector, as a bias term.",
+      "leaf_id": "64ff8da4ef25c52f4759",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 1931,
+      "end": 2056,
+      "score": 7.722191834067996e-05
+    },
+    {
+      "uid": "9d7209780023cbd9b83a",
+      "text": "Producing the transformation matrix is a linear regression problem: the input is 301 components of Ukrainian vectors (including the bias term) and the output is 300 components of Russian vectors.",
+      "leaf_id": "64ff8da4ef25c52f4759",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 2057,
+      "end": 2252,
+      "score": 0.00018235460794662427
+    },
+    {
+      "uid": "ff05dece31150fc953e6",
+      "text": "As we need 300 values as an output, there are actually 300 linear regression problems and that's why the resulting matrix size is 300x301 (301 weights for each of 300 components).",
+      "leaf_id": "64ff8da4ef25c52f4759",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 2253,
+      "end": 2432,
+      "score": 0.0001224344293469562
+    },
+    {
+      "uid": "6ce2dc95f748257ebd10",
+      "text": "There are two main ways to solve a linear regression problem: one can either learn the optimal weights in an iterative way using some variant of gradient descent, or one can solve it numerically without iteration, using normal equation.",
+      "leaf_id": "64ff8da4ef25c52f4759",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 2433,
+      "end": 2669,
+      "score": 0.00013135179706526775
+    },
+    {
+      "uid": "2f8282edef84c3c0a34c",
+      "text": "For English and Spanish, BIBREF4 used stochastic gradient descent.",
+      "leaf_id": "64ff8da4ef25c52f4759",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 2670,
+      "end": 2736,
+      "score": 0.0023231625226312826
+    },
+    {
+      "uid": "4ddf1378b3a7e2d1f46a",
+      "text": "However, normal equation is actually less error-prone and is guaranteed to find the global optimum.",
+      "leaf_id": "8bfd21dead2b31ebe967",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 2737,
+      "end": 2836,
+      "score": 3.295572855043323e-05
+    },
+    {
+      "uid": "d96647d65d34aba0a1dd",
+      "text": "Its only disadvantage is that it becomes very computationally expensive when the number of features is large (thousands and more).",
+      "leaf_id": "8bfd21dead2b31ebe967",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 2837,
+      "end": 2967,
+      "score": 2.1782649863110498e-05
+    },
+    {
+      "uid": "92a8fe871b970e522758",
+      "text": "However, in our case the number of features is only 301, so computational complexity is not an issue.",
+      "leaf_id": "8bfd21dead2b31ebe967",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 2968,
+      "end": 3069,
+      "score": 1.9679025610662346e-05
+    },
+    {
+      "uid": "25c062dcad5dd2587c44",
+      "text": "Thus, we use normal equation to find the optimal transformation matrix.",
+      "leaf_id": "8bfd21dead2b31ebe967",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 3070,
+      "end": 3141,
+      "score": 0.0013831174237397678
+    },
+    {
+      "uid": "d2ed5309a0e467dfbe08",
+      "text": "The algebraic solution to each of 300 normal equations (one for each vector component $i$ ) is shown in the Equation 3 : $$\\beta _i = (\\textbf {X}^\\intercal * \\textbf {X})^{-1} * \\textbf {X}^\\intercal * y_i$$ (Eq.",
+      "leaf_id": "8bfd21dead2b31ebe967",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 3142,
+      "end": 3355,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "84fe747f0f9ec63c927d",
+      "text": "3) where $\\textbf {X}$ is the matrix of 5 thousand Ukrainian word vectors (input), $y_i$ is the vector of the $i$ th components of 5 thousand corresponding Russian words (correct predictions), and $\\beta _i$ is our aim: the vector of 301 optimal coefficients which transform the Ukrainian vectors into the $i$ th component of the Russian vectors.",
+      "leaf_id": "8bfd21dead2b31ebe967",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 3356,
+      "end": 3702,
+      "score": 7.031184266914956e-05
+    },
+    {
+      "uid": "f17c5ea72cff430d07ca",
+      "text": "After solving such normal equations for all the 300 components $i$ , we have the 300x301 linear transformation matrix which fits the data best.",
+      "leaf_id": "5669d5792d2103c76eef",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 3703,
+      "end": 3846,
+      "score": 5.649793328376293e-05
+    },
+    {
+      "uid": "e1149daeff3d00be182f",
+      "text": "This matrix basically maps the Ukrainian vectors into the Russian ones.",
+      "leaf_id": "5669d5792d2103c76eef",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 3847,
+      "end": 3918,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "7e878042dda6a9eb5f60",
+      "text": "It is based on the assumption that the relations between semantic concepts in different languages are in fact very similar (students are close to teachers, while pirates are close to corsairs, and so on).",
+      "leaf_id": "5669d5792d2103c76eef",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 3919,
+      "end": 4123,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "4d560f6d91196b123e91",
+      "text": "In continuous distributional models which strive to represent these semantic spaces, mutual `geometrical' relations between vectors representing particular words are also similar across models (if they are trained on comparable corpora), but the exact vectors for words denoting one and the same notion are different.",
+      "leaf_id": "5669d5792d2103c76eef",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 4124,
+      "end": 4441,
+      "score": 0.0001177445922838707
+    },
+    {
+      "uid": "9300d7db08bbd31de7f6",
+      "text": "This is because the models themselves are stochastic and the particular values of vectors (unlike their positions in relation to each other) depend a lot on technical factors, including the random seed used to initialize vectors prior to training.",
+      "leaf_id": "6129129c2a0834c31baa",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 4442,
+      "end": 4689,
+      "score": 0.0001559802763374382
+    },
+    {
+      "uid": "afbd7cf08468cc280b82",
+      "text": "In order to migrate from a model A to another model B, one has to `rotate and scale' A vectors in a uniform linear way.",
+      "leaf_id": "6129129c2a0834c31baa",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 4690,
+      "end": 4809,
+      "score": 5.605828752595003e-05
+    },
+    {
+      "uid": "7043e75a2369ab2af7ec",
+      "text": "To learn the optimal transformation matrix means to find out the exact directions of rotating and scaling, which minimize prediction errors.",
+      "leaf_id": "6129129c2a0834c31baa",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 4810,
+      "end": 4950,
+      "score": 0.0004222328697668336
+    },
+    {
+      "uid": "0db52859fe449bc38842",
+      "text": "Linguistically speaking, once we learned the transformation matrix, we can predict what a Russian vector would most probably be, given a Ukrainian one.",
+      "leaf_id": "6129129c2a0834c31baa",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 4951,
+      "end": 5102,
+      "score": 0.0002758679066337912
+    },
+    {
+      "uid": "baae436fe22e2aa2d535",
+      "text": "This essentially means we are able to `translate' Ukrainian words into Russian, by calculating the word in the Russian model with the vector closest to the predicted one.",
+      "leaf_id": "b8e7cee33ba0efdf216d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 5103,
+      "end": 5273,
+      "score": 2.3737339634846014e-05
+    },
+    {
+      "uid": "429886976bce13ccea0e",
+      "text": "We had to choose between CBOW or Continuous SkipGram models to use when learning the transformation matrix.",
+      "leaf_id": "b8e7cee33ba0efdf216d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 5274,
+      "end": 5381,
+      "score": 0.0008393599151498077
+    },
+    {
+      "uid": "d80af202a3b492f600e9",
+      "text": "Also, there was a question of whether to employ regularized or standard normal equations.",
+      "leaf_id": "b8e7cee33ba0efdf216d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 5382,
+      "end": 5471,
+      "score": 0.00034196205732869996
+    },
+    {
+      "uid": "48a50552d3d6e7fecfe9",
+      "text": "Regularization is an attempt to avoid over-fitting by trying to somehow decrease the values of learned weights.",
+      "leaf_id": "b8e7cee33ba0efdf216d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 5472,
+      "end": 5583,
+      "score": 2.668852957262856e-05
+    },
+    {
+      "uid": "21c034d803e20f04df90",
+      "text": "The regularized normal equation is shown in 4 : $$\\beta _i = (\\textbf {X}^\\intercal * \\textbf {X} + \\lambda * L)^{-1} * \\textbf {X}^\\intercal * y_i$$ (Eq.",
+      "leaf_id": "b8e7cee33ba0efdf216d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 5584,
+      "end": 5738,
+      "score": 9.461262661302226e-05
+    },
+    {
+      "uid": "8787dccef07158ade7a3",
+      "text": "4) Comparing to 3 , it adds the term $\\lambda * L$ , where $L$ is the identity matrix of the size equal to the number of features, with 0 at the top left cell, and $\\lambda $ is a real number used to tune the influence of regularization term (if $\\lambda = 0$ , there is no regularization).",
+      "leaf_id": "b8e7cee33ba0efdf216d",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 5739,
+      "end": 6029,
+      "score": 0.0011513995656772138
+    },
+    {
+      "uid": "dc014e1d32bbe712dd97",
+      "text": "To test all the possible combinations of parameters, we divided the bilingual dictionary into 4500 noun pairs used as a training set and 500 noun pairs used as a test set.",
+      "leaf_id": "2b03c6ad78ad125fd0f0",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 6030,
+      "end": 6201,
+      "score": 0.00020825010519232145
+    },
+    {
+      "uid": "aa33af18bd339b85045b",
+      "text": "We then learned transformation matrices on the training set using both training algorithms (CBOW and SkipGram) and several values of regularization $\\lambda $ from 0 to 5, with a step of 0.5.",
+      "leaf_id": "2b03c6ad78ad125fd0f0",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 6202,
+      "end": 6393,
+      "score": 0.0014437558971204926
+    },
+    {
+      "uid": "1ce5a32a46a669a2744f",
+      "text": "The resulting matrices were applied to the Ukrainian vectors from the test set and the corresponding Russian `translations' were calculated.",
+      "leaf_id": "2b03c6ad78ad125fd0f0",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 6394,
+      "end": 6534,
+      "score": 2.5466403947055452e-05
+    },
+    {
+      "uid": "26fa87cfaa8ee5393fa8",
+      "text": "The ratio of correct `translations' (matches) was used as an evaluation measure.",
+      "leaf_id": "2b03c6ad78ad125fd0f0",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 6535,
+      "end": 6615,
+      "score": 0.05561761160460151
+    },
+    {
+      "uid": "5410a10fd4a9bb1499fb",
+      "text": "It came out that regularization only worsened the results for both algorithms, so in the Table 1 we report the results without regularization.",
+      "leaf_id": "2b03c6ad78ad125fd0f0",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 6616,
+      "end": 6758,
+      "score": 5.829126566113865e-05
+    },
+    {
+      "uid": "ec56c301d665b17c2050",
+      "text": "For reference, we also report the accuracy of `quazi-translation' via Damerau-Levenshtein edit distance BIBREF9 , as a sort of a baseline.",
+      "leaf_id": "f9c0c57e213bc2a6eaf3",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 6759,
+      "end": 6897,
+      "score": 0.0003711854502457685
+    },
+    {
+      "uid": "20091ff04bbb16a3352f",
+      "text": "As already stated, the two languages share many cognates, and a lot of Ukrainian words can be orthographically transformed into their Russian translations (and vice versa) by one or two character replacements.",
+      "leaf_id": "f9c0c57e213bc2a6eaf3",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 6898,
+      "end": 7107,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "dfce00a5925f553c3083",
+      "text": "Thus, we extracted 50,000 most frequent nouns from our Russian corpora; then for each Ukrainian noun in the bilingual dictionary we found the closest Russian noun (or 5 closest nouns for @5 metric) by edit distance and calculated how often it turned out to be the correct translation.",
+      "leaf_id": "f9c0c57e213bc2a6eaf3",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 7108,
+      "end": 7392,
+      "score": 9.387641443080781e-05
+    },
+    {
+      "uid": "3914ee5edb0142943cae",
+      "text": "As the Table 1 shows, notwithstanding the orthographic similarity of the two languages, CBOW consistently outperforms this approach even on the test set.",
+      "leaf_id": "f9c0c57e213bc2a6eaf3",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 7393,
+      "end": 7546,
+      "score": 0.0002148592528014818
+    },
+    {
+      "uid": "db6550009fc26a0dffa1",
+      "text": "On the training set, its superiority is even more obvious.",
+      "leaf_id": "f9c0c57e213bc2a6eaf3",
+      "section_id": "afc3c857654a1cf5ec3e",
+      "start": 7547,
+      "end": 7605,
+      "score": 1.6571452505948057e-05
+    }
+  ],
+  "prepare_seconds": 1.2935542701743543,
+  "leaf_count": 21
+}

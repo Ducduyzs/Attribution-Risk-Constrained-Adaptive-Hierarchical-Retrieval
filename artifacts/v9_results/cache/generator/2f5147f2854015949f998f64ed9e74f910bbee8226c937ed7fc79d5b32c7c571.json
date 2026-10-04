@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the authors hypothesize that humans' robustness to noise is due to their ability to utilize general knowledge, which MRC models lack.",
+    "claims": [
+      {
+        "text": "Humans can utilize general knowledge, which contributes to their robustness to noise in reading comprehension tasks.",
+        "citations": [
+          "C4",
+          "C29"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "MRC models struggle with noise due to their reliance on specific passage-question pairs, unlike humans who can draw from general knowledge.",
+        "citations": [
+          "C28",
+          "C29"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "General knowledge is essential for human reading comprehension, enhancing their performance against noise.",
+        "citations": [
+          "C5",
+          "C9"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 2258,
+    "total_tokens": 2413,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.069315500000812,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

@@ -1,0 +1,24 @@
+{
+  "rows": 2700,
+  "systems": [
+    "flat24",
+    "all_leaf",
+    "contextual24",
+    "contextual_all",
+    "mmr",
+    "coverage",
+    "sentence",
+    "window",
+    "dependency",
+    "evidence_first",
+    "dependency_first",
+    "raptor"
+  ],
+  "budgets": [
+    512,
+    1024,
+    2048
+  ],
+  "questions": 75,
+  "test_accessed": false
+}

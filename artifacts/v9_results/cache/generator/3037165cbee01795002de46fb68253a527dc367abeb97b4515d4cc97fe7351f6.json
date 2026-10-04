@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly outlines the three layers of the annotation scheme used in the OLID dataset, which are: (A) whether the language is offensive or not, (B) the type of offensive language, and (C) the target of the offensive language.",
+    "claims": [
+      {
+        "text": "The three layers of the annotation scheme are: (A) whether language is offensive or not, (B) type of offensive language, and (C) target of the offensive language.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 1702,
+    "total_tokens": 1824,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7732938999979524,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

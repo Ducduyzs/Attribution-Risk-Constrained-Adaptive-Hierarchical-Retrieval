@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific topics of cyberbullying addressed in the research, including personal attacks, racism, and sexism, across different social media platforms.",
+    "claims": [
+      {
+        "text": "The research addresses three topics of cyberbullying: personal attack, racism, and sexism.",
+        "citations": [
+          "C2",
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Cyberbullying can vary by topic, with different vocabulary and meanings across social media platforms.",
+        "citations": [
+          "C4",
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 2247,
+    "total_tokens": 2366,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.654632000001584,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

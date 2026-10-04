@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance results for various datasets and models used in cyberbullying detection, including F1 scores and accuracy metrics.",
+    "claims": [
+      {
+        "text": "The F1 scores achieved were 0.94 for Wikipedia and 0.93 for Twitter datasets, and 0.95 with an accuracy of 98% for the Formspring dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Traditional machine learning models performed significantly lower than DNN models in cyberbullying detection.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Oversampling bullying posts improved the performance of DNN models significantly across evaluation measures.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Transfer learning showed that the Formspring dataset had higher detection performance when using the Wikipedia model compared to the Twitter model.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 1822,
+    "total_tokens": 2015,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.080757399999129,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

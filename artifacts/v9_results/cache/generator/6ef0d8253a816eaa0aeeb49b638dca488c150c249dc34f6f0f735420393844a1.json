@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the Pyramid scoring method used in summarization evaluation, specifically in the context of scientific articles.",
+    "claims": [
+      {
+        "text": "The Pyramid score is a semi-manual evaluation framework used to assess the quality of summaries by organizing content units in tiers based on importance.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Pyramid scoring method evaluates candidate summaries against a pyramid structure where higher tiers indicate higher importance of content units.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Different variants of evaluation metrics, including Pyramid scores, show varying correlations with manual judgments in scientific summarization.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 1976,
+    "total_tokens": 2125,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.193233499998314,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

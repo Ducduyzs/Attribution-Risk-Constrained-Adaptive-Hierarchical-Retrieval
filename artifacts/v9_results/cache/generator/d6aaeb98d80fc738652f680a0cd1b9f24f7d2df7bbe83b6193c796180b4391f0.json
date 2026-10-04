@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Is G-BERT useful beyond the medication recommendation task?",
+        "citations": [
+          "C1",
+          "C3",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence suggests that G-BERT has potential applications beyond the specific task of medication recommendation, as it is designed to be adaptable for larger datasets and other predictive tasks.",
+    "claims": [
+      {
+        "text": "G-BERT can be adapted for larger datasets and other predictive tasks beyond medication recommendation.",
+        "citations": [
+          "C1",
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "G-BERT integrates hierarchical knowledge and can be fine-tuned for various downstream tasks.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 1210,
+    "total_tokens": 1359,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.178905400000076,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

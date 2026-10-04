@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about previously reported results in speculation detection using transformer-based architectures, including improvements in F1 scores over prior work.",
+    "claims": [
+      {
+        "text": "Substantial improvements were reported over previously reported results by at least 0.29 F1 points on cue detection and 4.27 F1 points on scope resolution.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "XLNet consistently outperforms BERT and RoBERTa in the context of negation detection and scope resolution, contrary to results on other benchmark datasets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "State-of-the-art results were achieved on negation scope resolution for the BioScope Corpus with an increase of 3.16 F1 points on the BioScope Full Papers.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 643,
+    "total_tokens": 828,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.9767265999980737,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

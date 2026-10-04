@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "different variations of the attention-based approach",
+        "citations": [
+          "C1",
+          "C2",
+          "C6",
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific variations of the attention-based approach used in the study, including multi-attention and single attention models.",
+    "claims": [
+      {
+        "text": "The attention-based approach includes variations such as multi-attention and single attention models.",
+        "citations": [
+          "C1",
+          "C2",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The MultiAttentionRNN model incorporates four attention mechanisms, one for each category of harassment.",
+        "citations": [
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 2011,
+    "total_tokens": 2153,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8886143999989145,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

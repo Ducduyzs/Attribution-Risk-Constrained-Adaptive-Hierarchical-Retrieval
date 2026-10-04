@@ -1,0 +1,34 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies two public datasets used in the experiments: Europarl and MultiUN.",
+    "claims": [
+      {
+        "text": "The experiments were conducted on two public datasets: Europarl and MultiUN.",
+        "citations": [
+          "C9",
+          "C17"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 1214,
+    "total_tokens": 1278,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 0.9847324000002118,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

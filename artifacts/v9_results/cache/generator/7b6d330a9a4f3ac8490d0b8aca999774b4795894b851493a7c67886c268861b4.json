@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides details about the manual Pyramid scoring system, including its structure and evaluation process.",
+    "claims": [
+      {
+        "text": "The manual Pyramid scores are based on the organization of content units in a pyramid structure, where higher tiers indicate greater importance of content units.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Pyramid scoring evaluates candidate summaries by comparing them to gold human-written summaries, rewarding the presence of important content units (nuggets) based on their tier.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Nuggets are weighted according to their frequency in human summaries, influencing their tier placement in the Pyramid scoring system.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1791,
+    "total_tokens": 1948,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.211457800000062,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly identifies two pairs of ERPs that benefit from joint training, which are LAN+P600 and ELAN+P600.",
+    "claims": [
+      {
+        "text": "The pairs of ERPs that benefit from joint training are LAN+P600 and ELAN+P600.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "text": "Joint training of ERPs can suggest relationships between components.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1240,
+    "total_tokens": 1343,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.699836799998593,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_f5dd669434"
+}

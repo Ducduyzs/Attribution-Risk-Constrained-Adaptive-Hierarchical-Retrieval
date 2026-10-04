@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific competitive results achieved by the model Jasper on various datasets, including WER percentages.",
+    "claims": [
+      {
+        "text": "Jasper achieved a state-of-the-art (SOTA) result of 2.95% WER on LibriSpeech test-clean using a beam-search decoder with an external language model.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Jasper also reported a WER of 3.86% on LibriSpeech test-clean using a greedy decoder without a language model.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model showed competitive results on the Wall Street Journal and the Hub5'00 conversational evaluation datasets.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Jasper achieved competitive results on the 2000hr Fisher+Switchboard dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 204,
+    "prompt_tokens": 1211,
+    "total_tokens": 1415,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1355513999988034,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

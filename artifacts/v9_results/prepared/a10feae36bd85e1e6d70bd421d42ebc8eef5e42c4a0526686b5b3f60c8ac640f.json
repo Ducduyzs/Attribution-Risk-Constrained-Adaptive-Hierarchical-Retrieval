@@ -1,0 +1,1547 @@
+{
+  "question_id": "7595260c5747aede0b32b7414e13899869209506",
+  "source": "2003.11645.qasper",
+  "query": "What sentiment analysis dataset is used?",
+  "rankings": {
+    "flat24": [
+      [
+        "acaf21ee43cb3bd00171",
+        0.9865717452580314
+      ],
+      [
+        "e1b9ed2496de7ac9b4e5",
+        0.39969447738554836
+      ],
+      [
+        "c520cc1e4a1b1b2624d9",
+        0.11757213354550881
+      ],
+      [
+        "c2f954dcf212b10dca8d",
+        0.006615392678327908
+      ],
+      [
+        "493b28204d758c5604cd",
+        0.005774929853444153
+      ],
+      [
+        "da66ad8956f3a797fcef",
+        0.0032099613758647793
+      ],
+      [
+        "5031831959bb9d2a8f95",
+        0.002992665245354638
+      ],
+      [
+        "df73fd4784f80f46be9e",
+        0.0021912406363963407
+      ],
+      [
+        "98440622f1e4883ac74b",
+        0.001254594479971798
+      ],
+      [
+        "d14af4d9991087625148",
+        0.001201891318511022
+      ],
+      [
+        "9816cb98676ca55b9fc7",
+        0.0008899654984705883
+      ],
+      [
+        "bea964bbfd2529a0a2c3",
+        0.0006986756664856784
+      ],
+      [
+        "4ad27dafb48ceced4ccd",
+        0.0006538155503558285
+      ],
+      [
+        "ebb7f94f14e15e88688c",
+        0.0006070755804415096
+      ],
+      [
+        "8ed4bfa51559dddc6091",
+        0.00033015272509780104
+      ],
+      [
+        "94aadd3bd8e7c0c71c19",
+        0.0002653023768982879
+      ],
+      [
+        "9829ae28757f4c208145",
+        0.0001355207856240677
+      ],
+      [
+        "e8f408c624698b2adf56",
+        0.00012436225128319384
+      ],
+      [
+        "ce8869c7470bea5e46b7",
+        0.0001063745841626834
+      ]
+    ],
+    "all_leaf": [
+      [
+        "acaf21ee43cb3bd00171",
+        0.9865717452580314
+      ],
+      [
+        "e1b9ed2496de7ac9b4e5",
+        0.39969447738554836
+      ],
+      [
+        "c520cc1e4a1b1b2624d9",
+        0.11757213354550881
+      ],
+      [
+        "c2f954dcf212b10dca8d",
+        0.006615392678327908
+      ],
+      [
+        "493b28204d758c5604cd",
+        0.005774929853444153
+      ],
+      [
+        "da66ad8956f3a797fcef",
+        0.0032099613758647793
+      ],
+      [
+        "5031831959bb9d2a8f95",
+        0.002992665245354638
+      ],
+      [
+        "df73fd4784f80f46be9e",
+        0.0021912406363963407
+      ],
+      [
+        "98440622f1e4883ac74b",
+        0.001254594479971798
+      ],
+      [
+        "d14af4d9991087625148",
+        0.001201891318511022
+      ],
+      [
+        "9816cb98676ca55b9fc7",
+        0.0008899654984705883
+      ],
+      [
+        "bea964bbfd2529a0a2c3",
+        0.0006986756664856784
+      ],
+      [
+        "4ad27dafb48ceced4ccd",
+        0.0006538155503558285
+      ],
+      [
+        "ebb7f94f14e15e88688c",
+        0.0006070755804415096
+      ],
+      [
+        "8ed4bfa51559dddc6091",
+        0.00033015272509780104
+      ],
+      [
+        "94aadd3bd8e7c0c71c19",
+        0.0002653023768982879
+      ],
+      [
+        "9829ae28757f4c208145",
+        0.0001355207856240677
+      ],
+      [
+        "e8f408c624698b2adf56",
+        0.00012436225128319384
+      ],
+      [
+        "ce8869c7470bea5e46b7",
+        0.0001063745841626834
+      ]
+    ],
+    "contextual24": [
+      [
+        "acaf21ee43cb3bd00171",
+        0.9869292152258129
+      ],
+      [
+        "493b28204d758c5604cd",
+        0.9193533851235517
+      ],
+      [
+        "94aadd3bd8e7c0c71c19",
+        0.36556991822407364
+      ],
+      [
+        "98440622f1e4883ac74b",
+        0.24944724346334116
+      ],
+      [
+        "e1b9ed2496de7ac9b4e5",
+        0.24835184311713518
+      ],
+      [
+        "c520cc1e4a1b1b2624d9",
+        0.13637818915265099
+      ],
+      [
+        "5031831959bb9d2a8f95",
+        0.003765413784673874
+      ],
+      [
+        "c2f954dcf212b10dca8d",
+        0.0032099613758647793
+      ],
+      [
+        "d14af4d9991087625148",
+        0.0028671585933937867
+      ],
+      [
+        "4ad27dafb48ceced4ccd",
+        0.0028338498442466845
+      ],
+      [
+        "df73fd4784f80f46be9e",
+        0.002387409209862363
+      ],
+      [
+        "da66ad8956f3a797fcef",
+        0.0022961590064970627
+      ],
+      [
+        "bea964bbfd2529a0a2c3",
+        0.0007733057081242416
+      ],
+      [
+        "9816cb98676ca55b9fc7",
+        0.00048029723188631633
+      ],
+      [
+        "8ed4bfa51559dddc6091",
+        0.00028021097671886315
+      ],
+      [
+        "ebb7f94f14e15e88688c",
+        0.00024346046497898514
+      ],
+      [
+        "ce8869c7470bea5e46b7",
+        0.00017130819343483193
+      ],
+      [
+        "9829ae28757f4c208145",
+        0.00016346470245419303
+      ],
+      [
+        "e8f408c624698b2adf56",
+        5.225226840386987e-05
+      ]
+    ],
+    "contextual_all": [
+      [
+        "acaf21ee43cb3bd00171",
+        0.9869292152258129
+      ],
+      [
+        "493b28204d758c5604cd",
+        0.9193533851235517
+      ],
+      [
+        "94aadd3bd8e7c0c71c19",
+        0.36556991822407364
+      ],
+      [
+        "98440622f1e4883ac74b",
+        0.24944724346334116
+      ],
+      [
+        "e1b9ed2496de7ac9b4e5",
+        0.24835184311713518
+      ],
+      [
+        "c520cc1e4a1b1b2624d9",
+        0.13637818915265099
+      ],
+      [
+        "5031831959bb9d2a8f95",
+        0.003765413784673874
+      ],
+      [
+        "c2f954dcf212b10dca8d",
+        0.0032099613758647793
+      ],
+      [
+        "d14af4d9991087625148",
+        0.0028671585933937867
+      ],
+      [
+        "4ad27dafb48ceced4ccd",
+        0.0028338498442466845
+      ],
+      [
+        "df73fd4784f80f46be9e",
+        0.002387409209862363
+      ],
+      [
+        "da66ad8956f3a797fcef",
+        0.0022961590064970627
+      ],
+      [
+        "bea964bbfd2529a0a2c3",
+        0.0007733057081242416
+      ],
+      [
+        "9816cb98676ca55b9fc7",
+        0.00048029723188631633
+      ],
+      [
+        "8ed4bfa51559dddc6091",
+        0.00028021097671886315
+      ],
+      [
+        "ebb7f94f14e15e88688c",
+        0.00024346046497898514
+      ],
+      [
+        "ce8869c7470bea5e46b7",
+        0.00017130819343483193
+      ],
+      [
+        "9829ae28757f4c208145",
+        0.00016346470245419303
+      ],
+      [
+        "e8f408c624698b2adf56",
+        5.225226840386987e-05
+      ]
+    ],
+    "raptor": [
+      [
+        "acaf21ee43cb3bd00171",
+        0.9865717452580314
+      ],
+      [
+        "c2f954dcf212b10dca8d",
+        0.006615392678327908
+      ],
+      [
+        "493b28204d758c5604cd",
+        0.005774929853444153
+      ],
+      [
+        "da66ad8956f3a797fcef",
+        0.0032099613758647793
+      ],
+      [
+        "5031831959bb9d2a8f95",
+        0.002992665245354638
+      ],
+      [
+        "df73fd4784f80f46be9e",
+        0.0021912406363963407
+      ],
+      [
+        "98440622f1e4883ac74b",
+        0.001254594479971798
+      ],
+      [
+        "ebb7f94f14e15e88688c",
+        0.0006070755804415096
+      ],
+      [
+        "9829ae28757f4c208145",
+        0.0001355207856240677
+      ],
+      [
+        "e8f408c624698b2adf56",
+        0.00012436225128319384
+      ]
+    ]
+  },
+  "initial_ids": [
+    "acaf21ee43cb3bd00171",
+    "df73fd4784f80f46be9e",
+    "c520cc1e4a1b1b2624d9",
+    "da66ad8956f3a797fcef",
+    "493b28204d758c5604cd",
+    "5031831959bb9d2a8f95",
+    "bea964bbfd2529a0a2c3",
+    "e1b9ed2496de7ac9b4e5",
+    "c2f954dcf212b10dca8d",
+    "d14af4d9991087625148",
+    "9816cb98676ca55b9fc7",
+    "9829ae28757f4c208145",
+    "94aadd3bd8e7c0c71c19",
+    "ebb7f94f14e15e88688c",
+    "4ad27dafb48ceced4ccd",
+    "ce8869c7470bea5e46b7",
+    "8ed4bfa51559dddc6091",
+    "98440622f1e4883ac74b",
+    "e8f408c624698b2adf56"
+  ],
+  "sentences": [
+    {
+      "uid": "eb8176867eec10ae6d93",
+      "text": "Word2Vec is a prominent tool for Natural Language Processing (NLP) tasks.",
+      "leaf_id": "e1b9ed2496de7ac9b4e5",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 0,
+      "end": 73,
+      "score": 0.0002846224015752145
+    },
+    {
+      "uid": "a410269b6ea6b6b85b95",
+      "text": "Similar inspiration is found in distributed embeddings for state-of-the-art (sota) deep neural networks.",
+      "leaf_id": "e1b9ed2496de7ac9b4e5",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 74,
+      "end": 178,
+      "score": 5.391084403253366e-05
+    },
+    {
+      "uid": "25d8653ac8192c08ffc9",
+      "text": "However, wrong combination of hyper-parameters can produce poor quality vectors.",
+      "leaf_id": "e1b9ed2496de7ac9b4e5",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 179,
+      "end": 259,
+      "score": 1.7640200515540418e-05
+    },
+    {
+      "uid": "e3c8ce8813e606a349ad",
+      "text": "The objective of this work is to show optimal combination of hyper-parameters exists and evaluate various combinations.",
+      "leaf_id": "e1b9ed2496de7ac9b4e5",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 260,
+      "end": 379,
+      "score": 3.295572855043323e-05
+    },
+    {
+      "uid": "f39fc81e3cf2f6d00f99",
+      "text": "We compare them with the original model released by Mikolov.",
+      "leaf_id": "e1b9ed2496de7ac9b4e5",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 380,
+      "end": 440,
+      "score": 2.4682904407607285e-05
+    },
+    {
+      "uid": "717b367eb8ef7b1f6a6d",
+      "text": "Both intrinsic and extrinsic (downstream) evaluations, including Named Entity Recognition (NER) and Sentiment Analysis (SA) were carried out.",
+      "leaf_id": "e1b9ed2496de7ac9b4e5",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 441,
+      "end": 582,
+      "score": 0.35476831041824497
+    },
+    {
+      "uid": "884667ed7c5dca279eb1",
+      "text": "The downstream tasks reveal that the best model is task-specific, high analogy scores don't necessarily correlate positively with F1 scores and the same applies for more data.",
+      "leaf_id": "e1b9ed2496de7ac9b4e5",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 583,
+      "end": 758,
+      "score": 3.619466971831003e-05
+    },
+    {
+      "uid": "2fb586124e748ce87203",
+      "text": "Increasing vector dimension size after a point leads to poor quality or performance.",
+      "leaf_id": "e1b9ed2496de7ac9b4e5",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 759,
+      "end": 843,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "bea9925a1cc3ca94bbcb",
+      "text": "If ethical considerations to save time, energy and the environment are made, then reasonably smaller corpora may do just as well or even better in some cases.",
+      "leaf_id": "e1b9ed2496de7ac9b4e5",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 844,
+      "end": 1002,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "19e53f33f6e36178f2b0",
+      "text": "Besides, using a small corpus, we obtain better human-assigned WordSim scores, corresponding Spearman correlation and better downstream (NER&SA) performance compared to Mikolov's model, trained on 100 billion word corpus.",
+      "leaf_id": "4ad27dafb48ceced4ccd",
+      "section_id": "b2761058f2c3ee262476",
+      "start": 1003,
+      "end": 1224,
+      "score": 0.0005571117181506888
+    },
+    {
+      "uid": "86c2c15c8c367b828144",
+      "text": "There have been many implementations of the word2vec model in either of the two architectures it provides: continuous skipgram and CBoW (BIBREF0).",
+      "leaf_id": "9829ae28757f4c208145",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 0,
+      "end": 146,
+      "score": 0.0002982776415551503
+    },
+    {
+      "uid": "6816ea2d06ebb8e444c3",
+      "text": "Similar distributed models of word or subword embeddings (or vector representations) find usage in sota, deep neural networks like BERT and its successors (BIBREF1, BIBREF2, BIBREF3).",
+      "leaf_id": "9829ae28757f4c208145",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 147,
+      "end": 330,
+      "score": 0.00031999824407395836
+    },
+    {
+      "uid": "7262ba6b036e9728fb1e",
+      "text": "These deep networks generate contextual representations of words after been trained for extended periods on large corpora, unsupervised, using the attention mechanisms (BIBREF4).",
+      "leaf_id": "9829ae28757f4c208145",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 331,
+      "end": 509,
+      "score": 0.00025514139559523356
+    },
+    {
+      "uid": "9ee3a1bc36b292683070",
+      "text": "It has been observed that various hyper-parameter combinations have been used in different research involving word2vec with the possibility of many of them being sub-optimal (BIBREF5, BIBREF6, BIBREF7).",
+      "leaf_id": "9829ae28757f4c208145",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 510,
+      "end": 712,
+      "score": 0.0006825019082634147
+    },
+    {
+      "uid": "f6ce5401b9b23e006125",
+      "text": "Therefore, the authors seek to address the research question: what is the optimal combination of word2vec hyper-parameters for intrinsic and extrinsic NLP purposes?",
+      "leaf_id": "9829ae28757f4c208145",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 713,
+      "end": 877,
+      "score": 6.761842041375471e-05
+    },
+    {
+      "uid": "d464a165530db84b85a6",
+      "text": "There are astronomically high numbers of combinations of hyper-parameters possible for neural networks, even with just a few layers.",
+      "leaf_id": "9829ae28757f4c208145",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 878,
+      "end": 1010,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "be37c30c14318fabd5e1",
+      "text": "Hence, the scope of our extensive work over three corpora is on dimension size, training epochs, window size and vocabulary size for the training algorithms (hierarchical softmax and negative sampling) of both skipgram and CBoW.",
+      "leaf_id": "acaf21ee43cb3bd00171",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 1011,
+      "end": 1239,
+      "score": 0.00031999824407395836
+    },
+    {
+      "uid": "af0c32f160bb4162413f",
+      "text": "The corpora used for word embeddings are English Wiki News Abstract by BIBREF8 of about 15MB, English Wiki Simple (SW) Articles by BIBREF9 of about 711MB and the Billion Word (BW) of 3.9GB by BIBREF10.",
+      "leaf_id": "acaf21ee43cb3bd00171",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 1240,
+      "end": 1441,
+      "score": 0.00020825010519232145
+    },
+    {
+      "uid": "ea0953d86bf1f7609cfd",
+      "text": "The corpus used for sentiment analysis is the IMDb dataset of movie reviews by BIBREF11 while that for NER is Groningen Meaning Bank (GMB) by BIBREF12, containing 47,959 sentence samples.",
+      "leaf_id": "acaf21ee43cb3bd00171",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 1442,
+      "end": 1629,
+      "score": 0.9969126306542909
+    },
+    {
+      "uid": "0d56a1a32b33bc2ae405",
+      "text": "The IMDb dataset used has a total of 25,000 sentences with half being positive sentiments and the other half being negative sentiments.",
+      "leaf_id": "acaf21ee43cb3bd00171",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 1630,
+      "end": 1765,
+      "score": 0.6963714486908549
+    },
+    {
+      "uid": "9da19ae5cc03bc40121a",
+      "text": "The GMB dataset has 17 labels, with 9 main labels and 2 context tags.",
+      "leaf_id": "acaf21ee43cb3bd00171",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 1766,
+      "end": 1835,
+      "score": 0.0023141263296893675
+    },
+    {
+      "uid": "e37231898d861e967e13",
+      "text": "It is however unbalanced due to the high percentage of tokens with the label 'O'.",
+      "leaf_id": "acaf21ee43cb3bd00171",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 1836,
+      "end": 1917,
+      "score": 2.01456908529364e-05
+    },
+    {
+      "uid": "98a01af81617ed46b7c9",
+      "text": "This skew in the GMB dataset is typical with NER datasets.",
+      "leaf_id": "5031831959bb9d2a8f95",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 1918,
+      "end": 1976,
+      "score": 0.00359360258142009
+    },
+    {
+      "uid": "e9cbaff2d43176c2edca",
+      "text": "The objective of this work is to determine the optimal combinations of word2vec hyper-parameters for intrinsic evaluation (semantic and syntactic analogies) and extrinsic evaluation tasks (BIBREF13, BIBREF14), like SA and NER.",
+      "leaf_id": "5031831959bb9d2a8f95",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 1977,
+      "end": 2203,
+      "score": 0.00020662982488383407
+    },
+    {
+      "uid": "8bc6d75b7c9638cd8651",
+      "text": "It is not our objective in this work to record sota results.",
+      "leaf_id": "5031831959bb9d2a8f95",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 2204,
+      "end": 2264,
+      "score": 1.848675576370609e-05
+    },
+    {
+      "uid": "1b7472965809b31f248f",
+      "text": "Some of the main contributions of this research are the empirical establishment of optimal combinations of word2vec hyper-parameters for NLP tasks, discovering the behaviour of quality of vectors viz-a-viz increasing dimensions and the confirmation of embeddings being task-specific for the downstream.",
+      "leaf_id": "5031831959bb9d2a8f95",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 2265,
+      "end": 2567,
+      "score": 6.014151777699533e-05
+    },
+    {
+      "uid": "f7faad11c784603f8be8",
+      "text": "The rest of this paper is organised as follows: the literature review that briefly surveys distributed representation of words, particularly word2vec; the methodology employed in this research work; the results obtained and the conclusion.",
+      "leaf_id": "5031831959bb9d2a8f95",
+      "section_id": "2acecce426b4621ea1f1",
+      "start": 2568,
+      "end": 2807,
+      "score": 0.00030061635882429376
+    },
+    {
+      "uid": "77edf844ab15ea49bb0b",
+      "text": "Breaking away from the non-distributed (high-dimensional, sparse) representations of words, typical of traditional bag-of-words or one-hot-encoding (BIBREF15), BIBREF0 created word2vec.",
+      "leaf_id": "d14af4d9991087625148",
+      "section_id": "56574dbcade6e99be712",
+      "start": 0,
+      "end": 185,
+      "score": 9.098840359922044e-05
+    },
+    {
+      "uid": "1d3ca66c853f6df90a0b",
+      "text": "Word2Vec consists of two shallow neural network architectures: continuous skipgram and CBoW.",
+      "leaf_id": "d14af4d9991087625148",
+      "section_id": "56574dbcade6e99be712",
+      "start": 186,
+      "end": 278,
+      "score": 0.00012731104162213555
+    },
+    {
+      "uid": "0f3f8ccd3002bff93607",
+      "text": "It uses distributed (low-dimensional, dense) representations of words that group similar words.",
+      "leaf_id": "d14af4d9991087625148",
+      "section_id": "56574dbcade6e99be712",
+      "start": 279,
+      "end": 374,
+      "score": 0.00023597174148291185
+    },
+    {
+      "uid": "88ebc30b3bdb49a7841e",
+      "text": "This new model traded the complexity of deep neural network architectures, by other researchers, for more efficient training over large corpora.",
+      "leaf_id": "d14af4d9991087625148",
+      "section_id": "56574dbcade6e99be712",
+      "start": 375,
+      "end": 519,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "2ffae35387a525df8c03",
+      "text": "Its architectures have two training algorithms: negative sampling and hierarchical softmax (BIBREF16).",
+      "leaf_id": "d14af4d9991087625148",
+      "section_id": "56574dbcade6e99be712",
+      "start": 520,
+      "end": 622,
+      "score": 0.00033015272509780104
+    },
+    {
+      "uid": "07ac84b41a7f7c239443",
+      "text": "The released model was trained on Google news dataset of 100 billion words.",
+      "leaf_id": "d14af4d9991087625148",
+      "section_id": "56574dbcade6e99be712",
+      "start": 623,
+      "end": 698,
+      "score": 0.0018386652876885773
+    },
+    {
+      "uid": "d8f0b279bea1f1a3f61c",
+      "text": "Implementations of the model have been undertaken by researchers in the programming languages Python and C++, though the original was done in C (BIBREF17).",
+      "leaf_id": "d14af4d9991087625148",
+      "section_id": "56574dbcade6e99be712",
+      "start": 699,
+      "end": 854,
+      "score": 0.00019563533752717905
+    },
+    {
+      "uid": "32aa54d377f55dcb52c3",
+      "text": "Continuous skipgram predicts (by maximizing classification of) words before and after the center word, for a given range.",
+      "leaf_id": "d14af4d9991087625148",
+      "section_id": "56574dbcade6e99be712",
+      "start": 855,
+      "end": 976,
+      "score": 0.00010804955911524512
+    },
+    {
+      "uid": "1e44f1fc6bae70d2d38f",
+      "text": "Since distant words are less connected to a center word in a sentence, less weight is assigned to such distant words in training.",
+      "leaf_id": "d14af4d9991087625148",
+      "section_id": "56574dbcade6e99be712",
+      "start": 977,
+      "end": 1106,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "ff8e4331914c0d0f9216",
+      "text": "CBoW, on the other hand, uses words from the history and future in a sequence, with the objective of correctly classifying the target word in the middle.",
+      "leaf_id": "8ed4bfa51559dddc6091",
+      "section_id": "56574dbcade6e99be712",
+      "start": 1107,
+      "end": 1260,
+      "score": 0.0009326360013054127
+    },
+    {
+      "uid": "e4c2bbee243d4e96f663",
+      "text": "It works by projecting all history or future words within a chosen window into the same position, averaging their vectors.",
+      "leaf_id": "8ed4bfa51559dddc6091",
+      "section_id": "56574dbcade6e99be712",
+      "start": 1261,
+      "end": 1383,
+      "score": 3.373722476473661e-05
+    },
+    {
+      "uid": "127cb04d0951271c152e",
+      "text": "Hence, the order of words in the history or future does not influence the averaged vector.",
+      "leaf_id": "8ed4bfa51559dddc6091",
+      "section_id": "56574dbcade6e99be712",
+      "start": 1384,
+      "end": 1474,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "b4d273ccaf27c94b027e",
+      "text": "This is similar to the traditional bag-of-words, which is oblivious of the order of words in its sequence.",
+      "leaf_id": "8ed4bfa51559dddc6091",
+      "section_id": "56574dbcade6e99be712",
+      "start": 1475,
+      "end": 1581,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "2b999ff58b63be5a15a7",
+      "text": "A log-linear classifier is used in both architectures (BIBREF0).",
+      "leaf_id": "8ed4bfa51559dddc6091",
+      "section_id": "56574dbcade6e99be712",
+      "start": 1582,
+      "end": 1646,
+      "score": 0.0005442132624325574
+    },
+    {
+      "uid": "4874bc2b0e1ea1b404ba",
+      "text": "In further work, they extended the model to be able to do phrase representations and subsample frequent words (BIBREF16).",
+      "leaf_id": "8ed4bfa51559dddc6091",
+      "section_id": "56574dbcade6e99be712",
+      "start": 1647,
+      "end": 1768,
+      "score": 0.00040606395082589986
+    },
+    {
+      "uid": "622f8982a09a4ae87027",
+      "text": "Being a NNLM, word2vec assigns probabilities to words in a sequence, like other NNLMs such as feedforward networks or recurrent neural networks (BIBREF15).",
+      "leaf_id": "8ed4bfa51559dddc6091",
+      "section_id": "56574dbcade6e99be712",
+      "start": 1769,
+      "end": 1924,
+      "score": 0.0002653023768982879
+    },
+    {
+      "uid": "bdad2c6700e33865daa3",
+      "text": "Earlier models like latent dirichlet allocation (LDA) and latent semantic analysis (LSA) exist and effectively achieve low dimensional vectors by matrix factorization (BIBREF18, BIBREF19).",
+      "leaf_id": "c520cc1e4a1b1b2624d9",
+      "section_id": "56574dbcade6e99be712",
+      "start": 1925,
+      "end": 2113,
+      "score": 0.0005033355754528114
+    },
+    {
+      "uid": "c44ae4798856bec9e00b",
+      "text": "It's been shown that word vectors are beneficial for NLP tasks (BIBREF15), such as sentiment analysis and named entity recognition.",
+      "leaf_id": "c520cc1e4a1b1b2624d9",
+      "section_id": "56574dbcade6e99be712",
+      "start": 2114,
+      "end": 2245,
+      "score": 0.10557884359159042
+    },
+    {
+      "uid": "e4c3dafef3a5ed83683c",
+      "text": "Besides, BIBREF0 showed with vector space algebra that relationships among words can be evaluated, expressing the quality of vectors produced from the model.",
+      "leaf_id": "c520cc1e4a1b1b2624d9",
+      "section_id": "56574dbcade6e99be712",
+      "start": 2246,
+      "end": 2403,
+      "score": 0.00010554685795431097
+    },
+    {
+      "uid": "a7b3bdd311df586a74f1",
+      "text": "The famous, semantic example: vector(\"King\") - vector(\"Man\") + vector(\"Woman\") $\\approx $ vector(\"Queen\") can be verified using cosine distance.",
+      "leaf_id": "c520cc1e4a1b1b2624d9",
+      "section_id": "56574dbcade6e99be712",
+      "start": 2404,
+      "end": 2548,
+      "score": 2.3007035274670075e-05
+    },
+    {
+      "uid": "0478bd1928caa500be6d",
+      "text": "Another type of semantic meaning is the relationship between a capital city and its corresponding country.",
+      "leaf_id": "c520cc1e4a1b1b2624d9",
+      "section_id": "56574dbcade6e99be712",
+      "start": 2549,
+      "end": 2655,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "4b73ecabfbbf100897ed",
+      "text": "Syntactic relationship examples include plural verbs and past tense, among others.",
+      "leaf_id": "c520cc1e4a1b1b2624d9",
+      "section_id": "56574dbcade6e99be712",
+      "start": 2656,
+      "end": 2738,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "a7a174d7d7aa38bdf690",
+      "text": "Combination of both syntactic and semantic analyses is possible and provided (totaling over 19,000 questions) as Google analogy test set by BIBREF0.",
+      "leaf_id": "c520cc1e4a1b1b2624d9",
+      "section_id": "56574dbcade6e99be712",
+      "start": 2739,
+      "end": 2887,
+      "score": 0.0006563728324346652
+    },
+    {
+      "uid": "325a33c3323c6124910e",
+      "text": "WordSimilarity-353 test set is another analysis tool for word vectors (BIBREF20).",
+      "leaf_id": "c520cc1e4a1b1b2624d9",
+      "section_id": "56574dbcade6e99be712",
+      "start": 2888,
+      "end": 2969,
+      "score": 0.00039511539619015043
+    },
+    {
+      "uid": "0bd9129974cccedd7d75",
+      "text": "Unlike Google analogy score, which is based on vector space algebra, WordSimilarity is based on human expert-assigned semantic similarity on two sets of English word pairs.",
+      "leaf_id": "bea964bbfd2529a0a2c3",
+      "section_id": "56574dbcade6e99be712",
+      "start": 2970,
+      "end": 3142,
+      "score": 0.0001476803833660436
+    },
+    {
+      "uid": "2d26e312acb8bcdcac91",
+      "text": "Both tools rank from 0 (totally dissimilar) to 1 (very much similar or exact, in Google analogy case).",
+      "leaf_id": "bea964bbfd2529a0a2c3",
+      "section_id": "56574dbcade6e99be712",
+      "start": 3143,
+      "end": 3245,
+      "score": 8.349627818261146e-05
+    },
+    {
+      "uid": "68607c348520e0593d9f",
+      "text": "A typical artificial neural network (ANN) has very many hyper-parameters which may be tuned.",
+      "leaf_id": "bea964bbfd2529a0a2c3",
+      "section_id": "56574dbcade6e99be712",
+      "start": 3246,
+      "end": 3338,
+      "score": 0.00011323437855834611
+    },
+    {
+      "uid": "43150ee382ebf307add9",
+      "text": "Hyper-parameters are values which may be manually adjusted and include vector dimension size, type of algorithm and learning rate (BIBREF19).",
+      "leaf_id": "bea964bbfd2529a0a2c3",
+      "section_id": "56574dbcade6e99be712",
+      "start": 3339,
+      "end": 3480,
+      "score": 8.61465062380632e-05
+    },
+    {
+      "uid": "808c2c7fba0685956051",
+      "text": "BIBREF0 tried various hyper-parameters with both architectures of their model, ranging from 50 to 1,000 dimensions, 30,000 to 3,000,000 vocabulary sizes, 1 to 3 epochs, among others.",
+      "leaf_id": "bea964bbfd2529a0a2c3",
+      "section_id": "56574dbcade6e99be712",
+      "start": 3481,
+      "end": 3663,
+      "score": 0.00021824205527083243
+    },
+    {
+      "uid": "6a1645cbd89a1fef7d80",
+      "text": "In our work, we extended research to 3,000 dimensions.",
+      "leaf_id": "bea964bbfd2529a0a2c3",
+      "section_id": "56574dbcade6e99be712",
+      "start": 3664,
+      "end": 3718,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "4174d21308a9de308123",
+      "text": "Different observations were noted from the many trials.",
+      "leaf_id": "bea964bbfd2529a0a2c3",
+      "section_id": "56574dbcade6e99be712",
+      "start": 3719,
+      "end": 3774,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "0f730923a79aff0d3093",
+      "text": "They observed diminishing returns after a certain point, despite additional dimensions or larger, unstructured training data.",
+      "leaf_id": "bea964bbfd2529a0a2c3",
+      "section_id": "56574dbcade6e99be712",
+      "start": 3775,
+      "end": 3900,
+      "score": 2.7108801365572047e-05
+    },
+    {
+      "uid": "e4d22f96cb415236042e",
+      "text": "However, quality increased when both dimensions and data size were increased together.",
+      "leaf_id": "bea964bbfd2529a0a2c3",
+      "section_id": "56574dbcade6e99be712",
+      "start": 3901,
+      "end": 3987,
+      "score": 3.7931622297824375e-05
+    },
+    {
+      "uid": "1380940f126ef4d8fd2d",
+      "text": "Although BIBREF16 pointed out that choice of optimal hyper-parameter configurations depends on the NLP problem at hand, they identified the most important factors are architecture, dimension size, subsampling rate, and the window size.",
+      "leaf_id": "9816cb98676ca55b9fc7",
+      "section_id": "56574dbcade6e99be712",
+      "start": 3988,
+      "end": 4223,
+      "score": 0.0002115288734611408
+    },
+    {
+      "uid": "b75765fd3a3fcc82ad28",
+      "text": "In addition, it has been observed that variables like size of datasets improve the quality of word vectors and, potentially, performance on downstream tasks (BIBREF21, BIBREF0).",
+      "leaf_id": "9816cb98676ca55b9fc7",
+      "section_id": "56574dbcade6e99be712",
+      "start": 4224,
+      "end": 4401,
+      "score": 0.0007978334816343425
+    },
+    {
+      "uid": "217148f9a3eb2c984a82",
+      "text": "The models were generated in a shared cluster running Ubuntu 16 with 32 CPUs of 32x Intel Xeon 4110 at 2.1GHz.",
+      "leaf_id": "da66ad8956f3a797fcef",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 0,
+      "end": 110,
+      "score": 3.975192649653812e-05
+    },
+    {
+      "uid": "b266849a441bf1ac88b4",
+      "text": "Gensim (BIBREF17) python library implementation of word2vec was used with parallelization to utilize all 32 CPUs.",
+      "leaf_id": "da66ad8956f3a797fcef",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 111,
+      "end": 224,
+      "score": 0.0001476803833660436
+    },
+    {
+      "uid": "9fae643e4c09f3205adb",
+      "text": "The downstream experiments were run on a Tesla GPU on a shared DGX cluster running Ubuntu 18.",
+      "leaf_id": "da66ad8956f3a797fcef",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 225,
+      "end": 318,
+      "score": 2.229919899951376e-05
+    },
+    {
+      "uid": "0d965e563b60436cf439",
+      "text": "Pytorch deep learning framework was used.",
+      "leaf_id": "da66ad8956f3a797fcef",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 319,
+      "end": 360,
+      "score": 0.0013302015099117557
+    },
+    {
+      "uid": "b7ca9170bf3948910bd8",
+      "text": "Gensim was chosen because of its relative stability, popular support and to minimize the time required in writing and testing a new implementation in python from scratch.",
+      "leaf_id": "da66ad8956f3a797fcef",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 361,
+      "end": 531,
+      "score": 0.00017813112047189374
+    },
+    {
+      "uid": "8f36bd19aab00889e0b3",
+      "text": "To form the vocabulary, words occurring less than 5 times in the corpora were dropped, stop words removed using the natural language toolkit (NLTK) (BIBREF22) and data pre-processing carried out.",
+      "leaf_id": "da66ad8956f3a797fcef",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 532,
+      "end": 727,
+      "score": 0.00040606395082589986
+    },
+    {
+      "uid": "1007d6884f04c037bc7b",
+      "text": "Table TABREF2 describes most hyper-parameters explored for each dataset.",
+      "leaf_id": "da66ad8956f3a797fcef",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 728,
+      "end": 800,
+      "score": 0.0008328334044949594
+    },
+    {
+      "uid": "f3e6938a6587074ab165",
+      "text": "In all, 80 runs (of about 160 minutes) were conducted for the 15MB Wiki Abstract dataset with 80 serialized models totaling 15.136GB while 80 runs (for over 320 hours) were conducted for the 711MB SW dataset, with 80 serialized models totaling over 145GB.",
+      "leaf_id": "da66ad8956f3a797fcef",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 801,
+      "end": 1056,
+      "score": 0.001466458403084568
+    },
+    {
+      "uid": "7acbaa4cb8f05a6245ad",
+      "text": "Experiments for all combinations for 300 dimensions were conducted on the 3.9GB training set of the BW corpus and additional runs for other dimensions for the window 8 + skipgram + heirarchical softmax combination to verify the trend of quality of word vectors as dimensions are increased.",
+      "leaf_id": "df73fd4784f80f46be9e",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1057,
+      "end": 1346,
+      "score": 0.00017674513810355872
+    },
+    {
+      "uid": "7fa1767b93cc64c3ab16",
+      "text": "Google (semantic and syntactic) analogy tests and WordSimilarity-353 (with Spearman correlation) by BIBREF20 were chosen for intrinsic evaluations.",
+      "leaf_id": "df73fd4784f80f46be9e",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1347,
+      "end": 1494,
+      "score": 0.0005357805383473942
+    },
+    {
+      "uid": "3a5405a4ae168b386936",
+      "text": "They measure the quality of word vectors.",
+      "leaf_id": "df73fd4784f80f46be9e",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1495,
+      "end": 1536,
+      "score": 6.814872211615988e-05
+    },
+    {
+      "uid": "1018349c92e94eec0791",
+      "text": "The analogy scores are averages of both semantic and syntactic tests.",
+      "leaf_id": "df73fd4784f80f46be9e",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1537,
+      "end": 1606,
+      "score": 1.7640200515540418e-05
+    },
+    {
+      "uid": "135c3907866b34146f29",
+      "text": "NER and SA were chosen for extrinsic evaluations.",
+      "leaf_id": "df73fd4784f80f46be9e",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1607,
+      "end": 1656,
+      "score": 0.00015000566214994787
+    },
+    {
+      "uid": "7d20b7c4e77243e00125",
+      "text": "The GMB dataset for NER was trained in an LSTM network, which had an embedding layer for input.",
+      "leaf_id": "df73fd4784f80f46be9e",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1657,
+      "end": 1752,
+      "score": 0.002387409209862363
+    },
+    {
+      "uid": "169aeb5883ac2034f120",
+      "text": "The network diagram is shown in fig.",
+      "leaf_id": "df73fd4784f80f46be9e",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1753,
+      "end": 1789,
+      "score": 2.7321412520836726e-05
+    },
+    {
+      "uid": "42ec93774ee6cee324d5",
+      "text": "FIGREF4.",
+      "leaf_id": "df73fd4784f80f46be9e",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1790,
+      "end": 1798,
+      "score": 4.6838884249524555e-05
+    },
+    {
+      "uid": "c2f7bfc7bb154c18f0e1",
+      "text": "The IMDb dataset for SA was trained in a BiLSTM network, which also used an embedding layer for input.",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1799,
+      "end": 1901,
+      "score": 0.006641112642077409
+    },
+    {
+      "uid": "f2631a61ea31b718c50a",
+      "text": "Its network diagram is given in fig.",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1902,
+      "end": 1938,
+      "score": 2.0623422291335766e-05
+    },
+    {
+      "uid": "2d67f5dee201447a3254",
+      "text": "FIGREF4.",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1939,
+      "end": 1947,
+      "score": 4.6838884249524555e-05
+    },
+    {
+      "uid": "4dddeb3238954cd729b2",
+      "text": "It includes an additional hidden linear layer.",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1948,
+      "end": 1994,
+      "score": 3.705296977158347e-05
+    },
+    {
+      "uid": "fb63a554fdc26afc0168",
+      "text": "Hyper-parameter details of the two networks for the downstream tasks are given in table TABREF3.",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 1995,
+      "end": 2091,
+      "score": 8.349627818261146e-05
+    },
+    {
+      "uid": "819e080f4771203a4d9b",
+      "text": "The metrics for extrinsic evaluation include F1, precision, recall and accuracy scores.",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 2092,
+      "end": 2179,
+      "score": 4.8325638187255363e-05
+    },
+    {
+      "uid": "adac769498412f95fc96",
+      "text": "In both tasks, the default pytorch embedding was tested before being replaced by pre-trained embeddings released by BIBREF0 and ours.",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 2180,
+      "end": 2313,
+      "score": 0.00013658354314419533
+    },
+    {
+      "uid": "cfdd3409f4d38ef4ca35",
+      "text": "In each case, the dataset was shuffled before training and split in the ratio 70:15:15 for training, validation (dev) and test sets.",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 2314,
+      "end": 2446,
+      "score": 0.000872767030892148
+    },
+    {
+      "uid": "591015d4d07547dabec5",
+      "text": "Batch size of 64 was used.",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 2447,
+      "end": 2473,
+      "score": 0.0006312434568750319
+    },
+    {
+      "uid": "d38b605e398a85825273",
+      "text": "For each task, experiments for each embedding was conducted four times and an average value calculated and reported in the next section",
+      "leaf_id": "493b28204d758c5604cd",
+      "section_id": "552036bbf596b2af1b88",
+      "start": 2474,
+      "end": 2609,
+      "score": 1.952588520864222e-05
+    },
+    {
+      "uid": "fa4eb8d2fe9819cb1241",
+      "text": "Table TABREF5 summarizes key results from the intrinsic evaluations for 300 dimensions.",
+      "leaf_id": "c2f954dcf212b10dca8d",
+      "section_id": "a926af47793a0b12b248",
+      "start": 0,
+      "end": 87,
+      "score": 0.0003225072119868323
+    },
+    {
+      "uid": "1e44a95496ee200ef149",
+      "text": "Table TABREF6 reveals the training time (in hours) and average embedding loading time (in seconds) representative of the various models used.",
+      "leaf_id": "c2f954dcf212b10dca8d",
+      "section_id": "a926af47793a0b12b248",
+      "start": 88,
+      "end": 229,
+      "score": 0.0004655269187520153
+    },
+    {
+      "uid": "5fb455cd1967e4ac0278",
+      "text": "Tables TABREF11 and TABREF12 summarize key results for the extrinsic evaluations.",
+      "leaf_id": "c2f954dcf212b10dca8d",
+      "section_id": "a926af47793a0b12b248",
+      "start": 230,
+      "end": 311,
+      "score": 0.0003889920826025971
+    },
+    {
+      "uid": "c235adbba52b1dd00ea6",
+      "text": "Figures FIGREF7, FIGREF9, FIGREF10, FIGREF13 and FIGREF14 present line graph of the eight combinations for different dimension sizes for Simple Wiki, trend of Simple Wiki and Billion Word corpora over several dimension sizes, analogy score comparison for models across datasets, NER mean F1 scores on the GMB dataset and SA mean F1 scores on the IMDb dataset, respectively.",
+      "leaf_id": "c2f954dcf212b10dca8d",
+      "section_id": "a926af47793a0b12b248",
+      "start": 312,
+      "end": 685,
+      "score": 0.0010608151804637727
+    },
+    {
+      "uid": "f6a080ec36bbeea881f1",
+      "text": "Combination of the skipgram using hierarchical softmax and window size of 8 for 300 dimensions outperformed others in analogy scores for the Wiki Abstract.",
+      "leaf_id": "c2f954dcf212b10dca8d",
+      "section_id": "a926af47793a0b12b248",
+      "start": 686,
+      "end": 841,
+      "score": 0.00016346470245419303
+    },
+    {
+      "uid": "774928930f03818f5120",
+      "text": "However, its results are so poor, because of the tiny file size, they're not worth reporting here.",
+      "leaf_id": "c2f954dcf212b10dca8d",
+      "section_id": "a926af47793a0b12b248",
+      "start": 842,
+      "end": 940,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "741a930fc0442ca1d697",
+      "text": "Hence, we'll focus on results from the Simple Wiki and Billion Word corpora.",
+      "leaf_id": "c2f954dcf212b10dca8d",
+      "section_id": "a926af47793a0b12b248",
+      "start": 941,
+      "end": 1017,
+      "score": 8.349627818261146e-05
+    },
+    {
+      "uid": "502689828e4edf30039f",
+      "text": "Best combination changes when corpus size increases, as will be noticed from table TABREF5.",
+      "leaf_id": "c2f954dcf212b10dca8d",
+      "section_id": "a926af47793a0b12b248",
+      "start": 1018,
+      "end": 1109,
+      "score": 7.662101864956481e-05
+    },
+    {
+      "uid": "fc4eb3cf3a0976aaace5",
+      "text": "In terms of analogy score, for 10 epochs, w8s0h0 performs best while w8s1h0 performs best in terms of WordSim and corresponding Spearman correlation.",
+      "leaf_id": "e8f408c624698b2adf56",
+      "section_id": "a926af47793a0b12b248",
+      "start": 1110,
+      "end": 1259,
+      "score": 0.0002305067219931397
+    },
+    {
+      "uid": "4a608373d91310032b30",
+      "text": "Meanwhile, increasing the corpus size to BW, w4s1h0 performs best in terms of analogy score while w8s1h0 maintains its position as the best in terms of WordSim and Spearman correlation.",
+      "leaf_id": "e8f408c624698b2adf56",
+      "section_id": "a926af47793a0b12b248",
+      "start": 1260,
+      "end": 1445,
+      "score": 0.0005316132776684705
+    },
+    {
+      "uid": "5640c1909601397b1020",
+      "text": "Besides considering quality metrics, it can be observed from table TABREF6 that comparative ratio of values between the models is not commensurate with the results in intrinsic or extrinsic values, especially when we consider the amount of time and energy spent, since more training time results in more energy consumption (BIBREF23).",
+      "leaf_id": "e8f408c624698b2adf56",
+      "section_id": "a926af47793a0b12b248",
+      "start": 1446,
+      "end": 1780,
+      "score": 0.00017130819343483193
+    },
+    {
+      "uid": "6fd66cb7213a5fd1d473",
+      "text": "Information on the length of training time for the released Mikolov model is not readily available.",
+      "leaf_id": "e8f408c624698b2adf56",
+      "section_id": "a926af47793a0b12b248",
+      "start": 1781,
+      "end": 1880,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "a58cfd31d9d9c1367021",
+      "text": "However, it's interesting to note that their presumed best model, which was released is also s1h0.",
+      "leaf_id": "e8f408c624698b2adf56",
+      "section_id": "a926af47793a0b12b248",
+      "start": 1881,
+      "end": 1979,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "bfb300fc818ec38ca73e",
+      "text": "Its analogy score, which we tested and report, is confirmed in their paper.",
+      "leaf_id": "e8f408c624698b2adf56",
+      "section_id": "a926af47793a0b12b248",
+      "start": 1980,
+      "end": 2055,
+      "score": 2.526822782693578e-05
+    },
+    {
+      "uid": "bfa6219bc355daa97da0",
+      "text": "It beats our best models in only analogy score (even for Simple Wiki), performing worse in others.",
+      "leaf_id": "ebb7f94f14e15e88688c",
+      "section_id": "a926af47793a0b12b248",
+      "start": 2056,
+      "end": 2154,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "141a16fff7624e1c3011",
+      "text": "This is inspite of using a much bigger corpus of 3,000,000 vocabulary size and 100 billion words while Simple Wiki had vocabulary size of 367,811 and is 711MB.",
+      "leaf_id": "ebb7f94f14e15e88688c",
+      "section_id": "a926af47793a0b12b248",
+      "start": 2155,
+      "end": 2314,
+      "score": 4.069457790466838e-05
+    },
+    {
+      "uid": "12e738c1888785ff5a6b",
+      "text": "It is very likely our analogy scores will improve when we use a much larger corpus, as can be observed from table TABREF5, which involves just one billion words.",
+      "leaf_id": "ebb7f94f14e15e88688c",
+      "section_id": "a926af47793a0b12b248",
+      "start": 2315,
+      "end": 2476,
+      "score": 0.001206589712246389
+    },
+    {
+      "uid": "7bc658a6530f8486577f",
+      "text": "Although the two best combinations in analogy (w8s0h0 & w4s0h0) for SW, as shown in fig.",
+      "leaf_id": "ebb7f94f14e15e88688c",
+      "section_id": "a926af47793a0b12b248",
+      "start": 2477,
+      "end": 2565,
+      "score": 0.0001740054355270893
+    },
+    {
+      "uid": "8db37c036c2ca8daff7c",
+      "text": "FIGREF7, decreased only slightly compared to others with increasing dimensions, the increased training time and much larger serialized model size render any possible minimal score advantage over higher dimensions undesirable.",
+      "leaf_id": "ebb7f94f14e15e88688c",
+      "section_id": "a926af47793a0b12b248",
+      "start": 2566,
+      "end": 2791,
+      "score": 8.156224673856543e-05
+    },
+    {
+      "uid": "cc613120131462aadd6a",
+      "text": "As can be observed in fig.",
+      "leaf_id": "ebb7f94f14e15e88688c",
+      "section_id": "a926af47793a0b12b248",
+      "start": 2792,
+      "end": 2818,
+      "score": 1.723157275214239e-05
+    },
+    {
+      "uid": "1292ac269212f3482dae",
+      "text": "FIGREF9, from 100 dimensions, scores improve but start to drop after over 300 dimensions for SW and after over 400 dimensions for BW.",
+      "leaf_id": "ebb7f94f14e15e88688c",
+      "section_id": "a926af47793a0b12b248",
+      "start": 2819,
+      "end": 2952,
+      "score": 0.00041731576067772006
+    },
+    {
+      "uid": "2d26f124c150071fdba0",
+      "text": "More becomes worse!",
+      "leaf_id": "ebb7f94f14e15e88688c",
+      "section_id": "a926af47793a0b12b248",
+      "start": 2953,
+      "end": 2972,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "30a1c7742dbd1faa5343",
+      "text": "This trend is true for all combinations for all tests.",
+      "leaf_id": "98440622f1e4883ac74b",
+      "section_id": "a926af47793a0b12b248",
+      "start": 2973,
+      "end": 3027,
+      "score": 1.9833367060283615e-05
+    },
+    {
+      "uid": "79df31d1e279efecc267",
+      "text": "Polynomial interpolation may be used to determine the optimal dimension in both corpora.",
+      "leaf_id": "98440622f1e4883ac74b",
+      "section_id": "a926af47793a0b12b248",
+      "start": 3028,
+      "end": 3116,
+      "score": 0.00013238186559744397
+    },
+    {
+      "uid": "6c4ec2d8082af475f64c",
+      "text": "Our models are available for confirmation and source codes are available on github.",
+      "leaf_id": "98440622f1e4883ac74b",
+      "section_id": "a926af47793a0b12b248",
+      "start": 3117,
+      "end": 3200,
+      "score": 5.391084403253366e-05
+    },
+    {
+      "uid": "00eab8a4248ec16208ac",
+      "text": "With regards to NER, most pretrained embeddings outperformed the default pytorch embedding, with our BW w4s1h0 model (which is best in BW analogy score) performing best in F1 score and closely followed by BIBREF0 model.",
+      "leaf_id": "98440622f1e4883ac74b",
+      "section_id": "a926af47793a0b12b248",
+      "start": 3201,
+      "end": 3420,
+      "score": 9.610241549947396e-05
+    },
+    {
+      "uid": "e2470974eb433d9d952c",
+      "text": "On the other hand, with regards to SA, pytorch embedding outperformed the pretrained embeddings but was closely followed by our SW w8s0h0 model (which also had the best SW analogy score).",
+      "leaf_id": "98440622f1e4883ac74b",
+      "section_id": "a926af47793a0b12b248",
+      "start": 3421,
+      "end": 3608,
+      "score": 0.0003697388703718312
+    },
+    {
+      "uid": "09b4003ca87c5acc2d0d",
+      "text": "BIBREF0 performed second worst of all, despite originating from a very huge corpus.",
+      "leaf_id": "98440622f1e4883ac74b",
+      "section_id": "a926af47793a0b12b248",
+      "start": 3609,
+      "end": 3692,
+      "score": 0.0002737216731838081
+    },
+    {
+      "uid": "b996fa12fa2c29362fbe",
+      "text": "The combinations w8s0h0 & w4s0h0 of SW performed reasonably well in both extrinsic tasks, just as the default pytorch embedding did.",
+      "leaf_id": "98440622f1e4883ac74b",
+      "section_id": "a926af47793a0b12b248",
+      "start": 3693,
+      "end": 3825,
+      "score": 0.00013238186559744397
+    },
+    {
+      "uid": "84eefaef55c75ac91281",
+      "text": "This work analyses, empirically, optimal combinations of hyper-parameters for embeddings, specifically for word2vec.",
+      "leaf_id": "94aadd3bd8e7c0c71c19",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 0,
+      "end": 116,
+      "score": 4.50445955990996e-05
+    },
+    {
+      "uid": "8abc61cd2d829891227e",
+      "text": "It further shows that for downstream tasks, like NER and SA, there's no silver bullet!",
+      "leaf_id": "94aadd3bd8e7c0c71c19",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 117,
+      "end": 203,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "de5d897c607c22f96071",
+      "text": "However, some combinations show strong performance across tasks.",
+      "leaf_id": "94aadd3bd8e7c0c71c19",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 204,
+      "end": 268,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "818ce8ac427a47964f91",
+      "text": "Performance of embeddings is task-specific and high analogy scores do not necessarily correlate positively with performance on downstream tasks.",
+      "leaf_id": "94aadd3bd8e7c0c71c19",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 269,
+      "end": 413,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "474914d251eb18888af6",
+      "text": "This point on correlation is somewhat similar to results by BIBREF24 and BIBREF14.",
+      "leaf_id": "94aadd3bd8e7c0c71c19",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 414,
+      "end": 496,
+      "score": 0.0018102110262026483
+    },
+    {
+      "uid": "66f38580f8a034dd01ad",
+      "text": "It was discovered that increasing dimension size depreciates performance after a point.",
+      "leaf_id": "94aadd3bd8e7c0c71c19",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 497,
+      "end": 584,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "9c0b7b5bcfcddc44969c",
+      "text": "If strong considerations of saving time, energy and the environment are made, then reasonably smaller corpora may suffice or even be better in some cases.",
+      "leaf_id": "94aadd3bd8e7c0c71c19",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 585,
+      "end": 739,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "2919b4b36f52938c92d7",
+      "text": "The on-going drive by many researchers to use ever-growing data to train deep neural networks can benefit from the findings of this work.",
+      "leaf_id": "94aadd3bd8e7c0c71c19",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 740,
+      "end": 877,
+      "score": 0.00022871331472111624
+    },
+    {
+      "uid": "5cb2db45aef471a6e09b",
+      "text": "Indeed, hyper-parameter choices are very important in neural network systems (BIBREF19).",
+      "leaf_id": "94aadd3bd8e7c0c71c19",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 878,
+      "end": 966,
+      "score": 7.484622751061123e-05
+    },
+    {
+      "uid": "f4d536115f85e5e03210",
+      "text": "Future work that may be investigated are performance of other architectures of word or sub-word embeddings, the performance and comparison of embeddings applied to languages other than English and how embeddings perform in other downstream tasks.",
+      "leaf_id": "ce8869c7470bea5e46b7",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 967,
+      "end": 1213,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "1d595d33658360cf5484",
+      "text": "In addition, since the actual reason for the changes in best model as corpus size increases is not clear, this will also be suitable for further research.",
+      "leaf_id": "ce8869c7470bea5e46b7",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 1214,
+      "end": 1368,
+      "score": 5.266206644227075e-05
+    },
+    {
+      "uid": "1380a5d49152c827fac7",
+      "text": "The work on this project is partially funded by Vinnova under the project number 2019-02996 \"Språkmodeller för svenska myndigheter\"",
+      "leaf_id": "ce8869c7470bea5e46b7",
+      "section_id": "8e2c23aa430d362f2d9f",
+      "start": 1369,
+      "end": 1500,
+      "score": 2.449082522588366e-05
+    }
+  ],
+  "prepare_seconds": 1.301188733894378,
+  "leaf_count": 19
+}

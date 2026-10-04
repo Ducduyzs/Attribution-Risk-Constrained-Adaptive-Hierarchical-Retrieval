@@ -1,0 +1,83 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Different correlations from different ROUGE variants",
+        "citations": [
+          "C11",
+          "C18",
+          "C19"
+        ]
+      },
+      {
+        "requirement": "Effectiveness of ROUGE variants",
+        "citations": [
+          "C2",
+          "C3",
+          "C10",
+          "C17"
+        ]
+      },
+      {
+        "requirement": "Specific ROUGE variants and their correlations",
+        "citations": [
+          "C4",
+          "C5",
+          "C12"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides sufficient information about the correlations resulting from different ROUGE variants and their effectiveness in evaluating summaries.",
+    "claims": [
+      {
+        "text": "Different variants of ROUGE result in very different correlations with manual Pyramid scores.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Among all variants, ROUGE-2 and ROUGE-3 are better correlated with manual judgments in scientific summarization.",
+        "citations": [
+          "C19"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Keyword-based reduction variants have high correlation with ROUGE, while others show significant variance in reliability.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "ROUGE is not very reliable for evaluating scientific summaries, especially with high terminology variations.",
+        "citations": [
+          "C10",
+          "C17"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 254,
+    "prompt_tokens": 1378,
+    "total_tokens": 1632,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.034436199999618,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b1f2760198"
+}

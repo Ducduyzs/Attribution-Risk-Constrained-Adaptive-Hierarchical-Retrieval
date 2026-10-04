@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Number of labels in the datasets",
+        "citations": [
+          "C1",
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets contain multiple labels, specifically mentioning four different domains, which implies multiple labels are present.",
+    "claims": [
+      {
+        "text": "The datasets have labels corresponding to four different domains: Book, DVDs, Electronics, and Kitchen.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 855,
+    "total_tokens": 950,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6028943000019353,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

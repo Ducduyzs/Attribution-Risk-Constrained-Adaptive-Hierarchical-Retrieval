@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Which multiple datasets did they train on during joint training?",
+        "citations": [
+          "C1"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the authors performed joint training on multiple datasets, but it does not specify which datasets were used.",
+    "claims": [
+      {
+        "text": "The authors performed joint training on multiple datasets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 634,
+    "total_tokens": 721,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3946133999997983,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8a183b9d76"
+}

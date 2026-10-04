@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Do the authors report results only on English data?",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8",
+          "C9",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "C20"
+        ]
+      }
+    ],
+    "answerable": false,
+    "reason": "The evidence does not specify the language of the data reported by the authors, making it impossible to determine if results are only on English data.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 1393,
+    "total_tokens": 1516,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7212746999975934,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b1f2760198"
+}

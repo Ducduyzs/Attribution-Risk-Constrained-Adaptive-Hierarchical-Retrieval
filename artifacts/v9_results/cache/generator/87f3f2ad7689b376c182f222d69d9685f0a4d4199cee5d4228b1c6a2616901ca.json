@@ -1,0 +1,63 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Different correlations resulting from different variants of ROUGE scores",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence discusses how different variants of ROUGE scores yield varying correlation values with human judgments, particularly in the context of scientific summarization.",
+    "claims": [
+      {
+        "text": "Different variants of ROUGE result in different correlation values with human judgments, indicating that not all ROUGE scores are equally effective.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "ROUGE-2 and ROUGE-3 are better correlated with manual judgments in scientific summarization compared to other variants.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Correlations between ROUGE and Pyramid scores are weak, challenging the effectiveness of ROUGE for scientific summarization.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "There is a large variance of correlations between different ROUGE variants and manual evaluations, affecting reliability.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 219,
+    "prompt_tokens": 769,
+    "total_tokens": 988,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.2005948000005446,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

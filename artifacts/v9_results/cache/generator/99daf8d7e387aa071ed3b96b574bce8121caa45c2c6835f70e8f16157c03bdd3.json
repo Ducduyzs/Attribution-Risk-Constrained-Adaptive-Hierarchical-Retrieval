@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "manual Pyramid scores",
+        "citations": [
+          "C3",
+          "C5",
+          "C7",
+          "C15"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides information about the manual Pyramid scores used in summarization evaluation, specifically in relation to the TAC 2014 dataset.",
+    "claims": [
+      {
+        "text": "Manual Pyramid scores are used as a semi-manual evaluation framework for summarization.",
+        "citations": [
+          "C3",
+          "C5",
+          "C7",
+          "C15"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 2451,
+    "total_tokens": 2558,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7612726999977895,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

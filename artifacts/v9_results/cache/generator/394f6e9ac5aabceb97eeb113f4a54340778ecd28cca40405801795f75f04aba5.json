@@ -1,0 +1,97 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Dataset creation methodology",
+        "citations": [
+          "C1"
+        ]
+      },
+      {
+        "requirement": "Validation process of voice clips",
+        "citations": [
+          "C5"
+        ]
+      },
+      {
+        "requirement": "Filtering criteria for samples",
+        "citations": [
+          "C6"
+        ]
+      },
+      {
+        "requirement": "Diversity of speakers and accents",
+        "citations": [
+          "C12",
+          "C9"
+        ]
+      },
+      {
+        "requirement": "Total speech duration and languages included",
+        "citations": [
+          "C13",
+          "C14"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides detailed information on the dataset creation methodology, validation, filtering, diversity, and total speech duration.",
+    "claims": [
+      {
+        "text": "The dataset was created using a specific methodology that includes empirical evidence of data quality.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Voice clips in the dataset were validated by at least two other users to ensure quality.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Samples were filtered by sentence lengths to reduce short sentences, ensuring better quality.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The dataset includes contributions from over 11,000 speakers and features multiple accents.",
+        "citations": [
+          "C12",
+          "C9"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset comprises a total of 708 hours of speech across multiple languages, including French and German.",
+        "citations": [
+          "C13",
+          "C14"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 290,
+    "prompt_tokens": 1389,
+    "total_tokens": 1679,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.171166100000846,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

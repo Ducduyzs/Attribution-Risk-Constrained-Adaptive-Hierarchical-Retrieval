@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific hyperparameters that were explored, including vector dimension size, algorithm type, learning rate, vocabulary sizes, and epochs.",
+    "claims": [
+      {
+        "text": "Hyperparameters explored include vector dimension size, type of algorithm, and learning rate.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Various dimensions from 50 to 1,000 and vocabulary sizes from 30,000 to 3,000,000 were tested.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The study empirically analyzes optimal combinations of hyper-parameters for embeddings, specifically for word2vec.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 675,
+    "total_tokens": 823,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.197188999998616,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

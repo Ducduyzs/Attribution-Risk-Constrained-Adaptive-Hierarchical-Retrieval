@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes how IPA systems interact with users and accumulate structured and labeled training data through these interactions.",
+    "claims": [
+      {
+        "text": "IPA systems interact with users to gather information and simultaneously accumulate structured and labeled training data.",
+        "citations": [
+          "C3",
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "User interactions allow IPA systems to automatically label dialogues with corresponding next actions and dialogue IDs without additional post-labeling.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The structured dialogues collected from user interactions can be used to train dialogue management components using machine learning techniques.",
+        "citations": [
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 1898,
+    "total_tokens": 2046,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1638716000015847,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

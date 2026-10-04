@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific competitive results achieved by the models on various datasets, indicating their performance levels.",
+    "claims": [
+      {
+        "text": "We report competitive results on the Wall Street Journal and Hub5'00 conversational evaluation datasets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "We show competitive results on the Wall Street Journal (WSJ) and 2000hr Fisher+Switchboard (F+S).",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "We achieve state-of-the-art (SOTA) results on LibriSpeech test-clean and among end-to-end models on test-other.",
+        "citations": [
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "We obtain good results for SWB (Switchboard).",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 2243,
+    "total_tokens": 2422,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.852631300000212,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

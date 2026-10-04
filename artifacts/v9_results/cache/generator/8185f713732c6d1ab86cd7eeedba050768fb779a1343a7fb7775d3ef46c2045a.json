@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses various language pairs explored in neural machine translation, particularly focusing on low-resource and zero-resource scenarios, and mentions specific pairs used in experiments.",
+    "claims": [
+      {
+        "text": "Translation between Arabic and Spanish is explored using pivoting through English.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Europarl corpus evaluates translation between French, English, and Spanish (Fr-En-Es), German, English, and French (De-En-Fr), and Romanian, English, and German (Ro-En-De).",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "An English-Russian sentence pair is sampled for analysis in the context of cross-lingual pre-training methods.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 1226,
+    "total_tokens": 1392,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.901084200002515,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

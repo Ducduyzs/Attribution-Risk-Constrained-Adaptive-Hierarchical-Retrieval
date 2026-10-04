@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that multiple baselines were tested, including a majority-class baseline, a No-answer baseline, and various BERT-based approaches, which were compared to assess performance in the context of answerability and evidence identification.",
+    "claims": [
+      {
+        "text": "Multiple baselines were tested, including a majority-class baseline and a No-answer baseline, which exceeded the performance of the majority-class baseline.",
+        "citations": [
+          "C1",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "BERT-based models were implemented as baselines for evidence identification and answerability prediction.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Human performance was also established as a baseline for comparison with machine learning methods.",
+        "citations": [
+          "C6",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 1814,
+    "total_tokens": 1986,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4867893000009644,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance improvements of the model over state-of-the-art systems, including percentage increases in macro-average F1-scores and specific relation classifications.",
+    "claims": [
+      {
+        "text": "The model improved the macro-average F1-score by over 7 percent compared to previous state-of-the-art systems.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model achieved a performance boost of 3.02 in macro F1-score for predicting implicit discourse relations.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model showed clear performance gains of around 2 to 8 percent on specific discourse relations compared to the baseline Bi-LSTM model.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1243,
+    "total_tokens": 1406,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.203764099998807,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_f5dd669434"
+}

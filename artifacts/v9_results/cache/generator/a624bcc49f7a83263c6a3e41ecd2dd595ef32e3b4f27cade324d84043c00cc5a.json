@@ -1,0 +1,69 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Performance results of oversampled datasets",
+        "citations": [
+          "C1"
+        ]
+      },
+      {
+        "requirement": "Performance results of traditional and deep learning models",
+        "citations": [
+          "C16",
+          "C18"
+        ]
+      },
+      {
+        "requirement": "Comparison of transfer learning models",
+        "citations": [
+          "C20",
+          "C21"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific performance results related to oversampled datasets, various machine learning models, and transfer learning comparisons.",
+    "claims": [
+      {
+        "text": "Oversampled datasets (F+, T+, W+) show significantly better performance than their counterparts (F, T, W).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "DNN models showed a major leap in performance across all evaluation measures after data replication.",
+        "citations": [
+          "C18"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Transfer Learning (TL1) resulted in significantly low recall, indicating different nature of cyberbullying across datasets.",
+        "citations": [
+          "C21"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 207,
+    "prompt_tokens": 1393,
+    "total_tokens": 1600,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7326882000015758,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific types of offensive content that have been explored in research, including hate speech, cyberbullying, aggression, and toxic comments.",
+    "claims": [
+      {
+        "text": "Offensive content includes hate speech, cyberbullying, aggression, toxic comments, and offensive language.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Hate speech is characterized by insults and threats targeted at specific groups.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Other types of offensive content may target organizations, situations, events, or issues, not just individuals.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 705,
+    "total_tokens": 848,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6141877999980352,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

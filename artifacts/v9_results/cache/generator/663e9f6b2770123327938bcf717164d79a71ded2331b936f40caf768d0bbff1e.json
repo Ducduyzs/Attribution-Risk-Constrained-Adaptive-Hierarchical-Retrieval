@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific results from previous studies comparing XLNet, BERT, and RoBERTa on negation detection and scope resolution tasks, indicating XLNet's superior performance.",
+    "claims": [
+      {
+        "text": "XLNet consistently outperforms BERT and RoBERTa on negation detection and scope resolution tasks, achieving state-of-the-art results on the BioScope Corpus and SFU Review Corpus.",
+        "citations": [
+          "C2",
+          "C3",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "On the negation scope resolution task, XLNet achieved a gain of 3.16 F1 points on the BioScope Full Papers and 0.3 F1 points on the SFU Review Corpus.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Contrary to results on benchmark GLUE tasks, XLNet outperforms RoBERTa in the context of negation detection and scope resolution.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 216,
+    "prompt_tokens": 1780,
+    "total_tokens": 1996,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.503457499999058,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

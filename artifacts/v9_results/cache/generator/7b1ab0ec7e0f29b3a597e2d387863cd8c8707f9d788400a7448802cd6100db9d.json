@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the authors believe general knowledge contributes to human robustness to noise, as it allows humans to utilize information beyond the immediate context, unlike MRC models.",
+    "claims": [
+      {
+        "text": "The authors suggest that general knowledge plays a role in human robustness to noise.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Human beings can utilize general knowledge in addition to specific passage-question pairs, enhancing their reading comprehension and robustness.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 739,
+    "total_tokens": 856,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5741181000012148,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

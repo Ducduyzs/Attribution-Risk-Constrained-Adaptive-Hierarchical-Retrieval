@@ -1,0 +1,64 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "manual Pyramid scores",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides information about the manual Pyramid scores used in scientific summarization evaluation.",
+    "claims": [
+      {
+        "text": "Manual Pyramid scores are used to evaluate scientific summarization effectiveness.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Pyramid score is correlated with other evaluation metrics like Rouge and Sera.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Different variants of Rouge, such as Rouge-2 and Rouge-3, show varying correlations with manual Pyramid scores.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 1345,
+    "total_tokens": 1515,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8615022000012686,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

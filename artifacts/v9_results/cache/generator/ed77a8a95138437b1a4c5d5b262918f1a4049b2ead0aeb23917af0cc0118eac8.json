@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "What is the attention module pretrained on?",
+        "citations": [
+          "C5",
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the attention module is pretrained on ASR (Automatic Speech Recognition) and MT (Machine Translation) tasks, which are part of the multi-task learning approach used in the TCEN model.",
+    "claims": [
+      {
+        "text": "The attention module is pretrained on ASR and MT tasks.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 1853,
+    "total_tokens": 1964,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5816887999972096,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

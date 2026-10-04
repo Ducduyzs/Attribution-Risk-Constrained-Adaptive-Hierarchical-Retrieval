@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "total combined features",
+        "citations": [
+          "C2",
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that a total of fourteen different feature extractors were implemented, which can be combined into various categories, thus providing a clear answer to the question about total combined features.",
+    "claims": [
+      {
+        "text": "A total of fourteen different feature extractors were implemented for feature extraction.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The features can be categorized into three major categories: Lexicon Features, Word Vectors, and Syntax Features.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 1202,
+    "total_tokens": 1337,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.676326799999515,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

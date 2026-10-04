@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that there are fourteen different feature extractors implemented, which can be categorized into three major types, suggesting a total of combined features derived from these extractors.",
+    "claims": [
+      {
+        "text": "A total of fourteen different feature extractors have been implemented.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The system combines features from lexical, syntactic, and pre-trained word embeddings.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "Fourteen feature extractors can be categorized into three major categories: Lexicon Features, Word Vectors, and Syntax Features.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 1222,
+    "total_tokens": 1360,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7029751000009128,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

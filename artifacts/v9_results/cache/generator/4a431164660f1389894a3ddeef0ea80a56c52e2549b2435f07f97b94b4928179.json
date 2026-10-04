@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the manual Pyramid scoring framework and its tiers, which are used to evaluate the quality of candidate summaries based on their content units.",
+    "claims": [
+      {
+        "text": "The manual Pyramid scores are based on a framework that organizes content units in tiers, with higher tiers indicating greater importance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Pyramid score is calculated by evaluating the number of content units (nuggets) in a candidate summary that correspond to the tiers of the pyramid.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The Pyramid scoring framework is used to assess the effectiveness of automatic evaluation metrics by comparing them to manual judgments.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1156,
+    "total_tokens": 1317,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.020230800000718,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

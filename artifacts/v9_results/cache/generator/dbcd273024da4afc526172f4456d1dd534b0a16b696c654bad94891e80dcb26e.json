@@ -1,0 +1,39 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "discourse relations it works best for",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ]
+      },
+      {
+        "requirement": "discourse relations it works worst for",
+        "citations": []
+      }
+    ],
+    "answerable": false,
+    "reason": "There is no evidence provided regarding the discourse relations the model works worst for.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 806,
+    "total_tokens": 877,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.0959030000012717,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

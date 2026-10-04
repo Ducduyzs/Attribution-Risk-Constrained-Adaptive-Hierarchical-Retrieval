@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of the proposed model with existing models, including the Stochastic Answer Network (SAN) and R.M.-Reader + Verifier.",
+    "claims": [
+      {
+        "text": "The proposed model is compared to the Stochastic Answer Network (SAN), which is a state-of-the-art machine reading comprehension model.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed model outperforms the R.M.-Reader + Verifier model by 0.7 in terms of F1 score.",
+        "citations": [
+          "C15"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed model is also compared with many existing MRC systems that extract answers by finding sub-strings in passages.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 2259,
+    "total_tokens": 2423,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.647019899999577,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

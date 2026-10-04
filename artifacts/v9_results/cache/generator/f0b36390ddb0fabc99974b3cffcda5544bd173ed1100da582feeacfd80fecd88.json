@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific baseline methods used in the context of sentiment analysis and domain adaptation, particularly mentioning NaiveNN and FANN as examples.",
+    "claims": [
+      {
+        "text": "Baseline methods include NaiveNN and FANN, which train sentiment classifiers solely on the source domain.",
+        "citations": [
+          "C1",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Naive is described as a non-domain-adaptive baseline using bag-of-words representations and an SVM classifier.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Other baseline methods mentioned include DAS-EM, DAS-SE, and DAS, which show improvements over these baselines.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1234,
+    "total_tokens": 1391,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.447566899998492,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

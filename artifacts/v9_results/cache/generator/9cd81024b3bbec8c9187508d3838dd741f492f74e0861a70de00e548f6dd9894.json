@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Pretrained word embeddings used",
+        "citations": [
+          "C1",
+          "C3",
+          "C13",
+          "C38"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific information about the pretrained word embeddings used in the study, including word vectors created from the Twitter dataset and emoji embeddings.",
+    "claims": [
+      {
+        "text": "The pretrained word embeddings used include word vectors created specifically from the Twitter dataset and emoji embeddings.",
+        "citations": [
+          "C3",
+          "C13"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Emoji embeddings were found to give better results than using plain GloVe and Edinburgh embeddings.",
+        "citations": [
+          "C13"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 2446,
+    "total_tokens": 2585,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2281124000001,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "dataset used",
+        "citations": [
+          "C1",
+          "C2",
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies that the dataset used primarily consists of a twitter dataset and mentions the merging of train and dev sets for validation.",
+    "claims": [
+      {
+        "text": "The dataset used was primarily a twitter dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The train and dev sets were merged for validation due to the small size of the dev dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Emoji embeddings were also utilized in the dataset.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 846,
+    "total_tokens": 990,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0567889000012656,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

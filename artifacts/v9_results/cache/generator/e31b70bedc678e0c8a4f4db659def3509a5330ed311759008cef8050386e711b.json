@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "evaluation metric",
+        "citations": [
+          "C1",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies that the evaluation metric used is the ratio of correct translations (matches) for the task of clustering documents based on their topics.",
+    "claims": [
+      {
+        "text": "The evaluation metric used is the ratio of correct translations (matches).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Regularization worsened results, and the evaluation was reported without it.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 2107,
+    "total_tokens": 2227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.964930900001491,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

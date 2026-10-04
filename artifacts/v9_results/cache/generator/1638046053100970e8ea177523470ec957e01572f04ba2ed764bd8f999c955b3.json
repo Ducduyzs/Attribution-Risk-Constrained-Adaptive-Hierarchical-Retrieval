@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methodologies and metrics used to evaluate the quality of the data, including manual inspections and statistical measures.",
+    "claims": [
+      {
+        "text": "The quality of the data is empirically evaluated through manual inspections of translations with low scores, which are sent back for revision.",
+        "citations": [
+          "C8",
+          "C22",
+          "C24"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Quality is also assessed using similarity scores between transcripts and translations based on cross-lingual sentence embeddings.",
+        "citations": [
+          "C23"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The evaluation includes calculating average BLEU scores and model stability against different speakers to assess output variance.",
+        "citations": [
+          "C31",
+          "C32",
+          "C33"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 2253,
+    "total_tokens": 2409,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.829115999997157,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

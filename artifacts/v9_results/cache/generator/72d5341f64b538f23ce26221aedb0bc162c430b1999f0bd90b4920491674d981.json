@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets used for the experiments are primarily English, specifically mentioning the use of English tweets for training and evaluation.",
+    "claims": [
+      {
+        "text": "The experiments utilize English tweets collected from Twitter for training and evaluation.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The vocabulary used in the analysis is filtered using an English vocabulary.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 2233,
+    "total_tokens": 2327,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.716200500002742,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

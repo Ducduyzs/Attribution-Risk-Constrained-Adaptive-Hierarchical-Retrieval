@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the authors believe humans' robustness to noise is due to their ability to utilize general knowledge, which is distinct from the limitations of MRC models.",
+    "claims": [
+      {
+        "text": "The authors hypothesize that humans' robustness to noise is due to their ability to utilize general knowledge, which MRC models lack.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "General knowledge is essential for human reading comprehension and contributes to their performance under noisy conditions.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The performance of the Knowledge Aided Reader (KAR) model, which uses general knowledge, is significantly more robust to noise compared to state-of-the-art MRC models.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 1190,
+    "total_tokens": 1364,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8690634000013233,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

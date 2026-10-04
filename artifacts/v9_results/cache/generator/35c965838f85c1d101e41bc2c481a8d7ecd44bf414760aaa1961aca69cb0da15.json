@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific baseline methods used in the context of sentiment classification and domain adaptation, allowing for a clear identification of these methods.",
+    "claims": [
+      {
+        "text": "Baseline methods include NaiveNN, FANN, and a non-domain-adaptive baseline using bag-of-words representations and SVM classifier trained on the source domain.",
+        "citations": [
+          "C1",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "DAS-EM, DAS-SE, and DAS are mentioned as methods that achieve substantial improvements over baseline methods.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "ADAN and MMD are also referenced as baseline methods in the context of domain adaptation.",
+        "citations": [
+          "C10",
+          "C31"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 2253,
+    "total_tokens": 2418,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.2055072000002838,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

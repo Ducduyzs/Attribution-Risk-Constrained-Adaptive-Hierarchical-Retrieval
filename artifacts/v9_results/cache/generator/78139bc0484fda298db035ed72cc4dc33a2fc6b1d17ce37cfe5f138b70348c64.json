@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific competitive results achieved by the model Jasper on various datasets, including WER percentages.",
+    "claims": [
+      {
+        "text": "The model Jasper achieved a state-of-the-art WER of 2.95% on LibriSpeech test-clean using a beam-search decoder.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Jasper achieved a WER of 3.86% on LibriSpeech test-clean using a greedy decoder.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Competitive results were reported on the Wall Street Journal and Hub5'00 conversational evaluation datasets.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Jasper obtained state-of-the-art results on LibriSpeech test-other among end-to-end models.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Using greedy decoding without a language model, Jasper achieved 3.86% WER on LibriSpeech test-clean.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 221,
+    "prompt_tokens": 587,
+    "total_tokens": 808,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.3780907000000298,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

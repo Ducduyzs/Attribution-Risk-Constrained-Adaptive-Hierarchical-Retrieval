@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific language pairs explored in the context of multilingual neural machine translation (MNMT) and zero-shot translation.",
+    "claims": [
+      {
+        "text": "The language pairs explored include Arabic (Ar), Spanish (Es), and Russian (Ru), which allow for mutual translation among themselves.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "In the Europarl corpus, the language pairs evaluated are French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr), and Romanian-English-German (Ro-En-De).",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The MultiUN corpus involves English (En) as a pivot language with three other languages that do not have parallel data between each other.",
+        "citations": [
+          "C18"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 2241,
+    "total_tokens": 2417,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3454335999995237,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

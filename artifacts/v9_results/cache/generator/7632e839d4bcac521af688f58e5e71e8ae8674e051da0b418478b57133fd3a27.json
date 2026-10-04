@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the authors explore the integration of general knowledge with MRC models to enhance robustness to noise, implying a hypothesis that this robustness may be linked to general knowledge.",
+    "claims": [
+      {
+        "text": "The authors propose that general knowledge is essential for reading comprehension and robustness to noise in humans.",
+        "citations": [
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The integration of general knowledge with MRC models is suggested as a strategy to improve performance and robustness to noise.",
+        "citations": [
+          "C1",
+          "C8"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 730,
+    "total_tokens": 853,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6127208999969298,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods for evaluating the quality of the data, including manual inspections and empirical evidence of the dataset's creation methodology.",
+    "claims": [
+      {
+        "text": "The quality of the data is empirically evaluated through manual inspections of translations that scored too low and by checking examples where the source transcript matched the translation.",
+        "citations": [
+          "C8",
+          "C9"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset creation methodology includes empirical evidence to support the quality of the data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Quality assurance is performed by applying methods to specific language pairs where confidence in the systems is high.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 734,
+    "total_tokens": 884,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0145748000031745,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

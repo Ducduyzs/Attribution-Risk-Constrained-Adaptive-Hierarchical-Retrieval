@@ -1,0 +1,73 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "competitive results on LibriSpeech",
+        "citations": [
+          "C1",
+          "C2",
+          "C5"
+        ]
+      },
+      {
+        "requirement": "competitive results on Wall Street Journal",
+        "citations": [
+          "C2",
+          "C5"
+        ]
+      },
+      {
+        "requirement": "competitive results on Hub5'00",
+        "citations": [
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific competitive results for the Jasper model on various datasets, including LibriSpeech, Wall Street Journal, and Hub5'00.",
+    "claims": [
+      {
+        "text": "Jasper achieved state-of-the-art results on LibriSpeech with 2.95% WER on test-clean and competitive results on test-other.",
+        "citations": [
+          "C1",
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Jasper reported competitive results on the Wall Street Journal dataset.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Jasper obtained good results on the Switchboard subset of the Hub5'00 evaluation.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 222,
+    "prompt_tokens": 1220,
+    "total_tokens": 1442,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.330998500001442,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

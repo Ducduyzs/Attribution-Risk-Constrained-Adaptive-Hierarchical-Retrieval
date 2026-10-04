@@ -1,0 +1,82 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Different variants of ROUGE scores",
+        "citations": [
+          "C1",
+          "C10"
+        ]
+      },
+      {
+        "requirement": "Correlations of ROUGE variants with evaluations",
+        "citations": [
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C9"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides information on the different variants of ROUGE scores and their correlations with evaluations, indicating variability in their effectiveness.",
+    "claims": [
+      {
+        "text": "ROUGE consists of several variants, including ROUGE-L, ROUGE-W, ROUGE-S, and ROUGE-SU.",
+        "citations": [
+          "C1",
+          "C10"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Keyword-based reduction variants have high correlation with ROUGE scores, while other variants show large variance in correlation with manual evaluations.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The lowest F-score correlations are observed for ROUGE-1 and ROUGE-L.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "ROUGE-2 and ROUGE-3 have the highest correlation with pyramid scores compared to other ROUGE variants.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Many ROUGE variants do not have high correlations with human pyramid scores, indicating reliability issues.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 282,
+    "prompt_tokens": 862,
+    "total_tokens": 1144,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6963502999969933,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "pretrained word embeddings used",
+        "citations": [
+          "C2",
+          "C3",
+          "C11"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies the use of emoji embeddings and word vectors created from a Twitter dataset as pretrained word embeddings.",
+    "claims": [
+      {
+        "text": "Emoji embeddings BIBREF16 were used as pretrained word embeddings.",
+        "citations": [
+          "C2",
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Word vectors created specifically using the Twitter dataset were also used as pretrained word embeddings.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 855,
+    "total_tokens": 978,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7131517000016174,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

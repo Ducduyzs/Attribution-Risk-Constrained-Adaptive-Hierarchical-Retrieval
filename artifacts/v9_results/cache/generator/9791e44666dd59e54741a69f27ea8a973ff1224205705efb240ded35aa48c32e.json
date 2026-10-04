@@ -1,0 +1,53 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Do they report results only on English datasets?",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets and methods discussed are based on English language resources, particularly WordNet, which is a lexical database of English.",
+    "claims": [
+      {
+        "text": "The results reported are based on English datasets, as evidenced by the use of WordNet, which is a lexical database of English.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The methods discussed utilize general knowledge from English sources like Wikipedia and ConceptNet, implying the datasets are English-based.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 1313,
+    "total_tokens": 1472,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.224168099997769,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

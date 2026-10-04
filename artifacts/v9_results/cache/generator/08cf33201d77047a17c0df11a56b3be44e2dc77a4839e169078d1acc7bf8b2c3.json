@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Number of labels in the datasets",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets have a binary classification task with two labels: positive and negative.",
+    "claims": [
+      {
+        "text": "The datasets have two labels: positive and negative.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 1165,
+    "total_tokens": 1250,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2151129999983823,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

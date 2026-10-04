@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides multiple methods for evaluating the quality of data, including BLEU scores, manual inspections, and perplexity measurements.",
+    "claims": [
+      {
+        "text": "The quality of data is evaluated using sentence-level BLEU scores to compare human translations with automatic translations.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Manual inspections are conducted for translations with low BLEU scores and high perplexity to ensure quality.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The overlap between transcripts and translations is checked to confirm the suitability of the evaluation set.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The stability of model outputs is assessed using average coefficients of variation based on BLEU scores grouped by transcript.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 1553,
+    "total_tokens": 1727,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6305280000015046,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

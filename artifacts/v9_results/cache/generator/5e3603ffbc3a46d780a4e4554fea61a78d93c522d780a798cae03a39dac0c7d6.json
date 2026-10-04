@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Japanese-Vietnamese dataset used",
+        "citations": [
+          "C2",
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific information about the Japanese-Vietnamese dataset used, including its source and the fact that it has been released along with training scripts.",
+    "claims": [
+      {
+        "text": "The Japanese-Vietnamese dataset was collected from TED talks extracted from WIT3's corpus.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset has been released along with the associated training scripts for the NMT systems.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 844,
+    "total_tokens": 978,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7850297000004502,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

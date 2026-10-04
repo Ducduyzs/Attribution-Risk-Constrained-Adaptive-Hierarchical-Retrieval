@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the dataset used for Japanese-Vietnamese translation, including its source and the number of sentence pairs.",
+    "claims": [
+      {
+        "text": "The Japanese-Vietnamese dataset was collected from TED talks extracted from WIT3's corpus, resulting in 106758 pairs of sentences after cleaning.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset is part of the parallel corpora used for training neural machine translation systems.",
+        "citations": [
+          "C11",
+          "C13"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 1199,
+    "total_tokens": 1320,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5787797000011778,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

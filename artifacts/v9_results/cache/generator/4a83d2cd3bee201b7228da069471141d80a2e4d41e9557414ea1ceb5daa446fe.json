@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the manual Pyramid scores used in summarization evaluation, including the structure of the Pyramid and its correlation with other metrics.",
+    "claims": [
+      {
+        "text": "The manual Pyramid scores are based on the organization of content units in a pyramid structure, where higher tiers indicate higher importance of content units.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Different variants of the Pyramid scores correlate with various evaluation metrics, with some variants of Rouge showing weak correlations with manual Pyramid scores.",
+        "citations": [
+          "C4",
+          "C9"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed metric Sera (Summarization Evaluation by Relevance Analysis) achieves higher correlations with manual Pyramid scores compared to Rouge.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 2257,
+    "total_tokens": 2424,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2137790999986464,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

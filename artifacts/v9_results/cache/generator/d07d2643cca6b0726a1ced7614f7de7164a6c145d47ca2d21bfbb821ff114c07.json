@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition and explanation of Masked Document Generation (MDG) as a task in the context of seq2seq Transformer pre-training for document summarization.",
+    "claims": [
+      {
+        "text": "Masked Document Generation (MDG) is a task that learns to recover a document with a masked span of tokens.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "MDG involves masking a continuous sub-sequence of a document and predicting the original text without using [MASK] tokens for every token.",
+        "citations": [
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "MDG is one of three pre-training tasks designed to improve the performance of seq2seq models in abstractive summarization.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 2109,
+    "total_tokens": 2282,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2629395999974804,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into the correlations of different ROUGE variants with manual evaluations and other metrics, indicating variability in their effectiveness.",
+    "claims": [
+      {
+        "text": "Different variants of ROUGE scores show a large variance in correlations with manual evaluations, affecting their reliability for evaluating scientific summaries.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Keyword-based reduction variants of ROUGE have high correlations, while ROUGE-1 and ROUGE-L exhibit the lowest F-score correlations.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Sera evaluation scores correlate better with pyramid scores than all ROUGE variants, indicating that not all ROUGE variants are equally effective.",
+        "citations": [
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Many ROUGE variants do not have high correlations with human pyramid scores, suggesting variability in their effectiveness.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 735,
+    "total_tokens": 935,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3160142000015185,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

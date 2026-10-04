@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear insights into how different variants of ROUGE scores correlate with manual evaluations, particularly in the context of scientific summarization.",
+    "claims": [
+      {
+        "text": "Different variants of ROUGE result in varying correlation values with human judgments, indicating that not all ROUGE scores are equally effective.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "ROUGE-2 and ROUGE-3 show better correlations with manual evaluations compared to other variants like ROUGE-1 and ROUGE-L, which have weak correlations.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed metric Sera achieves higher and more consistent correlations with manual evaluations than ROUGE variants, highlighting the limitations of ROUGE for scientific summarization.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 2252,
+    "total_tokens": 2425,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.327991199999815,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

@@ -1,0 +1,53 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "architecture of the span detector",
+        "citations": [
+          "C2",
+          "C3",
+          "C4",
+          "C9"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides sufficient details about the architecture of the span detector, including its components and structure.",
+    "claims": [
+      {
+        "text": "The architecture of the span detector includes a Stochastic Answer Network (SAN) and a binary classifier, which are jointly optimized.",
+        "citations": [
+          "C2",
+          "C3",
+          "C9"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The span detector shares a lower layer with the binary classifier while having separate top layers for different tasks.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 1399,
+    "total_tokens": 1542,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7542442999983905,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b1f2760198"
+}

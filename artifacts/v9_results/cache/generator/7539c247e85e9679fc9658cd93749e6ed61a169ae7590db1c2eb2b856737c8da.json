@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that CoVoST is a multilingual speech-to-text translation corpus consisting of 11 languages, although it does not explicitly list them. However, it mentions that the corpus includes languages like French, German, Dutch, and Spanish, which are part of the dataset.",
+    "claims": [
+      {
+        "text": "CoVoST includes multiple languages for speech-to-text translation, including French, German, Dutch, and Spanish.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The corpus is diversified with over 11,000 speakers and over 60 accents across 11 languages.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 631,
+    "total_tokens": 774,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9822653000010177,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

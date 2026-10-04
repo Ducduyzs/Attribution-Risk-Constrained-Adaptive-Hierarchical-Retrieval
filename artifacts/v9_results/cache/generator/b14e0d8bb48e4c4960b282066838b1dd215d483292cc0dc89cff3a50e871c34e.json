@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses various datasets used in the context of human language processing, including neural and behavioral data, eye-tracking, self-paced reading, and EEG recordings.",
+    "claims": [
+      {
+        "text": "Heterogeneous datasets, including eye-tracking, self-paced reading, and ERP components, are used to study human language processing.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Electroencephalography (EEG) recordings are widely used to study language comprehension in cognitive neuroscience and psycholinguistics.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Neural and behavioral data are utilized to train neural networks for language processing tasks.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 2228,
+    "total_tokens": 2385,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.275939899998775,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the Jasper architecture and its performance as a baseline for speech recognition tasks.",
+    "claims": [
+      {
+        "text": "The Jasper architecture serves as a good baseline approach for exploring advanced techniques in speech recognition.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Jasper's architecture is designed to be efficient for training and inference, making it a competitive baseline on benchmarks like LibriSpeech.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The architecture incorporates 1D convolution layers, batch normalization, and ReLU, which are optimized for performance, establishing it as a strong baseline.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 1125,
+    "total_tokens": 1276,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9929388000018662,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

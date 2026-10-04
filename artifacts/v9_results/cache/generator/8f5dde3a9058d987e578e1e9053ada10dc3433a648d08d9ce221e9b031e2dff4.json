@@ -1,0 +1,65 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "architecture of the span detector",
+        "citations": [
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific details about the architecture of the span detector, including its components and structure.",
+    "claims": [
+      {
+        "text": "The span detector employs a SAN answer module and a one-layer feed forward neural network for binary classification.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The architecture consists of a shared lower layer for both the span detector and binary classifier, with separate top layers for different tasks.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The span detector is part of an extended SAN that includes a binary classifier for determining if a question is unanswerable.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "A multi-turn answer module is adopted for the span detector.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 844,
+    "total_tokens": 1047,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1358469999977387,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

@@ -1,0 +1,66 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Do they only use adjacent entity mentions?",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C5",
+          "C7"
+        ]
+      },
+      {
+        "requirement": "Do they use more than adjacent entity mentions?",
+        "citations": [
+          "C4",
+          "C5",
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that while the model primarily uses adjacent entity mentions, it also considers the coherence of mentions that are not directly adjacent, suggesting a broader context is utilized in some cases.",
+    "claims": [
+      {
+        "text": "The model primarily uses adjacent entity mentions for linking entities.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model also considers coherence from non-adjacent mentions in some cases.",
+        "citations": [
+          "C4",
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 2103,
+    "total_tokens": 2288,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1478262999989965,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

@@ -1,0 +1,53 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "hyperparameters varied in the experiments",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies the hyperparameters related to the number of clusters and types of word vectors used in the experiments.",
+    "claims": [
+      {
+        "text": "The hyperparameters varied in the experiments include the number of clusters (between 250 and 1000) and the type of word vectors (skip-gram, cbow, GloVe).",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The experiments systematically evaluated the effect of cluster membership features on four tasks: named entity segmentation, named entity classification, fine-grained sentiment classification, and fine-grained sentiment quantification.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 1259,
+    "total_tokens": 1437,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4975296999982675,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

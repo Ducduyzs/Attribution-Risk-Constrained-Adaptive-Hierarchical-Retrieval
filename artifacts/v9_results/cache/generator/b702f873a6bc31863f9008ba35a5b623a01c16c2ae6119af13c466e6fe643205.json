@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific numerical improvements over previously reported results in the context of cue detection and scope resolution tasks, indicating that the new models outperformed earlier benchmarks.",
+    "claims": [
+      {
+        "text": "The new models reported improvements of at least 0.29 F1 points on cue detection and 4.27 F1 points on scope resolution compared to previously reported results.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Joint training on multiple datasets outperformed single dataset training approaches, indicating a significant advancement over prior methods.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "XLNet consistently outperformed BERT and RoBERTa, which contrasts with results from other benchmark datasets, suggesting a shift in performance expectations.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 1234,
+    "total_tokens": 1406,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.3742239000021073,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_f5dd669434"
+}

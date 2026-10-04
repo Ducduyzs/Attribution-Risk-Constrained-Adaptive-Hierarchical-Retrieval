@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Do they report results only on English datasets?",
+        "citations": [
+          "C3",
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets mentioned, such as SQuAD and WordNet, are English datasets, suggesting that results are reported on English datasets.",
+    "claims": [
+      {
+        "text": "The datasets mentioned, such as SQuAD and WordNet, are English datasets.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 1786,
+    "total_tokens": 1892,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4809308000003512,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

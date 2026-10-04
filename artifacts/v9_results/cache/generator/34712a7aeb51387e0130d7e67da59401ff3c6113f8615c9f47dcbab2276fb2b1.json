@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "language pairs explored",
+        "citations": [
+          "C9",
+          "C12"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific language pairs that are explored in the context of translation tasks.",
+    "claims": [
+      {
+        "text": "The explored language pairs include Arabic, Spanish, and Russian, with mutual translation between them constituting six zero-shot translation directions.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Europarl corpus evaluates translation among French, English, and Spanish, as well as German and Romanian with English as the pivot language.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2448,
+    "total_tokens": 2582,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8492936000002373,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

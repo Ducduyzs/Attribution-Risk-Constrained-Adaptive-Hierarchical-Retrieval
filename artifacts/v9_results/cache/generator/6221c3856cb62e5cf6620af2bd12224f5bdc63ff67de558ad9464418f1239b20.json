@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance metrics for different discourse relations, indicating which types the model works best and worst for.",
+    "claims": [
+      {
+        "text": "The ensemble model achieves the best performance for predicting both implicit and explicit discourse relations simultaneously.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The paragraph-level model shows significant improvements in recognizing implicit discourse relations, particularly in the Comparison and Temporal categories.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Explicit discourse relations are easier to detect, achieving over 90% F1 score, while implicit relations are more challenging due to the absence of discourse connectives.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model's performance on implicit discourse relations is notably improved, achieving a macro-average F1-score of 48.82%.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 190,
+    "prompt_tokens": 2260,
+    "total_tokens": 2450,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.202747699997417,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

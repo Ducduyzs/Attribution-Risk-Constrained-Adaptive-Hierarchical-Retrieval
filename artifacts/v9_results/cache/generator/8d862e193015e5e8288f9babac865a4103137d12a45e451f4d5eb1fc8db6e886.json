@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the baseline models and their variants used in the study, specifically mentioning the base variants and the large variants of the models.",
+    "claims": [
+      {
+        "text": "The study works with the base variants of the models, while most results are reported with the large variants.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The models used include BERT, XLNet, and RoBERTa, which are popular transformer-based architectures.",
+        "citations": [
+          "C17",
+          "C19"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The experimentation utilized sub corpora of the BioScope Corpus, specifically the BioScope Abstracts and Full Papers.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 2268,
+    "total_tokens": 2423,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.142883299999085,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

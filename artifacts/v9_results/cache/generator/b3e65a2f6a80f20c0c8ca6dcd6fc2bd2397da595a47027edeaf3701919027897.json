@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of repetitive and time-consuming activities handled by Intelligent Process Automation (IPA) and Robotic Process Automation (RPA) systems.",
+    "claims": [
+      {
+        "text": "IPA systems handle repetitive, routine, and low-cognitive tasks, allowing workers to focus on more intelligent processes.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "RPA systems simulate hand-operated human activities like entering data, registering accounts, and accomplishing straightforward repetitive workflows.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "IPA-bots can execute time-consuming and routine tasks, enabling smart workflows and freeing up skilled workers for higher-value activities.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 663,
+    "total_tokens": 817,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.466658199999074,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_fb8a637687"
+}

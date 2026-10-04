@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that some methods, like NCEL, primarily consider adjacent mentions for efficiency, while others may involve more complex relationships. However, the focus on adjacent mentions suggests a preference for local context in certain models.",
+    "claims": [
+      {
+        "text": "NCEL only considers adjacent mentions for efficiency, indicating a preference for local context.",
+        "citations": [
+          "C2",
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The consistency assumption suggests that mentions should be on the same topic, which may imply a limitation to adjacent mentions.",
+        "citations": [
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Collective entity linking utilizes topical coherence throughout the document, which may involve more than just adjacent mentions.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 740,
+    "total_tokens": 907,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9864312000026985,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

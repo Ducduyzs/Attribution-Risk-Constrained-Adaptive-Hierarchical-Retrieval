@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific correlations between different ROUGE variants and their effectiveness in evaluating summaries, indicating that different variants yield different correlation results.",
+    "claims": [
+      {
+        "text": "Different variants of ROUGE result in varying correlations with manual evaluations, indicating that not all ROUGE scores are equally effective.",
+        "citations": [
+          "C11",
+          "C18"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "ROUGE-2 and ROUGE-3 show better correlations with manual judgments compared to other variants like ROUGE-1 and ROUGE-L.",
+        "citations": [
+          "C19",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Keyword-based reduction variants have high correlations with ROUGE, while many other variants do not correlate well with human pyramid scores.",
+        "citations": [
+          "C2",
+          "C9"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 2263,
+    "total_tokens": 2432,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.185558299999684,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

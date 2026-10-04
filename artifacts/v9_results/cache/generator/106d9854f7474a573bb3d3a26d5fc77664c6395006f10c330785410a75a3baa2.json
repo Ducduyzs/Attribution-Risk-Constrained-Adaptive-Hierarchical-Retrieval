@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methodologies and metrics used to evaluate the quality of the data, including manual inspections, perplexity measurements, and similarity scores.",
+    "claims": [
+      {
+        "text": "The quality of the data is empirically evaluated through manual inspections of translations, measuring perplexity using a language model, and calculating similarity scores between transcripts and translations.",
+        "citations": [
+          "C6",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Quality checks include ensuring that translations have a high ratio of English characters and that there is minimal overlap between training and test sets.",
+        "citations": [
+          "C6",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation metrics used include BLEU scores for machine translation and word error rates for automatic speech recognition.",
+        "citations": [
+          "C2",
+          "C10"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 2142,
+    "total_tokens": 2313,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.098857000000862,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_48cfd4552f"
+}

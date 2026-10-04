@@ -1,0 +1,58 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "dataset used",
+        "citations": [
+          "C1",
+          "C2",
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies that the dataset used primarily consists of tweets, which are abundant and include emoji embeddings.",
+    "claims": [
+      {
+        "text": "The dataset used for the study primarily consists of tweets.",
+        "citations": [
+          "C1",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Emoji embeddings were utilized in the dataset to enhance feature representation.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The training and development datasets were merged due to the small size of the dev dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 1387,
+    "total_tokens": 1532,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8237841999980446,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b1f2760198"
+}

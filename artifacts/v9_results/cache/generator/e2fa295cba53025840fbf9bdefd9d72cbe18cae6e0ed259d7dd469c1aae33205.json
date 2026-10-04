@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed information about the dataset collection process, specifically for the CoVoST corpus, including the use of validated data and professional translators.",
+    "claims": [
+      {
+        "text": "The CoVoST dataset was built using validated voice clips from the Common Voice corpus, which were recorded by contributors reading from a bank of donated sentences.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Only validated transcripts from the Common Voice corpus were used for CoVoST, and these were deduplicated before being sent to professional translators.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Translators had access to transcripts but not the corresponding voice clips to ensure the translation quality was based solely on the text.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 2137,
+    "total_tokens": 2306,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.425034299998515,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_48cfd4552f"
+}

@@ -1,0 +1,2725 @@
+{
+  "question_id": "bf52c01bf82612d0c7bbf2e6a5bb2570c322936f",
+  "source": "1604.00400.qasper",
+  "query": "What different correlations result when using different variants of ROUGE scores?",
+  "rankings": {
+    "flat24": [
+      [
+        "b189799decb0141929ed",
+        0.9938549079159148
+      ],
+      [
+        "37de7183e90454b803bc",
+        0.9912548183179649
+      ],
+      [
+        "0cc45bfc8bb9f5ac4e84",
+        0.9874236517231209
+      ],
+      [
+        "84a8b32a357f97063d78",
+        0.9855521474663975
+      ],
+      [
+        "580fc3d8ae174cd82f3e",
+        0.9716716880201136
+      ],
+      [
+        "781f695b4f848123168d",
+        0.9628830911922404
+      ],
+      [
+        "2b4ab0e0ec83b51e9e84",
+        0.9565531031399481
+      ],
+      [
+        "586d1eab9f6e36fb339b",
+        0.9543930566810523
+      ],
+      [
+        "3c811f3639f74582ae41",
+        0.9380105434874445
+      ],
+      [
+        "0f60abd3602ce6307d5c",
+        0.81077873232179
+      ],
+      [
+        "33530fdbe749a369b225",
+        0.6938879700208154
+      ],
+      [
+        "e18545577c69268b9f8b",
+        0.5905430910490824
+      ],
+      [
+        "d7e7e235bb12a9565d72",
+        0.5318780878530489
+      ],
+      [
+        "6166102d64822fa46a68",
+        0.49882984375011624
+      ],
+      [
+        "ca1055eaeda194bfd3d8",
+        0.4634746042485499
+      ],
+      [
+        "465c3f5d1c786db327fd",
+        0.3595890017625776
+      ],
+      [
+        "d1613d8b1595ff690d5c",
+        0.21223202956308296
+      ],
+      [
+        "e4bbdcdac4e98af0e42a",
+        0.12442563335989186
+      ],
+      [
+        "e642f7baa2a41138ef08",
+        0.07723878631706028
+      ],
+      [
+        "232825bcc834655ee800",
+        0.06233103588192477
+      ],
+      [
+        "c48b9e082c11f485cf43",
+        0.038610931468025946
+      ],
+      [
+        "aca087bdb57df6f836be",
+        0.038106618812484096
+      ],
+      [
+        "6398557eef0fde49857a",
+        0.021990219697200806
+      ],
+      [
+        "daaf7b19ecec4c0fc4a5",
+        0.00226946865448694
+      ]
+    ],
+    "all_leaf": [
+      [
+        "b189799decb0141929ed",
+        0.9938549079159148
+      ],
+      [
+        "37de7183e90454b803bc",
+        0.9912548183179649
+      ],
+      [
+        "0cc45bfc8bb9f5ac4e84",
+        0.9874236517231209
+      ],
+      [
+        "84a8b32a357f97063d78",
+        0.9855521474663975
+      ],
+      [
+        "580fc3d8ae174cd82f3e",
+        0.9716716880201136
+      ],
+      [
+        "781f695b4f848123168d",
+        0.9628830911922404
+      ],
+      [
+        "2b4ab0e0ec83b51e9e84",
+        0.9565531031399481
+      ],
+      [
+        "586d1eab9f6e36fb339b",
+        0.9543930566810523
+      ],
+      [
+        "3c811f3639f74582ae41",
+        0.9380105434874445
+      ],
+      [
+        "0f60abd3602ce6307d5c",
+        0.81077873232179
+      ],
+      [
+        "33530fdbe749a369b225",
+        0.6938879700208154
+      ],
+      [
+        "e18545577c69268b9f8b",
+        0.5905430910490824
+      ],
+      [
+        "d7e7e235bb12a9565d72",
+        0.5318780878530489
+      ],
+      [
+        "6166102d64822fa46a68",
+        0.49882984375011624
+      ],
+      [
+        "ca1055eaeda194bfd3d8",
+        0.4634746042485499
+      ],
+      [
+        "465c3f5d1c786db327fd",
+        0.3595890017625776
+      ],
+      [
+        "d1613d8b1595ff690d5c",
+        0.21223202956308296
+      ],
+      [
+        "e4bbdcdac4e98af0e42a",
+        0.12442563335989186
+      ],
+      [
+        "e642f7baa2a41138ef08",
+        0.07723878631706028
+      ],
+      [
+        "232825bcc834655ee800",
+        0.06233103588192477
+      ],
+      [
+        "c48b9e082c11f485cf43",
+        0.038610931468025946
+      ],
+      [
+        "aca087bdb57df6f836be",
+        0.038106618812484096
+      ],
+      [
+        "4aabb25d0bf5dac6ebd5",
+        0.032651378460344445
+      ],
+      [
+        "6398557eef0fde49857a",
+        0.021990219697200806
+      ],
+      [
+        "d6ac4a87b7f108a94968",
+        0.01652955655765428
+      ],
+      [
+        "00f8868780ad766d2552",
+        0.006463137718154743
+      ],
+      [
+        "eb531ecb6befebdf3bf7",
+        0.0062170781422503756
+      ],
+      [
+        "47fd602c7daf67d99e41",
+        0.002736221099148039
+      ],
+      [
+        "daaf7b19ecec4c0fc4a5",
+        0.00226946865448694
+      ],
+      [
+        "776b64b6fab854aed0ec",
+        0.0009547317110805592
+      ],
+      [
+        "508f2b1a70f11302f7c0",
+        0.0002396868650226788
+      ],
+      [
+        "1b6fadfbd91235cb5aa4",
+        0.0001941131867789626
+      ],
+      [
+        "a47da452ed1db074e9ad",
+        0.00012053648825760123
+      ],
+      [
+        "7b83f9938ade8abbdec0",
+        0.00011591934318633098
+      ],
+      [
+        "d656654773f8bb4cf87e",
+        8.481104172358075e-05
+      ],
+      [
+        "d4c2cd97e9d5ee0d9d53",
+        4.9471590976326484e-05
+      ],
+      [
+        "cf1384cf89a52deb04ca",
+        3.8831109868779e-05
+      ],
+      [
+        "264f8f00e7f5aa9eb072",
+        2.88571183887091e-05
+      ],
+      [
+        "033759a0e4f8e2ed7e6d",
+        2.1613139600748423e-05
+      ],
+      [
+        "a9b6d739e27442301375",
+        1.723157275214239e-05
+      ]
+    ],
+    "contextual24": [
+      [
+        "b189799decb0141929ed",
+        0.9938310050773187
+      ],
+      [
+        "84a8b32a357f97063d78",
+        0.993384607321672
+      ],
+      [
+        "3c811f3639f74582ae41",
+        0.9918120900983038
+      ],
+      [
+        "0cc45bfc8bb9f5ac4e84",
+        0.9886682464686385
+      ],
+      [
+        "37de7183e90454b803bc",
+        0.9860442896017267
+      ],
+      [
+        "781f695b4f848123168d",
+        0.9837225390872865
+      ],
+      [
+        "2b4ab0e0ec83b51e9e84",
+        0.9822877012965885
+      ],
+      [
+        "586d1eab9f6e36fb339b",
+        0.9744347860767304
+      ],
+      [
+        "580fc3d8ae174cd82f3e",
+        0.9526622845323623
+      ],
+      [
+        "33530fdbe749a369b225",
+        0.8261514726455292
+      ],
+      [
+        "0f60abd3602ce6307d5c",
+        0.8139049366785899
+      ],
+      [
+        "e18545577c69268b9f8b",
+        0.4705237206639063
+      ],
+      [
+        "ca1055eaeda194bfd3d8",
+        0.46766603595281236
+      ],
+      [
+        "465c3f5d1c786db327fd",
+        0.4374629840412083
+      ],
+      [
+        "6166102d64822fa46a68",
+        0.396827590033322
+      ],
+      [
+        "d7e7e235bb12a9565d72",
+        0.3618409462617462
+      ],
+      [
+        "e642f7baa2a41138ef08",
+        0.35465654698064697
+      ],
+      [
+        "d1613d8b1595ff690d5c",
+        0.26942170166396556
+      ],
+      [
+        "232825bcc834655ee800",
+        0.2170054741491156
+      ],
+      [
+        "c48b9e082c11f485cf43",
+        0.09041372682383807
+      ],
+      [
+        "e4bbdcdac4e98af0e42a",
+        0.060086650174007626
+      ],
+      [
+        "aca087bdb57df6f836be",
+        0.040313437834832884
+      ],
+      [
+        "6398557eef0fde49857a",
+        0.03246681447537214
+      ],
+      [
+        "daaf7b19ecec4c0fc4a5",
+        0.0007495314256624536
+      ]
+    ],
+    "contextual_all": [
+      [
+        "b189799decb0141929ed",
+        0.9938310050773187
+      ],
+      [
+        "84a8b32a357f97063d78",
+        0.993384607321672
+      ],
+      [
+        "3c811f3639f74582ae41",
+        0.9918120900983038
+      ],
+      [
+        "0cc45bfc8bb9f5ac4e84",
+        0.9886682464686385
+      ],
+      [
+        "37de7183e90454b803bc",
+        0.9860442896017267
+      ],
+      [
+        "781f695b4f848123168d",
+        0.9837225390872865
+      ],
+      [
+        "2b4ab0e0ec83b51e9e84",
+        0.9822877012965885
+      ],
+      [
+        "586d1eab9f6e36fb339b",
+        0.9744347860767304
+      ],
+      [
+        "580fc3d8ae174cd82f3e",
+        0.9526622845323623
+      ],
+      [
+        "33530fdbe749a369b225",
+        0.8261514726455292
+      ],
+      [
+        "0f60abd3602ce6307d5c",
+        0.8139049366785899
+      ],
+      [
+        "e18545577c69268b9f8b",
+        0.4705237206639063
+      ],
+      [
+        "ca1055eaeda194bfd3d8",
+        0.46766603595281236
+      ],
+      [
+        "465c3f5d1c786db327fd",
+        0.4374629840412083
+      ],
+      [
+        "6166102d64822fa46a68",
+        0.396827590033322
+      ],
+      [
+        "d7e7e235bb12a9565d72",
+        0.3618409462617462
+      ],
+      [
+        "e642f7baa2a41138ef08",
+        0.35465654698064697
+      ],
+      [
+        "d1613d8b1595ff690d5c",
+        0.26942170166396556
+      ],
+      [
+        "232825bcc834655ee800",
+        0.2170054741491156
+      ],
+      [
+        "c48b9e082c11f485cf43",
+        0.09041372682383807
+      ],
+      [
+        "4aabb25d0bf5dac6ebd5",
+        0.077099696216148
+      ],
+      [
+        "e4bbdcdac4e98af0e42a",
+        0.060086650174007626
+      ],
+      [
+        "d6ac4a87b7f108a94968",
+        0.040616777743879826
+      ],
+      [
+        "aca087bdb57df6f836be",
+        0.040313437834832884
+      ],
+      [
+        "6398557eef0fde49857a",
+        0.03246681447537214
+      ],
+      [
+        "47fd602c7daf67d99e41",
+        0.0024438866251821328
+      ],
+      [
+        "eb531ecb6befebdf3bf7",
+        0.00233223391758734
+      ],
+      [
+        "00f8868780ad766d2552",
+        0.0019418168866865047
+      ],
+      [
+        "776b64b6fab854aed0ec",
+        0.0014158706681133846
+      ],
+      [
+        "daaf7b19ecec4c0fc4a5",
+        0.0007495314256624536
+      ],
+      [
+        "508f2b1a70f11302f7c0",
+        0.0002913700606794303
+      ],
+      [
+        "1b6fadfbd91235cb5aa4",
+        0.00024346046497898514
+      ],
+      [
+        "a9b6d739e27442301375",
+        0.00017130819343483193
+      ],
+      [
+        "d4c2cd97e9d5ee0d9d53",
+        6.452214729219313e-05
+      ],
+      [
+        "a47da452ed1db074e9ad",
+        4.3658779593871325e-05
+      ],
+      [
+        "d656654773f8bb4cf87e",
+        2.840974294610978e-05
+      ],
+      [
+        "264f8f00e7f5aa9eb072",
+        2.526822782693578e-05
+      ],
+      [
+        "7b83f9938ade8abbdec0",
+        2.1613139600748423e-05
+      ],
+      [
+        "cf1384cf89a52deb04ca",
+        1.848675576370609e-05
+      ],
+      [
+        "033759a0e4f8e2ed7e6d",
+        1.7640200515540418e-05
+      ]
+    ],
+    "raptor": [
+      [
+        "b189799decb0141929ed",
+        0.9938549079159148
+      ],
+      [
+        "37de7183e90454b803bc",
+        0.9912548183179649
+      ],
+      [
+        "0cc45bfc8bb9f5ac4e84",
+        0.9874236517231209
+      ],
+      [
+        "84a8b32a357f97063d78",
+        0.9855521474663975
+      ],
+      [
+        "580fc3d8ae174cd82f3e",
+        0.9716716880201136
+      ],
+      [
+        "781f695b4f848123168d",
+        0.9628830911922404
+      ],
+      [
+        "2b4ab0e0ec83b51e9e84",
+        0.9565531031399481
+      ],
+      [
+        "586d1eab9f6e36fb339b",
+        0.9543930566810523
+      ],
+      [
+        "3c811f3639f74582ae41",
+        0.9380105434874445
+      ],
+      [
+        "e18545577c69268b9f8b",
+        0.5905430910490824
+      ],
+      [
+        "d7e7e235bb12a9565d72",
+        0.5318780878530489
+      ],
+      [
+        "6166102d64822fa46a68",
+        0.49882984375011624
+      ],
+      [
+        "465c3f5d1c786db327fd",
+        0.3595890017625776
+      ],
+      [
+        "d1613d8b1595ff690d5c",
+        0.21223202956308296
+      ],
+      [
+        "e4bbdcdac4e98af0e42a",
+        0.12442563335989186
+      ],
+      [
+        "e642f7baa2a41138ef08",
+        0.07723878631706028
+      ],
+      [
+        "232825bcc834655ee800",
+        0.06233103588192477
+      ],
+      [
+        "aca087bdb57df6f836be",
+        0.038106618812484096
+      ],
+      [
+        "6398557eef0fde49857a",
+        0.021990219697200806
+      ],
+      [
+        "776b64b6fab854aed0ec",
+        0.0009547317110805592
+      ]
+    ]
+  },
+  "initial_ids": [
+    "b189799decb0141929ed",
+    "2b4ab0e0ec83b51e9e84",
+    "84a8b32a357f97063d78",
+    "781f695b4f848123168d",
+    "0cc45bfc8bb9f5ac4e84",
+    "586d1eab9f6e36fb339b",
+    "33530fdbe749a369b225",
+    "37de7183e90454b803bc",
+    "580fc3d8ae174cd82f3e",
+    "d7e7e235bb12a9565d72",
+    "465c3f5d1c786db327fd",
+    "e18545577c69268b9f8b",
+    "3c811f3639f74582ae41",
+    "232825bcc834655ee800",
+    "0f60abd3602ce6307d5c",
+    "6166102d64822fa46a68",
+    "c48b9e082c11f485cf43",
+    "ca1055eaeda194bfd3d8",
+    "d1613d8b1595ff690d5c",
+    "daaf7b19ecec4c0fc4a5",
+    "aca087bdb57df6f836be",
+    "e4bbdcdac4e98af0e42a",
+    "e642f7baa2a41138ef08",
+    "6398557eef0fde49857a",
+    "eb531ecb6befebdf3bf7",
+    "47fd602c7daf67d99e41",
+    "4aabb25d0bf5dac6ebd5",
+    "d6ac4a87b7f108a94968",
+    "00f8868780ad766d2552",
+    "7b83f9938ade8abbdec0",
+    "cf1384cf89a52deb04ca",
+    "776b64b6fab854aed0ec",
+    "1b6fadfbd91235cb5aa4",
+    "264f8f00e7f5aa9eb072",
+    "a47da452ed1db074e9ad",
+    "508f2b1a70f11302f7c0",
+    "033759a0e4f8e2ed7e6d",
+    "a9b6d739e27442301375",
+    "d656654773f8bb4cf87e",
+    "d4c2cd97e9d5ee0d9d53"
+  ],
+  "sentences": [
+    {
+      "uid": "f53281c523ba6a24b185",
+      "text": "Evaluation of text summarization approaches have been mostly based on metrics that measure similarities of system generated summaries with a set of human written gold-standard summaries.",
+      "leaf_id": "2b4ab0e0ec83b51e9e84",
+      "section_id": "defe642bb6d0fcd5e245",
+      "start": 0,
+      "end": 186,
+      "score": 4.647439810053511e-05
+    },
+    {
+      "uid": "98ef686db43250b92565",
+      "text": "The most widely used metric in summarization evaluation has been the ROUGE family.",
+      "leaf_id": "2b4ab0e0ec83b51e9e84",
+      "section_id": "defe642bb6d0fcd5e245",
+      "start": 187,
+      "end": 269,
+      "score": 0.016152834822140957
+    },
+    {
+      "uid": "686f2a8ff32215df2e3c",
+      "text": "ROUGE solely relies on lexical overlaps between the terms and phrases in the sentences; therefore, in cases of terminology variations and paraphrasing, ROUGE is not as effective.",
+      "leaf_id": "2b4ab0e0ec83b51e9e84",
+      "section_id": "defe642bb6d0fcd5e245",
+      "start": 270,
+      "end": 448,
+      "score": 0.0276377218735812
+    },
+    {
+      "uid": "05c732fccabc3b28ae14",
+      "text": "Scientific article summarization is one such case that is different from general domain summarization (e.g. newswire data).",
+      "leaf_id": "2b4ab0e0ec83b51e9e84",
+      "section_id": "defe642bb6d0fcd5e245",
+      "start": 449,
+      "end": 572,
+      "score": 1.7917988275182845e-05
+    },
+    {
+      "uid": "e281d8627d3ac030871e",
+      "text": "We provide an extensive analysis of ROUGE's effectiveness as an evaluation metric for scientific summarization; we show that, contrary to the common belief, ROUGE is not much reliable in evaluating scientific summaries.",
+      "leaf_id": "2b4ab0e0ec83b51e9e84",
+      "section_id": "defe642bb6d0fcd5e245",
+      "start": 573,
+      "end": 792,
+      "score": 0.005957153763749635
+    },
+    {
+      "uid": "5b1ec5d2b0633e655743",
+      "text": "We furthermore show how different variants of ROUGE result in very different correlations with the manual Pyramid scores.",
+      "leaf_id": "2b4ab0e0ec83b51e9e84",
+      "section_id": "defe642bb6d0fcd5e245",
+      "start": 793,
+      "end": 914,
+      "score": 0.9666001780666844
+    },
+    {
+      "uid": "99598f23c8e26fc048eb",
+      "text": "Finally, we propose an alternative metric for summarization evaluation which is based on the content relevance between a system generated summary and the corresponding human written summaries.",
+      "leaf_id": "2b4ab0e0ec83b51e9e84",
+      "section_id": "defe642bb6d0fcd5e245",
+      "start": 915,
+      "end": 1107,
+      "score": 2.9541425014420593e-05
+    },
+    {
+      "uid": "d2c8416d11cbe0f37d62",
+      "text": "We call our metric SERA (Summarization Evaluation by Relevance Analysis).",
+      "leaf_id": "2b4ab0e0ec83b51e9e84",
+      "section_id": "defe642bb6d0fcd5e245",
+      "start": 1108,
+      "end": 1181,
+      "score": 3.21923344970378e-05
+    },
+    {
+      "uid": "32ac0839f81529945fdc",
+      "text": "Unlike ROUGE, SERA consistently achieves high correlations with manual scores which shows its effectiveness in evaluation of scientific article summarization.",
+      "leaf_id": "465c3f5d1c786db327fd",
+      "section_id": "defe642bb6d0fcd5e245",
+      "start": 1182,
+      "end": 1340,
+      "score": 0.22219340792627285
+    },
+    {
+      "uid": "04c2eeb1635844f805a6",
+      "text": "Automatic text summarization has been an active research area in natural language processing for several decades.",
+      "leaf_id": "0f60abd3602ce6307d5c",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 0,
+      "end": 113,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "8120047e306baf5b37d3",
+      "text": "To compare and evaluate the performance of different summarization systems, the most intuitive approach is assessing the quality of the summaries by human evaluators.",
+      "leaf_id": "0f60abd3602ce6307d5c",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 114,
+      "end": 280,
+      "score": 6.061318495608067e-05
+    },
+    {
+      "uid": "c8a4be268643a7a06a2f",
+      "text": "However, manual evaluation is expensive and the obtained results are subjective and difficult to reproduce BIBREF0 .",
+      "leaf_id": "0f60abd3602ce6307d5c",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 281,
+      "end": 397,
+      "score": 0.0001476803833660436
+    },
+    {
+      "uid": "81ef6a66be62aa15342f",
+      "text": "To address these problems, automatic evaluation measures for summarization have been proposed.",
+      "leaf_id": "0f60abd3602ce6307d5c",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 398,
+      "end": 492,
+      "score": 2.7535691114583473e-05
+    },
+    {
+      "uid": "bd8b5f54f3fda471b784",
+      "text": "Rouge BIBREF1 is one of the first and most widely used metrics in summarization evaluation.",
+      "leaf_id": "0f60abd3602ce6307d5c",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 493,
+      "end": 584,
+      "score": 0.008881675100847034
+    },
+    {
+      "uid": "163c521ac6a8656d2896",
+      "text": "It facilitates evaluation of system generated summaries by comparing them to a set of human written gold-standard summaries.",
+      "leaf_id": "0f60abd3602ce6307d5c",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 585,
+      "end": 709,
+      "score": 6.014151777699533e-05
+    },
+    {
+      "uid": "f406e106d771eb4f0726",
+      "text": "It is inspired by the success of a similar metric Bleu BIBREF2 which is being used in Machine Translation (MT) evaluation.",
+      "leaf_id": "0f60abd3602ce6307d5c",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 710,
+      "end": 832,
+      "score": 6.502816785764437e-05
+    },
+    {
+      "uid": "e21cb1c5084582eedccb",
+      "text": "The main success of Rouge is due to its high correlation with human assessment scores on standard benchmarks BIBREF1 .",
+      "leaf_id": "0f60abd3602ce6307d5c",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 833,
+      "end": 951,
+      "score": 0.5947278096678561
+    },
+    {
+      "uid": "e1508868e4eb889587bd",
+      "text": "Rouge has been used as one of the main evaluation metrics in later summarization benchmarks such as TAC[1] BIBREF3 .",
+      "leaf_id": "0f60abd3602ce6307d5c",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 952,
+      "end": 1068,
+      "score": 0.14866412235984133
+    },
+    {
+      "uid": "abcbace3b72b0844ccb1",
+      "text": "[1]Text Analysis Conference (TAC) is a series of workshops for evaluating research in Natural Language Processing Since the establishment of Rouge, almost all research in text summarization have used this metric as the main means for evaluating the quality of the proposed approaches.",
+      "leaf_id": "6166102d64822fa46a68",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 1069,
+      "end": 1353,
+      "score": 0.006438102555483281
+    },
+    {
+      "uid": "7dd9b9aa0bf3aebe720b",
+      "text": "The public availability of Rouge as a toolkit for summarization evaluation has contributed to its wide usage.",
+      "leaf_id": "6166102d64822fa46a68",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 1354,
+      "end": 1463,
+      "score": 0.01744248473620534
+    },
+    {
+      "uid": "b41cf08e3a27fffbd812",
+      "text": "While Rouge has originally shown good correlations with human assessments, the study of its effectiveness was only limited to a few benchmarks on news summarization data (DUC[2] 2001-2003 benchmarks).",
+      "leaf_id": "6166102d64822fa46a68",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 1464,
+      "end": 1664,
+      "score": 0.5591095083661353
+    },
+    {
+      "uid": "e1acd83583329ead6fd0",
+      "text": "Since 2003, summarization has grown to much further domains and genres such as scientific documents, social media and question answering.",
+      "leaf_id": "6166102d64822fa46a68",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 1665,
+      "end": 1802,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "394afde40a184c288cad",
+      "text": "While there is not enough compelling evidence about the effectiveness of Rouge on these other summarization tasks, published research is almost always evaluated by Rouge.",
+      "leaf_id": "6166102d64822fa46a68",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 1803,
+      "end": 1973,
+      "score": 0.0018315101398350831
+    },
+    {
+      "uid": "bcdfa5a44fbbfd8fcede",
+      "text": "In addition, Rouge has a large number of possible variants and the published research often (arbitrarily) reports only a few of these variants.",
+      "leaf_id": "232825bcc834655ee800",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 1974,
+      "end": 2117,
+      "score": 0.09401017961657226
+    },
+    {
+      "uid": "088fa7890341cb2f76a4",
+      "text": "[2]Document Understanding Conference (DUC) was one of NIST workshops that provided infrastructure for evaluation of text summarization methodologies (http://duc.nist.gov/).",
+      "leaf_id": "232825bcc834655ee800",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 2118,
+      "end": 2290,
+      "score": 2.0785170435063725e-05
+    },
+    {
+      "uid": "79e4bb7b7dd13fdd6e6f",
+      "text": "By definition, Rouge solely relies on lexical overlaps (such as n-gram and sequence overlaps) between the system generated and human written gold-standard summaries.",
+      "leaf_id": "232825bcc834655ee800",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 2291,
+      "end": 2456,
+      "score": 0.038178274261566426
+    },
+    {
+      "uid": "45fb79fbc9b6bdff702a",
+      "text": "Higher lexical overlaps between the two show that the system generated summary is of higher quality.",
+      "leaf_id": "232825bcc834655ee800",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 2457,
+      "end": 2557,
+      "score": 0.0005399804480965611
+    },
+    {
+      "uid": "a83e275209958643ac88",
+      "text": "Therefore, in cases of terminology nuances and paraphrasing, Rouge is not accurate in estimating the quality of the summary.",
+      "leaf_id": "232825bcc834655ee800",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 2558,
+      "end": 2682,
+      "score": 0.006338921737094388
+    },
+    {
+      "uid": "7b08313b9e92863f2e09",
+      "text": "We study the effectiveness of Rouge for evaluating scientific summarization.",
+      "leaf_id": "232825bcc834655ee800",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 2683,
+      "end": 2759,
+      "score": 0.005040703111845644
+    },
+    {
+      "uid": "c2091d50a1381d9b64c3",
+      "text": "Scientific summarization targets much more technical and focused domains in which the goal is providing summaries for scientific articles.",
+      "leaf_id": "232825bcc834655ee800",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 2760,
+      "end": 2898,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "6b2ea1348b1c2c2a00e4",
+      "text": "Scientific articles are much different than news articles in elements such as length, complexity and structure.",
+      "leaf_id": "232825bcc834655ee800",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 2899,
+      "end": 3010,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "a8b0dd1b2b21c3a55a8e",
+      "text": "Thus, effective summarization approaches usually have much higher compression rate, terminology variations and paraphrasing BIBREF4 .",
+      "leaf_id": "37de7183e90454b803bc",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 3011,
+      "end": 3144,
+      "score": 0.0001177445922838707
+    },
+    {
+      "uid": "b3508dd02a1fa15fa5e8",
+      "text": "Scientific summarization has attracted more attention recently (examples include works by abu2011coherent, qazvinian2013generating, and cohan2015scientific).",
+      "leaf_id": "37de7183e90454b803bc",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 3145,
+      "end": 3302,
+      "score": 4.3658779593871325e-05
+    },
+    {
+      "uid": "7e06e9a781b651c74338",
+      "text": "Thus, it is important to study the validity of existing methodologies applied to the evaluation of news article summarization for this task.",
+      "leaf_id": "37de7183e90454b803bc",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 3303,
+      "end": 3443,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "68ec6a9ba3fb2ea983e3",
+      "text": "In particular, we raise the important question of how effective is Rouge, as an evaluation metric for scientific summarization?",
+      "leaf_id": "37de7183e90454b803bc",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 3444,
+      "end": 3571,
+      "score": 0.0038096301984728983
+    },
+    {
+      "uid": "0f133d9f6305a6d3b813",
+      "text": "We answer this question by comparing Rouge scores with semi-manual evaluation score (Pyramid) in TAC 2014 scientific summarization dataset[1].",
+      "leaf_id": "37de7183e90454b803bc",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 3572,
+      "end": 3714,
+      "score": 0.49296234835299557
+    },
+    {
+      "uid": "ff421a9059bab610ac99",
+      "text": "Results reveal that, contrary to the common belief, correlations between Rouge and the Pyramid scores are weak, which challenges its effectiveness for scientific summarization.",
+      "leaf_id": "37de7183e90454b803bc",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 3715,
+      "end": 3891,
+      "score": 0.8848377712685633
+    },
+    {
+      "uid": "02d69190345b710fef6b",
+      "text": "Furthermore, we show a large variance of correlations between different Rouge variants and the manual evaluations which further makes the reliability of Rouge for evaluating scientific summaries less clear.",
+      "leaf_id": "37de7183e90454b803bc",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 3892,
+      "end": 4098,
+      "score": 0.9187722440021829
+    },
+    {
+      "uid": "3a6b4d3721df283d58f5",
+      "text": "We then propose an evaluation metric based on relevance analysis of summaries which aims to overcome the limitation of high lexical dependence in Rouge.",
+      "leaf_id": "586d1eab9f6e36fb339b",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 4099,
+      "end": 4251,
+      "score": 0.012821214266594244
+    },
+    {
+      "uid": "5313b803fcb9183e3d6d",
+      "text": "We call our metric Sera (Summarization Evaluation by Relevance Analysis).",
+      "leaf_id": "586d1eab9f6e36fb339b",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 4252,
+      "end": 4325,
+      "score": 3.2699273422345684e-05
+    },
+    {
+      "uid": "2833770dcda4c831242c",
+      "text": "Results show that the proposed metric achieves higher and more consistent correlations with semi-manual assessment scores.",
+      "leaf_id": "586d1eab9f6e36fb339b",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 4326,
+      "end": 4448,
+      "score": 0.026861202807657865
+    },
+    {
+      "uid": "cafd3c19b0bc01ec9d02",
+      "text": "[1]http://www.nist.gov/tac/2014/BiomedSumm/ Our contributions are as follows: [2]The annotations can be accessed via the following repository: https://github.com/acohan/TAC-pyramid-Annotations/",
+      "leaf_id": "586d1eab9f6e36fb339b",
+      "section_id": "1186ea75ecdb525d8e2e",
+      "start": 4449,
+      "end": 4642,
+      "score": 9.242113003743326e-05
+    },
+    {
+      "uid": "689a269d01ccc049b2a5",
+      "text": "Rouge has been the most widely used family of metrics in summarization evaluation.",
+      "leaf_id": "0cc45bfc8bb9f5ac4e84",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 0,
+      "end": 82,
+      "score": 0.025226825379287925
+    },
+    {
+      "uid": "e4a9f810efb0423e961d",
+      "text": "In the following, we briefly describe the different variants of Rouge: Rouge-L, Rouge-W, Rouge-S and Rouge-SU were later extended to consider both the recall and precision.",
+      "leaf_id": "0cc45bfc8bb9f5ac4e84",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 83,
+      "end": 255,
+      "score": 0.687734866468537
+    },
+    {
+      "uid": "83c27fbb6d7631aabe94",
+      "text": "In calculating Rouge, stopword removal or stemming can also be considered, resulting in more variants.",
+      "leaf_id": "0cc45bfc8bb9f5ac4e84",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 256,
+      "end": 358,
+      "score": 0.5149644016300317
+    },
+    {
+      "uid": "9bf18818b17a09760440",
+      "text": "In the summarization literature, despite the large number of variants of Rouge, only one or very few of these variants are often chosen (arbitrarily) for evaluation of the quality of the summarization approaches.",
+      "leaf_id": "0cc45bfc8bb9f5ac4e84",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 359,
+      "end": 571,
+      "score": 0.16224725549485666
+    },
+    {
+      "uid": "de146f59cacb5b2a3d41",
+      "text": "When Rouge was proposed, the original variants were only recall-oriented and hence the reported correlation results BIBREF1 .",
+      "leaf_id": "0cc45bfc8bb9f5ac4e84",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 572,
+      "end": 697,
+      "score": 0.8966140333938164
+    },
+    {
+      "uid": "cfad45c3b816a34ea9af",
+      "text": "The later extension of Rouge family by precision were only reflected in the later versions of the Rouge toolkit and additional evaluation of its effectiveness was not reported.",
+      "leaf_id": "0cc45bfc8bb9f5ac4e84",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 698,
+      "end": 874,
+      "score": 0.01307078477418707
+    },
+    {
+      "uid": "9bf331d68ca44f7e5e7d",
+      "text": "Nevertheless, later published work in summarization adopted this toolkit for its ready implementation and relatively efficient performance.",
+      "leaf_id": "0cc45bfc8bb9f5ac4e84",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 875,
+      "end": 1014,
+      "score": 3.2699273422345684e-05
+    },
+    {
+      "uid": "5a369414e144696f9a6d",
+      "text": "The original Rouge metrics show high correlations with human judgments of the quality of summaries on the DUC 2001-2003 benchmarks.",
+      "leaf_id": "0cc45bfc8bb9f5ac4e84",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 1015,
+      "end": 1146,
+      "score": 0.6014180003742827
+    },
+    {
+      "uid": "b021a700c13325cf97ef",
+      "text": "However, these benchmarks consist of newswire data and are intrinsically very different than other summarization tasks such as summarization of scientific papers.",
+      "leaf_id": "e18545577c69268b9f8b",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 1147,
+      "end": 1309,
+      "score": 4.647439810053511e-05
+    },
+    {
+      "uid": "931c3e553d5206b75122",
+      "text": "We argue that Rouge is not the best metric for all summarization tasks and we propose an alternative metric for evaluation of scientific summarization.",
+      "leaf_id": "e18545577c69268b9f8b",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 1310,
+      "end": 1461,
+      "score": 0.006513498559668185
+    },
+    {
+      "uid": "14de7b9ad370ce9c7757",
+      "text": "The proposed alternative metric shows much higher and more consistent correlations with manual judgments in comparison with the well-established Rouge.",
+      "leaf_id": "e18545577c69268b9f8b",
+      "section_id": "8b5d0a48079c888401cc",
+      "start": 1462,
+      "end": 1613,
+      "score": 0.464051392600203
+    },
+    {
+      "uid": "29c49b4d4b242736ddca",
+      "text": "Rouge functions based on the assumption that in order for a summary to be of high quality, it has to share many words or phrases with a human gold summary.",
+      "leaf_id": "c48b9e082c11f485cf43",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 0,
+      "end": 155,
+      "score": 0.004382336640730745
+    },
+    {
+      "uid": "2d801d7b267e496796d2",
+      "text": "However, different terminology may be used to refer to the same concepts and thus relying only on lexical overlaps may underrate content quality scores.",
+      "leaf_id": "c48b9e082c11f485cf43",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 156,
+      "end": 308,
+      "score": 0.0013045066466158164
+    },
+    {
+      "uid": "953ecb191d2381577d81",
+      "text": "To overcome this problem, we propose an approach based on the premise that concepts take meanings from the context they are in, and that related concepts co-occur frequently.",
+      "leaf_id": "c48b9e082c11f485cf43",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 309,
+      "end": 483,
+      "score": 1.8777874339495478e-05
+    },
+    {
+      "uid": "9e223c438c7588662677",
+      "text": "Our proposed metric is based on analysis of the content relevance between a system generated summary and the corresponding human written gold-standard summaries.",
+      "leaf_id": "c48b9e082c11f485cf43",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 484,
+      "end": 645,
+      "score": 7.54332094672397e-05
+    },
+    {
+      "uid": "1953a1e4039e64ecb507",
+      "text": "On high level, we indirectly evaluate the content relevance between the candidate summary and the human summary using information retrieval.",
+      "leaf_id": "c48b9e082c11f485cf43",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 646,
+      "end": 786,
+      "score": 4.8704642404957646e-05
+    },
+    {
+      "uid": "a3a7582383550c337a59",
+      "text": "To accomplish this, we use the summaries as search queries and compare the overlaps of the retrieved results.",
+      "leaf_id": "c48b9e082c11f485cf43",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 787,
+      "end": 896,
+      "score": 0.00010472557180794287
+    },
+    {
+      "uid": "45b1dcec4ab4dabe6f0c",
+      "text": "Larger number of overlaps, suggest that the candidate summary has higher content quality with respect to the gold-standard.",
+      "leaf_id": "c48b9e082c11f485cf43",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 897,
+      "end": 1020,
+      "score": 0.00045297581227789435
+    },
+    {
+      "uid": "609cad85d5cb512e8146",
+      "text": "This method, enables us to also reward for terms that are not lexically equivalent but semantically related.",
+      "leaf_id": "7b83f9938ade8abbdec0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 1021,
+      "end": 1129,
+      "score": 3.705296977158347e-05
+    },
+    {
+      "uid": "a1669a9ffbe996d3cd9b",
+      "text": "Our method is based on the well established linguistic premise that semantically related words occur in similar contexts BIBREF5 .",
+      "leaf_id": "7b83f9938ade8abbdec0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 1130,
+      "end": 1260,
+      "score": 2.9083440990898244e-05
+    },
+    {
+      "uid": "58fe8a6ab8915171eba8",
+      "text": "The context of the words can be considered as surrounding words, sentences in which they appear or the documents.",
+      "leaf_id": "7b83f9938ade8abbdec0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 1261,
+      "end": 1374,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "bb8f3efcfced8b1d7de1",
+      "text": "For scientific summarization, we consider the context of the words as the scientific articles in which they appear.",
+      "leaf_id": "7b83f9938ade8abbdec0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 1375,
+      "end": 1490,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "351c805fe7fbabd994b2",
+      "text": "Thus, if two concepts appear in identical set of articles, they are semantically related.",
+      "leaf_id": "7b83f9938ade8abbdec0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 1491,
+      "end": 1580,
+      "score": 2.265035233314773e-05
+    },
+    {
+      "uid": "b93ca9cda5ecc852b52f",
+      "text": "We consider the two summaries as similar if they refer to same set of articles even if the two summaries do not have high lexical overlaps.",
+      "leaf_id": "7b83f9938ade8abbdec0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 1581,
+      "end": 1720,
+      "score": 2.3552618543037957e-05
+    },
+    {
+      "uid": "605cbecd0d1f705f3337",
+      "text": "To capture if a summary relates to a article, we use information retrieval by considering the summaries as queries and the articles as documents and we rank the articles based on their relatedness to a given summary.",
+      "leaf_id": "7b83f9938ade8abbdec0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 1721,
+      "end": 1937,
+      "score": 1.7640200515540418e-05
+    },
+    {
+      "uid": "35fede659025bdb8bc24",
+      "text": "For a given pair of system summary and the gold summary, similar rankings of the retrieved articles suggest that the summaries are semantically related, and thus the system summary is of higher quality.",
+      "leaf_id": "cf1384cf89a52deb04ca",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 1938,
+      "end": 2140,
+      "score": 0.0001753699377377387
+    },
+    {
+      "uid": "29a90b5ccd07d05eea55",
+      "text": "Based on the domain of interest, we first construct an index from a set of articles in the same domain.",
+      "leaf_id": "cf1384cf89a52deb04ca",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 2141,
+      "end": 2244,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "897cbfd7c037297a93a2",
+      "text": "Since TAC 2014 was focused on summarization in the biomedical domain, our index also comprises of biomedical articles.",
+      "leaf_id": "cf1384cf89a52deb04ca",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 2245,
+      "end": 2363,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "1cc08d5d4783d060156a",
+      "text": "Given a candidate summary INLINEFORM0 and a set of gold summaries INLINEFORM1 ( INLINEFORM2 ; INLINEFORM3 is the total number of human summaries), we submit the candidate summary and gold summaries to the search engine as queries and compare their ranked results.",
+      "leaf_id": "cf1384cf89a52deb04ca",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 2364,
+      "end": 2627,
+      "score": 3.822911232549001e-05
+    },
+    {
+      "uid": "85d516f5228695838959",
+      "text": "Let INLINEFORM4 be the entire index which comprises of INLINEFORM5 total documents.",
+      "leaf_id": "cf1384cf89a52deb04ca",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 2628,
+      "end": 2711,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "4b0a9d13b2af6d22fb5a",
+      "text": "Let INLINEFORM0 be the ranked list of retrieved documents for candidate summary INLINEFORM1 , and INLINEFORM2 the ranked list of results for the gold summary INLINEFORM3 .",
+      "leaf_id": "47fd602c7daf67d99e41",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 2712,
+      "end": 2883,
+      "score": 9.387641443080781e-05
+    },
+    {
+      "uid": "891b9f62d4c1b4536e1e",
+      "text": "These lists of results are based on a rank cut-off point INLINEFORM4 that is a parameter of the system.",
+      "leaf_id": "47fd602c7daf67d99e41",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 2884,
+      "end": 2987,
+      "score": 0.00021318756129065197
+    },
+    {
+      "uid": "fe09892773ebe34030e8",
+      "text": "We provide evaluation results on different choices of cut-off point INLINEFORM5 in the Section SECREF5 We consider the following two scores: (i) simple intersection and (ii) discounted intersection by rankings.",
+      "leaf_id": "47fd602c7daf67d99e41",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 2988,
+      "end": 3198,
+      "score": 0.003497010252573502
+    },
+    {
+      "uid": "5dcc3b26a510e8281735",
+      "text": "The simple intersection just considers the overlaps of the results in the two ranked lists and ignores the rankings.",
+      "leaf_id": "47fd602c7daf67d99e41",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 3199,
+      "end": 3315,
+      "score": 0.00011412238544346029
+    },
+    {
+      "uid": "d9b6568e4e19404ff6c0",
+      "text": "The discounted ranked scores, on the other hand, penalizes ranking differences between the two result sets.",
+      "leaf_id": "47fd602c7daf67d99e41",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 3316,
+      "end": 3423,
+      "score": 0.0011513995656772138
+    },
+    {
+      "uid": "d98427c3a42273a6dbdf",
+      "text": "As an example consider the following list of retrieved documents (denoted by INLINEFORM6 s) for a candidate and a gold summary as queries: Results for candidate summary: INLINEFORM0 , INLINEFORM1 , INLINEFORM2 , INLINEFORM3 Results for gold summary: INLINEFORM0 , INLINEFORM1 , INLINEFORM2 , INLINEFORM3 These two sets of results consist of identical documents but the ranking of the retrieved documents differ.",
+      "leaf_id": "daaf7b19ecec4c0fc4a5",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 3424,
+      "end": 3835,
+      "score": 0.000474704255915037
+    },
+    {
+      "uid": "58390236179a90d70a89",
+      "text": "Therefore, the simple intersection method assigns a score of 1.0 while in the discounted ranked score, the score will be less than 1.0 (due to ranking differences between the result lists).",
+      "leaf_id": "daaf7b19ecec4c0fc4a5",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 3836,
+      "end": 4025,
+      "score": 0.0014721895092795337
+    },
+    {
+      "uid": "7d2e22800b1279e8ad79",
+      "text": "We now define the metrics more precisely.",
+      "leaf_id": "daaf7b19ecec4c0fc4a5",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 4026,
+      "end": 4067,
+      "score": 3.913565411910919e-05
+    },
+    {
+      "uid": "603aecb21eb5255466cb",
+      "text": "Using the above notations, without loss of generality, we assume that INLINEFORM0 .",
+      "leaf_id": "daaf7b19ecec4c0fc4a5",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 4068,
+      "end": 4151,
+      "score": 3.295572855043323e-05
+    },
+    {
+      "uid": "5860b12ed21fe03effcc",
+      "text": "Sera is defined as follows: INLINEFORM1 To also account for the ranked position differences, we modify this score to discount rewards based on rank differences.",
+      "leaf_id": "daaf7b19ecec4c0fc4a5",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 4152,
+      "end": 4312,
+      "score": 6.761842041375471e-05
+    },
+    {
+      "uid": "b62fd937603eaf916713",
+      "text": "That is, in ideal score, we want search results from candidate summary ( INLINEFORM0 ) to be the same as results for gold-standard summaries ( INLINEFORM1 ) and the rankings of the results also be the same.",
+      "leaf_id": "eb531ecb6befebdf3bf7",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 4313,
+      "end": 4519,
+      "score": 0.0009436192455752618
+    },
+    {
+      "uid": "02ae0d1f4b1d4e4f93e8",
+      "text": "If the rankings differ, we discount the reward by log of the differences of the ranks.",
+      "leaf_id": "eb531ecb6befebdf3bf7",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 4520,
+      "end": 4606,
+      "score": 0.0002234163601827719
+    },
+    {
+      "uid": "ec4e00a71d65db374ada",
+      "text": "More specifically, the discounted score (Sera-Dis) is defined as: INLINEFORM2 where, as previously defined, INLINEFORM0 , INLINEFORM1 and INLINEFORM2 are total number of human gold summaries, result list for the candidate summary and result list for the human gold summary, respectively.",
+      "leaf_id": "eb531ecb6befebdf3bf7",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 4607,
+      "end": 4894,
+      "score": 0.0006589401102677215
+    },
+    {
+      "uid": "597fc7f187e3e84a0646",
+      "text": "In addition, INLINEFORM3 shows the INLINEFORM4 th results in the ranked list INLINEFORM5 and INLINEFORM6 is the maximum attainable score used as the normalizing factor.",
+      "leaf_id": "eb531ecb6befebdf3bf7",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 4895,
+      "end": 5063,
+      "score": 0.004382336640730745
+    },
+    {
+      "uid": "35d553e1e8ab30208a55",
+      "text": "We use elasticsearch[1], an open-source search engine, for indexing and querying the articles.",
+      "leaf_id": "eb531ecb6befebdf3bf7",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 5064,
+      "end": 5158,
+      "score": 2.2474089854291754e-05
+    },
+    {
+      "uid": "ca103a913019a8d567e8",
+      "text": "For retrieval model, we use the Language Modeling retrieval model with Dirichlet smoothing BIBREF6 .",
+      "leaf_id": "eb531ecb6befebdf3bf7",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 5159,
+      "end": 5259,
+      "score": 3.347468838730701e-05
+    },
+    {
+      "uid": "4bc44172291b4eca514b",
+      "text": "Since TAC 2014 benchmark is on summarization of biomedical articles, the appropriate index would be the one constructed from articles in the same domain.",
+      "leaf_id": "508f2b1a70f11302f7c0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 5260,
+      "end": 5413,
+      "score": 1.8631746484712008e-05
+    },
+    {
+      "uid": "06f037eec865c84d7a93",
+      "text": "Therefore, we use the open access subset of Pubmed[2] which consists of published articles in biomedical literature.",
+      "leaf_id": "508f2b1a70f11302f7c0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 5414,
+      "end": 5530,
+      "score": 0.00014539114412297376
+    },
+    {
+      "uid": "2b7396a8a16ca5115f5c",
+      "text": "[1]https://github.com/elastic/elasticsearch [2]PubMed is a comprehensive resource of articles and abstracts published in life sciences and biomedical literature http://www.ncbi.nlm.nih.gov/pmc/ We also experiment with different query (re)formulation approaches.",
+      "leaf_id": "508f2b1a70f11302f7c0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 5531,
+      "end": 5792,
+      "score": 0.00012339457598623172
+    },
+    {
+      "uid": "284de2d4b8155827905c",
+      "text": "Query reformulation is a method in Information Retrieval that aims to refine the query for better retrieval of results.",
+      "leaf_id": "508f2b1a70f11302f7c0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 5793,
+      "end": 5912,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "922f3a48ff7670a234c4",
+      "text": "Query reformulation methods often consist of removing ineffective terms and expressions from the query (query reduction) or adding terms to the query that help the retrieval (query expansion).",
+      "leaf_id": "508f2b1a70f11302f7c0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 5913,
+      "end": 6105,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "0ec0f7ca69f61c04a682",
+      "text": "Query reduction is specially important when queries are verbose.",
+      "leaf_id": "508f2b1a70f11302f7c0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 6106,
+      "end": 6170,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "9eaacb03256b5d9051f6",
+      "text": "Since we use the summaries as queries, the queries are usually long and therefore we consider query reductions.",
+      "leaf_id": "508f2b1a70f11302f7c0",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 6171,
+      "end": 6282,
+      "score": 4.4346274842960604e-05
+    },
+    {
+      "uid": "016de00b1272da77c015",
+      "text": "In our experiments, the query reformulation is done by 3 different ways: (i) Plain: The entire summary without stopwords and numeric values; (ii) Noun Phrases (NP): We only keep the noun phrases as informative concepts in the summary and eliminate all other terms; and (iii) Keywords (KW): We only keep the keywords and key phrases in the summary.",
+      "leaf_id": "1b6fadfbd91235cb5aa4",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 6283,
+      "end": 6630,
+      "score": 8.61465062380632e-05
+    },
+    {
+      "uid": "40fd80f8d2161c3c68f6",
+      "text": "For extracting the keywords and keyphrases (with length of up to 3 terms), we extract expressions whose idf[1] values is higher than a predefined threshold that is set as a parameter.",
+      "leaf_id": "1b6fadfbd91235cb5aa4",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 6631,
+      "end": 6814,
+      "score": 0.00040606395082589986
+    },
+    {
+      "uid": "11e21af8643b8efeab9e",
+      "text": "We set this threshold to the average idf values of all terms except stopwords. idf values are calculated on the same index that is used for the retrieval.",
+      "leaf_id": "1b6fadfbd91235cb5aa4",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 6815,
+      "end": 6969,
+      "score": 3.944258675190877e-05
+    },
+    {
+      "uid": "d5d763c12979de89c085",
+      "text": "[1]Inverted Document Frequency We hypothesize that using only informative concepts in the summary prevents query drift and leads to retrieval of more relevant documents.",
+      "leaf_id": "1b6fadfbd91235cb5aa4",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 6970,
+      "end": 7139,
+      "score": 9.761566060239503e-05
+    },
+    {
+      "uid": "c79ef500713ff0347b7a",
+      "text": "Noun phrases and keywords are two heuristics for identifying the informative concepts.",
+      "leaf_id": "1b6fadfbd91235cb5aa4",
+      "section_id": "deb0481211c0ddab5ea0",
+      "start": 7140,
+      "end": 7226,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "7fcae51fd8a708519906",
+      "text": "To the best of our knowledge, the only scientific summarization benchmark is from TAC 2014 summarization track.",
+      "leaf_id": "e4bbdcdac4e98af0e42a",
+      "section_id": "13149e7c6d96b328f3fa",
+      "start": 0,
+      "end": 111,
+      "score": 7.967300986103147e-05
+    },
+    {
+      "uid": "2373205615a995735c37",
+      "text": "For evaluating the effectiveness of Rouge variants and our metric (Sera), we use this benchmark, which consists of 20 topics each with a biomedical journal article and 4 gold human written summaries.",
+      "leaf_id": "e4bbdcdac4e98af0e42a",
+      "section_id": "13149e7c6d96b328f3fa",
+      "start": 112,
+      "end": 311,
+      "score": 0.15947904162777593
+    },
+    {
+      "uid": "6cd7d39f000a25b74735",
+      "text": "In the TAC 2014 summarization track, Rouge was suggested as the evaluation metric for summarization and no human assessment was provided for the topics.",
+      "leaf_id": "d6ac4a87b7f108a94968",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 0,
+      "end": 152,
+      "score": 0.009340024385054083
+    },
+    {
+      "uid": "cf4ef9cf6c401a2928cf",
+      "text": "Therefore, to study the effectiveness of the evaluation metrics, we use the semi-manual Pyramid evaluation framework BIBREF7 , BIBREF8 .",
+      "leaf_id": "d6ac4a87b7f108a94968",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 153,
+      "end": 289,
+      "score": 7.14190139989638e-05
+    },
+    {
+      "uid": "5cd78418a740b36766a2",
+      "text": "In the pyramid scoring, the content units in the gold human written summaries are organized in a pyramid.",
+      "leaf_id": "d6ac4a87b7f108a94968",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 290,
+      "end": 395,
+      "score": 9.098840359922044e-05
+    },
+    {
+      "uid": "d5d62baec115f905059d",
+      "text": "In this pyramid, the content units are organized in tiers and higher tiers of the pyramid indicate higher importance.",
+      "leaf_id": "d6ac4a87b7f108a94968",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 396,
+      "end": 513,
+      "score": 1.8342893327886845e-05
+    },
+    {
+      "uid": "1eb7d192a5fdda1612bc",
+      "text": "The content quality of a given candidate summary is evaluated with respect to this pyramid.",
+      "leaf_id": "d6ac4a87b7f108a94968",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 514,
+      "end": 605,
+      "score": 2.4682904407607285e-05
+    },
+    {
+      "uid": "6ef13fb1fb7d647a5f7f",
+      "text": "To analyze the quality of the evaluation metrics, following the pyramid framework, we design an annotation scheme that is based on identification of important content units.",
+      "leaf_id": "d6ac4a87b7f108a94968",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 606,
+      "end": 779,
+      "score": 3.400182010101328e-05
+    },
+    {
+      "uid": "9be13133da479741f193",
+      "text": "Consider the following example: Endogeneous small RNAs (miRNA) were genetically screened and studied to find the miRNAs which are related to tumorigenesis.",
+      "leaf_id": "d6ac4a87b7f108a94968",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 780,
+      "end": 935,
+      "score": 2.3187477504664322e-05
+    },
+    {
+      "uid": "00c606f8a97e0761f04f",
+      "text": "In the above example, the underlined expressions are the content units that convey the main meaning of the text.",
+      "leaf_id": "d6ac4a87b7f108a94968",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 936,
+      "end": 1048,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "91d63649231cdb02bda4",
+      "text": "We call these small units, nuggets which are phrases or concepts that are the main contributors to the content quality of the summary.",
+      "leaf_id": "a9b6d739e27442301375",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 1049,
+      "end": 1183,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "167b9406f7a74acc0cbb",
+      "text": "We asked two human annotators to review the gold summaries and extract content units in these summaries.",
+      "leaf_id": "a9b6d739e27442301375",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 1184,
+      "end": 1288,
+      "score": 3.6478537675800285e-05
+    },
+    {
+      "uid": "5200eab68cb983e63e40",
+      "text": "The pyramid tiers represent the occurrences of nuggets across all the human written gold-standard summaries, and therefore the nuggets are weighted based on these tiers.",
+      "leaf_id": "a9b6d739e27442301375",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 1289,
+      "end": 1458,
+      "score": 4.4346274842960604e-05
+    },
+    {
+      "uid": "b7f9719fb46453e53d2f",
+      "text": "The intuition is that, if a nugget occurs more frequently in the human summaries, it is a more important contributor (thus belongs to higher tier in the pyramid).",
+      "leaf_id": "a9b6d739e27442301375",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 1459,
+      "end": 1621,
+      "score": 2.7108801365572047e-05
+    },
+    {
+      "uid": "d40796d82f508a89246b",
+      "text": "Thus, if a candidate summary contains this nugget, it should be rewarded more.",
+      "leaf_id": "a9b6d739e27442301375",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 1622,
+      "end": 1700,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "090ad0871dee84e059f0",
+      "text": "An example of the nuggets annotations in pyramid framework is shown in Table TABREF12 .",
+      "leaf_id": "a9b6d739e27442301375",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 1701,
+      "end": 1788,
+      "score": 2.4876490010363496e-05
+    },
+    {
+      "uid": "5727e68179ddd4006963",
+      "text": "In this example, the nugget “cell mutation” belongs to the 4th tier and it suggests that the “cell mutation” nugget is a very important representative of the content of the corresponding document.",
+      "leaf_id": "a9b6d739e27442301375",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 1789,
+      "end": 1985,
+      "score": 2.4876490010363496e-05
+    },
+    {
+      "uid": "50dcdef65d859061a711",
+      "text": "Let INLINEFORM0 define the tiers of the pyramid with INLINEFORM1 being the bottom tier and INLINEFORM2 the top tier.",
+      "leaf_id": "00f8868780ad766d2552",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 1986,
+      "end": 2102,
+      "score": 1.9833367060283615e-05
+    },
+    {
+      "uid": "85819733743b51e45cc9",
+      "text": "Let INLINEFORM3 be the number of the nuggets in the candidate summary that appear in the tier INLINEFORM4 .",
+      "leaf_id": "00f8868780ad766d2552",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 2103,
+      "end": 2210,
+      "score": 2.3923509443082864e-05
+    },
+    {
+      "uid": "1e52aca909946e86a13a",
+      "text": "Then the pyramid score INLINEFORM5 of the candidate summary will be: INLINEFORM6 where INLINEFORM0 is the maximum attainable score used for normalizing the scores: INLINEFORM1 where INLINEFORM0 is the total number of nuggets in the summary and INLINEFORM1 .",
+      "leaf_id": "00f8868780ad766d2552",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 2211,
+      "end": 2468,
+      "score": 0.0016484829418512883
+    },
+    {
+      "uid": "21bde5fcdbb0bc0f8ffd",
+      "text": "We release the pyramid annotations of the TAC 2014 dataset through a public repository[2].",
+      "leaf_id": "00f8868780ad766d2552",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 2469,
+      "end": 2559,
+      "score": 0.0003250358452365473
+    },
+    {
+      "uid": "bc0989efb18e4aa59435",
+      "text": "[2]https://github.com/acohan/TAC-pyramid-Annotations 3.1pt",
+      "leaf_id": "00f8868780ad766d2552",
+      "section_id": "d3ba1682d87e8e8ded16",
+      "start": 2560,
+      "end": 2618,
+      "score": 6.553815667339151e-05
+    },
+    {
+      "uid": "92e814c4df5494f1a092",
+      "text": "We study the effectiveness of Rouge and our proposed method (Sera) by analyzing the correlations with semi-manual human judgments.",
+      "leaf_id": "d1613d8b1595ff690d5c",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 0,
+      "end": 130,
+      "score": 0.14694206604614846
+    },
+    {
+      "uid": "aa5d0460656990bf4141",
+      "text": "Very few teams participated in TAC 2014 summarization track and the official results and the review paper of TAC 2014 systems were never published.",
+      "leaf_id": "d1613d8b1595ff690d5c",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 131,
+      "end": 278,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "35094cacae4cdd3a5bbd",
+      "text": "Therefore, to evaluate the effectiveness of Rouge, we applied 9 well-known summarization approaches on the TAC 2014 scientific summarization dataset.",
+      "leaf_id": "d1613d8b1595ff690d5c",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 279,
+      "end": 428,
+      "score": 0.017309095753668163
+    },
+    {
+      "uid": "f8f76632280d0632e4ab",
+      "text": "Obtained Rouge and Sera results of each of these approaches are then correlated with semi-manual human judgments.",
+      "leaf_id": "d1613d8b1595ff690d5c",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 429,
+      "end": 542,
+      "score": 0.3015676930738543
+    },
+    {
+      "uid": "8d6a98b999b41aea1d88",
+      "text": "In the following, we briefly describe each of these summarization approaches.",
+      "leaf_id": "d1613d8b1595ff690d5c",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 543,
+      "end": 620,
+      "score": 2.4111139329084935e-05
+    },
+    {
+      "uid": "c983e14494849250cc6f",
+      "text": "LexRank BIBREF9 : LexRank finds the most important (central) sentences in a document by using random walks in a graph constructed from the document sentences.",
+      "leaf_id": "d1613d8b1595ff690d5c",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 621,
+      "end": 779,
+      "score": 3.453725236238312e-05
+    },
+    {
+      "uid": "f326e3b48866b77fc340",
+      "text": "In this graph, the sentences are nodes and the similarity between the sentences determines the edges.",
+      "leaf_id": "d1613d8b1595ff690d5c",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 780,
+      "end": 881,
+      "score": 1.9988918976691774e-05
+    },
+    {
+      "uid": "436a0cf6e74af9885ad9",
+      "text": "Sentences are ranked according to their importance.",
+      "leaf_id": "d1613d8b1595ff690d5c",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 882,
+      "end": 933,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "3be2520e00d423224584",
+      "text": "Importance is measured in terms of centrality of the sentence — the total number of edges incident on the node (sentence) in the graph.",
+      "leaf_id": "d1613d8b1595ff690d5c",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 934,
+      "end": 1069,
+      "score": 1.8925148246037342e-05
+    },
+    {
+      "uid": "6bf0205cc6216f0e6c0e",
+      "text": "The intuition behind LexRank is that a document can be summarized using the most central sentences in the document that capture its main aspects.",
+      "leaf_id": "033759a0e4f8e2ed7e6d",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 1070,
+      "end": 1215,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "3c473040578feb534e40",
+      "text": "Latent Semantic Analysis (LSA) based summarization BIBREF10 : In this summarization method, Singular Value Decomposition (SVD) BIBREF11 is used for deriving latent semantic structure of the document.",
+      "leaf_id": "033759a0e4f8e2ed7e6d",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 1216,
+      "end": 1415,
+      "score": 2.229919899951376e-05
+    },
+    {
+      "uid": "89e980457a673fa37ac5",
+      "text": "The document is divided into sentences and a term-sentence matrix INLINEFORM0 is constructed.",
+      "leaf_id": "033759a0e4f8e2ed7e6d",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 1416,
+      "end": 1509,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "4d729f9746088a1091e6",
+      "text": "The matrix INLINEFORM1 is then decomposed into a number of linearly-independent singular vectors which represent the latent concepts in the document.",
+      "leaf_id": "033759a0e4f8e2ed7e6d",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 1510,
+      "end": 1659,
+      "score": 1.9073577192252488e-05
+    },
+    {
+      "uid": "83eb9dfcc15db06f1848",
+      "text": "This method, intuitively, decomposes the document into several latent topics and then selects the most representative sentences for each of these topics as the summary of the document.",
+      "leaf_id": "033759a0e4f8e2ed7e6d",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 1660,
+      "end": 1844,
+      "score": 2.3007035274670075e-05
+    },
+    {
+      "uid": "07a09851b51df2d11ff1",
+      "text": "Maximal Marginal Relevance (MMR) BIBREF12 : Maximal Marginal Relevance (MMR) is a greedy strategy for selecting sentences for the summary.",
+      "leaf_id": "033759a0e4f8e2ed7e6d",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 1845,
+      "end": 1983,
+      "score": 1.9223170236538176e-05
+    },
+    {
+      "uid": "c767301e53d48855aa68",
+      "text": "Sentences are added iteratively to the summary based on their relatedness to the document as well as their novelty with respect to the current summary.",
+      "leaf_id": "264f8f00e7f5aa9eb072",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 1984,
+      "end": 2135,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "29d3ec1b6116304d6216",
+      "text": "Citation based summarization BIBREF13 : In this method, citations are used for summarizing an article.",
+      "leaf_id": "264f8f00e7f5aa9eb072",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 2136,
+      "end": 2238,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "e4acaa2842b098a51307",
+      "text": "Using the LexRank algorithm on the citation network of the article, top sentences are selected for the final summary.",
+      "leaf_id": "264f8f00e7f5aa9eb072",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 2239,
+      "end": 2356,
+      "score": 1.952588520864222e-05
+    },
+    {
+      "uid": "23436b25d2b340ba0168",
+      "text": "Using frequency of the words BIBREF14 : In this method, which is one the earliest works in text summarization, raw word frequencies are used to estimate the saliency of sentences in the document.",
+      "leaf_id": "264f8f00e7f5aa9eb072",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 2357,
+      "end": 2552,
+      "score": 3.0718185454758056e-05
+    },
+    {
+      "uid": "1369334d113997e678e5",
+      "text": "The most salient sentences are chosen for the final summary.",
+      "leaf_id": "264f8f00e7f5aa9eb072",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 2553,
+      "end": 2613,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "5ba770d60c45d4f687fc",
+      "text": "SumBasic BIBREF15 : SumBasic is an approach that weights sentences based on the distribution of words that is derived from the document.",
+      "leaf_id": "264f8f00e7f5aa9eb072",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 2614,
+      "end": 2750,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "5d9c16522afcb9076848",
+      "text": "Sentence selection is applied iteratively by selecting words with highest probability and then finding the highest scoring sentence that contains that word.",
+      "leaf_id": "264f8f00e7f5aa9eb072",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 2751,
+      "end": 2907,
+      "score": 6.302758756443266e-05
+    },
+    {
+      "uid": "a10407bea9643f043a5d",
+      "text": "The word weights are updated after each iteration to prevent selection of similar sentences.",
+      "leaf_id": "264f8f00e7f5aa9eb072",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 2908,
+      "end": 3000,
+      "score": 2.1613139600748423e-05
+    },
+    {
+      "uid": "f5d0911bf1c9492b23a3",
+      "text": "Summarization using citation-context and discourse structure BIBREF16 : In this method, the set of citations to the article are used to find the article sentences that directly reflect those citations (citation-contexts).",
+      "leaf_id": "a47da452ed1db074e9ad",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 3001,
+      "end": 3222,
+      "score": 1.7640200515540418e-05
+    },
+    {
+      "uid": "8a277e498bd0506475d7",
+      "text": "In addition, the scientific discourse of the article is utilized to capture different aspects of the article.",
+      "leaf_id": "a47da452ed1db074e9ad",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 3223,
+      "end": 3332,
+      "score": 5.391084403253366e-05
+    },
+    {
+      "uid": "e4542c1b7fa25b93e539",
+      "text": "The scientific discourse usually follows a structure in which the authors first describe their hypothesis, then the methods, experiment, results and implications.",
+      "leaf_id": "a47da452ed1db074e9ad",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 3333,
+      "end": 3495,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "cf367f3603d69aa449b9",
+      "text": "Sentence selection is based on finding the most important sentences in each of the discourse facets of the document using the MMR heuristic.",
+      "leaf_id": "a47da452ed1db074e9ad",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 3496,
+      "end": 3636,
+      "score": 2.931153855960119e-05
+    },
+    {
+      "uid": "d0f7857d366f75a5aa1c",
+      "text": "KL Divergence BIBREF17 In this method, the document unigram distribution INLINEFORM0 and the summary unigram distributation INLINEFORM1 are considered; the goal is to find a summary whose distribution is very close to the document distribution.",
+      "leaf_id": "a47da452ed1db074e9ad",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 3637,
+      "end": 3881,
+      "score": 2.3007035274670075e-05
+    },
+    {
+      "uid": "44ae12e45a698e3de5dd",
+      "text": "The difference of the distributions is captured by the Kullback-Lieber (KL) divergence, denoted by INLINEFORM2 .",
+      "leaf_id": "a47da452ed1db074e9ad",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 3882,
+      "end": 3994,
+      "score": 0.0006825019082634147
+    },
+    {
+      "uid": "5f610959153fe35f6642",
+      "text": "Summarization based on Topic Models BIBREF17 : Instead of using unigram distributions for modeling the content distribution of the document and the summary, this method models the document content using an LDA based topic model BIBREF18 .",
+      "leaf_id": "d656654773f8bb4cf87e",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 3995,
+      "end": 4233,
+      "score": 2.3007035274670075e-05
+    },
+    {
+      "uid": "c4f3927ed91b4dfde23c",
+      "text": "It then uses the KL divergence between the document and the summary content models for selecting sentences for the summary.",
+      "leaf_id": "d656654773f8bb4cf87e",
+      "section_id": "e3e204b86bfa2eb41047",
+      "start": 4234,
+      "end": 4357,
+      "score": 2.6070306568642525e-05
+    },
+    {
+      "uid": "2d17046bd769c5ba08bd",
+      "text": "We calculated all variants of Rouge scores, our proposed metric, Sera, and the Pyramid score on the generated summaries from the summarizers described in Section SECREF13 .",
+      "leaf_id": "781f695b4f848123168d",
+      "section_id": "515f514a0df2d2afccf2",
+      "start": 0,
+      "end": 172,
+      "score": 0.48032632457128416
+    },
+    {
+      "uid": "d92214d4ebde05044701",
+      "text": "We do not report the Rouge, Sera or pyramid scores of individual systems as it is not the focus of this study.",
+      "leaf_id": "781f695b4f848123168d",
+      "section_id": "515f514a0df2d2afccf2",
+      "start": 173,
+      "end": 283,
+      "score": 0.03397199715737667
+    },
+    {
+      "uid": "1d6a17f9ef82089c5409",
+      "text": "Our aim is to analyze the effectiveness of the evaluation metrics, not the summarization approaches.",
+      "leaf_id": "781f695b4f848123168d",
+      "section_id": "515f514a0df2d2afccf2",
+      "start": 284,
+      "end": 384,
+      "score": 5.7837665669557245e-05
+    },
+    {
+      "uid": "6d5ea02c448f323de3e6",
+      "text": "Therefore, we consider the correlations of the automatic evaluation metrics with the manual Pyramid scores to evaluate their effectiveness; the metrics that show higher correlations with manual judgments are more effective.",
+      "leaf_id": "781f695b4f848123168d",
+      "section_id": "515f514a0df2d2afccf2",
+      "start": 385,
+      "end": 608,
+      "score": 0.01098694263059318
+    },
+    {
+      "uid": "6d471d716d288d765976",
+      "text": "Table TABREF23 shows the Pearson, Spearman and Kendall correlation of Rouge and Sera, with pyramid scores.",
+      "leaf_id": "781f695b4f848123168d",
+      "section_id": "515f514a0df2d2afccf2",
+      "start": 609,
+      "end": 715,
+      "score": 0.8020908926631818
+    },
+    {
+      "uid": "1a4c722ce399af200d12",
+      "text": "Both Rouge and Sera are calculated with stopwords removed and with stemming.",
+      "leaf_id": "781f695b4f848123168d",
+      "section_id": "515f514a0df2d2afccf2",
+      "start": 716,
+      "end": 792,
+      "score": 0.004867417345279047
+    },
+    {
+      "uid": "15d33060a3537324eb46",
+      "text": "Our experiments with inclusion of stopwords and without stemming showed similar results and thus, we do not include those to avoid redundancy.",
+      "leaf_id": "781f695b4f848123168d",
+      "section_id": "515f514a0df2d2afccf2",
+      "start": 793,
+      "end": 935,
+      "score": 0.00024156629828672453
+    },
+    {
+      "uid": "4fafcbccf7c5c917ccbe",
+      "text": "The results of our proposed method (Sera) are shown in the bottom part of Table TABREF23 .",
+      "leaf_id": "580fc3d8ae174cd82f3e",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 0,
+      "end": 90,
+      "score": 0.0001376546336890011
+    },
+    {
+      "uid": "662bca61c09aeefb249c",
+      "text": "In general, Sera shows better correlation with pyramid scores in comparison with Rouge.",
+      "leaf_id": "580fc3d8ae174cd82f3e",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 91,
+      "end": 178,
+      "score": 0.8781053443317214
+    },
+    {
+      "uid": "ce95a670838c050cae83",
+      "text": "We observe that the Pearson correlation of Sera with cut-off point of 5 (shown by Sera-5) is 0.823 which is higher than most of the Rouge variants.",
+      "leaf_id": "580fc3d8ae174cd82f3e",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 179,
+      "end": 326,
+      "score": 0.8621196531439876
+    },
+    {
+      "uid": "55d2838ebde3876d95d1",
+      "text": "Similarly, the Spearman and Kendall correlations of the Sera evaluation score is 0.941 and 0.857 respectively, which are higher than all Rouge correlation values.",
+      "leaf_id": "580fc3d8ae174cd82f3e",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 327,
+      "end": 489,
+      "score": 0.8578872059303786
+    },
+    {
+      "uid": "222c7db3257f31f5ca3c",
+      "text": "This shows the effectiveness of the simple variant of our proposed summarization evaluation metric.",
+      "leaf_id": "580fc3d8ae174cd82f3e",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 490,
+      "end": 589,
+      "score": 0.0003432999995057122
+    },
+    {
+      "uid": "d710d1aa94c4cf781b8e",
+      "text": "Table TABREF23 also shows the results of other Sera variants including discounting and query reformulation methods.",
+      "leaf_id": "580fc3d8ae174cd82f3e",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 590,
+      "end": 705,
+      "score": 0.0019418168866865047
+    },
+    {
+      "uid": "6cca8fb9151fc6490371",
+      "text": "Some of these variants are the result of applying query reformulation in the process of document retrieval which are described in section SECREF3 As illustrated, the Noun Phrases (NP) query reformulation at cut-off point of 5 (shown as Sera-np-5) achieves the highest correlations among all the Sera variants ( INLINEFORM0 = INLINEFORM1 , INLINEFORM2 = INLINEFORM3 = INLINEFORM4 ).",
+      "leaf_id": "580fc3d8ae174cd82f3e",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 706,
+      "end": 1087,
+      "score": 0.07723878631706028
+    },
+    {
+      "uid": "020d19bf3006bd8d3ce3",
+      "text": "In the case of Keywords (KW) query reformulation, without using discounting, we can see that there is no positive gain in correlation.",
+      "leaf_id": "e642f7baa2a41138ef08",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 1088,
+      "end": 1222,
+      "score": 0.0008295891883591028
+    },
+    {
+      "uid": "c2dc2ba44ecb166781dd",
+      "text": "However, keywords when applied on the discounted variant of Sera, result in higher correlations.",
+      "leaf_id": "e642f7baa2a41138ef08",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 1223,
+      "end": 1319,
+      "score": 0.05480259515596156
+    },
+    {
+      "uid": "15ba87c13bed2f069999",
+      "text": "Discounting has more positive effect when applied on query reformulation-based Sera than on the simple variant of Sera.",
+      "leaf_id": "e642f7baa2a41138ef08",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 1320,
+      "end": 1439,
+      "score": 0.00020825010519232145
+    },
+    {
+      "uid": "1e04fa171eaaec84f1f5",
+      "text": "In the case of discounting and NP query reformulation (Sera-dis-np), we observe higher correlations in comparison with simple Sera.",
+      "leaf_id": "e642f7baa2a41138ef08",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 1440,
+      "end": 1571,
+      "score": 0.0037072528743862213
+    },
+    {
+      "uid": "8a757432a9f6abf197fb",
+      "text": "Similarly, in the case of Keywords (KW), positive correlation gain is obtained in most of correlation coefficients.",
+      "leaf_id": "e642f7baa2a41138ef08",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 1572,
+      "end": 1687,
+      "score": 0.00233223391758734
+    },
+    {
+      "uid": "59dd1bc44dc145b0a083",
+      "text": "NP without discounting and at cut-off point of 5 (Sera-np-5) shows the highest non-parametric correlation.",
+      "leaf_id": "e642f7baa2a41138ef08",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 1688,
+      "end": 1794,
+      "score": 0.00389962067257789
+    },
+    {
+      "uid": "a42965295d75fb19e9a4",
+      "text": "In addition, the discounted NP at cut-off point of 10 (Sera-np-dis-10) shows the highest parametric correlations.",
+      "leaf_id": "6398557eef0fde49857a",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 1795,
+      "end": 1908,
+      "score": 0.007204769088868755
+    },
+    {
+      "uid": "850ea756df807cc1a856",
+      "text": "In general, using NP and KW as heuristics for finding the informative concepts in the summary effectively increases the correlations with the manual scores.",
+      "leaf_id": "6398557eef0fde49857a",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 1909,
+      "end": 2065,
+      "score": 0.07030384998194615
+    },
+    {
+      "uid": "b4e32cf1631af1f11fa8",
+      "text": "Selecting informative terms from long queries results in more relevant documents and prevents query drift.",
+      "leaf_id": "6398557eef0fde49857a",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 2066,
+      "end": 2172,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "79e60c9f3b51be7dcc96",
+      "text": "Therefore, the overall similarity between the two summaries (candidate and the human written gold summary) is better captured.",
+      "leaf_id": "6398557eef0fde49857a",
+      "section_id": "73fa85fc8d365fd99d4c",
+      "start": 2173,
+      "end": 2299,
+      "score": 0.000295957113513077
+    },
+    {
+      "uid": "1627d22ce0a386b12a8d",
+      "text": "Another important observation is regarding the effectiveness of Rouge scores (top part of Table TABREF23 ).",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 0,
+      "end": 107,
+      "score": 0.079782013464093
+    },
+    {
+      "uid": "247328108956cf1e9c6c",
+      "text": "Interestingly, we observe that many variants of Rouge scores do not have high correlations with human pyramid scores.",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 108,
+      "end": 225,
+      "score": 0.9145963319978375
+    },
+    {
+      "uid": "1b8163a7dcfa010648d6",
+      "text": "The lowest F-score correlations are for Rouge-1 and Rouge-L (with INLINEFORM0 =0.454).",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 226,
+      "end": 312,
+      "score": 0.8810019911062638
+    },
+    {
+      "uid": "8fdf93e5576da8b6aedd",
+      "text": "Weak correlation of Rouge-1 shows that matching unigrams between the candidate summary and gold summaries is not accurate in quantifying the quality of the summary.",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 313,
+      "end": 477,
+      "score": 0.30404167496654744
+    },
+    {
+      "uid": "00dd3450fb90c0e6711a",
+      "text": "On higher order n-grams, however, we can see that Rouge correlates better with pyramid.",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 478,
+      "end": 565,
+      "score": 0.3627434324677321
+    },
+    {
+      "uid": "d64fdd220a1ecb6e799b",
+      "text": "In fact, the highest overall INLINEFORM1 is obtained by Rouge-3.",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 566,
+      "end": 630,
+      "score": 0.009859855303538787
+    },
+    {
+      "uid": "86ee491daa24d911ad02",
+      "text": "Rouge-L and its weighted version Rouge-W, both have weak correlations with pyramid.",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 631,
+      "end": 714,
+      "score": 0.296145107044059
+    },
+    {
+      "uid": "e3c97b6340c1e26ffcb4",
+      "text": "Skip-bigrams (Rouge-S) and its combination with unigrams (Rouge-SU) also show sub-optimal correlations.",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 715,
+      "end": 818,
+      "score": 0.36681652532515785
+    },
+    {
+      "uid": "870db42ee831c36a6e25",
+      "text": "Note that INLINEFORM2 and INLINEFORM3 correlations are more reliable in our setup due to the small sample size.",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 819,
+      "end": 930,
+      "score": 0.011869121046339474
+    },
+    {
+      "uid": "533a7717a6864e4dfce4",
+      "text": "These results confirm our initial hypothesis that Rouge is not accurate estimator of the quality of the summary in scientific summarization.",
+      "leaf_id": "84a8b32a357f97063d78",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 931,
+      "end": 1071,
+      "score": 0.02494025393741596
+    },
+    {
+      "uid": "9d29f8465369ca298d8c",
+      "text": "We attribute this to the differences of scientific summarization with general domain summaries.",
+      "leaf_id": "aca087bdb57df6f836be",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 1072,
+      "end": 1167,
+      "score": 8.547616611085637e-05
+    },
+    {
+      "uid": "68dfb48a91177688e8c4",
+      "text": "When humans summarize a relatively long research paper, they might use different terminology and paraphrasing.",
+      "leaf_id": "aca087bdb57df6f836be",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 1168,
+      "end": 1278,
+      "score": 2.6480843287604657e-05
+    },
+    {
+      "uid": "bee00bdcb8661ff0a77a",
+      "text": "Therefore, Rouge which only relies on term matching between a candidate and a gold summary, is not accurate in quantifying the quality of the candidate summary.",
+      "leaf_id": "aca087bdb57df6f836be",
+      "section_id": "f3a2fd78e44cd60e9f22",
+      "start": 1279,
+      "end": 1439,
+      "score": 0.009303949868393646
+    },
+    {
+      "uid": "a80467d2db45af3fa98b",
+      "text": "Table TABREF25 shows correlations of our metric Sera with Rouge-2 and Rouge-3, which are the highest correlated Rouge variants with pyramid.",
+      "leaf_id": "3c811f3639f74582ae41",
+      "section_id": "7b8d250eda5f042ba8bb",
+      "start": 0,
+      "end": 140,
+      "score": 0.9190632902163844
+    },
+    {
+      "uid": "38491544499a74b3a512",
+      "text": "We can see that in general, the correlation is not strong.",
+      "leaf_id": "3c811f3639f74582ae41",
+      "section_id": "7b8d250eda5f042ba8bb",
+      "start": 141,
+      "end": 199,
+      "score": 0.0009473089682583148
+    },
+    {
+      "uid": "0b946c30c558d8bd7f12",
+      "text": "Keyword based reduction variants are the only variants for which the correlation with Rouge is high.",
+      "leaf_id": "3c811f3639f74582ae41",
+      "section_id": "7b8d250eda5f042ba8bb",
+      "start": 200,
+      "end": 300,
+      "score": 0.9496693674025232
+    },
+    {
+      "uid": "ae2fba270a821112e4d1",
+      "text": "Looking at the correlations of KW variants of Sera with pyramid (Table TABREF23 , bottom part), we observe that these variants are also highly correlated with manual evaluation.",
+      "leaf_id": "3c811f3639f74582ae41",
+      "section_id": "7b8d250eda5f042ba8bb",
+      "start": 301,
+      "end": 478,
+      "score": 0.007999754508377907
+    },
+    {
+      "uid": "f1df4cba03e41e084580",
+      "text": "Finally, Figure FIGREF28 shows INLINEFORM0 correlation of different variants of Sera with pyramid based on selection of different cut-off points ( INLINEFORM1 and INLINEFORM2 correlations result in very similar graphs).",
+      "leaf_id": "d7e7e235bb12a9565d72",
+      "section_id": "026cc05ed20f10516d7a",
+      "start": 0,
+      "end": 219,
+      "score": 0.12210386546882637
+    },
+    {
+      "uid": "9fe15d0406f93d5e9820",
+      "text": "When the cut-off point increases, more documents are retrieved for the candidate and the gold summaries, and therefore the final Sera score is more fine-grained.",
+      "leaf_id": "d7e7e235bb12a9565d72",
+      "section_id": "026cc05ed20f10516d7a",
+      "start": 220,
+      "end": 381,
+      "score": 0.0004673480880780747
+    },
+    {
+      "uid": "10e3efc6e50cd8d2cee8",
+      "text": "A general observation is that as the search cut-off point increases, the correlation with pyramid scores decreases.",
+      "leaf_id": "d7e7e235bb12a9565d72",
+      "section_id": "026cc05ed20f10516d7a",
+      "start": 382,
+      "end": 497,
+      "score": 0.02128735179345105
+    },
+    {
+      "uid": "c0e90aeef0e333429c44",
+      "text": "This is because when the retrieved result list becomes larger, the probability of including less related documents increases which negatively affects correct estimation of the similarity of the candidate and gold summaries.",
+      "leaf_id": "d7e7e235bb12a9565d72",
+      "section_id": "026cc05ed20f10516d7a",
+      "start": 498,
+      "end": 721,
+      "score": 0.0002199533724320648
+    },
+    {
+      "uid": "641089b9275f4ea056f8",
+      "text": "The most accurate estimations are for metrics with cut-off points of 5 and 10 which are included in the reported results of all variants in Table TABREF23 .",
+      "leaf_id": "d7e7e235bb12a9565d72",
+      "section_id": "026cc05ed20f10516d7a",
+      "start": 722,
+      "end": 878,
+      "score": 0.005469274598698992
+    },
+    {
+      "uid": "ff1cfc82fdf686b06247",
+      "text": "Rouge BIBREF1 assesses the content quality of a candidate summary with respect to a set of human gold summaries based on their lexical overlaps.",
+      "leaf_id": "33530fdbe749a369b225",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 0,
+      "end": 144,
+      "score": 0.0028783480347663727
+    },
+    {
+      "uid": "ee62b84786f700f8c731",
+      "text": "Rouge consists of several variants.",
+      "leaf_id": "33530fdbe749a369b225",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 145,
+      "end": 180,
+      "score": 0.990216123982345
+    },
+    {
+      "uid": "390d5abbd2f9e0eaba00",
+      "text": "Since its introduction, Rouge has been one of the most widely reported metrics in the summarization literature, and its high adoption has been due to its high correlation with human assessment scores in DUC datasets BIBREF1 .",
+      "leaf_id": "33530fdbe749a369b225",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 181,
+      "end": 406,
+      "score": 0.5865820563873304
+    },
+    {
+      "uid": "ae81a02d770dc03294eb",
+      "text": "However, later research has casted doubts about the accuracy of Rouge against manual evaluations. conroy2008mind analyzed DUC 2005 to 2007 data and showed that while some systems achieve high Rouge scores with respect to human summaries, the linguistic and responsiveness scores of those systems do not correspond to the high Rouge scores.",
+      "leaf_id": "33530fdbe749a369b225",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 407,
+      "end": 746,
+      "score": 0.09585608228230953
+    },
+    {
+      "uid": "fdf614e9377d74c53406",
+      "text": "We studied the effectiveness of Rouge through correlation analysis with manual scores.",
+      "leaf_id": "33530fdbe749a369b225",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 747,
+      "end": 833,
+      "score": 0.23196200373110962
+    },
+    {
+      "uid": "40e51692a58f6bdf610e",
+      "text": "Besides correlation with human assessment scores, other approaches have been explored for analyzing the effectiveness of summarization evaluation.",
+      "leaf_id": "33530fdbe749a369b225",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 834,
+      "end": 980,
+      "score": 0.0027791905585136147
+    },
+    {
+      "uid": "bee57f28f526a46b0e88",
+      "text": "Rankel:2011 studied the extent to which a metric can distinguish between the human and system generated summaries.",
+      "leaf_id": "33530fdbe749a369b225",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 981,
+      "end": 1095,
+      "score": 2.526822782693578e-05
+    },
+    {
+      "uid": "7cd60b413eab387b2964",
+      "text": "They also proposed the use of paired two-sample t-tests and the Wilcoxon signed-rank test as an alternative to Rouge in evaluating several summarizers.",
+      "leaf_id": "ca1055eaeda194bfd3d8",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 1096,
+      "end": 1247,
+      "score": 0.03926875192716634
+    },
+    {
+      "uid": "d21d6cc6f4311b51d800",
+      "text": "Similarly, owczarzak2012assessment proposed the use of multiple binary significance tests between the system summaries for ranking the best summarizers.",
+      "leaf_id": "ca1055eaeda194bfd3d8",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 1248,
+      "end": 1400,
+      "score": 0.00019871553360735275
+    },
+    {
+      "uid": "98ed9962f018860294df",
+      "text": "Since introduction of Rouge, there have been other efforts for improving automatic summarization evaluation. hovy2006automated proposed an approach based on comparison of so called Basic Elements (BE) between the candidate and reference summaries.",
+      "leaf_id": "ca1055eaeda194bfd3d8",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 1401,
+      "end": 1648,
+      "score": 0.013742320495902368
+    },
+    {
+      "uid": "8de69a45c8b1cfacd748",
+      "text": "BEs were extracted based on syntactic structure of the sentence.",
+      "leaf_id": "ca1055eaeda194bfd3d8",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 1649,
+      "end": 1713,
+      "score": 4.98595821272702e-05
+    },
+    {
+      "uid": "7f2d72be76462b535a3f",
+      "text": "The work by conroy2011nouveau was another attempt for improving Rouge for update summarization which combined two different Rouge variants and showed higher correlations with manual judgments for TAC 2008 update summaries.",
+      "leaf_id": "ca1055eaeda194bfd3d8",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 1714,
+      "end": 1936,
+      "score": 0.8635067512697274
+    },
+    {
+      "uid": "8d87e8d3819f9af05703",
+      "text": "Apart from the content, other aspects of summarization such as linguistic quality have been also studied. pitler2010automatic evaluated a set of models based on syntactic features, language models and entity coherences for assessing the linguistic quality of the summaries.",
+      "leaf_id": "ca1055eaeda194bfd3d8",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 1937,
+      "end": 2210,
+      "score": 2.7969303025826768e-05
+    },
+    {
+      "uid": "c76405f2ddd54861fc07",
+      "text": "Machine translation evaluation metrics such as blue have also been compared and contrasted against Rouge BIBREF19 .",
+      "leaf_id": "4aabb25d0bf5dac6ebd5",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 2211,
+      "end": 2326,
+      "score": 0.018869254537334273
+    },
+    {
+      "uid": "1d08c65919dd1072dd8b",
+      "text": "Despite these works, when gold-standard summaries are available, Rouge is still the most common evaluation metric that is used in the summarization published research.",
+      "leaf_id": "4aabb25d0bf5dac6ebd5",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 2327,
+      "end": 2494,
+      "score": 0.015483987303625263
+    },
+    {
+      "uid": "7eee4da0a229309cf906",
+      "text": "Apart from Rouge's initial good results on the newswire data, the availability of the software and its efficient performance have further contributed to its popularity.",
+      "leaf_id": "4aabb25d0bf5dac6ebd5",
+      "section_id": "a940f84e416d0c83169f",
+      "start": 2495,
+      "end": 2663,
+      "score": 0.004022909935729149
+    },
+    {
+      "uid": "bffe8841a690997a8122",
+      "text": "We provided an analysis of existing evaluation metrics for scientific summarization with evaluation of all variants of Rouge.",
+      "leaf_id": "b189799decb0141929ed",
+      "section_id": "de463be0c2486611415f",
+      "start": 0,
+      "end": 125,
+      "score": 0.16545822406503086
+    },
+    {
+      "uid": "b9b88214f538d95e8406",
+      "text": "We showed that Rouge may not be the best metric for summarization evaluation; especially in summaries with high terminology variations and paraphrasing (e.g. scientific summaries).",
+      "leaf_id": "b189799decb0141929ed",
+      "section_id": "de463be0c2486611415f",
+      "start": 126,
+      "end": 306,
+      "score": 0.07211220541293051
+    },
+    {
+      "uid": "8a8ef676a282724a9f0a",
+      "text": "Furthermore, we showed that different variants of Rouge result in different correlation values with human judgments, indicating that not all Rouge scores are equally effective.",
+      "leaf_id": "b189799decb0141929ed",
+      "section_id": "de463be0c2486611415f",
+      "start": 307,
+      "end": 483,
+      "score": 0.9965435903319345
+    },
+    {
+      "uid": "6936c9d923650244a6a4",
+      "text": "Among all variants of Rouge, Rouge-2 and Rouge-3 are better correlated with manual judgments in the context of scientific summarization.",
+      "leaf_id": "b189799decb0141929ed",
+      "section_id": "de463be0c2486611415f",
+      "start": 484,
+      "end": 620,
+      "score": 0.9290551722572381
+    },
+    {
+      "uid": "9331b608353c13f900a0",
+      "text": "We furthermore proposed an alternative and more effective approach for scientific summarization evaluation (Summarization Evaluation by Relevance Analysis - Sera).",
+      "leaf_id": "b189799decb0141929ed",
+      "section_id": "de463be0c2486611415f",
+      "start": 621,
+      "end": 784,
+      "score": 3.1941819764587e-05
+    },
+    {
+      "uid": "b2eac203162ac7bef0d6",
+      "text": "Results revealed that in general, the proposed evaluation metric achieves higher correlations with semi-manual pyramid evaluation scores in comparison with Rouge.",
+      "leaf_id": "b189799decb0141929ed",
+      "section_id": "de463be0c2486611415f",
+      "start": 785,
+      "end": 947,
+      "score": 0.8714748610635069
+    },
+    {
+      "uid": "1bc618cbb21501c93e6b",
+      "text": "Our analysis on the effectiveness of evaluation measures for scientific summaries was performed using correlations with manual judgments.",
+      "leaf_id": "b189799decb0141929ed",
+      "section_id": "de463be0c2486611415f",
+      "start": 948,
+      "end": 1085,
+      "score": 0.001201891318511022
+    },
+    {
+      "uid": "41bc8c88834be55eb5fa",
+      "text": "An alternative approach to follow would be to use statistical significance testing on the ability of the metrics to distinguish between the summarizers (similar to Rankel:2011).",
+      "leaf_id": "776b64b6fab854aed0ec",
+      "section_id": "de463be0c2486611415f",
+      "start": 1086,
+      "end": 1263,
+      "score": 0.000302973407808812
+    },
+    {
+      "uid": "f1f39fccbb5322bfe597",
+      "text": "We studied the effectiveness of existing summarization evaluation metrics in the scientific text genre and proposed an alternative superior metric.",
+      "leaf_id": "776b64b6fab854aed0ec",
+      "section_id": "de463be0c2486611415f",
+      "start": 1264,
+      "end": 1411,
+      "score": 2.4682904407607285e-05
+    },
+    {
+      "uid": "1aeea00f15ab8aae8492",
+      "text": "Another extension of this work would be to evaluate automatic summarization evaluation in other genres of text (such as social media).",
+      "leaf_id": "776b64b6fab854aed0ec",
+      "section_id": "de463be0c2486611415f",
+      "start": 1412,
+      "end": 1546,
+      "score": 2.4876490010363496e-05
+    },
+    {
+      "uid": "3cb642aad16f31ebeb84",
+      "text": "Our proposed method only evaluates the content quality of the summary.",
+      "leaf_id": "776b64b6fab854aed0ec",
+      "section_id": "de463be0c2486611415f",
+      "start": 1547,
+      "end": 1617,
+      "score": 1.7640200515540418e-05
+    },
+    {
+      "uid": "120a0bccf4356d98a333",
+      "text": "Similar to most of existing summarization evaluation metrics, other qualities such as linguistic cohesion, coherence and readability are not captured by this method.",
+      "leaf_id": "776b64b6fab854aed0ec",
+      "section_id": "de463be0c2486611415f",
+      "start": 1618,
+      "end": 1783,
+      "score": 0.00024346046497898514
+    },
+    {
+      "uid": "0b5a2378954053c32ce9",
+      "text": "Developing metrics that also incorporate these qualities is yet another future direction to follow.",
+      "leaf_id": "776b64b6fab854aed0ec",
+      "section_id": "de463be0c2486611415f",
+      "start": 1784,
+      "end": 1883,
+      "score": 2.88571183887091e-05
+    },
+    {
+      "uid": "9d76b25a8f45ef087579",
+      "text": "We would like to thank all three anonymous reviewers for their feedback and comments, and Maryam Iranmanesh for helping in annotation.",
+      "leaf_id": "d4c2cd97e9d5ee0d9d53",
+      "section_id": "4f3f6d6e0e8947f6c5c0",
+      "start": 0,
+      "end": 134,
+      "score": 2.1782649863110498e-05
+    },
+    {
+      "uid": "99f9a34eb1fe5bfc2328",
+      "text": "This work was partially supported by National Science Foundation (NSF) through grant CNS-1204347.",
+      "leaf_id": "d4c2cd97e9d5ee0d9d53",
+      "section_id": "4f3f6d6e0e8947f6c5c0",
+      "start": 135,
+      "end": 232,
+      "score": 5.266206644227075e-05
+    }
+  ],
+  "prepare_seconds": 2.221464119851589,
+  "leaf_count": 40
+}

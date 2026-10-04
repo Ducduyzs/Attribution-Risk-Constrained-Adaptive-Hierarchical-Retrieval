@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "How were the clusters extracted?",
+        "citations": [
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides a clear method for extracting clusters using k-means clustering on word embeddings.",
+    "claims": [
+      {
+        "text": "Clusters were extracted using k-means clustering on word embeddings, initialized with 'k-means++' and run for 300 iterations.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 1263,
+    "total_tokens": 1358,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8381716000003507,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

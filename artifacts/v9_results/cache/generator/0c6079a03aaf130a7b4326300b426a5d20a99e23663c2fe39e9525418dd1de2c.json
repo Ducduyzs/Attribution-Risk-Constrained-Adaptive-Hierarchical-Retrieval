@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the types of pretrained word embeddings used in the system, including emoji embeddings and word vectors created from a Twitter dataset.",
+    "claims": [
+      {
+        "text": "The system used emoji embeddings learned from emoji descriptions.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Word vectors were created specifically using the Twitter dataset.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Emoji embeddings provided better results than plain GloVe and Edinburgh embeddings.",
+        "citations": [
+          "C13"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Embeddings for each tweet were obtained by summing individual word vectors.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 2235,
+    "total_tokens": 2384,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2779469000015524,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

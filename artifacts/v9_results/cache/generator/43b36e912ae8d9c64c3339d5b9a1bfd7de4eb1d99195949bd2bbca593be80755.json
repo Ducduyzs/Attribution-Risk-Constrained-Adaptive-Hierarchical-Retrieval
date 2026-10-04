@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "exploration of extraction from electronic health records",
+        "citations": [
+          "C1",
+          "C23"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the paper discusses the extraction of information from electronic health records as part of biomedical information extraction.",
+    "claims": [
+      {
+        "text": "The paper explores extraction from electronic health records as part of its focus on BioIE systems.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The NER system mentioned in the paper extracts medical problems, tests, and treatments from discharge summaries and progress notes, which are types of electronic health records.",
+        "citations": [
+          "C23"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 2457,
+    "total_tokens": 2598,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.208471499998268,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

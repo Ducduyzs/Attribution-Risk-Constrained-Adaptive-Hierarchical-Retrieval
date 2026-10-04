@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that various baselines were tested, including a majority-class baseline and different feature sets for SVM models, which were compared against the neural baseline.",
+    "claims": [
+      {
+        "text": "Other baselines were tested, including a majority-class baseline and SVM models with different feature sets.",
+        "citations": [
+          "C3",
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The best performing BERT variant was compared against the NA model and human performance.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 1236,
+    "total_tokens": 1349,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8170016999974905,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

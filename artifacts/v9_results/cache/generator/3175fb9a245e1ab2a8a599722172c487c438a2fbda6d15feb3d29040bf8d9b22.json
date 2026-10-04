@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The dataset was collected through a systematic methodology involving voice recordings from multiple contributors who read from a bank of donated sentences, ensuring diversity in speakers and accents.",
+    "claims": [
+      {
+        "text": "The dataset was created by contributors recording voice clips from a bank of donated sentences.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Each voice clip was validated by at least two other users to ensure quality.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset includes recordings from over 11,000 speakers with various accents and demographics.",
+        "citations": [
+          "C1",
+          "C9"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 719,
+    "total_tokens": 857,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4850522999986424,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

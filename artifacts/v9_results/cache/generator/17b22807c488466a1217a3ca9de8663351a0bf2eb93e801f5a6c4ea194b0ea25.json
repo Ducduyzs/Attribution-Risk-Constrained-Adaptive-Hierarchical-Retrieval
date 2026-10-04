@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence mentions the Stochastic Answer Network (SAN) as a state-of-the-art model and implies comparisons with other models through its competitive results on the SQuAD 2.0 dataset.",
+    "claims": [
+      {
+        "text": "The Stochastic Answer Network (SAN) is compared to other state-of-the-art machine reading comprehension models.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The SAN model achieves competitive results on the Stanford Question Answering Dataset (SQuAD) 2.0, indicating comparisons with other models evaluated on the same dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 681,
+    "total_tokens": 817,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7637209999993502,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

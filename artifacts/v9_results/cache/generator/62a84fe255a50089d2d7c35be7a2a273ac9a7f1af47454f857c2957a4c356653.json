@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "dataset used",
+        "citations": [
+          "C1",
+          "C4",
+          "C7"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies that the dataset used is derived from Twitter, which is indicated in multiple contexts.",
+    "claims": [
+      {
+        "text": "The dataset used is derived from Twitter data, which includes tweets and associated metadata.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The system combines various features extracted from the Twitter dataset to estimate emotion intensity.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The training and evaluation involved a small dev dataset from the competition, which was merged with the training set for cross-validation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1858,
+    "total_tokens": 2014,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.081952500000625,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

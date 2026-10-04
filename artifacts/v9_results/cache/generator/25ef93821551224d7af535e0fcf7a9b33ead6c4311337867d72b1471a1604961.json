@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Were other baselines tested to compare with the neural baseline?",
+        "citations": [
+          "C3",
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that comparisons were made between the neural baseline and other models, including a majority-class baseline and a NA model.",
+    "claims": [
+      {
+        "text": "Other baselines were tested, including a majority-class baseline and the NA model.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 856,
+    "total_tokens": 959,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.452665500000876,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

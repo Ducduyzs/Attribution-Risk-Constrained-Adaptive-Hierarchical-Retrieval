@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the use of emoji embeddings and word vectors created from a Twitter dataset as the pretrained word embeddings.",
+    "claims": [
+      {
+        "text": "Emoji embeddings learned from emoji descriptions were used.",
+        "citations": [
+          "C2",
+          "C13"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Word vectors specifically created using the Twitter dataset were utilized.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 1240,
+    "total_tokens": 1327,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7163507000004756,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

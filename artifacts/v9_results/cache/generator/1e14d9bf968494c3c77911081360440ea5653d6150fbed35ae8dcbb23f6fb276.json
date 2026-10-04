@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific language pairs explored in the context of Neural Machine Translation (NMT) and multilingual NMT (MNMT).",
+    "claims": [
+      {
+        "text": "The explored language pairs include Arabic, Spanish, and Russian, which allow for six zero-shot translation directions among them.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "In the Europarl corpus, the language pairs evaluated are French-English-Spanish, German-English-French, and Romanian-English-German.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The distant language pair explored is Romanian to German (Ro→De).",
+        "citations": [
+          "C14"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1220,
+    "total_tokens": 1370,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7937063000026683,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

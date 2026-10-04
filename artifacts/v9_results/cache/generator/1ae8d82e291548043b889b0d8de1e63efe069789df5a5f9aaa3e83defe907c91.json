@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that multiple baselines were tested for answerability identification, including SVM and CNN models, which were compared against a majority-class baseline.",
+    "claims": [
+      {
+        "text": "Three baselines were tested for answerability identification, including SVM and CNN models, which improved performance over a majority-class baseline.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The results show that the best-performing baseline, Bert + Unanswerable, achieved an F1 score of 39.8, indicating the effectiveness of the tested baselines.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study establishes baselines for the subtask of deciding on the answerability of a question, indicating that various methods were compared.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 1138,
+    "total_tokens": 1312,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.043526199999178,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

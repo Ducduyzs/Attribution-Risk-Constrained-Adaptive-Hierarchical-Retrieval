@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the dataset collection methodology, including the types of data collected and the validation process.",
+    "claims": [
+      {
+        "text": "The dataset was created by collecting (speech, transcript, English translation) triplets for five languages, ensuring that only data with valid URLs and CC licenses were included.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Samples with low scores were manually inspected and sent back for translation when needed, ensuring quality control in the dataset.",
+        "citations": [
+          "C3",
+          "C16"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset includes additional evaluation data derived from Tatoeba, which contributes to its diversity and robustness.",
+        "citations": [
+          "C5",
+          "C17"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 1238,
+    "total_tokens": 1398,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8013836999998603,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

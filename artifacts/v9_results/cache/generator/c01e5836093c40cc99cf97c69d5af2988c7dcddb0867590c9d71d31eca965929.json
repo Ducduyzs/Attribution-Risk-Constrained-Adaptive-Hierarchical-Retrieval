@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific baseline methods used in the context of sentiment classification, including NaiveNN, FANN, and others, along with their characteristics and comparisons.",
+    "claims": [
+      {
+        "text": "Baseline methods include NaiveNN, FANN, and a non-domain-adaptive baseline with bag-of-words representations and SVM classifier.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "NaiveNN is a non-domain-adaptive CNN trained on the source domain, while FANN is another baseline method mentioned.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Other baseline methods include mSDA, AuxNN, and ADAN, which utilize different techniques for sentiment classification.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 1114,
+    "total_tokens": 1288,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8624156000005314,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

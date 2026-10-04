@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The quality of the data is empirically evaluated through various methods including BLEU scores, sanity checks, and manual inspections of low-scoring samples.",
+    "claims": [
+      {
+        "text": "The quality of the data is evaluated using BLEU scores, which provide a normalized quality score for translations.",
+        "citations": [
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Sanity checks are applied to ensure the quality of professional translations, and low-scoring samples are manually inspected.",
+        "citations": [
+          "C5",
+          "C11"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation also considers model output variance across different speakers to assess stability and quality.",
+        "citations": [
+          "C10",
+          "C13"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 1245,
+    "total_tokens": 1399,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7576557000029425,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

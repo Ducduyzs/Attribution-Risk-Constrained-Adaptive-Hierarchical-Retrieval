@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "average length of dialog",
+        "citations": [
+          "C1",
+          "C3",
+          "C4"
+        ]
+      }
+    ],
+    "answerable": false,
+    "reason": "The evidence does not provide specific information about the average length of dialogs in terms of turns or words.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1913,
+    "total_tokens": 1971,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2240353000015602,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

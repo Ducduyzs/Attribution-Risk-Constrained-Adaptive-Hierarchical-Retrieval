@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "evaluation criteria",
+        "citations": [
+          "C1",
+          "C3"
+        ]
+      },
+      {
+        "requirement": "metrics used",
+        "citations": [
+          "C2",
+          "C3"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific evaluation criteria and metrics used for evaluating the generated text, including the word error rate (WER) and BLEU score.",
+    "claims": [
+      {
+        "text": "The evaluation criteria include comparing generated text against existing reference text using gold standard event selection.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Metrics used for evaluation include word error rate (WER) and BLEU score.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 785,
+    "total_tokens": 929,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9154540999988967,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

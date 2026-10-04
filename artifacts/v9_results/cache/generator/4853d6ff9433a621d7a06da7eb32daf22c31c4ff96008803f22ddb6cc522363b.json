@@ -1,0 +1,58 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "List of languages in the corpus",
+        "citations": [
+          "C1",
+          "C4",
+          "C5"
+        ]
+      },
+      {
+        "requirement": "Additional languages from Tatoeba corpus",
+        "citations": [
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific information about the languages included in the CoVoST corpus and the additional Tatoeba corpus.",
+    "claims": [
+      {
+        "text": "The CoVoST corpus includes 11 languages for speech-to-text translation into English.",
+        "citations": [
+          "C1",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Tatoeba evaluation corpus includes French, German, Dutch, Russian, and Spanish.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 831,
+    "total_tokens": 984,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8426896000019042,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

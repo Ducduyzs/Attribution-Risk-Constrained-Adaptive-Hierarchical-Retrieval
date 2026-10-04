@@ -1,0 +1,80 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "previously reported results on speculation detection and scope resolution",
+        "citations": [
+          "C1",
+          "C3",
+          "C4",
+          "C7"
+        ]
+      },
+      {
+        "requirement": "comparison of models used",
+        "citations": [
+          "C1",
+          "C8"
+        ]
+      },
+      {
+        "requirement": "improvements over previous results",
+        "citations": [
+          "C1",
+          "C6"
+        ]
+      },
+      {
+        "requirement": "specific metrics of improvement",
+        "citations": [
+          "C1"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific previously reported results, comparisons of models, and metrics of improvement in speculation detection and scope resolution tasks.",
+    "claims": [
+      {
+        "text": "Previous work on speculation detection and scope resolution reported substantial improvements, with at least 0.29 F1 points on cue detection and 4.27 F1 points on scope resolution.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "XLNet consistently outperforms BERT and RoBERTa in speculation detection and scope resolution tasks, contrary to results on other benchmark datasets.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The application of transformer-based architectures has led to state-of-the-art results in negation scope resolution on multiple datasets.",
+        "citations": [
+          "C3",
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 264,
+    "prompt_tokens": 1949,
+    "total_tokens": 2213,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.0058137999985775,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

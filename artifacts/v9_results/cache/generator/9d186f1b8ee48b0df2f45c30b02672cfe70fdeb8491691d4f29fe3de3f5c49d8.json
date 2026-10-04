@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific baseline methods used for comparison in the study, detailing their characteristics and approaches.",
+    "claims": [
+      {
+        "text": "The baseline methods include: (1) Naive: a non-domain-adaptive SVM classifier; (2) mSDA: a state-of-the-art method using discrete features; (3) NaiveNN: a non-domain-adaptive CNN; (4) AuxNN: a neural model using auxiliary tasks; (5) ADAN: a method using adversarial training; (6) MMD: a method minimizing domain discrepancy.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 1748,
+    "total_tokens": 1883,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 2.356669200002216,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

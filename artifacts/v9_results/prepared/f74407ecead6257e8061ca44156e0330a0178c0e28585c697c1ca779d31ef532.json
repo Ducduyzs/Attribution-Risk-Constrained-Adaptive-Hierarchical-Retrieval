@@ -1,0 +1,2334 @@
+{
+  "question_id": "abe2393415e533cb06311e74ed1c5674cff8571f",
+  "source": "1910.01863.qasper",
+  "query": "What evaluation criteria and metrics were used to evaluate the generated text?",
+  "rankings": {
+    "flat24": [
+      [
+        "bcd2ea224e90ca5b2fec",
+        0.8586000649731023
+      ],
+      [
+        "d850af2d8ef81f9b6a90",
+        0.7049732336450086
+      ],
+      [
+        "31cfaa35fc084970dc45",
+        0.7008948097542927
+      ],
+      [
+        "9e5b0fcd3ba8f6cf6817",
+        0.48629341299457157
+      ],
+      [
+        "6334463fce20f54a2981",
+        0.3231664610482007
+      ],
+      [
+        "727b6bfd6acec62c325a",
+        0.25870037155727854
+      ],
+      [
+        "8d9120bbf05a1566ed8a",
+        0.21551580330224446
+      ],
+      [
+        "63df31fea83656111213",
+        0.16251290542519845
+      ],
+      [
+        "7ba0281deaefd0d69fbb",
+        0.159348181368402
+      ],
+      [
+        "c640f72410b576db74c5",
+        0.15456732837004417
+      ],
+      [
+        "b5967631d69378a64cea",
+        0.14151853709179776
+      ],
+      [
+        "fe34a1230678260d4409",
+        0.08632347658627028
+      ],
+      [
+        "7c488ed1ae0b4763fed9",
+        0.08093670978361556
+      ],
+      [
+        "a6be5f0b1e1d04ed49d4",
+        0.05051766972248091
+      ],
+      [
+        "9bf5baa32e08efbf26d7",
+        0.04320403592344244
+      ],
+      [
+        "11edab6dca914f412901",
+        0.024376596921102237
+      ],
+      [
+        "2365b880536be5e1ba09",
+        0.02396202403950535
+      ],
+      [
+        "62b8d7d2d335c65e29f2",
+        0.021328081660092035
+      ],
+      [
+        "a80ee9dc1f77a083962b",
+        0.019382191201735868
+      ],
+      [
+        "ae5eb1ad77b34ed3245e",
+        0.016340128093601535
+      ],
+      [
+        "6b755fdc16f68483092c",
+        0.013955710398273338
+      ],
+      [
+        "e77b94782ae47b6ee92e",
+        0.011869121046339474
+      ],
+      [
+        "bd382e6e8f3c820ac800",
+        0.001761469680073981
+      ],
+      [
+        "e9960dd8826176618b01",
+        4.331903899346328e-05
+      ]
+    ],
+    "all_leaf": [
+      [
+        "bcd2ea224e90ca5b2fec",
+        0.8586000649731023
+      ],
+      [
+        "d850af2d8ef81f9b6a90",
+        0.7049732336450086
+      ],
+      [
+        "31cfaa35fc084970dc45",
+        0.7008948097542927
+      ],
+      [
+        "9e5b0fcd3ba8f6cf6817",
+        0.48629341299457157
+      ],
+      [
+        "6334463fce20f54a2981",
+        0.3231664610482007
+      ],
+      [
+        "727b6bfd6acec62c325a",
+        0.25870037155727854
+      ],
+      [
+        "8d9120bbf05a1566ed8a",
+        0.21551580330224446
+      ],
+      [
+        "63df31fea83656111213",
+        0.16251290542519845
+      ],
+      [
+        "7ba0281deaefd0d69fbb",
+        0.159348181368402
+      ],
+      [
+        "c640f72410b576db74c5",
+        0.15456732837004417
+      ],
+      [
+        "b5967631d69378a64cea",
+        0.14151853709179776
+      ],
+      [
+        "fe34a1230678260d4409",
+        0.08632347658627028
+      ],
+      [
+        "7c488ed1ae0b4763fed9",
+        0.08093670978361556
+      ],
+      [
+        "a6be5f0b1e1d04ed49d4",
+        0.05051766972248091
+      ],
+      [
+        "9bf5baa32e08efbf26d7",
+        0.04320403592344244
+      ],
+      [
+        "11edab6dca914f412901",
+        0.024376596921102237
+      ],
+      [
+        "2365b880536be5e1ba09",
+        0.02396202403950535
+      ],
+      [
+        "62b8d7d2d335c65e29f2",
+        0.021328081660092035
+      ],
+      [
+        "a80ee9dc1f77a083962b",
+        0.019382191201735868
+      ],
+      [
+        "ae5eb1ad77b34ed3245e",
+        0.016340128093601535
+      ],
+      [
+        "6b755fdc16f68483092c",
+        0.013955710398273338
+      ],
+      [
+        "e77b94782ae47b6ee92e",
+        0.011869121046339474
+      ],
+      [
+        "ff3d7546ce9cfcf4a83a",
+        0.011375600238837661
+      ],
+      [
+        "7967836abea694fe2895",
+        0.011288073899230987
+      ],
+      [
+        "bef3cb0afecec3e41664",
+        0.007755536780847567
+      ],
+      [
+        "e6895c843fd035d3cc13",
+        0.007093861878911533
+      ],
+      [
+        "b5c813fbcf818ca13316",
+        0.0041824941855914755
+      ],
+      [
+        "4d7062b63bb09924652b",
+        0.0019418168866865047
+      ],
+      [
+        "28aac39d14b6e1b54354",
+        0.0019043302713475422
+      ],
+      [
+        "399ef2ad122801ceeec2",
+        0.0018969200744787136
+      ],
+      [
+        "86c3383f6adf98f58f8b",
+        0.001775260532105842
+      ],
+      [
+        "bd382e6e8f3c820ac800",
+        0.001761469680073981
+      ],
+      [
+        "39bcd2ab0eb436688f8b",
+        0.0012793074828344202
+      ],
+      [
+        "3d48a06e9422cb24e95c",
+        0.00039204178923762814
+      ],
+      [
+        "296ffd49b9e6da2a256c",
+        0.00010554685795431097
+      ],
+      [
+        "18f8cbcee6f97350da25",
+        8.888084683809127e-05
+      ],
+      [
+        "82597f015c3286a5f93a",
+        7.14190139989638e-05
+      ],
+      [
+        "e9960dd8826176618b01",
+        4.331903899346328e-05
+      ],
+      [
+        "a9151e84e8a785560fe3",
+        1.9988918976691774e-05
+      ]
+    ],
+    "contextual24": [
+      [
+        "bcd2ea224e90ca5b2fec",
+        0.8682692948106071
+      ],
+      [
+        "31cfaa35fc084970dc45",
+        0.8464508271169839
+      ],
+      [
+        "d850af2d8ef81f9b6a90",
+        0.7994423202552038
+      ],
+      [
+        "9e5b0fcd3ba8f6cf6817",
+        0.755276170890018
+      ],
+      [
+        "11edab6dca914f412901",
+        0.6968874077473479
+      ],
+      [
+        "7ba0281deaefd0d69fbb",
+        0.6743722375633308
+      ],
+      [
+        "b5967631d69378a64cea",
+        0.6424324776295582
+      ],
+      [
+        "63df31fea83656111213",
+        0.6257812047080221
+      ],
+      [
+        "9bf5baa32e08efbf26d7",
+        0.5825504161144173
+      ],
+      [
+        "62b8d7d2d335c65e29f2",
+        0.5223087871161197
+      ],
+      [
+        "6334463fce20f54a2981",
+        0.5094440670956828
+      ],
+      [
+        "6b755fdc16f68483092c",
+        0.47726483368050104
+      ],
+      [
+        "727b6bfd6acec62c325a",
+        0.40751022812931703
+      ],
+      [
+        "fe34a1230678260d4409",
+        0.36161547662615057
+      ],
+      [
+        "8d9120bbf05a1566ed8a",
+        0.24006124795898492
+      ],
+      [
+        "a80ee9dc1f77a083962b",
+        0.23917159840433075
+      ],
+      [
+        "a6be5f0b1e1d04ed49d4",
+        0.21060390701715972
+      ],
+      [
+        "c640f72410b576db74c5",
+        0.1889218077855725
+      ],
+      [
+        "7c488ed1ae0b4763fed9",
+        0.1046602022614084
+      ],
+      [
+        "ae5eb1ad77b34ed3245e",
+        0.04922211319719861
+      ],
+      [
+        "bd382e6e8f3c820ac800",
+        0.031202817916324066
+      ],
+      [
+        "2365b880536be5e1ba09",
+        0.02025469056473905
+      ],
+      [
+        "e77b94782ae47b6ee92e",
+        0.01945657498229099
+      ],
+      [
+        "e9960dd8826176618b01",
+        0.019271137919768803
+      ]
+    ],
+    "contextual_all": [
+      [
+        "bcd2ea224e90ca5b2fec",
+        0.8682692948106071
+      ],
+      [
+        "31cfaa35fc084970dc45",
+        0.8464508271169839
+      ],
+      [
+        "d850af2d8ef81f9b6a90",
+        0.7994423202552038
+      ],
+      [
+        "9e5b0fcd3ba8f6cf6817",
+        0.755276170890018
+      ],
+      [
+        "11edab6dca914f412901",
+        0.6968874077473479
+      ],
+      [
+        "7ba0281deaefd0d69fbb",
+        0.6743722375633308
+      ],
+      [
+        "b5967631d69378a64cea",
+        0.6424324776295582
+      ],
+      [
+        "63df31fea83656111213",
+        0.6257812047080221
+      ],
+      [
+        "9bf5baa32e08efbf26d7",
+        0.5825504161144173
+      ],
+      [
+        "62b8d7d2d335c65e29f2",
+        0.5223087871161197
+      ],
+      [
+        "6334463fce20f54a2981",
+        0.5094440670956828
+      ],
+      [
+        "6b755fdc16f68483092c",
+        0.47726483368050104
+      ],
+      [
+        "727b6bfd6acec62c325a",
+        0.40751022812931703
+      ],
+      [
+        "fe34a1230678260d4409",
+        0.36161547662615057
+      ],
+      [
+        "8d9120bbf05a1566ed8a",
+        0.24006124795898492
+      ],
+      [
+        "a80ee9dc1f77a083962b",
+        0.23917159840433075
+      ],
+      [
+        "a6be5f0b1e1d04ed49d4",
+        0.21060390701715972
+      ],
+      [
+        "c640f72410b576db74c5",
+        0.1889218077855725
+      ],
+      [
+        "7c488ed1ae0b4763fed9",
+        0.1046602022614084
+      ],
+      [
+        "28aac39d14b6e1b54354",
+        0.08299414835226906
+      ],
+      [
+        "ae5eb1ad77b34ed3245e",
+        0.04922211319719861
+      ],
+      [
+        "7967836abea694fe2895",
+        0.0374675068985736
+      ],
+      [
+        "3d48a06e9422cb24e95c",
+        0.03608394261296688
+      ],
+      [
+        "bd382e6e8f3c820ac800",
+        0.031202817916324066
+      ],
+      [
+        "ff3d7546ce9cfcf4a83a",
+        0.027480692809582097
+      ],
+      [
+        "2365b880536be5e1ba09",
+        0.02025469056473905
+      ],
+      [
+        "e77b94782ae47b6ee92e",
+        0.01945657498229099
+      ],
+      [
+        "e9960dd8826176618b01",
+        0.019271137919768803
+      ],
+      [
+        "e6895c843fd035d3cc13",
+        0.008251598569085517
+      ],
+      [
+        "bef3cb0afecec3e41664",
+        0.006930671656746301
+      ],
+      [
+        "86c3383f6adf98f58f8b",
+        0.006877107658230662
+      ],
+      [
+        "b5c813fbcf818ca13316",
+        0.005888159475804548
+      ],
+      [
+        "4d7062b63bb09924652b",
+        0.004718369255027519
+      ],
+      [
+        "296ffd49b9e6da2a256c",
+        0.0024154832575663415
+      ],
+      [
+        "39bcd2ab0eb436688f8b",
+        0.0020992734296664648
+      ],
+      [
+        "399ef2ad122801ceeec2",
+        0.001700722411435288
+      ],
+      [
+        "82597f015c3286a5f93a",
+        0.0012448433020883745
+      ],
+      [
+        "18f8cbcee6f97350da25",
+        0.00019871553360735275
+      ],
+      [
+        "a9151e84e8a785560fe3",
+        0.0001647465607888151
+      ]
+    ],
+    "raptor": [
+      [
+        "bcd2ea224e90ca5b2fec",
+        0.8586000649731023
+      ],
+      [
+        "d850af2d8ef81f9b6a90",
+        0.7049732336450086
+      ],
+      [
+        "31cfaa35fc084970dc45",
+        0.7008948097542927
+      ],
+      [
+        "9e5b0fcd3ba8f6cf6817",
+        0.48629341299457157
+      ],
+      [
+        "6334463fce20f54a2981",
+        0.3231664610482007
+      ],
+      [
+        "8d9120bbf05a1566ed8a",
+        0.21551580330224446
+      ],
+      [
+        "7ba0281deaefd0d69fbb",
+        0.159348181368402
+      ],
+      [
+        "c640f72410b576db74c5",
+        0.15456732837004417
+      ],
+      [
+        "b5967631d69378a64cea",
+        0.14151853709179776
+      ],
+      [
+        "11edab6dca914f412901",
+        0.024376596921102237
+      ]
+    ]
+  },
+  "initial_ids": [
+    "6334463fce20f54a2981",
+    "31cfaa35fc084970dc45",
+    "9e5b0fcd3ba8f6cf6817",
+    "d850af2d8ef81f9b6a90",
+    "7ba0281deaefd0d69fbb",
+    "bcd2ea224e90ca5b2fec",
+    "c640f72410b576db74c5",
+    "fe34a1230678260d4409",
+    "62b8d7d2d335c65e29f2",
+    "a6be5f0b1e1d04ed49d4",
+    "7c488ed1ae0b4763fed9",
+    "9bf5baa32e08efbf26d7",
+    "b5967631d69378a64cea",
+    "a80ee9dc1f77a083962b",
+    "727b6bfd6acec62c325a",
+    "ae5eb1ad77b34ed3245e",
+    "63df31fea83656111213",
+    "6b755fdc16f68483092c",
+    "11edab6dca914f412901",
+    "8d9120bbf05a1566ed8a",
+    "bd382e6e8f3c820ac800",
+    "2365b880536be5e1ba09",
+    "e77b94782ae47b6ee92e",
+    "e9960dd8826176618b01",
+    "ff3d7546ce9cfcf4a83a",
+    "28aac39d14b6e1b54354",
+    "3d48a06e9422cb24e95c",
+    "7967836abea694fe2895",
+    "b5c813fbcf818ca13316",
+    "e6895c843fd035d3cc13",
+    "39bcd2ab0eb436688f8b",
+    "4d7062b63bb09924652b",
+    "86c3383f6adf98f58f8b",
+    "399ef2ad122801ceeec2",
+    "bef3cb0afecec3e41664",
+    "82597f015c3286a5f93a",
+    "a9151e84e8a785560fe3",
+    "296ffd49b9e6da2a256c",
+    "18f8cbcee6f97350da25"
+  ],
+  "sentences": [
+    {
+      "uid": "61b047f76a08effba539",
+      "text": "News articles such as sports game reports are often thought to closely follow the underlying game statistics, but in practice they contain a notable amount of background knowledge, interpretation, insight into the game, and quotes that are not present in the official statistics.",
+      "leaf_id": "9bf5baa32e08efbf26d7",
+      "section_id": "7ec5cea358368af54b9b",
+      "start": 0,
+      "end": 279,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "4f5d260d0ec458de2df8",
+      "text": "This poses a challenge for automated data-to-text news generation with real-world news corpora as training data.",
+      "leaf_id": "9bf5baa32e08efbf26d7",
+      "section_id": "7ec5cea358368af54b9b",
+      "start": 280,
+      "end": 392,
+      "score": 0.0021657671990027
+    },
+    {
+      "uid": "d27b72957ecce8cf1185",
+      "text": "We report on the development of a corpus of Finnish ice hockey news, edited to be suitable for training of end-to-end news generation methods, as well as demonstrate generation of text, which was judged by journalists to be relatively close to a viable product.",
+      "leaf_id": "9bf5baa32e08efbf26d7",
+      "section_id": "7ec5cea358368af54b9b",
+      "start": 393,
+      "end": 654,
+      "score": 0.025565213923269593
+    },
+    {
+      "uid": "66fcde54c8ae8fe6b658",
+      "text": "The new dataset and system source code are available for research purposes at this https URL.",
+      "leaf_id": "9bf5baa32e08efbf26d7",
+      "section_id": "7ec5cea358368af54b9b",
+      "start": 655,
+      "end": 748,
+      "score": 2.840974294610978e-05
+    },
+    {
+      "uid": "2509361e8d7facd17beb",
+      "text": "Automated, or robotic, journalism aims at news generation from structured data sources, either as the final product or as a draft for subsequent post-editing.",
+      "leaf_id": "2365b880536be5e1ba09",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 0,
+      "end": 158,
+      "score": 0.001206589712246389
+    },
+    {
+      "uid": "1ed5aaddbfce45a557be",
+      "text": "At present, automated journalism typically focuses on domains such as sports, finance and similar statistics-based reporting, where there is a commercial product potential due to the high volume of news, combined with the expectation of a relatively straightforward task.",
+      "leaf_id": "2365b880536be5e1ba09",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 159,
+      "end": 430,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "9981697d41303951f205",
+      "text": "News generation systems—especially those deployed in practice—tend to be based on intricate template filling, aiming to give the users the full control of the generated facts, while maintaining a reasonable variability of the resulting text.",
+      "leaf_id": "2365b880536be5e1ba09",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 431,
+      "end": 672,
+      "score": 0.022158869355977103
+    },
+    {
+      "uid": "d1817c4662815b488e2a",
+      "text": "This comes at the price of having to develop the templates and specify their control logic, neither of which are tasks naturally fitting journalists' work.",
+      "leaf_id": "2365b880536be5e1ba09",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 673,
+      "end": 828,
+      "score": 1.8631746484712008e-05
+    },
+    {
+      "uid": "a7a56bbc2df2c0f6e94c",
+      "text": "Further, this development needs to be repeated for every domain, as the templates are not easily transferred across domains.",
+      "leaf_id": "2365b880536be5e1ba09",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 829,
+      "end": 953,
+      "score": 4.4001184579253026e-05
+    },
+    {
+      "uid": "a6fb79ded8a22bbe7f0e",
+      "text": "Examples of the template-based news generation systems for Finnish are Voitto by the Finnish Public Service Broadcasting Company (YLE) used for sports news generation, as well as Vaalibotti BIBREF0, a hybrid machine learning and template-based system used for election news.",
+      "leaf_id": "e6895c843fd035d3cc13",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 954,
+      "end": 1228,
+      "score": 0.00012339457598623172
+    },
+    {
+      "uid": "1ef95d29474a0c67ae2b",
+      "text": "BIBREF1 suggested a neural template generation, which jointly models latent templates and text generation.",
+      "leaf_id": "e6895c843fd035d3cc13",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 1229,
+      "end": 1335,
+      "score": 0.006850480026644968
+    },
+    {
+      "uid": "224794bb756916099599",
+      "text": "Such a system increases interpretability and controllability of the generation, however, recent sequence-to-sequence systems represent the state-of-the-art in data-to-text generation.",
+      "leaf_id": "e6895c843fd035d3cc13",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 1336,
+      "end": 1519,
+      "score": 0.012147170099805137
+    },
+    {
+      "uid": "72f067d397a92ce72644",
+      "text": "BIBREF2 In this paper, we report on the development of a news generation system for the Finnish ice hockey news domain, based on sequence-to-sequence methods.",
+      "leaf_id": "e6895c843fd035d3cc13",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 1520,
+      "end": 1678,
+      "score": 0.00015236754767429124
+    },
+    {
+      "uid": "04838de60a960aa2cc9c",
+      "text": "In order to train such a system, we compile a corpus of news based on over 2000 game reports from the Finnish News Agency STT.",
+      "leaf_id": "e6895c843fd035d3cc13",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 1679,
+      "end": 1805,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "eb9b01ca1f66587f268f",
+      "text": "While developing this corpus into a form suitable for training of end-to-end systems naturally requires manual effort, we argue that compiling and refining a set of text examples is a more natural way for journalists to interact with the system, in order for them to codify their knowledge and to adapt it for new domains.",
+      "leaf_id": "a80ee9dc1f77a083962b",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 1806,
+      "end": 2128,
+      "score": 0.0002216781056925593
+    },
+    {
+      "uid": "222225a563056292e401",
+      "text": "Our aim is to generate reports that give an overview of a game based on information inferrable from the statistics.",
+      "leaf_id": "a80ee9dc1f77a083962b",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 2129,
+      "end": 2244,
+      "score": 2.7535691114583473e-05
+    },
+    {
+      "uid": "4b5d6455169eef389185",
+      "text": "Such reports can be used either as a basis for further post-editing by a journalist imprinting own insights and background information, or even used directly as a news stream labelled as machine-generated.",
+      "leaf_id": "a80ee9dc1f77a083962b",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 2245,
+      "end": 2450,
+      "score": 0.0016678823271748684
+    },
+    {
+      "uid": "ddc91eb4890379e184c8",
+      "text": "In the following, we will introduce the news dataset and the process of its creation, introduce an end-to-end model for news generation, and evaluate its output respective to the abovementioned objectives.",
+      "leaf_id": "a80ee9dc1f77a083962b",
+      "section_id": "d19b791af07a4fd7bb99",
+      "start": 2451,
+      "end": 2656,
+      "score": 0.007547923375900623
+    },
+    {
+      "uid": "ae96ec7576300de8277a",
+      "text": "An ice hockey game is recorded into statistics in terms of different events occurring during play, such as goals and penalties.",
+      "leaf_id": "399ef2ad122801ceeec2",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 0,
+      "end": 127,
+      "score": 1.7917988275182845e-05
+    },
+    {
+      "uid": "a884ac7b70ad97353cb4",
+      "text": "In order to train a model to generate game reports, we need access to these events, as well as example news articles about the game.",
+      "leaf_id": "399ef2ad122801ceeec2",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 128,
+      "end": 260,
+      "score": 3.508111586796275e-05
+    },
+    {
+      "uid": "be8c558c08a836bf7bc9",
+      "text": "Only recently have game statistics become available to the public through a web interface or API, whereas the information has traditionally been recorded as structured text files.",
+      "leaf_id": "399ef2ad122801ceeec2",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 261,
+      "end": 440,
+      "score": 3.5356250741744315e-05
+    },
+    {
+      "uid": "2059980536352a42026c",
+      "text": "The news corpus from the Finnish News Agency STT includes, among all other news, articles covering ice hockey games in the Finnish leagues during the years 1994–2018.",
+      "leaf_id": "399ef2ad122801ceeec2",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 441,
+      "end": 607,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "61dd3cd2e815db248764",
+      "text": "In addition to news articles, the corpus also includes the original game statistics text files.",
+      "leaf_id": "399ef2ad122801ceeec2",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 608,
+      "end": 703,
+      "score": 2.4111139329084935e-05
+    },
+    {
+      "uid": "2feb76f3c034dee3b688",
+      "text": "This creates an opportunity to align the game statistics with the corresponding news articles, producing a dataset of over 20 years of ice hockey data with reference news articles for the games.",
+      "leaf_id": "399ef2ad122801ceeec2",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 704,
+      "end": 898,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "faae4151476d4bb3c4d9",
+      "text": "When automatically pairing the game statistics with news articles using date and team names as a heuristic, we obtain a total of 3,454 games with existing statistics and at least one corresponding news article.",
+      "leaf_id": "82597f015c3286a5f93a",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 899,
+      "end": 1109,
+      "score": 2.0785170435063725e-05
+    },
+    {
+      "uid": "c8db12d6d7131a2df120",
+      "text": "Utilizing real journalistic material poses a challenge in that the articles mix information that can be found directly in the game statistics (e.g., scores and names) with information inferable from the statistics (e.g., statements such as shortly after), information based on background knowledge (e.g., a team's home city or player's position), game insight and judgement based on viewing the game (e.g., expressions such as slapshot or tipping the puck describing the character of a shot), and even player interviews.",
+      "leaf_id": "82597f015c3286a5f93a",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 1110,
+      "end": 1630,
+      "score": 0.0001355207856240677
+    },
+    {
+      "uid": "1c0aed8d6b9d29daadab",
+      "text": "Therefore, directly using the limited amount of actual news articles for end-to-end system training becomes problematic.",
+      "leaf_id": "82597f015c3286a5f93a",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 1631,
+      "end": 1751,
+      "score": 1.848675576370609e-05
+    },
+    {
+      "uid": "0d9efec353a77d3cb139",
+      "text": "In our initial experiments the generation model learns to “hallucinate” facts, as easily occurs when the target text is too loosely related to the conditioning input.",
+      "leaf_id": "e77b94782ae47b6ee92e",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 1752,
+      "end": 1918,
+      "score": 0.0072890775835919245
+    },
+    {
+      "uid": "9f081656429c9e3bc68d",
+      "text": "In order to ensure that the generation model is able to learn to generate accurate descriptions from game statistics, we clean the news corpus by manually aligning corresponding text spans with game events detailed in the statistics.",
+      "leaf_id": "e77b94782ae47b6ee92e",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 1919,
+      "end": 2152,
+      "score": 0.004365326111393966
+    },
+    {
+      "uid": "cf5015c2dbe69c89f22b",
+      "text": "For the sake of comparison, let us consider the Rotowire corpus BIBREF3 containing basketball game summaries and statistics, which was recently released and has become a popular data set for training data-to-text generation systems (cf., e.g., BIBREF4, BIBREF1, BIBREF5).",
+      "leaf_id": "e77b94782ae47b6ee92e",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 2153,
+      "end": 2424,
+      "score": 0.009055264186722084
+    },
+    {
+      "uid": "54f9a62c99a3eac66b87",
+      "text": "The Rotowire game summaries are straightforward in their style of reporting, focusing on the game at hand and tend for the most part to reference facts in the statistics.",
+      "leaf_id": "e77b94782ae47b6ee92e",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 2425,
+      "end": 2595,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "8f79d4b24fba07d74e26",
+      "text": "By contrast, our news corpus is more heterogeneous, including both articles focusing on the particular game and articles that take a broader perspective (e.g., describing a player's career).",
+      "leaf_id": "296ffd49b9e6da2a256c",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 2596,
+      "end": 2786,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "c385788ad1dbee7cec79",
+      "text": "The STT news articles tend to read in the journalist's voice, putting substantial emphasis on the character of the game, often in colorful language, as well as quoting players and coaches.",
+      "leaf_id": "296ffd49b9e6da2a256c",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 2787,
+      "end": 2975,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "fa0e6a7df82dfb737310",
+      "text": "An example of the events available in the game statistics, the actual news article on the game, and how these align, is shown in Figure FIGREF5.",
+      "leaf_id": "296ffd49b9e6da2a256c",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 2976,
+      "end": 3120,
+      "score": 1.9679025610662346e-05
+    },
+    {
+      "uid": "70e277dc111cb0ba3de0",
+      "text": "Text spans highlighted with blue color are based on information available in the statistics, all other being external information.",
+      "leaf_id": "296ffd49b9e6da2a256c",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 3121,
+      "end": 3251,
+      "score": 0.0007793660930208434
+    },
+    {
+      "uid": "229dc32097fef20815b8",
+      "text": "It illustrates the typical portion of a raw article that is not inferrable from the data.",
+      "leaf_id": "296ffd49b9e6da2a256c",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 3252,
+      "end": 3341,
+      "score": 0.0002846224015752145
+    },
+    {
+      "uid": "8a8dd856e74c39ea7a61",
+      "text": "English translations are available for a comparable example in Figure FIGREF27.",
+      "leaf_id": "296ffd49b9e6da2a256c",
+      "section_id": "db40b8bb7528347bfcbb",
+      "start": 3342,
+      "end": 3421,
+      "score": 0.00012436225128319384
+    },
+    {
+      "uid": "76a5fe68020bb61ec5c5",
+      "text": "For each event occurring in a game and recorded in statistics, we identify its type and associated features.",
+      "leaf_id": "18f8cbcee6f97350da25",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 0,
+      "end": 108,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "be9983062d9606bb3c5f",
+      "text": "There are four event types: end result, goal, penalty and save.",
+      "leaf_id": "18f8cbcee6f97350da25",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 109,
+      "end": 172,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "f854e865da952839aa9f",
+      "text": "As a general rule, for each game the end result entry specifies total scores, participating teams and additional circumstances of the game such as overtime or shootout.",
+      "leaf_id": "18f8cbcee6f97350da25",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 173,
+      "end": 341,
+      "score": 5.9673520701231884e-05
+    },
+    {
+      "uid": "ff0619d724ec1e364563",
+      "text": "The goal event is the most frequent and includes features such as goal scorer, assists, team, resulting score, time and the current state of the game (e.g., power play, penalty shot).",
+      "leaf_id": "18f8cbcee6f97350da25",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 342,
+      "end": 525,
+      "score": 2.77516502232539e-05
+    },
+    {
+      "uid": "3f17f61b468d4d5c0579",
+      "text": "We also derive special features that in many cases require consideration of other events in the context, but pertain to one particular event, e.g., is the goal deciding or final.",
+      "leaf_id": "18f8cbcee6f97350da25",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 526,
+      "end": 704,
+      "score": 7.311254328107719e-05
+    },
+    {
+      "uid": "5c766dd76f2846ced2af",
+      "text": "The penalty event specifies player, team, time in the game and penalty time.",
+      "leaf_id": "18f8cbcee6f97350da25",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 705,
+      "end": 781,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "d300617c9c7276d8b6c4",
+      "text": "The save event summarises the number of saves of a goaltender/team.",
+      "leaf_id": "18f8cbcee6f97350da25",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 782,
+      "end": 849,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "e026b69b89a958de9f83",
+      "text": "We perform information extraction with regular expressions on the statistics in order to structure the game into a chronological sequence of events, which can then be aligned with the corresponding text spans from the news article, as well as used as input in the text generation.",
+      "leaf_id": "bef3cb0afecec3e41664",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 850,
+      "end": 1130,
+      "score": 0.013795364421185227
+    },
+    {
+      "uid": "671cbb1798030c9f8198",
+      "text": "An initial sequence of events after information extraction is shown on the left side in Figure FIGREF5.",
+      "leaf_id": "bef3cb0afecec3e41664",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 1131,
+      "end": 1234,
+      "score": 0.00017952796934677737
+    },
+    {
+      "uid": "7e5d606c68626bad8cc5",
+      "text": "Before text generation, these events are yet enhanced with additional information derived from the event itself, or the game.",
+      "leaf_id": "bef3cb0afecec3e41664",
+      "section_id": "dd8ea5273b54efdb2110",
+      "start": 1235,
+      "end": 1360,
+      "score": 0.004297938879407239
+    },
+    {
+      "uid": "f4b94532c32c70bd56a6",
+      "text": "The manual alignment of game events and the article text is carried out by a single annotator in approximately 6 weeks as an integral part of the system development work.",
+      "leaf_id": "28aac39d14b6e1b54354",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 0,
+      "end": 170,
+      "score": 9.242113003743326e-05
+    },
+    {
+      "uid": "0b6801b7a4139e9cf7a0",
+      "text": "The annotator receives a sequence of extracted events and aligns these with the corresponding news article, typically but not necessarily a single sentence for every expressed event.",
+      "leaf_id": "28aac39d14b6e1b54354",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 171,
+      "end": 353,
+      "score": 7.905303859378796e-05
+    },
+    {
+      "uid": "4f2e8be6a09a55ca97d6",
+      "text": "All ungrounded parts within the text are removed and if necessary, the text is modified for fluency.",
+      "leaf_id": "28aac39d14b6e1b54354",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 354,
+      "end": 454,
+      "score": 0.0006386796026437196
+    },
+    {
+      "uid": "5edbb9f40eadbac738f1",
+      "text": "We cannot align full sentences with events as, for instance, BIBREF6 do, as often information not grounded in the statistics is expressed together with statistics-based facts within the same sentences and clauses.",
+      "leaf_id": "28aac39d14b6e1b54354",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 455,
+      "end": 668,
+      "score": 2.6897844674087318e-05
+    },
+    {
+      "uid": "b46dc4f22487d4d00c7c",
+      "text": "The alignment process therefore frequently requires rephrasing the text, for instance, in order to make it more neutral and avoid generating arbitrary subjective judgements.",
+      "leaf_id": "28aac39d14b6e1b54354",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 669,
+      "end": 842,
+      "score": 0.0019877742123839116
+    },
+    {
+      "uid": "bd2e6ddbfaea55310e59",
+      "text": "We find that the news article commonly includes description that is not evident from the data (e.g., subjective characteristics of the player or the shot), and often may reflect the reporter's viewpoint.",
+      "leaf_id": "28aac39d14b6e1b54354",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 843,
+      "end": 1046,
+      "score": 4.98595821272702e-05
+    },
+    {
+      "uid": "6a7f929b1b1a09cf7740",
+      "text": "For instance, the reporter may evaluate an event negatively by writing Player A did not manage to score more than one goal, reflecting expectation of the player's performance, which we would change into a more objective form such as Player A scored one goal.",
+      "leaf_id": "39bcd2ab0eb436688f8b",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 1047,
+      "end": 1305,
+      "score": 0.0006386796026437196
+    },
+    {
+      "uid": "a0711a176cb50c8472d8",
+      "text": "Similarly, word choices based on viewing the game (e.g., slapshot) are changed to more neutral counterparts.",
+      "leaf_id": "39bcd2ab0eb436688f8b",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 1306,
+      "end": 1414,
+      "score": 4.069457790466838e-05
+    },
+    {
+      "uid": "f388f1f0daac4e1bb8b3",
+      "text": "After removing the uninferable parts of a sentence, the remainder is often relatively short, in which case we sometimes opt to replace the information that was removed with references to other appropriate information from the game statistics, such as the time of the event or the state of the game.",
+      "leaf_id": "39bcd2ab0eb436688f8b",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 1415,
+      "end": 1713,
+      "score": 5.518923229906049e-05
+    },
+    {
+      "uid": "69483137b12bfb6e69e2",
+      "text": "This serves to maintain a similar sentence and clause structure as that of the original corpus.",
+      "leaf_id": "39bcd2ab0eb436688f8b",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 1714,
+      "end": 1809,
+      "score": 0.0005233756913394545
+    },
+    {
+      "uid": "fa57ec85881f0e7ea260",
+      "text": "In the majority of our aligned data one text span refers to one game event.",
+      "leaf_id": "4d7062b63bb09924652b",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 1810,
+      "end": 1885,
+      "score": 0.00015476661605996511
+    },
+    {
+      "uid": "b7f2888ab2f2167f7abc",
+      "text": "However, in some cases the same indivisible span can describe multiple events, most commonly of the same type (e.g., Player A scored two goals, or Team A received a total of eight penalties).",
+      "leaf_id": "4d7062b63bb09924652b",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 1886,
+      "end": 2077,
+      "score": 2.0462932829931794e-05
+    },
+    {
+      "uid": "23f60eec23c7eb91c837",
+      "text": "In such cases, we produce multi-event alignments, where all related events are aligned with a single text span.",
+      "leaf_id": "4d7062b63bb09924652b",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 2078,
+      "end": 2189,
+      "score": 0.00026738261286171253
+    },
+    {
+      "uid": "4f42b20ae00b9ba196de",
+      "text": "Multi-event alignments support the development of more advanced generation, which stands to produce more natural-sounding reports in terms of less repetition and more flexible structuring.",
+      "leaf_id": "4d7062b63bb09924652b",
+      "section_id": "3b5c9beff4e4ed943ac9",
+      "start": 2190,
+      "end": 2378,
+      "score": 8.349627818261146e-05
+    },
+    {
+      "uid": "ca3edb241e1574f2d0b3",
+      "text": "In Table TABREF10, we summarize the overall size statistics of the final ice hockey corpus after the statistics and news articles have been automatically paired, and events have been manually aligned with the text.",
+      "leaf_id": "86c3383f6adf98f58f8b",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 0,
+      "end": 214,
+      "score": 0.00042887921825186283
+    },
+    {
+      "uid": "418e7d5b2db5f9c19913",
+      "text": "In total, 2,307 games were manually checked (66.8% of the paired corpus), of which 2,134 games were correctly paired with the article describing the game.",
+      "leaf_id": "86c3383f6adf98f58f8b",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 215,
+      "end": 369,
+      "score": 0.0001699752890963125
+    },
+    {
+      "uid": "d6489397edc78bc9126e",
+      "text": "In these games, 12,251 out of 36,097 events (33.9%) were referenced in the text and successfully aligned.",
+      "leaf_id": "86c3383f6adf98f58f8b",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 370,
+      "end": 475,
+      "score": 0.0004878571227822659
+    },
+    {
+      "uid": "1005ec5a1c6c18adcc2e",
+      "text": "End result occurs in nearly all news articles as the first event, whereas the goal event is by far the most frequent one, each game mentioning on average 3.1 goals.",
+      "leaf_id": "86c3383f6adf98f58f8b",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 476,
+      "end": 640,
+      "score": 1.723157275214239e-05
+    },
+    {
+      "uid": "5f52828c87263c7b5ae7",
+      "text": "The number of aligned events is greater than the number of aligned text spans due to multi-event alignments.",
+      "leaf_id": "86c3383f6adf98f58f8b",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 641,
+      "end": 749,
+      "score": 0.00013032974249234988
+    },
+    {
+      "uid": "d89e3ffa3967ce446e38",
+      "text": "While 82.1% of text spans align with a single event, there is a long tail of multi-event alignments, with 11.2% aligning to two events, 3.4% to three, 1.4% to four, etc.",
+      "leaf_id": "86c3383f6adf98f58f8b",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 750,
+      "end": 919,
+      "score": 0.0006023541264952029
+    },
+    {
+      "uid": "3e3b0dc459deb66b6dd8",
+      "text": "In Table TABREF11 we measure the lexical diversity of original ice hockey news articles, as well as the resulting dataset after manual alignment, by computing the Standardized Type–Token Ratio (STTR).",
+      "leaf_id": "b5c813fbcf818ca13316",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 920,
+      "end": 1120,
+      "score": 0.001579259428801316
+    },
+    {
+      "uid": "92a79a69378b26a578b5",
+      "text": "The measure is defined as the number of unique tokens or lemmas divided by the total number of tokens, calculated on every segment of 1,000 tokens separately and averaged across the corpus.",
+      "leaf_id": "b5c813fbcf818ca13316",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 1121,
+      "end": 1310,
+      "score": 0.001098731072924643
+    },
+    {
+      "uid": "82e37b070d9874145e03",
+      "text": "STTR is more meaningful than the standard type–token ratio when comparing corpora of substantially different sizes.",
+      "leaf_id": "b5c813fbcf818ca13316",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 1311,
+      "end": 1426,
+      "score": 0.00012148175280558357
+    },
+    {
+      "uid": "6ff63affa0bf265bbadd",
+      "text": "Both corpora are tokenized and lemmatized using the Turku Neural Parser pipeline BIBREF7, BIBREF8.",
+      "leaf_id": "b5c813fbcf818ca13316",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 1427,
+      "end": 1525,
+      "score": 5.3491328957449415e-05
+    },
+    {
+      "uid": "b5da701c1191de409693",
+      "text": "STTR of the aligned corpus is lower than in the original hockey news on both word and lemma level, indicating a somewhat—but not substantially so—more restricted vocabulary use in our aligned subset.",
+      "leaf_id": "b5c813fbcf818ca13316",
+      "section_id": "a46d6c455c9e7bc60439",
+      "start": 1526,
+      "end": 1725,
+      "score": 0.0001488384825728813
+    },
+    {
+      "uid": "29ab8ce3053325a9bd78",
+      "text": "As illustrated previously, any given news article describes only a subset of most noteworthy events of a game.",
+      "leaf_id": "8d9120bbf05a1566ed8a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 0,
+      "end": 110,
+      "score": 1.723157275214239e-05
+    },
+    {
+      "uid": "0fbda2dc9e44d7eb595a",
+      "text": "We observe that most reports are concise, referencing on average 5.7 events.",
+      "leaf_id": "8d9120bbf05a1566ed8a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 111,
+      "end": 187,
+      "score": 6.976470974169522e-05
+    },
+    {
+      "uid": "fb62b09ab2353f36e3b0",
+      "text": "The distribution of events/report is: 1st quantile at 3 events (20.9% of events in game), 2nd at 5 (22.2%), 3rd at 7 (38.5%), 4th at 36 (100%).",
+      "leaf_id": "8d9120bbf05a1566ed8a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 188,
+      "end": 331,
+      "score": 9.535461188204107e-05
+    },
+    {
+      "uid": "7fbfea4fdfd6bf2f1eaf",
+      "text": "Our alignment serves as a gold standard reflecting which events the journalists have chosen to mention for each game.",
+      "leaf_id": "8d9120bbf05a1566ed8a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 332,
+      "end": 449,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "a32a955cdd469baec017",
+      "text": "In our generation task, we are presented with the problem of selecting appropriate events from the full game statistics.",
+      "leaf_id": "8d9120bbf05a1566ed8a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 450,
+      "end": 570,
+      "score": 4.7206228829964175e-05
+    },
+    {
+      "uid": "4b20ed5cbd6a2953dcd6",
+      "text": "We use the gold standard selection during training and validation of the text generation model, as well as the automatic evaluation.",
+      "leaf_id": "8d9120bbf05a1566ed8a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 571,
+      "end": 703,
+      "score": 0.5360700445712753
+    },
+    {
+      "uid": "fe4d600f3c4c294b72a3",
+      "text": "As we deploy our text generation model for manual evaluation, we use a Conditional Random Field (CRF) model to predict which events to mention.",
+      "leaf_id": "8d9120bbf05a1566ed8a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 704,
+      "end": 847,
+      "score": 0.4507522314497526
+    },
+    {
+      "uid": "3aa9c5ed000fe1fa9934",
+      "text": "Casting the event selection problem as a sequence labeling task, the CRF model takes as input the full sequence of events in one game together with associated features for each event, and predicts a binary label for each event.",
+      "leaf_id": "727b6bfd6acec62c325a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 848,
+      "end": 1075,
+      "score": 1.9073577192252488e-05
+    },
+    {
+      "uid": "9474a6de9266e12e4dbc",
+      "text": "We achieve an overall F-score of 67.1% on the test set, which broken down by event type is: end result (98.0%), goal (70.2%), penalty (20.1%), save (47.7%).",
+      "leaf_id": "727b6bfd6acec62c325a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 1076,
+      "end": 1232,
+      "score": 0.00025514139559523356
+    },
+    {
+      "uid": "9d4681fc7505570c7514",
+      "text": "Penalties are the most difficult to predict, being reported only 7.8% of the time in reality, e.g., compared to 54.1% for goals.",
+      "leaf_id": "727b6bfd6acec62c325a",
+      "section_id": "da37c0ebe04bda0ce2ac",
+      "start": 1233,
+      "end": 1361,
+      "score": 2.4111139329084935e-05
+    },
+    {
+      "uid": "db74efddad89081bab8f",
+      "text": "Next, we present the model architecture used in text generation, and evaluate the model on a popular baseline dataset.",
+      "leaf_id": "bcd2ea224e90ca5b2fec",
+      "section_id": "ae1ae9bef91d77e4fb93",
+      "start": 0,
+      "end": 118,
+      "score": 0.3211405666846125
+    },
+    {
+      "uid": "3f1e6ee8a51909fb2b60",
+      "text": "After that, we describe the training of the generation model on our ice hockey corpus and use automatic evaluation metrics to compare against existing references.",
+      "leaf_id": "bcd2ea224e90ca5b2fec",
+      "section_id": "ae1ae9bef91d77e4fb93",
+      "start": 119,
+      "end": 281,
+      "score": 0.1509026313736394
+    },
+    {
+      "uid": "166677b12c2cbb6fdd84",
+      "text": "We use a pointer-generation network BIBREF10, BIBREF11, BIBREF12, where the neural attention mechanism in the encoder-decoder model is adapted to jointly model a probability distribution over words from the known vocabulary, a distribution over words from the input sequence to copy and a probability that controls the copying mechanism.",
+      "leaf_id": "7967836abea694fe2895",
+      "section_id": "c21d2a99384ef9c944a4",
+      "start": 0,
+      "end": 337,
+      "score": 0.0003432999995057122
+    },
+    {
+      "uid": "ef03d5e2a18b4dc3d69e",
+      "text": "A separate coverage attention vector, a sum of past attention distributions, is maintained to inform the model of its past attention decisions.",
+      "leaf_id": "7967836abea694fe2895",
+      "section_id": "c21d2a99384ef9c944a4",
+      "start": 338,
+      "end": 481,
+      "score": 5.518923229906049e-05
+    },
+    {
+      "uid": "ffce801e4f028c6ccb51",
+      "text": "Such a coverage model is shown to prevent text repetition in generated output BIBREF13, BIBREF12.",
+      "leaf_id": "7967836abea694fe2895",
+      "section_id": "c21d2a99384ef9c944a4",
+      "start": 482,
+      "end": 579,
+      "score": 0.0162774609127135
+    },
+    {
+      "uid": "96099dc237459a9a5aa8",
+      "text": "The model is implemented using the OpenNMT-py library BIBREF14.",
+      "leaf_id": "7967836abea694fe2895",
+      "section_id": "c21d2a99384ef9c944a4",
+      "start": 580,
+      "end": 643,
+      "score": 4.298194204721344e-05
+    },
+    {
+      "uid": "de9080cad2474464c27c",
+      "text": "The encoder has two bidirectional LSTM layers with 500 hidden units, together with 500-dimensional word embeddings.",
+      "leaf_id": "7967836abea694fe2895",
+      "section_id": "c21d2a99384ef9c944a4",
+      "start": 644,
+      "end": 759,
+      "score": 4.9471590976326484e-05
+    },
+    {
+      "uid": "469c5716845b87a2ceb5",
+      "text": "The decoder has two unidirectional LSTM layers with 500 hidden units.",
+      "leaf_id": "7967836abea694fe2895",
+      "section_id": "c21d2a99384ef9c944a4",
+      "start": 760,
+      "end": 829,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "84f016e00ec159f72da6",
+      "text": "Both encoder and decoder apply a dropout of 0.3 between LSTM layers.",
+      "leaf_id": "7967836abea694fe2895",
+      "section_id": "c21d2a99384ef9c944a4",
+      "start": 830,
+      "end": 898,
+      "score": 3.21923344970378e-05
+    },
+    {
+      "uid": "1a53f08262d635c9e017",
+      "text": "To demonstrate the performance of our generation model architecture, we report results on a known dataset with published baselines, namely the E2E NLG Challenge BIBREF2 on end-to-end natural language generation in spoken dialogue systems.",
+      "leaf_id": "11edab6dca914f412901",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 0,
+      "end": 238,
+      "score": 0.00040606395082589986
+    },
+    {
+      "uid": "c2fbf6d3522dc735e153",
+      "text": "The task is to produce a natural language description of a restaurant based on a given meaning representation (MR)—an unordered set of attributes and their values.",
+      "leaf_id": "11edab6dca914f412901",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 239,
+      "end": 402,
+      "score": 0.00033015272509780104
+    },
+    {
+      "uid": "3980026312966eebaf1b",
+      "text": "The attributes included, among others, the restaurant name, area, food type and rating.",
+      "leaf_id": "11edab6dca914f412901",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 403,
+      "end": 490,
+      "score": 0.0001355207856240677
+    },
+    {
+      "uid": "596d70ed737be759ad0c",
+      "text": "We represent the given MR as a sequence of tokens where each attribute value is embedded into XML-style beginning and end attribute markers, and the order of attributes is kept fixed across the whole dataset.",
+      "leaf_id": "11edab6dca914f412901",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 491,
+      "end": 699,
+      "score": 0.00011866796497892348
+    },
+    {
+      "uid": "ca5c5f13d4d3ea675795",
+      "text": "The target output is a sequence of tokens.",
+      "leaf_id": "11edab6dca914f412901",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 700,
+      "end": 742,
+      "score": 3.400182010101328e-05
+    },
+    {
+      "uid": "ae00bf6df3637fb6443d",
+      "text": "We do not apply any explicit delexicalization steps.",
+      "leaf_id": "11edab6dca914f412901",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 743,
+      "end": 795,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "b1430d2e6fc18c23bad9",
+      "text": "In Table TABREF15 we measure BLEU BIBREF19, NIST BIBREF20, METEOR BIBREF21, ROUGE-L BIBREF22 and CIDEr BIBREF23 metrics on the 2018 E2E NLG Challenge test data using the evaluation script provided by the organizers.",
+      "leaf_id": "11edab6dca914f412901",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 796,
+      "end": 1011,
+      "score": 0.006538824977235004
+    },
+    {
+      "uid": "01f86e26ea1f467f7795",
+      "text": "Our generation system is compared to the official shared task baseline system, TGen BIBREF24, as well as to the top performing participant system on each score (ST top).",
+      "leaf_id": "fe34a1230678260d4409",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 1012,
+      "end": 1181,
+      "score": 0.002992665245354638
+    },
+    {
+      "uid": "8a14e949211d46938be7",
+      "text": "Our system outperforms the TGen baseline on 3 out of 5 metrics (BLEU, METEOR and ROUGE-L), which is on par with the official shared task results, where not a single one participant system was able to surpass the baseline on all five metrics.",
+      "leaf_id": "fe34a1230678260d4409",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 1182,
+      "end": 1423,
+      "score": 0.004086002694204713
+    },
+    {
+      "uid": "6f3526a2ebcf86a83b9f",
+      "text": "On two metrics, BLEU and METEOR, our system outperforms the best shared task participants.",
+      "leaf_id": "fe34a1230678260d4409",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 1424,
+      "end": 1514,
+      "score": 0.003111508539858309
+    },
+    {
+      "uid": "e1311468475217319e5b",
+      "text": "E2E NLG Challenge evaluation is based on having multiple references for each MR, on average each unique MR in the corpus having 8 reference descriptions.",
+      "leaf_id": "fe34a1230678260d4409",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 1515,
+      "end": 1668,
+      "score": 0.006145092084085153
+    },
+    {
+      "uid": "3c5d82f311e0163e7540",
+      "text": "In the evaluation, the output for each unique MR is compared against all references and the maximum score is used, naturally leading to higher scores.",
+      "leaf_id": "fe34a1230678260d4409",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 1669,
+      "end": 1819,
+      "score": 0.1725898126377591
+    },
+    {
+      "uid": "50cb50baad2ff53f3767",
+      "text": "To have more comparable numbers to our ice hockey corpus, where we have only one reference for each input event, we also include scores obtained by comparing each MR to each of its reference descriptions separately as if they were individual data points (Ours single ref.).",
+      "leaf_id": "62b8d7d2d335c65e29f2",
+      "section_id": "a88ad10aa492487f8bf1",
+      "start": 1820,
+      "end": 2093,
+      "score": 0.0012207952467143705
+    },
+    {
+      "uid": "0d33b7e501c5d798daad",
+      "text": "Currently, we concentrate on training the model only with text spans aligning with single events, excluding the less frequent multi-event alignments.",
+      "leaf_id": "ff3d7546ce9cfcf4a83a",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 0,
+      "end": 149,
+      "score": 0.0005378763961649954
+    },
+    {
+      "uid": "dd63cb12dadd105f4e03",
+      "text": "Furthermore, we are considering each event as a separate training example, independent of other events in the game.",
+      "leaf_id": "ff3d7546ce9cfcf4a83a",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 150,
+      "end": 265,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "82c28ebfb8cddc14e778",
+      "text": "Given a single event described as a sequence of features and their values, our text generation model is trained to produce the text span aligned with it.",
+      "leaf_id": "ff3d7546ce9cfcf4a83a",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 266,
+      "end": 419,
+      "score": 0.02843603304485266
+    },
+    {
+      "uid": "9e000abf73160bcc7788",
+      "text": "Following the data representation used in E2E NLG Challenge experiments, the input events are represented as a linearized sequence of tokens, where XML-style beginning and end tags are used to separate the different features (see Figure FIGREF18).",
+      "leaf_id": "ff3d7546ce9cfcf4a83a",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 420,
+      "end": 667,
+      "score": 0.0005636750731053124
+    },
+    {
+      "uid": "6fbbbc675caae22db1a4",
+      "text": "This allows the model to directly copy some of the input tokens to the output when necessary.",
+      "leaf_id": "ff3d7546ce9cfcf4a83a",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 668,
+      "end": 761,
+      "score": 3.975192649653812e-05
+    },
+    {
+      "uid": "9447ea589fd06822ada1",
+      "text": "The ability to copy tokens is especially important with player names and exact times, where the vocabulary is sparse, and many of these can even be previously unseen, unknown tokens.",
+      "leaf_id": "ff3d7546ce9cfcf4a83a",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 762,
+      "end": 944,
+      "score": 0.00015236754767429124
+    },
+    {
+      "uid": "6ddf424311f5924bf6e6",
+      "text": "In addition, we also include features that are meant to inform generation without being copied themselves, for example, the type of the event.",
+      "leaf_id": "ff3d7546ce9cfcf4a83a",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 945,
+      "end": 1087,
+      "score": 0.0006798428944286136
+    },
+    {
+      "uid": "a8eb8e3213227acf9dd0",
+      "text": "The target of generation is a tokenized sequence of words, where also dashes inside scores are separated, allowing the model to swap scores when necessary.",
+      "leaf_id": "b5967631d69378a64cea",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 1088,
+      "end": 1243,
+      "score": 0.0026010937937507752
+    },
+    {
+      "uid": "dfc00da91943496b17e9",
+      "text": "The reference text sometimes flips the order of the teams, requiring the score to be inverted as well (Team A–Team B 0–1 into Team B won Team A 1–0).",
+      "leaf_id": "b5967631d69378a64cea",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 1244,
+      "end": 1393,
+      "score": 0.000509265714385189
+    },
+    {
+      "uid": "7c71b37661ca4f740d7e",
+      "text": "One particular challenge in our corpus is that the decision of which aspects to focus on, i.e., which particular features from the source event to verbalize, is relatively arbitrary.",
+      "leaf_id": "b5967631d69378a64cea",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 1394,
+      "end": 1576,
+      "score": 0.0004784256262873459
+    },
+    {
+      "uid": "93df023a9ffd5be8e5b7",
+      "text": "For example, sometimes a journalist mentions the player or players assisting a goal, but in many cases it is left out.",
+      "leaf_id": "b5967631d69378a64cea",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 1577,
+      "end": 1695,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "c6431d535a10eddf34b5",
+      "text": "Both options are equally correct, but overlap-based metrics such as BLEU penalize such creative variation.",
+      "leaf_id": "b5967631d69378a64cea",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 1696,
+      "end": 1802,
+      "score": 0.0016420666692028368
+    },
+    {
+      "uid": "99dcdf9f0785ae2ba12d",
+      "text": "By contrast, in other text generation datasets such as the E2E NLG Challenge, the output text in general describes all input features.",
+      "leaf_id": "b5967631d69378a64cea",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 1803,
+      "end": 1937,
+      "score": 0.03656250415974464
+    },
+    {
+      "uid": "b690e89adb29f65adec6",
+      "text": "To account for this variation, we include a length feature to act as a minimal supervision signal for the model to rely on.",
+      "leaf_id": "7c488ed1ae0b4763fed9",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 1938,
+      "end": 2061,
+      "score": 0.00015476661605996511
+    },
+    {
+      "uid": "5e89da858cec05010d2a",
+      "text": "We divide output text lengths into three evenly sized categories (short, medium and long) to provide a hint to the model during training of how long and detailed output it is expected to generate for each training example.",
+      "leaf_id": "7c488ed1ae0b4763fed9",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 2062,
+      "end": 2284,
+      "score": 0.017242777557652904
+    },
+    {
+      "uid": "8d89c1111aaa4e742e17",
+      "text": "At test time, we then have the possibility to control the desired approximate length of the generated text.",
+      "leaf_id": "7c488ed1ae0b4763fed9",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 2285,
+      "end": 2392,
+      "score": 0.08122775599781698
+    },
+    {
+      "uid": "95edd0e3d92194c3b005",
+      "text": "In the experiments throughout this paper, we generate all three length variants for each event and pick the one with the highest average confidence of the generation model.",
+      "leaf_id": "7c488ed1ae0b4763fed9",
+      "section_id": "06cd1b436432ea55e40f",
+      "start": 2393,
+      "end": 2565,
+      "score": 0.0015669887925500435
+    },
+    {
+      "uid": "a90bf335a08d6e5a3264",
+      "text": "The model is trained using the Adam optimizer with learning rate of 0.0005 and batch size of 32.",
+      "leaf_id": "a6be5f0b1e1d04ed49d4",
+      "section_id": "838a35ec0e7e4c7b5949",
+      "start": 0,
+      "end": 96,
+      "score": 8.415109250079663e-05
+    },
+    {
+      "uid": "471827aa9df90db92a73",
+      "text": "The model is trained for a maximum of 8000 steps (ca.",
+      "leaf_id": "a6be5f0b1e1d04ed49d4",
+      "section_id": "838a35ec0e7e4c7b5949",
+      "start": 97,
+      "end": 150,
+      "score": 1.723157275214239e-05
+    },
+    {
+      "uid": "840c129c2d28818df987",
+      "text": "40 epochs), and the final model is chosen based on validation set performance.",
+      "leaf_id": "a6be5f0b1e1d04ed49d4",
+      "section_id": "838a35ec0e7e4c7b5949",
+      "start": 151,
+      "end": 229,
+      "score": 0.00012436225128319384
+    },
+    {
+      "uid": "b9ddcd6469beaeb9f2b0",
+      "text": "We use 80% of the aligned games for training, 10% for validation and 10% for testing.",
+      "leaf_id": "a6be5f0b1e1d04ed49d4",
+      "section_id": "838a35ec0e7e4c7b5949",
+      "start": 230,
+      "end": 315,
+      "score": 5.266206644227075e-05
+    },
+    {
+      "uid": "19b657adf8434e15664f",
+      "text": "In our initial experiments, we used the RBFOpt library BIBREF25 for hyperparameter tuning, maximizing validation set BLEU score.",
+      "leaf_id": "a6be5f0b1e1d04ed49d4",
+      "section_id": "838a35ec0e7e4c7b5949",
+      "start": 316,
+      "end": 444,
+      "score": 0.00034062932773341
+    },
+    {
+      "uid": "215310b15ebad758427f",
+      "text": "However, when manually inspecting generation results on the validation set, we noticed that models with a higher BLEU score result in more fluent text but generate more factual mistakes.",
+      "leaf_id": "a6be5f0b1e1d04ed49d4",
+      "section_id": "838a35ec0e7e4c7b5949",
+      "start": 445,
+      "end": 631,
+      "score": 0.13139597557765298
+    },
+    {
+      "uid": "c021486f1c732d94613e",
+      "text": "This observation is supported by BIBREF3, who note that BLEU score tends to reward fluent text rather than other aspects desirable in generation of sports summaries from data.",
+      "leaf_id": "a6be5f0b1e1d04ed49d4",
+      "section_id": "838a35ec0e7e4c7b5949",
+      "start": 632,
+      "end": 807,
+      "score": 0.015306354560694806
+    },
+    {
+      "uid": "b1f82d709b15275f1579",
+      "text": "For this reason, we ultimately decided to use hyperparameters manually tuned on the validation set to give a good perceived balance between fluent and factually correct text.",
+      "leaf_id": "a6be5f0b1e1d04ed49d4",
+      "section_id": "838a35ec0e7e4c7b5949",
+      "start": 808,
+      "end": 982,
+      "score": 0.013955710398273338
+    },
+    {
+      "uid": "dfd02d6a20d39e7d10f5",
+      "text": "In Table TABREF21, we provide evaluation results using the five aforementioned metrics.",
+      "leaf_id": "31cfaa35fc084970dc45",
+      "section_id": "66a3f605170888e0616f",
+      "start": 0,
+      "end": 87,
+      "score": 0.05953748792856608
+    },
+    {
+      "uid": "b588f7ef3a2dc41611c9",
+      "text": "We evaluate on event level using gold standard event selection, where each generated event description is compared to its existing reference text.",
+      "leaf_id": "31cfaa35fc084970dc45",
+      "section_id": "66a3f605170888e0616f",
+      "start": 88,
+      "end": 234,
+      "score": 0.4752247741313241
+    },
+    {
+      "uid": "7e0c6d2337a1eca9ab6c",
+      "text": "As the model is trained to produce a tokenized sequence, we apply a detokenizer to be able to compare against the original untokenized reference text.",
+      "leaf_id": "31cfaa35fc084970dc45",
+      "section_id": "66a3f605170888e0616f",
+      "start": 235,
+      "end": 385,
+      "score": 0.003483424193080668
+    },
+    {
+      "uid": "a24fbe2640f31eb46a89",
+      "text": "On the test set, the model achieves a BLEU score of 19.67.",
+      "leaf_id": "31cfaa35fc084970dc45",
+      "section_id": "66a3f605170888e0616f",
+      "start": 386,
+      "end": 444,
+      "score": 0.00020342697805520653
+    },
+    {
+      "uid": "0940c171eac39c298d2d",
+      "text": "To the extent that different datasets allow comparison, the best reported score on the Rotowire basketball news corpus is 16.50 BIBREF5.",
+      "leaf_id": "31cfaa35fc084970dc45",
+      "section_id": "66a3f605170888e0616f",
+      "start": 445,
+      "end": 581,
+      "score": 0.00011591934318633098
+    },
+    {
+      "uid": "ffba12fbce06ea43e806",
+      "text": "Compared to our earlier E2E baseline experiment, we score lower than our closest comparable reference of 31.90 (with single references), which is understandable due to the much smaller train set size for the hockey corpus (about 13% in size).",
+      "leaf_id": "31cfaa35fc084970dc45",
+      "section_id": "66a3f605170888e0616f",
+      "start": 582,
+      "end": 824,
+      "score": 0.0001420236402299791
+    },
+    {
+      "uid": "bfa90cf8bac19629c050",
+      "text": "In Figure FIGREF22, we plot the learning curve with increasing sizes of training data in order to illustrate how generation performance benefits from more data.",
+      "leaf_id": "31cfaa35fc084970dc45",
+      "section_id": "66a3f605170888e0616f",
+      "start": 825,
+      "end": 985,
+      "score": 0.0003829636289085523
+    },
+    {
+      "uid": "af82fe03d4ec0501e27c",
+      "text": "The learning curve is still steadily increasing when using 100% of the training data currently available, which indicates that more data would most likely further improve the performance.",
+      "leaf_id": "3d48a06e9422cb24e95c",
+      "section_id": "66a3f605170888e0616f",
+      "start": 986,
+      "end": 1173,
+      "score": 0.00010554685795431097
+    },
+    {
+      "uid": "c6136cb7bb082fa7f016",
+      "text": "As our objective is practically usable news generation, we carry out a manual evaluation of its output on 59 randomly selected games from the test set, focusing in particular on the corrections that would be necessary to obtain acceptable output.",
+      "leaf_id": "7ba0281deaefd0d69fbb",
+      "section_id": "f300754ea1e25b94b608",
+      "start": 0,
+      "end": 246,
+      "score": 0.008251598569085517
+    },
+    {
+      "uid": "572feb742f1367436e8b",
+      "text": "Example corrections are shown in Figure FIGREF27.",
+      "leaf_id": "7ba0281deaefd0d69fbb",
+      "section_id": "f300754ea1e25b94b608",
+      "start": 247,
+      "end": 296,
+      "score": 3.347468838730701e-05
+    },
+    {
+      "uid": "38cd00775476bb4847b5",
+      "text": "These full game reports are generated by first applying the selection model described in Section SECREF3 to select the events to be included in the report, and then using the text generation model to verbalize each selected event.",
+      "leaf_id": "7ba0281deaefd0d69fbb",
+      "section_id": "f300754ea1e25b94b608",
+      "start": 297,
+      "end": 527,
+      "score": 0.007317397471212289
+    },
+    {
+      "uid": "7e00e13b28d4b74710ea",
+      "text": "The generated texts of the events are then detokenized and concatenated in chronological order into a full game report.",
+      "leaf_id": "7ba0281deaefd0d69fbb",
+      "section_id": "f300754ea1e25b94b608",
+      "start": 528,
+      "end": 647,
+      "score": 0.046205749035319515
+    },
+    {
+      "uid": "baae32fff22bc39e6a33",
+      "text": "In the minimum edit evaluation, carried out by the annotator who created the news corpus, only factual mistakes and grammatical errors are corrected, resulting in text which may remain awkward or unfluent.",
+      "leaf_id": "d850af2d8ef81f9b6a90",
+      "section_id": "d0e94b4161bfd760e6d8",
+      "start": 0,
+      "end": 205,
+      "score": 0.06477170097147576
+    },
+    {
+      "uid": "72d025f7b4efdf485212",
+      "text": "The word error rate (WER) of the generated text compared to its corrected variant as a reference is 5.6% (6.2% disregarding punctuation).",
+      "leaf_id": "d850af2d8ef81f9b6a90",
+      "section_id": "d0e94b4161bfd760e6d8",
+      "start": 206,
+      "end": 343,
+      "score": 0.37696710103255954
+    },
+    {
+      "uid": "bad7bdbad51cb01c5d67",
+      "text": "The WER measure is defined as the number of insertions, substitutions, and deletions divided by the total length of the reference, in terms of tokens.",
+      "leaf_id": "d850af2d8ef81f9b6a90",
+      "section_id": "d0e94b4161bfd760e6d8",
+      "start": 344,
+      "end": 494,
+      "score": 0.004248079086738752
+    },
+    {
+      "uid": "ae330f1e073e22668017",
+      "text": "The measure is the edit distance of the generated text and its corrected variant, directly reflecting the amount of effort needed to correct the generated output.",
+      "leaf_id": "d850af2d8ef81f9b6a90",
+      "section_id": "d0e94b4161bfd760e6d8",
+      "start": 495,
+      "end": 657,
+      "score": 0.4262021771719622
+    },
+    {
+      "uid": "6f0063557c9bc144dcb9",
+      "text": "The factual errors and their types are summarized in Table TABREF23.",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 0,
+      "end": 68,
+      "score": 0.00018378457000952213
+    },
+    {
+      "uid": "964285f087903b8ebb39",
+      "text": "From the total of 510 game events generated by the system, 78 of these contained a factual error, i.e.",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 69,
+      "end": 171,
+      "score": 3.5633543371896295e-05
+    },
+    {
+      "uid": "c368fcda9e6e1274aefc",
+      "text": "84.7% were generated without factual errors.",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 172,
+      "end": 216,
+      "score": 0.0020348170007479763
+    },
+    {
+      "uid": "de48a346209c062541b9",
+      "text": "The most notable errors involved player or team names.",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 217,
+      "end": 271,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "fef728db3065749c2e34",
+      "text": "The input for a single game event may contain more than one name (e.g. the goal scorer and up to two assisting players).",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 272,
+      "end": 392,
+      "score": 1.7640200515540418e-05
+    },
+    {
+      "uid": "1387d72544f9199c2e18",
+      "text": "In these cases, the model occasionally paired first name and surname incorrectly.",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 393,
+      "end": 474,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "4a28c22618406c166731",
+      "text": "Less frequent errors include wrong team pairings when referring to the end result of the game, e.g., Team A lost to Team A.",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 475,
+      "end": 598,
+      "score": 1.7917988275182845e-05
+    },
+    {
+      "uid": "fa6664f74a7dc2c53a29",
+      "text": "In sentences where the exact time of a game event is generated as a number (at time 39.54) the model copied the time reliably, but when the approximate time of an event is verbalized (at the end of the second period) there were occasional errors.",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 599,
+      "end": 845,
+      "score": 0.0005254230495830164
+    },
+    {
+      "uid": "24139cdf895b43098fee",
+      "text": "Another notable error category is types of goals or their scores (e.g.",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 846,
+      "end": 916,
+      "score": 0.00015720345248929426
+    },
+    {
+      "uid": "bf0ba0fa82455a277871",
+      "text": "3–0, deciding goal, tying goal).",
+      "leaf_id": "bd382e6e8f3c820ac800",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 917,
+      "end": 949,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "2865d1fb4736c0a4ebd7",
+      "text": "In this category, the error similarly occurred in cases when the reference is verbal (third goal), but occasionally also in numerical representation (3–0 instead of 0–3).",
+      "leaf_id": "e9960dd8826176618b01",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 950,
+      "end": 1120,
+      "score": 0.0001852257432653108
+    },
+    {
+      "uid": "919cd5857315ce32105a",
+      "text": "The other, less common categories relate to game total scores, power play, assists and penalties.",
+      "leaf_id": "e9960dd8826176618b01",
+      "section_id": "ae7d322f81ee1644601f",
+      "start": 1121,
+      "end": 1218,
+      "score": 5.307507822667364e-05
+    },
+    {
+      "uid": "a347959466b29e60a380",
+      "text": "Overall, the generated text is highly grammatical.",
+      "leaf_id": "63df31fea83656111213",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 0,
+      "end": 50,
+      "score": 0.11260009974533915
+    },
+    {
+      "uid": "93fa4c5dd2429092d1e1",
+      "text": "The most frequent grammatical error in the output is unconjugated player names; commonly names in their Finnish nominative case that should be in genitive.",
+      "leaf_id": "63df31fea83656111213",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 51,
+      "end": 206,
+      "score": 7.36859298114082e-05
+    },
+    {
+      "uid": "01c7d19c887f5c72e160",
+      "text": "In a few cases, the model makes grammatical errors when it copies an incompatible word from the input, e.g., a name instead of a time reference.",
+      "leaf_id": "63df31fea83656111213",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 207,
+      "end": 351,
+      "score": 0.00010310211970688582
+    },
+    {
+      "uid": "f081263b772181701d24",
+      "text": "Both error types commonly occur when the model copies from the input.",
+      "leaf_id": "63df31fea83656111213",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 352,
+      "end": 421,
+      "score": 2.840974294610978e-05
+    },
+    {
+      "uid": "4834a9ac08c1a811fe89",
+      "text": "As it operates on the token rather than sub-word level, it is challenging to map between word forms and inflect infrequent words such as player names.",
+      "leaf_id": "63df31fea83656111213",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 422,
+      "end": 572,
+      "score": 3.2444813913887076e-05
+    },
+    {
+      "uid": "f220e39c75239e1b943b",
+      "text": "The latter error likely occurs when the copy attention is indecisive and fails to recognize the type for infrequent tokens.",
+      "leaf_id": "63df31fea83656111213",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 573,
+      "end": 696,
+      "score": 3.5633543371896295e-05
+    },
+    {
+      "uid": "9c8efc523e1db1a02d47",
+      "text": "Most fluency issues relate to the overall flow and structure of the report.",
+      "leaf_id": "63df31fea83656111213",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 697,
+      "end": 772,
+      "score": 0.00027803096387751553
+    },
+    {
+      "uid": "b4cbfc48d9cfbb8c1af1",
+      "text": "Addressing these issues would require the model to take into account multiple events in a game, and combine the information more flexibly to avoid repetition.",
+      "leaf_id": "63df31fea83656111213",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 773,
+      "end": 931,
+      "score": 3.822911232549001e-05
+    },
+    {
+      "uid": "35f421059f1ab3f26d9c",
+      "text": "For instance, the output may repeatedly mention the period number for all goals in the same period.",
+      "leaf_id": "63df31fea83656111213",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 932,
+      "end": 1031,
+      "score": 9.098840359922044e-05
+    },
+    {
+      "uid": "a28933338c7c589e8ece",
+      "text": "Likewise, this setup sometimes results in unnatural, yet grammatical, repetition of words across consecutive sentences.",
+      "leaf_id": "6b755fdc16f68483092c",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 1032,
+      "end": 1151,
+      "score": 1.7917988275182845e-05
+    },
+    {
+      "uid": "a0e58e10f89a6b3153c4",
+      "text": "Even though the model has learned a selection of verbs meaning to score a goal, it is unable to ensure their varied use.",
+      "leaf_id": "6b755fdc16f68483092c",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 1152,
+      "end": 1272,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "e3ec79879015c9706299",
+      "text": "While not successful in our initial experiments, generating text based on the multi-event alignments or at document level may eventually overcome these issues.",
+      "leaf_id": "6b755fdc16f68483092c",
+      "section_id": "fff5dd133ea790929f55",
+      "start": 1273,
+      "end": 1432,
+      "score": 0.020964240818127502
+    },
+    {
+      "uid": "8a8764b61d51db087293",
+      "text": "The second human evaluation aimed at judging the acceptability of the output for production use in a news agency.",
+      "leaf_id": "6334463fce20f54a2981",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 0,
+      "end": 113,
+      "score": 0.014392336369436931
+    },
+    {
+      "uid": "e06920f29d111e063f76",
+      "text": "The output is evaluated in terms of its usability for a news channel labelled as being machine-generated, i.e. not aiming at the level of a human journalist equipped with substantial background information.",
+      "leaf_id": "6334463fce20f54a2981",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 114,
+      "end": 320,
+      "score": 0.0499585240665846
+    },
+    {
+      "uid": "bf550afa758593a79da7",
+      "text": "The evaluation was carried out by two journalists from the STT agency, who split the 59 games among themselves approximately evenly.",
+      "leaf_id": "6334463fce20f54a2981",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 321,
+      "end": 453,
+      "score": 0.00019716942196222918
+    },
+    {
+      "uid": "e1f17bcd5a2d34583666",
+      "text": "The first journalist edited the games to a form corresponding to a draft for subsequent minor post-editing by a human, simulating the use of the generated output as a product where the final customer is expected to do own post-editing before publication.",
+      "leaf_id": "6334463fce20f54a2981",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 454,
+      "end": 708,
+      "score": 0.0012160416047592268
+    },
+    {
+      "uid": "28d58f504128f947697f",
+      "text": "The second journalist directly edited the news to a state ready for direct publication in a news stream labeled as machine-generated news.",
+      "leaf_id": "6334463fce20f54a2981",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 709,
+      "end": 847,
+      "score": 0.00023782205064034186
+    },
+    {
+      "uid": "1e6a195253ef38e734d8",
+      "text": "In addition to correcting factual errors, the journalists removed excessive repetition, improved text fluency, as well as occasionally included important facts which the system left ungenerated.",
+      "leaf_id": "6334463fce20f54a2981",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 848,
+      "end": 1042,
+      "score": 0.004829721745804341
+    },
+    {
+      "uid": "60c30b650c702ea9285d",
+      "text": "The WER measured against the output considered ready for post-editing, is 9.9% (11.2% disregarding punctuation), only slightly worse than the evaluation with only the factual and grammatical errors corrected.",
+      "leaf_id": "9e5b0fcd3ba8f6cf6817",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 1043,
+      "end": 1251,
+      "score": 0.014672034915237492
+    },
+    {
+      "uid": "4577e68463c7970692f5",
+      "text": "The WER measured against the output considered ready for direct release, was 22.0% (24.4% disregarding punctuation).",
+      "leaf_id": "9e5b0fcd3ba8f6cf6817",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 1252,
+      "end": 1368,
+      "score": 0.007317397471212289
+    },
+    {
+      "uid": "bb17568ef5022eb1cbd1",
+      "text": "In other words, 75–90% of the generated text can be directly used, depending on the expected post-editing effort.",
+      "leaf_id": "9e5b0fcd3ba8f6cf6817",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 1369,
+      "end": 1482,
+      "score": 0.08540366800216244
+    },
+    {
+      "uid": "6c93497940d6c3fbf91f",
+      "text": "Figure FIGREF27 shows two example games along with the generated reports and manual corrections made by the journalist in order to prepare it for publication.",
+      "leaf_id": "9e5b0fcd3ba8f6cf6817",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 1483,
+      "end": 1641,
+      "score": 0.0011559008071517437
+    },
+    {
+      "uid": "f7942ac9bfc88bb2ac81",
+      "text": "Literal translations from the generated, uncorrected Finnish into English are provided for reference.",
+      "leaf_id": "9e5b0fcd3ba8f6cf6817",
+      "section_id": "b69bfddd904e6890a3e0",
+      "start": 1642,
+      "end": 1743,
+      "score": 0.0014895173647107272
+    },
+    {
+      "uid": "0164623641318d350f92",
+      "text": "We developed and evaluated an end-to-end system for news generation from structured data, using a corpus of news and game statistics in the ice hockey domain.",
+      "leaf_id": "c640f72410b576db74c5",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 0,
+      "end": 158,
+      "score": 0.002434382008505326
+    },
+    {
+      "uid": "f6314ec5862d55827ab1",
+      "text": "In terms of the data, our primary finding was the level to which professionally produced news contain information that cannot be inferred from the game statistics.",
+      "leaf_id": "c640f72410b576db74c5",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 159,
+      "end": 322,
+      "score": 0.0016484829418512883
+    },
+    {
+      "uid": "7f522d43e861f0fb1c62",
+      "text": "This leads to the model learning to \"hallucinate\" facts and necessitates a manual alignment and editing of the training data.",
+      "leaf_id": "c640f72410b576db74c5",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 323,
+      "end": 448,
+      "score": 2.931153855960119e-05
+    },
+    {
+      "uid": "a3365a8600fa23de9dac",
+      "text": "Once we created a suitable training dataset, we were able to generate highly grammatical text which, in terms of word error rate (edit distance), was relatively close to what was judged as a viable product by domain journalists.",
+      "leaf_id": "c640f72410b576db74c5",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 449,
+      "end": 677,
+      "score": 0.03926875192716634
+    },
+    {
+      "uid": "a60bbc7d0dbd526ef5f1",
+      "text": "We found that most factual errors in the generated output fall into a small number of categories, mostly related to copying names from the input, types of events, and time references.",
+      "leaf_id": "c640f72410b576db74c5",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 678,
+      "end": 861,
+      "score": 0.02391638709985853
+    },
+    {
+      "uid": "25f28a5fdb3b7f9ef5da",
+      "text": "Addressing these errors is a matter of future work and can be approached using data augmentation techniques as well as introducing sub-word units which would allow the model to deal with inflections.",
+      "leaf_id": "c640f72410b576db74c5",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 862,
+      "end": 1061,
+      "score": 7.36859298114082e-05
+    },
+    {
+      "uid": "fcb20e9ef2d017756471",
+      "text": "Currently, we only generate the news as independent events, with roughly one sentence corresponding to one event.",
+      "leaf_id": "ae5eb1ad77b34ed3245e",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 1062,
+      "end": 1175,
+      "score": 0.0015070488633593833
+    },
+    {
+      "uid": "413346995425453f386f",
+      "text": "As this leads to a somewhat unnatural text, we have attempted in preliminary experiments to generate whole news texts at once, as well as sentences combining several events, nevertheless with results far from useful.",
+      "leaf_id": "ae5eb1ad77b34ed3245e",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 1176,
+      "end": 1392,
+      "score": 0.007577241267860811
+    },
+    {
+      "uid": "052c9aeac92244c62029",
+      "text": "This is likely due to the relatively small number of training examples where a single sentence accounts for several distinct events.",
+      "leaf_id": "ae5eb1ad77b34ed3245e",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 1393,
+      "end": 1525,
+      "score": 1.8777874339495478e-05
+    },
+    {
+      "uid": "923c1f9547565912c711",
+      "text": "We will focus on this problem in our future work, investigating methods which would allow pre-training the generation model so as to be able to successfully accept several events on its input.",
+      "leaf_id": "ae5eb1ad77b34ed3245e",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 1526,
+      "end": 1718,
+      "score": 3.1941819764587e-05
+    },
+    {
+      "uid": "c1cc5e4f19664c4f190c",
+      "text": "The new dataset, the original news corpus and the source code of the model are available for research use.",
+      "leaf_id": "ae5eb1ad77b34ed3245e",
+      "section_id": "b11dd48407a0ac29c1b2",
+      "start": 1719,
+      "end": 1825,
+      "score": 0.0002115288734611408
+    },
+    {
+      "uid": "e330169b4a7fba6d902c",
+      "text": "We gratefully acknowledge the collaboration of Maija Paikkala, Salla Salmela and Pihla Lehmusjoki of the Finnish News Agency STT, as well as the support of the Google Digital News Innovation Fund, Academy of Finland, CSC – IT Center for Science, and the NVIDIA Corporation GPU Grant Program.",
+      "leaf_id": "a9151e84e8a785560fe3",
+      "section_id": "2f8c09e7ae10e1f4977e",
+      "start": 0,
+      "end": 291,
+      "score": 1.9988918976691774e-05
+    }
+  ],
+  "prepare_seconds": 1.956700783688575,
+  "leaf_count": 39
+}

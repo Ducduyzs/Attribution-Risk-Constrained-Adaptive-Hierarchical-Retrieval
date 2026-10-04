@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Datasets used in human language processing",
+        "citations": [
+          "C1",
+          "C6",
+          "C7"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence discusses various datasets used in human language processing, including behavioral data (eye-tracking, self-paced reading) and neural data (EEG recordings).",
+    "claims": [
+      {
+        "text": "Heterogeneous datasets, including eye-tracking and EEG recordings, are used in human language processing.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Small datasets in human language processing can benefit from a multitask approach using diverse data.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 848,
+    "total_tokens": 992,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.842779700000392,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

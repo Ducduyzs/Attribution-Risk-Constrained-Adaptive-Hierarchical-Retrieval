@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific comparisons of the proposed model with other models, including the R.M.-Reader + Verifier and existing MRC systems.",
+    "claims": [
+      {
+        "text": "The proposed model is compared to the R.M.-Reader + Verifier, which is more complex and includes several components, yet the proposed model outperforms it by 0.7 in F1 score.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed model is also compared to many existing MRC systems that extract answers by finding substrings in passages, highlighting its capability to predict unanswerable questions.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model achieves state-of-the-art results on the SQuAD 2.0 dataset, outperforming the SAN baseline significantly in terms of EM and F1 scores.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 2170,
+    "total_tokens": 2363,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.102327900000091,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

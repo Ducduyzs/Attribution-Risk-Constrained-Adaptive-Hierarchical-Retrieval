@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the authors believe humans' robustness to noise is linked to their ability to utilize general knowledge, which is not available to MRC models.",
+    "claims": [
+      {
+        "text": "The authors suggest that human beings' robustness to noise is due to their ability to utilize general knowledge, which MRC models lack.",
+        "citations": [
+          "C6",
+          "C10",
+          "C13"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "General knowledge plays an effective role in enhancing reading comprehension and robustness to noise in humans compared to MRC models.",
+        "citations": [
+          "C3",
+          "C7",
+          "C16"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 1226,
+    "total_tokens": 1359,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.652175700000953,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

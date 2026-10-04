@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides multiple references to the evaluation of models on various datasets to assess their generalization ability, indicating that this ability is verified through performance comparisons across different benchmarks.",
+    "claims": [
+      {
+        "text": "The trained model is evaluated on five different benchmarks to verify its generalization ability.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "NCEL is evaluated on five publicly available datasets to verify its generalization ability.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed method demonstrates good generalization ability by performing consistently well on all datasets.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "NCEL consistently outperforms various baselines, indicating favorable generalization ability.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Neural network models are introduced in recent studies due to their feature abstraction and generalization ability.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 1211,
+    "total_tokens": 1414,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.8637928999996802,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that while some methods focus on adjacent mentions, there are instances where more than just adjacent mentions are utilized for entity linking, particularly in the context of collective methods that consider the coherence of mentions throughout the document.",
+    "claims": [
+      {
+        "text": "Collective methods can utilize both adjacent mentions and additional mentions for disambiguation.",
+        "citations": [
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The NCEL model specifically uses a subgraph of adjacent mentions but also incorporates global coherence from the document.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The effectiveness of entity linking can improve by considering neighbor mentions beyond just adjacent ones.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1932,
+    "total_tokens": 2095,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6141001999967557,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

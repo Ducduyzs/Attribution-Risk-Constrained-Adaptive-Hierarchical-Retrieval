@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific references to the baselines used in the study, particularly the Jasper architecture and the datasets employed for training and evaluation.",
+    "claims": [
+      {
+        "text": "The Jasper architecture serves as a good baseline approach for exploring more sophisticated techniques.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The training data for both acoustic and language models consisted of the 2000hr Fisher+Switchboard training data.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The Hub5 Year 2000 evaluation is widely used in academia as a benchmark.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 1240,
+    "total_tokens": 1379,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 5.254802100000234,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

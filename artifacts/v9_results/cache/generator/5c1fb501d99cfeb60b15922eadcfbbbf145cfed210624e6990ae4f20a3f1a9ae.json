@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "dataset used",
+        "citations": [
+          "C1",
+          "C21",
+          "C26"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies that the dataset used is primarily from Twitter, focusing on tweets for emotion intensity analysis.",
+    "claims": [
+      {
+        "text": "The dataset used for the analysis is primarily composed of tweets from Twitter.",
+        "citations": [
+          "C1",
+          "C21",
+          "C26"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 2462,
+    "total_tokens": 2554,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5133592999991379,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance results for various models and datasets, indicating their effectiveness in cyberbullying detection and comparisons between different approaches.",
+    "claims": [
+      {
+        "text": "Oversampled datasets (F+, T+, W+) have significantly better performance than their counterparts (F, T, W).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "DNN models outperformed all four traditional machine learning models significantly.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The accuracy score of their method is 78.5%.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "Transfer learning improved cyberbullying detection performance on different datasets.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 730,
+    "total_tokens": 891,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8315779999975348,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific evaluation criteria and metrics used to assess the generated text, including gold standard selection, edit distance, word error rate, and BLEU scores.",
+    "claims": [
+      {
+        "text": "The evaluation includes gold standard event selection for comparing generated text to reference text.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Edit distance is used as a measure to reflect the effort needed to correct the generated output.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The word error rate (WER) of the generated text is reported as 5.6%.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "BLEU scores are used to evaluate the fluency of the generated text, indicating a correlation with factual accuracy.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 724,
+    "total_tokens": 906,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.08400900000197,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about various baseline models used in speech translation experiments, including their configurations and training methods.",
+    "claims": [
+      {
+        "text": "The baselines include a vanilla ST model, pre-training baselines (encoder, decoder, and encoder-decoder pre-training), and multi-task baselines (one-to-many, many-to-one, and many-to-many settings).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The pre-training baselines utilize ASR and MT models to initialize the encoder and decoder, respectively, enhancing performance compared to the vanilla model.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Multi-task baselines are designed to improve translation quality by training models in various configurations, such as many-to-many settings with specific weightings for tasks.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 1936,
+    "total_tokens": 2122,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.195775300002424,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

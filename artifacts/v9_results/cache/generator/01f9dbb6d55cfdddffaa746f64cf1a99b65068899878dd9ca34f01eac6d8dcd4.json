@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance results for various models used in cyberbullying detection, including F1 scores and accuracy metrics for different datasets.",
+    "claims": [
+      {
+        "text": "The F1 score for the Wikipedia dataset using BLSTM with attention and feature level transfer learning is 0.94.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The F1 score for the Twitter dataset using BLSTM with attention and feature level transfer learning is also 0.94.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "For the Formspring dataset, the achieved F1 score is 0.95 with an accuracy score of 98%.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Previous best F1 scores for the Wikipedia and Twitter datasets were 0.68 and 0.93 respectively.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 196,
+    "prompt_tokens": 1849,
+    "total_tokens": 2045,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.993758999997226,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

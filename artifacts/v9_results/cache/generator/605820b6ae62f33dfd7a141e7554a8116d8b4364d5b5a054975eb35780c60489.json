@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "datasets used",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides information about the datasets used in the context of human language processing, specifically mentioning eye-tracking, self-paced reading, ERP components, and neural activity data.",
+    "claims": [
+      {
+        "text": "The datasets used include eye-tracking data, self-paced reading data, and ERP components.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The authors also reference magnetoencephalography (MEG) data in relation to predicting neural activity.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 1284,
+    "total_tokens": 1436,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8820589999995718,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

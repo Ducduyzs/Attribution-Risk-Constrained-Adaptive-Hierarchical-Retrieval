@@ -1,0 +1,106 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "competitive results on Wall Street Journal",
+        "citations": [
+          "C1",
+          "C2",
+          "C33"
+        ]
+      },
+      {
+        "requirement": "competitive results on Hub5'00",
+        "citations": [
+          "C1",
+          "C27"
+        ]
+      },
+      {
+        "requirement": "competitive results on Fisher+Switchboard",
+        "citations": [
+          "C2"
+        ]
+      },
+      {
+        "requirement": "competitive results on LibriSpeech",
+        "citations": [
+          "C3",
+          "C15"
+        ]
+      },
+      {
+        "requirement": "results on SWB",
+        "citations": [
+          "C5"
+        ]
+      },
+      {
+        "requirement": "results on CHM",
+        "citations": [
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific competitive results on various datasets, including Wall Street Journal, Hub5'00, Fisher+Switchboard, and LibriSpeech.",
+    "claims": [
+      {
+        "text": "Competitive results were obtained on the Wall Street Journal dataset.",
+        "citations": [
+          "C1",
+          "C2",
+          "C33"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Competitive results were achieved on the Hub5'00 conversational evaluation dataset.",
+        "citations": [
+          "C1",
+          "C27"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Results were competitive on the Fisher+Switchboard dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "Good results were reported for the SWB dataset.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "There is room for improvement on the CHM task, indicating competitive results are not yet optimal.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.6
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 309,
+    "prompt_tokens": 2479,
+    "total_tokens": 2788,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.021536799999012,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a comprehensive overview of various types of offensive content explored in research, including hate speech, cyberbullying, aggression, and more.",
+    "claims": [
+      {
+        "text": "Different kinds of offensive content explored include hate speech, cyberbullying, aggression, toxic comments, and abusive language.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The research categorizes offensive content into targeted and untargeted insults and threats.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "A fine-grained classification of offensive content includes categories such as profanity, insult, and abuse.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study also emphasizes the importance of identifying the target of offensive language in various scenarios.",
+        "citations": [
+          "C7",
+          "C16"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1239,
+    "total_tokens": 1421,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.997178999998141,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

@@ -1,0 +1,3961 @@
+{
+  "summaries": {
+    "flat24": {
+      "recall5": 0.5228888888888888,
+      "recall10": 0.7528888888888889,
+      "pool_recall": 0.9422222222222221,
+      "mrr": 0.5326243386243387,
+      "candidates": 21.946666666666665
+    },
+    "all_leaf": {
+      "recall5": 0.5251111111111111,
+      "recall10": 0.7517777777777778,
+      "pool_recall": 0.9866666666666667,
+      "mrr": 0.5322476190476192,
+      "candidates": 29.093333333333334
+    },
+    "contextual24": {
+      "recall5": 0.5468888888888889,
+      "recall10": 0.7197777777777777,
+      "pool_recall": 0.9422222222222221,
+      "mrr": 0.6040772005772007,
+      "candidates": 21.946666666666665
+    },
+    "contextual_all": {
+      "recall5": 0.5491111111111111,
+      "recall10": 0.7220000000000001,
+      "pool_recall": 0.9866666666666667,
+      "mrr": 0.6039761904761906,
+      "candidates": 29.093333333333334
+    },
+    "raptor": {
+      "recall5": 0.6024444444444444,
+      "recall10": 0.7355555555555556,
+      "pool_recall": 0.7911111111111111,
+      "mrr": 0.5837539682539684,
+      "candidates": 12.786666666666667
+    }
+  },
+  "comparisons_vs_flat": [
+    {
+      "system": "all_leaf",
+      "metric": "recall5",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": 0.0022222222222222227,
+      "ci95": [
+        0.0,
+        0.007042253521126761
+      ],
+      "p": 1.0,
+      "d_z": 0.18257418583505533,
+      "p_holm": 1.0
+    },
+    {
+      "system": "all_leaf",
+      "metric": "recall10",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": -0.0011111111111111115,
+      "ci95": [
+        -0.01,
+        0.006493506493506492
+      ],
+      "p": 1.0,
+      "d_z": -2.113801663112788e-17,
+      "p_holm": 1.0
+    },
+    {
+      "system": "all_leaf",
+      "metric": "pool_recall",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": 0.044444444444444446,
+      "ci95": [
+        0.016025641025641024,
+        0.07692307692307694
+      ],
+      "p": 0.014299285035748212,
+      "d_z": 0.47533557261426146,
+      "p_holm": 0.1429928503574821
+    },
+    {
+      "system": "contextual24",
+      "metric": "recall5",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": 0.024,
+      "ci95": [
+        -0.022510822510822513,
+        0.06981981981981983
+      ],
+      "p": 0.32453377331133443,
+      "d_z": 0.15893357577093903,
+      "p_holm": 1.0
+    },
+    {
+      "system": "contextual24",
+      "metric": "recall10",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": -0.03311111111111111,
+      "ci95": [
+        -0.08904109589041094,
+        0.016444444444444446
+      ],
+      "p": 0.25133743312834356,
+      "d_z": -0.2524473946064597,
+      "p_holm": 1.0
+    },
+    {
+      "system": "contextual24",
+      "metric": "pool_recall",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p": 1.0,
+      "d_z": 0.0,
+      "p_holm": 1.0
+    },
+    {
+      "system": "contextual_all",
+      "metric": "recall5",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": 0.02622222222222222,
+      "ci95": [
+        -0.019547325102880656,
+        0.07159624413145539
+      ],
+      "p": 0.2768361581920904,
+      "d_z": 0.18389240697114817,
+      "p_holm": 1.0
+    },
+    {
+      "system": "contextual_all",
+      "metric": "recall10",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": -0.030888888888888886,
+      "ci95": [
+        -0.08688888888888889,
+        0.018981481481481478
+      ],
+      "p": 0.2834358282085896,
+      "d_z": -0.23551112432356192,
+      "p_holm": 1.0
+    },
+    {
+      "system": "contextual_all",
+      "metric": "pool_recall",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": 0.044444444444444446,
+      "ci95": [
+        0.016025641025641024,
+        0.07692307692307694
+      ],
+      "p": 0.014299285035748212,
+      "d_z": 0.47533557261426146,
+      "p_holm": 0.1429928503574821
+    },
+    {
+      "system": "raptor",
+      "metric": "recall5",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": 0.07955555555555556,
+      "ci95": [
+        0.02657657657657658,
+        0.1380952380952381
+      ],
+      "p": 0.007649617519124044,
+      "d_z": 0.48245024470296277,
+      "p_holm": 0.08414579271036449
+    },
+    {
+      "system": "raptor",
+      "metric": "recall10",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": -0.017333333333333333,
+      "ci95": [
+        -0.06545893719806763,
+        0.03561643835616438
+      ],
+      "p": 0.5219239038048098,
+      "d_z": -0.09778983921190959,
+      "p_holm": 1.0
+    },
+    {
+      "system": "raptor",
+      "metric": "pool_recall",
+      "questions": 75,
+      "papers": 30,
+      "mean_diff": -0.1511111111111111,
+      "ci95": [
+        -0.20833333333333334,
+        -0.09477911646586346
+      ],
+      "p": 4.999750012499375e-05,
+      "d_z": -0.9101447474243028,
+      "p_holm": 0.000599970001499925
+    }
+  ],
+  "rows": [
+    {
+      "system": "flat24",
+      "question_id": "d004ca2e999940ac5c1576046e30efa3059832fa",
+      "source": "1909.13104.qasper",
+      "recall5": 0.0,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "d004ca2e999940ac5c1576046e30efa3059832fa",
+      "source": "1909.13104.qasper",
+      "recall5": 0.0,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 25
+    },
+    {
+      "system": "contextual24",
+      "question_id": "d004ca2e999940ac5c1576046e30efa3059832fa",
+      "source": "1909.13104.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "d004ca2e999940ac5c1576046e30efa3059832fa",
+      "source": "1909.13104.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 25
+    },
+    {
+      "system": "raptor",
+      "question_id": "d004ca2e999940ac5c1576046e30efa3059832fa",
+      "source": "1909.13104.qasper",
+      "recall5": 0.25,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 13
+    },
+    {
+      "system": "flat24",
+      "question_id": "d64383e39357bd4177b49c02eb48e12ba7ffd4fb",
+      "source": "1809.03449.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 0.6666666666666666,
+      "mrr": 0.25,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "d64383e39357bd4177b49c02eb48e12ba7ffd4fb",
+      "source": "1809.03449.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 37
+    },
+    {
+      "system": "contextual24",
+      "question_id": "d64383e39357bd4177b49c02eb48e12ba7ffd4fb",
+      "source": "1809.03449.qasper",
+      "recall5": 0.0,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 0.6666666666666666,
+      "mrr": 0.16666666666666666,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "d64383e39357bd4177b49c02eb48e12ba7ffd4fb",
+      "source": "1809.03449.qasper",
+      "recall5": 0.0,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 37
+    },
+    {
+      "system": "raptor",
+      "question_id": "d64383e39357bd4177b49c02eb48e12ba7ffd4fb",
+      "source": "1809.03449.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 0.3333333333333333,
+      "mrr": 0.25,
+      "candidates": 13
+    },
+    {
+      "system": "flat24",
+      "question_id": "6aa2a1e2e3666f2b2a1f282d4cbdd1ca325eb9de",
+      "source": "1809.00530.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "6aa2a1e2e3666f2b2a1f282d4cbdd1ca325eb9de",
+      "source": "1809.00530.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 39
+    },
+    {
+      "system": "contextual24",
+      "question_id": "6aa2a1e2e3666f2b2a1f282d4cbdd1ca325eb9de",
+      "source": "1809.00530.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "6aa2a1e2e3666f2b2a1f282d4cbdd1ca325eb9de",
+      "source": "1809.00530.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 39
+    },
+    {
+      "system": "raptor",
+      "question_id": "6aa2a1e2e3666f2b2a1f282d4cbdd1ca325eb9de",
+      "source": "1809.00530.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 6
+    },
+    {
+      "system": "flat24",
+      "question_id": "7e38e0279a620d3df05ab9b5e2795044f18d4471",
+      "source": "1801.06482.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "7e38e0279a620d3df05ab9b5e2795044f18d4471",
+      "source": "1801.06482.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 26
+    },
+    {
+      "system": "contextual24",
+      "question_id": "7e38e0279a620d3df05ab9b5e2795044f18d4471",
+      "source": "1801.06482.qasper",
+      "recall5": 0.75,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "7e38e0279a620d3df05ab9b5e2795044f18d4471",
+      "source": "1801.06482.qasper",
+      "recall5": 0.75,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 26
+    },
+    {
+      "system": "raptor",
+      "question_id": "7e38e0279a620d3df05ab9b5e2795044f18d4471",
+      "source": "1801.06482.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 0.75,
+      "mrr": 1.0,
+      "candidates": 13
+    },
+    {
+      "system": "flat24",
+      "question_id": "92d1a6df3041667dc662376938bc65527a5a1c3c",
+      "source": "1705.01265.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 23
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "92d1a6df3041667dc662376938bc65527a5a1c3c",
+      "source": "1705.01265.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 23
+    },
+    {
+      "system": "contextual24",
+      "question_id": "92d1a6df3041667dc662376938bc65527a5a1c3c",
+      "source": "1705.01265.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 23
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "92d1a6df3041667dc662376938bc65527a5a1c3c",
+      "source": "1705.01265.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 23
+    },
+    {
+      "system": "raptor",
+      "question_id": "92d1a6df3041667dc662376938bc65527a5a1c3c",
+      "source": "1705.01265.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 15
+    },
+    {
+      "system": "flat24",
+      "question_id": "f0b2289cb887740f9255909018f400f028b1ef26",
+      "source": "1909.13104.qasper",
+      "recall5": 0.75,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "f0b2289cb887740f9255909018f400f028b1ef26",
+      "source": "1909.13104.qasper",
+      "recall5": 0.75,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 25
+    },
+    {
+      "system": "contextual24",
+      "question_id": "f0b2289cb887740f9255909018f400f028b1ef26",
+      "source": "1909.13104.qasper",
+      "recall5": 0.75,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "f0b2289cb887740f9255909018f400f028b1ef26",
+      "source": "1909.13104.qasper",
+      "recall5": 0.75,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 25
+    },
+    {
+      "system": "raptor",
+      "question_id": "f0b2289cb887740f9255909018f400f028b1ef26",
+      "source": "1909.13104.qasper",
+      "recall5": 0.75,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 15
+    },
+    {
+      "system": "flat24",
+      "question_id": "bf52c01bf82612d0c7bbf2e6a5bb2570c322936f",
+      "source": "1604.00400.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "bf52c01bf82612d0c7bbf2e6a5bb2570c322936f",
+      "source": "1604.00400.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 40
+    },
+    {
+      "system": "contextual24",
+      "question_id": "bf52c01bf82612d0c7bbf2e6a5bb2570c322936f",
+      "source": "1604.00400.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "bf52c01bf82612d0c7bbf2e6a5bb2570c322936f",
+      "source": "1604.00400.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 40
+    },
+    {
+      "system": "raptor",
+      "question_id": "bf52c01bf82612d0c7bbf2e6a5bb2570c322936f",
+      "source": "1604.00400.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 20
+    },
+    {
+      "system": "flat24",
+      "question_id": "2439b6b92d73f660fe6af8d24b7bbecf2b3a3d72",
+      "source": "1811.08603.qasper",
+      "recall5": 0.25,
+      "recall10": 0.5,
+      "pool_recall": 0.75,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "2439b6b92d73f660fe6af8d24b7bbecf2b3a3d72",
+      "source": "1811.08603.qasper",
+      "recall5": 0.25,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 38
+    },
+    {
+      "system": "contextual24",
+      "question_id": "2439b6b92d73f660fe6af8d24b7bbecf2b3a3d72",
+      "source": "1811.08603.qasper",
+      "recall5": 0.25,
+      "recall10": 0.5,
+      "pool_recall": 0.75,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "2439b6b92d73f660fe6af8d24b7bbecf2b3a3d72",
+      "source": "1811.08603.qasper",
+      "recall5": 0.25,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 38
+    },
+    {
+      "system": "raptor",
+      "question_id": "2439b6b92d73f660fe6af8d24b7bbecf2b3a3d72",
+      "source": "1811.08603.qasper",
+      "recall5": 0.25,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 19
+    },
+    {
+      "system": "flat24",
+      "question_id": "e35a7f9513ff1cc0f0520f1d4ad9168a47dc18bb",
+      "source": "1805.07133.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "e35a7f9513ff1cc0f0520f1d4ad9168a47dc18bb",
+      "source": "1805.07133.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 33
+    },
+    {
+      "system": "contextual24",
+      "question_id": "e35a7f9513ff1cc0f0520f1d4ad9168a47dc18bb",
+      "source": "1805.07133.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "e35a7f9513ff1cc0f0520f1d4ad9168a47dc18bb",
+      "source": "1805.07133.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 33
+    },
+    {
+      "system": "raptor",
+      "question_id": "e35a7f9513ff1cc0f0520f1d4ad9168a47dc18bb",
+      "source": "1805.07133.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 17
+    },
+    {
+      "system": "flat24",
+      "question_id": "9122de265577e8f6b5160cd7d28be9e22da752b2",
+      "source": "2001.02885.qasper",
+      "recall5": 0.0,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 1.0,
+      "mrr": 0.125,
+      "candidates": 21
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "9122de265577e8f6b5160cd7d28be9e22da752b2",
+      "source": "2001.02885.qasper",
+      "recall5": 0.0,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 1.0,
+      "mrr": 0.125,
+      "candidates": 21
+    },
+    {
+      "system": "contextual24",
+      "question_id": "9122de265577e8f6b5160cd7d28be9e22da752b2",
+      "source": "2001.02885.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 21
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "9122de265577e8f6b5160cd7d28be9e22da752b2",
+      "source": "2001.02885.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 21
+    },
+    {
+      "system": "raptor",
+      "question_id": "9122de265577e8f6b5160cd7d28be9e22da752b2",
+      "source": "2001.02885.qasper",
+      "recall5": 0.0,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 0.3333333333333333,
+      "mrr": 0.16666666666666666,
+      "candidates": 9
+    },
+    {
+      "system": "flat24",
+      "question_id": "a5e49cdb91d9fd0ca625cc1ede236d3d4672403c",
+      "source": "1809.09194.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 14
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "a5e49cdb91d9fd0ca625cc1ede236d3d4672403c",
+      "source": "1809.09194.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 14
+    },
+    {
+      "system": "contextual24",
+      "question_id": "a5e49cdb91d9fd0ca625cc1ede236d3d4672403c",
+      "source": "1809.09194.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "a5e49cdb91d9fd0ca625cc1ede236d3d4672403c",
+      "source": "1809.09194.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "raptor",
+      "question_id": "a5e49cdb91d9fd0ca625cc1ede236d3d4672403c",
+      "source": "1809.09194.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 11
+    },
+    {
+      "system": "flat24",
+      "question_id": "45e9533586199bde19313cd43b3d0ecadcaf7a33",
+      "source": "1809.09194.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "45e9533586199bde19313cd43b3d0ecadcaf7a33",
+      "source": "1809.09194.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "contextual24",
+      "question_id": "45e9533586199bde19313cd43b3d0ecadcaf7a33",
+      "source": "1809.09194.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "45e9533586199bde19313cd43b3d0ecadcaf7a33",
+      "source": "1809.09194.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "raptor",
+      "question_id": "45e9533586199bde19313cd43b3d0ecadcaf7a33",
+      "source": "1809.09194.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 12
+    },
+    {
+      "system": "flat24",
+      "question_id": "55bd59076a49b19d3283af41c5e3ccb875f3eb0c",
+      "source": "1902.09666.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 22
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "55bd59076a49b19d3283af41c5e3ccb875f3eb0c",
+      "source": "1902.09666.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 22
+    },
+    {
+      "system": "contextual24",
+      "question_id": "55bd59076a49b19d3283af41c5e3ccb875f3eb0c",
+      "source": "1902.09666.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 22
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "55bd59076a49b19d3283af41c5e3ccb875f3eb0c",
+      "source": "1902.09666.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 22
+    },
+    {
+      "system": "raptor",
+      "question_id": "55bd59076a49b19d3283af41c5e3ccb875f3eb0c",
+      "source": "1902.09666.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 8
+    },
+    {
+      "system": "flat24",
+      "question_id": "b8d0e4e0e820753ffc107c1847fe1dfd48883989",
+      "source": "1811.08603.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 0.75,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "b8d0e4e0e820753ffc107c1847fe1dfd48883989",
+      "source": "1811.08603.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 38
+    },
+    {
+      "system": "contextual24",
+      "question_id": "b8d0e4e0e820753ffc107c1847fe1dfd48883989",
+      "source": "1811.08603.qasper",
+      "recall5": 0.75,
+      "recall10": 0.75,
+      "pool_recall": 0.75,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "b8d0e4e0e820753ffc107c1847fe1dfd48883989",
+      "source": "1811.08603.qasper",
+      "recall5": 0.75,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 38
+    },
+    {
+      "system": "raptor",
+      "question_id": "b8d0e4e0e820753ffc107c1847fe1dfd48883989",
+      "source": "1811.08603.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 1.0,
+      "candidates": 9
+    },
+    {
+      "system": "flat24",
+      "question_id": "af34051bf3e628c1e2a00b110bb84e5f018b419f",
+      "source": "1909.07575.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "af34051bf3e628c1e2a00b110bb84e5f018b419f",
+      "source": "1909.07575.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 44
+    },
+    {
+      "system": "contextual24",
+      "question_id": "af34051bf3e628c1e2a00b110bb84e5f018b419f",
+      "source": "1909.07575.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "af34051bf3e628c1e2a00b110bb84e5f018b419f",
+      "source": "1909.07575.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 44
+    },
+    {
+      "system": "raptor",
+      "question_id": "af34051bf3e628c1e2a00b110bb84e5f018b419f",
+      "source": "1909.07575.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 12
+    },
+    {
+      "system": "flat24",
+      "question_id": "290ee79b5e3872e0496a6a0fc9b103ab7d8f6c30",
+      "source": "1902.09666.qasper",
+      "recall5": 0.25,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 22
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "290ee79b5e3872e0496a6a0fc9b103ab7d8f6c30",
+      "source": "1902.09666.qasper",
+      "recall5": 0.25,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 22
+    },
+    {
+      "system": "contextual24",
+      "question_id": "290ee79b5e3872e0496a6a0fc9b103ab7d8f6c30",
+      "source": "1902.09666.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 22
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "290ee79b5e3872e0496a6a0fc9b103ab7d8f6c30",
+      "source": "1902.09666.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 22
+    },
+    {
+      "system": "raptor",
+      "question_id": "290ee79b5e3872e0496a6a0fc9b103ab7d8f6c30",
+      "source": "1902.09666.qasper",
+      "recall5": 0.25,
+      "recall10": 0.25,
+      "pool_recall": 0.25,
+      "mrr": 1.0,
+      "candidates": 13
+    },
+    {
+      "system": "flat24",
+      "question_id": "9a05a5f4351db75da371f7ac12eb0b03607c4b87",
+      "source": "1912.01214.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "9a05a5f4351db75da371f7ac12eb0b03607c4b87",
+      "source": "1912.01214.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 34
+    },
+    {
+      "system": "contextual24",
+      "question_id": "9a05a5f4351db75da371f7ac12eb0b03607c4b87",
+      "source": "1912.01214.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "9a05a5f4351db75da371f7ac12eb0b03607c4b87",
+      "source": "1912.01214.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 34
+    },
+    {
+      "system": "raptor",
+      "question_id": "9a05a5f4351db75da371f7ac12eb0b03607c4b87",
+      "source": "1912.01214.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 15
+    },
+    {
+      "system": "flat24",
+      "question_id": "51fe4d44887c5cc5fc98b65ca4cb5876f0a56dad",
+      "source": "1911.00841.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "51fe4d44887c5cc5fc98b65ca4cb5876f0a56dad",
+      "source": "1911.00841.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 35
+    },
+    {
+      "system": "contextual24",
+      "question_id": "51fe4d44887c5cc5fc98b65ca4cb5876f0a56dad",
+      "source": "1911.00841.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "51fe4d44887c5cc5fc98b65ca4cb5876f0a56dad",
+      "source": "1911.00841.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 35
+    },
+    {
+      "system": "raptor",
+      "question_id": "51fe4d44887c5cc5fc98b65ca4cb5876f0a56dad",
+      "source": "1911.00841.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 12
+    },
+    {
+      "system": "flat24",
+      "question_id": "c49ee6ac4dc812ff84d255886fd5aff794f53c39",
+      "source": "1604.00400.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.5,
+      "mrr": 0.05,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "c49ee6ac4dc812ff84d255886fd5aff794f53c39",
+      "source": "1604.00400.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.04,
+      "candidates": 40
+    },
+    {
+      "system": "contextual24",
+      "question_id": "c49ee6ac4dc812ff84d255886fd5aff794f53c39",
+      "source": "1604.00400.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 0.25,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "c49ee6ac4dc812ff84d255886fd5aff794f53c39",
+      "source": "1604.00400.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 40
+    },
+    {
+      "system": "raptor",
+      "question_id": "c49ee6ac4dc812ff84d255886fd5aff794f53c39",
+      "source": "1604.00400.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.5,
+      "mrr": 0.0625,
+      "candidates": 24
+    },
+    {
+      "system": "flat24",
+      "question_id": "f0848e7a339da0828278f6803ed7990366c975f0",
+      "source": "1911.00841.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "f0848e7a339da0828278f6803ed7990366c975f0",
+      "source": "1911.00841.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 35
+    },
+    {
+      "system": "contextual24",
+      "question_id": "f0848e7a339da0828278f6803ed7990366c975f0",
+      "source": "1911.00841.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "f0848e7a339da0828278f6803ed7990366c975f0",
+      "source": "1911.00841.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 35
+    },
+    {
+      "system": "raptor",
+      "question_id": "f0848e7a339da0828278f6803ed7990366c975f0",
+      "source": "1911.00841.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 0.6666666666666666,
+      "mrr": 0.3333333333333333,
+      "candidates": 16
+    },
+    {
+      "system": "flat24",
+      "question_id": "8bb0011ad1d63996d5650770f3be18abdd9f7fc6",
+      "source": "1809.03449.qasper",
+      "recall5": 0.25,
+      "recall10": 0.25,
+      "pool_recall": 0.75,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "8bb0011ad1d63996d5650770f3be18abdd9f7fc6",
+      "source": "1809.03449.qasper",
+      "recall5": 0.25,
+      "recall10": 0.25,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 37
+    },
+    {
+      "system": "contextual24",
+      "question_id": "8bb0011ad1d63996d5650770f3be18abdd9f7fc6",
+      "source": "1809.03449.qasper",
+      "recall5": 0.25,
+      "recall10": 0.25,
+      "pool_recall": 0.75,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "8bb0011ad1d63996d5650770f3be18abdd9f7fc6",
+      "source": "1809.03449.qasper",
+      "recall5": 0.25,
+      "recall10": 0.25,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 37
+    },
+    {
+      "system": "raptor",
+      "question_id": "8bb0011ad1d63996d5650770f3be18abdd9f7fc6",
+      "source": "1809.03449.qasper",
+      "recall5": 0.25,
+      "recall10": 0.25,
+      "pool_recall": 0.5,
+      "mrr": 1.0,
+      "candidates": 15
+    },
+    {
+      "system": "flat24",
+      "question_id": "74e866137b3452ec50fb6feaf5753c8637459e62",
+      "source": "1604.00400.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "74e866137b3452ec50fb6feaf5753c8637459e62",
+      "source": "1604.00400.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 40
+    },
+    {
+      "system": "contextual24",
+      "question_id": "74e866137b3452ec50fb6feaf5753c8637459e62",
+      "source": "1604.00400.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "74e866137b3452ec50fb6feaf5753c8637459e62",
+      "source": "1604.00400.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 40
+    },
+    {
+      "system": "raptor",
+      "question_id": "74e866137b3452ec50fb6feaf5753c8637459e62",
+      "source": "1604.00400.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 10
+    },
+    {
+      "system": "flat24",
+      "question_id": "da55bd769721b878dd17f07f124a37a0a165db02",
+      "source": "2001.02284.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "da55bd769721b878dd17f07f124a37a0a165db02",
+      "source": "2001.02284.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 56
+    },
+    {
+      "system": "contextual24",
+      "question_id": "da55bd769721b878dd17f07f124a37a0a165db02",
+      "source": "2001.02284.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "da55bd769721b878dd17f07f124a37a0a165db02",
+      "source": "2001.02284.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 56
+    },
+    {
+      "system": "raptor",
+      "question_id": "da55bd769721b878dd17f07f124a37a0a165db02",
+      "source": "2001.02284.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 0.2,
+      "candidates": 24
+    },
+    {
+      "system": "flat24",
+      "question_id": "d015faf0f8dcf2e15c1690bbbe2bf1e7e0ce3751",
+      "source": "1902.09666.qasper",
+      "recall5": 0.25,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 22
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "d015faf0f8dcf2e15c1690bbbe2bf1e7e0ce3751",
+      "source": "1902.09666.qasper",
+      "recall5": 0.25,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 22
+    },
+    {
+      "system": "contextual24",
+      "question_id": "d015faf0f8dcf2e15c1690bbbe2bf1e7e0ce3751",
+      "source": "1902.09666.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 22
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "d015faf0f8dcf2e15c1690bbbe2bf1e7e0ce3751",
+      "source": "1902.09666.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 22
+    },
+    {
+      "system": "raptor",
+      "question_id": "d015faf0f8dcf2e15c1690bbbe2bf1e7e0ce3751",
+      "source": "1902.09666.qasper",
+      "recall5": 0.0,
+      "recall10": 0.25,
+      "pool_recall": 0.25,
+      "mrr": 0.125,
+      "candidates": 13
+    },
+    {
+      "system": "flat24",
+      "question_id": "114934e1a1e818630ff33ac5c4cd4be6c6f75bb2",
+      "source": "1811.08603.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "114934e1a1e818630ff33ac5c4cd4be6c6f75bb2",
+      "source": "1811.08603.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 38
+    },
+    {
+      "system": "contextual24",
+      "question_id": "114934e1a1e818630ff33ac5c4cd4be6c6f75bb2",
+      "source": "1811.08603.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "114934e1a1e818630ff33ac5c4cd4be6c6f75bb2",
+      "source": "1811.08603.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 38
+    },
+    {
+      "system": "raptor",
+      "question_id": "114934e1a1e818630ff33ac5c4cd4be6c6f75bb2",
+      "source": "1811.08603.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 0.5,
+      "candidates": 11
+    },
+    {
+      "system": "flat24",
+      "question_id": "adbf33c6144b2f5c40d0c6a328a92687a476f371",
+      "source": "1802.07862.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 0.6666666666666666,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "adbf33c6144b2f5c40d0c6a328a92687a476f371",
+      "source": "1802.07862.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 34
+    },
+    {
+      "system": "contextual24",
+      "question_id": "adbf33c6144b2f5c40d0c6a328a92687a476f371",
+      "source": "1802.07862.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 0.6666666666666666,
+      "mrr": 0.25,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "adbf33c6144b2f5c40d0c6a328a92687a476f371",
+      "source": "1802.07862.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 34
+    },
+    {
+      "system": "raptor",
+      "question_id": "adbf33c6144b2f5c40d0c6a328a92687a476f371",
+      "source": "1802.07862.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "flat24",
+      "question_id": "511517efc96edcd3e91e7783821c9d6d5a6562af",
+      "source": "2001.02885.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 21
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "511517efc96edcd3e91e7783821c9d6d5a6562af",
+      "source": "2001.02885.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 21
+    },
+    {
+      "system": "contextual24",
+      "question_id": "511517efc96edcd3e91e7783821c9d6d5a6562af",
+      "source": "2001.02885.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 21
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "511517efc96edcd3e91e7783821c9d6d5a6562af",
+      "source": "2001.02885.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 21
+    },
+    {
+      "system": "raptor",
+      "question_id": "511517efc96edcd3e91e7783821c9d6d5a6562af",
+      "source": "2001.02885.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 8
+    },
+    {
+      "system": "flat24",
+      "question_id": "78536da059b884d6ad04680baeb894895458055c",
+      "source": "2001.02885.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 21
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "78536da059b884d6ad04680baeb894895458055c",
+      "source": "2001.02885.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 21
+    },
+    {
+      "system": "contextual24",
+      "question_id": "78536da059b884d6ad04680baeb894895458055c",
+      "source": "2001.02885.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 21
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "78536da059b884d6ad04680baeb894895458055c",
+      "source": "2001.02885.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 21
+    },
+    {
+      "system": "raptor",
+      "question_id": "78536da059b884d6ad04680baeb894895458055c",
+      "source": "2001.02885.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "candidates": 14
+    },
+    {
+      "system": "flat24",
+      "question_id": "a778b8204a415b295f73b93623d09599f242f202",
+      "source": "2001.03131.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 21
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "a778b8204a415b295f73b93623d09599f242f202",
+      "source": "2001.03131.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 21
+    },
+    {
+      "system": "contextual24",
+      "question_id": "a778b8204a415b295f73b93623d09599f242f202",
+      "source": "2001.03131.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 21
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "a778b8204a415b295f73b93623d09599f242f202",
+      "source": "2001.03131.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 21
+    },
+    {
+      "system": "raptor",
+      "question_id": "a778b8204a415b295f73b93623d09599f242f202",
+      "source": "2001.03131.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 10
+    },
+    {
+      "system": "flat24",
+      "question_id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+      "source": "1804.05918.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.5,
+      "pool_recall": 0.8333333333333334,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+      "source": "1804.05918.qasper",
+      "recall5": 0.5,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 36
+    },
+    {
+      "system": "contextual24",
+      "question_id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+      "source": "1804.05918.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 0.8333333333333334,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+      "source": "1804.05918.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 36
+    },
+    {
+      "system": "raptor",
+      "question_id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+      "source": "1804.05918.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 0.8333333333333334,
+      "mrr": 1.0,
+      "candidates": 16
+    },
+    {
+      "system": "flat24",
+      "question_id": "c2d1387e08cf25cb6b1f482178cca58030e85b70",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 19
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "c2d1387e08cf25cb6b1f482178cca58030e85b70",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 19
+    },
+    {
+      "system": "contextual24",
+      "question_id": "c2d1387e08cf25cb6b1f482178cca58030e85b70",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 19
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "c2d1387e08cf25cb6b1f482178cca58030e85b70",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 19
+    },
+    {
+      "system": "raptor",
+      "question_id": "c2d1387e08cf25cb6b1f482178cca58030e85b70",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 11
+    },
+    {
+      "system": "flat24",
+      "question_id": "9176d2ba1c638cdec334971c4c7f1bb959495a8e",
+      "source": "1809.00530.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "9176d2ba1c638cdec334971c4c7f1bb959495a8e",
+      "source": "1809.00530.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 39
+    },
+    {
+      "system": "contextual24",
+      "question_id": "9176d2ba1c638cdec334971c4c7f1bb959495a8e",
+      "source": "1809.00530.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "9176d2ba1c638cdec334971c4c7f1bb959495a8e",
+      "source": "1809.00530.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 39
+    },
+    {
+      "system": "raptor",
+      "question_id": "9176d2ba1c638cdec334971c4c7f1bb959495a8e",
+      "source": "1809.00530.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.0,
+      "mrr": 0.0,
+      "candidates": 11
+    },
+    {
+      "system": "flat24",
+      "question_id": "022c365a14fdec406c7a945a1a18e7e79df37f08",
+      "source": "1909.07575.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.1,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "022c365a14fdec406c7a945a1a18e7e79df37f08",
+      "source": "1909.07575.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.1,
+      "candidates": 44
+    },
+    {
+      "system": "contextual24",
+      "question_id": "022c365a14fdec406c7a945a1a18e7e79df37f08",
+      "source": "1909.07575.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.0625,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "022c365a14fdec406c7a945a1a18e7e79df37f08",
+      "source": "1909.07575.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.0625,
+      "candidates": 44
+    },
+    {
+      "system": "raptor",
+      "question_id": "022c365a14fdec406c7a945a1a18e7e79df37f08",
+      "source": "1909.07575.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 16
+    },
+    {
+      "system": "flat24",
+      "question_id": "5b7a4994bfdbf8882f391adf1cd2218dbc2255a0",
+      "source": "1809.00530.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "5b7a4994bfdbf8882f391adf1cd2218dbc2255a0",
+      "source": "1809.00530.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 39
+    },
+    {
+      "system": "contextual24",
+      "question_id": "5b7a4994bfdbf8882f391adf1cd2218dbc2255a0",
+      "source": "1809.00530.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "5b7a4994bfdbf8882f391adf1cd2218dbc2255a0",
+      "source": "1809.00530.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 39
+    },
+    {
+      "system": "raptor",
+      "question_id": "5b7a4994bfdbf8882f391adf1cd2218dbc2255a0",
+      "source": "1809.00530.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 17
+    },
+    {
+      "system": "flat24",
+      "question_id": "cf874cd9023d901e10aa8664b813d32501e7e4d2",
+      "source": "1705.05437.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 23
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "cf874cd9023d901e10aa8664b813d32501e7e4d2",
+      "source": "1705.05437.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 23
+    },
+    {
+      "system": "contextual24",
+      "question_id": "cf874cd9023d901e10aa8664b813d32501e7e4d2",
+      "source": "1705.05437.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 23
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "cf874cd9023d901e10aa8664b813d32501e7e4d2",
+      "source": "1705.05437.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 23
+    },
+    {
+      "system": "raptor",
+      "question_id": "cf874cd9023d901e10aa8664b813d32501e7e4d2",
+      "source": "1705.05437.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 17
+    },
+    {
+      "system": "flat24",
+      "question_id": "43f56301c5d2f50b6449b582652f2351cbe90e70",
+      "source": "1901.10133.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.0,
+      "mrr": 0.0,
+      "candidates": 11
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "43f56301c5d2f50b6449b582652f2351cbe90e70",
+      "source": "1901.10133.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.0,
+      "mrr": 0.0,
+      "candidates": 11
+    },
+    {
+      "system": "contextual24",
+      "question_id": "43f56301c5d2f50b6449b582652f2351cbe90e70",
+      "source": "1901.10133.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.0,
+      "mrr": 0.0,
+      "candidates": 11
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "43f56301c5d2f50b6449b582652f2351cbe90e70",
+      "source": "1901.10133.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.0,
+      "mrr": 0.0,
+      "candidates": 11
+    },
+    {
+      "system": "raptor",
+      "question_id": "43f56301c5d2f50b6449b582652f2351cbe90e70",
+      "source": "1901.10133.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.0,
+      "mrr": 0.0,
+      "candidates": 9
+    },
+    {
+      "system": "flat24",
+      "question_id": "c4628d965983934d7a2a9797a2de6a411629d5bc",
+      "source": "1906.00346.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "c4628d965983934d7a2a9797a2de6a411629d5bc",
+      "source": "1906.00346.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 35
+    },
+    {
+      "system": "contextual24",
+      "question_id": "c4628d965983934d7a2a9797a2de6a411629d5bc",
+      "source": "1906.00346.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "c4628d965983934d7a2a9797a2de6a411629d5bc",
+      "source": "1906.00346.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 35
+    },
+    {
+      "system": "raptor",
+      "question_id": "c4628d965983934d7a2a9797a2de6a411629d5bc",
+      "source": "1906.00346.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 20
+    },
+    {
+      "system": "flat24",
+      "question_id": "193ee49ae0f8827a6e67388a10da59e137e7769f",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "193ee49ae0f8827a6e67388a10da59e137e7769f",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 41
+    },
+    {
+      "system": "contextual24",
+      "question_id": "193ee49ae0f8827a6e67388a10da59e137e7769f",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "193ee49ae0f8827a6e67388a10da59e137e7769f",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 41
+    },
+    {
+      "system": "raptor",
+      "question_id": "193ee49ae0f8827a6e67388a10da59e137e7769f",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 17
+    },
+    {
+      "system": "flat24",
+      "question_id": "559920ebe19e99e43418c2f0455a0ffdc8edaaa2",
+      "source": "1901.10133.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "559920ebe19e99e43418c2f0455a0ffdc8edaaa2",
+      "source": "1901.10133.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "contextual24",
+      "question_id": "559920ebe19e99e43418c2f0455a0ffdc8edaaa2",
+      "source": "1901.10133.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "559920ebe19e99e43418c2f0455a0ffdc8edaaa2",
+      "source": "1901.10133.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "raptor",
+      "question_id": "559920ebe19e99e43418c2f0455a0ffdc8edaaa2",
+      "source": "1901.10133.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 1.0,
+      "candidates": 6
+    },
+    {
+      "system": "flat24",
+      "question_id": "7595260c5747aede0b32b7414e13899869209506",
+      "source": "2003.11645.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 19
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "7595260c5747aede0b32b7414e13899869209506",
+      "source": "2003.11645.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 19
+    },
+    {
+      "system": "contextual24",
+      "question_id": "7595260c5747aede0b32b7414e13899869209506",
+      "source": "2003.11645.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 19
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "7595260c5747aede0b32b7414e13899869209506",
+      "source": "2003.11645.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 19
+    },
+    {
+      "system": "raptor",
+      "question_id": "7595260c5747aede0b32b7414e13899869209506",
+      "source": "2003.11645.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 10
+    },
+    {
+      "system": "flat24",
+      "question_id": "29923a824c98b3ba85ced964a0e6a2af35758abe",
+      "source": "2002.01320.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "29923a824c98b3ba85ced964a0e6a2af35758abe",
+      "source": "2002.01320.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "contextual24",
+      "question_id": "29923a824c98b3ba85ced964a0e6a2af35758abe",
+      "source": "2002.01320.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "29923a824c98b3ba85ced964a0e6a2af35758abe",
+      "source": "2002.01320.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "raptor",
+      "question_id": "29923a824c98b3ba85ced964a0e6a2af35758abe",
+      "source": "2002.01320.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 0.6666666666666666,
+      "mrr": 0.3333333333333333,
+      "candidates": 9
+    },
+    {
+      "system": "flat24",
+      "question_id": "68cd8433a75eee7d100dbbfedebbf53873a21720",
+      "source": "1901.10133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "68cd8433a75eee7d100dbbfedebbf53873a21720",
+      "source": "1901.10133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "contextual24",
+      "question_id": "68cd8433a75eee7d100dbbfedebbf53873a21720",
+      "source": "1901.10133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "68cd8433a75eee7d100dbbfedebbf53873a21720",
+      "source": "1901.10133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "raptor",
+      "question_id": "68cd8433a75eee7d100dbbfedebbf53873a21720",
+      "source": "1901.10133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 9
+    },
+    {
+      "system": "flat24",
+      "question_id": "5c6fa86757410aee6f5a0762328637de03a569e9",
+      "source": "1801.06482.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.125,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "5c6fa86757410aee6f5a0762328637de03a569e9",
+      "source": "1801.06482.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.125,
+      "candidates": 26
+    },
+    {
+      "system": "contextual24",
+      "question_id": "5c6fa86757410aee6f5a0762328637de03a569e9",
+      "source": "1801.06482.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "5c6fa86757410aee6f5a0762328637de03a569e9",
+      "source": "1801.06482.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 26
+    },
+    {
+      "system": "raptor",
+      "question_id": "5c6fa86757410aee6f5a0762328637de03a569e9",
+      "source": "1801.06482.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 10
+    },
+    {
+      "system": "flat24",
+      "question_id": "c08aab979dcdc8f4fe8ec1337c3c8290ab13414e",
+      "source": "1708.06185.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 18
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "c08aab979dcdc8f4fe8ec1337c3c8290ab13414e",
+      "source": "1708.06185.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 18
+    },
+    {
+      "system": "contextual24",
+      "question_id": "c08aab979dcdc8f4fe8ec1337c3c8290ab13414e",
+      "source": "1708.06185.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.8333333333333334,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 18
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "c08aab979dcdc8f4fe8ec1337c3c8290ab13414e",
+      "source": "1708.06185.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.8333333333333334,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 18
+    },
+    {
+      "system": "raptor",
+      "question_id": "c08aab979dcdc8f4fe8ec1337c3c8290ab13414e",
+      "source": "1708.06185.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.5,
+      "pool_recall": 0.8333333333333334,
+      "mrr": 0.25,
+      "candidates": 15
+    },
+    {
+      "system": "flat24",
+      "question_id": "8756b7b9ff5e87e4efdf6c2f73a0512f05b5ae3f",
+      "source": "1708.06185.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 18
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "8756b7b9ff5e87e4efdf6c2f73a0512f05b5ae3f",
+      "source": "1708.06185.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 18
+    },
+    {
+      "system": "contextual24",
+      "question_id": "8756b7b9ff5e87e4efdf6c2f73a0512f05b5ae3f",
+      "source": "1708.06185.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 18
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "8756b7b9ff5e87e4efdf6c2f73a0512f05b5ae3f",
+      "source": "1708.06185.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 18
+    },
+    {
+      "system": "raptor",
+      "question_id": "8756b7b9ff5e87e4efdf6c2f73a0512f05b5ae3f",
+      "source": "1708.06185.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 12
+    },
+    {
+      "system": "flat24",
+      "question_id": "1269c5d8f61e821ee0029080c5ba2500421d5fa6",
+      "source": "1805.07133.qasper",
+      "recall5": 0.1,
+      "recall10": 0.3,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "1269c5d8f61e821ee0029080c5ba2500421d5fa6",
+      "source": "1805.07133.qasper",
+      "recall5": 0.1,
+      "recall10": 0.3,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 33
+    },
+    {
+      "system": "contextual24",
+      "question_id": "1269c5d8f61e821ee0029080c5ba2500421d5fa6",
+      "source": "1805.07133.qasper",
+      "recall5": 0.1,
+      "recall10": 0.4,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "1269c5d8f61e821ee0029080c5ba2500421d5fa6",
+      "source": "1805.07133.qasper",
+      "recall5": 0.1,
+      "recall10": 0.4,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 33
+    },
+    {
+      "system": "raptor",
+      "question_id": "1269c5d8f61e821ee0029080c5ba2500421d5fa6",
+      "source": "1805.07133.qasper",
+      "recall5": 0.4,
+      "recall10": 0.6,
+      "pool_recall": 0.6,
+      "mrr": 0.5,
+      "candidates": 9
+    },
+    {
+      "system": "flat24",
+      "question_id": "f8f4e4a50d2b3fbd193327e79ea32d8d057e1414",
+      "source": "2002.01320.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "f8f4e4a50d2b3fbd193327e79ea32d8d057e1414",
+      "source": "2002.01320.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "contextual24",
+      "question_id": "f8f4e4a50d2b3fbd193327e79ea32d8d057e1414",
+      "source": "2002.01320.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "f8f4e4a50d2b3fbd193327e79ea32d8d057e1414",
+      "source": "2002.01320.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "raptor",
+      "question_id": "f8f4e4a50d2b3fbd193327e79ea32d8d057e1414",
+      "source": "2002.01320.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 15
+    },
+    {
+      "system": "flat24",
+      "question_id": "1591068b747c94f45b948e12edafe74b5e721047",
+      "source": "1802.07862.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "1591068b747c94f45b948e12edafe74b5e721047",
+      "source": "1802.07862.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 34
+    },
+    {
+      "system": "contextual24",
+      "question_id": "1591068b747c94f45b948e12edafe74b5e721047",
+      "source": "1802.07862.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "1591068b747c94f45b948e12edafe74b5e721047",
+      "source": "1802.07862.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 34
+    },
+    {
+      "system": "raptor",
+      "question_id": "1591068b747c94f45b948e12edafe74b5e721047",
+      "source": "1802.07862.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 9
+    },
+    {
+      "system": "flat24",
+      "question_id": "455d4ef8611f62b1361be4f6387b222858bb5e56",
+      "source": "1603.09631.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "455d4ef8611f62b1361be4f6387b222858bb5e56",
+      "source": "1603.09631.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 26
+    },
+    {
+      "system": "contextual24",
+      "question_id": "455d4ef8611f62b1361be4f6387b222858bb5e56",
+      "source": "1603.09631.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "455d4ef8611f62b1361be4f6387b222858bb5e56",
+      "source": "1603.09631.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 26
+    },
+    {
+      "system": "raptor",
+      "question_id": "455d4ef8611f62b1361be4f6387b222858bb5e56",
+      "source": "1603.09631.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "flat24",
+      "question_id": "7cd22ca9e107d2b13a7cc94252aaa9007976b338",
+      "source": "1802.07862.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "7cd22ca9e107d2b13a7cc94252aaa9007976b338",
+      "source": "1802.07862.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 34
+    },
+    {
+      "system": "contextual24",
+      "question_id": "7cd22ca9e107d2b13a7cc94252aaa9007976b338",
+      "source": "1802.07862.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "7cd22ca9e107d2b13a7cc94252aaa9007976b338",
+      "source": "1802.07862.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 34
+    },
+    {
+      "system": "raptor",
+      "question_id": "7cd22ca9e107d2b13a7cc94252aaa9007976b338",
+      "source": "1802.07862.qasper",
+      "recall5": 0.75,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 10
+    },
+    {
+      "system": "flat24",
+      "question_id": "bc84c5a58c57038910f7720d7a784560054d3e1a",
+      "source": "2002.01320.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "bc84c5a58c57038910f7720d7a784560054d3e1a",
+      "source": "2002.01320.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual24",
+      "question_id": "bc84c5a58c57038910f7720d7a784560054d3e1a",
+      "source": "2002.01320.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "bc84c5a58c57038910f7720d7a784560054d3e1a",
+      "source": "2002.01320.qasper",
+      "recall5": 0.5,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "raptor",
+      "question_id": "bc84c5a58c57038910f7720d7a784560054d3e1a",
+      "source": "2002.01320.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "flat24",
+      "question_id": "bd6dc38a9ac8d329114172194b0820766458dacc",
+      "source": "1904.01548.qasper",
+      "recall5": 0.25,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 19
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "bd6dc38a9ac8d329114172194b0820766458dacc",
+      "source": "1904.01548.qasper",
+      "recall5": 0.25,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 19
+    },
+    {
+      "system": "contextual24",
+      "question_id": "bd6dc38a9ac8d329114172194b0820766458dacc",
+      "source": "1904.01548.qasper",
+      "recall5": 0.0,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 19
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "bd6dc38a9ac8d329114172194b0820766458dacc",
+      "source": "1904.01548.qasper",
+      "recall5": 0.0,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 19
+    },
+    {
+      "system": "raptor",
+      "question_id": "bd6dc38a9ac8d329114172194b0820766458dacc",
+      "source": "1904.01548.qasper",
+      "recall5": 0.25,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 16
+    },
+    {
+      "system": "flat24",
+      "question_id": "42084c41343e5a6ae58a22e5bfc5ce987b5173de",
+      "source": "1705.05437.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 23
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "42084c41343e5a6ae58a22e5bfc5ce987b5173de",
+      "source": "1705.05437.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 23
+    },
+    {
+      "system": "contextual24",
+      "question_id": "42084c41343e5a6ae58a22e5bfc5ce987b5173de",
+      "source": "1705.05437.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 23
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "42084c41343e5a6ae58a22e5bfc5ce987b5173de",
+      "source": "1705.05437.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 23
+    },
+    {
+      "system": "raptor",
+      "question_id": "42084c41343e5a6ae58a22e5bfc5ce987b5173de",
+      "source": "1705.05437.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 0.14285714285714285,
+      "candidates": 14
+    },
+    {
+      "system": "flat24",
+      "question_id": "52f9cd05d8312ae3c7a43689804bac63f7cac34b",
+      "source": "1809.03449.qasper",
+      "recall5": 0.5,
+      "recall10": 0.8333333333333334,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "52f9cd05d8312ae3c7a43689804bac63f7cac34b",
+      "source": "1809.03449.qasper",
+      "recall5": 0.5,
+      "recall10": 0.8333333333333334,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 37
+    },
+    {
+      "system": "contextual24",
+      "question_id": "52f9cd05d8312ae3c7a43689804bac63f7cac34b",
+      "source": "1809.03449.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 0.8333333333333334,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "52f9cd05d8312ae3c7a43689804bac63f7cac34b",
+      "source": "1809.03449.qasper",
+      "recall5": 0.6666666666666666,
+      "recall10": 0.8333333333333334,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 37
+    },
+    {
+      "system": "raptor",
+      "question_id": "52f9cd05d8312ae3c7a43689804bac63f7cac34b",
+      "source": "1809.03449.qasper",
+      "recall5": 0.5,
+      "recall10": 0.8333333333333334,
+      "pool_recall": 0.8333333333333334,
+      "mrr": 1.0,
+      "candidates": 10
+    },
+    {
+      "system": "flat24",
+      "question_id": "bc16ce6e9c61ae13d46970ebe6c4728a47f8f425",
+      "source": "1603.09631.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "bc16ce6e9c61ae13d46970ebe6c4728a47f8f425",
+      "source": "1603.09631.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 26
+    },
+    {
+      "system": "contextual24",
+      "question_id": "bc16ce6e9c61ae13d46970ebe6c4728a47f8f425",
+      "source": "1603.09631.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "bc16ce6e9c61ae13d46970ebe6c4728a47f8f425",
+      "source": "1603.09631.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 26
+    },
+    {
+      "system": "raptor",
+      "question_id": "bc16ce6e9c61ae13d46970ebe6c4728a47f8f425",
+      "source": "1603.09631.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 16
+    },
+    {
+      "system": "flat24",
+      "question_id": "27275fe9f6a9004639f9ac33c3a5767fea388a98",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 19
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "27275fe9f6a9004639f9ac33c3a5767fea388a98",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 19
+    },
+    {
+      "system": "contextual24",
+      "question_id": "27275fe9f6a9004639f9ac33c3a5767fea388a98",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 19
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "27275fe9f6a9004639f9ac33c3a5767fea388a98",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 19
+    },
+    {
+      "system": "raptor",
+      "question_id": "27275fe9f6a9004639f9ac33c3a5767fea388a98",
+      "source": "2003.11645.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "flat24",
+      "question_id": "63bb2040fa107c5296351c2b5f0312336dad2863",
+      "source": "1705.01265.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 23
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "63bb2040fa107c5296351c2b5f0312336dad2863",
+      "source": "1705.01265.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 23
+    },
+    {
+      "system": "contextual24",
+      "question_id": "63bb2040fa107c5296351c2b5f0312336dad2863",
+      "source": "1705.01265.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 23
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "63bb2040fa107c5296351c2b5f0312336dad2863",
+      "source": "1705.01265.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 23
+    },
+    {
+      "system": "raptor",
+      "question_id": "63bb2040fa107c5296351c2b5f0312336dad2863",
+      "source": "1705.01265.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 14
+    },
+    {
+      "system": "flat24",
+      "question_id": "5eda469a8a77f028d0c5f1acd296111085614537",
+      "source": "1912.01214.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "5eda469a8a77f028d0c5f1acd296111085614537",
+      "source": "1912.01214.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 34
+    },
+    {
+      "system": "contextual24",
+      "question_id": "5eda469a8a77f028d0c5f1acd296111085614537",
+      "source": "1912.01214.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "5eda469a8a77f028d0c5f1acd296111085614537",
+      "source": "1912.01214.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 34
+    },
+    {
+      "system": "raptor",
+      "question_id": "5eda469a8a77f028d0c5f1acd296111085614537",
+      "source": "1912.01214.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 10
+    },
+    {
+      "system": "flat24",
+      "question_id": "219af68afeaecabdfd279f439f10ba7c231736e4",
+      "source": "1805.07133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "219af68afeaecabdfd279f439f10ba7c231736e4",
+      "source": "1805.07133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 33
+    },
+    {
+      "system": "contextual24",
+      "question_id": "219af68afeaecabdfd279f439f10ba7c231736e4",
+      "source": "1805.07133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "219af68afeaecabdfd279f439f10ba7c231736e4",
+      "source": "1805.07133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 33
+    },
+    {
+      "system": "raptor",
+      "question_id": "219af68afeaecabdfd279f439f10ba7c231736e4",
+      "source": "1805.07133.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 9
+    },
+    {
+      "system": "flat24",
+      "question_id": "81d607fc206198162faa54a796717c2805282d9b",
+      "source": "1911.00841.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "81d607fc206198162faa54a796717c2805282d9b",
+      "source": "1911.00841.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 35
+    },
+    {
+      "system": "contextual24",
+      "question_id": "81d607fc206198162faa54a796717c2805282d9b",
+      "source": "1911.00841.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "81d607fc206198162faa54a796717c2805282d9b",
+      "source": "1911.00841.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 35
+    },
+    {
+      "system": "raptor",
+      "question_id": "81d607fc206198162faa54a796717c2805282d9b",
+      "source": "1911.00841.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 0.5,
+      "candidates": 13
+    },
+    {
+      "system": "flat24",
+      "question_id": "e587559f5ab6e42f7d981372ee34aebdc92b646e",
+      "source": "1904.03288.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 16
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "e587559f5ab6e42f7d981372ee34aebdc92b646e",
+      "source": "1904.03288.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 16
+    },
+    {
+      "system": "contextual24",
+      "question_id": "e587559f5ab6e42f7d981372ee34aebdc92b646e",
+      "source": "1904.03288.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 16
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "e587559f5ab6e42f7d981372ee34aebdc92b646e",
+      "source": "1904.03288.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 16
+    },
+    {
+      "system": "raptor",
+      "question_id": "e587559f5ab6e42f7d981372ee34aebdc92b646e",
+      "source": "1904.03288.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 6
+    },
+    {
+      "system": "flat24",
+      "question_id": "f5e6f43454332e0521a778db0b769481e23e7682",
+      "source": "1912.01214.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "f5e6f43454332e0521a778db0b769481e23e7682",
+      "source": "1912.01214.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 34
+    },
+    {
+      "system": "contextual24",
+      "question_id": "f5e6f43454332e0521a778db0b769481e23e7682",
+      "source": "1912.01214.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "f5e6f43454332e0521a778db0b769481e23e7682",
+      "source": "1912.01214.qasper",
+      "recall5": 0.3333333333333333,
+      "recall10": 0.6666666666666666,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 34
+    },
+    {
+      "system": "raptor",
+      "question_id": "f5e6f43454332e0521a778db0b769481e23e7682",
+      "source": "1912.01214.qasper",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 12
+    },
+    {
+      "system": "flat24",
+      "question_id": "2ddb51b03163d309434ee403fef42d6b9aecc458",
+      "source": "1904.03288.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 16
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "2ddb51b03163d309434ee403fef42d6b9aecc458",
+      "source": "1904.03288.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.16666666666666666,
+      "candidates": 16
+    },
+    {
+      "system": "contextual24",
+      "question_id": "2ddb51b03163d309434ee403fef42d6b9aecc458",
+      "source": "1904.03288.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.07142857142857142,
+      "candidates": 16
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "2ddb51b03163d309434ee403fef42d6b9aecc458",
+      "source": "1904.03288.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.07142857142857142,
+      "candidates": 16
+    },
+    {
+      "system": "raptor",
+      "question_id": "2ddb51b03163d309434ee403fef42d6b9aecc458",
+      "source": "1904.03288.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 14
+    },
+    {
+      "system": "flat24",
+      "question_id": "ca5a82b54cb707c9b947aa8445aac51ea218b23a",
+      "source": "2001.02284.qasper",
+      "recall5": 0.25,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "ca5a82b54cb707c9b947aa8445aac51ea218b23a",
+      "source": "2001.02284.qasper",
+      "recall5": 0.25,
+      "recall10": 0.75,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 56
+    },
+    {
+      "system": "contextual24",
+      "question_id": "ca5a82b54cb707c9b947aa8445aac51ea218b23a",
+      "source": "2001.02284.qasper",
+      "recall5": 0.25,
+      "recall10": 0.25,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "ca5a82b54cb707c9b947aa8445aac51ea218b23a",
+      "source": "2001.02284.qasper",
+      "recall5": 0.25,
+      "recall10": 0.25,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 56
+    },
+    {
+      "system": "raptor",
+      "question_id": "ca5a82b54cb707c9b947aa8445aac51ea218b23a",
+      "source": "2001.02284.qasper",
+      "recall5": 0.25,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 0.2,
+      "candidates": 16
+    },
+    {
+      "system": "flat24",
+      "question_id": "bd5bd1765362c2d972a762ca12675108754aa437",
+      "source": "1804.05918.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "bd5bd1765362c2d972a762ca12675108754aa437",
+      "source": "1804.05918.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 36
+    },
+    {
+      "system": "contextual24",
+      "question_id": "bd5bd1765362c2d972a762ca12675108754aa437",
+      "source": "1804.05918.qasper",
+      "recall5": 0.75,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "bd5bd1765362c2d972a762ca12675108754aa437",
+      "source": "1804.05918.qasper",
+      "recall5": 0.75,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 36
+    },
+    {
+      "system": "raptor",
+      "question_id": "bd5bd1765362c2d972a762ca12675108754aa437",
+      "source": "1804.05918.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 8
+    },
+    {
+      "system": "flat24",
+      "question_id": "aefa333b2cf0a4000cd40566149816f5b36135e7",
+      "source": "1604.05372.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 21
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "aefa333b2cf0a4000cd40566149816f5b36135e7",
+      "source": "1604.05372.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 21
+    },
+    {
+      "system": "contextual24",
+      "question_id": "aefa333b2cf0a4000cd40566149816f5b36135e7",
+      "source": "1604.05372.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 21
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "aefa333b2cf0a4000cd40566149816f5b36135e7",
+      "source": "1604.05372.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 21
+    },
+    {
+      "system": "raptor",
+      "question_id": "aefa333b2cf0a4000cd40566149816f5b36135e7",
+      "source": "1604.05372.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 18
+    },
+    {
+      "system": "flat24",
+      "question_id": "58355e2a782bf145b61ee2a3e0e426119985c179",
+      "source": "1909.13104.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "58355e2a782bf145b61ee2a3e0e426119985c179",
+      "source": "1909.13104.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 25
+    },
+    {
+      "system": "contextual24",
+      "question_id": "58355e2a782bf145b61ee2a3e0e426119985c179",
+      "source": "1909.13104.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "58355e2a782bf145b61ee2a3e0e426119985c179",
+      "source": "1909.13104.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 25
+    },
+    {
+      "system": "raptor",
+      "question_id": "58355e2a782bf145b61ee2a3e0e426119985c179",
+      "source": "1909.13104.qasper",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "flat24",
+      "question_id": "e48e750743aef36529fbea4328b8253dbe928b4d",
+      "source": "1708.06185.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.1111111111111111,
+      "candidates": 18
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "e48e750743aef36529fbea4328b8253dbe928b4d",
+      "source": "1708.06185.qasper",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.1111111111111111,
+      "candidates": 18
+    },
+    {
+      "system": "contextual24",
+      "question_id": "e48e750743aef36529fbea4328b8253dbe928b4d",
+      "source": "1708.06185.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.07142857142857142,
+      "candidates": 18
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "e48e750743aef36529fbea4328b8253dbe928b4d",
+      "source": "1708.06185.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.07142857142857142,
+      "candidates": 18
+    },
+    {
+      "system": "raptor",
+      "question_id": "e48e750743aef36529fbea4328b8253dbe928b4d",
+      "source": "1708.06185.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 7
+    },
+    {
+      "system": "flat24",
+      "question_id": "12159f04e0427fe33fa05af6ba8c950f1a5ce5ea",
+      "source": "1705.01265.qasper",
+      "recall5": 0.4,
+      "recall10": 0.4,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 23
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "12159f04e0427fe33fa05af6ba8c950f1a5ce5ea",
+      "source": "1705.01265.qasper",
+      "recall5": 0.4,
+      "recall10": 0.4,
+      "pool_recall": 1.0,
+      "mrr": 0.25,
+      "candidates": 23
+    },
+    {
+      "system": "contextual24",
+      "question_id": "12159f04e0427fe33fa05af6ba8c950f1a5ce5ea",
+      "source": "1705.01265.qasper",
+      "recall5": 0.2,
+      "recall10": 0.6,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 23
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "12159f04e0427fe33fa05af6ba8c950f1a5ce5ea",
+      "source": "1705.01265.qasper",
+      "recall5": 0.2,
+      "recall10": 0.6,
+      "pool_recall": 1.0,
+      "mrr": 0.2,
+      "candidates": 23
+    },
+    {
+      "system": "raptor",
+      "question_id": "12159f04e0427fe33fa05af6ba8c950f1a5ce5ea",
+      "source": "1705.01265.qasper",
+      "recall5": 0.4,
+      "recall10": 0.4,
+      "pool_recall": 0.4,
+      "mrr": 0.5,
+      "candidates": 7
+    },
+    {
+      "system": "flat24",
+      "question_id": "ed2eb4e54b641b7670ab5a7060c7b16c628699ab",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "ed2eb4e54b641b7670ab5a7060c7b16c628699ab",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 41
+    },
+    {
+      "system": "contextual24",
+      "question_id": "ed2eb4e54b641b7670ab5a7060c7b16c628699ab",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "ed2eb4e54b641b7670ab5a7060c7b16c628699ab",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 41
+    },
+    {
+      "system": "raptor",
+      "question_id": "ed2eb4e54b641b7670ab5a7060c7b16c628699ab",
+      "source": "2004.01853.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 11
+    },
+    {
+      "system": "flat24",
+      "question_id": "abe2393415e533cb06311e74ed1c5674cff8571f",
+      "source": "1910.01863.qasper",
+      "recall5": 0.3,
+      "recall10": 0.6,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "abe2393415e533cb06311e74ed1c5674cff8571f",
+      "source": "1910.01863.qasper",
+      "recall5": 0.3,
+      "recall10": 0.6,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 39
+    },
+    {
+      "system": "contextual24",
+      "question_id": "abe2393415e533cb06311e74ed1c5674cff8571f",
+      "source": "1910.01863.qasper",
+      "recall5": 0.3,
+      "recall10": 0.4,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "abe2393415e533cb06311e74ed1c5674cff8571f",
+      "source": "1910.01863.qasper",
+      "recall5": 0.3,
+      "recall10": 0.4,
+      "pool_recall": 1.0,
+      "mrr": 0.3333333333333333,
+      "candidates": 39
+    },
+    {
+      "system": "raptor",
+      "question_id": "abe2393415e533cb06311e74ed1c5674cff8571f",
+      "source": "1910.01863.qasper",
+      "recall5": 0.3,
+      "recall10": 0.5,
+      "pool_recall": 0.5,
+      "mrr": 0.5,
+      "candidates": 10
+    },
+    {
+      "system": "flat24",
+      "question_id": "7d2f812cb345bb3ab91eb8cbbdeefd4b58f65569",
+      "source": "1904.01548.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 19
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "7d2f812cb345bb3ab91eb8cbbdeefd4b58f65569",
+      "source": "1904.01548.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 19
+    },
+    {
+      "system": "contextual24",
+      "question_id": "7d2f812cb345bb3ab91eb8cbbdeefd4b58f65569",
+      "source": "1904.01548.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 19
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "7d2f812cb345bb3ab91eb8cbbdeefd4b58f65569",
+      "source": "1904.01548.qasper",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "pool_recall": 1.0,
+      "mrr": 0.14285714285714285,
+      "candidates": 19
+    },
+    {
+      "system": "raptor",
+      "question_id": "7d2f812cb345bb3ab91eb8cbbdeefd4b58f65569",
+      "source": "1904.01548.qasper",
+      "recall5": 0.25,
+      "recall10": 0.75,
+      "pool_recall": 0.75,
+      "mrr": 0.2,
+      "candidates": 13
+    },
+    {
+      "system": "flat24",
+      "question_id": "d3dbb5c22ef204d85707d2d24284cc77fa816b6c",
+      "source": "1809.09194.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 14
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "d3dbb5c22ef204d85707d2d24284cc77fa816b6c",
+      "source": "1809.09194.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 14
+    },
+    {
+      "system": "contextual24",
+      "question_id": "d3dbb5c22ef204d85707d2d24284cc77fa816b6c",
+      "source": "1809.09194.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "d3dbb5c22ef204d85707d2d24284cc77fa816b6c",
+      "source": "1809.09194.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 1.0,
+      "candidates": 14
+    },
+    {
+      "system": "raptor",
+      "question_id": "d3dbb5c22ef204d85707d2d24284cc77fa816b6c",
+      "source": "1809.09194.qasper",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "pool_recall": 1.0,
+      "mrr": 0.5,
+      "candidates": 8
+    },
+    {
+      "system": "flat24",
+      "question_id": "d201b9992809142fe59ae74508bc576f8ca538ff",
+      "source": "1906.00346.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.25,
+      "mrr": 0.05,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "d201b9992809142fe59ae74508bc576f8ca538ff",
+      "source": "1906.00346.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.047619047619047616,
+      "candidates": 35
+    },
+    {
+      "system": "contextual24",
+      "question_id": "d201b9992809142fe59ae74508bc576f8ca538ff",
+      "source": "1906.00346.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.25,
+      "mrr": 0.047619047619047616,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "d201b9992809142fe59ae74508bc576f8ca538ff",
+      "source": "1906.00346.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.047619047619047616,
+      "candidates": 35
+    },
+    {
+      "system": "raptor",
+      "question_id": "d201b9992809142fe59ae74508bc576f8ca538ff",
+      "source": "1906.00346.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.0,
+      "mrr": 0.0,
+      "candidates": 13
+    },
+    {
+      "system": "flat24",
+      "question_id": "ee417fea65f9b1029455797671da0840c8c1abbe",
+      "source": "2001.02284.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.5,
+      "mrr": 0.07142857142857142,
+      "candidates": 24
+    },
+    {
+      "system": "all_leaf",
+      "question_id": "ee417fea65f9b1029455797671da0840c8c1abbe",
+      "source": "2001.02284.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.05555555555555555,
+      "candidates": 56
+    },
+    {
+      "system": "contextual24",
+      "question_id": "ee417fea65f9b1029455797671da0840c8c1abbe",
+      "source": "2001.02284.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 0.5,
+      "mrr": 0.09090909090909091,
+      "candidates": 24
+    },
+    {
+      "system": "contextual_all",
+      "question_id": "ee417fea65f9b1029455797671da0840c8c1abbe",
+      "source": "2001.02284.qasper",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "pool_recall": 1.0,
+      "mrr": 0.08333333333333333,
+      "candidates": 56
+    },
+    {
+      "system": "raptor",
+      "question_id": "ee417fea65f9b1029455797671da0840c8c1abbe",
+      "source": "2001.02284.qasper",
+      "recall5": 0.0,
+      "recall10": 0.3333333333333333,
+      "pool_recall": 0.5,
+      "mrr": 0.125,
+      "candidates": 12
+    }
+  ]
+}

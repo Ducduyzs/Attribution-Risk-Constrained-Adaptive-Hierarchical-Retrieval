@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed information about the dataset collection methodology, including the diversity of speakers and accents, as well as the processing of audio and text data.",
+    "claims": [
+      {
+        "text": "The CoVoST dataset was created from 11 languages into English, featuring over 11,000 speakers and more than 60 accents, ensuring a diverse representation of speech.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Raw MP3 audio files were converted into mono-channel waveforms, downsampled to 16,000 Hz, and transcripts were normalized and tokenized for consistency.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Quality checks were performed on translations, including manual inspections and similarity score calculations to ensure high-quality data.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The dataset includes a rich diversity of accents, with over 1,000 speakers contributing to the transcripts, enhancing the model's training and evaluation.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 219,
+    "prompt_tokens": 1212,
+    "total_tokens": 1431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7575040999981866,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

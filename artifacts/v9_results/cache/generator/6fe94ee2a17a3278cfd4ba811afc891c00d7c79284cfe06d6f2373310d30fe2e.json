@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the baselines used in the study, including the datasets and models evaluated.",
+    "claims": [
+      {
+        "text": "The baselines include the Hub5 Year 2000 evaluation dataset, which is divided into Switchboard and Callhome subsets, and the 2000hr Fisher+Switchboard training data.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The models evaluated include the Jasper model trained with SGD for 50 epochs, compared against other models using the same data.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study also mentions the use of statistical N-gram language models and neural Transformer-XL models as part of the evaluation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1991,
+    "total_tokens": 2156,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3332788000006985,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

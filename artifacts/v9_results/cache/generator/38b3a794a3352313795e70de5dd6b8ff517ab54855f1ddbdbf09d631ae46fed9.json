@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the dataset used primarily consists of Twitter data, which includes tweets and their associated metadata.",
+    "claims": [
+      {
+        "text": "The dataset used is primarily composed of Twitter data, which includes tweets and their metadata.",
+        "citations": [
+          "C1",
+          "C19"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The word vector representations (word embeddings) were specifically created using the Twitter dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The training and development sets were merged due to the small size of the dev dataset in the competition.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 1233,
+    "total_tokens": 1367,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.904629600001499,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

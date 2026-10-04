@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific examples of repetitive and time-consuming activities handled by Intelligent Process Automation (IPA) systems, particularly in the context of e-learning and customer support.",
+    "claims": [
+      {
+        "text": "IPA systems handle repetitive tasks such as answering frequently asked questions and processing student inquiries, allowing workers to focus on more complex issues.",
+        "citations": [
+          "C1",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "IPA dialogue bots assist tutors by collecting necessary information from students, which reduces the time spent on repetitive inquiries.",
+        "citations": [
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "IPA systems automate routine workflows, such as data entry and simple task execution, freeing up skilled workers for higher-value activities.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 1851,
+    "total_tokens": 2019,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2508106000022963,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence provided does not indicate whether G-BERT is useful beyond the specific task of medication recommendation. It primarily focuses on its performance in that area without discussing other potential applications or tasks.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 737,
+    "total_tokens": 785,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 0.9866299000022991,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

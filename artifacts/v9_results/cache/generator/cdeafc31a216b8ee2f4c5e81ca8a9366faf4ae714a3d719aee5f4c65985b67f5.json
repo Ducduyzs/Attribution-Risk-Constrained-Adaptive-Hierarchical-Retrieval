@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific references to datasets used in the study, including Twitter data and emotion lexicons.",
+    "claims": [
+      {
+        "text": "The dataset used in the study includes Twitter data, which is characterized by short messages and various forms of expression such as hashtags and emojis.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The WASSA-2017 Shared Task on Emotion Intensity provided the data for the competition.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "Various emotion lexicons, including the NRC Hashtag Emotion Lexicon and SentiWordNet, were utilized for feature extraction.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 1231,
+    "total_tokens": 1380,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2507622000011906,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

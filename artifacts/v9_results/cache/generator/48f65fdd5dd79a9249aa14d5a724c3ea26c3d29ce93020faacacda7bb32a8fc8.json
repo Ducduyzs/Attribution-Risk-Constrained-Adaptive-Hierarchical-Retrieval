@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses multilingual neural machine translation (MNMT) and mentions specific language pairs, particularly English-Russian, while also referring to low-resource and zero-resource language pairs in general.",
+    "claims": [
+      {
+        "text": "The evidence explores language pairs in the context of multilingual neural machine translation (MNMT), specifically mentioning English-Russian as an example.",
+        "citations": [
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The discussion includes low-resource and zero-resource language pairs, indicating a broader exploration of various language pairs in translation tasks.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 726,
+    "total_tokens": 859,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.018972300000314,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

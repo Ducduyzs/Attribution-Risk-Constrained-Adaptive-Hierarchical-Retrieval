@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Were other baselines tested to compare with the neural baseline?",
+        "citations": [
+          "C6",
+          "C18"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that comparisons were made between the neural baseline and other models, including a BERT variant and human performance, as well as presenting results from various answerability baselines.",
+    "claims": [
+      {
+        "text": "Other baselines were tested to compare with the neural baseline, including a BERT variant and human performance.",
+        "citations": [
+          "C6",
+          "C18"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 1387,
+    "total_tokens": 1506,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9156769000001077,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

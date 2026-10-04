@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that among the three pretraining tasks, SR (Sentence Reordering) is the most effective for improving performance in summarization tasks.",
+    "claims": [
+      {
+        "text": "SR is the most effective task for pre-training as it consistently achieves the highest ROUGE-2 scores on both CNNDM and NYT datasets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "SR works slightly better than the other two tasks (NSG and MDG) during pre-training.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Using all three tasks together (ALL) can outperform individual tasks, but SR remains the most effective when more data is added.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 694,
+    "total_tokens": 855,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0156002000003355,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

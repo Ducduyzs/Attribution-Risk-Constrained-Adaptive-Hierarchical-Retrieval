@@ -1,0 +1,58 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear description of the architecture of the span detector, detailing its components and structure.",
+    "claims": [
+      {
+        "text": "The span detector architecture includes a shared lower layer and separate top layers for the span detector and binary classifier tasks.",
+        "citations": [
+          "C3",
+          "C4",
+          "C9"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The shared layer consists of a lexicon encoding layer, a contextual layer, and a memory generation layer.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The model employs a bilinear function to determine the start and end points of answer spans.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The architecture is based on the Stochastic Answer Network (SAN) and includes a multi-turn answer module.",
+        "citations": [
+          "C2",
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 1228,
+    "total_tokens": 1414,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4372536999981094,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

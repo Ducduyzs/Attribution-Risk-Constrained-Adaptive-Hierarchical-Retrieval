@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific language pairs explored in the context of zero-shot translation and multilingual neural machine translation.",
+    "claims": [
+      {
+        "text": "The explored language pairs include Arabic, Spanish, and Russian, with mutual translation between them constituting six zero-shot translation directions.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "For the Europarl corpus, the language pairs evaluated are French-English-Spanish, German-English-French, and Romanian-English-German.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The distant language pair Ro→De (Romanian to German) is also mentioned as part of the evaluation.",
+        "citations": [
+          "C14"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 2255,
+    "total_tokens": 2407,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.051371499997913,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

@@ -1,0 +1,89 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Method of data collection",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ]
+      },
+      {
+        "requirement": "Source of data",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ]
+      },
+      {
+        "requirement": "Number of dialogs collected",
+        "citations": [
+          "C2",
+          "C4"
+        ]
+      },
+      {
+        "requirement": "Annotation process",
+        "citations": [
+          "C1",
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides a clear description of the data collection method, source, number of dialogs, and the annotation process.",
+    "claims": [
+      {
+        "text": "The data was collected using the crowdsourcing platform CrowdFlower, where workers interacted with a chat-like interface to answer questions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A total of 1900 dialogs were collected, consisting of 8533 turns.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The collected dialogs were annotated by expert annotators to ensure quality and correctness of the answers.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The topics discussed in the dialogs were based on questions randomly chosen from the Simple questions dataset.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 262,
+    "prompt_tokens": 1203,
+    "total_tokens": 1465,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.958389100000204,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

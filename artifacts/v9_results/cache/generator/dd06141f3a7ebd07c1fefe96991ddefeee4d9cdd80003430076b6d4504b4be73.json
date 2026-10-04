@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "evaluation metric",
+        "citations": [
+          "C1",
+          "C6",
+          "C7"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies that the evaluation metric used is the ratio of correct translations, along with a reference to edit distance as a baseline.",
+    "claims": [
+      {
+        "text": "The evaluation metric used is the ratio of correct translations (matches).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Damerau-Levenshtein edit distance is reported as a baseline for evaluation.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The closest Russian noun to each Ukrainian noun was found by edit distance, which is part of the evaluation process.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 844,
+    "total_tokens": 1005,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9893209999972896,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the manual Pyramid scores used in summarization evaluation, specifically mentioning the semi-manual Pyramid evaluation framework and its correlation with other metrics.",
+    "claims": [
+      {
+        "text": "The manual Pyramid scores are part of a semi-manual evaluation framework used to assess summarization effectiveness.",
+        "citations": [
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Pyramid scores are correlated with automatic evaluation metrics like Rouge, indicating their effectiveness in summarization evaluation.",
+        "citations": [
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The Pyramid score is calculated based on the number of nuggets in the summary, normalized by the maximum attainable score.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 704,
+    "total_tokens": 860,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.174212300000363,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

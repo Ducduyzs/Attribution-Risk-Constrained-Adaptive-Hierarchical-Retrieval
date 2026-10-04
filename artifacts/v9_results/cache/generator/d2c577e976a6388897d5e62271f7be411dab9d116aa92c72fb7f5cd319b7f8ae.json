@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance improvements of the model over previous state-of-the-art systems, including percentage increases in macro-average F1-scores and specific relation classifications.",
+    "claims": [
+      {
+        "text": "The model improves the macro-average F1-score for implicit discourse relations by more than 2% compared to previous neural tensor network models.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model achieves a macro-average F1-score of 48.82%, outperforming the best previous system by 1%.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The model improves implicit relation classification performance by over 7% compared to the baseline Bi-LSTM model.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The ensemble model achieves a performance boost of 3.02 in macro F1-score for implicit discourse relations.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 1663,
+    "total_tokens": 1866,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7680441999982577,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

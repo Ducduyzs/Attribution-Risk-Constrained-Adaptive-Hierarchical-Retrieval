@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the authors focus on scientific summarization, particularly in the biomedical domain, which suggests they are not limited to English data only.",
+    "claims": [
+      {
+        "text": "The authors utilize the TAC 2014 dataset, which is based on biomedical articles, indicating a focus beyond just English data.",
+        "citations": [
+          "C12",
+          "C35",
+          "C37"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The use of PubMed, which includes articles in various languages, suggests that the authors do not restrict their results to English data.",
+        "citations": [
+          "C4",
+          "C23"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 2256,
+    "total_tokens": 2387,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.129403700000694,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

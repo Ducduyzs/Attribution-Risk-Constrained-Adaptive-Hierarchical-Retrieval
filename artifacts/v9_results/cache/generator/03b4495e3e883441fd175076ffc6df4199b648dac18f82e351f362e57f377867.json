@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about various baseline experiments conducted in the context of speech translation, including pre-training and multi-task settings.",
+    "claims": [
+      {
+        "text": "Pre-training baselines include encoder pre-training from an ASR model, decoder pre-training from an MT model, and encoder-decoder pre-training.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Multi-task baselines consist of one-to-many, many-to-one, and many-to-many settings.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The vanilla ST baseline consists of only a speech encoder and a decoder.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Competitive baselines were reproduced for fair comparison due to different data pre-processing methods used by participants.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 2259,
+    "total_tokens": 2438,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.8801714000001084,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

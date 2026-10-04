@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets mentioned, such as SQuAD, are English datasets, but it does not explicitly state that results are reported only on English datasets. However, the presence of English-specific datasets suggests a strong focus on English data.",
+    "claims": [
+      {
+        "text": "The datasets mentioned, such as SQuAD, are English datasets.",
+        "citations": [
+          "C4",
+          "C6",
+          "C13"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evidence does not explicitly state that results are reported only on English datasets.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 1230,
+    "total_tokens": 1356,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9891490999980306,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

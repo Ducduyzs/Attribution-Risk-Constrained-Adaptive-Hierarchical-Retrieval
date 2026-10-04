@@ -1,0 +1,60 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "improvement over state-of-the-art",
+        "citations": [
+          "C1",
+          "C3",
+          "C4",
+          "C8",
+          "C12"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the model significantly improves upon the previous state-of-the-art in various metrics, particularly in F1-scores for implicit and explicit discourse relations.",
+    "claims": [
+      {
+        "text": "The model outperforms previous state-of-the-art systems, achieving an improvement of over 7% in macro-average F1-score for implicit relations.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The full model shows a performance boost of 3.02 in macro F1-score for implicit relations compared to the baseline.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The paragraph-level model achieves F1-score improvements of 6 points on Comparison and 7 points on Temporal relations compared to the best previous systems.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 212,
+    "prompt_tokens": 1347,
+    "total_tokens": 1559,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.231070499998168,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8a183b9d76"
+}

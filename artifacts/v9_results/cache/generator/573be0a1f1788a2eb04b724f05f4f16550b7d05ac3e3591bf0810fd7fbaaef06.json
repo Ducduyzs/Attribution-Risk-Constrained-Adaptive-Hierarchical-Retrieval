@@ -1,0 +1,62 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "architecture of the span detector",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides a detailed description of the architecture of the span detector within the Stochastic Answer Network (SAN).",
+    "claims": [
+      {
+        "text": "The span detector is part of the Stochastic Answer Network (SAN) architecture, which includes a lexicon encoding layer, a contextual layer, and a memory generation layer.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The span detector employs a multi-turn answer module and utilizes a BiLSTM for processing memory.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The architecture is designed to jointly optimize the span detector and a binary classifier for unanswerable questions.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 196,
+    "prompt_tokens": 1256,
+    "total_tokens": 1452,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4390766999968037,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

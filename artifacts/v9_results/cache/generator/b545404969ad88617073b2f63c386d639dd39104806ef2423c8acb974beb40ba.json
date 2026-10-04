@@ -1,0 +1,34 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Do they report results only on English datasets?",
+        "citations": [
+          "C2",
+          "C3"
+        ]
+      }
+    ],
+    "answerable": false,
+    "reason": "The evidence does not provide sufficient information to determine if results are reported only on English datasets.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 1384,
+    "total_tokens": 1442,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2476618000000599,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_af7019a585"
+}

@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the authors believe humans' robustness to noise is linked to their ability to utilize general knowledge, particularly inter-word semantic connections, which MRC models lack.",
+    "claims": [
+      {
+        "text": "The authors hypothesize that humans' robustness to noise is due to their ability to utilize general knowledge, which MRC models cannot do effectively.",
+        "citations": [
+          "C1",
+          "C10"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "General knowledge, such as inter-word semantic connections, is essential for human reading comprehension and contributes to their robustness against noise.",
+        "citations": [
+          "C1",
+          "C10"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2248,
+    "total_tokens": 2382,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 1.806593099998281,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

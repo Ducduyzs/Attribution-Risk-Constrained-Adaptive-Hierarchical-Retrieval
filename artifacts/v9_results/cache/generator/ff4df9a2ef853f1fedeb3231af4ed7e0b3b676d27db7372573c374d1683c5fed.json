@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "How does the IPA label data after interacting with users?",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C5",
+          "C6",
+          "C7"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides clear information on how IPA systems label data through user interactions, specifically mentioning the accumulation of structured and labeled dialogues.",
+    "claims": [
+      {
+        "text": "IPA systems label data by accumulating structured and labeled dialogues during user interactions.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The system uses a rule-based approach to automatically label user inputs with corresponding next actions and dialogue IDs.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Entities from user queries are extracted and mapped to generic entity names for labeling purposes.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 2055,
+    "total_tokens": 2233,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.536885200002871,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

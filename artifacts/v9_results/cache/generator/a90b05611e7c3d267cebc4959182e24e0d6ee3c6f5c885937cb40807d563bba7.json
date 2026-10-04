@@ -1,0 +1,82 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "performance results of oversampled datasets",
+        "citations": [
+          "C1"
+        ]
+      },
+      {
+        "requirement": "performance results of other models",
+        "citations": [
+          "C2"
+        ]
+      },
+      {
+        "requirement": "improvement in recall and precision",
+        "citations": [
+          "C5",
+          "C6"
+        ]
+      },
+      {
+        "requirement": "overall performance improvement",
+        "citations": [
+          "C18"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides sufficient information regarding the performance results of the models and datasets used in the study.",
+    "claims": [
+      {
+        "text": "Oversampled datasets (F+, T+, W+) showed significantly better performance than their counterparts (F, T, W).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Other models exhibited similar performance trends as the oversampled datasets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "There was a dramatic improvement in recall and precision scores with the new model (TL2).",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Overall performance of all deep neural network models improved significantly due to the replication of bullying posts in training data.",
+        "citations": [
+          "C18"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 244,
+    "prompt_tokens": 2477,
+    "total_tokens": 2721,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.6461593999993056,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

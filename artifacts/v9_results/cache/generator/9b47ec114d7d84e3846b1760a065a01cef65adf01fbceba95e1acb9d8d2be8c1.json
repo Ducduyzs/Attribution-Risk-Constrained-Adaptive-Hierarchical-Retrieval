@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The dataset was collected from Tatoeba and Common Voice, utilizing community contributions and validation processes.",
+    "claims": [
+      {
+        "text": "The dataset was constructed from Tatoeba (TT) by collecting (speech, transcript, English translation) triplets for five languages, filtering out samples with broken URLs or non-CC licensed speech.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Common Voice data was collected through crowdsourcing, where contributors recorded voice clips from a bank of donated sentences, with each clip validated by at least two users.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Validated transcripts from Common Voice were sent to professional translators for translation, ensuring quality and accuracy in the dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 1238,
+    "total_tokens": 1406,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8090965999981563,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

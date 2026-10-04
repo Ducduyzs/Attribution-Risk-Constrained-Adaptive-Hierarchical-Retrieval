@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Definition of Random Kitchen Sink approach",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "requirement": "Applications of Random Kitchen Sink approach",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides a definition and application of the Random Kitchen Sink approach in the context of offensive language detection.",
+    "claims": [
+      {
+        "text": "The Random Kitchen Sink (RKS) approach is used for offensive language detection in social media.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "RKS is evaluated alongside other machine learning algorithms for its effectiveness in classifying offensive content.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 780,
+    "total_tokens": 926,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.235474700002669,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

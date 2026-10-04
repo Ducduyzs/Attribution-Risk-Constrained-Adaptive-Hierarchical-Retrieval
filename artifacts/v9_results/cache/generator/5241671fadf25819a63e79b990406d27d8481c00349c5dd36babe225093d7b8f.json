@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the authors focus on scientific summarization, which implies they are likely using data from scientific articles, but it does not explicitly state that they only report results on English data. However, the context suggests a focus on English scientific literature, particularly in biomedical fields.",
+    "claims": [
+      {
+        "text": "The authors study the effectiveness of evaluation metrics for scientific summarization, which typically involves English scientific articles.",
+        "citations": [
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "The summarization approaches discussed are primarily based on English scientific literature, particularly in biomedical contexts.",
+        "citations": [
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 1900,
+    "total_tokens": 2041,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.148351300002105,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

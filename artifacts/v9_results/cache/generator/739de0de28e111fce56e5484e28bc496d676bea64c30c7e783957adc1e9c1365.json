@@ -1,0 +1,46 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that while some models focus on adjacent mentions, there are instances where more than just adjacent mentions are utilized, particularly in the context of coherence and feature extraction.",
+    "claims": [
+      {
+        "text": "NCEL primarily considers adjacent mentions for efficiency, but also incorporates surrounding context and neighbor mentions for better disambiguation.",
+        "citations": [
+          "C1",
+          "C3",
+          "C8",
+          "C11",
+          "C22"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The use of neighbor mentions allows for the extraction of global features, indicating that models can utilize mentions beyond just adjacent ones.",
+        "citations": [
+          "C12",
+          "C22",
+          "C30"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 2250,
+    "total_tokens": 2391,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.003280199998699,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

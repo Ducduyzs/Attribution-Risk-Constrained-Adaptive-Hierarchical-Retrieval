@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that unordered text documents are defined as documents where the sentences or sections are not arranged in a coherent order. Additionally, it is stated that these types of documents do arise in real-world applications, particularly in text processing tasks.",
+    "claims": [
+      {
+        "text": "An unordered text document is one where the sentences or sections are not arranged in a coherent order.",
+        "citations": [
+          "C3",
+          "C5",
+          "C10"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Unordered text documents arise in real-world corpora, particularly in applications like multiple document summarization.",
+        "citations": [
+          "C1",
+          "C2",
+          "C19"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 1252,
+    "total_tokens": 1392,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.510048600001028,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

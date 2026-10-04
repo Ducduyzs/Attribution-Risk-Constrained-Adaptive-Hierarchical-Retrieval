@@ -1,0 +1,1592 @@
+{
+  "question_id": "29923a824c98b3ba85ced964a0e6a2af35758abe",
+  "source": "2002.01320.qasper",
+  "query": "How is the quality of the data empirically evaluated?",
+  "rankings": {
+    "flat24": [
+      [
+        "f70c67bd3bddba9d9338",
+        0.5839153230184654
+      ],
+      [
+        "55497aa18d442c21bfc6",
+        0.001254594479971798
+      ],
+      [
+        "d4b7e2f1323640ab182c",
+        0.001008343541656317
+      ],
+      [
+        "155127430e313f652610",
+        0.0005953406662444656
+      ],
+      [
+        "da446bd2196e076bae3e",
+        0.0005420927261436571
+      ],
+      [
+        "877d5cea72ebdfda28db",
+        0.0004916815522926534
+      ],
+      [
+        "b613f182f81742366173",
+        0.0004092474464933876
+      ],
+      [
+        "b45d3957599bf65fed60",
+        0.0003935755935111022
+      ],
+      [
+        "172b1c37704bd8d12d37",
+        0.00038446192991146674
+      ],
+      [
+        "a2f52b1b0c4af259f462",
+        0.00031015598671268335
+      ],
+      [
+        "91536fca27698063f1cd",
+        0.00028910325640811867
+      ],
+      [
+        "1324364929d483e0abca",
+        0.00024346046497898514
+      ],
+      [
+        "106b9d9c8a84823f2b08",
+        0.0002396868650226788
+      ],
+      [
+        "d011b2a08da5f78263a9",
+        0.00022693385749600553
+      ],
+      [
+        "d9a270aa9be5c38da608",
+        0.00020662982488383407
+      ],
+      [
+        "1557eb53514c01bb720d",
+        0.00019260287692100857
+      ],
+      [
+        "778a8ca644a3438a1cfe",
+        0.0001699752890963125
+      ],
+      [
+        "b9614d58f74381fe79a2",
+        0.0001476803833660436
+      ],
+      [
+        "344df72ff8f75aeb8cfb",
+        7.602479448313689e-05
+      ],
+      [
+        "12074454e4c949fe018a",
+        6.553815667339151e-05
+      ],
+      [
+        "2ef7728774f2991c899d",
+        5.7387595214376774e-05
+      ],
+      [
+        "09d23085336e8dc0a774",
+        2.97731143841062e-05
+      ],
+      [
+        "ee931160e1b19a2c6a40",
+        1.7917988275182845e-05
+      ],
+      [
+        "6220c4aab302a99ce15e",
+        1.7640200515540418e-05
+      ]
+    ],
+    "all_leaf": [
+      [
+        "f70c67bd3bddba9d9338",
+        0.5839153230184654
+      ],
+      [
+        "55497aa18d442c21bfc6",
+        0.001254594479971798
+      ],
+      [
+        "d4b7e2f1323640ab182c",
+        0.001008343541656317
+      ],
+      [
+        "155127430e313f652610",
+        0.0005953406662444656
+      ],
+      [
+        "da446bd2196e076bae3e",
+        0.0005420927261436571
+      ],
+      [
+        "877d5cea72ebdfda28db",
+        0.0004916815522926534
+      ],
+      [
+        "b613f182f81742366173",
+        0.0004092474464933876
+      ],
+      [
+        "b45d3957599bf65fed60",
+        0.0003935755935111022
+      ],
+      [
+        "172b1c37704bd8d12d37",
+        0.00038446192991146674
+      ],
+      [
+        "a2f52b1b0c4af259f462",
+        0.00031015598671268335
+      ],
+      [
+        "91536fca27698063f1cd",
+        0.00028910325640811867
+      ],
+      [
+        "1324364929d483e0abca",
+        0.00024346046497898514
+      ],
+      [
+        "106b9d9c8a84823f2b08",
+        0.0002396868650226788
+      ],
+      [
+        "d011b2a08da5f78263a9",
+        0.00022693385749600553
+      ],
+      [
+        "d9a270aa9be5c38da608",
+        0.00020662982488383407
+      ],
+      [
+        "1557eb53514c01bb720d",
+        0.00019260287692100857
+      ],
+      [
+        "778a8ca644a3438a1cfe",
+        0.0001699752890963125
+      ],
+      [
+        "b9614d58f74381fe79a2",
+        0.0001476803833660436
+      ],
+      [
+        "344df72ff8f75aeb8cfb",
+        7.602479448313689e-05
+      ],
+      [
+        "12074454e4c949fe018a",
+        6.553815667339151e-05
+      ],
+      [
+        "2ef7728774f2991c899d",
+        5.7387595214376774e-05
+      ],
+      [
+        "09d23085336e8dc0a774",
+        2.97731143841062e-05
+      ],
+      [
+        "ee931160e1b19a2c6a40",
+        1.7917988275182845e-05
+      ],
+      [
+        "6220c4aab302a99ce15e",
+        1.7640200515540418e-05
+      ]
+    ],
+    "contextual24": [
+      [
+        "f70c67bd3bddba9d9338",
+        0.6337503363695078
+      ],
+      [
+        "b613f182f81742366173",
+        0.009783876017655003
+      ],
+      [
+        "da446bd2196e076bae3e",
+        0.004645557549716042
+      ],
+      [
+        "91536fca27698063f1cd",
+        0.00439941316273649
+      ],
+      [
+        "d9a270aa9be5c38da608",
+        0.004086002694204713
+      ],
+      [
+        "d011b2a08da5f78263a9",
+        0.0039762279744753005
+      ],
+      [
+        "877d5cea72ebdfda28db",
+        0.00389962067257789
+      ],
+      [
+        "a2f52b1b0c4af259f462",
+        0.0033374049451905213
+      ],
+      [
+        "d4b7e2f1323640ab182c",
+        0.002900857710860122
+      ],
+      [
+        "155127430e313f652610",
+        0.002768385516913781
+      ],
+      [
+        "1557eb53514c01bb720d",
+        0.00233223391758734
+      ],
+      [
+        "1324364929d483e0abca",
+        0.0013617033749752198
+      ],
+      [
+        "172b1c37704bd8d12d37",
+        0.0013198634624794732
+      ],
+      [
+        "55497aa18d442c21bfc6",
+        0.0011291546285049482
+      ],
+      [
+        "778a8ca644a3438a1cfe",
+        0.00098117188120718
+      ],
+      [
+        "09d23085336e8dc0a774",
+        0.0007643033095615912
+      ],
+      [
+        "b9614d58f74381fe79a2",
+        0.0006986756664856784
+      ],
+      [
+        "106b9d9c8a84823f2b08",
+        0.0006986756664856784
+      ],
+      [
+        "b45d3957599bf65fed60",
+        0.0006825019082634147
+      ],
+      [
+        "2ef7728774f2991c899d",
+        0.0005336928427664175
+      ],
+      [
+        "344df72ff8f75aeb8cfb",
+        0.0003740956047302422
+      ],
+      [
+        "6220c4aab302a99ce15e",
+        0.0002846224015752145
+      ],
+      [
+        "12074454e4c949fe018a",
+        0.0002216781056925593
+      ],
+      [
+        "ee931160e1b19a2c6a40",
+        3.852893541726541e-05
+      ]
+    ],
+    "contextual_all": [
+      [
+        "f70c67bd3bddba9d9338",
+        0.6337503363695078
+      ],
+      [
+        "b613f182f81742366173",
+        0.009783876017655003
+      ],
+      [
+        "da446bd2196e076bae3e",
+        0.004645557549716042
+      ],
+      [
+        "91536fca27698063f1cd",
+        0.00439941316273649
+      ],
+      [
+        "d9a270aa9be5c38da608",
+        0.004086002694204713
+      ],
+      [
+        "d011b2a08da5f78263a9",
+        0.0039762279744753005
+      ],
+      [
+        "877d5cea72ebdfda28db",
+        0.00389962067257789
+      ],
+      [
+        "a2f52b1b0c4af259f462",
+        0.0033374049451905213
+      ],
+      [
+        "d4b7e2f1323640ab182c",
+        0.002900857710860122
+      ],
+      [
+        "155127430e313f652610",
+        0.002768385516913781
+      ],
+      [
+        "1557eb53514c01bb720d",
+        0.00233223391758734
+      ],
+      [
+        "1324364929d483e0abca",
+        0.0013617033749752198
+      ],
+      [
+        "172b1c37704bd8d12d37",
+        0.0013198634624794732
+      ],
+      [
+        "55497aa18d442c21bfc6",
+        0.0011291546285049482
+      ],
+      [
+        "778a8ca644a3438a1cfe",
+        0.00098117188120718
+      ],
+      [
+        "09d23085336e8dc0a774",
+        0.0007643033095615912
+      ],
+      [
+        "106b9d9c8a84823f2b08",
+        0.0006986756664856784
+      ],
+      [
+        "b9614d58f74381fe79a2",
+        0.0006986756664856784
+      ],
+      [
+        "b45d3957599bf65fed60",
+        0.0006825019082634147
+      ],
+      [
+        "2ef7728774f2991c899d",
+        0.0005336928427664175
+      ],
+      [
+        "344df72ff8f75aeb8cfb",
+        0.0003740956047302422
+      ],
+      [
+        "6220c4aab302a99ce15e",
+        0.0002846224015752145
+      ],
+      [
+        "12074454e4c949fe018a",
+        0.0002216781056925593
+      ],
+      [
+        "ee931160e1b19a2c6a40",
+        3.852893541726541e-05
+      ]
+    ],
+    "raptor": [
+      [
+        "55497aa18d442c21bfc6",
+        0.001254594479971798
+      ],
+      [
+        "155127430e313f652610",
+        0.0005953406662444656
+      ],
+      [
+        "da446bd2196e076bae3e",
+        0.0005420927261436571
+      ],
+      [
+        "877d5cea72ebdfda28db",
+        0.0004916815522926534
+      ],
+      [
+        "106b9d9c8a84823f2b08",
+        0.0002396868650226788
+      ],
+      [
+        "778a8ca644a3438a1cfe",
+        0.0001699752890963125
+      ],
+      [
+        "b9614d58f74381fe79a2",
+        0.0001476803833660436
+      ],
+      [
+        "09d23085336e8dc0a774",
+        2.97731143841062e-05
+      ],
+      [
+        "6220c4aab302a99ce15e",
+        1.7640200515540418e-05
+      ]
+    ]
+  },
+  "initial_ids": [
+    "b613f182f81742366173",
+    "155127430e313f652610",
+    "55497aa18d442c21bfc6",
+    "f70c67bd3bddba9d9338",
+    "da446bd2196e076bae3e",
+    "877d5cea72ebdfda28db",
+    "b9614d58f74381fe79a2",
+    "09d23085336e8dc0a774",
+    "172b1c37704bd8d12d37",
+    "a2f52b1b0c4af259f462",
+    "d011b2a08da5f78263a9",
+    "b45d3957599bf65fed60",
+    "778a8ca644a3438a1cfe",
+    "1324364929d483e0abca",
+    "d4b7e2f1323640ab182c",
+    "106b9d9c8a84823f2b08",
+    "2ef7728774f2991c899d",
+    "d9a270aa9be5c38da608",
+    "12074454e4c949fe018a",
+    "1557eb53514c01bb720d",
+    "344df72ff8f75aeb8cfb",
+    "6220c4aab302a99ce15e",
+    "91536fca27698063f1cd",
+    "ee931160e1b19a2c6a40"
+  ],
+  "sentences": [
+    {
+      "uid": "123af149953dd9f018f0",
+      "text": "Spoken language translation has recently witnessed a resurgence in popularity, thanks to the development of end-to-end models and the creation of new corpora, such as Augmented LibriSpeech and MuST-C.",
+      "leaf_id": "f70c67bd3bddba9d9338",
+      "section_id": "01916d9da38e8fe39575",
+      "start": 0,
+      "end": 200,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "8def7f4a854b9c2abe68",
+      "text": "Existing datasets involve language pairs with English as a source language, involve very specific domains or are low resource.",
+      "leaf_id": "f70c67bd3bddba9d9338",
+      "section_id": "01916d9da38e8fe39575",
+      "start": 201,
+      "end": 327,
+      "score": 8.888084683809127e-05
+    },
+    {
+      "uid": "024b6c00cd4b211f329d",
+      "text": "We introduce CoVoST, a multilingual speech-to-text translation corpus from 11 languages into English, diversified with over 11,000 speakers and over 60 accents.",
+      "leaf_id": "f70c67bd3bddba9d9338",
+      "section_id": "01916d9da38e8fe39575",
+      "start": 328,
+      "end": 488,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "c4d57feea564d98574ec",
+      "text": "We describe the dataset creation methodology and provide empirical evidence of the quality of the data.",
+      "leaf_id": "f70c67bd3bddba9d9338",
+      "section_id": "01916d9da38e8fe39575",
+      "start": 489,
+      "end": 592,
+      "score": 0.536677165981112
+    },
+    {
+      "uid": "35a02d7b1525d7b11c9f",
+      "text": "We also provide initial benchmarks, including, to our knowledge, the first end-to-end many-to-one multilingual models for spoken language translation.",
+      "leaf_id": "f70c67bd3bddba9d9338",
+      "section_id": "01916d9da38e8fe39575",
+      "start": 593,
+      "end": 743,
+      "score": 3.944258675190877e-05
+    },
+    {
+      "uid": "bd52d42ccebad01a4d7c",
+      "text": "CoVoST is released under CC0 license and free to use.",
+      "leaf_id": "f70c67bd3bddba9d9338",
+      "section_id": "01916d9da38e8fe39575",
+      "start": 744,
+      "end": 797,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "a68f728b73bc1306cbfd",
+      "text": "We also provide additional evaluation data derived from Tatoeba under CC licenses.",
+      "leaf_id": "f70c67bd3bddba9d9338",
+      "section_id": "01916d9da38e8fe39575",
+      "start": 798,
+      "end": 880,
+      "score": 0.0001647465607888151
+    },
+    {
+      "uid": "dcd777e05f3df87a1079",
+      "text": "End-to-end speech-to-text translation (ST) has attracted much attention recently BIBREF2, BIBREF3, BIBREF4, BIBREF5, BIBREF6 given its simplicity against cascading automatic speech recognition (ASR) and machine translation (MT) systems.",
+      "leaf_id": "1324364929d483e0abca",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 0,
+      "end": 236,
+      "score": 3.1941819764587e-05
+    },
+    {
+      "uid": "9c1d3ffef2b77af24bca",
+      "text": "The lack of labeled data, however, has become a major blocker for bridging the performance gaps between end-to-end models and cascading systems.",
+      "leaf_id": "1324364929d483e0abca",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 237,
+      "end": 381,
+      "score": 0.0001476803833660436
+    },
+    {
+      "uid": "88b769b58dcd7f7fe4a6",
+      "text": "Several corpora have been developed in recent years. post2013improved introduced a 38-hour Spanish-English ST corpus by augmenting the transcripts of the Fisher and Callhome corpora with English translations. di-gangi-etal-2019-must created the largest ST corpus to date from TED talks but the language pairs involved are out of English only. beilharz2019librivoxdeen created a 110-hour German-English ST corpus from LibriVox audiobooks. godard-etal-2018-low created a Moboshi-French ST corpus as part of a rare language documentation effort. woldeyohannis provided an Amharic-English ST corpus in the tourism domain. boito2019mass created a multilingual ST corpus involving 8 languages from a multilingual speech corpus based on Bible readings BIBREF7.",
+      "leaf_id": "1324364929d483e0abca",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 382,
+      "end": 1135,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "6bd92bf1e5805e30fbc3",
+      "text": "Previous work either involves language pairs out of English, very specific domains, very low resource languages or a limited set of language pairs.",
+      "leaf_id": "12074454e4c949fe018a",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 1136,
+      "end": 1283,
+      "score": 1.9223170236538176e-05
+    },
+    {
+      "uid": "768f6fcaece6bbca1213",
+      "text": "This limits the scope of study, including the latest explorations on end-to-end multilingual ST BIBREF8, BIBREF9.",
+      "leaf_id": "12074454e4c949fe018a",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 1284,
+      "end": 1397,
+      "score": 5.064471653194113e-05
+    },
+    {
+      "uid": "31b4985bd593dd675716",
+      "text": "Our work is mostly similar and concurrent to iranzosnchez2019europarlst who created a multilingual ST corpus from the European Parliament proceedings.",
+      "leaf_id": "12074454e4c949fe018a",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 1398,
+      "end": 1548,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "47436adc91a85c529522",
+      "text": "The corpus we introduce has larger speech durations and more translation tokens.",
+      "leaf_id": "91536fca27698063f1cd",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 1549,
+      "end": 1629,
+      "score": 2.0948187132262702e-05
+    },
+    {
+      "uid": "f89acced6e196a973f05",
+      "text": "It is diversified with multiple speakers per transcript/translation.",
+      "leaf_id": "91536fca27698063f1cd",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 1630,
+      "end": 1698,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "90c5c4bfbe69f36e4e5e",
+      "text": "Finally, we provide additional out-of-domain test sets.",
+      "leaf_id": "91536fca27698063f1cd",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 1699,
+      "end": 1754,
+      "score": 6.761842041375471e-05
+    },
+    {
+      "uid": "64416164358f14baafd1",
+      "text": "In this paper, we introduce CoVoST, a multilingual ST corpus based on Common Voice BIBREF10 for 11 languages into English, diversified with over 11,000 speakers and over 60 accents.",
+      "leaf_id": "91536fca27698063f1cd",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 1755,
+      "end": 1936,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "35ccf21347a136ace0b4",
+      "text": "It includes a total 708 hours of French (Fr), German (De), Dutch (Nl), Russian (Ru), Spanish (Es), Italian (It), Turkish (Tr), Persian (Fa), Swedish (Sv), Mongolian (Mn) and Chinese (Zh) speeches, with French and German ones having the largest durations among existing public corpora.",
+      "leaf_id": "91536fca27698063f1cd",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 1937,
+      "end": 2221,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "30f422ab270caf45742d",
+      "text": "We also collect an additional evaluation corpus from Tatoeba for French, German, Dutch, Russian and Spanish, resulting in a total of 9.3 hours of speech.",
+      "leaf_id": "91536fca27698063f1cd",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 2222,
+      "end": 2375,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "357c8e4e0e859dd4cc3f",
+      "text": "Both corpora are created at the sentence level and do not require additional alignments or segmentation.",
+      "leaf_id": "91536fca27698063f1cd",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 2376,
+      "end": 2480,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "4d5a58e345f1649c362b",
+      "text": "Using the official Common Voice train-development-test split, we also provide baseline models, including, to our knowledge, the first end-to-end many-to-one multilingual ST models.",
+      "leaf_id": "b45d3957599bf65fed60",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 2481,
+      "end": 2661,
+      "score": 1.8342893327886845e-05
+    },
+    {
+      "uid": "39e701815f816d9c4c4c",
+      "text": "CoVoST is released under CC0 license and free to use.",
+      "leaf_id": "b45d3957599bf65fed60",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 2662,
+      "end": 2715,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "db8550f0e16f7f3c1c49",
+      "text": "The Tatoeba evaluation samples are also available under friendly CC licenses.",
+      "leaf_id": "b45d3957599bf65fed60",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 2716,
+      "end": 2793,
+      "score": 3.852893541726541e-05
+    },
+    {
+      "uid": "cf913afadfc056b00657",
+      "text": "All the data can be acquired at https://github.com/facebookresearch/covost.",
+      "leaf_id": "b45d3957599bf65fed60",
+      "section_id": "cbf92c2126d5f4fc434a",
+      "start": 2794,
+      "end": 2869,
+      "score": 3.095910371044124e-05
+    },
+    {
+      "uid": "2ea3e9911409a7427e05",
+      "text": "Common Voice BIBREF10 is a crowdsourcing speech recognition corpus with an open CC0 license.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 0,
+      "end": 92,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "c69f4d0328c6d07ed164",
+      "text": "Contributors record voice clips by reading from a bank of donated sentences.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 93,
+      "end": 169,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "e0ee8beee076b334b983",
+      "text": "Each voice clip was validated by at least two other users.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 170,
+      "end": 228,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "97f5b7158b6a2ab5a5aa",
+      "text": "Most of the sentences are covered by multiple speakers, with potentially different genders, age groups or accents.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 229,
+      "end": 343,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "2a2a1e70fe7431e52c28",
+      "text": "Raw CoVo data contains samples that passed validation as well as those that did not.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 344,
+      "end": 428,
+      "score": 0.00015967865134838003
+    },
+    {
+      "uid": "5f35071f695ab98942b8",
+      "text": "To build CoVoST, we only use the former one and reuse the official train-development-test partition of the validated data.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 429,
+      "end": 551,
+      "score": 0.00010889691002655445
+    },
+    {
+      "uid": "fdc80828853d211f15f6",
+      "text": "As of January 2020, the latest CoVo 2019-06-12 release includes 29 languages.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 552,
+      "end": 629,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "08f0cecdbdc232584823",
+      "text": "CoVoST is currently built on that release and covers the following 11 languages: French, German, Dutch, Russian, Spanish, Italian, Turkish, Persian, Swedish, Mongolian and Chinese.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 630,
+      "end": 810,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "afe64e1f6a79b351b6b7",
+      "text": "Validated transcripts were sent to professional translators.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 811,
+      "end": 871,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "992769839885b7177933",
+      "text": "Note that the translators had access to the transcripts but not the corresponding voice clips since clips would not carry additional information.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 872,
+      "end": 1017,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "8f9f238112c467c221fe",
+      "text": "Since transcripts were duplicated due to multiple speakers, we deduplicated the transcripts before sending them to translators.",
+      "leaf_id": "d4b7e2f1323640ab182c",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 1018,
+      "end": 1145,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "2e1c7a9d4d1784ce3d6d",
+      "text": "As a result, different voice clips of the same content (transcript) will have identical translations in CoVoST for train, development and test splits.",
+      "leaf_id": "da446bd2196e076bae3e",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 1146,
+      "end": 1296,
+      "score": 1.848675576370609e-05
+    },
+    {
+      "uid": "9711a70b1d30b39ed8da",
+      "text": "In order to control the quality of the professional translations, we applied various sanity checks to the translations BIBREF11.",
+      "leaf_id": "da446bd2196e076bae3e",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 1297,
+      "end": 1425,
+      "score": 0.0007824140590241951
+    },
+    {
+      "uid": "7292ae0f787fc3e4eb5d",
+      "text": "1) For German-English, French-English and Russian-English translations, we computed sentence-level BLEU BIBREF12 with the NLTK BIBREF13 implementation between the human translations and the automatic translations produced by a state-of-the-art system BIBREF14 (the French-English system was a Transformer big BIBREF15 separately trained on WMT14).",
+      "leaf_id": "da446bd2196e076bae3e",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 1426,
+      "end": 1773,
+      "score": 2.212566909570261e-05
+    },
+    {
+      "uid": "599d36c144a7b7d94d5e",
+      "text": "We applied this method to these three language pairs only as we are confident about the quality of the corresponding systems.",
+      "leaf_id": "da446bd2196e076bae3e",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 1774,
+      "end": 1899,
+      "score": 0.000572546581632441
+    },
+    {
+      "uid": "c991856ae488d7f0d69f",
+      "text": "Translations with a score that was too low were manually inspected and sent back to the translators when needed.",
+      "leaf_id": "da446bd2196e076bae3e",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 1900,
+      "end": 2012,
+      "score": 3.705296977158347e-05
+    },
+    {
+      "uid": "1a4e2cf063313ba3efad",
+      "text": "2) We manually inspected examples where the source transcript was identical to the translation.",
+      "leaf_id": "da446bd2196e076bae3e",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 2013,
+      "end": 2108,
+      "score": 6.922183404468203e-05
+    },
+    {
+      "uid": "9e082f6697d7f401a33d",
+      "text": "3) We measured the perplexity of the translations using a language model trained on a large amount of clean monolingual data BIBREF14.",
+      "leaf_id": "877d5cea72ebdfda28db",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 2109,
+      "end": 2243,
+      "score": 0.001201891318511022
+    },
+    {
+      "uid": "1b741d1b1fcd3bacde84",
+      "text": "We manually inspected examples where the translation had a high perplexity and sent them back to translators accordingly.",
+      "leaf_id": "877d5cea72ebdfda28db",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 2244,
+      "end": 2365,
+      "score": 4.7206228829964175e-05
+    },
+    {
+      "uid": "d4fd418b74a70ebed71b",
+      "text": "4) We computed the ratio of English characters in the translations.",
+      "leaf_id": "877d5cea72ebdfda28db",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 2366,
+      "end": 2433,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "267074611bf6147df4af",
+      "text": "We manually inspected examples with a low ratio and sent them back to translators accordingly.",
+      "leaf_id": "877d5cea72ebdfda28db",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 2434,
+      "end": 2528,
+      "score": 4.6112748142641196e-05
+    },
+    {
+      "uid": "880eba4e9887b8abcffa",
+      "text": "5) Finally, we used VizSeq BIBREF16 to calculate similarity scores between transcripts and translations based on LASER cross-lingual sentence embeddings BIBREF17.",
+      "leaf_id": "877d5cea72ebdfda28db",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 2529,
+      "end": 2691,
+      "score": 4.5397868702434395e-05
+    },
+    {
+      "uid": "f681ce410cc74ff02abb",
+      "text": "Samples with low scores were manually inspected and sent back for translation when needed.",
+      "leaf_id": "877d5cea72ebdfda28db",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 2692,
+      "end": 2782,
+      "score": 0.00024923252458203564
+    },
+    {
+      "uid": "e73d0da5b1bba4f51ee6",
+      "text": "We also sanity check the overlaps of train, development and test sets in terms of transcripts and voice clips (via MD5 file hashing), and confirm they are totally disjoint.",
+      "leaf_id": "877d5cea72ebdfda28db",
+      "section_id": "96f9266053c4f2f8598d",
+      "start": 2783,
+      "end": 2955,
+      "score": 0.00013342001090985438
+    },
+    {
+      "uid": "644ced631398165328b6",
+      "text": "Tatoeba (TT) is a community built language learning corpus having sentences aligned across multiple languages with the corresponding speech partially available.",
+      "leaf_id": "b613f182f81742366173",
+      "section_id": "9909afa8c04af1603088",
+      "start": 0,
+      "end": 160,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "a08c8d20864a988c94c4",
+      "text": "Its sentences are on average shorter than those in CoVoST (see also Table TABREF2) given the original purpose of language learning.",
+      "leaf_id": "b613f182f81742366173",
+      "section_id": "9909afa8c04af1603088",
+      "start": 161,
+      "end": 292,
+      "score": 1.750292578877821e-05
+    },
+    {
+      "uid": "b176cbc9f117edead7d4",
+      "text": "Sentences in TT are licensed under CC BY 2.0 FR and part of the speeches are available under various CC licenses.",
+      "leaf_id": "b613f182f81742366173",
+      "section_id": "9909afa8c04af1603088",
+      "start": 293,
+      "end": 406,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "8d6c8022d3391a296847",
+      "text": "We construct an evaluation set from TT (for French, German, Dutch, Russian and Spanish) as a complement to CoVoST development and test sets.",
+      "leaf_id": "b613f182f81742366173",
+      "section_id": "9909afa8c04af1603088",
+      "start": 407,
+      "end": 547,
+      "score": 3.4808121961114686e-05
+    },
+    {
+      "uid": "e570a8232d719a140c75",
+      "text": "We collect (speech, transcript, English translation) triplets for the 5 languages and do not include those whose speech has a broken URL or is not CC licensed.",
+      "leaf_id": "b613f182f81742366173",
+      "section_id": "9909afa8c04af1603088",
+      "start": 548,
+      "end": 707,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "33d71ae24d2082b97c4c",
+      "text": "We further filter these samples by sentence lengths (minimum 4 words including punctuations) to reduce the portion of short sentences.",
+      "leaf_id": "b613f182f81742366173",
+      "section_id": "9909afa8c04af1603088",
+      "start": 708,
+      "end": 842,
+      "score": 2.9083440990898244e-05
+    },
+    {
+      "uid": "aa006e4ecd22ca5ba4c6",
+      "text": "This makes the resulting evaluation set closer to real-world scenarios and more challenging.",
+      "leaf_id": "b613f182f81742366173",
+      "section_id": "9909afa8c04af1603088",
+      "start": 843,
+      "end": 935,
+      "score": 0.0006094501590135562
+    },
+    {
+      "uid": "76e1aa2332adf3fab50a",
+      "text": "We run the same quality checks for TT as for CoVoST but we do not find poor quality translations according to our criteria.",
+      "leaf_id": "b613f182f81742366173",
+      "section_id": "9909afa8c04af1603088",
+      "start": 936,
+      "end": 1059,
+      "score": 0.0001511819932727333
+    },
+    {
+      "uid": "9ec555a30a3e31cfa843",
+      "text": "Finally, we report the overlap between CoVo transcripts and TT sentences in Table TABREF5.",
+      "leaf_id": "155127430e313f652610",
+      "section_id": "9909afa8c04af1603088",
+      "start": 1060,
+      "end": 1150,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "cdadb10946c49dba5be9",
+      "text": "We found a minimal overlap, which makes the TT evaluation set a suitable additional test set when training on CoVoST.",
+      "leaf_id": "155127430e313f652610",
+      "section_id": "9909afa8c04af1603088",
+      "start": 1151,
+      "end": 1268,
+      "score": 6.352188765951866e-05
+    },
+    {
+      "uid": "4089b6574b9f2791445e",
+      "text": "Basic statistics for CoVoST and TT are listed in Table TABREF2 including (unique) sentence counts, speech durations, speaker demographics (partially available) as well as vocabulary and token statistics (based on Moses-tokenized sentences by sacreMoses) on both transcripts and translations.",
+      "leaf_id": "1557eb53514c01bb720d",
+      "section_id": "041ab953ee87ba87d3cb",
+      "start": 0,
+      "end": 291,
+      "score": 4.6838884249524555e-05
+    },
+    {
+      "uid": "bcca1e220aa24c1d9fb9",
+      "text": "We see that CoVoST has over 327 hours of German speeches and over 171 hours of French speeches, which, to our knowledge, corresponds to the largest corpus among existing public ST corpora (the second largest is 110 hours BIBREF18 for German and 38 hours BIBREF19 for French).",
+      "leaf_id": "1557eb53514c01bb720d",
+      "section_id": "041ab953ee87ba87d3cb",
+      "start": 292,
+      "end": 567,
+      "score": 7.031184266914956e-05
+    },
+    {
+      "uid": "9a2de6f72d0acad2456e",
+      "text": "Moreover, CoVoST has a total of 18 hours of Dutch speeches, to our knowledge, contributing the first public Dutch ST resource.",
+      "leaf_id": "1557eb53514c01bb720d",
+      "section_id": "041ab953ee87ba87d3cb",
+      "start": 568,
+      "end": 694,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "c38d7b3544d5c63957b5",
+      "text": "CoVoST also has around 27-hour Russian speeches, 37-hour Italian speeches and 67-hour Persian speeches, which is 1.8 times, 2.5 times and 13.3 times of the previous largest public one BIBREF7.",
+      "leaf_id": "1557eb53514c01bb720d",
+      "section_id": "041ab953ee87ba87d3cb",
+      "start": 695,
+      "end": 887,
+      "score": 2.4876490010363496e-05
+    },
+    {
+      "uid": "567a5a4687d1cbf478bb",
+      "text": "Most of the sentences (transcripts) in CoVoST are covered by multiple speakers with potentially different accents, resulting in a rich diversity in the speeches.",
+      "leaf_id": "1557eb53514c01bb720d",
+      "section_id": "041ab953ee87ba87d3cb",
+      "start": 888,
+      "end": 1049,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "d6c784b9577a175229dc",
+      "text": "For example, there are over 1,000 speakers and over 10 accents in the French and German development / test sets.",
+      "leaf_id": "2ef7728774f2991c899d",
+      "section_id": "041ab953ee87ba87d3cb",
+      "start": 1050,
+      "end": 1162,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "dd0a0afe6f53697e2ee0",
+      "text": "This enables good coverage of speech variations in both model training and evaluation.",
+      "leaf_id": "2ef7728774f2991c899d",
+      "section_id": "041ab953ee87ba87d3cb",
+      "start": 1163,
+      "end": 1249,
+      "score": 5.5622062736470347e-05
+    },
+    {
+      "uid": "d9a017bd2bca992a4038",
+      "text": "As we can see from Table TABREF2, CoVoST is diversified with a rich set of speakers and accents.",
+      "leaf_id": "d9a270aa9be5c38da608",
+      "section_id": "fa768a8f296a69a2c184",
+      "start": 0,
+      "end": 96,
+      "score": 1.7778551863194697e-05
+    },
+    {
+      "uid": "f8d3f4b6383b755c9478",
+      "text": "We further inspect the speaker demographics in terms of sample distributions with respect to speaker counts, accent counts and age groups, which is shown in Figure FIGREF6, FIGREF7 and FIGREF8.",
+      "leaf_id": "d9a270aa9be5c38da608",
+      "section_id": "fa768a8f296a69a2c184",
+      "start": 97,
+      "end": 290,
+      "score": 0.00045474790325881277
+    },
+    {
+      "uid": "1e002a8d8dd44ad39ce2",
+      "text": "We observe that for 8 of the 11 languages, at least 60% of the sentences (transcripts) are covered by multiple speakers.",
+      "leaf_id": "d9a270aa9be5c38da608",
+      "section_id": "fa768a8f296a69a2c184",
+      "start": 291,
+      "end": 411,
+      "score": 2.01456908529364e-05
+    },
+    {
+      "uid": "4b7fdac90c4f88bc70ea",
+      "text": "Over 80% of the French sentences have at least 3 speakers.",
+      "leaf_id": "d9a270aa9be5c38da608",
+      "section_id": "fa768a8f296a69a2c184",
+      "start": 412,
+      "end": 470,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "12ce090a42f8db835ecf",
+      "text": "And for German sentences, even over 90% of them have at least 5 speakers.",
+      "leaf_id": "d9a270aa9be5c38da608",
+      "section_id": "fa768a8f296a69a2c184",
+      "start": 471,
+      "end": 544,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "a28d3424df76faf18e2e",
+      "text": "Similarly, we see that a large portion of sentences are spoken in multiple accents for French, German, Dutch and Spanish.",
+      "leaf_id": "d9a270aa9be5c38da608",
+      "section_id": "fa768a8f296a69a2c184",
+      "start": 545,
+      "end": 666,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "49ef3e313e51d494cbae",
+      "text": "Speakers of each language also spread widely across different age groups (below 20, 20s, 30s, 40s, 50s, 60s and 70s).",
+      "leaf_id": "d9a270aa9be5c38da608",
+      "section_id": "fa768a8f296a69a2c184",
+      "start": 667,
+      "end": 784,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "f362879ced49617b403e",
+      "text": "We provide baselines using the official train-development-test split on the following tasks: automatic speech recognition (ASR), machine translation (MT) and speech translation (ST).",
+      "leaf_id": "6220c4aab302a99ce15e",
+      "section_id": "904febf0e4432c24336b",
+      "start": 0,
+      "end": 182,
+      "score": 1.7640200515540418e-05
+    },
+    {
+      "uid": "6f82fdbd773f30c27553",
+      "text": "We convert raw MP3 audio files from CoVo and TT into mono-channel waveforms, and downsample them to 16,000 Hz.",
+      "leaf_id": "09d23085336e8dc0a774",
+      "section_id": "7fd8ae75903cf98e4791",
+      "start": 0,
+      "end": 110,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "0b4183bdd0c21fa5d69f",
+      "text": "For transcripts and translations, we normalize the punctuation, we tokenize the text with sacreMoses and lowercase it.",
+      "leaf_id": "09d23085336e8dc0a774",
+      "section_id": "7fd8ae75903cf98e4791",
+      "start": 111,
+      "end": 229,
+      "score": 2.3737339634846014e-05
+    },
+    {
+      "uid": "10649ddd1b9375f7e2e3",
+      "text": "For transcripts, we further remove all punctuation markers except for apostrophes.",
+      "leaf_id": "09d23085336e8dc0a774",
+      "section_id": "7fd8ae75903cf98e4791",
+      "start": 230,
+      "end": 312,
+      "score": 1.9373936508326677e-05
+    },
+    {
+      "uid": "f36d060b090af467df36",
+      "text": "We use character vocabularies on all the tasks, with 100% coverage of all the characters.",
+      "leaf_id": "09d23085336e8dc0a774",
+      "section_id": "7fd8ae75903cf98e4791",
+      "start": 313,
+      "end": 402,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "82ab6973fdab8a3a7428",
+      "text": "Preliminary experimentation showed that character vocabularies provided more stable training than BPE.",
+      "leaf_id": "09d23085336e8dc0a774",
+      "section_id": "7fd8ae75903cf98e4791",
+      "start": 403,
+      "end": 505,
+      "score": 3.7931622297824375e-05
+    },
+    {
+      "uid": "dde761f4f30784556db6",
+      "text": "For MT, the vocabulary is created jointly on both transcripts and translations.",
+      "leaf_id": "09d23085336e8dc0a774",
+      "section_id": "7fd8ae75903cf98e4791",
+      "start": 506,
+      "end": 585,
+      "score": 1.8200150397513547e-05
+    },
+    {
+      "uid": "535fa0a8719548a094ea",
+      "text": "We extract 80-channel log-mel filterbank features, computed with a 25ms window size and 10ms window shift using torchaudio.",
+      "leaf_id": "09d23085336e8dc0a774",
+      "section_id": "7fd8ae75903cf98e4791",
+      "start": 586,
+      "end": 709,
+      "score": 1.8925148246037342e-05
+    },
+    {
+      "uid": "5f13c6faa759b0830571",
+      "text": "The features are normalized to 0 mean and 1.0 standard deviation.",
+      "leaf_id": "09d23085336e8dc0a774",
+      "section_id": "7fd8ae75903cf98e4791",
+      "start": 710,
+      "end": 775,
+      "score": 0.0008426423087564058
+    },
+    {
+      "uid": "a1c6e427d9e3825cf45f",
+      "text": "We remove samples having more than 3,000 frames or more than 256 characters for GPU memory efficiency (less than 25 samples are removed for all languages).",
+      "leaf_id": "09d23085336e8dc0a774",
+      "section_id": "7fd8ae75903cf98e4791",
+      "start": 776,
+      "end": 931,
+      "score": 1.9073577192252488e-05
+    },
+    {
+      "uid": "9de27e5666b301b6d909",
+      "text": "Our ASR and ST models follow the architecture in berard2018end, but have 3 decoder layers like that in pino2019harnessing.",
+      "leaf_id": "ee931160e1b19a2c6a40",
+      "section_id": "e376d9d5b1d4759aef0e",
+      "start": 0,
+      "end": 122,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "3c67502ac95541cf162f",
+      "text": "For MT, we use a Transformer base architecture BIBREF15, but with 3 encoder layers, 3 decoder layers and 0.3 dropout.",
+      "leaf_id": "ee931160e1b19a2c6a40",
+      "section_id": "e376d9d5b1d4759aef0e",
+      "start": 123,
+      "end": 240,
+      "score": 1.7917988275182845e-05
+    },
+    {
+      "uid": "b0f30d2bb0e35773cbc6",
+      "text": "We use a batch size of 10,000 frames for ASR and ST, and a batch size of 4,000 tokens for MT.",
+      "leaf_id": "ee931160e1b19a2c6a40",
+      "section_id": "e376d9d5b1d4759aef0e",
+      "start": 241,
+      "end": 334,
+      "score": 2.6070306568642525e-05
+    },
+    {
+      "uid": "1bca98855498127090b4",
+      "text": "We train all models using Fairseq BIBREF20 for up to 200,000 updates.",
+      "leaf_id": "ee931160e1b19a2c6a40",
+      "section_id": "e376d9d5b1d4759aef0e",
+      "start": 335,
+      "end": 404,
+      "score": 2.0948187132262702e-05
+    },
+    {
+      "uid": "90482c8bc4229337490c",
+      "text": "We use SpecAugment BIBREF21 for ASR and ST to alleviate overfitting.",
+      "leaf_id": "ee931160e1b19a2c6a40",
+      "section_id": "e376d9d5b1d4759aef0e",
+      "start": 405,
+      "end": 473,
+      "score": 1.750292578877821e-05
+    },
+    {
+      "uid": "d032c842dac342897147",
+      "text": "We use a beam size of 5 for all models.",
+      "leaf_id": "778a8ca644a3438a1cfe",
+      "section_id": "945130425f8a2ff02bfa",
+      "start": 0,
+      "end": 39,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "0c19a679528288f91b07",
+      "text": "We use the best checkpoint by validation loss for MT, and average the last 5 checkpoints for ASR and ST.",
+      "leaf_id": "778a8ca644a3438a1cfe",
+      "section_id": "945130425f8a2ff02bfa",
+      "start": 40,
+      "end": 144,
+      "score": 0.0001476803833660436
+    },
+    {
+      "uid": "d66d6ca75085e67a687f",
+      "text": "For MT and ST, we report case-insensitive tokenized BLEU BIBREF22 using sacreBLEU BIBREF23.",
+      "leaf_id": "778a8ca644a3438a1cfe",
+      "section_id": "945130425f8a2ff02bfa",
+      "start": 145,
+      "end": 236,
+      "score": 3.347468838730701e-05
+    },
+    {
+      "uid": "d2fea5a935ca6c4595b3",
+      "text": "For ASR, we report word error rate (WER) and character error rate (CER) using VizSeq.",
+      "leaf_id": "778a8ca644a3438a1cfe",
+      "section_id": "945130425f8a2ff02bfa",
+      "start": 237,
+      "end": 322,
+      "score": 0.0001511819932727333
+    },
+    {
+      "uid": "64fae1b100c7491b9111",
+      "text": "For simplicity, we use the same model architecture for ASR and ST, although we do not leverage ASR models to pretrain ST model encoders later.",
+      "leaf_id": "106b9d9c8a84823f2b08",
+      "section_id": "a015d9e9bb6294b4f99b",
+      "start": 0,
+      "end": 142,
+      "score": 1.7917988275182845e-05
+    },
+    {
+      "uid": "2bb885d463d2e273f34c",
+      "text": "Table TABREF18 shows the word error rate (WER) and character error rate (CER) for ASR models.",
+      "leaf_id": "106b9d9c8a84823f2b08",
+      "section_id": "a015d9e9bb6294b4f99b",
+      "start": 143,
+      "end": 236,
+      "score": 9.242113003743326e-05
+    },
+    {
+      "uid": "1b3783cb0faaf3158402",
+      "text": "We see that French and German perform the best given they are the two highest resource languages in CoVoST.",
+      "leaf_id": "106b9d9c8a84823f2b08",
+      "section_id": "a015d9e9bb6294b4f99b",
+      "start": 237,
+      "end": 344,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "bd636e926f518542150c",
+      "text": "The other languages are relatively low resource (especially Turkish and Swedish) and the ASR models are having difficulties to learn from this data.",
+      "leaf_id": "106b9d9c8a84823f2b08",
+      "section_id": "a015d9e9bb6294b4f99b",
+      "start": 345,
+      "end": 493,
+      "score": 4.8325638187255363e-05
+    },
+    {
+      "uid": "2868687ce7731a748bc1",
+      "text": "MT models take transcripts (without punctuation) as inputs and outputs translations (with punctuation).",
+      "leaf_id": "172b1c37704bd8d12d37",
+      "section_id": "6ed9e8e58857bdd18c70",
+      "start": 0,
+      "end": 103,
+      "score": 1.8342893327886845e-05
+    },
+    {
+      "uid": "2908d9aadd795e596bd9",
+      "text": "For simplicity, we do not change the text preprocessing methods for MT to correct this mismatch.",
+      "leaf_id": "172b1c37704bd8d12d37",
+      "section_id": "6ed9e8e58857bdd18c70",
+      "start": 104,
+      "end": 200,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "3975226dc951d50093bb",
+      "text": "Moreover, this mismatch also exists in cascading ST systems, where MT model inputs are the outputs of an ASR model.",
+      "leaf_id": "172b1c37704bd8d12d37",
+      "section_id": "6ed9e8e58857bdd18c70",
+      "start": 201,
+      "end": 316,
+      "score": 1.8200150397513547e-05
+    },
+    {
+      "uid": "989591d113c4e3eaef62",
+      "text": "Table TABREF20 shows the BLEU scores of MT models.",
+      "leaf_id": "172b1c37704bd8d12d37",
+      "section_id": "6ed9e8e58857bdd18c70",
+      "start": 317,
+      "end": 367,
+      "score": 2.5666134302273185e-05
+    },
+    {
+      "uid": "6d176645b97e34bbb4e7",
+      "text": "We notice that the results are consistent with what we see from ASR models.",
+      "leaf_id": "172b1c37704bd8d12d37",
+      "section_id": "6ed9e8e58857bdd18c70",
+      "start": 368,
+      "end": 443,
+      "score": 4.4346274842960604e-05
+    },
+    {
+      "uid": "d990e4c6a9249d8ab843",
+      "text": "For example thanks to abundant training data, French has a decent BLEU score of 29.8/25.4.",
+      "leaf_id": "172b1c37704bd8d12d37",
+      "section_id": "6ed9e8e58857bdd18c70",
+      "start": 444,
+      "end": 534,
+      "score": 7.484622751061123e-05
+    },
+    {
+      "uid": "a7bf5d2d9fc80717e4b6",
+      "text": "German doesn't perform well, because of less richness of content (transcripts).",
+      "leaf_id": "172b1c37704bd8d12d37",
+      "section_id": "6ed9e8e58857bdd18c70",
+      "start": 535,
+      "end": 614,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "568d0daca498477b2df3",
+      "text": "The other languages are low resource in CoVoST and it is difficult to train decent models without additional data or pre-training techniques.",
+      "leaf_id": "172b1c37704bd8d12d37",
+      "section_id": "6ed9e8e58857bdd18c70",
+      "start": 615,
+      "end": 756,
+      "score": 2.818866280462178e-05
+    },
+    {
+      "uid": "4ea815ff391ed3b992e7",
+      "text": "CoVoST is a many-to-one multilingual ST corpus.",
+      "leaf_id": "d011b2a08da5f78263a9",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 0,
+      "end": 47,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "2d79d15cff5ba5841caf",
+      "text": "While end-to-end one-to-many and many-to-many multilingual ST models have been explored very recently BIBREF8, BIBREF9, many-to-one multilingual models, to our knowledge, have not.",
+      "leaf_id": "d011b2a08da5f78263a9",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 48,
+      "end": 228,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "831a913aa123348139dd",
+      "text": "We hence use CoVoST to examine this setting.",
+      "leaf_id": "d011b2a08da5f78263a9",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 229,
+      "end": 273,
+      "score": 2.265035233314773e-05
+    },
+    {
+      "uid": "f7c5cedc126d49dd9dc7",
+      "text": "Table TABREF22 and TABREF23 show the BLEU scores for both bilingual and multilingual end-to-end ST models trained on CoVoST.",
+      "leaf_id": "d011b2a08da5f78263a9",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 274,
+      "end": 398,
+      "score": 2.97731143841062e-05
+    },
+    {
+      "uid": "b72c26e42b57628744c1",
+      "text": "We observe that combining speeches from multiple languages is consistently bringing gains to low-resource languages (all besides French and German).",
+      "leaf_id": "d011b2a08da5f78263a9",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 399,
+      "end": 547,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "f8724c30b48a0a97ae69",
+      "text": "This includes combinations of distant languages, such as Ru+Fr, Tr+Fr and Zh+Fr.",
+      "leaf_id": "d011b2a08da5f78263a9",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 548,
+      "end": 628,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "15f1e4720936fbc14599",
+      "text": "Moreover, some combinations do bring gains to high-resource language (French) as well: Es+Fr, Tr+Fr and Mn+Fr.",
+      "leaf_id": "d011b2a08da5f78263a9",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 629,
+      "end": 739,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "3e9988353d3faa36dc37",
+      "text": "We simply provide the most basic many-to-one multilingual baselines here, and leave the full exploration of the best configurations to future work.",
+      "leaf_id": "d011b2a08da5f78263a9",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 740,
+      "end": 887,
+      "score": 2.6897844674087318e-05
+    },
+    {
+      "uid": "75ae45de8c9b8e791b9f",
+      "text": "Finally, we note that for some language pairs, absolute BLEU numbers are relatively low as we restrict model training to the supervised data.",
+      "leaf_id": "d011b2a08da5f78263a9",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 888,
+      "end": 1029,
+      "score": 0.00017674513810355872
+    },
+    {
+      "uid": "df65722e49e0bb5fcbd6",
+      "text": "We encourage the community to improve upon those baselines, for example by leveraging semi-supervised training.",
+      "leaf_id": "b9614d58f74381fe79a2",
+      "section_id": "da9d00fb5e32daeaeb0e",
+      "start": 1030,
+      "end": 1141,
+      "score": 1.8200150397513547e-05
+    },
+    {
+      "uid": "b7a3f924f98ada5723db",
+      "text": "In CoVoST, large portion of transcripts are covered by multiple speakers with different genders, accents and age groups.",
+      "leaf_id": "55497aa18d442c21bfc6",
+      "section_id": "1795ff44e9be0dc0970a",
+      "start": 0,
+      "end": 120,
+      "score": 1.9073577192252488e-05
+    },
+    {
+      "uid": "6ae16a9eb414136879fc",
+      "text": "Besides the standard corpus-level BLEU scores, we also want to evaluate model output variance on the same content (transcript) but different speakers.",
+      "leaf_id": "55497aa18d442c21bfc6",
+      "section_id": "1795ff44e9be0dc0970a",
+      "start": 121,
+      "end": 271,
+      "score": 0.00047101181808879595
+    },
+    {
+      "uid": "0360553f4fb950591727",
+      "text": "We hence propose to group samples (and their sentence BLEU scores) by transcript, and then calculate average per-group mean and average coefficient of variation defined as follows: and where $G$ is the set of sentence BLEU scores grouped by transcript and $G^{\\prime } = \\lbrace g | g\\in G, |g|>1, \\textrm {Mean}(g) > 0 \\rbrace $. $\\textrm {BLEU}_{MS}$ provides a normalized quality score as oppose to corpus-level BLEU or unnormalized average of sentence BLEU.",
+      "leaf_id": "55497aa18d442c21bfc6",
+      "section_id": "1795ff44e9be0dc0970a",
+      "start": 272,
+      "end": 733,
+      "score": 0.000872767030892148
+    },
+    {
+      "uid": "3da9ceccfdedd23bc6e1",
+      "text": "And $\\textrm {CoefVar}_{MS}$ is a standardized measure of model stability against different speakers (the lower the better).",
+      "leaf_id": "55497aa18d442c21bfc6",
+      "section_id": "1795ff44e9be0dc0970a",
+      "start": 734,
+      "end": 858,
+      "score": 0.00016603846953733615
+    },
+    {
+      "uid": "2b39e3ba07ef15bc9bac",
+      "text": "Table TABREF24 shows the $\\textrm {BLEU}_{MS}$ and $\\textrm {CoefVar}_{MS}$ of our ST models on CoVoST test set.",
+      "leaf_id": "55497aa18d442c21bfc6",
+      "section_id": "1795ff44e9be0dc0970a",
+      "start": 859,
+      "end": 971,
+      "score": 8.092757566536091e-05
+    },
+    {
+      "uid": "6a8a446817ffa0b64a9c",
+      "text": "We see that German and Persian have the worst $\\textrm {CoefVar}_{MS}$ (least stable) given their rich speaker diversity in the test set and relatively small train set (see also Figure FIGREF6 and Table TABREF2).",
+      "leaf_id": "a2f52b1b0c4af259f462",
+      "section_id": "1795ff44e9be0dc0970a",
+      "start": 972,
+      "end": 1184,
+      "score": 0.00041894840410412504
+    },
+    {
+      "uid": "5ded5c5ef54432b01d49",
+      "text": "Dutch also has poor $\\textrm {CoefVar}_{MS}$ because of the lack of training data.",
+      "leaf_id": "a2f52b1b0c4af259f462",
+      "section_id": "1795ff44e9be0dc0970a",
+      "start": 1185,
+      "end": 1267,
+      "score": 2.840974294610978e-05
+    },
+    {
+      "uid": "1bd0e2f873ac9a61841d",
+      "text": "Multilingual models are consistantly more stable on low-resource languages.",
+      "leaf_id": "a2f52b1b0c4af259f462",
+      "section_id": "1795ff44e9be0dc0970a",
+      "start": 1268,
+      "end": 1343,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "8182b2fe95f0a7e2c64e",
+      "text": "Ru+Fr, Tr+Fr, Fa+Fr and Zh+Fr even have better $\\textrm {CoefVar}_{MS}$ than all individual languages.",
+      "leaf_id": "a2f52b1b0c4af259f462",
+      "section_id": "1795ff44e9be0dc0970a",
+      "start": 1344,
+      "end": 1446,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "7452b3e7afe675a187c3",
+      "text": "We introduce a multilingual speech-to-text translation corpus, CoVoST, for 11 languages into English, diversified with over 11,000 speakers and over 60 accents.",
+      "leaf_id": "344df72ff8f75aeb8cfb",
+      "section_id": "5a865c8d3cb1f0bb749a",
+      "start": 0,
+      "end": 160,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "d817cec7049178ae848a",
+      "text": "We also provide baseline results, including, to our knowledge, the first end-to-end many-to-one multilingual model for spoken language translation.",
+      "leaf_id": "344df72ff8f75aeb8cfb",
+      "section_id": "5a865c8d3cb1f0bb749a",
+      "start": 161,
+      "end": 308,
+      "score": 3.705296977158347e-05
+    },
+    {
+      "uid": "12a306d30c9ae807d03a",
+      "text": "CoVoST is free to use with a CC0 license, and the additional Tatoeba evaluation samples are also CC-licensed.",
+      "leaf_id": "344df72ff8f75aeb8cfb",
+      "section_id": "5a865c8d3cb1f0bb749a",
+      "start": 309,
+      "end": 418,
+      "score": 3.4808121961114686e-05
+    }
+  ],
+  "prepare_seconds": 1.4293834753334522,
+  "leaf_count": 24
+}

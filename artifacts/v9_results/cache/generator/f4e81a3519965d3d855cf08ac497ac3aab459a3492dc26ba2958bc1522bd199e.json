@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the architecture of the span detector, including the use of BiLSTM and the SAN answer module.",
+    "claims": [
+      {
+        "text": "The span detector architecture includes a shared two-layer BiLSTM for encoding contextual information from both passages and questions.",
+        "citations": [
+          "C34"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The span detector employs the Stochastic Answer Network (SAN) as its answer module, which is optimized jointly with a binary classifier.",
+        "citations": [
+          "C11",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The final memory representation is formed by concatenating outputs from different layers and passing them through a BiLSTM.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 2270,
+    "total_tokens": 2426,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.8208689999992203,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

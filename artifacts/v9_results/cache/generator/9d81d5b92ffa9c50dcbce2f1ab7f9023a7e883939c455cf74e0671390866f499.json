@@ -1,0 +1,65 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "datasets used in this paper",
+        "citations": [
+          "C1",
+          "C2",
+          "C5",
+          "C29"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides specific information about the datasets used in the paper, including their structure and categories.",
+    "claims": [
+      {
+        "text": "The dataset used in this paper consists of a train set, a validation set, and a test set from Twitter.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset is categorized into harassment and non-harassment tweets.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The paper discusses the application of models on other datasets related to hate speech in social media.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "A description of the dataset is included in the third section of the paper.",
+        "citations": [
+          "C29"
+        ],
+        "confidence": 0.6
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 191,
+    "prompt_tokens": 2453,
+    "total_tokens": 2644,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3392881999970996,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,58 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Use of off-the-shelf NLP systems",
+        "citations": [
+          "C1",
+          "C3",
+          "C4",
+          "C23"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that while some systems utilize statistical NLP models, many industrial dialogue systems still rely on handcrafted rules rather than off-the-shelf NLP systems.",
+    "claims": [
+      {
+        "text": "Many industrially deployed dialogue systems still use manual features or handcrafted rules instead of off-the-shelf NLP systems.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "End-to-end approaches are not yet suitable for commercial conversational agents operating on real-world data, indicating reliance on traditional methods.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Hybrid models are replacing established rule- and template-based approaches, suggesting a shift away from off-the-shelf systems.",
+        "citations": [
+          "C23"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 190,
+    "prompt_tokens": 2458,
+    "total_tokens": 2648,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.719989400000486,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

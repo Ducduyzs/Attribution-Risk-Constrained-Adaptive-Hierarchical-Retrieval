@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides detailed information about the dataset collection methodology for CoVoST, including the sources and processes used to ensure quality and diversity.",
+    "claims": [
+      {
+        "text": "The CoVoST dataset was created from 11 languages into English, utilizing over 11,000 speakers and more than 60 accents, with a total of 708 hours of speech collected.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An evaluation set was constructed from the Tatoeba corpus, filtering for quality and sentence length to ensure relevance to real-world scenarios.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Both CoVoST and Tatoeba datasets were created at the sentence level without requiring additional alignments or segmentation.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 181,
+    "prompt_tokens": 1236,
+    "total_tokens": 1417,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1934454000002006,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_6d86344eb6"
+}

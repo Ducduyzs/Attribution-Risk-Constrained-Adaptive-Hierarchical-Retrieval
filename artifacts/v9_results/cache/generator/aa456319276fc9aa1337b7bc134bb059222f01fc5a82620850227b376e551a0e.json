@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Number of labels in the datasets",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets contain binary labels (positive and negative) for sentiment classification tasks, specifically mentioning 1000 positive and 1000 negative reviews per domain.",
+    "claims": [
+      {
+        "text": "The datasets have binary labels, specifically 1000 positive and 1000 negative reviews per domain.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Each domain in the datasets contains exactly two labels: positive and negative.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 2120,
+    "total_tokens": 2262,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.448855499998899,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5a65effc2c"
+}

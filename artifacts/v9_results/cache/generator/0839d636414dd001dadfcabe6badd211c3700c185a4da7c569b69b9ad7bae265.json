@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that multiple baselines were tested, including a human performance baseline and various models such as BERT-based baselines and a No-answer baseline.",
+    "claims": [
+      {
+        "text": "Multiple baselines were tested, including a human performance baseline and a No-answer baseline.",
+        "citations": [
+          "C5",
+          "C10",
+          "C15"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The study describes three baselines on the answerability task that improve performance over a majority-class baseline.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "BERT-based baselines were implemented for evidence identification.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The No-answer baseline provides a lower bound on performance at this task.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 2273,
+    "total_tokens": 2444,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.560524100001203,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

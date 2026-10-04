@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence does not provide sufficient information to determine whether the graph representation is supervised or not. It discusses the use of Graph Neural Networks and BERT for medical code representation but does not clarify the nature of the learning process (supervised vs. unsupervised) for the graph representation specifically.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 2255,
+    "total_tokens": 2324,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1839337999990676,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

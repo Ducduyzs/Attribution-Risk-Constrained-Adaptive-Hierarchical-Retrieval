@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Identify the experts used for annotation",
+        "citations": [
+          "C3",
+          "C7",
+          "C11"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies that the annotators are experts and mentions Cameron Russell as a contributor, indicating that experts were involved in the annotation process.",
+    "claims": [
+      {
+        "text": "The annotators for the annotation task are experts rather than crowdworkers.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Cameron Russell provided expertise for the annotation effort.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Experts identify relevant evidence and provide meta-annotation on questions.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1385,
+    "total_tokens": 1535,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4390309999980673,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8a183b9d76"
+}

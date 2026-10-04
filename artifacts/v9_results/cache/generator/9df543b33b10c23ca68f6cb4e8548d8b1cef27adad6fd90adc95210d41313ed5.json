@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the dataset used for Japanese-Vietnamese translation, including its source and characteristics.",
+    "claims": [
+      {
+        "text": "The dataset used for Japanese-Vietnamese translation is a parallel corpus collected from TED talks extracted from WIT3's corpus.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The training data for the Japanese-Vietnamese NMT systems includes KyTea-segmented Japanese texts and pyvi-segmented Vietnamese texts.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The authors also utilize Vietnamese monolingual data from VNESEcorpus of DongDu for back translation, which includes 349578 sentences.",
+        "citations": [
+          "C15"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 1244,
+    "total_tokens": 1406,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.212142700002005,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about various baseline models used in the context of speech translation, including pre-training and multi-task settings.",
+    "claims": [
+      {
+        "text": "The pre-training baselines include encoder pre-training, decoder pre-training, and encoder-decoder pre-training.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The vanilla ST baseline consists of only a speech encoder and a decoder.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Multi-task baselines include one-to-many, many-to-one, and many-to-many settings.",
+        "citations": [
+          "C15"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Triangle model is fine-tuned under a multi-task manner.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 2251,
+    "total_tokens": 2415,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4858643999978085,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

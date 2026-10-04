@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Type of neural model used",
+        "citations": [
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies the use of a CNN neural encoder for answerability prediction, which directly answers the question about the type of neural model used.",
+    "claims": [
+      {
+        "text": "A CNN neural encoder was used for answerability prediction.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 858,
+    "total_tokens": 946,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3486573999980465,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

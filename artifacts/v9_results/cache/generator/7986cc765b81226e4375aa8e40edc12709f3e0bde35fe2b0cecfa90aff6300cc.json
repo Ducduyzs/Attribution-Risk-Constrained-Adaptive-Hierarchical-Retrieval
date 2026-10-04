@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used in the experiments.",
+    "claims": [
+      {
+        "text": "The experiments were conducted on two public datasets: Europarl and MultiUN.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Europarl and MultiUN contain multi-parallel evaluation data for assessing zero-shot performance.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 2236,
+    "total_tokens": 2322,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0073505000000296,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

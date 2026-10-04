@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "architecture of the span detector",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides a detailed description of the architecture of the span detector as part of the Stochastic Answer Network (SAN).",
+    "claims": [
+      {
+        "text": "The span detector is part of the Stochastic Answer Network (SAN) architecture, which includes a lexicon encoding layer, a contextual layer, and a memory generation layer.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The span detector uses the SAN answer module for its operation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The architecture incorporates various embeddings, including word embeddings and part-of-speech tagging embeddings, to enhance performance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 724,
+    "total_tokens": 898,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7333036999989417,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

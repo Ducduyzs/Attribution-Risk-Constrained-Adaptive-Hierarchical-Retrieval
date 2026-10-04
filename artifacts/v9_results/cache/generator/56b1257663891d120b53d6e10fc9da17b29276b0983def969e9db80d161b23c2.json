@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that a data set is prepared for experiments, specifically mentioning the creation of five sets of documents, each containing 100 wiki documents.",
+    "claims": [
+      {
+        "text": "They release a data set consisting of five sets of documents, each with 100 wiki documents.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 717,
+    "total_tokens": 792,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.1300932000012835,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

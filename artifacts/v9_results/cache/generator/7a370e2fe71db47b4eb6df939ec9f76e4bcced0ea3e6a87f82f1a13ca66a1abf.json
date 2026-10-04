@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific topics of cyberbullying that have been addressed, including racism, sexism, and personal attacks.",
+    "claims": [
+      {
+        "text": "Cyberbullies address topics such as race, religion, and gender.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Three specific topics of cyberbullying identified are personal attack, racism, and sexism.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Cyberbullying can vary in vocabulary and nature depending on the topic.",
+        "citations": [
+          "C15"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Different datasets address various topics of cyberbullying.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 2266,
+    "total_tokens": 2416,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8632093999985955,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

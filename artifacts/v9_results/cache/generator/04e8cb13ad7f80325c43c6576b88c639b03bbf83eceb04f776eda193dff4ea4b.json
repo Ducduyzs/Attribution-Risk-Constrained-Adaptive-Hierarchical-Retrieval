@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the dataset used in the paper, including its structure and categories.",
+    "claims": [
+      {
+        "text": "The dataset consists of tweets classified into harassment and non-harassment categories, with sub-categories for indirect, sexual, and physical harassment.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset is divided into a training set, validation set, and test set, and is noted to be imbalanced, particularly in the indirect and physical harassment categories.",
+        "citations": [
+          "C2",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Data augmentation techniques, such as back-translation, were applied to address the imbalance in the dataset.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 2210,
+    "total_tokens": 2373,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.087093599999207,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

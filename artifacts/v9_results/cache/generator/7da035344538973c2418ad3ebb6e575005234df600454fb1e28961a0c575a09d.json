@@ -1,0 +1,74 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "baseline systems",
+        "citations": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "requirement": "training data",
+        "citations": [
+          "C1"
+        ]
+      },
+      {
+        "requirement": "comparison of systems",
+        "citations": [
+          "C1"
+        ]
+      },
+      {
+        "requirement": "NMT systems",
+        "citations": [
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides sufficient information about the baseline systems and their training data, allowing for a clear understanding of the baseline in the context of machine translation.",
+    "claims": [
+      {
+        "text": "The baseline systems include training data from KyTea-segmented Japanese texts and pyvi-segmented Vietnamese texts.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Two baseline systems were built: one using traditional phrase-based SMT and the other using NMT.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The aim of the NMT systems is to serve as a reproducible baseline for further research.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 210,
+    "prompt_tokens": 1202,
+    "total_tokens": 1412,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1817762999999104,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

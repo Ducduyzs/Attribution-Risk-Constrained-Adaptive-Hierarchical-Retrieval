@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a model that uses the TextRank algorithm for keyword extraction and Google's Universal Sentence Encoder (USE) for calculating sentence similarity, which is integral to structuring unordered documents.",
+    "claims": [
+      {
+        "text": "The model uses the TextRank algorithm for keyword extraction.",
+        "citations": [
+          "C1",
+          "C2",
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model employs Google's Universal Sentence Encoder (USE) to calculate sentence similarity.",
+        "citations": [
+          "C5",
+          "C6",
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model structures unordered documents by clustering sentences based on keyword similarity and sentence similarity.",
+        "citations": [
+          "C8",
+          "C11"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 2185,
+    "total_tokens": 2335,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.029330499997741,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

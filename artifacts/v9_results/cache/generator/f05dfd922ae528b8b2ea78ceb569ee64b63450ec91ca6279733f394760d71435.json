@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that the annotators are experts rather than crowdworkers, and that every question is answered by at least one expert, with additional experts involved for reliability.",
+    "claims": [
+      {
+        "text": "The annotators are experts rather than crowdworkers.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Every question is answered by at least one expert, and at least two additional experts are involved for reliability.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 705,
+    "total_tokens": 814,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.392458499998611,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

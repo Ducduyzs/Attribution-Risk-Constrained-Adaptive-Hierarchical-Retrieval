@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the authors focus on scientific summarization, specifically using a benchmark that consists of biomedical journal articles, which implies the use of English data. However, it does not explicitly state that results are reported only on English data, leaving some ambiguity.",
+    "claims": [
+      {
+        "text": "The authors evaluate summarization metrics using a benchmark consisting of biomedical journal articles, which are typically in English.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The study focuses on scientific summarization, which generally involves English-language scientific articles.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 1792,
+    "total_tokens": 1925,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8402838000001793,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

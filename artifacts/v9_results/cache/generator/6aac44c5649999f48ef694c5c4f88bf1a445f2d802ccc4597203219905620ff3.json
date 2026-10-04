@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific performance improvements of the model over state-of-the-art systems, including percentage increases in F1-scores for various discourse relations.",
+    "claims": [
+      {
+        "text": "The model outperforms previous state-of-the-art systems on the benchmark corpus of PDTB.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model improved the macro-average F1-score by over 7 percent compared to the baseline Bi-LSTM model.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The model achieved clear performance gains of around 2 and 8 percent on contingency and temporal relations respectively compared to the baseline Bi-LSTM model with tensor.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The basic paragraph-level model further improved classification performance on the first three implicit relations by an additional 1.42 percent on the contingency relation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 202,
+    "prompt_tokens": 1251,
+    "total_tokens": 1453,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.508736300002056,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

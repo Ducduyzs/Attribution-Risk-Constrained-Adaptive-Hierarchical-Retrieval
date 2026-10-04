@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific names of experts involved in the annotation process, indicating that they are qualified individuals rather than crowdworkers.",
+    "claims": [
+      {
+        "text": "The annotators are experts rather than crowdworkers.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Every question in the test set is answered by at least two additional experts to estimate annotation reliability.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Seven experts with legal training were recruited to construct answers to questions.",
+        "citations": [
+          "C14"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Experts include Eduard Hovy, Lorrie Cranor, Florian Schaub, Joel Reidenberg, Aditya Potukuchi, and Igor Shalyminov.",
+        "citations": [
+          "C9"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Domain experts indicate relevant OPP-115 categories for each question.",
+        "citations": [
+          "C16"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 201,
+    "prompt_tokens": 2274,
+    "total_tokens": 2475,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.430974399998377,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

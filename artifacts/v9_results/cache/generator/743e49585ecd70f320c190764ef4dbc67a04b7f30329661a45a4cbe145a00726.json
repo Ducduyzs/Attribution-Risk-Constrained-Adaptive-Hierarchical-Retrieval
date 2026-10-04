@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Define source domain",
+        "citations": [
+          "C2"
+        ]
+      },
+      {
+        "requirement": "Define target domain",
+        "citations": [
+          "C2"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides clear definitions for both the source and target domains in the context of domain adaptation.",
+    "claims": [
+      {
+        "text": "The source domain is defined as an existing domain with sufficient labeled data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The target domain is defined as a new domain with very few or no labeled data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 853,
+    "total_tokens": 975,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4584011000006285,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

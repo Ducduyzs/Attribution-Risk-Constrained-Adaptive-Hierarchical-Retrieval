@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Definition of an unordered text document",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ]
+      },
+      {
+        "requirement": "Existence of unordered text documents in real-world corpora",
+        "citations": [
+          "C2",
+          "C4",
+          "C5"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides a clear definition of unordered text documents and confirms their existence in real-world applications.",
+    "claims": [
+      {
+        "text": "An unordered text document is one that contains sentences that are not arranged in a specific order, requiring structuring for applications like summarization and question answering.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Unordered text documents arise in real-world corpora, as demonstrated by experiments conducted on Wikipedia documents.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1187,
+    "total_tokens": 1364,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.913616699999693,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

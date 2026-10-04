@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific baseline methods used for comparison in the study, detailing their characteristics and approaches.",
+    "claims": [
+      {
+        "text": "The baseline methods include Naive, mSDA, NaiveNN, AuxNN, and ADAN.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Naive is a non-domain-adaptive baseline using bag-of-words and SVM classifier.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "mSDA is a state-of-the-art method based on discrete input features with a specific architecture.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "NaiveNN is a non-domain-adaptive CNN trained on the source domain.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "ADAN uses adversarial training to reduce representation difference between domains.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 196,
+    "prompt_tokens": 1231,
+    "total_tokens": 1427,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1041274999988673,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

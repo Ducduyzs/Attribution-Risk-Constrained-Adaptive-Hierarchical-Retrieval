@@ -1,0 +1,62 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Verification of generalization ability",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C5",
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides multiple instances of how generalization ability is verified through evaluations on various datasets and comparisons with baseline models.",
+    "claims": [
+      {
+        "text": "Generalization ability is verified by evaluating the model on five different benchmarks and comparing its performance with baseline methods.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed model NCEL consistently outperforms various baselines, demonstrating good generalization ability across different datasets.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "The model shows robustness and good generalization ability, particularly in challenging entity linking scenarios.",
+        "citations": [
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 1348,
+    "total_tokens": 1531,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.08171620000212,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_1638fe696a"
+}

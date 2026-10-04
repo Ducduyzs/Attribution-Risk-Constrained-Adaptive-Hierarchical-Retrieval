@@ -1,0 +1,77 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Definition of pivot-based baselines",
+        "citations": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C11"
+        ]
+      },
+      {
+        "requirement": "Examples of pivot-based methods",
+        "citations": [
+          "C12",
+          "C24"
+        ]
+      },
+      {
+        "requirement": "Performance comparison of pivot-based methods",
+        "citations": [
+          "C3",
+          "C4",
+          "C9"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides sufficient information about pivot-based baselines, including their definition, examples, and performance comparisons.",
+    "claims": [
+      {
+        "text": "Pivot-based baselines are methods that utilize a pivot language to facilitate translation between source and target languages.",
+        "citations": [
+          "C2",
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An example of a pivot-based method is translating from Arabic to Spanish via English as a pivot language.",
+        "citations": [
+          "C12"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Pivot-based methods have shown strong performance, often outperforming other multilingual approaches in zero-shot translation scenarios.",
+        "citations": [
+          "C3",
+          "C4",
+          "C9"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 224,
+    "prompt_tokens": 2444,
+    "total_tokens": 2668,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.0930179999995744,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

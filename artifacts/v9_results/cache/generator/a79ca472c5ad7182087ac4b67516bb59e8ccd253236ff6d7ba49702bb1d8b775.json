@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "What type of model is KAR?",
+        "citations": [
+          "C1",
+          "C3",
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence clearly identifies KAR as an end-to-end MRC (Machine Reading Comprehension) model.",
+    "claims": [
+      {
+        "text": "KAR is an end-to-end MRC model.",
+        "citations": [
+          "C1",
+          "C3",
+          "C6"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 2428,
+    "total_tokens": 2523,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6940967999980785,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

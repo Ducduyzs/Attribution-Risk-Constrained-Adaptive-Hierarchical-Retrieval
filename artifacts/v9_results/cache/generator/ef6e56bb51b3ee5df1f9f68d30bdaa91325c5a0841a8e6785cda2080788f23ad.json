@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Dataset creation methodology",
+        "citations": [
+          "C1"
+        ]
+      },
+      {
+        "requirement": "Validation process of voice clips",
+        "citations": [
+          "C5"
+        ]
+      },
+      {
+        "requirement": "Filtering criteria for samples",
+        "citations": [
+          "C6"
+        ]
+      },
+      {
+        "requirement": "Speaker demographics and diversity",
+        "citations": [
+          "C12",
+          "C29"
+        ]
+      },
+      {
+        "requirement": "Total hours of speech collected",
+        "citations": [
+          "C13",
+          "C14"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides sufficient details on the dataset collection methodology, including validation, filtering, speaker demographics, and total speech hours.",
+    "claims": [
+      {
+        "text": "The dataset was created using a methodology that includes validation of voice clips by multiple users.",
+        "citations": [
+          "C1",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Samples were filtered based on sentence lengths to ensure quality.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The dataset includes a diverse range of speakers and accents, totaling 708 hours of speech.",
+        "citations": [
+          "C12",
+          "C13"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "An additional evaluation corpus was collected, contributing to the total speech hours.",
+        "citations": [
+          "C14"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 250,
+    "prompt_tokens": 2458,
+    "total_tokens": 2708,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.790033900000708,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

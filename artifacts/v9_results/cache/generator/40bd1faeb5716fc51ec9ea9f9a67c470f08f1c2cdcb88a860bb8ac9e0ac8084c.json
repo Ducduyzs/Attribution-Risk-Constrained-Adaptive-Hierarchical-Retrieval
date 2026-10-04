@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets used for evaluation, such as SQuAD, are primarily English datasets, suggesting that the results reported are based on English datasets.",
+    "claims": [
+      {
+        "text": "The evaluation of the MRC model KAR is conducted on English datasets like SQuAD.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "WordNet, a lexical database referenced in the study, is specifically for the English language.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 1668,
+    "total_tokens": 1781,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.01895400000285,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the sentence reordering (SR) task is the most effective pre-training task, outperforming the other tasks in terms of performance metrics like ROUGE-2.",
+    "claims": [
+      {
+        "text": "The sentence reordering (SR) task is the most effective pre-training task, achieving the highest ROUGE-2 scores.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Among the three pre-training tasks, SR works slightly better than Next Sentence Generation (NSG) and Masked Document Generation (MDG).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Using all three tasks together generally outperforms using them individually, but SR consistently achieves the best results when more data is added.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 1795,
+    "total_tokens": 1968,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.174832000000606,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

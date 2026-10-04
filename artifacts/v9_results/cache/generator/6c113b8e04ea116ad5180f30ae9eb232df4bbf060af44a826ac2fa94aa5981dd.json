@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a comprehensive overview of various types of offensive content explored in research, including hate speech, cyberbullying, aggression, insults, threats, and profanity.",
+    "claims": [
+      {
+        "text": "Different kinds of offensive content include hate speech, cyberbullying, aggression, insults, threats, and profanity.",
+        "citations": [
+          "C3",
+          "C6",
+          "C21"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Offensive content can be targeted at individuals or groups, and can also include non-targeted insults and threats.",
+        "citations": [
+          "C11",
+          "C22",
+          "C23"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The OLID dataset categorizes offensive language into profanity, insult, and abuse.",
+        "citations": [
+          "C12",
+          "C31"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 2248,
+    "total_tokens": 2413,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.4860372000002826,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

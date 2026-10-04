@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition of unordered text documents and confirms their occurrence in real-world applications, particularly in text processing tasks.",
+    "claims": [
+      {
+        "text": "An unordered text document is a document where the sentences are not arranged in a specific order, which can be processed for tasks like summarization.",
+        "citations": [
+          "C1",
+          "C10",
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Unordered text documents arise in real-world corpora, as they are common inputs for various text processing applications.",
+        "citations": [
+          "C6",
+          "C10",
+          "C11"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 1229,
+    "total_tokens": 1358,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6901565000007395,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

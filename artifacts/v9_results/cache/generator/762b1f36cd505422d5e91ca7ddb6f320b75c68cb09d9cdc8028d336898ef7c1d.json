@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about pivot-based baselines in the context of translation models, including their performance and methodology.",
+    "claims": [
+      {
+        "text": "Pivoting is a method that translates from source to pivot and then to target, which is considered a strong baseline in zero-shot translation scenarios.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Pivot-based methods utilize source-to-pivot parallel data as a beneficial supervised signal, which enhances their performance compared to methods without such data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The pivot-based baseline has shown significant advantages over other baselines in translation tasks, particularly in zero-shot scenarios.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1162,
+    "total_tokens": 1325,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9230721999992966,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

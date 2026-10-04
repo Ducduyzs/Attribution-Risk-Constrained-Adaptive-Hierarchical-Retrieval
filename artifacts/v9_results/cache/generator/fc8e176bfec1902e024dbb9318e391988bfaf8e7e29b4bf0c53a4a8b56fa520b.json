@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methodologies and metrics used to evaluate the quality of the data, including sanity checks and BLEU score calculations for translations.",
+    "claims": [
+      {
+        "text": "The quality of the data is empirically evaluated using sentence-level BLEU scores to compare human translations with automatic translations, along with manual inspections of low-scoring translations.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An evaluation set is constructed from Tatoeba, filtering samples to ensure they are of adequate length and quality, which enhances the challenge and realism of the evaluation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Quality checks are applied to both CoVoST and Tatoeba datasets, ensuring that no poor quality translations are included according to established criteria.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1104,
+    "total_tokens": 1281,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.383475200000248,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

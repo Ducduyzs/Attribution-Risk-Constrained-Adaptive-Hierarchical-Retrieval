@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used in the study, including the NRC Hashtag Emotion Lexicon and various sentiment lexicons derived from Twitter data, as well as the GloVe embeddings trained on tweets.",
+    "claims": [
+      {
+        "text": "The dataset used includes the NRC Hashtag Emotion Lexicon, which contains emotion word associations computed from an emotion-labeled Twitter corpus.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "GloVe embeddings trained on 2 billion tweets were integrated into the dataset.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The data for the WASSA-2017 Shared Task on Emotion Intensity was provided by the organizers.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 710,
+    "total_tokens": 871,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1185657999994874,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

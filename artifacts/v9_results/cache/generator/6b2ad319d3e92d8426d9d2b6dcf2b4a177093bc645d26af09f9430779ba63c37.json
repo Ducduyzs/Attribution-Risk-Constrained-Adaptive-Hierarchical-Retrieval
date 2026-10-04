@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the manual Pyramid scores used in the evaluation of summarization metrics, specifically mentioning the correlation with other metrics and the structure of the Pyramid scoring system.",
+    "claims": [
+      {
+        "text": "The manual Pyramid scores are used to evaluate the effectiveness of summarization metrics by correlating them with automatic evaluation metrics like Rouge.",
+        "citations": [
+          "C7",
+          "C13"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Pyramid scoring organizes content units from gold human-written summaries in a pyramid structure, which is used for evaluation.",
+        "citations": [
+          "C15"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The proposed evaluation metric Sera shows higher correlation with Pyramid scores compared to Rouge.",
+        "citations": [
+          "C16"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1240,
+    "total_tokens": 1397,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4844475999998394,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses various datasets used in the context of human language processing, specifically mentioning EEG recordings and behavioral data such as eye-tracking and self-paced reading.",
+    "claims": [
+      {
+        "text": "The datasets used include EEG recordings of brain activity, eye-tracking data, and self-paced reading time data.",
+        "citations": [
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Event-related potentials (ERPs) are analyzed as part of the datasets to study language comprehension.",
+        "citations": [
+          "C5",
+          "C9"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 2198,
+    "total_tokens": 2318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7126246000007086,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

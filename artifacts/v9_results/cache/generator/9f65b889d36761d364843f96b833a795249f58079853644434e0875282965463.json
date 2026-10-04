@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Number of labels in the datasets",
+        "citations": [
+          "C1",
+          "C4",
+          "C13"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the datasets contain multiple labels, specifically mentioning four different domains, but does not provide a specific count of labels.",
+    "claims": [
+      {
+        "text": "The datasets contain multiple labels across four different domains.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "There are 12 cross-domain sentiment classification tasks constructed from the datasets.",
+        "citations": [
+          "C13"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 1380,
+    "total_tokens": 1501,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5711257999973895,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b1f2760198"
+}

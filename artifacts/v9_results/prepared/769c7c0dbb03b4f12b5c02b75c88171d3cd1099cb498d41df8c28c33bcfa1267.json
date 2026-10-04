@@ -1,0 +1,1913 @@
+{
+  "question_id": "cf874cd9023d901e10aa8664b813d32501e7e4d2",
+  "source": "1705.05437.qasper",
+  "query": "What is NER?",
+  "rankings": {
+    "flat24": [
+      [
+        "38ae2a0d393310adbe3c",
+        0.8893367717588612
+      ],
+      [
+        "439588b9265843a3fd00",
+        0.581778385736369
+      ],
+      [
+        "b87a7958d71ad5b3c876",
+        0.09773431959046293
+      ],
+      [
+        "d4190d3b41b5b767708d",
+        0.03554439752641486
+      ],
+      [
+        "2010fae2c1aae9a61773",
+        0.0258096220343115
+      ],
+      [
+        "fdf5a8a39a553b195623",
+        0.02576055911966849
+      ],
+      [
+        "e7cf848429ec8c10ba5a",
+        0.02442309005410721
+      ],
+      [
+        "d262f3b8ef1c660c4c53",
+        0.0002715921327471337
+      ],
+      [
+        "d03decef2dc234aec059",
+        0.00023597174148291185
+      ],
+      [
+        "90ae8550fb97d0307f98",
+        0.00012830942637841788
+      ],
+      [
+        "7b672f0af386728b2563",
+        0.00012830942637841788
+      ],
+      [
+        "226f5ca24e14ef0e0c77",
+        7.905303859378796e-05
+      ],
+      [
+        "b7332ba9a0d207d498dc",
+        5.025061602588551e-05
+      ],
+      [
+        "649ff2e3ed0c02d78fa4",
+        3.944258675190877e-05
+      ],
+      [
+        "80eb5c417ca9150a086b",
+        3.705296977158347e-05
+      ],
+      [
+        "39898473ed7c49a0e777",
+        3.619466971831003e-05
+      ],
+      [
+        "c43bfa3a8a524a07f96a",
+        2.6070306568642525e-05
+      ],
+      [
+        "94fc40222283e31a5367",
+        2.336933489472016e-05
+      ],
+      [
+        "e210f66f2cee6a6725f8",
+        2.0462932829931794e-05
+      ],
+      [
+        "5e49d9bab0e0f9ac9d85",
+        1.848675576370609e-05
+      ],
+      [
+        "c23f73e1111b9ef6f954",
+        1.8058518261159955e-05
+      ],
+      [
+        "6c98fb398f1256c32740",
+        1.7917988275182845e-05
+      ],
+      [
+        "787bcdda30c342b7aac1",
+        1.7366719305164412e-05
+      ]
+    ],
+    "all_leaf": [
+      [
+        "38ae2a0d393310adbe3c",
+        0.8893367717588612
+      ],
+      [
+        "439588b9265843a3fd00",
+        0.581778385736369
+      ],
+      [
+        "b87a7958d71ad5b3c876",
+        0.09773431959046293
+      ],
+      [
+        "d4190d3b41b5b767708d",
+        0.03554439752641486
+      ],
+      [
+        "2010fae2c1aae9a61773",
+        0.0258096220343115
+      ],
+      [
+        "fdf5a8a39a553b195623",
+        0.02576055911966849
+      ],
+      [
+        "e7cf848429ec8c10ba5a",
+        0.02442309005410721
+      ],
+      [
+        "d262f3b8ef1c660c4c53",
+        0.0002715921327471337
+      ],
+      [
+        "d03decef2dc234aec059",
+        0.00023597174148291185
+      ],
+      [
+        "7b672f0af386728b2563",
+        0.00012830942637841788
+      ],
+      [
+        "90ae8550fb97d0307f98",
+        0.00012830942637841788
+      ],
+      [
+        "226f5ca24e14ef0e0c77",
+        7.905303859378796e-05
+      ],
+      [
+        "b7332ba9a0d207d498dc",
+        5.025061602588551e-05
+      ],
+      [
+        "649ff2e3ed0c02d78fa4",
+        3.944258675190877e-05
+      ],
+      [
+        "80eb5c417ca9150a086b",
+        3.705296977158347e-05
+      ],
+      [
+        "39898473ed7c49a0e777",
+        3.619466971831003e-05
+      ],
+      [
+        "c43bfa3a8a524a07f96a",
+        2.6070306568642525e-05
+      ],
+      [
+        "94fc40222283e31a5367",
+        2.336933489472016e-05
+      ],
+      [
+        "e210f66f2cee6a6725f8",
+        2.0462932829931794e-05
+      ],
+      [
+        "5e49d9bab0e0f9ac9d85",
+        1.848675576370609e-05
+      ],
+      [
+        "c23f73e1111b9ef6f954",
+        1.8058518261159955e-05
+      ],
+      [
+        "6c98fb398f1256c32740",
+        1.7917988275182845e-05
+      ],
+      [
+        "787bcdda30c342b7aac1",
+        1.7366719305164412e-05
+      ]
+    ],
+    "contextual24": [
+      [
+        "38ae2a0d393310adbe3c",
+        0.9574372713515003
+      ],
+      [
+        "b87a7958d71ad5b3c876",
+        0.7885831787993471
+      ],
+      [
+        "e7cf848429ec8c10ba5a",
+        0.6990490122818257
+      ],
+      [
+        "439588b9265843a3fd00",
+        0.3548800897081317
+      ],
+      [
+        "d4190d3b41b5b767708d",
+        0.06477170097147576
+      ],
+      [
+        "fdf5a8a39a553b195623",
+        0.06131153660205847
+      ],
+      [
+        "2010fae2c1aae9a61773",
+        0.021165618205957887
+      ],
+      [
+        "d262f3b8ef1c660c4c53",
+        0.00033274128340681067
+      ],
+      [
+        "d03decef2dc234aec059",
+        0.0002611903190957194
+      ],
+      [
+        "90ae8550fb97d0307f98",
+        0.00020988308820313111
+      ],
+      [
+        "7b672f0af386728b2563",
+        7.905303859378796e-05
+      ],
+      [
+        "c23f73e1111b9ef6f954",
+        5.1845659107128626e-05
+      ],
+      [
+        "b7332ba9a0d207d498dc",
+        3.944258675190877e-05
+      ],
+      [
+        "80eb5c417ca9150a086b",
+        3.944258675190877e-05
+      ],
+      [
+        "649ff2e3ed0c02d78fa4",
+        3.2444813913887076e-05
+      ],
+      [
+        "e210f66f2cee6a6725f8",
+        3.024195853395102e-05
+      ],
+      [
+        "226f5ca24e14ef0e0c77",
+        2.9541425014420593e-05
+      ],
+      [
+        "c43bfa3a8a524a07f96a",
+        2.931153855960119e-05
+      ],
+      [
+        "5e49d9bab0e0f9ac9d85",
+        2.88571183887091e-05
+      ],
+      [
+        "6c98fb398f1256c32740",
+        2.449082522588366e-05
+      ],
+      [
+        "39898473ed7c49a0e777",
+        2.449082522588366e-05
+      ],
+      [
+        "787bcdda30c342b7aac1",
+        2.1278066059305977e-05
+      ],
+      [
+        "94fc40222283e31a5367",
+        1.9679025610662346e-05
+      ]
+    ],
+    "contextual_all": [
+      [
+        "38ae2a0d393310adbe3c",
+        0.9574372713515003
+      ],
+      [
+        "b87a7958d71ad5b3c876",
+        0.7885831787993471
+      ],
+      [
+        "e7cf848429ec8c10ba5a",
+        0.6990490122818257
+      ],
+      [
+        "439588b9265843a3fd00",
+        0.3548800897081317
+      ],
+      [
+        "d4190d3b41b5b767708d",
+        0.06477170097147576
+      ],
+      [
+        "fdf5a8a39a553b195623",
+        0.06131153660205847
+      ],
+      [
+        "2010fae2c1aae9a61773",
+        0.021165618205957887
+      ],
+      [
+        "d262f3b8ef1c660c4c53",
+        0.00033274128340681067
+      ],
+      [
+        "d03decef2dc234aec059",
+        0.0002611903190957194
+      ],
+      [
+        "90ae8550fb97d0307f98",
+        0.00020988308820313111
+      ],
+      [
+        "7b672f0af386728b2563",
+        7.905303859378796e-05
+      ],
+      [
+        "c23f73e1111b9ef6f954",
+        5.1845659107128626e-05
+      ],
+      [
+        "80eb5c417ca9150a086b",
+        3.944258675190877e-05
+      ],
+      [
+        "b7332ba9a0d207d498dc",
+        3.944258675190877e-05
+      ],
+      [
+        "649ff2e3ed0c02d78fa4",
+        3.2444813913887076e-05
+      ],
+      [
+        "e210f66f2cee6a6725f8",
+        3.024195853395102e-05
+      ],
+      [
+        "226f5ca24e14ef0e0c77",
+        2.9541425014420593e-05
+      ],
+      [
+        "c43bfa3a8a524a07f96a",
+        2.931153855960119e-05
+      ],
+      [
+        "5e49d9bab0e0f9ac9d85",
+        2.88571183887091e-05
+      ],
+      [
+        "39898473ed7c49a0e777",
+        2.449082522588366e-05
+      ],
+      [
+        "6c98fb398f1256c32740",
+        2.449082522588366e-05
+      ],
+      [
+        "787bcdda30c342b7aac1",
+        2.1278066059305977e-05
+      ],
+      [
+        "94fc40222283e31a5367",
+        1.9679025610662346e-05
+      ]
+    ],
+    "raptor": [
+      [
+        "38ae2a0d393310adbe3c",
+        0.8893367717588612
+      ],
+      [
+        "439588b9265843a3fd00",
+        0.581778385736369
+      ],
+      [
+        "b87a7958d71ad5b3c876",
+        0.09773431959046293
+      ],
+      [
+        "d4190d3b41b5b767708d",
+        0.03554439752641486
+      ],
+      [
+        "2010fae2c1aae9a61773",
+        0.0258096220343115
+      ],
+      [
+        "fdf5a8a39a553b195623",
+        0.02576055911966849
+      ],
+      [
+        "e7cf848429ec8c10ba5a",
+        0.02442309005410721
+      ],
+      [
+        "d262f3b8ef1c660c4c53",
+        0.0002715921327471337
+      ],
+      [
+        "d03decef2dc234aec059",
+        0.00023597174148291185
+      ],
+      [
+        "90ae8550fb97d0307f98",
+        0.00012830942637841788
+      ],
+      [
+        "7b672f0af386728b2563",
+        0.00012830942637841788
+      ],
+      [
+        "b7332ba9a0d207d498dc",
+        5.025061602588551e-05
+      ],
+      [
+        "649ff2e3ed0c02d78fa4",
+        3.944258675190877e-05
+      ],
+      [
+        "80eb5c417ca9150a086b",
+        3.705296977158347e-05
+      ],
+      [
+        "39898473ed7c49a0e777",
+        3.619466971831003e-05
+      ],
+      [
+        "5e49d9bab0e0f9ac9d85",
+        1.848675576370609e-05
+      ],
+      [
+        "787bcdda30c342b7aac1",
+        1.7366719305164412e-05
+      ]
+    ]
+  },
+  "initial_ids": [
+    "38ae2a0d393310adbe3c",
+    "b87a7958d71ad5b3c876",
+    "439588b9265843a3fd00",
+    "fdf5a8a39a553b195623",
+    "e7cf848429ec8c10ba5a",
+    "d4190d3b41b5b767708d",
+    "2010fae2c1aae9a61773",
+    "d262f3b8ef1c660c4c53",
+    "6c98fb398f1256c32740",
+    "c43bfa3a8a524a07f96a",
+    "787bcdda30c342b7aac1",
+    "90ae8550fb97d0307f98",
+    "e210f66f2cee6a6725f8",
+    "226f5ca24e14ef0e0c77",
+    "649ff2e3ed0c02d78fa4",
+    "39898473ed7c49a0e777",
+    "b7332ba9a0d207d498dc",
+    "94fc40222283e31a5367",
+    "80eb5c417ca9150a086b",
+    "d03decef2dc234aec059",
+    "7b672f0af386728b2563",
+    "5e49d9bab0e0f9ac9d85",
+    "c23f73e1111b9ef6f954"
+  ],
+  "sentences": [
+    {
+      "uid": "121a2475506aec8a5cad",
+      "text": "Biomedical Information Extraction is an exciting field at the crossroads of Natural Language Processing, Biology and Medicine.",
+      "leaf_id": "439588b9265843a3fd00",
+      "section_id": "d754c27753e2a9ebec24",
+      "start": 0,
+      "end": 126,
+      "score": 0.0020911062524060883
+    },
+    {
+      "uid": "60b08749d79d514818a3",
+      "text": "It encompasses a variety of different tasks that require application of state-of-the-art NLP techniques, such as NER and Relation Extraction.",
+      "leaf_id": "439588b9265843a3fd00",
+      "section_id": "d754c27753e2a9ebec24",
+      "start": 127,
+      "end": 268,
+      "score": 0.14681969604457246
+    },
+    {
+      "uid": "f3cf08c2b0083a8a1117",
+      "text": "This paper provides an overview of the problems in the field and discusses some of the techniques used for solving them.",
+      "leaf_id": "439588b9265843a3fd00",
+      "section_id": "d754c27753e2a9ebec24",
+      "start": 269,
+      "end": 389,
+      "score": 2.3187477504664322e-05
+    },
+    {
+      "uid": "d7ffc359ae685cb23b10",
+      "text": "The explosion of available scientific articles in the Biomedical domain has led to the rise of Biomedical Information Extraction (BioIE).",
+      "leaf_id": "5e49d9bab0e0f9ac9d85",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 0,
+      "end": 137,
+      "score": 2.449082522588366e-05
+    },
+    {
+      "uid": "e5a02c55b920ce2ec00a",
+      "text": "BioIE systems aim to extract information from a wide spectrum of articles including medical literature, biological literature, electronic health records, etc. that can be used by clinicians and researchers in the field.",
+      "leaf_id": "5e49d9bab0e0f9ac9d85",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 138,
+      "end": 357,
+      "score": 2.6897844674087318e-05
+    },
+    {
+      "uid": "220ea5b466d2443ccf92",
+      "text": "Often the outputs of BioIE systems are used to assist in the creation of databases, or to suggest new paths for research.",
+      "leaf_id": "5e49d9bab0e0f9ac9d85",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 358,
+      "end": 479,
+      "score": 2.0462932829931794e-05
+    },
+    {
+      "uid": "5a43600b31216b36c759",
+      "text": "For example, a ranked list of interacting proteins that are extracted from biomedical literature, but are not present in existing databases, can allow researchers to make informed decisions about which protein/gene to study further.",
+      "leaf_id": "5e49d9bab0e0f9ac9d85",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 480,
+      "end": 712,
+      "score": 4.7206228829964175e-05
+    },
+    {
+      "uid": "4be5662f4e6e9242a11b",
+      "text": "Interactions between drugs are necessary for clinicians who simultaneously administer multiple drugs to their patients.",
+      "leaf_id": "5e49d9bab0e0f9ac9d85",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 713,
+      "end": 832,
+      "score": 3.0006620807410484e-05
+    },
+    {
+      "uid": "f343a797de936486937f",
+      "text": "A database of diseases, treatments and tests is beneficial for doctors consulting in complicated medical cases.",
+      "leaf_id": "5e49d9bab0e0f9ac9d85",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 833,
+      "end": 944,
+      "score": 0.00039204178923762814
+    },
+    {
+      "uid": "3d699f3f2184e7e7e7f9",
+      "text": "The main problems in BioIE are similar to those in Information Extraction: This paper discusses, in each section, various methods that have been adopted to solve the listed problems.",
+      "leaf_id": "5e49d9bab0e0f9ac9d85",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 945,
+      "end": 1127,
+      "score": 1.9833367060283615e-05
+    },
+    {
+      "uid": "21ee6206475c6520e77c",
+      "text": "Each section also highlights the difficulty of Information Extraction tasks in the biomedical domain.",
+      "leaf_id": "80eb5c417ca9150a086b",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 1128,
+      "end": 1229,
+      "score": 5.064471653194113e-05
+    },
+    {
+      "uid": "b115f5bb8ffc173388fb",
+      "text": "This paper is intended as a primer to Biomedical Information Extraction for current NLP researchers.",
+      "leaf_id": "80eb5c417ca9150a086b",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 1230,
+      "end": 1330,
+      "score": 8.349627818261146e-05
+    },
+    {
+      "uid": "c829abfdd4af1df846c2",
+      "text": "It aims to highlight the diversity of the various techniques from Information Extraction that have been applied in the Biomedical domain.",
+      "leaf_id": "80eb5c417ca9150a086b",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 1331,
+      "end": 1468,
+      "score": 6.253713366019793e-05
+    },
+    {
+      "uid": "3d1af84a54a628717c8d",
+      "text": "The state of biomedical text mining is reviewed regularly.",
+      "leaf_id": "80eb5c417ca9150a086b",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 1469,
+      "end": 1527,
+      "score": 9.685608308164991e-05
+    },
+    {
+      "uid": "9a88bc55623ddee378f0",
+      "text": "For more extensive surveys, consult BIBREF0 , BIBREF1 , BIBREF2 .",
+      "leaf_id": "80eb5c417ca9150a086b",
+      "section_id": "1cda68ad18412e3072c4",
+      "start": 1528,
+      "end": 1593,
+      "score": 3.453725236238312e-05
+    },
+    {
+      "uid": "080e161f126d4cb7aa7b",
+      "text": "Named Entity Recognition (NER) in the Biomedical domain usually includes recognition of entities such as proteins, genes, diseases, treatments, drugs, etc.",
+      "leaf_id": "38ae2a0d393310adbe3c",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 0,
+      "end": 155,
+      "score": 0.977110159887611
+    },
+    {
+      "uid": "63264e7386acd61bc429",
+      "text": "Fact extraction involves extraction of Named Entities from a corpus, usually given a certain ontology.",
+      "leaf_id": "38ae2a0d393310adbe3c",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 156,
+      "end": 258,
+      "score": 0.0001609308249869283
+    },
+    {
+      "uid": "782cf206581b0d1a9c79",
+      "text": "When compared to NER in the domain of general text, the biomedical domain has some characteristic challenges: Some of the earliest systems were heavily dependent on hand-crafted features.",
+      "leaf_id": "38ae2a0d393310adbe3c",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 259,
+      "end": 446,
+      "score": 0.1270015626663323
+    },
+    {
+      "uid": "de14dac9f4520d883d19",
+      "text": "The method proposed in BIBREF4 for recognition of protein names in text does not require any prepared dictionary.",
+      "leaf_id": "38ae2a0d393310adbe3c",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 447,
+      "end": 560,
+      "score": 1.8777874339495478e-05
+    },
+    {
+      "uid": "db91e75cc1641bb6b7a4",
+      "text": "The work gives examples of diversity in protein names and lists multiple rules depending on simple word features as well as POS tags.",
+      "leaf_id": "38ae2a0d393310adbe3c",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 561,
+      "end": 694,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "2a00d8e6417803dd90b4",
+      "text": "BIBREF5 adopt a machine learning approach for NER.",
+      "leaf_id": "38ae2a0d393310adbe3c",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 695,
+      "end": 745,
+      "score": 0.03210070671700818
+    },
+    {
+      "uid": "aa2c05304e006ec61d09",
+      "text": "Their NER system extracts medical problems, tests and treatments from discharge summaries and progress notes.",
+      "leaf_id": "38ae2a0d393310adbe3c",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 746,
+      "end": 855,
+      "score": 0.2607657829414243
+    },
+    {
+      "uid": "e62189d9e9810b44f8f9",
+      "text": "They use a semi-Conditional Random Field (semi-CRF) BIBREF6 to output labels over all tokens in the sentence.",
+      "leaf_id": "38ae2a0d393310adbe3c",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 856,
+      "end": 965,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "47ec4bead4176e7f6529",
+      "text": "They use a variety of token, context and sentence level features.",
+      "leaf_id": "38ae2a0d393310adbe3c",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 966,
+      "end": 1031,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "323345a4e7085f5f3dd8",
+      "text": "They also use some concept mapping features using existing annotation tools, as well as Brown clustering to form 128 clusters over the unlabelled data.",
+      "leaf_id": "e7cf848429ec8c10ba5a",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 1032,
+      "end": 1183,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "437fdfd8724626407bba",
+      "text": "The dataset used is the i2b2 2010 challenge dataset.",
+      "leaf_id": "e7cf848429ec8c10ba5a",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 1184,
+      "end": 1236,
+      "score": 2.1112482331487176e-05
+    },
+    {
+      "uid": "7eda4f6f1dce59df48d1",
+      "text": "Their system achieves an F-Score of 0.85.",
+      "leaf_id": "e7cf848429ec8c10ba5a",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 1237,
+      "end": 1278,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "e2f51cb8ca4c71b1373b",
+      "text": "BIBREF7 is an incremental paper on NER taggers.",
+      "leaf_id": "e7cf848429ec8c10ba5a",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 1279,
+      "end": 1326,
+      "score": 0.028761587264997814
+    },
+    {
+      "uid": "d3a80e88e1b61cd9b314",
+      "text": "It uses 3 types of word-representation techniques (Brown clustering, distributional clustering, word vectors) to improve performance of the NER Conditional Random Field tagger, and achieves marginal F-Score improvements.",
+      "leaf_id": "e7cf848429ec8c10ba5a",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 1327,
+      "end": 1547,
+      "score": 0.0058426051752048505
+    },
+    {
+      "uid": "9960ced00fd62f631679",
+      "text": "BIBREF8 propose a boostrapping mechanism to bootstrap biomedical ontologies using NELL BIBREF9 , which uses a coupled semi-supervised bootstrapping approach to extract facts from text, given an ontology and a small number of “seed” examples for each category.",
+      "leaf_id": "e7cf848429ec8c10ba5a",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 1548,
+      "end": 1807,
+      "score": 9.3145930425751e-05
+    },
+    {
+      "uid": "2a18037759b5939f6891",
+      "text": "This interesting approach (called BioNELL) uses an ontology of over 100 categories.",
+      "leaf_id": "e7cf848429ec8c10ba5a",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 1808,
+      "end": 1891,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "03f06cecd3ffabe389b2",
+      "text": "In contrast to NELL, BioNELL does not contain any relations in the ontology.",
+      "leaf_id": "e7cf848429ec8c10ba5a",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 1892,
+      "end": 1968,
+      "score": 6.761842041375471e-05
+    },
+    {
+      "uid": "6eca4300ba81fad0cbcb",
+      "text": "BioNELL is motivated by the fact that a lot of scientific literature available online is highly reliable due to peer-review.",
+      "leaf_id": "e7cf848429ec8c10ba5a",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 1969,
+      "end": 2093,
+      "score": 1.9988918976691774e-05
+    },
+    {
+      "uid": "c75ebdd53ab7fc132172",
+      "text": "The authors note that the algorithm used by NELL to bootstrap fails in BioNELL due to ambiguities in biomedical literature, and heavy semantic drift.",
+      "leaf_id": "fdf5a8a39a553b195623",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 2094,
+      "end": 2243,
+      "score": 5.225226840386987e-05
+    },
+    {
+      "uid": "69994bb59c41808b044c",
+      "text": "One of the causes for this is that often common words such as “white”, “dad”, “arm” are used as names of genes- this can easily result in semantic drift in one iteration of the bootstrapping.",
+      "leaf_id": "fdf5a8a39a553b195623",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 2244,
+      "end": 2435,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "0126abe23cd1f6bd6fcf",
+      "text": "In order to mitigate this, they use Pointwise Mutual Information scores for corpus level statistics, which attributes a small score to common words.",
+      "leaf_id": "fdf5a8a39a553b195623",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 2436,
+      "end": 2584,
+      "score": 2.5071593847983193e-05
+    },
+    {
+      "uid": "94e83b11351f6dfc22cb",
+      "text": "In addition, in contrast to NELL, BioNELL only uses high instances as seeds in the next iteration, but adds low ranking instances to the knowledge base.",
+      "leaf_id": "fdf5a8a39a553b195623",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 2585,
+      "end": 2737,
+      "score": 3.913565411910919e-05
+    },
+    {
+      "uid": "cf8243f20e3b2bb8d692",
+      "text": "Since evaluation is not possible using Mechanical Turk or a small number of experts (due to the complexity of the task), they use Freebase BIBREF10 , a knowledge base that has some biomedical concepts as well.",
+      "leaf_id": "fdf5a8a39a553b195623",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 2738,
+      "end": 2947,
+      "score": 2.212566909570261e-05
+    },
+    {
+      "uid": "7dea804747c963eaf402",
+      "text": "The lexicon learned using BioNELL is used to train an NER system.",
+      "leaf_id": "fdf5a8a39a553b195623",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 2948,
+      "end": 3013,
+      "score": 0.020606476135436008
+    },
+    {
+      "uid": "07914bff5face7215472",
+      "text": "The system shows a very high precision, thereby showing that BioNELL learns very few ambiguous terms.",
+      "leaf_id": "b87a7958d71ad5b3c876",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 3014,
+      "end": 3115,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "33d67f6a1da79ea50394",
+      "text": "More recently, deep learning techniques have been developed to further enhance the performance of NER systems.",
+      "leaf_id": "b87a7958d71ad5b3c876",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 3116,
+      "end": 3226,
+      "score": 0.023689471299374428
+    },
+    {
+      "uid": "e6f1f020691cd099c972",
+      "text": "BIBREF11 explore recurrent neural networks for the problem of NER in biomedical text.",
+      "leaf_id": "b87a7958d71ad5b3c876",
+      "section_id": "d6d4dd1beb3cb752cbf3",
+      "start": 3227,
+      "end": 3312,
+      "score": 0.1280882483446611
+    },
+    {
+      "uid": "65036115cb2f9c68ec07",
+      "text": "In Biomedical Information Extraction, Relation Extraction involves finding related entities of many different kinds.",
+      "leaf_id": "b7332ba9a0d207d498dc",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 0,
+      "end": 116,
+      "score": 4.037790297412686e-05
+    },
+    {
+      "uid": "4e27adf049c15fe82ffa",
+      "text": "Some of these include protein-protein interactions, disease-gene relations and drug-drug interactions.",
+      "leaf_id": "b7332ba9a0d207d498dc",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 117,
+      "end": 219,
+      "score": 2.2474089854291754e-05
+    },
+    {
+      "uid": "36ed4c91d87d025160ab",
+      "text": "Due to the explosion of available biomedical literature, it is impossible for one person to extract relevant relations from published material.",
+      "leaf_id": "b7332ba9a0d207d498dc",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 220,
+      "end": 363,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "0e4a6529ebebb458430f",
+      "text": "Automatic extraction of relations assists in the process of database creation, by suggesting potentially related entities with links to the source article.",
+      "leaf_id": "b7332ba9a0d207d498dc",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 364,
+      "end": 519,
+      "score": 2.7535691114583473e-05
+    },
+    {
+      "uid": "0d54702ced04af892895",
+      "text": "For example, a database of drug-drug interactions is important for clinicians who administer multiple drugs simultaneously to their patients- it is imperative to know if one drug will have an adverse effect on the other.",
+      "leaf_id": "b7332ba9a0d207d498dc",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 520,
+      "end": 740,
+      "score": 3.295572855043323e-05
+    },
+    {
+      "uid": "7c5bef9a597b45cc8818",
+      "text": "A variety of methods have been developed for relation extractions, and are often inspired by Relation Extraction in NLP tasks.",
+      "leaf_id": "b7332ba9a0d207d498dc",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 741,
+      "end": 867,
+      "score": 2.4682904407607285e-05
+    },
+    {
+      "uid": "ad46283ce057406631ee",
+      "text": "These include rule-based approaches, hand-crafted patterns, feature-based and kernel machine learning methods, and more recently deep learning architectures.",
+      "leaf_id": "b7332ba9a0d207d498dc",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 868,
+      "end": 1025,
+      "score": 3.400182010101328e-05
+    },
+    {
+      "uid": "d5ce04a04db4cf893cfa",
+      "text": "Relation Extraction systems over Biomedical Corpora are often affected by noisy extraction of entities, due to ambiguities in names of proteins, genes, drugs etc.",
+      "leaf_id": "b7332ba9a0d207d498dc",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 1026,
+      "end": 1188,
+      "score": 9.915273115920183e-05
+    },
+    {
+      "uid": "2f47093a6b8493c8edb0",
+      "text": "BIBREF12 was one of the first large scale Information Extraction efforts to study the feasibility of extraction of protein-protein interactions (such as “protein A activates protein B\") from Biomedical text.",
+      "leaf_id": "39898473ed7c49a0e777",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 1189,
+      "end": 1396,
+      "score": 3.2444813913887076e-05
+    },
+    {
+      "uid": "8933262988ce08a79457",
+      "text": "Using 8 hand-crafted regular expressions over a fixed vocabulary, the authors were able to achieve a recall of 30% for interactions present in The Dictionary of Interacting Proteins (DIP) from abstracts in Medline.",
+      "leaf_id": "39898473ed7c49a0e777",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 1397,
+      "end": 1611,
+      "score": 3.1941819764587e-05
+    },
+    {
+      "uid": "fb9b1aeb70d804ba6ba7",
+      "text": "The method did not differentiate between the type of relation.",
+      "leaf_id": "39898473ed7c49a0e777",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 1612,
+      "end": 1674,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "de20ea17e5c8f2ed7fa9",
+      "text": "The reasons for the low recall were the inconsistency in protein nomenclature, information not present in the abstract, and due to specificity of the hand-crafted patterns.",
+      "leaf_id": "39898473ed7c49a0e777",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 1675,
+      "end": 1847,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "a104520c6c603058c3d2",
+      "text": "On a small subset of extracted relations, they found that about 60% were true interactions between proteins not present in DIP.",
+      "leaf_id": "39898473ed7c49a0e777",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 1848,
+      "end": 1975,
+      "score": 1.8777874339495478e-05
+    },
+    {
+      "uid": "cc8afd2664d7279ca1bd",
+      "text": "BIBREF13 combine sentence level relation extraction for protein interactions with corpus level statistics.",
+      "leaf_id": "39898473ed7c49a0e777",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 1976,
+      "end": 2082,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "dc922c4247d03285bf92",
+      "text": "Similar to BIBREF12 , they do not consider the type of interaction between proteins- only whether they interact in the general sense of the word.",
+      "leaf_id": "649ff2e3ed0c02d78fa4",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 2083,
+      "end": 2228,
+      "score": 2.2474089854291754e-05
+    },
+    {
+      "uid": "c70811d91c24d8af4bdd",
+      "text": "They also do not differentiate between genes and their protein products (which may share the same name).",
+      "leaf_id": "649ff2e3ed0c02d78fa4",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 2229,
+      "end": 2333,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "527ea05fbda6bd9e72f9",
+      "text": "They use Pointwise Mutual Information (PMI) for corpus level statistics to determine whether a pair of proteins occur together by chance or because they interact.",
+      "leaf_id": "649ff2e3ed0c02d78fa4",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 2334,
+      "end": 2496,
+      "score": 2.212566909570261e-05
+    },
+    {
+      "uid": "13cc64dd0a3511d4e422",
+      "text": "They combine this with a confidence aggregator that takes the maximum of the confidence of the extractor over all extractions for the same protein-pair.",
+      "leaf_id": "649ff2e3ed0c02d78fa4",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 2497,
+      "end": 2649,
+      "score": 2.4682904407607285e-05
+    },
+    {
+      "uid": "f4293c2ac1e70070b01c",
+      "text": "The extraction uses a subsequence kernel based on BIBREF14 .",
+      "leaf_id": "649ff2e3ed0c02d78fa4",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 2650,
+      "end": 2710,
+      "score": 1.6571452505948057e-05
+    },
+    {
+      "uid": "faf26669cd59f0bcbc7f",
+      "text": "The integrated model, that combines PMI with aggregate confidence, gives the best performance.",
+      "leaf_id": "649ff2e3ed0c02d78fa4",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 2711,
+      "end": 2805,
+      "score": 1.8342893327886845e-05
+    },
+    {
+      "uid": "b9ccbc11d0852f179e6e",
+      "text": "Kernel methods have widely been studied for Relation Extraction in Biomedical Literature.",
+      "leaf_id": "649ff2e3ed0c02d78fa4",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 2806,
+      "end": 2895,
+      "score": 3.1941819764587e-05
+    },
+    {
+      "uid": "8e790d0c6d3388703840",
+      "text": "Common kernels used usually exploit linguistic information by utilising kernels based on the dependency tree BIBREF15 , BIBREF16 , BIBREF17 .",
+      "leaf_id": "649ff2e3ed0c02d78fa4",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 2896,
+      "end": 3037,
+      "score": 5.4759769804494653e-05
+    },
+    {
+      "uid": "878665e01ffd785286b8",
+      "text": "BIBREF18 look at the extraction of diseases and their relevant genes.",
+      "leaf_id": "649ff2e3ed0c02d78fa4",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 3038,
+      "end": 3107,
+      "score": 3.6478537675800285e-05
+    },
+    {
+      "uid": "697ab63275b559df88b9",
+      "text": "They use a dictionary from six public databases to annotate genes and diseases in Medline abstracts.",
+      "leaf_id": "d4190d3b41b5b767708d",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 3108,
+      "end": 3208,
+      "score": 2.6480843287604657e-05
+    },
+    {
+      "uid": "b56ba58dddcc4105343b",
+      "text": "In their work, the authors note that when both genes and diseases are correctly identified, they are related in 94% of the cases.",
+      "leaf_id": "d4190d3b41b5b767708d",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 3209,
+      "end": 3338,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "48386d5a39f1e9463dcf",
+      "text": "The problem then reduces to filtering incorrect matches using the dictionary, which occurs due to false positives resulting from ambiguities in the names as well as ambiguities in abbreviations.",
+      "leaf_id": "d4190d3b41b5b767708d",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 3339,
+      "end": 3533,
+      "score": 2.6897844674087318e-05
+    },
+    {
+      "uid": "8868f72266035ba4ec3f",
+      "text": "To this end, they train a Max-Ent based NER classifier for the task, and get a 26% gain in precision over the unfiltered baseline, with a slight hit in recall.",
+      "leaf_id": "d4190d3b41b5b767708d",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 3534,
+      "end": 3693,
+      "score": 0.014009566286403144
+    },
+    {
+      "uid": "b4b0aa8851ed18346956",
+      "text": "They use POS tags, expanded forms of abbreviations, indicators for Greek letters as well as suffixes and prefixes commonly used in biomedical terms.",
+      "leaf_id": "d4190d3b41b5b767708d",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 3694,
+      "end": 3842,
+      "score": 0.0001063745841626834
+    },
+    {
+      "uid": "ab73573016e4756f63e9",
+      "text": "BIBREF19 adopt a supervised feature-based approach for the extraction of drug-drug interaction (DDI) for the DDI-2013 dataset BIBREF20 .",
+      "leaf_id": "d4190d3b41b5b767708d",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 3843,
+      "end": 3979,
+      "score": 2.43002407432796e-05
+    },
+    {
+      "uid": "25787063b43ccc2892e0",
+      "text": "They partition the data in subsets depending on the syntactic features, and train a different model for each.",
+      "leaf_id": "d4190d3b41b5b767708d",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 3980,
+      "end": 4089,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "408f86c663f6f1218635",
+      "text": "They use lexical, syntactic and verb based features on top of shallow parse features, in addition to a hand-crafted list of trigger words to define their features.",
+      "leaf_id": "7b672f0af386728b2563",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 4090,
+      "end": 4253,
+      "score": 1.723157275214239e-05
+    },
+    {
+      "uid": "b997f14a60eba61d4e99",
+      "text": "An SVM classifier is then trained on the feature vectors, with a positive label if the drug pair interacts, and negative otherwise.",
+      "leaf_id": "7b672f0af386728b2563",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 4254,
+      "end": 4385,
+      "score": 1.8925148246037342e-05
+    },
+    {
+      "uid": "d342c9f02c619420efde",
+      "text": "Their method beats other systems on the DDI-2013 dataset.",
+      "leaf_id": "7b672f0af386728b2563",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 4386,
+      "end": 4443,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "8816a8520162aef3fc6e",
+      "text": "Some other feature-based approaches are described in BIBREF21 , BIBREF22 .",
+      "leaf_id": "7b672f0af386728b2563",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 4444,
+      "end": 4518,
+      "score": 1.848675576370609e-05
+    },
+    {
+      "uid": "591be8e7522f18571cc4",
+      "text": "Distant supervision methods have also been applied to relation extraction over biomedical corpora.",
+      "leaf_id": "7b672f0af386728b2563",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 4519,
+      "end": 4617,
+      "score": 4.6112748142641196e-05
+    },
+    {
+      "uid": "605f1df601461a5a9d1e",
+      "text": "In BIBREF23 , 10,000 neuroscience articles are distantly supervised using information from UMLS Semantic Network to classify brain-gene relations into geneExpression and otherRelation.",
+      "leaf_id": "7b672f0af386728b2563",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 4618,
+      "end": 4802,
+      "score": 0.0004655269187520153
+    },
+    {
+      "uid": "b385ea420585bc1f94bb",
+      "text": "They use lexical (bag of words, contextual) features as well as syntactic (dependency parse features).",
+      "leaf_id": "7b672f0af386728b2563",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 4803,
+      "end": 4905,
+      "score": 1.9833367060283615e-05
+    },
+    {
+      "uid": "633b7e2ba0366e7dc076",
+      "text": "They make the “at-least one” assumption, i.e. at least one of the sentences extracted for a given entity-pair contains the relation in database.",
+      "leaf_id": "7b672f0af386728b2563",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 4906,
+      "end": 5050,
+      "score": 1.8777874339495478e-05
+    },
+    {
+      "uid": "8de5f5507853d8a77b95",
+      "text": "They model it as a multi-instance learning problem and adopt a graphical model similar to BIBREF24 .",
+      "leaf_id": "2010fae2c1aae9a61773",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 5051,
+      "end": 5151,
+      "score": 1.9223170236538176e-05
+    },
+    {
+      "uid": "4367a7d1f2cc123662b1",
+      "text": "They test using manually annotated examples.",
+      "leaf_id": "2010fae2c1aae9a61773",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 5152,
+      "end": 5196,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "39514b3b5b945cb8fb3a",
+      "text": "They note that the F-score achieved are much lesser than that achieved in the general domain in BIBREF24 , and attribute to generally poorer performance of NER tools in the biomedical domain, as well as less training examples.",
+      "leaf_id": "2010fae2c1aae9a61773",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 5197,
+      "end": 5423,
+      "score": 0.015014748005819525
+    },
+    {
+      "uid": "6b300cb8f0361a079616",
+      "text": "BIBREF25 explore distant supervision methods for protein-protein interaction extraction.",
+      "leaf_id": "2010fae2c1aae9a61773",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 5424,
+      "end": 5512,
+      "score": 3.120191139396651e-05
+    },
+    {
+      "uid": "05afd4339069e5587bf2",
+      "text": "More recently, deep learning methods have been applied to relation extraction in the biomedical domain.",
+      "leaf_id": "2010fae2c1aae9a61773",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 5513,
+      "end": 5616,
+      "score": 3.1941819764587e-05
+    },
+    {
+      "uid": "9b9848a6b7fa764c5685",
+      "text": "One of the main advantages of such methods over traditional feature or kernel based learning methods is that they require minimal feature engineering.",
+      "leaf_id": "2010fae2c1aae9a61773",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 5617,
+      "end": 5767,
+      "score": 1.9223170236538176e-05
+    },
+    {
+      "uid": "35f2dac70d049d40c797",
+      "text": "In BIBREF26 , skip-gram vectors BIBREF27 are trained over 5.6Gb of unlabelled text.",
+      "leaf_id": "2010fae2c1aae9a61773",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 5768,
+      "end": 5851,
+      "score": 1.670142184809518e-05
+    },
+    {
+      "uid": "e8d5729d7eb1d10a516a",
+      "text": "They use these vectors to extract protein-protein interactions by converting them into features for entities, context and the entire sentence.",
+      "leaf_id": "2010fae2c1aae9a61773",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 5852,
+      "end": 5994,
+      "score": 2.1782649863110498e-05
+    },
+    {
+      "uid": "7f01ad1bf79995ef8e77",
+      "text": "Using an SVM for classification, their method is able to outperform many kernel and feature based methods over a variety of datasets.",
+      "leaf_id": "d262f3b8ef1c660c4c53",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 5995,
+      "end": 6128,
+      "score": 1.8631746484712008e-05
+    },
+    {
+      "uid": "5901a99ba4da31f6515a",
+      "text": "BIBREF28 follow a similar method by using word vectors trained on PubMed articles.",
+      "leaf_id": "d262f3b8ef1c660c4c53",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 6129,
+      "end": 6211,
+      "score": 2.01456908529364e-05
+    },
+    {
+      "uid": "2dcfbd464c4fb6d37d85",
+      "text": "They use it for the task of relation extraction from clinical text for entities that include problem, treatment and medical test.",
+      "leaf_id": "d262f3b8ef1c660c4c53",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 6212,
+      "end": 6341,
+      "score": 8.957788551478938e-05
+    },
+    {
+      "uid": "df56e095dd907d049383",
+      "text": "For a given sentence, given labelled entities, they predict the type of relation exhibited (or None) by the entity pair.",
+      "leaf_id": "d262f3b8ef1c660c4c53",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 6342,
+      "end": 6462,
+      "score": 2.0785170435063725e-05
+    },
+    {
+      "uid": "4f5ad4657d7942ccbc07",
+      "text": "These types include “treatment caused medical problem”, “test conducted to investigate medical problem”, “medical problem indicates medical problems”, etc.",
+      "leaf_id": "d262f3b8ef1c660c4c53",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 6463,
+      "end": 6618,
+      "score": 4.069457790466838e-05
+    },
+    {
+      "uid": "41ee0168d9e7d36fa0a1",
+      "text": "They use a Convolutional Neural Network (CNN) followed by feedforward neural network architecture for prediction.",
+      "leaf_id": "d262f3b8ef1c660c4c53",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 6619,
+      "end": 6732,
+      "score": 0.0005792916699214216
+    },
+    {
+      "uid": "f55a2a826deaad0fc69e",
+      "text": "In addition to pre-trained word vectors as features, for each token they also add features for POS tags, distance from both the entities in the sentence, as well BIO tags for the entities.",
+      "leaf_id": "d262f3b8ef1c660c4c53",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 6733,
+      "end": 6921,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "57898864466c2852473e",
+      "text": "Their model performs better than a feature based SVM baseline that they train themselves.",
+      "leaf_id": "787bcdda30c342b7aac1",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 6922,
+      "end": 7011,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "ab1245c737740efd82d9",
+      "text": "The BioNLP'16 Shared Tasks has also introduced some Relation Extraction tasks, in particular the BB3-event subtask that involves predicting whether a “lives-in” relation holds for a Bacteria in a location.",
+      "leaf_id": "787bcdda30c342b7aac1",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 7012,
+      "end": 7217,
+      "score": 1.7917988275182845e-05
+    },
+    {
+      "uid": "ee7f6003bc31f842e09a",
+      "text": "Some of the top performing models for this task are deep learning models.",
+      "leaf_id": "787bcdda30c342b7aac1",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 7218,
+      "end": 7291,
+      "score": 4.037790297412686e-05
+    },
+    {
+      "uid": "44e9a73fac38653521e9",
+      "text": "BIBREF29 train word embeddings with six billions words of scientific texts from PubMed.",
+      "leaf_id": "787bcdda30c342b7aac1",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 7292,
+      "end": 7379,
+      "score": 5.605828752595003e-05
+    },
+    {
+      "uid": "9557c53e419dcf4f33d6",
+      "text": "They then consider the shortest dependency path between the two entities (Bacteria and location).",
+      "leaf_id": "787bcdda30c342b7aac1",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 7380,
+      "end": 7477,
+      "score": 1.8342893327886845e-05
+    },
+    {
+      "uid": "ac93183e2d5b93152566",
+      "text": "For each token in the path, they use word embedding features, POS type embeddings and dependency type embeddings.",
+      "leaf_id": "787bcdda30c342b7aac1",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 7478,
+      "end": 7591,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "f1d48e34ebe4c11be4ec",
+      "text": "They train a unidirectional LSTM BIBREF30 over the dependency path, that achieves an F-Score of 52.1% on the test set.",
+      "leaf_id": "787bcdda30c342b7aac1",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 7592,
+      "end": 7710,
+      "score": 1.8925148246037342e-05
+    },
+    {
+      "uid": "40828922269d0d6b91ed",
+      "text": "BIBREF31 improve the performance by making modifications to the above model.",
+      "leaf_id": "787bcdda30c342b7aac1",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 7711,
+      "end": 7787,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "090f9ea630522232c698",
+      "text": "Instead of using the shortest dependency path, they modify the parse tree based on some pruning strategies.",
+      "leaf_id": "d03decef2dc234aec059",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 7788,
+      "end": 7895,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "cdae8766aadd10b7ffbf",
+      "text": "They also add feature embeddings for each token to represent the distance from the entities in the shortest path.",
+      "leaf_id": "d03decef2dc234aec059",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 7896,
+      "end": 8009,
+      "score": 2.265035233314773e-05
+    },
+    {
+      "uid": "7c565ad161146b3a43b3",
+      "text": "They then train a Bidirectional LSTM on the path, and obtain an F-Score of 57.1%.",
+      "leaf_id": "d03decef2dc234aec059",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 8010,
+      "end": 8091,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "984b469a295472c7fc44",
+      "text": "The recent success of deep learning models in Biomedical Relation Extraction that require minimal feature engineering is promising.",
+      "leaf_id": "d03decef2dc234aec059",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 8092,
+      "end": 8223,
+      "score": 5.829126566113865e-05
+    },
+    {
+      "uid": "a80bfe7e9410313add84",
+      "text": "This also suggests new avenues of research in the field.",
+      "leaf_id": "d03decef2dc234aec059",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 8224,
+      "end": 8280,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "dd60d4080cd238350fa8",
+      "text": "An approach as in BIBREF32 can be used to combine multi-instance learning and distant supervision with a neural architecture.",
+      "leaf_id": "d03decef2dc234aec059",
+      "section_id": "47bce7f3599c02db9b3f",
+      "start": 8281,
+      "end": 8406,
+      "score": 0.0006512682251634092
+    },
+    {
+      "uid": "b64f173d75ee95c2a2a0",
+      "text": "Event Extraction in the Biomedical domain is a task that has gained more importance recently.",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 0,
+      "end": 93,
+      "score": 3.508111586796275e-05
+    },
+    {
+      "uid": "f66ef467e55bace52d21",
+      "text": "Event Extraction goes beyond Relation Extraction.",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 94,
+      "end": 143,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "1b5f777e4c23e1b6d1bf",
+      "text": "In Biomedical Event Extraction, events generally refer to a change in the state of biological molecules such as proteins and DNA.",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 144,
+      "end": 273,
+      "score": 8.957788551478938e-05
+    },
+    {
+      "uid": "4b47592cd9c5d795737f",
+      "text": "Generally, it includes detection of targeted event types such as gene expression, regulation, localisation and transcription.",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 274,
+      "end": 399,
+      "score": 0.00028685408238746286
+    },
+    {
+      "uid": "be54df2bfc4dce0a3f12",
+      "text": "Each event type in addition can have multiple arguments that need to be detected.",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 400,
+      "end": 481,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "62eb9268178b2244ca1f",
+      "text": "An additional layer of complexity comes from the fact that events can also be arguments of other events, giving rise to a nested structure.",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 482,
+      "end": 621,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "dd6ab310cd4960394d6a",
+      "text": "This helps to capture the underlying biology better BIBREF1 .",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 622,
+      "end": 683,
+      "score": 2.43002407432796e-05
+    },
+    {
+      "uid": "d601ae0eefd02cb8fc51",
+      "text": "Detecting the event type often involves recognising and classifying trigger words.",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 684,
+      "end": 766,
+      "score": 2.3187477504664322e-05
+    },
+    {
+      "uid": "0ba2ce3dbad293597a40",
+      "text": "Often, these words are verbs such as “activates”, “inhibits”, “phosphorylation” that may indicate a single, or sometimes multiple event types.",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 767,
+      "end": 909,
+      "score": 4.231559699903632e-05
+    },
+    {
+      "uid": "873a2c16717271b7d79c",
+      "text": "In this section, we will discuss some of the successful models for Event Extraction in some detail.",
+      "leaf_id": "226f5ca24e14ef0e0c77",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 910,
+      "end": 1009,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "c87d072fbd3184063a43",
+      "text": "Event Extraction gained a lot of interest with the availability of an annotated corpus with the BioNLP'09 Shared Task on Event Extraction BIBREF34 .",
+      "leaf_id": "6c98fb398f1256c32740",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 1010,
+      "end": 1158,
+      "score": 2.3923509443082864e-05
+    },
+    {
+      "uid": "51861a978d2e294e2f95",
+      "text": "The task involves prediction of trigger words over nine event types such as expression, transcription, catabolism, binding, etc. given only annotation of named entities (proteins, genes, etc.).",
+      "leaf_id": "6c98fb398f1256c32740",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 1159,
+      "end": 1352,
+      "score": 3.852893541726541e-05
+    },
+    {
+      "uid": "59e43143733811f7ec9f",
+      "text": "For each event, its class, trigger expression and arguments need to be extracted.",
+      "leaf_id": "6c98fb398f1256c32740",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 1353,
+      "end": 1434,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "d3dab19174287ed96512",
+      "text": "Since the events can be arguments to other events, the final output in general is a graph representation with events and named entities as nodes, and edges that correspond to event arguments.",
+      "leaf_id": "6c98fb398f1256c32740",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 1435,
+      "end": 1626,
+      "score": 1.9223170236538176e-05
+    },
+    {
+      "uid": "c59c584a2fe29ee1cac6",
+      "text": "BIBREF33 present a pipeline based method that is heavily dependent on dependency parsing.",
+      "leaf_id": "6c98fb398f1256c32740",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 1627,
+      "end": 1716,
+      "score": 2.9083440990898244e-05
+    },
+    {
+      "uid": "3e60abb4f434aaea92f6",
+      "text": "Their pipeline approach consists of three steps: trigger detection, argument detection and semantic post-processing.",
+      "leaf_id": "6c98fb398f1256c32740",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 1717,
+      "end": 1833,
+      "score": 2.1782649863110498e-05
+    },
+    {
+      "uid": "c9369cb4d6b9ee7c1f0c",
+      "text": "While the first two components are learning based systems, the last component is a rule based system.",
+      "leaf_id": "6c98fb398f1256c32740",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 1834,
+      "end": 1935,
+      "score": 3.321419494792514e-05
+    },
+    {
+      "uid": "834938ca43b963ae95ed",
+      "text": "For the BioNLP'09 corpus, only 5% of the events span multiple sentences.",
+      "leaf_id": "6c98fb398f1256c32740",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 1936,
+      "end": 2008,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "e2face0ace2863d3ebaf",
+      "text": "Hence the approach does not get affected severely by considering only single sentences.",
+      "leaf_id": "94fc40222283e31a5367",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 2009,
+      "end": 2096,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "dfa64ea5c3d23a15be1b",
+      "text": "It is important to note that trigger words cannot simply be reduced to a dictionary lookup.",
+      "leaf_id": "94fc40222283e31a5367",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 2097,
+      "end": 2188,
+      "score": 1.8925148246037342e-05
+    },
+    {
+      "uid": "b9dd556c4412feea10f6",
+      "text": "This is because a specific word may belong to multiple classes, or may not always be a trigger word for an event.",
+      "leaf_id": "94fc40222283e31a5367",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 2189,
+      "end": 2302,
+      "score": 2.1613139600748423e-05
+    },
+    {
+      "uid": "484b991405eed0d6e114",
+      "text": "For example, “activate” is found to not be a trigger word in over 70% of the cases.",
+      "leaf_id": "94fc40222283e31a5367",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 2303,
+      "end": 2386,
+      "score": 1.5936620247162785e-05
+    },
+    {
+      "uid": "dc841e40c6432113a4a5",
+      "text": "A multi-class SVM is trained for trigger detection on each token, using a large feature set consisting of semantic and syntactic features.",
+      "leaf_id": "94fc40222283e31a5367",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 2387,
+      "end": 2525,
+      "score": 1.8631746484712008e-05
+    },
+    {
+      "uid": "780f20d9bc037e18d4ff",
+      "text": "It is interesting to note that the hyperparameters of this classifier are optimised based on the performance of the entire end-to-end system.",
+      "leaf_id": "94fc40222283e31a5367",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 2526,
+      "end": 2667,
+      "score": 2.526822782693578e-05
+    },
+    {
+      "uid": "2374626ee2db5ebc9d68",
+      "text": "For the second component to detect arguments, labels for edges between entities must be predicted.",
+      "leaf_id": "94fc40222283e31a5367",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 2668,
+      "end": 2766,
+      "score": 1.7366719305164412e-05
+    },
+    {
+      "uid": "6a084147fa911a0cfb59",
+      "text": "For the BioNLP'09 Shared Task, each directed edge from one event node to another event node, or from an event node to a named entity node are classified as “theme”, “cause”, or None.",
+      "leaf_id": "e210f66f2cee6a6725f8",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 2767,
+      "end": 2949,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "57b9c0635bd939285309",
+      "text": "The second component of the pipeline makes these predictions independently.",
+      "leaf_id": "e210f66f2cee6a6725f8",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 2950,
+      "end": 3025,
+      "score": 1.9373936508326677e-05
+    },
+    {
+      "uid": "4d0a3aefc0faf191132a",
+      "text": "This is also trained using a multi-class SVM which involves heavy use of syntactic features, including the shortest dependency path between the nodes.",
+      "leaf_id": "e210f66f2cee6a6725f8",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 3026,
+      "end": 3176,
+      "score": 2.0303692256510018e-05
+    },
+    {
+      "uid": "22b85fdf8597b1521a66",
+      "text": "The authors note that the precision-recall choice of the first component affects the performance of the second component: since the second component is only trained on Gold examples, any error by the first component will lead to a cascading of errors.",
+      "leaf_id": "e210f66f2cee6a6725f8",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 3177,
+      "end": 3428,
+      "score": 1.723157275214239e-05
+    },
+    {
+      "uid": "7da9b6e1f5f26bb01c31",
+      "text": "The final component, which is a semantic post-processing step, consists of rules and heuristics to correct the output of the second component.",
+      "leaf_id": "e210f66f2cee6a6725f8",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 3429,
+      "end": 3571,
+      "score": 3.169325442919291e-05
+    },
+    {
+      "uid": "9a66fc4969997f1d9383",
+      "text": "Since the edge predictions are made independently, it is possible that some event nodes do not have any edges, or have an improper combination of edges.",
+      "leaf_id": "e210f66f2cee6a6725f8",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 3572,
+      "end": 3724,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "eef2e99fc998a769e4f1",
+      "text": "The rule based component corrects these and applies rules to break directed cycles in the graph, and some specific heuristics for different types of events.",
+      "leaf_id": "c43bfa3a8a524a07f96a",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 3725,
+      "end": 3881,
+      "score": 2.265035233314773e-05
+    },
+    {
+      "uid": "c9ff0c46514423b6cd3c",
+      "text": "The final model gives a cumulative F-Score of 52% on the test set, and was the best model on the task.",
+      "leaf_id": "c43bfa3a8a524a07f96a",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 3882,
+      "end": 3984,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "a48fa488a545a65b2fbf",
+      "text": "BIBREF35 note that previous approaches on the task suffer due to the pipeline nature and the propagation of errors.",
+      "leaf_id": "c43bfa3a8a524a07f96a",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 3985,
+      "end": 4100,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "962214a78b92276dbd9a",
+      "text": "To counter this, they adopt a joint inference method based on Markov Logic Networks BIBREF36 for the same task on BioNLP'09.",
+      "leaf_id": "c43bfa3a8a524a07f96a",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 4101,
+      "end": 4225,
+      "score": 4.647439810053511e-05
+    },
+    {
+      "uid": "f56b13f81e183c293057",
+      "text": "The Markov Logic Network jointly predicts whether each token is a trigger word, and if yes, the class it belongs to; for each dependency edge, whether it is an argument path leading to a “theme” or a “cause”.",
+      "leaf_id": "c43bfa3a8a524a07f96a",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 4226,
+      "end": 4434,
+      "score": 4.9471590976326484e-05
+    },
+    {
+      "uid": "7157e47b3245e7b6e910",
+      "text": "By formulating the Event Extraction problem using an MLN, the approach becomes computationally feasible and only linear in the length of the sentence.",
+      "leaf_id": "c43bfa3a8a524a07f96a",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 4435,
+      "end": 4585,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "34a7e84626634859b54e",
+      "text": "They incorporate hard constraints to encode rules such as “an argument path must have an event”, “a cause path must start with a regulation event”, etc.",
+      "leaf_id": "c23f73e1111b9ef6f954",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 4586,
+      "end": 4738,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "908a99e7e9b14fa1391a",
+      "text": "In addition, they also include some domain specific soft constraints as well as some linguistically-motivated context-specific soft constraints.",
+      "leaf_id": "c23f73e1111b9ef6f954",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 4739,
+      "end": 4883,
+      "score": 1.750292578877821e-05
+    },
+    {
+      "uid": "76fd532c44941a2d1dad",
+      "text": "In order to train the MLN, stochastic gradient descent was used.",
+      "leaf_id": "c23f73e1111b9ef6f954",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 4884,
+      "end": 4948,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "ae07a5c699fb422980ec",
+      "text": "Certain heuristic methods are implemented in order to deal with errors due to syntactic parsing, especially ambiguities in PP-attachment and coordination.",
+      "leaf_id": "c23f73e1111b9ef6f954",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 4949,
+      "end": 5103,
+      "score": 2.2827997192887966e-05
+    },
+    {
+      "uid": "7457705c2e797e909a4a",
+      "text": "Their final system is competitive and comes very close to the system by BIBREF33 with an average F-Score of 50%.",
+      "leaf_id": "c23f73e1111b9ef6f954",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 5104,
+      "end": 5216,
+      "score": 1.8631746484712008e-05
+    },
+    {
+      "uid": "c56b02cddd3d2b1ab552",
+      "text": "To further improve the system, they suggest leveraging additional joint-inference opportunities and integrating the syntactic parser better.",
+      "leaf_id": "c23f73e1111b9ef6f954",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 5217,
+      "end": 5357,
+      "score": 1.68324105182435e-05
+    },
+    {
+      "uid": "81bb74489ea6ae55d9b2",
+      "text": "Some other more recent models for Biomedical Event Extraction include BIBREF37 , BIBREF38 .",
+      "leaf_id": "c23f73e1111b9ef6f954",
+      "section_id": "7d226ab76366d058f4c5",
+      "start": 5358,
+      "end": 5449,
+      "score": 2.5867431081354405e-05
+    },
+    {
+      "uid": "627208f2e726154b384a",
+      "text": "We have discussed some of the major problems and challenges in BioIE, and seen some of the diverse approaches adopted to solve them.",
+      "leaf_id": "90ae8550fb97d0307f98",
+      "section_id": "d4dfb2f82d65add1e9d7",
+      "start": 0,
+      "end": 132,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "f1cf737e815f9f2e828b",
+      "text": "Some interesting problems such as Pathway Extraction for Biological Systems BIBREF39 , BIBREF40 have not been discussed.",
+      "leaf_id": "90ae8550fb97d0307f98",
+      "section_id": "d4dfb2f82d65add1e9d7",
+      "start": 133,
+      "end": 253,
+      "score": 3.321419494792514e-05
+    },
+    {
+      "uid": "19c984193b472c620531",
+      "text": "Biomedical Information Extraction is a challenging and exciting field for NLP researchers that demands application of state-of-the-art methods.",
+      "leaf_id": "90ae8550fb97d0307f98",
+      "section_id": "d4dfb2f82d65add1e9d7",
+      "start": 254,
+      "end": 397,
+      "score": 0.0002715921327471337
+    },
+    {
+      "uid": "cdb5d12444badf3586ec",
+      "text": "Traditionally, there has been a dependence on hand-crafted features or heavily feature-engineered methods.",
+      "leaf_id": "90ae8550fb97d0307f98",
+      "section_id": "d4dfb2f82d65add1e9d7",
+      "start": 398,
+      "end": 504,
+      "score": 3.705296977158347e-05
+    },
+    {
+      "uid": "473dff62d2a1d33e3159",
+      "text": "However, with the advent of deep learning methods, a lot of BioIE tasks are seeing an improvement by adopting deep learning models such as Convolutional Neural Networks and LSTMs, which require minimal feature engineering.",
+      "leaf_id": "90ae8550fb97d0307f98",
+      "section_id": "d4dfb2f82d65add1e9d7",
+      "start": 505,
+      "end": 727,
+      "score": 0.00024346046497898514
+    },
+    {
+      "uid": "48802ce330ec5cd3667a",
+      "text": "Rapid progress in developing better systems for BioIE will be extremely helpful for clinicians and researchers in the Biomedical domain.",
+      "leaf_id": "90ae8550fb97d0307f98",
+      "section_id": "d4dfb2f82d65add1e9d7",
+      "start": 728,
+      "end": 864,
+      "score": 2.0623422291335766e-05
+    }
+  ],
+  "prepare_seconds": 1.3868062528781593,
+  "leaf_count": 23
+}

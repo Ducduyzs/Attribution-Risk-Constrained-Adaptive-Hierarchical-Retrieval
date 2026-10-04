@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific categories of online harassment that have been studied, including indirect harassment, sexual harassment, and physical harassment.",
+    "claims": [
+      {
+        "text": "The types of online harassment studied include indirect harassment, sexual harassment, and physical harassment.",
+        "citations": [
+          "C1",
+          "C7",
+          "C17"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Online harassment can be categorized into harassment and non-harassment tweets, with specific focus on different types of harassment.",
+        "citations": [
+          "C12",
+          "C23"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 2257,
+    "total_tokens": 2372,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.8964888000009523,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

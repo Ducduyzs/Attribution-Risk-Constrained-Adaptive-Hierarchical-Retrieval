@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a comprehensive overview of various types of offensive content explored in research, including hate speech, cyberbullying, aggression, and insults.",
+    "claims": [
+      {
+        "text": "Different kinds of offensive content include hate speech, cyberbullying, aggression, toxic comments, and insults.",
+        "citations": [
+          "C2",
+          "C4",
+          "C12"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Offensive content can be categorized into targeted insults (TIN) and untargeted profanity (UNT).",
+        "citations": [
+          "C23",
+          "C24"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Insults and threats can be directed at individuals or groups, often classified as hate speech.",
+        "citations": [
+          "C20",
+          "C21",
+          "C22"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 2262,
+    "total_tokens": 2423,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.397634000000835,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

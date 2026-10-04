@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Release of a data set",
+        "citations": [
+          "C1",
+          "C4",
+          "C6"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the authors prepared sets of documents for their experiments, suggesting that they have a data set available.",
+    "claims": [
+      {
+        "text": "The authors prepared five sets of documents for their experiments, indicating the release of a data set.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The methodology involves testing their approach on Wikipedia documents, which implies the use of a specific data set.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The paper addresses the task of segmenting unordered text documents, which suggests the availability of structured data sets for testing.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 1983,
+    "total_tokens": 2153,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2840170999988914,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

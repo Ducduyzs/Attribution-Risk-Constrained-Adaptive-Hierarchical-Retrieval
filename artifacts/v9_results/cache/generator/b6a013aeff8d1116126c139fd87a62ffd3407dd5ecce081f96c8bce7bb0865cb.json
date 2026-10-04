@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific evaluation criteria and metrics used to assess the generated text, including the word error rate (WER) and minimum edit evaluation.",
+    "claims": [
+      {
+        "text": "The evaluation metrics include the word error rate (WER), which measures the number of insertions, substitutions, and deletions compared to the reference text.",
+        "citations": [
+          "C7",
+          "C12"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Minimum edit evaluation is used, where only factual mistakes and grammatical errors are corrected, reflecting the effort needed to correct the generated output.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The evaluation also involves comparing generated text against multiple reference descriptions to obtain maximum scores.",
+        "citations": [
+          "C13",
+          "C14"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1225,
+    "total_tokens": 1388,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.160481599999912,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_05c1c400b7"
+}

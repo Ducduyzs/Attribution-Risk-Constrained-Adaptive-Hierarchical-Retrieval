@@ -1,0 +1,1151 @@
+{
+  "question_id": "a5e49cdb91d9fd0ca625cc1ede236d3d4672403c",
+  "source": "1809.09194.qasper",
+  "query": "What is the architecture of the span detector?",
+  "rankings": {
+    "flat24": [
+      [
+        "72f8bbdf2611d73e7e06",
+        0.2645483170144075
+      ],
+      [
+        "7ab9bdc532527c177538",
+        0.24835184311713518
+      ],
+      [
+        "7529ad81e211a0278185",
+        0.19238757527466332
+      ],
+      [
+        "a2a63efc5865da8cc104",
+        0.15495055655953552
+      ],
+      [
+        "d6c3813efb78ffcf76a9",
+        0.08464395813578095
+      ],
+      [
+        "25241ca0be7f7ffdf575",
+        0.07329727648874514
+      ],
+      [
+        "1db74feea56b6cb20cf7",
+        0.0018530593956144392
+      ],
+      [
+        "fc9faedb0c97b55fada1",
+        0.0011335690050875116
+      ],
+      [
+        "e9c98cf246379e15fd04",
+        0.0008072304985619872
+      ],
+      [
+        "56b36e5c082592905f8e",
+        0.0006190416612984411
+      ],
+      [
+        "175187d4acac4d2aef45",
+        0.00015720345248929426
+      ],
+      [
+        "137e28cc7ee77d0d1af6",
+        6.761842041375471e-05
+      ],
+      [
+        "ba3b0386c88abe2c5857",
+        4.006369222920724e-05
+      ],
+      [
+        "89b0b99f8d4bf96c019a",
+        1.7366719305164412e-05
+      ]
+    ],
+    "all_leaf": [
+      [
+        "72f8bbdf2611d73e7e06",
+        0.2645483170144075
+      ],
+      [
+        "7ab9bdc532527c177538",
+        0.24835184311713518
+      ],
+      [
+        "7529ad81e211a0278185",
+        0.19238757527466332
+      ],
+      [
+        "a2a63efc5865da8cc104",
+        0.15495055655953552
+      ],
+      [
+        "d6c3813efb78ffcf76a9",
+        0.08464395813578095
+      ],
+      [
+        "25241ca0be7f7ffdf575",
+        0.07329727648874514
+      ],
+      [
+        "1db74feea56b6cb20cf7",
+        0.0018530593956144392
+      ],
+      [
+        "fc9faedb0c97b55fada1",
+        0.0011335690050875116
+      ],
+      [
+        "e9c98cf246379e15fd04",
+        0.0008072304985619872
+      ],
+      [
+        "56b36e5c082592905f8e",
+        0.0006190416612984411
+      ],
+      [
+        "175187d4acac4d2aef45",
+        0.00015720345248929426
+      ],
+      [
+        "137e28cc7ee77d0d1af6",
+        6.761842041375471e-05
+      ],
+      [
+        "ba3b0386c88abe2c5857",
+        4.006369222920724e-05
+      ],
+      [
+        "89b0b99f8d4bf96c019a",
+        1.7366719305164412e-05
+      ]
+    ],
+    "contextual24": [
+      [
+        "7529ad81e211a0278185",
+        0.9084555967245085
+      ],
+      [
+        "7ab9bdc532527c177538",
+        0.8868130934598374
+      ],
+      [
+        "1db74feea56b6cb20cf7",
+        0.3357863185297045
+      ],
+      [
+        "72f8bbdf2611d73e7e06",
+        0.18286288290610314
+      ],
+      [
+        "a2a63efc5865da8cc104",
+        0.15739570810405196
+      ],
+      [
+        "d6c3813efb78ffcf76a9",
+        0.13229019513964763
+      ],
+      [
+        "25241ca0be7f7ffdf575",
+        0.0738297111013279
+      ],
+      [
+        "fc9faedb0c97b55fada1",
+        0.011288073899230987
+      ],
+      [
+        "ba3b0386c88abe2c5857",
+        0.00045831290063503817
+      ],
+      [
+        "e9c98cf246379e15fd04",
+        0.00045297581227789435
+      ],
+      [
+        "56b36e5c082592905f8e",
+        0.0003053489321118595
+      ],
+      [
+        "175187d4acac4d2aef45",
+        0.00020027376671813928
+      ],
+      [
+        "137e28cc7ee77d0d1af6",
+        0.0001852257432653108
+      ],
+      [
+        "89b0b99f8d4bf96c019a",
+        0.00013982207564732912
+      ]
+    ],
+    "contextual_all": [
+      [
+        "7529ad81e211a0278185",
+        0.9084555967245085
+      ],
+      [
+        "7ab9bdc532527c177538",
+        0.8868130934598374
+      ],
+      [
+        "1db74feea56b6cb20cf7",
+        0.3357863185297045
+      ],
+      [
+        "72f8bbdf2611d73e7e06",
+        0.18286288290610314
+      ],
+      [
+        "a2a63efc5865da8cc104",
+        0.15739570810405196
+      ],
+      [
+        "d6c3813efb78ffcf76a9",
+        0.13229019513964763
+      ],
+      [
+        "25241ca0be7f7ffdf575",
+        0.0738297111013279
+      ],
+      [
+        "fc9faedb0c97b55fada1",
+        0.011288073899230987
+      ],
+      [
+        "ba3b0386c88abe2c5857",
+        0.00045831290063503817
+      ],
+      [
+        "e9c98cf246379e15fd04",
+        0.00045297581227789435
+      ],
+      [
+        "56b36e5c082592905f8e",
+        0.0003053489321118595
+      ],
+      [
+        "175187d4acac4d2aef45",
+        0.00020027376671813928
+      ],
+      [
+        "137e28cc7ee77d0d1af6",
+        0.0001852257432653108
+      ],
+      [
+        "89b0b99f8d4bf96c019a",
+        0.00013982207564732912
+      ]
+    ],
+    "raptor": [
+      [
+        "72f8bbdf2611d73e7e06",
+        0.2645483170144075
+      ],
+      [
+        "7ab9bdc532527c177538",
+        0.24835184311713518
+      ],
+      [
+        "7529ad81e211a0278185",
+        0.19238757527466332
+      ],
+      [
+        "a2a63efc5865da8cc104",
+        0.15495055655953552
+      ],
+      [
+        "d6c3813efb78ffcf76a9",
+        0.08464395813578095
+      ],
+      [
+        "1db74feea56b6cb20cf7",
+        0.0018530593956144392
+      ],
+      [
+        "56b36e5c082592905f8e",
+        0.0006190416612984411
+      ],
+      [
+        "175187d4acac4d2aef45",
+        0.00015720345248929426
+      ],
+      [
+        "137e28cc7ee77d0d1af6",
+        6.761842041375471e-05
+      ],
+      [
+        "ba3b0386c88abe2c5857",
+        4.006369222920724e-05
+      ],
+      [
+        "89b0b99f8d4bf96c019a",
+        1.7366719305164412e-05
+      ]
+    ]
+  },
+  "initial_ids": [
+    "72f8bbdf2611d73e7e06",
+    "a2a63efc5865da8cc104",
+    "7ab9bdc532527c177538",
+    "25241ca0be7f7ffdf575",
+    "7529ad81e211a0278185",
+    "d6c3813efb78ffcf76a9",
+    "1db74feea56b6cb20cf7",
+    "fc9faedb0c97b55fada1",
+    "e9c98cf246379e15fd04",
+    "56b36e5c082592905f8e",
+    "137e28cc7ee77d0d1af6",
+    "ba3b0386c88abe2c5857",
+    "89b0b99f8d4bf96c019a",
+    "175187d4acac4d2aef45"
+  ],
+  "sentences": [
+    {
+      "uid": "ce1a7c94cd55ecd74675",
+      "text": "This paper presents an extension of the Stochastic Answer Network (SAN), one of the state-of-the-art machine reading comprehension models, to be able to judge whether a question is unanswerable or not.",
+      "leaf_id": "72f8bbdf2611d73e7e06",
+      "section_id": "0a9d9403cb3e549ba9c3",
+      "start": 0,
+      "end": 201,
+      "score": 0.00018378457000952213
+    },
+    {
+      "uid": "caa13102fe4b35570ad1",
+      "text": "The extended SAN contains two components: a span detector and a binary classifier for judging whether the question is unanswerable, and both components are jointly optimized.",
+      "leaf_id": "72f8bbdf2611d73e7e06",
+      "section_id": "0a9d9403cb3e549ba9c3",
+      "start": 202,
+      "end": 376,
+      "score": 0.2310932419250428
+    },
+    {
+      "uid": "8ffbd9d42a949479b493",
+      "text": "Experiments show that SAN achieves the results competitive to the state-of-the-art on Stanford Question Answering Dataset (SQuAD) 2.0.",
+      "leaf_id": "72f8bbdf2611d73e7e06",
+      "section_id": "0a9d9403cb3e549ba9c3",
+      "start": 377,
+      "end": 511,
+      "score": 4.037790297412686e-05
+    },
+    {
+      "uid": "4f41f7dd2a1ee98b50a3",
+      "text": "To facilitate the research on this field, we release our code: https://github.com/kevinduh/san_mrc.",
+      "leaf_id": "72f8bbdf2611d73e7e06",
+      "section_id": "0a9d9403cb3e549ba9c3",
+      "start": 512,
+      "end": 611,
+      "score": 7.967300986103147e-05
+    },
+    {
+      "uid": "3b346963f538859caeac",
+      "text": "Teaching machine to read and comprehend a given passage/paragraph and answer its corresponding questions is a challenging task.",
+      "leaf_id": "d6c3813efb78ffcf76a9",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 0,
+      "end": 127,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "57eae9cb70a7ec40439c",
+      "text": "It is also one of the long-term goals of natural language understanding, and has important applications in e.g., building intelligent agents for conversation and customer service support.",
+      "leaf_id": "d6c3813efb78ffcf76a9",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 128,
+      "end": 315,
+      "score": 1.9223170236538176e-05
+    },
+    {
+      "uid": "b75c5bfb7f73278c693f",
+      "text": "In a real world setting, it is necessary to judge whether the given questions are answerable given the available knowledge, and then generate correct answers for the ones which are able to infer an answer in the passage or an empty answer (as an unanswerable question) otherwise.",
+      "leaf_id": "d6c3813efb78ffcf76a9",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 316,
+      "end": 595,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "8e98386df87965b85de3",
+      "text": "In comparison with many existing MRC systems BIBREF0 , BIBREF1 , BIBREF2 , BIBREF3 , BIBREF4 , which extract answers by finding a sub-string in the passages/paragraphs, we propose a model that not only extracts answers but also predicts whether such an answer should exist.",
+      "leaf_id": "d6c3813efb78ffcf76a9",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 596,
+      "end": 869,
+      "score": 4.50445955990996e-05
+    },
+    {
+      "uid": "70143aaccfaefe8d9b22",
+      "text": "Using a multi-task learning approach (c.f.",
+      "leaf_id": "d6c3813efb78ffcf76a9",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 870,
+      "end": 912,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "d8f178f1e24d6d5b8069",
+      "text": "BIBREF5 ), we extend the Stochastic Answer Network (SAN) BIBREF1 for MRC answer span detector to include a classifier that whether the question is unanswerable.",
+      "leaf_id": "d6c3813efb78ffcf76a9",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 913,
+      "end": 1073,
+      "score": 0.07237401782055447
+    },
+    {
+      "uid": "e7a612b9404d3d9f06df",
+      "text": "The unanswerable classifier is a pair-wise classification model BIBREF6 which predicts a label indicating whether the given pair of a passage and a question is unanswerable.",
+      "leaf_id": "a2a63efc5865da8cc104",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 1074,
+      "end": 1247,
+      "score": 5.1845659107128626e-05
+    },
+    {
+      "uid": "cac1d121777441683baf",
+      "text": "The two models share the same lower layer to save the number of parameters, and separate the top layers for different tasks (the span detector and binary classifier).",
+      "leaf_id": "a2a63efc5865da8cc104",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 1248,
+      "end": 1414,
+      "score": 0.2286728342355607
+    },
+    {
+      "uid": "0b82cc79b332708a226a",
+      "text": "Our model is pretty simple and intuitive, yet efficient.",
+      "leaf_id": "a2a63efc5865da8cc104",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 1415,
+      "end": 1471,
+      "score": 7.254361823018916e-05
+    },
+    {
+      "uid": "e03de8ca7733cb4e2073",
+      "text": "Without relying on the large pre-trained language models (ELMo) BIBREF7 , the proposed model achieves competitive results to the state-of-the-art on Stanford Question Answering Dataset (SQuAD) 2.0.",
+      "leaf_id": "a2a63efc5865da8cc104",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 1472,
+      "end": 1669,
+      "score": 5.920916517463733e-05
+    },
+    {
+      "uid": "48e5b79a333d7c3f55bf",
+      "text": "The contribution of this work is summarized as follows.",
+      "leaf_id": "a2a63efc5865da8cc104",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 1670,
+      "end": 1725,
+      "score": 3.047914192507958e-05
+    },
+    {
+      "uid": "2553c4caac1b189e0a8e",
+      "text": "First, we propose a simple yet efficient model for MRC that handles unanswerable questions and is optimized jointly.",
+      "leaf_id": "a2a63efc5865da8cc104",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 1726,
+      "end": 1842,
+      "score": 8.547616611085637e-05
+    },
+    {
+      "uid": "cfc16b31961d26afb4ba",
+      "text": "Second, our model achieves competitive results on SQuAD v2.0.",
+      "leaf_id": "a2a63efc5865da8cc104",
+      "section_id": "d38872df2c433640fdf1",
+      "start": 1843,
+      "end": 1904,
+      "score": 0.0002653023768982879
+    },
+    {
+      "uid": "77419e2bf712427b0fc2",
+      "text": "The Machine Reading Comprehension is a task which takes a question INLINEFORM0 and a passage/paragraph INLINEFORM1 as inputs, and aims to find an answer span INLINEFORM2 in INLINEFORM3 .",
+      "leaf_id": "fc9faedb0c97b55fada1",
+      "section_id": "65228909f0d46584da2e",
+      "start": 0,
+      "end": 186,
+      "score": 0.0001881420755049546
+    },
+    {
+      "uid": "6ce5d75a58eaf69f7a0e",
+      "text": "We assume that if the question is answerable, the answer INLINEFORM4 exists in INLINEFORM5 as a contiguous text string; otherwise, INLINEFORM6 is an empty string indicating an unanswerable question.",
+      "leaf_id": "fc9faedb0c97b55fada1",
+      "section_id": "65228909f0d46584da2e",
+      "start": 187,
+      "end": 385,
+      "score": 1.7778551863194697e-05
+    },
+    {
+      "uid": "59dbe8dae441a83259f9",
+      "text": "Note that to handle the unanswerable questions, we manually append a dumpy text string NULL at the end of each corresponding passage/paragraph.",
+      "leaf_id": "fc9faedb0c97b55fada1",
+      "section_id": "65228909f0d46584da2e",
+      "start": 386,
+      "end": 529,
+      "score": 1.9223170236538176e-05
+    },
+    {
+      "uid": "f004bc084fb565d15980",
+      "text": "Formally, the answer is formulated as INLINEFORM7 .",
+      "leaf_id": "fc9faedb0c97b55fada1",
+      "section_id": "65228909f0d46584da2e",
+      "start": 530,
+      "end": 581,
+      "score": 0.0001511819932727333
+    },
+    {
+      "uid": "e816bf22119f2c784bfe",
+      "text": "In case of unanswerable questions, INLINEFORM8 points to the last token of the passage.",
+      "leaf_id": "fc9faedb0c97b55fada1",
+      "section_id": "65228909f0d46584da2e",
+      "start": 582,
+      "end": 669,
+      "score": 1.723157275214239e-05
+    },
+    {
+      "uid": "9e118e5fcc2b7a0ead9b",
+      "text": "Our model is a variation of SAN BIBREF1 , as shown in Figure FIGREF2 .",
+      "leaf_id": "fc9faedb0c97b55fada1",
+      "section_id": "65228909f0d46584da2e",
+      "start": 670,
+      "end": 740,
+      "score": 0.00011147903794271353
+    },
+    {
+      "uid": "f0fa8adc6d9600057645",
+      "text": "The main difference is the additional binary classifier added in the model justifying whether the question is unanswerable.",
+      "leaf_id": "fc9faedb0c97b55fada1",
+      "section_id": "65228909f0d46584da2e",
+      "start": 741,
+      "end": 864,
+      "score": 0.00014653129390717958
+    },
+    {
+      "uid": "f1c37ce7dc50c482968e",
+      "text": "Roughly, the model includes two different layers: the shared layer and task specific layer.",
+      "leaf_id": "fc9faedb0c97b55fada1",
+      "section_id": "65228909f0d46584da2e",
+      "start": 865,
+      "end": 956,
+      "score": 0.00041406952838583545
+    },
+    {
+      "uid": "0cb2934f28c9b4cb31f9",
+      "text": "The shared layer is almost identical to the lower layers of SAN, which has a lexicon encoding layer, a contextual layer and a memory generation layer.",
+      "leaf_id": "fc9faedb0c97b55fada1",
+      "section_id": "65228909f0d46584da2e",
+      "start": 957,
+      "end": 1107,
+      "score": 0.00154876109428798
+    },
+    {
+      "uid": "d2ac68802588c67c08e6",
+      "text": "On top of it, there are different answer modules for different tasks.",
+      "leaf_id": "7ab9bdc532527c177538",
+      "section_id": "65228909f0d46584da2e",
+      "start": 1108,
+      "end": 1177,
+      "score": 2.5071593847983193e-05
+    },
+    {
+      "uid": "f699a132886071a85fcb",
+      "text": "We employ the SAN answer module for the span detector and a one-layer feed forward neural network for the binary classification task.",
+      "leaf_id": "7ab9bdc532527c177538",
+      "section_id": "65228909f0d46584da2e",
+      "start": 1178,
+      "end": 1311,
+      "score": 0.3928608010227103
+    },
+    {
+      "uid": "5a49107060e4ad57e6ab",
+      "text": "It can also be viewed as a multi-task learning BIBREF8 , BIBREF5 , BIBREF9 .",
+      "leaf_id": "7ab9bdc532527c177538",
+      "section_id": "65228909f0d46584da2e",
+      "start": 1312,
+      "end": 1388,
+      "score": 9.098840359922044e-05
+    },
+    {
+      "uid": "44d3acf59de429c79784",
+      "text": "We will briefly describe the model from ground up as follows.",
+      "leaf_id": "7ab9bdc532527c177538",
+      "section_id": "65228909f0d46584da2e",
+      "start": 1389,
+      "end": 1450,
+      "score": 0.00033015272509780104
+    },
+    {
+      "uid": "921e77fe108ce8d66459",
+      "text": "Detailed descriptions can be found in BIBREF1 .",
+      "leaf_id": "7ab9bdc532527c177538",
+      "section_id": "65228909f0d46584da2e",
+      "start": 1451,
+      "end": 1498,
+      "score": 7.905303859378796e-05
+    },
+    {
+      "uid": "fa07b8d63d1b55941fa0",
+      "text": "Lexicon Encoding Layer.",
+      "leaf_id": "7ab9bdc532527c177538",
+      "section_id": "65228909f0d46584da2e",
+      "start": 1499,
+      "end": 1522,
+      "score": 1.644249455985452e-05
+    },
+    {
+      "uid": "ac9d842ef746547d59c6",
+      "text": "We map the symbolic/surface feature of INLINEFORM0 and INLINEFORM1 into neural space via word embeddings , 16-dim part-of-speech (POS) tagging embeddings, 8-dim named-entity embeddings and 4-dim hard-rule features.",
+      "leaf_id": "7ab9bdc532527c177538",
+      "section_id": "65228909f0d46584da2e",
+      "start": 1523,
+      "end": 1737,
+      "score": 0.0001559802763374382
+    },
+    {
+      "uid": "03b442cebf13f9d794d1",
+      "text": "Note that we use small embedding size of POS and NER to reduce model size and they mainly serve the role of coarse-grained word clusters.",
+      "leaf_id": "7ab9bdc532527c177538",
+      "section_id": "65228909f0d46584da2e",
+      "start": 1738,
+      "end": 1875,
+      "score": 0.00014539114412297376
+    },
+    {
+      "uid": "e72f3a9070319e0d0c77",
+      "text": "Additionally, we use question enhanced passages word embeddings which can viewwed as soft matching between questions and passages.",
+      "leaf_id": "7ab9bdc532527c177538",
+      "section_id": "65228909f0d46584da2e",
+      "start": 1876,
+      "end": 2006,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "e2370213ce1051f1a439",
+      "text": "At last, we use two separate two-layer position-wise Feed-Forward Networks (FFN) BIBREF11 , BIBREF1 to map both question and passage encodings into the same dimension.",
+      "leaf_id": "89b0b99f8d4bf96c019a",
+      "section_id": "65228909f0d46584da2e",
+      "start": 2007,
+      "end": 2174,
+      "score": 0.000251186788490731
+    },
+    {
+      "uid": "6bf277917e2bd42470a5",
+      "text": "As results, we obtain the final lexicon embeddings for the tokens for INLINEFORM2 as a matrix INLINEFORM3 , and tokens in INLINEFORM4 as INLINEFORM5 .",
+      "leaf_id": "89b0b99f8d4bf96c019a",
+      "section_id": "65228909f0d46584da2e",
+      "start": 2175,
+      "end": 2325,
+      "score": 2.5666134302273185e-05
+    },
+    {
+      "uid": "8195c30683ffee2de8a7",
+      "text": "Contextual Encoding Layer.",
+      "leaf_id": "89b0b99f8d4bf96c019a",
+      "section_id": "65228909f0d46584da2e",
+      "start": 2326,
+      "end": 2352,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "339e5fd0c4bba55ef733",
+      "text": "A shared two-layers BiLSTM is used on the top to encode the contextual information of both passages and questions.",
+      "leaf_id": "89b0b99f8d4bf96c019a",
+      "section_id": "65228909f0d46584da2e",
+      "start": 2353,
+      "end": 2467,
+      "score": 0.00018961741228916415
+    },
+    {
+      "uid": "4fc7d8e0e2ae132a5d04",
+      "text": "To avoid overfitting, we concatenate a pre-trained 600-dimensional CoVe vectors BIBREF12 trained on German-English machine translation dataset, with the aforementioned lexicon embeddings as the final input of the contextual encoding layer, and also with the output of the first contextual encoding layer as the input of its second encoding layer.",
+      "leaf_id": "89b0b99f8d4bf96c019a",
+      "section_id": "65228909f0d46584da2e",
+      "start": 2468,
+      "end": 2814,
+      "score": 6.253713366019793e-05
+    },
+    {
+      "uid": "c9fff2b5bf3892521abb",
+      "text": "Thus, we obtain the final representation of the contextual encoding layer by a concatenation of the outputs of two BiLSTM: INLINEFORM0 for questions and INLINEFORM1 for passages.",
+      "leaf_id": "89b0b99f8d4bf96c019a",
+      "section_id": "65228909f0d46584da2e",
+      "start": 2815,
+      "end": 2993,
+      "score": 4.98595821272702e-05
+    },
+    {
+      "uid": "0d9f72e4044d222df361",
+      "text": "Memory Generation Layer.",
+      "leaf_id": "89b0b99f8d4bf96c019a",
+      "section_id": "65228909f0d46584da2e",
+      "start": 2994,
+      "end": 3018,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "d9aad871e7e1594e198d",
+      "text": "In this layer, we generate a working memory by fusing information from both passages INLINEFORM0 and questions INLINEFORM1 .",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 3019,
+      "end": 3143,
+      "score": 2.43002407432796e-05
+    },
+    {
+      "uid": "bf1b35c7f15c5c058478",
+      "text": "The attention function BIBREF11 is used to compute the similarity score between passages and questions as: INLINEFORM2 Note that INLINEFORM0 and INLINEFORM1 is transformed from INLINEFORM2 and INLINEFORM3 by one layer neural network INLINEFORM4 , respectively.",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 3144,
+      "end": 3404,
+      "score": 4.037790297412686e-05
+    },
+    {
+      "uid": "998a3e5fb62814f1f6f5",
+      "text": "A question-aware passage representation is computed as INLINEFORM5 .",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 3405,
+      "end": 3473,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "da4878cdc6397eafdd49",
+      "text": "After that, we use the method of BIBREF13 to apply self attention to the passage: INLINEFORM6 where INLINEFORM0 means that we only drop diagonal elements on the similarity matrix (i.e., attention with itself).",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 3474,
+      "end": 3683,
+      "score": 2.7535691114583473e-05
+    },
+    {
+      "uid": "bebce68206c66abe8ce8",
+      "text": "At last, INLINEFORM1 and INLINEFORM2 are concatenated and are passed through a BiLSTM to form the final memory: INLINEFORM3 .",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 3684,
+      "end": 3809,
+      "score": 0.0003541936514549752
+    },
+    {
+      "uid": "60b79f4b45f0baab0380",
+      "text": "Span detector.",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 3810,
+      "end": 3824,
+      "score": 0.8640812326182415
+    },
+    {
+      "uid": "e0d5e8ae2c85005eee3c",
+      "text": "We adopt a multi-turn answer module for the span detector BIBREF1 .",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 3825,
+      "end": 3892,
+      "score": 0.10932483007763893
+    },
+    {
+      "uid": "15a7567524ae03f8e55b",
+      "text": "Formally, at time step INLINEFORM0 in the range of INLINEFORM1 , the state is defined by INLINEFORM2 .",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 3893,
+      "end": 3995,
+      "score": 4.7206228829964175e-05
+    },
+    {
+      "uid": "0bb55a1d6fe185095030",
+      "text": "The initial state INLINEFORM3 is the summary of the INLINEFORM4 : INLINEFORM5 , where INLINEFORM6 .",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 3996,
+      "end": 4095,
+      "score": 0.00013238186559744397
+    },
+    {
+      "uid": "5ce48834474fbafbb5da",
+      "text": "Here, INLINEFORM7 is computed from the previous state INLINEFORM8 and memory INLINEFORM9 : INLINEFORM10 and INLINEFORM11 .",
+      "leaf_id": "7529ad81e211a0278185",
+      "section_id": "65228909f0d46584da2e",
+      "start": 4096,
+      "end": 4218,
+      "score": 7.197911994931084e-05
+    },
+    {
+      "uid": "d1f03daaa6d1e2c1eedf",
+      "text": "Finally, a bilinear function is used to find the begin and end point of answer spans at each reasoning step INLINEFORM12 : DISPLAYFORM0 DISPLAYFORM1 The final prediction is the average of each time step: INLINEFORM0 .",
+      "leaf_id": "1db74feea56b6cb20cf7",
+      "section_id": "65228909f0d46584da2e",
+      "start": 4219,
+      "end": 4436,
+      "score": 0.0009110511944006454
+    },
+    {
+      "uid": "cb00f8555189a38664d2",
+      "text": "We randomly apply dropout on the step level in each time step during training, as done in BIBREF1 .",
+      "leaf_id": "1db74feea56b6cb20cf7",
+      "section_id": "65228909f0d46584da2e",
+      "start": 4437,
+      "end": 4536,
+      "score": 2.3007035274670075e-05
+    },
+    {
+      "uid": "df1113340bd8b67685d3",
+      "text": "Unanswerable classifier.",
+      "leaf_id": "1db74feea56b6cb20cf7",
+      "section_id": "65228909f0d46584da2e",
+      "start": 4537,
+      "end": 4561,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "9953c7cc045ac91df2c6",
+      "text": "We adopt a one-layer neural network as our unanswerable binary classifier: DISPLAYFORM0 , where INLINEFORM0 is the summary of the memory: INLINEFORM1 , where INLINEFORM2 .",
+      "leaf_id": "1db74feea56b6cb20cf7",
+      "section_id": "65228909f0d46584da2e",
+      "start": 4562,
+      "end": 4733,
+      "score": 0.00020825010519232145
+    },
+    {
+      "uid": "83b00954e4401a94fb5d",
+      "text": "INLINEFORM3 denotes the probability of the question which is unanswerable.",
+      "leaf_id": "1db74feea56b6cb20cf7",
+      "section_id": "65228909f0d46584da2e",
+      "start": 4734,
+      "end": 4808,
+      "score": 2.336933489472016e-05
+    },
+    {
+      "uid": "a9a8c15b22b570f2c6e9",
+      "text": "Objective The objective function of the joint model has two parts: DISPLAYFORM0 Following BIBREF0 , the span loss function is defined: DISPLAYFORM0 The objective function of the binary classifier is defined: DISPLAYFORM0 where INLINEFORM0 is a binary variable: INLINEFORM1 indicates the question is unanswerable and INLINEFORM2 denotes the question is answerable.",
+      "leaf_id": "1db74feea56b6cb20cf7",
+      "section_id": "65228909f0d46584da2e",
+      "start": 4809,
+      "end": 5172,
+      "score": 0.0013458604012970923
+    },
+    {
+      "uid": "3ae9bfbf3ce1f67ceb60",
+      "text": "We evaluate our system on SQuAD 2.0 dataset BIBREF14 , a new MRC dataset which is a combination of Stanford Question Answering Dataset (SQuAD) 1.0 BIBREF15 and additional unanswerable question-answer pairs.",
+      "leaf_id": "137e28cc7ee77d0d1af6",
+      "section_id": "3d7babfdaf846d03d682",
+      "start": 0,
+      "end": 206,
+      "score": 7.722191834067996e-05
+    },
+    {
+      "uid": "0b7e082c2becc0410a4e",
+      "text": "The answerable pairs are around 100K; while the unanswerable questions are around 53K.",
+      "leaf_id": "137e28cc7ee77d0d1af6",
+      "section_id": "3d7babfdaf846d03d682",
+      "start": 207,
+      "end": 293,
+      "score": 1.848675576370609e-05
+    },
+    {
+      "uid": "02746212a97fcca08430",
+      "text": "This dataset contains about 23K passages and they come from approximately 500 Wikipedia articles.",
+      "leaf_id": "137e28cc7ee77d0d1af6",
+      "section_id": "3d7babfdaf846d03d682",
+      "start": 294,
+      "end": 391,
+      "score": 1.606161070132327e-05
+    },
+    {
+      "uid": "9212514cafb54bfce11c",
+      "text": "All the questions and answers are obtained by crowd-sourcing.",
+      "leaf_id": "137e28cc7ee77d0d1af6",
+      "section_id": "3d7babfdaf846d03d682",
+      "start": 392,
+      "end": 453,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "37671890d4c1eed2eb0f",
+      "text": "Two evaluation metrics are used: Exact Match (EM) and Macro-averaged F1 score (F1) BIBREF14 .",
+      "leaf_id": "137e28cc7ee77d0d1af6",
+      "section_id": "3d7babfdaf846d03d682",
+      "start": 454,
+      "end": 547,
+      "score": 4.1335397768930325e-05
+    },
+    {
+      "uid": "11f7d4023e918c5bffcf",
+      "text": "We utilize spaCy tool to tokenize the both passages and questions, and generate lemma, part-of-speech and named entity tags.",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 0,
+      "end": 124,
+      "score": 2.0623422291335766e-05
+    },
+    {
+      "uid": "345640f7d3c2263ae77c",
+      "text": "The word embeddings are initialized with pre-trained 300-dimensional GloVe BIBREF10 .",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 125,
+      "end": 210,
+      "score": 7.426381280268496e-05
+    },
+    {
+      "uid": "161a9660fd51083e93e0",
+      "text": "A 2-layer BiLSTM is used encoding the contextual information of both questions and passages.",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 211,
+      "end": 303,
+      "score": 0.00012053648825760123
+    },
+    {
+      "uid": "9ffd38df3ccb5540d576",
+      "text": "Regarding the hidden size of our model, we search greedily among INLINEFORM0 .",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 304,
+      "end": 382,
+      "score": 5.025061602588551e-05
+    },
+    {
+      "uid": "d41dd149c564acce6646",
+      "text": "During training, Adamax BIBREF16 is used as our optimizer.",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 383,
+      "end": 441,
+      "score": 2.863255694172923e-05
+    },
+    {
+      "uid": "eba986627fffd7e35c89",
+      "text": "The min-batch size is set to 32.",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 442,
+      "end": 474,
+      "score": 8.750299760661308e-05
+    },
+    {
+      "uid": "617affd8668435d905e5",
+      "text": "The learning rate is initialized to 0.002 and it is halved after every 10 epochs.",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 475,
+      "end": 556,
+      "score": 6.709224499600876e-05
+    },
+    {
+      "uid": "f927a5545292cbadae65",
+      "text": "The dropout rate is set to 0.1.",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 557,
+      "end": 588,
+      "score": 1.6314540139585704e-05
+    },
+    {
+      "uid": "ecaea531c7bb9dd41f16",
+      "text": "To prevent overfitting, we also randomly set 0.5% words in both passages and questions as unknown words during the training.",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 589,
+      "end": 713,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "443a0b7b1f88c8e36ee8",
+      "text": "Here, we use a special token unk to indicate a word which doesn't appear in GloVe.",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 714,
+      "end": 796,
+      "score": 1.6187581436151334e-05
+    },
+    {
+      "uid": "966f16b9fcd1451e7a0b",
+      "text": "INLINEFORM1 in Eq EQREF9 is set to 1.",
+      "leaf_id": "ba3b0386c88abe2c5857",
+      "section_id": "0e66bfce07f2e8433b59",
+      "start": 797,
+      "end": 834,
+      "score": 1.8058518261159955e-05
+    },
+    {
+      "uid": "5c72b87d6f5d2f5a827c",
+      "text": "We would like to investigate effectiveness the proposed joint model.",
+      "leaf_id": "e9c98cf246379e15fd04",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 0,
+      "end": 68,
+      "score": 1.696442651054333e-05
+    },
+    {
+      "uid": "3afd8ffb8310d94d37c4",
+      "text": "To do so, the same shared layer/architecture is employed in the following variants of the proposed model: The results in terms of EM and F1 is summarized in Table TABREF20 .",
+      "leaf_id": "e9c98cf246379e15fd04",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 69,
+      "end": 242,
+      "score": 0.0026730060327886528
+    },
+    {
+      "uid": "c2c987519279a009d0d4",
+      "text": "We observe that Joint SAN outperforms the SAN baseline with a large margin, e.g., 67.89 vs 69.27 (+1.38) and 70.68 vs 72.20 (+1.52) in terms of EM and F1 scores respectively, so it demonstrates the effectiveness of the joint optimization.",
+      "leaf_id": "e9c98cf246379e15fd04",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 243,
+      "end": 481,
+      "score": 0.00012148175280558357
+    },
+    {
+      "uid": "bd155871846dda0593d9",
+      "text": "By incorporating the output information of classifier into Joint SAN, it obtains a slight improvement, e.g., 72.2 vs 72.66 (+0.46) in terms of F1 score.",
+      "leaf_id": "e9c98cf246379e15fd04",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 482,
+      "end": 634,
+      "score": 0.0002148592528014818
+    },
+    {
+      "uid": "c633597ef14482e119f2",
+      "text": "By analyzing the results, we found that in most cases when our model extract an NULL string answer, the classifier also predicts it as an unanswerable question with a high probability.",
+      "leaf_id": "e9c98cf246379e15fd04",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 635,
+      "end": 819,
+      "score": 2.144494842091395e-05
+    },
+    {
+      "uid": "6d2d9ce17dc721e295b5",
+      "text": "Table TABREF21 reports comparison results in literature published .",
+      "leaf_id": "e9c98cf246379e15fd04",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 820,
+      "end": 887,
+      "score": 2.229919899951376e-05
+    },
+    {
+      "uid": "413189f90f89d0544a91",
+      "text": "Our model achieves state-of-the-art on development dataset in setting without pre-trained large language model (ELMo).",
+      "leaf_id": "e9c98cf246379e15fd04",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 888,
+      "end": 1006,
+      "score": 3.822911232549001e-05
+    },
+    {
+      "uid": "8d85d0e783b582d437e7",
+      "text": "Comparing with the much complicated model R.M.-Reader + Verifier, which includes several components, our model still outperforms by 0.7 in terms of F1 score.",
+      "leaf_id": "25241ca0be7f7ffdf575",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 1007,
+      "end": 1164,
+      "score": 0.00020988308820313111
+    },
+    {
+      "uid": "d7263120f5929a90471d",
+      "text": "Furthermore, we observe that ELMo gives a great boosting on the performance, e.g., 2.8 points in terms of F1 for DocQA.",
+      "leaf_id": "25241ca0be7f7ffdf575",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 1165,
+      "end": 1284,
+      "score": 3.2699273422345684e-05
+    },
+    {
+      "uid": "9fcd5e65657883ce9285",
+      "text": "This encourages us to incorporate ELMo into our model in future.",
+      "leaf_id": "25241ca0be7f7ffdf575",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 1285,
+      "end": 1349,
+      "score": 2.1278066059305977e-05
+    },
+    {
+      "uid": "b1adef524541a66af864",
+      "text": "Analysis.",
+      "leaf_id": "25241ca0be7f7ffdf575",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 1350,
+      "end": 1359,
+      "score": 0.00011061159714638083
+    },
+    {
+      "uid": "d1b475cb019892385545",
+      "text": "To better understand our model, we analyze the accuracy of the classifier in our joint model.",
+      "leaf_id": "25241ca0be7f7ffdf575",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 1360,
+      "end": 1453,
+      "score": 4.794958311981737e-05
+    },
+    {
+      "uid": "02ae48cf7ce20ab70707",
+      "text": "We obtain 75.3 classification accuracy on the development with the threshold 0.5.",
+      "leaf_id": "25241ca0be7f7ffdf575",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 1454,
+      "end": 1535,
+      "score": 3.8831109868779e-05
+    },
+    {
+      "uid": "a3ddd2044851cac816a7",
+      "text": "By increasing value of INLINEFORM0 in Eq EQREF9 , the classification accuracy reached to 76.8 ( INLINEFORM1 ), however the final results of our model only have a small improvement (+0.2 in terms of F1 score).",
+      "leaf_id": "25241ca0be7f7ffdf575",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 1536,
+      "end": 1744,
+      "score": 8.092757566536091e-05
+    },
+    {
+      "uid": "1b74c29851aedb08b2b8",
+      "text": "It shows that it is important to make balance between these two components: the span detector and unanswerable classifier.",
+      "leaf_id": "25241ca0be7f7ffdf575",
+      "section_id": "a15d20ec1739152f8a68",
+      "start": 1745,
+      "end": 1867,
+      "score": 0.04922211319719861
+    },
+    {
+      "uid": "1fba04d0851bb6b775a8",
+      "text": "To sum up, we proposed a simple yet efficient model based on SAN.",
+      "leaf_id": "56b36e5c082592905f8e",
+      "section_id": "e512eab771ff406be18f",
+      "start": 0,
+      "end": 65,
+      "score": 0.0003682979260160596
+    },
+    {
+      "uid": "8e08665fca686e71b5f4",
+      "text": "It showed that the joint learning algorithm boosted the performance on SQuAD 2.0.",
+      "leaf_id": "56b36e5c082592905f8e",
+      "section_id": "e512eab771ff406be18f",
+      "start": 66,
+      "end": 147,
+      "score": 0.0004840624262921748
+    },
+    {
+      "uid": "fbef62b757213c86035b",
+      "text": "We also would like to incorporate ELMo into our model in future.",
+      "leaf_id": "56b36e5c082592905f8e",
+      "section_id": "e512eab771ff406be18f",
+      "start": 148,
+      "end": 212,
+      "score": 2.1782649863110498e-05
+    },
+    {
+      "uid": "710279349d7880ab854c",
+      "text": "We thank Yichong Xu, Shuohang Wang and Sheng Zhang for valuable discussions and comments.",
+      "leaf_id": "175187d4acac4d2aef45",
+      "section_id": "325b19fbadcc036cdd13",
+      "start": 0,
+      "end": 89,
+      "score": 1.709747788183539e-05
+    },
+    {
+      "uid": "ea6a949259bc260a41f2",
+      "text": "We also thank Robin Jia for the help on SQuAD evaluations.",
+      "leaf_id": "175187d4acac4d2aef45",
+      "section_id": "325b19fbadcc036cdd13",
+      "start": 90,
+      "end": 148,
+      "score": 0.00010975090534032795
+    }
+  ],
+  "prepare_seconds": 0.8961088922806084,
+  "leaf_count": 14
+}

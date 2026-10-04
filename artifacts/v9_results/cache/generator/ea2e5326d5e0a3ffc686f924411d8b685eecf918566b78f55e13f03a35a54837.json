@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a comprehensive overview of various types of offensive content explored in social media, including hate speech, cyberbullying, aggression, and insults, as well as the categorization of these offenses based on their targets and nature.",
+    "claims": [
+      {
+        "text": "Offensive content includes hate speech, cyberbullying, aggression, and toxic comments.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Offensive language can be categorized into targeted insults, untargeted profanity, and threats.",
+        "citations": [
+          "C4",
+          "C10"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Targets of offensive content can be individuals, groups, or other entities.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 2242,
+    "total_tokens": 2400,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2687127999997756,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_94ff9edbd5"
+}

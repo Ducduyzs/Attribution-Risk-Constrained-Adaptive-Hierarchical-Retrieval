@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the authors believe general knowledge contributes to human robustness to noise in reading comprehension tasks.",
+    "claims": [
+      {
+        "text": "The authors imply that general knowledge is essential for the reading comprehension ability of human beings, which relates to their robustness to noise.",
+        "citations": [
+          "C7",
+          "C13"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The integration of general knowledge into MRC models is proposed as a way to bridge the gap between machine and human performance, indicating its importance in handling noise.",
+        "citations": [
+          "C1",
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 1198,
+    "total_tokens": 1322,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.12191890000031,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_582c5eeeb7"
+}

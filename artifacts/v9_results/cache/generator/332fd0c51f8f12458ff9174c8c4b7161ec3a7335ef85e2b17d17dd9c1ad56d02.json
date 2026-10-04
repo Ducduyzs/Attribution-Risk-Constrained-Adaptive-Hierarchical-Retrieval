@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the models primarily consider adjacent mentions for efficiency, but also utilize surrounding context and neighbor mentions for improved disambiguation.",
+    "claims": [
+      {
+        "text": "The NCEL model primarily considers adjacent mentions for computational efficiency.",
+        "citations": [
+          "C1",
+          "C2",
+          "C5",
+          "C11"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Neighbor mentions, which can include non-adjacent mentions, are used to enhance disambiguation.",
+        "citations": [
+          "C12",
+          "C19",
+          "C32"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 2280,
+    "total_tokens": 2396,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.31552880000163,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

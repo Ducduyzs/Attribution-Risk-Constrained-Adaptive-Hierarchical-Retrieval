@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific language pairs explored in the context of multilingual neural machine translation (MNMT) and zero-shot translation scenarios.",
+    "claims": [
+      {
+        "text": "The explored language pairs include Arabic, Spanish, and Russian, which can translate mutually among themselves, resulting in six zero-shot translation directions.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Europarl corpus evaluates translation among French, English, and Spanish, as well as German and Romanian with English as the pivot language.",
+        "citations": [
+          "C10"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The distant language pair Romanian to German (Ro→De) is specifically mentioned as part of the evaluation process.",
+        "citations": [
+          "C11"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 1221,
+    "total_tokens": 1380,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9929830000000948,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

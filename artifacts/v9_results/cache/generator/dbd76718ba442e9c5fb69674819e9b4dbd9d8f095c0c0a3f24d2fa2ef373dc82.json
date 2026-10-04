@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a model that structures unordered documents using keyword extraction and sentence relevance mapping.",
+    "claims": [
+      {
+        "text": "The model uses a keyword extraction algorithm, specifically TextRank, to identify keywords from unordered documents.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model employs Google's Universal Sentence Encoder (USE) to calculate the similarity between keywords and sentences.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed model is designed to structure unordered documents into sections based on identified keywords.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 636,
+    "total_tokens": 770,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.217932199997449,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

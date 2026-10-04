@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The dataset was collected using a combination of validated speech recordings from the Common Voice corpus and aligned sentences from the Tatoeba corpus, ensuring a diverse representation of speakers and accents.",
+    "claims": [
+      {
+        "text": "CoVoST was built using validated voice clips from the Common Voice corpus, which are recorded by contributors reading from a bank of donated sentences.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "An evaluation set was constructed from the Tatoeba corpus, which includes aligned sentences across multiple languages and corresponding speech.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The dataset includes contributions from over 11,000 speakers and features more than 60 accents, ensuring diversity in the speech data.",
+        "citations": [
+          "C1",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 1960,
+    "total_tokens": 2132,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3870658000014373,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

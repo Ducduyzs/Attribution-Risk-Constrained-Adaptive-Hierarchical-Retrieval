@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the authors focus on scientific summarization, specifically using biomedical journal articles, which implies that their results are not limited to English data only.",
+    "claims": [
+      {
+        "text": "The authors evaluate summarization metrics using a benchmark that consists of biomedical journal articles, which may not be exclusively in English.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The study discusses the effectiveness of summarization metrics in scientific contexts, suggesting a broader application beyond just English data.",
+        "citations": [
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 1840,
+    "total_tokens": 1962,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.111525000000256,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

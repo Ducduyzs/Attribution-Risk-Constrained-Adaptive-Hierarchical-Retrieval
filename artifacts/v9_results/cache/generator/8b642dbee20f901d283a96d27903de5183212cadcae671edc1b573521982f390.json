@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes a model that utilizes keyword extraction and sentence similarity metrics for document structuring.",
+    "claims": [
+      {
+        "text": "The model uses a keyword extraction algorithm, specifically TextRank, to identify keywords from the input document.",
+        "citations": [
+          "C2",
+          "C23",
+          "C30"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model employs a graph-based approach to map sentences to keywords based on similarity metrics.",
+        "citations": [
+          "C13",
+          "C39"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model is designed to structure unstructured documents by clustering sentences around extracted keywords.",
+        "citations": [
+          "C6",
+          "C41"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 2265,
+    "total_tokens": 2405,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.9150301000008767,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

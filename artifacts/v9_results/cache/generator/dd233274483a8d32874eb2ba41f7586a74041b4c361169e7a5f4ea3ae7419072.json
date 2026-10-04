@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "exploration of extraction from electronic health records",
+        "citations": [
+          "C1"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence indicates that the paper discusses BioIE systems that extract information from electronic health records among other sources.",
+    "claims": [
+      {
+        "text": "The paper explores extraction from electronic health records as part of BioIE systems.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 1391,
+    "total_tokens": 1479,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3326701000005414,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_af7019a585"
+}

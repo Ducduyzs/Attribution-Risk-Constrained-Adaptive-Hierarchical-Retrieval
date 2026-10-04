@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the baseline models and architectures used in the study, specifically mentioning the Jasper architecture as a baseline for further exploration.",
+    "claims": [
+      {
+        "text": "The Jasper architecture serves as a good baseline approach for exploring more sophisticated techniques in automatic speech recognition.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The training data for the models included the 2000hr Fisher+Switchboard dataset, which is a standard baseline in ASR research.",
+        "citations": [
+          "C17"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The study compares the performance of models trained using the same data, reporting results on the Hub5'00 benchmark, which is a common baseline in ASR.",
+        "citations": [
+          "C16",
+          "C37"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 2269,
+    "total_tokens": 2435,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.5976934999998775,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

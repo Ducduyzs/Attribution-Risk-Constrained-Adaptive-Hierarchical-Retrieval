@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "datasets used in experiments",
+        "citations": [
+          "C2",
+          "C4",
+          "C7"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence specifies the datasets used in the experiments, namely Europarl and MultiUN.",
+    "claims": [
+      {
+        "text": "The datasets used in the experiments are Europarl and MultiUN.",
+        "citations": [
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 824,
+    "total_tokens": 913,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.1741537999987486,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

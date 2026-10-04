@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that G-BERT is designed for medication recommendation but also indicates potential for broader applications in healthcare by adapting to larger datasets and incorporating auxiliary tasks.",
+    "claims": [
+      {
+        "text": "G-BERT can be adapted for larger datasets and more heterogeneous modalities, indicating its potential usefulness beyond the initial task of medication recommendation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Future work may involve adding auxiliary tasks to improve G-BERT's capabilities, suggesting it could be useful for other predictive healthcare applications.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 2207,
+    "total_tokens": 2332,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.754727900002763,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_8b33991d55"
+}

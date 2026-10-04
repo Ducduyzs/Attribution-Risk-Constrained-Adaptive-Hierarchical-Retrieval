@@ -1,0 +1,79 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Dataset creation methodology",
+        "citations": [
+          "C1",
+          "C3"
+        ]
+      },
+      {
+        "requirement": "Sources of data",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ]
+      },
+      {
+        "requirement": "Number of speakers and accents",
+        "citations": [
+          "C1",
+          "C3"
+        ]
+      },
+      {
+        "requirement": "Quality checks performed",
+        "citations": [
+          "C4"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The dataset was collected using a specific methodology that involved multiple sources and quality checks, as detailed in the evidence.",
+    "claims": [
+      {
+        "text": "The CoVoST dataset was created using a methodology that includes collecting speech, transcripts, and translations from various sources.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The dataset includes contributions from over 11,000 speakers and features more than 60 accents.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "text": "Quality checks were performed on the translations, including manual inspections and perplexity measurements.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 219,
+    "prompt_tokens": 1220,
+    "total_tokens": 1439,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4631919999992533,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_43432f538b"
+}

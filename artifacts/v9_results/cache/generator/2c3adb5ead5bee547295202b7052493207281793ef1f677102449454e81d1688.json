@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly identifies KAR as an end-to-end MRC model and provides details about its structure and functionality.",
+    "claims": [
+      {
+        "text": "KAR is an end-to-end MRC model.",
+        "citations": [
+          "C1",
+          "C3",
+          "C8"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "KAR uses extracted general knowledge to assist its attention mechanisms.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "KAR is comparable in performance with state-of-the-art MRC models and more robust to noise.",
+        "citations": [
+          "C5",
+          "C9"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 685,
+    "total_tokens": 814,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.864250800001173,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

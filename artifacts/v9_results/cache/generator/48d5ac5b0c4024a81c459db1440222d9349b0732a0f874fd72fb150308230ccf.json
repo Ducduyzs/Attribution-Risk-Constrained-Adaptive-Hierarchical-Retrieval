@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear list of languages included in the CoVoST corpus.",
+    "claims": [
+      {
+        "text": "The CoVoST corpus includes the following languages: French, German, Dutch, Russian, Spanish, Italian, Turkish, Persian, Swedish, Mongolian, and Chinese.",
+        "citations": [
+          "C9",
+          "C10"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "CoVoST is a multilingual speech-to-text translation corpus that covers 11 languages into English.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 2249,
+    "total_tokens": 2362,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.482196800003294,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_b9f463b847"
+}

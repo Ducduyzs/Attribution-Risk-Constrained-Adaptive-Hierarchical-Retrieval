@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the use of manual Pyramid scores in evaluating summarization metrics, indicating that these scores are derived from human-written summaries and are compared with other metrics like ROUGE.",
+    "claims": [
+      {
+        "text": "Manual Pyramid scores are used to evaluate the effectiveness of summarization metrics by comparing them with automatic evaluation metrics.",
+        "citations": [
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Pyramid scoring involves organizing content units from gold human-written summaries into a pyramid structure.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Different variants of ROUGE show varying correlations with manual Pyramid scores, indicating the complexity of evaluation metrics.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 700,
+    "total_tokens": 856,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8386180000015884,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}

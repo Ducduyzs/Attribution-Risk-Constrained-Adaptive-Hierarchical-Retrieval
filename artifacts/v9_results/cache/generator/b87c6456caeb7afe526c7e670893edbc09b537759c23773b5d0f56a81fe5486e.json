@@ -1,0 +1,119 @@
+{
+  "payload": {
+    "evidence_plan": [
+      {
+        "requirement": "Methodology for evaluating data quality",
+        "citations": [
+          "C1"
+        ]
+      },
+      {
+        "requirement": "Normalization of data features",
+        "citations": [
+          "C2"
+        ]
+      },
+      {
+        "requirement": "Filtering criteria for data samples",
+        "citations": [
+          "C3"
+        ]
+      },
+      {
+        "requirement": "Real-world scenario evaluation",
+        "citations": [
+          "C4"
+        ]
+      },
+      {
+        "requirement": "Stability measures for data",
+        "citations": [
+          "C5"
+        ]
+      },
+      {
+        "requirement": "Error rates for models",
+        "citations": [
+          "C7"
+        ]
+      },
+      {
+        "requirement": "Validation process for transcripts",
+        "citations": [
+          "C8"
+        ]
+      }
+    ],
+    "answerable": true,
+    "reason": "The evidence provides a comprehensive overview of the methodologies and criteria used to evaluate the quality of the data.",
+    "claims": [
+      {
+        "text": "The dataset creation methodology includes empirical evidence of data quality.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Data features are normalized to ensure consistency in evaluation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Samples are filtered by sentence length to improve data quality.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation set is designed to reflect real-world scenarios, enhancing its quality.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Model stability is measured using standardized coefficients, indicating data reliability.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.75
+      },
+      {
+        "text": "Word and character error rates are used to assess model performance on the dataset.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Validated transcripts are reviewed by professional translators to ensure accuracy.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 337,
+    "prompt_tokens": 863,
+    "total_tokens": 1200,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.8127865999995265,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_5d5b340d02"
+}
