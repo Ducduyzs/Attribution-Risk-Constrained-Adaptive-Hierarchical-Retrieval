@@ -1,23 +1,28 @@
 {
   "primary": {
     "metric": "official evidence F1, mean of 512/1024/2048 per question",
-    "H_a_noninferiority_vs_raptor": {
+    "split": "confirm",
+    "holm_family_size": 2,
+    "H_a_agreement_noninferior_to_raptor": {
       "mean_diff": 0.03187235204882264,
       "ci95": [
         -0.006486638633697458,
         0.07221567321567321
       ],
+      "test": "non-inferiority",
       "margin": 0.02,
       "p_one_sided": 0.005249737513124344,
       "p_holm": 0.010499475026248688,
       "supported": true
     },
-    "H_b_superior_to_all_leaf": {
+    "H_b_agreement_superior_to_all_leaf": {
       "mean_diff": 0.022649343575814166,
       "ci95": [
         -0.018449955273484683,
         0.0646639863404569
       ],
+      "test": "superiority",
+      "margin": null,
       "p_one_sided": 0.14869256537173142,
       "p_holm": 0.14869256537173142,
       "supported": false
@@ -282,5 +287,6 @@
     "raptor_search_seconds_total": 3.6910788724198937
   },
   "questions": 100,
+  "split": "confirm",
   "test_accessed": false
 }

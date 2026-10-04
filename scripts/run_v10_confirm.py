@@ -35,9 +35,27 @@ SYSTEMS = ['raptor', 'all_leaf', 'agreement']
 BUDGETS = [512, 1024, 2048]
 VERSION = 'v10-confirm.1'
 MARGIN = 0.02
+# One-shot test (preregistered in analysis/v10_test_protocol.md). Question hash =
+# selection_sha256 of data/manifests_test/test_manifest_metadata.json.
+TEST_FILES = {
+    'data/manifests_test/qasper_test_stratified_papers.jsonl':
+        'a8096fda113f21cc9b59d59b255ae3d3a20569c4a79cc6dad4d20c08b1dfa1ad',
+    'data/manifests_test/qasper_test_stratified_questions.jsonl':
+        'de0241e23bab67f5c5972bf9af2de1860e885f51c96dc2d7d8e707689c5c2c7b',
+}
+SPLIT = 'confirm'
 
 
 def load_manifest():
+    if SPLIT == 'test':
+        hashes = {}
+        for name, expected in TEST_FILES.items():
+            actual = hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
+            if actual != expected:
+                raise RuntimeError(f'test manifest hash mismatch: {name}')
+            hashes[name] = actual
+        papers, records = (read_jsonl(ROOT / name) for name in TEST_FILES)
+        return papers, records, hashes
     meta = json.loads((ROOT / 'manifests/qasper_v10_confirm_metadata.json').read_text(encoding='utf-8'))
     paths = {name: ROOT / 'manifests' / name for name in meta['sha256']}
     for name, path in paths.items():
@@ -120,21 +138,22 @@ def report(root, records):
         return [sum(float(by[(system, b)][q][key] or 0.0) for b in BUDGETS) / len(BUDGETS) for q in qids]
 
     agree, rap, leaf = per_question('agreement'), per_question('raptor'), per_question('all_leaf')
-    d_a = [a - r for a, r in zip(agree, rap)]
-    d_b = [a - l for a, l in zip(agree, leaf)]
-    ni = non_inferiority(d_a, papers, MARGIN)
-    p_b = cluster_sign_flip_test(d_b, papers, alternative='greater')
-    p_holm = holm([ni['p'], p_b])
-    primary = {
-        'metric': 'official evidence F1, mean of 512/1024/2048 per question',
-        'H_a_noninferiority_vs_raptor': {
-            'mean_diff': sum(d_a) / len(d_a), 'ci95': cluster_bootstrap_ci(d_a, papers),
-            'margin': MARGIN, 'p_one_sided': ni['p'], 'p_holm': p_holm[0],
-            'supported': p_holm[0] < 0.05},
-        'H_b_superior_to_all_leaf': {
-            'mean_diff': sum(d_b) / len(d_b), 'ci95': cluster_bootstrap_ci(d_b, papers),
-            'p_one_sided': p_b, 'p_holm': p_holm[1], 'supported': p_holm[1] < 0.05},
-    }
+    # (name, diffs, kind): "ni" = non-inferiority at MARGIN, "sup" = one-sided superiority.
+    family = [('H_a_agreement_noninferior_to_raptor', [a - r for a, r in zip(agree, rap)], 'ni'),
+              ('H_b_agreement_superior_to_all_leaf', [a - l for a, l in zip(agree, leaf)], 'sup')]
+    if SPLIT == 'test':
+        family.insert(1, ('T2_all_leaf_noninferior_to_raptor', [l - r for l, r in zip(leaf, rap)], 'ni'))
+    p_values = [non_inferiority(d, papers, MARGIN)['p'] if kind == 'ni'
+                else cluster_sign_flip_test(d, papers, alternative='greater')
+                for _, d, kind in family]
+    adjusted = holm(p_values)
+    primary = {'metric': 'official evidence F1, mean of 512/1024/2048 per question',
+               'split': SPLIT, 'holm_family_size': len(family)}
+    for (name, d, kind), p, p_adj in zip(family, p_values, adjusted):
+        primary[name] = {'mean_diff': sum(d) / len(d), 'ci95': cluster_bootstrap_ci(d, papers),
+                         'test': 'non-inferiority' if kind == 'ni' else 'superiority',
+                         'margin': MARGIN if kind == 'ni' else None,
+                         'p_one_sided': p, 'p_holm': p_adj, 'supported': p_adj < 0.05}
     keys = ['citation_f1', metric, 'answer_f1', 'gold_paragraph_char_coverage_best_ref',
             'packed_leaf_touch_recall', 'context_tokens', 'total_api_tokens']
     table = {}
@@ -157,7 +176,8 @@ def report(root, records):
     }
     v9.dump(root / 'confirmation_results.json', {'primary': primary, 'table': table,
                                                 'secondary': secondary, 'cost': cost,
-                                                'questions': len(records), 'test_accessed': False})
+                                                'questions': len(records), 'split': SPLIT,
+                                                'test_accessed': SPLIT == 'test'})
     print(json.dumps(primary, indent=2))
     return primary
 
@@ -169,7 +189,18 @@ def main() -> None:
     parser.add_argument('--config', default='artifacts/baselines/main/config.json')
     parser.add_argument('--api-config', help='local private config holding openai_api_key')
     parser.add_argument('--workers', type=int, default=4)
+    parser.add_argument('--split', choices=['confirm', 'test'], default='confirm')
+    parser.add_argument('--open-test-once', action='store_true',
+                        help='required with --split test: the preregistered one-shot test run')
     args = parser.parse_args()
+    global SPLIT, VERSION
+    if args.split == 'test':
+        if not args.open_test_once:
+            raise SystemExit('--split test requires --open-test-once (one-shot, preregistered)')
+        SPLIT, VERSION = 'test', 'v10-test.1'
+        if args.output == 'artifacts/v10_confirm':
+            args.output = 'artifacts/v10_test'
+
     root = ROOT / args.output
     root.mkdir(parents=True, exist_ok=True)
     papers, records, hashes = load_manifest()
@@ -185,7 +216,7 @@ def main() -> None:
         'src/edahr/agreement.py', 'src/edahr/experimental_v9.py')}
     protocol = {'version': VERSION, 'systems': SYSTEMS, 'budgets': BUDGETS, 'manifests': hashes,
                 'settings': v9.safe_settings(settings), 'code_hashes': code,
-                'margin': MARGIN, 'test_accessed': False}
+                'margin': MARGIN, 'split': SPLIT, 'test_accessed': SPLIT == 'test'}
     path = root / 'protocol.json'
     if path.exists():
         if json.loads(path.read_text()) != protocol:
