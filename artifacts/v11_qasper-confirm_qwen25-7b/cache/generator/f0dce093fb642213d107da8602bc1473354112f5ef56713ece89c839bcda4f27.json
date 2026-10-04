@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the state-of-the-art for WSJ and comparisons with other systems.\",\n  \"claims\": [\n    {\n      \"text\": \"On WSJ, the state-of-the-art system using end-to-end training achieves a WER of INLINEFORM2, which is on par with the HMM-based system using convolutional, recurrent and fully connected layers, as well as speaker adaptation.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Our fully convolutional approach matches the current state-of-the-art on WSJ.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 963,
+    "completion_tokens": 161,
+    "total_tokens": 1124
+  },
+  "seconds": 7.08436588710174
+}

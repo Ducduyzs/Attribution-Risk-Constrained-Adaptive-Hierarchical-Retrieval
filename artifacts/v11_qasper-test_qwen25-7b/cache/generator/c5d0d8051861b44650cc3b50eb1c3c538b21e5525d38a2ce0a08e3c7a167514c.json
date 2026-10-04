@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence directly describes the evaluation process for model similarity scores against human judgments.\",\n  \"claims\": [\n    {\n      \"text\": \"Model word vectors are evaluated based on ranking the word pairs according to their cosine similarity, and then measuring the correlation (using Spearman's ρ) between model judgments and human judgments.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 99,
+    "total_tokens": 1276
+  },
+  "seconds": 4.281176934950054
+}

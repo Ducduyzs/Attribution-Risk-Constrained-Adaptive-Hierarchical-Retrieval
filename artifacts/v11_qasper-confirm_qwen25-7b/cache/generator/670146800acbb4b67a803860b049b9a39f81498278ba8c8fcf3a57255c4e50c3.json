@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the performance of the method compared to baselines in machine translation tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"The method outperforms the standard Transformer architecture using the softmax transform in terms of speed during training, being 75% and 90% as fast for $\\alpha$-entmax and 1.5-entmax respectively.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The method introduces a novel model variant, 1.5-entmax, which uses a fixed $\\alpha =1.5$ for all heads, and an adaptive model variant, $\\alpha$-entmax, which uses a different, learned $\\alpha_{i,j}^t$ for each head.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 614,
+    "completion_tokens": 207,
+    "total_tokens": 821
+  },
+  "seconds": 9.165606978815049
+}

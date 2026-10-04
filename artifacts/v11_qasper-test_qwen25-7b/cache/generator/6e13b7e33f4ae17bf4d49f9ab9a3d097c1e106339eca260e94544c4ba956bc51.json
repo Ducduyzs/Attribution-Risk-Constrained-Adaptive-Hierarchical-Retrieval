@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about state-of-the-art baselines for text-to-SQL generation tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"State-of-the-art baselines include CD-Seq2Seq and SyntaxSQL-con, which generate SQL from scratch, and methods like Spider and SParC that use advanced encoders and decoders.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1821,
+    "completion_tokens": 112,
+    "total_tokens": 1933
+  },
+  "seconds": 5.377525561954826
+}

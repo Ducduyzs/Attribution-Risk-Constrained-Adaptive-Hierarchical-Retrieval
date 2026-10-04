@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about specific experiments conducted, such as IWSLT14 German-English translation, WMT14 English-German translation, and BERT pre-training tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"They perform experiments on IWSLT14 German-English translation, WMT14 English-German translation, and BERT pre-training tasks.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"They also conduct experiments by repeating them ten times using different random seeds.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 504,
+    "completion_tokens": 153,
+    "total_tokens": 657
+  },
+  "seconds": 12.736910520121455
+}

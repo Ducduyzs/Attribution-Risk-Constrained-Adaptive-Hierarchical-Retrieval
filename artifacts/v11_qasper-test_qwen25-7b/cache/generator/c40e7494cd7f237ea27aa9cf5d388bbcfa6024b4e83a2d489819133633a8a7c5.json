@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the evaluation of the model and the comparison with the original recursive training algorithm.\",\n  \"claims\": [\n    {\n      \"text\": \"The model is evaluated by using the trained model to segment the training data and comparing the results with annotated morph boundaries using precision, recall, and F1-score.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Morfessor EM+Prune, a new training algorithm, is compared to the original recursive training algorithm and shows improvements in terms of model cost and linguistic segmentation accuracy.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 158,
+    "total_tokens": 1186
+  },
+  "seconds": 9.578512301668525
+}

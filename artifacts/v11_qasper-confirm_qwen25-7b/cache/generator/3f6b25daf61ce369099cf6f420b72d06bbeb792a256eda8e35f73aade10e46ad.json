@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses evaluations against previous work, including LSTM-based models and manually constructed stimuli.\",\n  \"claims\": [\n    {\n      \"text\": \"Previous work used unidirectional language-model-like models, while the current study uses bidirectional BERT models.\",\n      \"citations\": [\"C1\", \"C6\", \"C8\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The evaluation methods in previous work included feeding sentences word-by-word into an LSTM and comparing probabilities of plural vs singular forms.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The current study adapts the evaluation protocol from previous work to fit the bidirectional BERT models.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1528,
+    "completion_tokens": 194,
+    "total_tokens": 1722
+  },
+  "seconds": 9.46966556692496
+}

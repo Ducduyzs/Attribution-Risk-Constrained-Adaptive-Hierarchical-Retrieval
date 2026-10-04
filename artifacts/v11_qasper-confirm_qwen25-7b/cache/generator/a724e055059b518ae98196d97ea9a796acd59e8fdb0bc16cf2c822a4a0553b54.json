@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly outlines the limitations of current ELSs and their impact on summarization effectiveness.\",\n  \"claims\": [\n    {\n      \"text\": \"Current ELS's are not sufficiently effective due to unresolved ambiguities and irrelevant entities.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Ambiguous and coarse entities extracted by ELS's can lead to errors and irrelevance in summaries.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1724,
+    "completion_tokens": 136,
+    "total_tokens": 1860
+  },
+  "seconds": 6.006243622861803
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the models used in image captioning evaluation.\",\n  \"claims\": [\n    {\n      \"text\": \"The NIC model and the Image Captioning model from the Pytorch-tutorial are evaluated on the new Vietnamese image captioning corpus.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BLEU, ROUGE, and CIDEr metrics are used for evaluating Image Captioning models.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The NIC model uses a CNN with VGG-16 architecture and an LSTM for decoding.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 669,
+    "completion_tokens": 176,
+    "total_tokens": 845
+  },
+  "seconds": 7.595565733034164
+}

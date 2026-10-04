@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of various experiments conducted, including translations and BERT pre-training tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"Experiments include IWSLT14 German-English translation, WMT14 English-German translation, and BERT pre-training tasks.\",\n      \"citations\": [\"C1\", \"C4\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Experiments involve comparing Adam and vanilla SGD optimizers with and without the warm-up stage.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Experiments demonstrate that Pre-LN Transformers can be trained without the warm-up stage, leading to faster convergence.\",\n      \"citations\": [\"C5\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1712,
+    "completion_tokens": 197,
+    "total_tokens": 1909
+  },
+  "seconds": 8.363949451129884
+}

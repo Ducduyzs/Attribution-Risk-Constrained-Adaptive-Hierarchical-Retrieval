@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists three variants of cross-validation.\",\n  \"claims\": [\n    {\n      \"text\": \"10-fold cross-validation with stratified, blocked folds\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"10-fold cross-validation with stratified, random selection of examples\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"10-fold cross-validation with non-stratified, blocked folds\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1905,
+    "completion_tokens": 147,
+    "total_tokens": 2052
+  },
+  "seconds": 6.4247025907970965
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of domain transfer and data synthesis to improve summarization performance on student reflection data, comparing it to newspaper data.\",\n  \"claims\": [\n    {\n      \"text\": \"Tuning a model trained on newspaper data improved performance on student reflection data.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The student reflection data is different from newspaper data, requiring domain transfer techniques.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 134,
+    "total_tokens": 1872
+  },
+  "seconds": 6.207537587732077
+}

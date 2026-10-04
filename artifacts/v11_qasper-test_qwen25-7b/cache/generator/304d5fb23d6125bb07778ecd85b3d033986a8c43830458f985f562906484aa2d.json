@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the sources of the data used in the corpus.\",\n  \"claims\": [\n    {\n      \"text\": \"The data comes from various sources including social media, news websites, and debate blogs.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The corpus includes documents from Snopes, which provides additional information about the claims.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The data is heterogeneous and includes unreliable sources, making it challenging to classify claims accurately.\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1570,
+    "completion_tokens": 177,
+    "total_tokens": 1747
+  },
+  "seconds": 8.038425996899605
+}

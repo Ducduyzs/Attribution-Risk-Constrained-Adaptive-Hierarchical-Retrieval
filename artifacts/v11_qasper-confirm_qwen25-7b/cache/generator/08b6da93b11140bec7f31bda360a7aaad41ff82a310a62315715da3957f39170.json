@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the initialization of word embeddings and the setup of the GM_KL model but does not directly compare it to other WSD approaches using word embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"The approach uses uniform distribution for word embeddings initialization, unlike some other methods that might use BERT or ELMo.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The model uses a specific initialization for mixture probabilities and employs a softmax function, which may differ from other WSD approaches.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 431,
+    "completion_tokens": 156,
+    "total_tokens": 587
+  },
+  "seconds": 6.317541624885052
+}

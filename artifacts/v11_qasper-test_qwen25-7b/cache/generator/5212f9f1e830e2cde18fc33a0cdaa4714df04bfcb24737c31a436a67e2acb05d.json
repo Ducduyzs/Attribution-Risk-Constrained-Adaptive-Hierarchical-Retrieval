@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific numerical improvements in F1-score for different training instance counts.\",\n  \"claims\": [\n    {\n      \"text\": \"The model shows an improvement of 14.57% in absolute F1-score when trained with 500 instances.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"ZAT shows an improvement of 14.67% in absolute F1-score over CRF when training with 500 instances.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 611,
+    "completion_tokens": 149,
+    "total_tokens": 760
+  },
+  "seconds": 6.661530103068799
+}

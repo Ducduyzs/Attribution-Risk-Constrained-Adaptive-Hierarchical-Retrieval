@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly identifies the baseline model and its characteristics.\",\n  \"claims\": [\n    {\n      \"text\": \"Row (1) in Table TABREF14 is for Model A in Fig. FIGREF5, taken as the baseline, which was trained on LibriSpeech data with SAT, together with the language model also trained with LibriSpeech.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 107,
+    "total_tokens": 1332
+  },
+  "seconds": 6.516889262013137
+}

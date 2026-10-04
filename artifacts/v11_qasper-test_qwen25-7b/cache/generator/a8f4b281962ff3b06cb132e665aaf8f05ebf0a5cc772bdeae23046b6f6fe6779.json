@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the nature of fine-grained semantic types and their application in entity typing.\",\n  \"claims\": [\n    {\n      \"text\": \"Fine-grained entity typing involves assigning multiple types to entities, treating it as a multi-label classification problem.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Contextual information, including document and sentence-level details, is crucial for improving the accuracy of fine-grained entity typing.\",\n      \"citations\": [\"C1\", \"C5\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1536,
+    "completion_tokens": 148,
+    "total_tokens": 1684
+  },
+  "seconds": 6.987091775983572
+}

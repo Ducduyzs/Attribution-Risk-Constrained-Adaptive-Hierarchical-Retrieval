@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the model architecture used in the system.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses a deep learning architecture including an LSTM-CNN model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Additionally, the system employs a random forest model consisting of decision tree classifiers.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 114,
+    "total_tokens": 1254
+  },
+  "seconds": 4.7760191657580435
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses strategies to handle noisy entity linking, such as ranking query structures and using merging modules to improve recall.\",\n  \"claims\": [\n    {\n      \"text\": \"They rank query structures first and consider linking results in the last step to filter out many error linking results.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Merging query substructures improves recall, especially with limited training data.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 135,
+    "total_tokens": 1278
+  },
+  "seconds": 8.216262547299266
+}

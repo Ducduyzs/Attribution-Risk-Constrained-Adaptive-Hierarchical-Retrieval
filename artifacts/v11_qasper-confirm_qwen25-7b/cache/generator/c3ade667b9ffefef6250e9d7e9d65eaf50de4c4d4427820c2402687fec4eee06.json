@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The document-level encoder is novel because it is based on BERT and is specifically designed to capture the semantics of a document and obtain sentence representations for text summarization.\",\n  \"claims\": [\n    {\n      \"text\": \"We introduce a novel document-level encoder based on BERT which is able to express the semantics of a document and obtain representations for its sentences.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 995,
+    "completion_tokens": 108,
+    "total_tokens": 1103
+  },
+  "seconds": 5.213523938786238
+}

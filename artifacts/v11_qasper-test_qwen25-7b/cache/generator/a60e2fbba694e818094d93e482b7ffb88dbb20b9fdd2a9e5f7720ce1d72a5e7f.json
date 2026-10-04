@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear details on the proposed training framework and its effectiveness in mitigating bias patterns.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed training framework alleviates the negative effects of annotation artifacts and improves the generalization ability of models.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The framework helps mitigate the misleading effect of annotation artifacts and enhances semantic learning ability.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 141,
+    "total_tokens": 1265
+  },
+  "seconds": 6.488445533905178
+}

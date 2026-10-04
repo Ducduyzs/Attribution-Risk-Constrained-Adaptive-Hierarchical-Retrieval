@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists specific downstream tasks and their analyses.\",\n  \"claims\": [\n    {\n      \"text\": \"The study analyzes performances on several downstream tasks including classification (IMDb sentiment classification) and question answering (SQuAD v1.1).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The research also investigates the influence of various components of the triple loss on the performances of the distilled model.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1759,
+    "completion_tokens": 133,
+    "total_tokens": 1892
+  },
+  "seconds": 5.956797804217786
+}

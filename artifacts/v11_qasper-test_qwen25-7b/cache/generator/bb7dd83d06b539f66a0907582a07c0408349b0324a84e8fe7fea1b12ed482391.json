@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions evaluation procedures and specific tools used for training and testing, but does not explicitly list metrics.\",\n  \"claims\": [\n    {\n      \"text\": \"Evaluation procedures include splitting repositories into training, validation, and test splits.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Tools like PyTorch and Scikit-learn are used for implementing deep learning models and computing tf-idf vectors.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 135,
+    "total_tokens": 782
+  },
+  "seconds": 5.5579495201818645
+}

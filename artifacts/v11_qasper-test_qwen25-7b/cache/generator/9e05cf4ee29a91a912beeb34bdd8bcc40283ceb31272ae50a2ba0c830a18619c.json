@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the comparison of the proposed method with several baselines in the context of second language acquisition modeling.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed method outperforms the state-of-the-art baselines in the low-resource scenario.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The baselines include LR, GBDT, and RNN.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1.0\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 598,
+    "completion_tokens": 133,
+    "total_tokens": 731
+  },
+  "seconds": 10.909015857614577
+}

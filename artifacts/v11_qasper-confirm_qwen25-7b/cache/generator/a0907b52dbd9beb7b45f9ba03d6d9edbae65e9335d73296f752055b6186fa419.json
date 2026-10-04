@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly outlines the limitations of current ELS's in extracting relevant and precise entities.\",\n  \"claims\": [\n    {\n      \"text\": \"Current ELS's introduce unresolved ambiguities and irrelevant entities due to low precision rates and design challenges in training datasets.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Ambiguity and coarseness are significant issues with the entities extracted by ELS's, leading to errors and irrelevance in summaries.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 145,
+    "total_tokens": 1270
+  },
+  "seconds": 6.593700530007482
+}

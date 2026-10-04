@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple existing approaches for learning geographic location embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Existing approaches include using principal component analysis and stacked autoencoders to learn low-dimensional vector representations of city neighbourhoods based on census data (C2).\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Another approach involves learning word embeddings based on the assumption that words which tend to be used in the same geographic locations are likely to be similar (C2).\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"A method using the Skip-gram model to represent POI types has also been proposed (C4).\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1771,
+    "completion_tokens": 200,
+    "total_tokens": 1971
+  },
+  "seconds": 9.004188342951238
+}

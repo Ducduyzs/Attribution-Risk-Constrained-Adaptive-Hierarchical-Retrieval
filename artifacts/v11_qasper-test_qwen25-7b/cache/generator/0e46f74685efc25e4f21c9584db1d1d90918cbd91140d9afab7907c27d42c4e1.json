@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly indicates that the Transformer model outperformed the ConvS2S model across all languages, suggesting the Transformer model is the best performing model.\",\n  \"claims\": [\n    {\n      \"text\": \"The Transformer model outperformed the ConvS2S model for all of the languages, sometimes achieving 10 BLEU points or more over the ConvS2S models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The translation models for isiZulu achieved the worst performance, with the maximum BLEU score of 3.33, indicating the Transformer model performed better.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1877,
+    "completion_tokens": 175,
+    "total_tokens": 2052
+  },
+  "seconds": 7.467146806884557
+}

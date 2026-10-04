@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons between single-system approaches and system combinations on the CHiME-5 dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"A single-system approach achieved a WER of 41.6% on the development set and 43.2% on the evaluation set, which is a 8% relative improvement over previous single-system results.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Enhancing training and test data with GSS can significantly reduce WER compared to systems without such enhancements.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\", \"C5\"],\n      \"confidence\": 0.95\n    },\n    {\n      \"text\": \"Combining CNN and TDNN-F layers in a single system can yield better performance than using TDNN-F alone.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1867,
+    "completion_tokens": 235,
+    "total_tokens": 2102
+  },
+  "seconds": 10.651787638198584
+}

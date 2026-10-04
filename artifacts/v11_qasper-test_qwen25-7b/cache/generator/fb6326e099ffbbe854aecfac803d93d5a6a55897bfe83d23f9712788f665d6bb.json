@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how Counterfactual Data Augmentation (CDA) affects gender bias in predictions and performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Counterfactual Data Augmentation (CDA) mitigates contextual biases that can lead to gender bias in predictions.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Gender bias in predictions can lead to performance discrepancies between males and females, affecting fairness and outcomes in downstream tasks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 684,
+    "completion_tokens": 146,
+    "total_tokens": 830
+  },
+  "seconds": 6.351612551137805
+}

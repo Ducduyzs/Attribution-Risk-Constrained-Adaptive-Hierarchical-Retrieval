@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific comparisons between the proposed method and supervised training methods.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed method leads to promising improvements on task success rate and task reward over the supervised training and single-agent RL training baseline models.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Models trained with RL outperform the baseline model by 14.9% and 15.3% respectively when compared to the agent-update-only models using REINFORCE and A2C.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1069,
+    "completion_tokens": 162,
+    "total_tokens": 1231
+  },
+  "seconds": 9.837988989893347
+}

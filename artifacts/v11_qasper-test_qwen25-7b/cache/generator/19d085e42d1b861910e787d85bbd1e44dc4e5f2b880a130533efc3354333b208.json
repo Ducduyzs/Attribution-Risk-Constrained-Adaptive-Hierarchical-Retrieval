@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a direct comparison between the model and baseline methods in terms of performance and training time.\",\n  \"claims\": [\n    {\n      \"text\": \"The model outperforms baselines in terms of training time and flexibility for dataset alterations.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Baseline methods, including AdaMine and BIBREF19, have higher training times and less flexibility compared to the proposed model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 631,
+    "completion_tokens": 145,
+    "total_tokens": 776
+  },
+  "seconds": 5.9121589958667755
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses two domain adaptation methods but does not explicitly state which one is the best overall.\",\n  \"claims\": [\n    {\n      \"text\": \"The Evo-Devo mechanism shows promise for adaptation/repair and achieves about 5 to 10% improvements in accuracy.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The paper presents two mechanisms for adaptation, but does not compare them directly.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 684,
+    "completion_tokens": 136,
+    "total_tokens": 820
+  },
+  "seconds": 5.69171485491097
+}

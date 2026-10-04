@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about previous work on integrating morphological information in SMT and NMT.\",\n  \"claims\": [\n    {\n      \"text\": \"Previous work considered morphological information for both SMT and NMT.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF8 proposed an effective way to integrate word-level annotation in SMT.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF9 decomposed the translation process into two steps involving stem production and inflection selection.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF10 used distributed representations for words and soft morphological tags in their neural inflection model.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 516,
+    "completion_tokens": 214,
+    "total_tokens": 730
+  },
+  "seconds": 8.984649097081274
+}

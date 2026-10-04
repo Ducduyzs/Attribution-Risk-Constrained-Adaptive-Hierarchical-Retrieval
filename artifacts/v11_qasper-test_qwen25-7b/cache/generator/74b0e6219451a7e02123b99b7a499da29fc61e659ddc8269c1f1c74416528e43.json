@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the sources used for training and testing ADR models.\",\n  \"claims\": [\n    {\n      \"text\": \"They got the data from conversational, literary, religious, news magazine, and public-domain sources.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Specifically, they used a corpus of journalistic news text from Global Voices.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 676,
+    "completion_tokens": 127,
+    "total_tokens": 803
+  },
+  "seconds": 5.664331831969321
+}

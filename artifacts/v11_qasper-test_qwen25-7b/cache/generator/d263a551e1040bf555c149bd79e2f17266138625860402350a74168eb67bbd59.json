@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions the use of datasets containing tweets in English and possibly other languages.\",\n  \"claims\": [\n    {\n      \"text\": \"The dataset includes tweets in English.\",\n      \"citations\": [\"C2\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The dataset may include tweets in other languages.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2019,
+    "completion_tokens": 110,
+    "total_tokens": 2129
+  },
+  "seconds": 5.208251297008246
+}

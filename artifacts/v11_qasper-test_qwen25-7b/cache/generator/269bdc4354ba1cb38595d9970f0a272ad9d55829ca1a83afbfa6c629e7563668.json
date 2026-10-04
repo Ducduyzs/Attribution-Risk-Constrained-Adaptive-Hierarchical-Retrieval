@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly mentions the datasets used in the experiments.\",\n  \"claims\": [\n    {\n      \"text\": \"The primary corpus is the Japanese-English (Ja-En) ASPEC data set.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The method is also applied to the WMT data set for English-German (En-De).\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2130,
+    "completion_tokens": 122,
+    "total_tokens": 2252
+  },
+  "seconds": 5.831444238778204
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses various types of annotations, including crowdsourced annotations and expert annotations.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowdsourced annotations involve multiple non-expert annotators who label tweets about job/employment.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Expert annotations involve annotators with prior experience in employment who correct tweets with divergent labels from crowdsourcing workers.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1842,
+    "completion_tokens": 154,
+    "total_tokens": 1996
+  },
+  "seconds": 6.620833968743682
+}

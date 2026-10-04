@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the measures used for quality evaluation on a Q&A platform.\",\n  \"claims\": [\n    {\n      \"text\": \"They use data-driven approaches including data collection, data cleaning, data normalization, descriptive analysis, and predictive analysis to evaluate the quality of a Q&A platform.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The quality evaluation includes analyzing user behavior, such as up-voting or down-voting answers, and assessing the quality of answers based on linguistic characteristics and temporal behaviors.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 160,
+    "total_tokens": 1185
+  },
+  "seconds": 6.585314920172095
+}

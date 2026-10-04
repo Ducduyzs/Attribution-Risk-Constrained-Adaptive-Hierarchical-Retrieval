@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not mention any other datasets besides SimpleQuestions.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors only evaluate the model on the SimpleQuestions dataset.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 713,
+    "completion_tokens": 75,
+    "total_tokens": 788
+  },
+  "seconds": 3.174269271083176
+}

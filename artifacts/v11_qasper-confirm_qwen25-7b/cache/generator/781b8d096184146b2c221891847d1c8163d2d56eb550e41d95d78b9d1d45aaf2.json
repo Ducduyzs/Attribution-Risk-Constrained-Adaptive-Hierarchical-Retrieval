@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the proposed model's architecture and hyperparameters but does not explicitly state the results achieved.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed model uses ELMo embeddings and a residual LSTM to improve entity type prediction.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The model employs a dropout rate of 0.2 and an embedding dimension of 1024 from ELMo.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 142,
+    "total_tokens": 791
+  },
+  "seconds": 5.921111744828522
+}

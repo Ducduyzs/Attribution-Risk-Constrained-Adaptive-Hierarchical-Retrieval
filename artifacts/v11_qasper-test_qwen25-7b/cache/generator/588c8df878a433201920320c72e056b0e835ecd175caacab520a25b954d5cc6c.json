@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides detailed descriptions of the encoder architecture.\",\n  \"claims\": [\n    {\n      \"text\": \"The encoder consists of M layer encoder blocks, each containing a self-attention module and a two-layer feed-forward network.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 85,
+    "total_tokens": 1288
+  },
+  "seconds": 5.935154685750604
+}

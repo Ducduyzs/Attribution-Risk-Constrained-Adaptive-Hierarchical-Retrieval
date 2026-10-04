@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on training steps and GPU usage but does not directly compare training times between models with different position encodings.\",\n  \"claims\": [\n    {\n      \"text\": \"The model using relative position encodings was trained for more steps than the model using absolute position encodings.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 95,
+    "total_tokens": 1275
+  },
+  "seconds": 5.858934687916189
+}

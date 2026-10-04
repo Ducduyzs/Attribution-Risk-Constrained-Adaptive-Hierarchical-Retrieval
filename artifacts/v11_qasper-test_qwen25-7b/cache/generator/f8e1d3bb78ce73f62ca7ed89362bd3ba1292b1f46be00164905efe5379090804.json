@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides mixed results, showing that single-language BERT can perform well in certain tasks, but multilingual BERT may perform better in others.\",\n  \"claims\": [\n    {\n      \"text\": \"Single-language BERT can perform well in certain tasks, such as predicting masked words in cloze tests, achieving over 80% accuracy in English subject-verb agreement relations.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Multilingual BERT generally captures syntax-sensitive agreement patterns well, but its performance can degrade in specific linguistic contexts.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 165,
+    "total_tokens": 1369
+  },
+  "seconds": 7.117024953942746
+}

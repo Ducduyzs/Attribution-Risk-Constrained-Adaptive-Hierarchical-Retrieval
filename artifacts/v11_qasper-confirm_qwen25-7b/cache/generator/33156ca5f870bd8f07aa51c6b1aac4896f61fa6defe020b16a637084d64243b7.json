@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states that the policies trained on NUS outperformed those trained on ABUS in terms of success rate and reward.\",\n  \"claims\": [\n    {\n      \"text\": \"Policies trained on NUS achieved higher success rates and rewards compared to those trained on ABUS.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The best policy trained on NUS had a 93.4% success rate and 13.8 average rewards, while the best policy trained on ABUS had 90.0% success rate and 13.3 average rewards.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 685,
+    "completion_tokens": 171,
+    "total_tokens": 856
+  },
+  "seconds": 6.924046562053263
+}

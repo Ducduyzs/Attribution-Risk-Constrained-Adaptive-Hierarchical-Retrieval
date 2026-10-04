@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how segmentation quality is evaluated, including automatic comparisons with manually annotated references and the use of specific metrics like F-score and recall.\",\n  \"claims\": [\n    {\n      \"text\": \"Segmentation quality is evaluated by comparing automatically generated segmentations with manually annotated references, using metrics such as F-score and recall.\",\n      \"citations\": [\"C1\", \"C2\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"An automatic evaluation protocol has been developed for discursive segmentation, which includes the use of a list of markers and grammatical categories.\",\n      \"citations\": [\"C2\", \"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1638,
+    "completion_tokens": 169,
+    "total_tokens": 1807
+  },
+  "seconds": 7.3997336300089955
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information on how to adjust confidences of incorrectly predicted domains.\",\n  \"claims\": [\n    {\n      \"text\": \"To reduce prediction errors due to incorrect pseudo labels, the confidences of the incorrectly predicted domains are decreased using utterances with negative system responses.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The confidences are demoted only when the incorrectly predicted domains are top-ranked, ensuring the influence is not overwhelming.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1754,
+    "completion_tokens": 151,
+    "total_tokens": 1905
+  },
+  "seconds": 6.859132326208055
+}

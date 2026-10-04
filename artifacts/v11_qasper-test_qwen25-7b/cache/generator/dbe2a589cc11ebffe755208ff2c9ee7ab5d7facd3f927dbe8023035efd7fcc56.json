@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the simplification of the architecture and its impact on performance.\",\n  \"claims\": [\n    {\n      \"text\": \"The origin network architecture was simplified by removing the pruner and using under-sampling to balance positive and negative samples, reducing the search space.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The simplified architecture achieved the same performance as the original model.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 562,
+    "completion_tokens": 136,
+    "total_tokens": 698
+  },
+  "seconds": 11.288026141002774
+}

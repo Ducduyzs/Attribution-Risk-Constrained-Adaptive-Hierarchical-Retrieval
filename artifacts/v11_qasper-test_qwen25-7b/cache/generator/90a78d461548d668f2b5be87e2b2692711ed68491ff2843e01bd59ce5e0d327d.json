@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of lexical features in cross-lingual semantic parsing.\",\n  \"claims\": [\n    {\n      \"text\": \"The parser uses monolingual lexical features, cross-lingual word-embeddings, universal PoS tags, and universal dependencies.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Lexical predicates in the PMB are in English, even for non-English languages, and are reverted to their original language using lemmas.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1803,
+    "completion_tokens": 144,
+    "total_tokens": 1947
+  },
+  "seconds": 6.696482198312879
+}

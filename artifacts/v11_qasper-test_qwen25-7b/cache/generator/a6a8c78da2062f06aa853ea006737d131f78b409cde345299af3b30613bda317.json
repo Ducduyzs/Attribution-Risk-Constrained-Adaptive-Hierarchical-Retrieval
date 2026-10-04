@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the quality of word vectors is measured and improved.\",\n  \"claims\": [\n    {\n      \"text\": \"Quality of word vectors is measured by computing the correlation between word similarity scores by human judgment and word distances in vector space using Pearson correlation coefficient.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The quality of word vectors is sensitive to the choice of noise distribution for negative sampling, especially when using a moderate number of negative samples.\",\n      \"citations\": [\"C3\", \"C6\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1775,
+    "completion_tokens": 151,
+    "total_tokens": 1926
+  },
+  "seconds": 7.021958174649626
+}

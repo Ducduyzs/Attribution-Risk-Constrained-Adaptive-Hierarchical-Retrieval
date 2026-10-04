@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses various forms of annotation, including crowdsourced and expert annotations.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowdsourced annotation involves multiple non-expert annotators labeling data, often leading to disagreements.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Expert annotation involves annotators with prior experience reviewing and correcting data labeled by crowdsourcing workers.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1014,
+    "completion_tokens": 133,
+    "total_tokens": 1147
+  },
+  "seconds": 5.9791239579208195
+}

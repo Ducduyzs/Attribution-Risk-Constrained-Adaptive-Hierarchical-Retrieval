@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the benefits of segmenting lengthy documents into smaller parts for better context encapsulation and improved results in text classification, especially in the legal domain.\",\n  \"claims\": [\n    {\n      \"text\": \"Segmenting lengthy documents into smaller parts improves the context encapsulation and enhances the results in text classification.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Dividing the text into segments and using a BiLSTM architecture can improve the results in classifying lengthy legal documents.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 526,
+    "completion_tokens": 153,
+    "total_tokens": 679
+  },
+  "seconds": 6.3031018623150885
+}

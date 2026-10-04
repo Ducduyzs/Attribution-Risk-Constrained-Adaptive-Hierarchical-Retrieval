@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of a binary classifier to identify publications meeting certain criteria.\",\n  \"claims\": [\n    {\n      \"text\": \"A binary classifier was trained to identify publications that met the criteria, performing better when trained on candidate sentences than on randomly picked sentences.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The binary classifier was a Bernoulli Naïve Bayes classifier trained on binary occurrence matrices created using 1-3-grams.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1770,
+    "completion_tokens": 155,
+    "total_tokens": 1925
+  },
+  "seconds": 7.453752479981631
+}

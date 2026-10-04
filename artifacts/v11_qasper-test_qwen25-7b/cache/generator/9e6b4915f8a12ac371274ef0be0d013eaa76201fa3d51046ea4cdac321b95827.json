@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides sufficient information on how ParityBOT detects and classifies hateful tweets.\",\n  \"claims\": [\n    {\n      \"text\": \"ParityBOT uses the Perspective API's TOXICITY probability to classify tweets as hateful or not hateful.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"ParityBOT responds to hateful tweets by sending supportive tweets about influential female leaders and facts about women in public life.\",\n      \"citations\": [\"C1\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1927,
+    "completion_tokens": 138,
+    "total_tokens": 2065
+  },
+  "seconds": 5.998155737761408
+}

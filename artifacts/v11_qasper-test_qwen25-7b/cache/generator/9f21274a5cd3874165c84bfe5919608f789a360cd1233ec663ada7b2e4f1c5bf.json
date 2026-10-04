@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the process of annotating tweets for job/employment topics, involving both crowdsourced and expert annotations.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowdsourced annotation was performed in multiple rounds (R1, R2, R4) where annotators had to label tweets, leading to varying levels of agreement.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Expert annotation was used to correct disagreements in crowdsourced annotations, particularly in R1 and R2.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 645,
+    "completion_tokens": 153,
+    "total_tokens": 798
+  },
+  "seconds": 6.367193995043635
+}

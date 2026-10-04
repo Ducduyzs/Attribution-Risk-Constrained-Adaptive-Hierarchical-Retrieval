@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the process of annotating tweets using crowdsourced and expert annotations.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowdsourced annotations involve non-expert annotators who may have diverse understandings due to the subjectivity and ambiguity of the task.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Expert annotations are used to correct and validate the work of non-expert annotators, ensuring higher quality data.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 638,
+    "completion_tokens": 142,
+    "total_tokens": 780
+  },
+  "seconds": 6.301774317864329
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses how incorporating meta-information (such as document and word features) into topic models can improve topic quality, particularly for short texts.\",\n  \"claims\": [\n    {\n      \"text\": \"Incorporating meta-information can improve topic quality, especially for short texts.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"MetaLDA, a topic model leveraging document and word meta-information, outperforms other models in terms of topic coherence on short text datasets.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 154,
+    "total_tokens": 1262
+  },
+  "seconds": 9.528691519983113
+}

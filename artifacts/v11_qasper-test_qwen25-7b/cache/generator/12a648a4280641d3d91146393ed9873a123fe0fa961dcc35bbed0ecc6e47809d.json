@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific performance improvements of the introduced approach (DFN) on RACE.\",\n  \"claims\": [\n    {\n      \"text\": \"On RACE-M, DFN leads to a 7.8% and 7.3% performance boost over GA and Stanford AR, respectively.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"On RACE-H, the outperformance is 1.5% and 2.7%.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 661,
+    "completion_tokens": 146,
+    "total_tokens": 807
+  },
+  "seconds": 6.356095155701041
+}

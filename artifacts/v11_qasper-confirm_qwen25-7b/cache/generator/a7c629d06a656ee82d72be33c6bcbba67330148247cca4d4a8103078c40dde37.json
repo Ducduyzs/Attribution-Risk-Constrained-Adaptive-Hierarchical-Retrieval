@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the proposed model's architecture and training process, as well as performance comparisons.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed model achieves similar performance to existing systems without being trained or tuned on the Wiki(gold) dataset.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The model uses ELMo embeddings and Wikidata to learn entity representations based on context.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The model is trained using the Adam optimization method with a batch size of 32 for 30 epochs.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1086,
+    "completion_tokens": 188,
+    "total_tokens": 1274
+  },
+  "seconds": 8.31795359775424
+}

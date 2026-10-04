@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides detailed information about the state-of-the-art on WSJ, including specific WERs and model architectures.\",\n  \"claims\": [\n    {\n      \"text\": \"On WSJ, the state-of-the-art model uses a lattice-free MMI on augmented data and achieves a WER of INLINEFORM2.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Our model, using a learnable frontend and a convolutional language model, matches the current best end-to-end system on WSJ.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1891,
+    "completion_tokens": 159,
+    "total_tokens": 2050
+  },
+  "seconds": 7.452461774926633
+}

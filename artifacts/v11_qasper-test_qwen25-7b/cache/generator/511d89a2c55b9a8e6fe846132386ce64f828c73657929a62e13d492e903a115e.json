@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the baseline models and preprocessing techniques but does not explicitly state a 'baseline' value or metric.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline models used were logistic regression and support vector machines from the scikit-learn library, and an LSTM network from the Keras library.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 619,
+    "completion_tokens": 102,
+    "total_tokens": 721
+  },
+  "seconds": 4.185174874961376
+}

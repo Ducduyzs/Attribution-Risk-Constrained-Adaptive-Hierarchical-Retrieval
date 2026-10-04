@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about state-of-the-art baselines for text-to-SQL generation tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"State-of-the-art baselines include CD-Seq2Seq and SyntaxSQL-con.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Recent approaches like recursive decoding, graph neural networks, and intermediate representations have also achieved state-of-the-art performance.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1843,
+    "completion_tokens": 130,
+    "total_tokens": 1973
+  },
+  "seconds": 5.777938139624894
+}

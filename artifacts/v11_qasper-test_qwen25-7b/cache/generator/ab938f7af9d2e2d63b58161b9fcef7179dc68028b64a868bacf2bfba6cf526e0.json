@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the simplification of the architecture and its impact on performance.\",\n  \"claims\": [\n    {\n      \"text\": \"To simplify the origin network architecture, the authors removed the pruner and used a simple pooling layer to extract span representation.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Even after simplifying the architecture, the simplified model achieved the same performance as the original model.\",\n      \"citations\": [\"C2\", \"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1737,
+    "completion_tokens": 135,
+    "total_tokens": 1872
+  },
+  "seconds": 6.087691625580192
+}

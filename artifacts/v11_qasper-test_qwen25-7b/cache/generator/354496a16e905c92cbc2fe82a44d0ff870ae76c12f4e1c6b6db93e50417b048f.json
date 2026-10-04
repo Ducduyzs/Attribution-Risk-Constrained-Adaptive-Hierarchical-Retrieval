@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not explicitly mention specific metrics used.\",\n  \"claims\": [\n    {\n      \"text\": \"The evaluation procedure involves splitting repositories into training, validation, and test splits.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Metrics such as tf-idf vectors and logistic regression are used for computing and classifying vulnerabilities.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 120,
+    "total_tokens": 1250
+  },
+  "seconds": 5.572493168991059
+}

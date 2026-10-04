@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons and observations about the performance of the proposed method with baselines.\",\n  \"claims\": [\n    {\n      \"text\": \"The adaptive model learns different sparsity patterns across layers, leading to more variance in individual head behavior compared to fixed $\\alpha =1.5$.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The adaptive model outperforms fixed $\\alpha =1.5$ in terms of head confidence, especially for positional heads.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The adaptive model's $\\alpha$ values tend to decrease initially, then some heads become sparser as the model becomes more confident.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1794,
+    "completion_tokens": 202,
+    "total_tokens": 1996
+  },
+  "seconds": 8.90576543007046
+}

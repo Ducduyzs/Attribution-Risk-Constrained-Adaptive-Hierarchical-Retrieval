@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses comparisons against baselines in terms of model performance on different datasets and how certain factors affect accuracy.\",\n  \"claims\": [\n    {\n      \"text\": \"The comparison is against the performance of models on different datasets, particularly the CNN and Daily Mail datasets, where the accuracy is measured against a fixed number of candidate answers and the frequency of the correct answer in the document.\",\n      \"citations\": [\"C4\", \"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1751,
+    "completion_tokens": 118,
+    "total_tokens": 1869
+  },
+  "seconds": 5.26536290673539
+}

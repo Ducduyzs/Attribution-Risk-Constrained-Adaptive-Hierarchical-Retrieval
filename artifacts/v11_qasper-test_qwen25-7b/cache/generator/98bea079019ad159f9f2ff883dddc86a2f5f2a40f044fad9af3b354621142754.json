@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the pruning process and its impact on the model's performance.\",\n  \"claims\": [\n    {\n      \"text\": \"They performed pruning to eliminate spurious training data entries, which improved the KDG model's accuracy from 36.3% to 43.3%.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Pruning is an important pre-processing step that can enhance the performance of other semantic parsers as well.\",\n      \"citations\": [\"C1\", \"C3\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1019,
+    "completion_tokens": 156,
+    "total_tokens": 1175
+  },
+  "seconds": 9.479041230864823
+}

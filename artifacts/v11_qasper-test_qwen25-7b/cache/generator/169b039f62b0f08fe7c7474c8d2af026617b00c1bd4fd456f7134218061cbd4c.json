@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear explanations and methods for segmenting text into chunks.\",\n  \"claims\": [\n    {\n      \"text\": \"Text is segmented into smaller chunks to enhance the context encapsulation and improve the final results of document classification.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Segmenting documents into chunks before processing them with Doc2Vec leads to better model performance.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 0.95\n    },\n    {\n      \"text\": \"Each chunk is processed through a BiLSTM model to generate embeddings, which are then aggregated to form the document vector.\",\n      \"citations\": [\"C5\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1865,
+    "completion_tokens": 193,
+    "total_tokens": 2058
+  },
+  "seconds": 8.766757000237703
+}

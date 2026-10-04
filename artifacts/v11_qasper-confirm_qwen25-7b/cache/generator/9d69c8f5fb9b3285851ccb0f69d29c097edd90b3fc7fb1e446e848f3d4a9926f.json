@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes how the model combines audio and text sequences using dual RNNs and a feed-forward neural model.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses dual RNNs to encode information from both audio and text sequences and then combines this information using a feed-forward neural model.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 571,
+    "completion_tokens": 103,
+    "total_tokens": 674
+  },
+  "seconds": 4.280520143918693
+}

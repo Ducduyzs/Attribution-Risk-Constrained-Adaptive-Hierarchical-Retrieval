@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the performance of multilingual BERT in cross-lingual and cross-target settings, comparing it to baselines and other models.\",\n  \"claims\": [\n    {\n      \"text\": \"Multilingual BERT performs better than baseline models in cross-lingual and cross-target settings.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Multilingual BERT outperforms feature-based and other neural approaches in a monolingual English setting for stance detection.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 627,
+    "completion_tokens": 151,
+    "total_tokens": 778
+  },
+  "seconds": 6.317888224031776
+}

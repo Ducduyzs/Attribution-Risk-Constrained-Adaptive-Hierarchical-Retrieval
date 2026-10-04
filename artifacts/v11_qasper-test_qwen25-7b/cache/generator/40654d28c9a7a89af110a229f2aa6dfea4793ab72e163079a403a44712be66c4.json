@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the decoder architecture used in the model.\",\n  \"claims\": [\n    {\n      \"text\": \"The decoder takes INLINEFORM0 as an input and generates a response by a GRU language model with attention.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2086,
+    "completion_tokens": 81,
+    "total_tokens": 2167
+  },
+  "seconds": 3.7984751984477043
+}

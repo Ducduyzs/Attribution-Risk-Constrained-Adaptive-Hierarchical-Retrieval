@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how gazetteer resources are built from Wikipedia and Wikidata.\",\n  \"claims\": [\n    {\n      \"text\": \"Gazetteer resources can be built from Wikipedia using instance relationships and classical machine learning models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Wikidata is used as a source for building gazetteer resources due to its larger entity count compared to DBpedia.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Enhanced gazetteer embeddings can be created using self-attention and match span encoding techniques.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 695,
+    "completion_tokens": 184,
+    "total_tokens": 879
+  },
+  "seconds": 8.536252561956644
+}

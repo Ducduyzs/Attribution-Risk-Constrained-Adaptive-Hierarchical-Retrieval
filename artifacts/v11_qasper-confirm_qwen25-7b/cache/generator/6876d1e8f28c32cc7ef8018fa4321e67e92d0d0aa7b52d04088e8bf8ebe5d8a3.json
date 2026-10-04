@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists multiple models and architectures that were compared against.\",\n  \"claims\": [\n    {\n      \"text\": \"They compared against neural models built on both syntactic trees and latent trees, as well as the non-tree models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"They also compared against recent latent tree-based models.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2173,
+    "completion_tokens": 118,
+    "total_tokens": 2291
+  },
+  "seconds": 5.275434840004891
+}

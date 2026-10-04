@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about post-processing approaches used in the translation process.\",\n  \"claims\": [\n    {\n      \"text\": \"A rescoring mechanism is proposed to reselect translation candidates based on a pre-trained language model.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Unknown word replacement (UWR) is used to reduce the impact of out-of-vocabulary (OOV) words.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Numbers and dates are replaced with special tokens during pre-processing and restored in post-processing.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"An ensemble method is applied by selecting the top five translations and rescorining them.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 217,
+    "total_tokens": 1484
+  },
+  "seconds": 9.965506629552692
+}

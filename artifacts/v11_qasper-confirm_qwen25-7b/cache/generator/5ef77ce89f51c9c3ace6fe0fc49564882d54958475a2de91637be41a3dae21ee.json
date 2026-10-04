@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the size of training sets for ELMo models in different contexts.\",\n  \"claims\": [\n    {\n      \"text\": \"The training sets for the newer ELMo models for multiple languages (ELMoForManyLangs) are significantly smaller, around 20 million words, compared to the original ELMo model's training set of one billion words.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 523,
+    "completion_tokens": 120,
+    "total_tokens": 643
+  },
+  "seconds": 4.875734130386263
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence directly addresses the quality of Twitter data in predicting language use compared to web-crawled data.\",\n  \"claims\": [\n    {\n      \"text\": \"Twitter data makes better predictions about the inventory of languages used in each country.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The authors hypothesize that Twitter data better represents wealthier populations, which aligns with the observed better prediction of languages in North America and Oceania.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1778,
+    "completion_tokens": 141,
+    "total_tokens": 1919
+  },
+  "seconds": 6.015715305227786
+}

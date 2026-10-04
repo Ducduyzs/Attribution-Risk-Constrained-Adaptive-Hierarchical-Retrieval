@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on syntactic features used in a speech act classifier.\",\n  \"claims\": [\n    {\n      \"text\": \"Dependency sub-trees are proposed as syntactic features.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Binary features indicating the presence of abbreviations are proposed as syntactic features.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A total of 1666 syntactic features were selected for the classifier.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 652,
+    "completion_tokens": 155,
+    "total_tokens": 807
+  },
+  "seconds": 6.41921560280025
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the inference models used to estimate socioeconomic status.\",\n  \"claims\": [\n    {\n      \"text\": \"They build inference models based on socioeconomic census data, crawled profession information, and expert annotated Google Street View images of users' home locations.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Specifically, Gaussian Processes were applied to predict user income, occupation, and socioeconomic class based on demographic, psycho-linguistic features, and a standardized job classification taxonomy.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1054,
+    "completion_tokens": 152,
+    "total_tokens": 1206
+  },
+  "seconds": 6.600756063126028
+}

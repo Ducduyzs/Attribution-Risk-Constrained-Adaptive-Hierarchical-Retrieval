@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific accuracy metrics and analysis for distinguishing between Shakespeare and Fletcher's works.\",\n  \"claims\": [\n    {\n      \"text\": \"The versification-based models yield a very high accuracy with the recognition of Shakespeare and Fletcher, with an accuracy of 0.97 to 1.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The rolling attribution method with combined versification and lexical features distinguishes between Shakespeare and Fletcher with an accuracy of 0.9977.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.95\n    },\n    {\n      \"text\": \"Out of 17 scenes in H8, 7 scenes are attributed to Shakespeare and 5 to Fletcher by all 30 models, suggesting a high likelihood of Shakespeare and Fletcher's sole authorship respectively.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 224,
+    "total_tokens": 1386
+  },
+  "seconds": 9.875890641007572
+}

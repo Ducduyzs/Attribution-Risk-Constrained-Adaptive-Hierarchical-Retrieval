@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how segmentation quality is evaluated, including automatic and manual methods.\",\n  \"claims\": [\n    {\n      \"text\": \"Segmentation quality is evaluated using both automatic and manual methods. Automatic evaluations involve comparing word pairs from reference and automatically generated segmentations, while manual evaluations compare expert and naive segmentations.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"An automatic evaluation protocol involves creating lists of word pairs at segment borders and counting intersections to assess accuracy.\",\n      \"citations\": [\"C3\", \"C6\", \"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1759,
+    "completion_tokens": 170,
+    "total_tokens": 1929
+  },
+  "seconds": 7.720524806063622
+}

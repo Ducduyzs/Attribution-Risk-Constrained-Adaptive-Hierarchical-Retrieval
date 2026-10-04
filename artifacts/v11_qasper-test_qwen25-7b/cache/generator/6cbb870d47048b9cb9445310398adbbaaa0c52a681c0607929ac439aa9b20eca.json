@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the collection process and methods used for the dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The dataset was collected using crowdsourcing.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Participants were asked to record each wording for each intent twice.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The dataset includes demographic information about the speakers, such as age range, gender, and speaking ability.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1349,
+    "completion_tokens": 151,
+    "total_tokens": 1500
+  },
+  "seconds": 6.524747972376645
+}

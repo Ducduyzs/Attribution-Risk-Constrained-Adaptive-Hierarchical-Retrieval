@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists several models used and explored in the paper.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper explores models including CNN, RNN, FFNN, LSTM, and logistic regression.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Pre-trained models such as TFIDF, CV, and W2V are also used.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 574,
+    "completion_tokens": 127,
+    "total_tokens": 701
+  },
+  "seconds": 5.473028871230781
+}

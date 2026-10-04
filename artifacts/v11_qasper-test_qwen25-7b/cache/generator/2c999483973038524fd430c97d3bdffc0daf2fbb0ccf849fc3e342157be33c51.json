@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the evaluation metrics used in the study.\",\n  \"claims\": [\n    {\n      \"text\": \"BLEU-4 score and slot error rate (ERR) are used as evaluation metrics.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Manual evaluation was conducted by human annotators scoring generated utterances based on informativeness and naturalness.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Fleiss’ kappa was used to measure inter-rater consistency for the manual evaluation.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 170,
+    "total_tokens": 1383
+  },
+  "seconds": 7.212519750930369
+}

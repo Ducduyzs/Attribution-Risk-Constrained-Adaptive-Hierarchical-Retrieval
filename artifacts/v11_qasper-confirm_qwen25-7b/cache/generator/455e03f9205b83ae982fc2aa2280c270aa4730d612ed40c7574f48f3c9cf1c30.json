@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the performance of the proposed model compared to existing models.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed model outperforms existing models on ROUGE-1 and ROUGE-2 scores on both Pubmed and arXiv datasets.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The benefits of the model become stronger as applied to longer documents.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The model's benefits primarily come from modeling the local context, even for the longest documents.\",\n      \"citations\": [\"C1\", \"C3\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 196,
+    "total_tokens": 1252
+  },
+  "seconds": 8.464848500210792
+}

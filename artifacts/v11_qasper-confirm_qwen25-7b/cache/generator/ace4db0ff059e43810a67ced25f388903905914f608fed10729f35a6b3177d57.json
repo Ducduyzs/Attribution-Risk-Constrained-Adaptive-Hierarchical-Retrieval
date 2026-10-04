@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions the use of annotated clinical notes in training a clinical NER model.\",\n  \"claims\": [\n    {\n      \"text\": \"They obtained the annotated clinical notes from a dataset used for training a clinical NER model.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 527,
+    "completion_tokens": 86,
+    "total_tokens": 613
+  },
+  "seconds": 3.5302530927583575
+}

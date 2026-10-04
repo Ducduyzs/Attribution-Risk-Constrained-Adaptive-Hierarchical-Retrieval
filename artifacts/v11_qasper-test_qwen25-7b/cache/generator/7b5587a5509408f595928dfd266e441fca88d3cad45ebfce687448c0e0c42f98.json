@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides statistical and numerical comparisons of the model's performance against existing alternatives.\",\n  \"claims\": [\n    {\n      \"text\": \"Their model improved by at least 0.25 in certain metrics compared to current alternatives.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The recall and F1 measures were notably higher with their model, indicating significant improvement.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 618,
+    "completion_tokens": 128,
+    "total_tokens": 746
+  },
+  "seconds": 5.354515501763672
+}

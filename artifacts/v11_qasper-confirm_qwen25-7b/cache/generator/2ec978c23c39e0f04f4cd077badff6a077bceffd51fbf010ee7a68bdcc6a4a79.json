@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly outlines the limitations of current ELSs and their impact on summarization effectiveness.\",\n  \"claims\": [\n    {\n      \"text\": \"Current ELSs are not sufficiently effective due to unresolved ambiguities and irrelevant entities.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Ambiguous entities like 'South Korean' can refer to multiple concepts, leading to errors.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Common entities such as 'Wednesday' can be erroneously linked, causing irrelevance.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1856,
+    "completion_tokens": 180,
+    "total_tokens": 2036
+  },
+  "seconds": 8.168491501826793
+}

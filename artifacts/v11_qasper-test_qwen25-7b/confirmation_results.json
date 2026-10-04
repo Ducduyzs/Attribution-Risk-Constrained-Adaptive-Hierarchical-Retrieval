@@ -1,0 +1,304 @@
+{
+  "primary": {
+    "metric": "official evidence F1, mean of 512/1024/2048 per question",
+    "split": "test",
+    "holm_family_size": 3,
+    "H_a_agreement_noninferior_to_raptor": {
+      "mean_diff": 0.007459772737550516,
+      "ci95": [
+        -0.026944444444444448,
+        0.042716439938662164
+      ],
+      "test": "non-inferiority",
+      "margin": 0.02,
+      "p_one_sided": 0.06444677766111695,
+      "p_holm": 0.19334033298335085,
+      "supported": false
+    },
+    "T2_all_leaf_noninferior_to_raptor": {
+      "mean_diff": -0.006992811715033937,
+      "ci95": [
+        -0.04273061300839078,
+        0.03005411255411256
+      ],
+      "test": "non-inferiority",
+      "margin": 0.02,
+      "p_one_sided": 0.23778811059447028,
+      "p_holm": 0.37188140592970353,
+      "supported": false
+    },
+    "H_b_agreement_superior_to_all_leaf": {
+      "mean_diff": 0.01445258445258446,
+      "ci95": [
+        -0.016945657223435,
+        0.045760905760905794
+      ],
+      "test": "superiority",
+      "margin": null,
+      "p_one_sided": 0.18594070296485177,
+      "p_holm": 0.37188140592970353,
+      "supported": false
+    }
+  },
+  "table": {
+    "all_leaf@1024": {
+      "citation_f1": 0.3377479510322646,
+      "official_qasper_evidence_f1": 0.38490740740740725,
+      "answer_f1": 0.2764417810442309,
+      "gold_paragraph_char_coverage_best_ref": 0.5603611288849037,
+      "packed_leaf_touch_recall": 0.5249530870364205,
+      "context_tokens": 889.0,
+      "total_api_tokens": 1219.3055555555557
+    },
+    "agreement@512": {
+      "citation_f1": 0.3182717282717281,
+      "official_qasper_evidence_f1": 0.3619179894179892,
+      "answer_f1": 0.27083950205641066,
+      "gold_paragraph_char_coverage_best_ref": 0.44299735139363516,
+      "packed_leaf_touch_recall": 0.3668625972792639,
+      "context_tokens": 411.75,
+      "total_api_tokens": 708.1055555555556
+    },
+    "all_leaf@512": {
+      "citation_f1": 0.3095855379188711,
+      "official_qasper_evidence_f1": 0.33085978835978824,
+      "answer_f1": 0.25968123079034744,
+      "gold_paragraph_char_coverage_best_ref": 0.37837022631042166,
+      "packed_leaf_touch_recall": 0.3397643097643098,
+      "context_tokens": 412.6,
+      "total_api_tokens": 703.1444444444444
+    },
+    "raptor@2048": {
+      "citation_f1": 0.36976932018598674,
+      "official_qasper_evidence_f1": 0.3883337341670674,
+      "answer_f1": 0.2766816191511841,
+      "gold_paragraph_char_coverage_best_ref": 0.6131023128405173,
+      "packed_leaf_touch_recall": 0.629511692011692,
+      "context_tokens": 1495.0388888888888,
+      "total_api_tokens": 1871.8944444444444
+    },
+    "agreement@2048": {
+      "citation_f1": 0.3768599918599918,
+      "official_qasper_evidence_f1": 0.39655202821869495,
+      "answer_f1": 0.2765482859290121,
+      "gold_paragraph_char_coverage_best_ref": 0.7066737971267851,
+      "packed_leaf_touch_recall": 0.7037223116389786,
+      "context_tokens": 1522.3277777777778,
+      "total_api_tokens": 1901.5277777777778
+    },
+    "all_leaf@2048": {
+      "citation_f1": 0.3587003319846455,
+      "official_qasper_evidence_f1": 0.39009339426006084,
+      "answer_f1": 0.27590194559232717,
+      "gold_paragraph_char_coverage_best_ref": 0.6826067772168345,
+      "packed_leaf_touch_recall": 0.6864247326747329,
+      "context_tokens": 1544.0388888888888,
+      "total_api_tokens": 1917.1777777777777
+    },
+    "raptor@512": {
+      "citation_f1": 0.32929012345678993,
+      "official_qasper_evidence_f1": 0.35489858906525557,
+      "answer_f1": 0.2556223080822285,
+      "gold_paragraph_char_coverage_best_ref": 0.39798382757792083,
+      "packed_leaf_touch_recall": 0.35979229104229116,
+      "context_tokens": 410.4888888888889,
+      "total_api_tokens": 705.5333333333333
+    },
+    "agreement@1024": {
+      "citation_f1": 0.3660902260412061,
+      "official_qasper_evidence_f1": 0.39074832574832546,
+      "answer_f1": 0.2737211744925366,
+      "gold_paragraph_char_coverage_best_ref": 0.6014209703366775,
+      "packed_leaf_touch_recall": 0.5545206491039825,
+      "context_tokens": 883.8611111111111,
+      "total_api_tokens": 1220.5
+    },
+    "raptor@1024": {
+      "citation_f1": 0.3487223778400248,
+      "official_qasper_evidence_f1": 0.38360670194003516,
+      "answer_f1": 0.2855778625626909,
+      "gold_paragraph_char_coverage_best_ref": 0.558190410317213,
+      "packed_leaf_touch_recall": 0.5212666808500143,
+      "context_tokens": 894.2611111111111,
+      "total_api_tokens": 1230.1666666666667
+    }
+  },
+  "secondary": {
+    "agreement-raptor@512:official_qasper_evidence_f1": {
+      "mean_diff": 0.007019400352733688,
+      "ci95": [
+        -0.04078924162257496,
+        0.055586419753086404
+      ]
+    },
+    "agreement-raptor@512:gold_paragraph_char_coverage_best_ref": {
+      "mean_diff": 0.045013523815714336,
+      "ci95": [
+        -0.009478676279070338,
+        0.09964999917163286
+      ]
+    },
+    "agreement-raptor@512:citation_f1": {
+      "mean_diff": -0.011018395185061852,
+      "ci95": [
+        -0.055798059964726636,
+        0.03350100516767183
+      ]
+    },
+    "agreement-raptor@512:answer_f1": {
+      "mean_diff": 0.015217193974182084,
+      "ci95": [
+        -0.016689655931619182,
+        0.04842764447859875
+      ]
+    },
+    "agreement-all_leaf@512:official_qasper_evidence_f1": {
+      "mean_diff": 0.03105820105820107,
+      "ci95": [
+        -0.01820546737213405,
+        0.08174603174603176
+      ]
+    },
+    "agreement-all_leaf@512:gold_paragraph_char_coverage_best_ref": {
+      "mean_diff": 0.06462712508321351,
+      "ci95": [
+        0.008521264519155596,
+        0.11965573356223064
+      ]
+    },
+    "agreement-all_leaf@512:citation_f1": {
+      "mean_diff": 0.00868619035285702,
+      "ci95": [
+        -0.033755688755688754,
+        0.050854824188157524
+      ]
+    },
+    "agreement-all_leaf@512:answer_f1": {
+      "mean_diff": 0.01115827126606308,
+      "ci95": [
+        -0.023731934486030167,
+        0.046609939167588856
+      ]
+    },
+    "agreement-raptor@1024:official_qasper_evidence_f1": {
+      "mean_diff": 0.007141623808290484,
+      "ci95": [
+        -0.04157971657971658,
+        0.05564454064454067
+      ]
+    },
+    "agreement-raptor@1024:gold_paragraph_char_coverage_best_ref": {
+      "mean_diff": 0.043230560019464674,
+      "ci95": [
+        0.006809121151226412,
+        0.08361302410100586
+      ]
+    },
+    "agreement-raptor@1024:citation_f1": {
+      "mean_diff": 0.017367848201181528,
+      "ci95": [
+        -0.02953543370210037,
+        0.06592685092685092
+      ]
+    },
+    "agreement-raptor@1024:answer_f1": {
+      "mean_diff": -0.011856688070154324,
+      "ci95": [
+        -0.04173432109811527,
+        0.01802961678438268
+      ]
+    },
+    "agreement-all_leaf@1024:official_qasper_evidence_f1": {
+      "mean_diff": 0.00584091834091834,
+      "ci95": [
+        -0.04309489892823227,
+        0.053442329275662614
+      ]
+    },
+    "agreement-all_leaf@1024:gold_paragraph_char_coverage_best_ref": {
+      "mean_diff": 0.041059841451773695,
+      "ci95": [
+        -0.0060028619528619525,
+        0.08953730018291121
+      ]
+    },
+    "agreement-all_leaf@1024:citation_f1": {
+      "mean_diff": 0.028342275008941684,
+      "ci95": [
+        -0.013471374304707642,
+        0.07268463018463017
+      ]
+    },
+    "agreement-all_leaf@1024:answer_f1": {
+      "mean_diff": -0.0027206065516944132,
+      "ci95": [
+        -0.029009851211756258,
+        0.024178930353250142
+      ]
+    },
+    "agreement-raptor@2048:official_qasper_evidence_f1": {
+      "mean_diff": 0.008218294051627386,
+      "ci95": [
+        -0.04275613275613275,
+        0.05933421516754851
+      ]
+    },
+    "agreement-raptor@2048:gold_paragraph_char_coverage_best_ref": {
+      "mean_diff": 0.09357148428626792,
+      "ci95": [
+        0.04804387757951366,
+        0.14104272466427398
+      ]
+    },
+    "agreement-raptor@2048:citation_f1": {
+      "mean_diff": 0.007090671674005012,
+      "ci95": [
+        -0.037532344199010845,
+        0.050978635561968896
+      ]
+    },
+    "agreement-raptor@2048:answer_f1": {
+      "mean_diff": -0.00013333322217193546,
+      "ci95": [
+        -0.035523762847328055,
+        0.03645280769234234
+      ]
+    },
+    "agreement-all_leaf@2048:official_qasper_evidence_f1": {
+      "mean_diff": 0.00645863395863396,
+      "ci95": [
+        -0.03519039602372935,
+        0.05010501843835177
+      ]
+    },
+    "agreement-all_leaf@2048:gold_paragraph_char_coverage_best_ref": {
+      "mean_diff": 0.02406701990995072,
+      "ci95": [
+        -0.01308905492031814,
+        0.061228693045968834
+      ]
+    },
+    "agreement-all_leaf@2048:citation_f1": {
+      "mean_diff": 0.018159659875346148,
+      "ci95": [
+        -0.018123049789716454,
+        0.054365079365079366
+      ]
+    },
+    "agreement-all_leaf@2048:answer_f1": {
+      "mean_diff": 0.0006463403366847973,
+      "ci95": [
+        -0.03367367004371721,
+        0.03632266444906916
+      ]
+    }
+  },
+  "cost": {
+    "raptor_index_seconds": null,
+    "sbert_seconds_total": 29.253279308322817,
+    "raptor_search_seconds_total": 5.833762506023049
+  },
+  "questions": 180,
+  "split": "test",
+  "test_accessed": true
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comprehensive list of models used and discussed in the paper.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper explores models including CNN, RNN, FFNN, LSTM, logistic regression, SVM, ANN, and Random Forest.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"TraceMiner and FAKEDETECTOR are also mentioned as newer models.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1836,
+    "completion_tokens": 141,
+    "total_tokens": 1977
+  },
+  "seconds": 6.048020858783275
+}

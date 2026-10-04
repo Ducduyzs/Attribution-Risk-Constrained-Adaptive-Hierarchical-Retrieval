@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific performance margins for the HABCNN systems compared to other systems.\",\n  \"claims\": [\n    {\n      \"text\": \"The HABCNN systems outperformed other deep learning competitors by big margins, with the best-performing HABCNN-TE outperforming NR by 15.6/16.5 (accuracy/NDCG) on MCTest-150 and 7.3/4.6 on MCTest-500.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Our HABCNN systems outperform other deep learning competitors by big margins.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 682,
+    "completion_tokens": 180,
+    "total_tokens": 862
+  },
+  "seconds": 7.66655641887337
+}

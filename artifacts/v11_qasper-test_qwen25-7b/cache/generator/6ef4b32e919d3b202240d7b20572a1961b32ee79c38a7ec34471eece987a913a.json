@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a direct comparison between the proposed insertion-deletion method and an insertion-only method on synthetic translation tasks, indicating a significant BLEU score improvement.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed insertion-deletion method increases the BLEU score over the insertion-only method by around 2 BLEU points.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1011,
+    "completion_tokens": 104,
+    "total_tokens": 1115
+  },
+  "seconds": 6.344830094370991
+}

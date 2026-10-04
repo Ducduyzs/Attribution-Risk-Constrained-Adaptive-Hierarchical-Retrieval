@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into how noisy entity linking can be managed in KBQA systems through various mechanisms.\",\n  \"claims\": [\n    {\n      \"text\": \"By leveraging query structure ranking, entity/relation linking results, and validation checks, the system can still generate correct answers even with noisy linking results.\",\n      \"citations\": [\"C1\", \"C2\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The system uses a merging module to improve recall, especially with limited training data, which helps in generating correct query structures.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2075,
+    "completion_tokens": 158,
+    "total_tokens": 2233
+  },
+  "seconds": 7.435650262981653
+}

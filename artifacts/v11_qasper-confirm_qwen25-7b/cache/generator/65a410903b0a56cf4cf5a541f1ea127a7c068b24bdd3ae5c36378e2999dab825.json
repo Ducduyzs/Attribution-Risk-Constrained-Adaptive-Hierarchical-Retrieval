@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly outlines biases and unwarranted inferences in the Flickr30K dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The Flickr30K dataset contains biases and unwarranted inferences driven by stereotypes and prejudices.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These biases manifest as linguistic choices and expanded descriptions based on annotators' experiences and knowledge.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Language models trained on this data might propagate harmful stereotypes.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 673,
+    "completion_tokens": 173,
+    "total_tokens": 846
+  },
+  "seconds": 7.504455683752894
+}

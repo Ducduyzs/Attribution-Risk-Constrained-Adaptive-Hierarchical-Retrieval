@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons between the proposed adaptively sparse Transformer and the standard Transformer with softmax.\",\n  \"claims\": [\n    {\n      \"text\": \"Compared to the standard Transformer, the adaptively sparse Transformer tends to have slightly higher BLEU scores without hurting performance.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The adaptively sparse Transformer offers better interpretability and head diversity compared to the standard Transformer.\",\n      \"citations\": [\"C6\", \"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1609,
+    "completion_tokens": 142,
+    "total_tokens": 1751
+  },
+  "seconds": 6.551049679052085
+}

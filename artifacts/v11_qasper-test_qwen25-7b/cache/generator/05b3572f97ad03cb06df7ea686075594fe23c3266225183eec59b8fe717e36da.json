@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the restricted track submission, including the types of models used and specific restrictions.\",\n  \"claims\": [\n    {\n      \"text\": \"The restricted track submission used purely neural models, specifically neural language models and neural machine translation models.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Insertions were restricted to three tokens: ‘,’, ‘-’, and “'s” and allowed only one insertion per sentence.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 146,
+    "total_tokens": 1370
+  },
+  "seconds": 6.221389429178089
+}

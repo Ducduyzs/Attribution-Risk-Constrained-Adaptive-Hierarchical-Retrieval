@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the impact of regularization techniques on performance in the target domain and shows mixed results.\",\n  \"claims\": [\n    {\n      \"text\": \"Regularization techniques do not harm target performance and can even improve it.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Finetuning alone degrades performance in the source domain (squad).\",\n      \"citations\": [\"C2\", \"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1975,
+    "completion_tokens": 130,
+    "total_tokens": 2105
+  },
+  "seconds": 5.8150161118246615
+}

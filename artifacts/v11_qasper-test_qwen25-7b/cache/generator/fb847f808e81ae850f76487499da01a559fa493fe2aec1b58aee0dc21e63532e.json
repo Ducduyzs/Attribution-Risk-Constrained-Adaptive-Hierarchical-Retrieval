@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence directly addresses the evaluation method for embeddings against human judgments.\",\n  \"claims\": [\n    {\n      \"text\": \"Model word vectors are evaluated based on ranking the word pairs according to their cosine similarity, and then measuring the correlation (using Spearman's ρ) between model judgments and human judgments.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1892,
+    "completion_tokens": 97,
+    "total_tokens": 1989
+  },
+  "seconds": 4.349178928881884
+}

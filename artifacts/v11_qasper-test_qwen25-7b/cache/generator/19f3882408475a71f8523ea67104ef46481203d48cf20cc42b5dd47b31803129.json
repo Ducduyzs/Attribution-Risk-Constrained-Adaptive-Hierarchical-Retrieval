@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the success rate of fooling tested models in experiments.\",\n  \"claims\": [\n    {\n      \"text\": \"The success rate of fooling tested models in experiments is high, as the adversarial examples generated are able to deceive well-trained models with significantly high success rates.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Specifically, 94.6% of human annotations matched the ground-truth label of the original text, indicating that the perturbations did not significantly affect human judgments.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 645,
+    "completion_tokens": 161,
+    "total_tokens": 806
+  },
+  "seconds": 13.408205631189048
+}

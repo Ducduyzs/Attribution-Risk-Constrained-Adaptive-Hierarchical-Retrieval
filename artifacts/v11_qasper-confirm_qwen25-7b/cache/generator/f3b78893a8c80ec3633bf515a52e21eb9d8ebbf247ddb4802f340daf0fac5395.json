@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the performance comparison between different types of models on specific datasets.\",\n  \"claims\": [\n    {\n      \"text\": \"Neural extractive models outperform traditional extractive models on informativeness (ROUGE-1,2) by a wide margin.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Neural extractive models also dominate neural abstractive models on ROUGE-1,2, though abstractive models have higher ROUGE-L scores.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"On both Pubmed and arXiv datasets, the method outperforms baselines and previous approaches only by a narrow margin overall, but becomes much stronger for longer documents.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 653,
+    "completion_tokens": 215,
+    "total_tokens": 868
+  },
+  "seconds": 9.137158162891865
+}

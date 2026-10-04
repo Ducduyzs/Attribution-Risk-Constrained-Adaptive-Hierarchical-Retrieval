@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions specific languages and language families experimented with.\",\n  \"claims\": [\n    {\n      \"text\": \"Experiments were conducted on Dutch, Spanish, English, and German.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"M-Bert was tested on 41 languages using Universal Dependencies (UD) data.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Probing experiments involved 16 languages in an in-house dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1677,
+    "completion_tokens": 154,
+    "total_tokens": 1831
+  },
+  "seconds": 6.765914810821414
+}

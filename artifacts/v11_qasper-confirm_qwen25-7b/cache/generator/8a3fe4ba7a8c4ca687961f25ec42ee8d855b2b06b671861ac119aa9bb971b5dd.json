@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes how audio and text sequences are combined in an RNN-based model for speech emotion recognition.\",\n  \"claims\": [\n    {\n      \"text\": \"Audio and text sequences are encoded separately using dual RNNs and then combined to predict emotion classes.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A multimodal attention method is used to focus on parts of the transcript containing strong emotional information, conditioned on audio information.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 565,
+    "completion_tokens": 138,
+    "total_tokens": 703
+  },
+  "seconds": 6.045258111786097
+}

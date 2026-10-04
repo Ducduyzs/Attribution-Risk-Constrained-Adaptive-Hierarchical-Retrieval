@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides detailed information about the state-of-the-art models and their performance on the WSJ dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The current best model on WSJ is an HMM-based system with a WER of 11.4%.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"End-to-end systems trained only on WSJ have achieved a WER of 12.5%.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A baseline system with a convolutional language model achieves a WER of 12.8% on WSJ.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 702,
+    "completion_tokens": 189,
+    "total_tokens": 891
+  },
+  "seconds": 7.757694894913584
+}

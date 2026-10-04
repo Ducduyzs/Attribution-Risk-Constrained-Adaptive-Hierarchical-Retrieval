@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear indications of how the approach demonstrates interpretability merits.\",\n  \"claims\": [\n    {\n      \"text\": \"The approach improves model performance and provides human-understandable explanations for the improved model, enhancing interpretability.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"By leveraging the disagreement between the model and the crowd, the approach can make efficient use of the crowd and provide insights into how the model learns.\",\n      \"citations\": [\"C3\", \"C5\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Empirical demonstrations on real-world datasets show that the approach improves state-of-the-art models and provides significant performance enhancements.\",\n      \"citations\": [\"C1\", \"C8\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1636,
+    "completion_tokens": 204,
+    "total_tokens": 1840
+  },
+  "seconds": 8.988499448169023
+}

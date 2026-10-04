@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple references to different models used in the paper.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper explores various machine learning algorithms including TFIDF, CV, W2V, CNN, RNN, FFNN, and LSTM.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The paper also uses logistic regression and a model called TraceMiner.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Additionally, the paper compares 15 models derived from 3 pre-trained models and 5 different models for fake news detection.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 599,
+    "completion_tokens": 189,
+    "total_tokens": 788
+  },
+  "seconds": 7.788897982798517
+}

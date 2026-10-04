@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly defines the baseline as a one-stage RNN system in the context of dialect recognition.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline we use for comparison is a one-stage RNN system, the RNN structure is the same as the last stage containing 2-layer BLSTM and directly trained to recognize dialect category.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1801,
+    "completion_tokens": 106,
+    "total_tokens": 1907
+  },
+  "seconds": 4.9801550838164985
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how missing hypotheses were discovered through expert re-evaluation of problems marked as 'YES' in the RTE3 test suite.\",\n  \"claims\": [\n    {\n      \"text\": \"Experts were asked to re-evaluate problems and mention any missing hypotheses if they considered entailment to hold.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The process involved consulting three experts per problem, leading to a total of 449 expert judgments.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Some problems initially marked as 'YES' were found to lack sufficient hypotheses, leading to doubts about entailment.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 194,
+    "total_tokens": 1381
+  },
+  "seconds": 11.698555698618293
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"Evidence clearly mentions specific datasets used for different parts of the experiment.\",\n  \"claims\": [\n    {\n      \"text\": \"Bing Liu's dataset was used for evaluation.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The SNAP Amazon Dataset was used for sentiment analysis.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 105,
+    "total_tokens": 776
+  },
+  "seconds": 4.382102499250323
+}

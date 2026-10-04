@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how to adjust the confidences of incorrectly predicted domains.\",\n  \"claims\": [\n    {\n      \"text\": \"They decrease the confidences of the incorrectly predicted domains using utterances with negative system responses.\",\n      \"citations\": [\"C2\", \"C3\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 89,
+    "total_tokens": 1285
+  },
+  "seconds": 4.059653748758137
+}

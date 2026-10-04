@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the improvement of the system over a mature constraint-based information extraction system.\",\n  \"claims\": [\n    {\n      \"text\": \"The system led to large improvements over a mature and highly tuned constraint-based production information extraction system used at Bloomberg for financial language text.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The full pipeline resulted in a reduction in false positives of more than 50% in the extractions produced by our pipeline.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 978,
+    "completion_tokens": 143,
+    "total_tokens": 1121
+  },
+  "seconds": 6.153183562681079
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comparison between the model and baselines in terms of performance and flexibility.\",\n  \"claims\": [\n    {\n      \"text\": \"The model outperforms baselines in terms of training time and flexibility for dataset alterations.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The model's performance is comparable to baselines in recipe retrieval tasks, but offers more flexibility.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 136,
+    "total_tokens": 1296
+  },
+  "seconds": 5.8304193443618715
+}

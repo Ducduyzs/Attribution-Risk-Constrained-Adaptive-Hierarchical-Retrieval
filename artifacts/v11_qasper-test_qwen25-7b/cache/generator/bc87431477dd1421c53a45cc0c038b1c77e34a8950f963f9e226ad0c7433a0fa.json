@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comparison between a single-system approach and a system combination approach on the CHiME-5 dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"A single-system approach achieved a WER of 41.6% on the development set and 43.2% on the evaluation set, which is a 8% relative improvement over the previous best result without system combination.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 659,
+    "completion_tokens": 125,
+    "total_tokens": 784
+  },
+  "seconds": 5.691963595803827
+}

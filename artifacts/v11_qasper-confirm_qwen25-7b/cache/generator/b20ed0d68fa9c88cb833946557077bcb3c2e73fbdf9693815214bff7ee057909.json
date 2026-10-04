@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states that the presented model outperforms existing systems and the state-of-the-art model on the ROTOWIRE dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"Our model achieves the new state-of-the-art performance.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Our model outperforms existing systems and the state-of-the-art model in terms of BLEU, P%, F1%, and CO metrics.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 143,
+    "total_tokens": 1355
+  },
+  "seconds": 6.003071595914662
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how gazetteer resources can be built from Wikipedia and Wikidata.\",\n  \"claims\": [\n    {\n      \"text\": \"Gazetteer resources can be built from the Wikipedia knowledge base, specifically using its instance of relationships.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Wikidata is chosen over DBpedia for building gazetteers due to its larger entity count and structured format.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.95\n    },\n    {\n      \"text\": \"Enhanced gazetteer embeddings can be created using self-attention and match span encoding techniques.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 695,
+    "completion_tokens": 186,
+    "total_tokens": 881
+  },
+  "seconds": 7.761143142357469
+}

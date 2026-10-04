@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the process of deriving a threshold for label classification.\",\n  \"claims\": [\n    {\n      \"text\": \"The classification threshold ($\\\\phi$) is derived empirically based on the precision-recall curve.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The classifier computes label based on the correctly answered questions and a threshold.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 676,
+    "completion_tokens": 120,
+    "total_tokens": 796
+  },
+  "seconds": 10.06984866131097
+}

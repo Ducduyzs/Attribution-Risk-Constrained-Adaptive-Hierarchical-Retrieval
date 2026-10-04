@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the approach demonstrates its interpretability merits through empirical results and comparisons.\",\n  \"claims\": [\n    {\n      \"text\": \"The approach demonstrates its interpretability merits by showing that it improves model training transparency and performance on real-world datasets.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"By leveraging crowd workers to label sampled microposts, the approach provides human-understandable explanations for the model's decisions.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Empirical results show that the approach outperforms a query expansion method in discovering informative keywords, leading to better model interpretability.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 701,
+    "completion_tokens": 197,
+    "total_tokens": 898
+  },
+  "seconds": 8.366803925018758
+}

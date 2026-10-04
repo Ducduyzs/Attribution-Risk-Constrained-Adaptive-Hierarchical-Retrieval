@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the proposed model's architecture and its performance.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed model achieves improved performance compared to other word embedding models like Word2Vec, GloVe, and fastText.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The model uses ELMo embeddings and Wikidata to learn representations for entity mentions, achieving similar performance to existing systems without specific tuning.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The model was trained using Adam optimization with a batch size of 32 for 30 epochs.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1763,
+    "completion_tokens": 191,
+    "total_tokens": 1954
+  },
+  "seconds": 8.693284135311842
+}

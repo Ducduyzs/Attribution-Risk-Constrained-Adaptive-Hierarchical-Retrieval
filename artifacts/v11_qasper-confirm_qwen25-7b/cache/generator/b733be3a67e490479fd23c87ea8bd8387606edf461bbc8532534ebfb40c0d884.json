@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of second-order co-occurrence matrices and vectors.\",\n  \"claims\": [\n    {\n      \"text\": \"A second-order co-occurrence matrix is used to construct a second-order co-occurrence vector for each term, which represents the meaning of the term by averaging the first-order co-occurrence vectors of its constituent words.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Second-order co-occurrence vectors incorporate both contextual information and semantic similarity scores derived from a taxonomy to measure the relatedness of terms.\",\n      \"citations\": [\"C3\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1553,
+    "completion_tokens": 169,
+    "total_tokens": 1722
+  },
+  "seconds": 7.444161773659289
+}

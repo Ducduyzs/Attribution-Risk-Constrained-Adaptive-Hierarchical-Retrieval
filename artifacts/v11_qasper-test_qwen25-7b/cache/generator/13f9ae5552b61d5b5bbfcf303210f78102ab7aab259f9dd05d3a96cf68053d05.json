@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the datasets used for evaluation in various translation tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"They used the WMT 2014 En-De dataset, consisting of around 4.5 million sentence pairs, for English-to-German translation.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For English-to-Vietnamese (En-Vi) translation, they used the IWSLT 2015 BIBREF20 dataset, containing around 133K sentence pairs.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For German-to-English (De-En) translation, they used the IWSLT 2014 dataset, which has a training set of 160K sentence pairs and a validation set of 7K sentences.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1708,
+    "completion_tokens": 234,
+    "total_tokens": 1942
+  },
+  "seconds": 10.602378719020635
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear comparisons between different models and their performance on long documents.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed model outperforms previous extractive and abstractive models on ROUGE-1, ROUGE-2, and METEOR scores, especially for longer documents.\",\n      \"citations\": [\"C3\", \"C4\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The benefits of the model come exclusively from modeling the local context, even for the longest documents.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2038,
+    "completion_tokens": 155,
+    "total_tokens": 2193
+  },
+  "seconds": 6.831139191053808
+}

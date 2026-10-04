@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the loss function, parameter optimization, and the method for determining the correct sense during testing.\",\n  \"claims\": [\n    {\n      \"text\": \"The network uses mean square error as the loss function.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"RMSprop is used for parameter optimization.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"During testing, the sense with the highest value of the output of the classification layer is considered the correct sense.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 166,
+    "total_tokens": 1295
+  },
+  "seconds": 10.071376898791641
+}

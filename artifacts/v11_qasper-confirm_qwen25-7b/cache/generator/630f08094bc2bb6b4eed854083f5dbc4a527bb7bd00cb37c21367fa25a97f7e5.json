@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about two different models, but does not specify which one is being referred to in the question.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses an LSTM-CNN deep learning architecture.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Another model uses an ensemble of decision tree classifiers.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 656,
+    "completion_tokens": 120,
+    "total_tokens": 776
+  },
+  "seconds": 5.119606059975922
+}

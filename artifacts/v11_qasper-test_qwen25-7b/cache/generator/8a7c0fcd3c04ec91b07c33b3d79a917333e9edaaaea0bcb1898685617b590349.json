@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the metrics used for evaluating translation quality.\",\n  \"claims\": [\n    {\n      \"text\": \"They use BLEU, METEOR, and chrF metrics to evaluate translation quality.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"METEOR is based on the harmonic mean of precision and recall, with recall weighted higher than precision.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"chrF is a character n-gram metric that correlates well with human judgments, especially for morphologically rich languages.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1222,
+    "completion_tokens": 180,
+    "total_tokens": 1402
+  },
+  "seconds": 7.473634055815637
+}

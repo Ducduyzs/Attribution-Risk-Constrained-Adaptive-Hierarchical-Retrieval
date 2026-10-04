@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses dialog context language models that capture varying lengths of dialog history, with specific mentions of 3 and 5 dialog turns.\",\n  \"claims\": [\n    {\n      \"text\": \"Dialog history up to 5 turns is captured.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Models perform well with dialog history of 3 and 5 turns.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1856,
+    "completion_tokens": 123,
+    "total_tokens": 1979
+  },
+  "seconds": 5.769947116263211
+}

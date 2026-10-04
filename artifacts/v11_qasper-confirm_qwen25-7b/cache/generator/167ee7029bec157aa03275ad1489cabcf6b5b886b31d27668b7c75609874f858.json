@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons against several models and methods, but does not explicitly list all baselines used.\",\n  \"claims\": [\n    {\n      \"text\": \"They compared their model against syntactic tree-based models, latent tree-based models, non-tree models, and other neural models.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2123,
+    "completion_tokens": 98,
+    "total_tokens": 2221
+  },
+  "seconds": 4.659853869117796
+}

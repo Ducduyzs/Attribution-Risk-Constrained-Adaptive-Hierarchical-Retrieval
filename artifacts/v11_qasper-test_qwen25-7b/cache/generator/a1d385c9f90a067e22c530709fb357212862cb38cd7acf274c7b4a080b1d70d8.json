@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how topic quality is measured using NPMI scores.\",\n  \"claims\": [\n    {\n      \"text\": \"Topic quality is measured using the Normalised Pointwise Mutual Information (NPMI) score.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Higher NPMI scores indicate better topic coherence.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 117,
+    "total_tokens": 1225
+  },
+  "seconds": 7.132190467324108
+}

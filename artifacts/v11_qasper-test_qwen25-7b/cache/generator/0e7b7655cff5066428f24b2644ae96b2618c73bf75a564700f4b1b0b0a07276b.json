@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The paper describes a re-ranking approach for QA systems, which does not involve re-training the original model but rather uses a learned similarity function to improve ranking.\",\n  \"claims\": [\n    {\n      \"text\": \"The re-ranking approach is a transductive learning technique as it does not require re-training the original QA system but instead uses a learned similarity function to improve ranking.\",\n      \"citations\": [\"C1\", \"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1002,
+    "completion_tokens": 116,
+    "total_tokens": 1118
+  },
+  "seconds": 7.075550613924861
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the training process of the selected sharing layer.\",\n  \"claims\": [\n    {\n      \"text\": \"The selected sharing layer is trained using a gated sharing cell and an attention sharing cell to filter and select valuable shared features for each task.\",\n      \"citations\": [\"C2\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1568,
+    "completion_tokens": 91,
+    "total_tokens": 1659
+  },
+  "seconds": 4.201500474009663
+}

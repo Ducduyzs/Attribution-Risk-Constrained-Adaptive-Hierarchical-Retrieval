@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple comparisons between the proposed G-SAT model and existing DST systems, indicating consistent outperformance in accuracy.\",\n  \"claims\": [\n    {\n      \"text\": \"The G-SAT model outperforms GLAD and GCE on joint goal metrics, even when no pre-trained resources are available.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The G-SAT model maintains high-level performance across different languages and datasets, showing competitive advantages over state-of-art DST systems.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1879,
+    "completion_tokens": 157,
+    "total_tokens": 2036
+  },
+  "seconds": 6.982298159040511
+}

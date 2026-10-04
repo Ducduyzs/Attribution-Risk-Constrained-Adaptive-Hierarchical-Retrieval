@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of a binary classifier in the context of identifying relevant text segments from scientific documents based on given criteria.\",\n  \"claims\": [\n    {\n      \"text\": \"A binary classifier trained to identify publications that met the criteria performed better when trained on the candidate sentences than when trained on sentences randomly picked from the text.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1748,
+    "completion_tokens": 112,
+    "total_tokens": 1860
+  },
+  "seconds": 5.447262885980308
+}

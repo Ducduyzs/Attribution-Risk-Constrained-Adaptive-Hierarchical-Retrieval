@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the performance of various extractive models on the GameWikiSum dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The extractive models trained on GameWikiSum include TextRank, LexRank, SumBasic, C_SKIP, and SemSentSum.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 575,
+    "completion_tokens": 95,
+    "total_tokens": 670
+  },
+  "seconds": 4.385938802734017
+}

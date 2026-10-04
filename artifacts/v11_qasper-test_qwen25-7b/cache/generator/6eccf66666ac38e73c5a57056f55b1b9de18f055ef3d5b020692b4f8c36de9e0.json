@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides sufficient details on how counterfactual data augmentation affects gender bias in predictions and performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Counterfactual Data Augmentation (CDA) effectively mitigates gender bias in predictions, particularly for the spouse relation, and improves overall model performance.\",\n      \"citations\": [\"C4\", \"C5\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Hard-Debiased Word Embeddings are highly effective in reducing gender bias across all relations, sometimes outperforming CDA.\",\n      \"citations\": [\"C4\", \"C5\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Name Anonymization (NA) reduces gender bias for some relations but not as effectively as CDA or debiased embeddings.\",\n      \"citations\": [\"C4\", \"C5\", \"C6\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2090,
+    "completion_tokens": 228,
+    "total_tokens": 2318
+  },
+  "seconds": 10.11520391702652
+}

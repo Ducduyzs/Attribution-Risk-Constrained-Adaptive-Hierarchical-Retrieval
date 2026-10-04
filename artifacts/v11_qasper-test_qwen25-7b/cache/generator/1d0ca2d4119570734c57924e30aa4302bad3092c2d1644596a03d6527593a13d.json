@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly explains how text segmentation improves document classification and provides empirical support.\",\n  \"claims\": [\n    {\n      \"text\": \"Text is segmented into smaller chunks to enhance the context encapsulation and improve the final results in document classification.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Segmenting documents into chunks before processing them leads to better model performance, as shown by higher test accuracy.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 133,
+    "total_tokens": 1283
+  },
+  "seconds": 8.069741633255035
+}

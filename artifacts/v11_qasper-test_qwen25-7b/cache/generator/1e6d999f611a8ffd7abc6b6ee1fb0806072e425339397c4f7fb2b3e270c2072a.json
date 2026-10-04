@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the model was evaluated through various experiments and metrics.\",\n  \"claims\": [\n    {\n      \"text\": \"The model was evaluated using hits@k metric in different scenarios, showing the enriched model outperformed the session-only model.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Experiments were conducted to analyze the effect of hyperparameters like the number of negative samples and learning rate on the model's performance.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The model's ability to capture market-level information was assessed by calculating the average similarity between hotels in the same market.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1600,
+    "completion_tokens": 187,
+    "total_tokens": 1787
+  },
+  "seconds": 7.809240476228297
+}

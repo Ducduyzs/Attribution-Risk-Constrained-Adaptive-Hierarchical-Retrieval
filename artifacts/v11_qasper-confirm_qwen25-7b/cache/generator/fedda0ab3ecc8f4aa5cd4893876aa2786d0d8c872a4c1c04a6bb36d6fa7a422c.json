@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not explicitly state whether the results are only on English data.\",\n  \"claims\": [\n    {\n      \"text\": \"The results reported are for the CrowdFlower dataset, which is not specified to be English-only.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The experiments used Twitter data, which is not necessarily English-only.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.7\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 124,
+    "total_tokens": 1199
+  },
+  "seconds": 5.385784211568534
+}

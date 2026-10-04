@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides detailed information about the state-of-the-art models on the WSJ dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The current best model on WSJ is an HMM-based system with a WER of INLINEFORM0, while our model achieves a WER of INLINEFORM4, matching the best end-to-end system.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Our model's WER is reduced further to INLINEFORM5 and then to INLINEFORM6 by replacing the n-gram LM with a convolutional one and doubling the number of learnable filters.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1823,
+    "completion_tokens": 175,
+    "total_tokens": 1998
+  },
+  "seconds": 7.86719564627856
+}

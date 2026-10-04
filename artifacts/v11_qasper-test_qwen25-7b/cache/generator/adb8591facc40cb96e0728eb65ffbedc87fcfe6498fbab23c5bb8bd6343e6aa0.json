@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about dealing with imbalanced datasets in two different contexts.\",\n  \"claims\": [\n    {\n      \"text\": \"They use data expansion through oversampling to address imbalanced datasets.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The dataset is imbalanced, with the top 5 patterns accounting for over 90% of the labels.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Different methods are used to handle the imbalanced dataset challenge.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The dataset's imbalance is also noted in another context, affecting the neural model's training.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 564,
+    "completion_tokens": 203,
+    "total_tokens": 767
+  },
+  "seconds": 8.20491342805326
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides statistical and qualitative improvements of the model over current alternatives.\",\n  \"claims\": [\n    {\n      \"text\": \"Their model improved by at least 0.25 over current alternatives in Named Entity Recognition (NER).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"PAMPO outperformed other extractors in sports news, showing higher mean values and better overall performance.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The second phase of the PAMPO process increased the quality measure from 0.72 to 0.87, indicating a significant improvement.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 193,
+    "total_tokens": 1331
+  },
+  "seconds": 8.310302511323243
+}

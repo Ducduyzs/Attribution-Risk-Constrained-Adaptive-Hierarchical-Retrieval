@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific performance metrics comparing the proposed semantic measure to BM25.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed semantic measure outperforms BM25 by increasing NDCG@20 by 23% and NDCG@5 and NDCG@10 by 23% and 25%, respectively.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2162,
+    "completion_tokens": 113,
+    "total_tokens": 2275
+  },
+  "seconds": 5.083371543791145
+}

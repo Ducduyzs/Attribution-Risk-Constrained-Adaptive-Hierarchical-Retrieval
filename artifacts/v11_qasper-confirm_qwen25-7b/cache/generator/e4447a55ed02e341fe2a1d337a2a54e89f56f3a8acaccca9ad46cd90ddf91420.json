@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the proposed model's architecture and its performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Their proposed approach achieves similar performance to existing systems without needing specific training on the dataset.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The model uses ELMo embeddings and Wikidata to improve fine-grained named entity classification.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 596,
+    "completion_tokens": 127,
+    "total_tokens": 723
+  },
+  "seconds": 5.252167078666389
+}

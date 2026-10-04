@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple examples of significant improvements achieved by the ZAT model over other models.\",\n  \"claims\": [\n    {\n      \"text\": \"ZAT shows an improvement of 14.57% in absolute F1-score when only 500 training instances are used compared to state-of-the-art systems.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"ZAT shows an improvement of 14.67% in absolute F1-score over CRF when training with 500 instances.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"ZAT has a statistically significant mean improvement of 4.04, 5.37, and 3.27 points over LSTM-BoE with training sizes 500, 1000, and 2000, respectively.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"ZAT shows an average improvement of 5.07 over CT when no target domain data is available.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 292,
+    "total_tokens": 1505
+  },
+  "seconds": 12.624559883028269
+}

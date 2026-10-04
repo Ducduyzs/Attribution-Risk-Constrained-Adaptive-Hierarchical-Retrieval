@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides detailed information on the morphological features used in neural machine translation, their impact, and how they are incorporated into the system.\",\n  \"claims\": [\n    {\n      \"text\": \"Morphological features include case, number, and gender for nouns, and person, number, tense, and aspect for verbs.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These features are concatenated into a string and treated as separate feature values.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Linguistic features like morphological features improve translation performance, as evidenced by increased Bleu and chrF3 scores.\",\n      \"citations\": [\"C2\", \"C5\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1893,
+    "completion_tokens": 197,
+    "total_tokens": 2090
+  },
+  "seconds": 8.384710414800793
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the model architecture used.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses a combination of a CNN and LSTM architecture.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Specifically, it employs a 4096-dimensional output from VGG16 CNN and a 1024-dimensional LSTM model for question encoding.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The system also includes an ensemble of decision tree classifiers and a softmax layer for prediction.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1113,
+    "completion_tokens": 173,
+    "total_tokens": 1286
+  },
+  "seconds": 8.081932782195508
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly outlines several syntactic features used in speech act classification.\",\n  \"claims\": [\n    {\n      \"text\": \"Dependency sub-trees were included as syntactic features.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"N-grams, including unigrams, bigrams, and trigrams, were used as syntactic features.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Verbs were categorized into 37 groups and used as syntactic features.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1703,
+    "completion_tokens": 160,
+    "total_tokens": 1863
+  },
+  "seconds": 6.728994496166706
+}

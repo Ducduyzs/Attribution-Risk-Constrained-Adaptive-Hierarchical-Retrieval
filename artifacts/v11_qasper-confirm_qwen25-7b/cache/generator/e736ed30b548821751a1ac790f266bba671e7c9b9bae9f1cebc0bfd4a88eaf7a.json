@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses how they score phrasal compositionality through a context-dependent scoring model and the use of automatically-extracted paraphrases.\",\n  \"claims\": [\n    {\n      \"text\": \"They score phrasal compositionality using a context-dependent scoring model that computes the likelihood of a phrase's context given its paraphrase-learned representation.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"They use automatically-extracted paraphrases to train compositional models and score phrasal compositionality.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 158,
+    "total_tokens": 1311
+  },
+  "seconds": 7.472568414639682
+}

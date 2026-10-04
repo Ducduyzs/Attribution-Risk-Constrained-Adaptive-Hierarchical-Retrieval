@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the types of features used in modeling IRA trolls, including textual features, emotion and sentiment analysis, bias cues, and linguistic categories.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses a rich set of textual features to detect IRA trolls.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Emotion and sentiment features are used to capture emotional attempts to manipulate public opinions.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Linguistic categories such as pronouns, anxiety, cognitive mechanisms, causality, and morality are included in the model.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 183,
+    "total_tokens": 1335
+  },
+  "seconds": 11.178733320906758
+}

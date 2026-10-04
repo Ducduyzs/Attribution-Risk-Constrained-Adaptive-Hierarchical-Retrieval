@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comparison between the proposed GM_KL model and other WSD approaches like w2g and w2gm, and discusses alternatives like BERT and ELMo embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed GM_KL model outperforms w2g and w2gm models on benchmark datasets.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Other WSD approaches like BERT and ELMo embeddings can be considered for further analysis.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Previous approaches like w2g and w2gm struggle with handling polysemies effectively.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 200,
+    "total_tokens": 1277
+  },
+  "seconds": 8.75322078121826
+}

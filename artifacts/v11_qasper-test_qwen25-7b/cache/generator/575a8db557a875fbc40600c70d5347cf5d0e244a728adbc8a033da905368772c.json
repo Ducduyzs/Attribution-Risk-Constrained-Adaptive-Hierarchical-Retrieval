@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the experimental results of a model trained to predict holders, targets, and polar expressions in a fine-grained sentiment analysis dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The model achieved modest results with Proportional F1 scores of 0.41, 0.31, and 0.31 for Holders, Targets, and Polarity Expressions, respectively, and Binary F1 scores of 0.41, 0.36, and 0.56.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 149,
+    "total_tokens": 1354
+  },
+  "seconds": 6.337473316118121
+}

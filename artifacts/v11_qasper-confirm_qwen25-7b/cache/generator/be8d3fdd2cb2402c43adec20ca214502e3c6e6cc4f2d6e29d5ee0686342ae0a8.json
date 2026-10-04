@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the state-of-the-art models for WSJ and their respective Word Error Rates (WER).\",\n  \"claims\": [\n    {\n      \"text\": \"The current best end-to-end system on WSJ achieves a WER of INLINEFORM2 using lattice-free MMI on augmented data.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Replacing the n-gram language model with a convolutional one can reduce the WER to INLINEFORM4, matching the current best end-to-end system.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 685,
+    "completion_tokens": 157,
+    "total_tokens": 842
+  },
+  "seconds": 6.871262697037309
+}

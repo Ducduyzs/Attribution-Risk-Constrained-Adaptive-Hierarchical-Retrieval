@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not provide specific details about the amount of data needed to train the task-specific encoder.\",\n  \"claims\": [\n    {\n      \"text\": \"The task-specific encoder is trained using a subset of the data, specifically 20% of the data, as indicated by the experiments involving expert and lay annotators.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 103,
+    "total_tokens": 1214
+  },
+  "seconds": 4.462587613146752
+}

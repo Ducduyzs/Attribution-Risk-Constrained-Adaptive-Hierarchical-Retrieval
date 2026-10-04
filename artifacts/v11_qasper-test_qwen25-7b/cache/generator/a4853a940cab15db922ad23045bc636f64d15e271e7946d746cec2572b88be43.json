@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the baseline used for comparison in a dialect recognition system.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline used is a one-stage RNN system, specifically a 2-layer BLSTM trained to recognize dialect categories.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 87,
+    "total_tokens": 1195
+  },
+  "seconds": 3.7162751141004264
+}

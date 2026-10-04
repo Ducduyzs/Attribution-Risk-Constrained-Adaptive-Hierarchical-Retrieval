@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the baseline models used in the study, but does not explicitly define a 'baseline' value or metric.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline models used in the study include logistic regression (LR) and Support Vector Machines (SVM) from the scikit-learn library, and an LSTM network from the Keras library.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1519,
+    "completion_tokens": 114,
+    "total_tokens": 1633
+  },
+  "seconds": 5.132406062912196
+}

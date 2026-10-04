@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides references to previous work on integrating morphological information in both SMT and NMT.\",\n  \"claims\": [\n    {\n      \"text\": \"Previous work considered morphological information for both SMT and NMT.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF11 ( BIBREF11 ) was the first to leverage morphological information in NMT architecture, while BIBREF10 ( BIBREF10 ) used distributed representations for words and soft morphological tags in their neural inflection model.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 646,
+    "completion_tokens": 165,
+    "total_tokens": 811
+  },
+  "seconds": 6.628374125808477
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of various datasets and models to estimate socioeconomic status (SES) from online behavior data.\",\n  \"claims\": [\n    {\n      \"text\": \"They build inference models based on socioeconomic census data, crawled profession information, and expert annotated Google Street View images of users' home locations.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Gaussian Processes were used to predict user income, occupation, and socioeconomic class based on demographic, psycho-linguistic features, and professional occupations.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 160,
+    "total_tokens": 1244
+  },
+  "seconds": 6.930159526877105
+}

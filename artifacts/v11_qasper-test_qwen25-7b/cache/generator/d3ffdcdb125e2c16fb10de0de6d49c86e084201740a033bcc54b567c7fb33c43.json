@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides statistical and qualitative comparisons of PAMPO against other extractors.\",\n  \"claims\": [\n    {\n      \"text\": \"Their model improved over current alternatives by at least 0.25, 0.35, and 0.40 in terms of certain measures for AlchemyAPI, Rembrandt, and Zemanta respectively.\",\n      \"citations\": [\"C1\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"PAMPO outperformed other extractors in terms of precision and recall, with significant improvements in the measures of the first and second phases of the process.\",\n      \"citations\": [\"C3\", \"C6\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2256,
+    "completion_tokens": 180,
+    "total_tokens": 2436
+  },
+  "seconds": 7.782840456813574
+}

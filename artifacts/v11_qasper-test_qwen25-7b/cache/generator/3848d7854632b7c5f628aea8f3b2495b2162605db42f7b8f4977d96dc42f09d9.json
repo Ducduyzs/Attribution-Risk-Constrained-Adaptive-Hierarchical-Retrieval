@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of a binary classifier to identify publications meeting specific criteria.\",\n  \"claims\": [\n    {\n      \"text\": \"A binary classifier was used to identify publications that met the criteria.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The classifier performed better when trained on candidate sentences relevant to the criteria than on randomly picked sentences.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 140,
+    "total_tokens": 1249
+  },
+  "seconds": 8.445400475990027
+}

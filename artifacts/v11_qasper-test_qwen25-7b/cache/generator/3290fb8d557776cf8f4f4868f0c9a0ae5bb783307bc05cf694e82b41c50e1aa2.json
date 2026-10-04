@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses comparisons against certain baselines, particularly regarding the number of candidate answers, document length, and answer frequency.\",\n  \"claims\": [\n    {\n      \"text\": \"The comparison is often against a baseline where the number of candidate answers is constant (10) and the distribution of document lengths is uniform.\",\n      \"citations\": [\"C5\", \"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Another baseline involves varying the document length and observing its impact on test accuracy.\",\n      \"citations\": [\"C5\", \"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The frequency of the correct answer in the document is also used as a baseline to measure model performance.\",\n      \"citations\": [\"C5\", \"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 202,
+    "total_tokens": 1375
+  },
+  "seconds": 8.307429250795394
+}

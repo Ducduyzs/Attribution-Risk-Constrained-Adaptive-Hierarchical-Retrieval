@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on a training framework designed to mitigate the bias pattern in NLI datasets.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed training framework balances the distribution of artifacts across different classes by assigning specific weights to each sample during training.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The framework effectively mitigates the impacts of the bias pattern and improves the cross-dataset generalization ability of models.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1060,
+    "completion_tokens": 140,
+    "total_tokens": 1200
+  },
+  "seconds": 6.016979469917715
+}

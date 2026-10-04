@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons between single-system and system combination approaches on the CHiME-5 dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"A single-system approach achieved a WER of 41.6% on the DEV and 43.2% on the EVAL test sets, which is a 8% relative improvement compared to the previous best result without system combination.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Without RNN LM rescoring, the proposed single-system achieved a 16% (11%) relative WER reduction on the DEV (EVAL) set compared to System8 in BIBREF12.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 185,
+    "total_tokens": 1366
+  },
+  "seconds": 11.169870420824736
+}

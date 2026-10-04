@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about two use cases demonstrating the system's capabilities.\",\n  \"claims\": [\n    {\n      \"text\": \"The system can work with annotated ontologies to translate a set of atoms representing the answer to a query into a set of sentences.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The system can receive a paragraph of text and generate an intermediate representation as a GF program for various purposes.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 134,
+    "total_tokens": 1190
+  },
+  "seconds": 5.582993729971349
+}

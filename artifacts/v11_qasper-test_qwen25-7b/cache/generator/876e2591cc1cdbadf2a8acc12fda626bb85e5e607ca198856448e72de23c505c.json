@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comparison of various models and techniques for offensive language identification, indicating that deep learning models, particularly LSTM and GRU with Attention, perform best.\",\n  \"claims\": [\n    {\n      \"text\": \"LSTM and GRU with Attention can be considered as the best model trained for OGTD.\",\n      \"citations\": [\"C4\", \"C6\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2000,
+    "completion_tokens": 108,
+    "total_tokens": 2108
+  },
+  "seconds": 4.776154654100537
+}

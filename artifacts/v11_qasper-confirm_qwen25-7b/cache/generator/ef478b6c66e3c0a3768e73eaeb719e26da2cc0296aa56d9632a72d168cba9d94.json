@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states that knowledge distillation techniques are ineffective when the student model has a different vocabulary than the teacher model.\",\n  \"claims\": [\n    {\n      \"text\": \"Knowledge distillation techniques cannot utilize reduced vocabulary sizes because the student and teacher models must share the same vocabulary and output space.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 635,
+    "completion_tokens": 95,
+    "total_tokens": 730
+  },
+  "seconds": 4.427279483992606
+}

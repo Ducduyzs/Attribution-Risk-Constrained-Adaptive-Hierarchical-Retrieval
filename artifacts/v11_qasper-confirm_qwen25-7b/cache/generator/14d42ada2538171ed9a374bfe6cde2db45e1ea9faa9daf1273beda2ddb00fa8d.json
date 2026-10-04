@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes how audio and text sequences are combined using RNNs.\",\n  \"claims\": [\n    {\n      \"text\": \"They use two separate RNNs to encode audio and text sequences independently, then concatenate the last hidden state of the audio-RNN with prosodic features and pass them through a fully connected layer to form an audio encoding vector. The final hidden states of the text-RNN are similarly processed to form a textual encoding vector, which are then combined to predict the emotion class.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 589,
+    "completion_tokens": 144,
+    "total_tokens": 733
+  },
+  "seconds": 5.896344768814743
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about post-processing approaches used to improve the quality of translations.\",\n  \"claims\": [\n    {\n      \"text\": \"A rescoring mechanism is proposed that reuses the pre-trained language model to select the translation candidates generated through beam search.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Numbers and dates are replaced with special tokens during pre-processing and restored during post-processing.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 133,
+    "total_tokens": 1253
+  },
+  "seconds": 5.568334873765707
+}

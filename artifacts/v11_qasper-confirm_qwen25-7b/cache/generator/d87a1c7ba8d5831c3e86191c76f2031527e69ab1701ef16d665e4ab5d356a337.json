@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the training dataset used for sentiment analysis.\",\n  \"claims\": [\n    {\n      \"text\": \"The model is trained using 3,216 tweets.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The model can be improved with larger datasets.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 107,
+    "total_tokens": 1195
+  },
+  "seconds": 4.827374905813485
+}

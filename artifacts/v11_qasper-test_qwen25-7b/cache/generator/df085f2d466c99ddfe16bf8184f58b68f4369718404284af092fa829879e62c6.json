@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the intents and models used for processing user messages in a chatbot system.\",\n  \"claims\": [\n    {\n      \"text\": \"The chatbot processes user messages to identify intents such as thanks, cancel, stop, search, and unknown.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For search intents, the system extracts hotel and location names using named entity recognition.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The system uses information retrieval to match user queries with relevant hotel or location entries in its database.\"\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1677,
+    "completion_tokens": 174,
+    "total_tokens": 1851
+  },
+  "seconds": 7.585679925978184
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific comparisons between different types of models and their performance metrics.\",\n  \"claims\": [\n    {\n      \"text\": \"Their models outperform existing models on all three ROUGE scores and METEOR.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Compared to the baseline model, their models show improvements over previous works.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 645,
+    "completion_tokens": 124,
+    "total_tokens": 769
+  },
+  "seconds": 5.161925157066435
+}

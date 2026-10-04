@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons between the adaptively sparse Transformer and baselines like standard Transformer and 1.5-entmax.\",\n  \"claims\": [\n    {\n      \"text\": \"Replacing softmax with entmax in the Transformer architecture does not hurt performance and often leads to slightly higher BLEU scores.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The adaptively sparse Transformer shows more diversity among attention heads compared to the standard softmax Transformer.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1887,
+    "completion_tokens": 142,
+    "total_tokens": 2029
+  },
+  "seconds": 6.158813558053225
+}

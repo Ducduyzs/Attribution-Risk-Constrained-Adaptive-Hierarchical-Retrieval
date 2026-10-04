@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses comparisons with previous work regarding model performance and evaluation methods.\",\n  \"claims\": [\n    {\n      \"text\": \"The results are not directly comparable to previous work due to differences in training data and evaluation methods.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The scoring method considers the continuation of the sentence after the focus verb and allows for assessing phenomena requiring changes in two or more words.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 135,
+    "total_tokens": 782
+  },
+  "seconds": 5.727218619082123
+}

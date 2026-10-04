@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how a large-scale challenge dataset for question classification was constructed, including the collection process and categorization.\",\n  \"claims\": [\n    {\n      \"text\": \"The dataset was constructed by collecting 7,787 science exam questions from 12 US states, spanning 3rd to 9th grade, and categorizing them into a fine-grained hierarchical taxonomy of 406 problem domains.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The dataset was designed to address the limitations of previous smaller datasets in terms of size and complexity.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1916,
+    "completion_tokens": 167,
+    "total_tokens": 2083
+  },
+  "seconds": 7.61561334412545
+}

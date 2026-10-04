@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states that knowledge distillation techniques are ineffective when the student model has a vocabulary different from the teacher model.\",\n  \"claims\": [\n    {\n      \"text\": \"Knowledge distillation techniques are ineffective at yielding student models with vocabularies different from the original teacher models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 679,
+    "completion_tokens": 92,
+    "total_tokens": 771
+  },
+  "seconds": 3.852514955215156
+}

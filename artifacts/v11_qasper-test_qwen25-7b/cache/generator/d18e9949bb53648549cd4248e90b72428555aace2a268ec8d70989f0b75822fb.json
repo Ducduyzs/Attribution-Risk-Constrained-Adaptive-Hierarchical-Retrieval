@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the languages used in NER and POS experiments.\",\n  \"claims\": [\n    {\n      \"text\": \"They experiment with Dutch, Spanish, English, and German in the CoNLL datasets, and 16 additional languages in their in-house dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"They also experiment with Hindi and English in the context of code-switching and transliteration.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 631,
+    "completion_tokens": 135,
+    "total_tokens": 766
+  },
+  "seconds": 5.515092718880624
+}

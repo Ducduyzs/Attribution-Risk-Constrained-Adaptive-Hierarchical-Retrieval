@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses training times for different model configurations but does not directly compare training times between models with relative and absolute position encodings.\",\n  \"claims\": [\n    {\n      \"text\": \"The training time for the base model was 100,000 steps, while the big model was trained for 300,000 steps.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2162,
+    "completion_tokens": 110,
+    "total_tokens": 2272
+  },
+  "seconds": 4.969870941247791
+}

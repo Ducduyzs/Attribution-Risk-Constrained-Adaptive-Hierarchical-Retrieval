@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple examples of text feature extraction methods.\",\n  \"claims\": [\n    {\n      \"text\": \"Text features include part-of-speech tags, previous and next words, substrings, shapes, and regex expressions.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Text features can be extracted using a bag-of-words technique and Term frequency-Inverse document frequency (TF-IDF).\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1985,
+    "completion_tokens": 135,
+    "total_tokens": 2120
+  },
+  "seconds": 6.0351177686825395
+}

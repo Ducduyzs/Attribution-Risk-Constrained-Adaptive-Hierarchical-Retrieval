@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into the performance of single-language and multilingual BERT models, particularly in the context of agreement relations.\",\n  \"claims\": [\n    {\n      \"text\": \"Single-language BERT performs well in capturing structure-dependent agreement patterns.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Multilingual BERT also captures syntax-sensitive agreement patterns well, though its performance may degrade in certain linguistic contexts.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 644,
+    "completion_tokens": 137,
+    "total_tokens": 781
+  },
+  "seconds": 11.363612533081323
+}

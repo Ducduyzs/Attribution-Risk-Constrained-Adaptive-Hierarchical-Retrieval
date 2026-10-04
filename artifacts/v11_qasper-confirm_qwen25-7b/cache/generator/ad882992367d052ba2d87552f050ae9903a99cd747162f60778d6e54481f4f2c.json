@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear steps and methods for calculating static embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Static embeddings for each word are calculated by taking the first principal component (PC) of its contextualized representations in a given layer.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The maximum explainable variance (MEV) of a word, for a given layer, is the proportion of variance in its contextualized representations that can be explained by their first principal component.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2024,
+    "completion_tokens": 152,
+    "total_tokens": 2176
+  },
+  "seconds": 6.879638426937163
+}

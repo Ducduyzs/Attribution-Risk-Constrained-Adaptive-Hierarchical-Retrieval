@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The paper discusses evaluation on seven languages and uses multilingual word vectors for polyglot training.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper evaluates on seven languages: Catalan, Chinese, Czech, English, German, Japanese, and Spanish.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The paper uses multilingual word vectors for polyglot training across these languages.\",\n      \"citations\": [\"C3\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1903,
+    "completion_tokens": 133,
+    "total_tokens": 2036
+  },
+  "seconds": 6.066737271845341
+}

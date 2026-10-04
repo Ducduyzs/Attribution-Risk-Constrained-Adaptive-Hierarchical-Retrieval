@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the deep learning model used for Thai sentence segmentation, but does not explicitly state the specific architecture.\",\n  \"claims\": [\n    {\n      \"text\": \"They use a deep learning model for sentence segmentation that includes n-gram embedding, self-attention modules, and Cross-View Training (CVT).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 673,
+    "completion_tokens": 104,
+    "total_tokens": 777
+  },
+  "seconds": 4.37040554266423
+}

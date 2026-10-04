@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple examples of feature extraction methods used in Named Entity Recognition (NER) from both text and images.\",\n  \"claims\": [\n    {\n      \"text\": \"Features extracted from images include SIFT features and Bag of Features (BoF) for detecting objects like logos and faces.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Text features include Term frequency-Inverse document frequency (TF-IDF) and word embeddings.\",\n      \"citations\": [\"C5\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Other features include part-of-speech tags, previous and next words, substrings, shapes, and regex expressions.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1952,
+    "completion_tokens": 195,
+    "total_tokens": 2147
+  },
+  "seconds": 8.602637588977814
+}

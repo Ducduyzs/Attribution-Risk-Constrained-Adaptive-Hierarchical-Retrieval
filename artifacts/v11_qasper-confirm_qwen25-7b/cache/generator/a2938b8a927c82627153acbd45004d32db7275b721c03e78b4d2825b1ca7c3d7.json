@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the performance of the method compared to baselines, particularly focusing on attention sparsity and computational efficiency.\",\n  \"claims\": [\n    {\n      \"text\": \"The method learns to combine sparse and dense attention, differing from fixed $\\alpha =1.5$ where heads tend to be sparse and similarly-distributed in all three attention modules.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Compared to standard softmax, the models using $\\alpha$-entmax and $1.5$-entmax are, respectively, $75\\%$ and $90\\%$ the speed of the softmax model during training.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 633,
+    "completion_tokens": 187,
+    "total_tokens": 820
+  },
+  "seconds": 8.066244780085981
+}

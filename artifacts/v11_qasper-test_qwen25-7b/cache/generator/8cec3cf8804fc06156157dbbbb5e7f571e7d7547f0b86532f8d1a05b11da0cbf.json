@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses how noisy entity and relation linking can affect query generation and provides solutions.\",\n  \"claims\": [\n    {\n      \"text\": \"SubQG approach helps in generating correct queries even with noisy entity/relation linking results.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Using multiple networks to learn predictors for different query substructures improves stability with limited training data and noisy linking results.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 134,
+    "total_tokens": 1121
+  },
+  "seconds": 5.7892759861424565
+}

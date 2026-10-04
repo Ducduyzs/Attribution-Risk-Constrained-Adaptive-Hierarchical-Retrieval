@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons between training on the original CBT dataset and the larger BookTest dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"Training on the BookTest dataset improved the Attention-Sum Reader model's accuracy on the CBT test data by almost one-third.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"This improvement is significantly larger than the gains achieved by enhancing the model architecture alone.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1792,
+    "completion_tokens": 138,
+    "total_tokens": 1930
+  },
+  "seconds": 6.296016097068787
+}

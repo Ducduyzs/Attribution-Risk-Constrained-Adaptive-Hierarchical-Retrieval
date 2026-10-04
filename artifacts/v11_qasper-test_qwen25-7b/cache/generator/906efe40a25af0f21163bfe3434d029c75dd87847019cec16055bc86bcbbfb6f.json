@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the amount of additional data generated through translations and its impact on performance.\",\n  \"claims\": [\n    {\n      \"text\": \"They manage to generate about 10 times more data than the 2-votes data by using additional training data and exploiting intra-sentential instances.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Using back-translations of explicitated connectives improves discourse relation parsing performance.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 578,
+    "completion_tokens": 140,
+    "total_tokens": 718
+  },
+  "seconds": 6.360768134705722
+}

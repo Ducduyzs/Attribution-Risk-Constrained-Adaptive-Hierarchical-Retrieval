@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly defines the threshold used in the label classification stage.\",\n  \"claims\": [\n    {\n      \"text\": \"The classification threshold ($\\phi$) is derived empirically based on the precision-recall curve and is set to 0.76 for the 'SUPPORTS' label, indicating at least 3 out of 4 questions need to be answered correctly.\",\n      \"citations\": [\"C1\", \"C3\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 123,
+    "total_tokens": 1526
+  },
+  "seconds": 5.41248797532171
+}

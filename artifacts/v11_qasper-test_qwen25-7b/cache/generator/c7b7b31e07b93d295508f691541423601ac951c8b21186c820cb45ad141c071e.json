@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on how the quality of word vectors is measured, particularly through correlation metrics and the impact of noise distribution choices.\",\n  \"claims\": [\n    {\n      \"text\": \"Quality of word vectors is often measured using the Pearson correlation coefficient, comparing human judgments of word similarity to the cosine distances between word vectors.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The choice of noise distribution, especially in methods like Word2Vec, significantly affects the quality of learned word vectors.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 157,
+    "total_tokens": 1328
+  },
+  "seconds": 6.537311462685466
+}

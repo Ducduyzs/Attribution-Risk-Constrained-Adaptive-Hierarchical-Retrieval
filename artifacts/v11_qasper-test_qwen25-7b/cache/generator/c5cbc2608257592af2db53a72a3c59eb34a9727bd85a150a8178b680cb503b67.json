@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the NLG tasks considered, specifically focusing on automatic evaluation metrics and end-to-end data-driven NLG methods.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper considers automatic evaluation metrics for NLG, including word-based metrics like BLEU, ROUGE, and METEOR, and semantic similarity measures.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The study focuses on end-to-end, data-driven NLG methods that do not require semantic alignment with human references.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 153,
+    "total_tokens": 1350
+  },
+  "seconds": 6.603125001769513
+}

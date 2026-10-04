@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the comparison of MERF with existing techniques and tools.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors compare MERF with existing application-specific techniques, such as ANGE, ATEEMA, GENTREE, SystemT, and TEXTMARKER.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"MERF is also compared with WordNet and annotation tools like MMAX2, BRAT, WordFreak, and Knowtator.\",\n      \"citations\": [\"C3\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 159,
+    "total_tokens": 1363
+  },
+  "seconds": 9.656111417803913
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a direct comparison between the model and baselines in terms of performance and training time.\",\n  \"claims\": [\n    {\n      \"text\": \"The model performs similarly to the baseline implementation of BIBREF17 on the recipe retrieval task.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The proposed model reduces training time significantly compared to baselines.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1110,
+    "completion_tokens": 128,
+    "total_tokens": 1238
+  },
+  "seconds": 7.799493332859129
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the measures used for quality evaluation on a Q&A platform, specifically Zhihu Live.\",\n  \"claims\": [\n    {\n      \"text\": \"They use a data-driven approach including data collection, data cleaning, data normalization, descriptive analysis, and predictive analysis to evaluate the quality of Zhihu Live.\",\n      \"citations\": [\"C1\", \"C2\", \"C6\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Review scores are used as labels to estimate the quality of Zhihu Live using machine learning models like MTNet.\",\n      \"citations\": [\"C1\", \"C4\", \"C7\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Badges on Zhihu represent identity authentication and influence the quality ratings of Zhihu Live.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1786,
+    "completion_tokens": 222,
+    "total_tokens": 2008
+  },
+  "seconds": 10.038059398997575
+}

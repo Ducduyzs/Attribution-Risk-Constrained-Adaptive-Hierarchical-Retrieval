@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The baseline models and methods are clearly described in the provided context.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline classification models were logistic regression (LR) and Support Vector Machines (SVM).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For the baseline RNN, the LSTM network from the Keras library was applied.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 968,
+    "completion_tokens": 121,
+    "total_tokens": 1089
+  },
+  "seconds": 5.103344332892448
+}

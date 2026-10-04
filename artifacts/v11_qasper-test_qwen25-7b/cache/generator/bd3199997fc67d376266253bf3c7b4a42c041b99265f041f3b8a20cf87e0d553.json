@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses two methods: Evo-Devo and machine learning. The Evo-Devo method showed promise in adapting ASR output, but no direct comparison between the two methods is made.\",\n  \"claims\": [\n    {\n      \"text\": \"The Evo-Devo mechanism shows promise for adaptation/repair of ASR output.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The machine learning mechanism uses a Naive Bayes classifier for adaptation and repair.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1704,
+    "completion_tokens": 152,
+    "total_tokens": 1856
+  },
+  "seconds": 6.709968113806099
+}

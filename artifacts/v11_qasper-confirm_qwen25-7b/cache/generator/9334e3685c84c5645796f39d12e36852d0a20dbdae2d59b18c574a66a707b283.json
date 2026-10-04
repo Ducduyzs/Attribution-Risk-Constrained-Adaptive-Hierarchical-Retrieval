@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses comparisons between crowd evaluations and expert evaluations of lexicons, as well as the quality and characteristics of the lexicon.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowd evaluations and expert evaluations of lexicons are compared to assess overall lexicon quality.\",\n      \"citations\": [\"C1\", \"C3\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Crowd evaluations show similar performance to expert evaluations in lexicon quality assessment.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The lexicon contains emotional term groups, intensifiers, negators, and stop words, with a focus on Plutchik's eight basic emotions.\",\n      \"citations\": [\"C5\", \"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1875,
+    "completion_tokens": 205,
+    "total_tokens": 2080
+  },
+  "seconds": 9.013648465275764
+}

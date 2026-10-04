@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into the performance of single-language and multilingual BERT models.\",\n  \"claims\": [\n    {\n      \"text\": \"Single-language BERT outperforms multilingual BERT in specific tasks like English subject-verb agreement.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Base BERT model performed better than the larger model in the experiments conducted.\",\n      \"citations\": [\"C1\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1624,
+    "completion_tokens": 133,
+    "total_tokens": 1757
+  },
+  "seconds": 5.7209744160063565
+}

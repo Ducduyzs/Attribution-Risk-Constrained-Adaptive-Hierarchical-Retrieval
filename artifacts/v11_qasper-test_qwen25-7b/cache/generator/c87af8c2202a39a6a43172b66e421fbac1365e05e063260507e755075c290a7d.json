@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a detailed explanation of how RNNs with arbitrary precision can simulate pushdown automata (PDAs).\",\n  \"claims\": [\n    {\n      \"text\": \"Allowing arbitrary precision, we prove that RNNs with one hidden layer and ReLU activation are at least as computationally powerful as pushdown automata.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Simple RNNs with finite precision are exactly as computationally powerful as DFAs, while with arbitrary precision, they are at least as powerful as PDAs.\",\n      \"citations\": [\"C5\", \"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2056,
+    "completion_tokens": 165,
+    "total_tokens": 2221
+  },
+  "seconds": 7.3199599692597985
+}

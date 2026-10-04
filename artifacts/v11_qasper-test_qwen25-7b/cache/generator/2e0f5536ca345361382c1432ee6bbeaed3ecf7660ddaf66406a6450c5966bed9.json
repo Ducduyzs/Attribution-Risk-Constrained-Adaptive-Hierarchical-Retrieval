@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the number of tables and rows in the tablestore but does not specify the exact number of tables.\",\n  \"claims\": [\n    {\n      \"text\": \"The tablestore contains approximately 5,000 manually-authored rows across 65 tables.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 98,
+    "total_tokens": 1201
+  },
+  "seconds": 6.063256377354264
+}

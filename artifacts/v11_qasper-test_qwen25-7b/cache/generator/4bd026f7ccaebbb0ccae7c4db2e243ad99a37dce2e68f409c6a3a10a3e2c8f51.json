@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses models that do not rely on tokenization or segmentation, implying the existence of an elementary unit of text.\",\n  \"claims\": [\n    {\n      \"text\": \"The model introduced in the paper uses character n-grams as the elementary unit of text, without requiring tokenization.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\", \"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1944,
+    "completion_tokens": 108,
+    "total_tokens": 2052
+  },
+  "seconds": 4.722632750403136
+}

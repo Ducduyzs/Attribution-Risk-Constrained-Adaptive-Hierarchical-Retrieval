@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of how the experiment was evaluated, including the use of the hits@k metric and comparisons between different models.\",\n  \"claims\": [\n    {\n      \"text\": \"The experiment was evaluated using the hits@k metric, which measures the average number of times the correct selection appears in the top k predictions.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Different models were compared in terms of their performance using the hits@k metric in both raw and filtered evaluation scenarios.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Cosine similarity of the embedding vectors was used to induce rankings for evaluation, showing that enriched vectors performed best.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 636,
+    "completion_tokens": 197,
+    "total_tokens": 833
+  },
+  "seconds": 8.654911372344941
+}

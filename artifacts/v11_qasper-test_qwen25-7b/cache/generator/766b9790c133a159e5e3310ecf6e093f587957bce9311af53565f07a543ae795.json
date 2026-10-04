@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that the Transformer model outperformed the ConvS2S model across all languages, suggesting it was the best performing model.\",\n  \"claims\": [\n    {\n      \"text\": \"The Transformer model outperformed the ConvS2S model for all of the languages, sometimes achieving 10 BLEU points or more over the ConvS2S models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 113,
+    "total_tokens": 1215
+  },
+  "seconds": 4.71275390079245
+}

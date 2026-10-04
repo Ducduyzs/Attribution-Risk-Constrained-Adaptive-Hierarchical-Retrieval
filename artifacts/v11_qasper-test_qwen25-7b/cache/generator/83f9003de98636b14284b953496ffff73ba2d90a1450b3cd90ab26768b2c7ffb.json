@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific numerical improvements for the ZAT model compared to other models.\",\n  \"claims\": [\n    {\n      \"text\": \"ZAT shows a statistically significant mean improvement of 4.04, 5.37, and 3.27 points over LSTM-BoE with training sizes of 500, 1000, and 2000, respectively.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"ZAT achieves an improvement of 14.67 in absolute F1-score over CRF when training with 500 instances.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 178,
+    "total_tokens": 1405
+  },
+  "seconds": 10.678869517054409
+}

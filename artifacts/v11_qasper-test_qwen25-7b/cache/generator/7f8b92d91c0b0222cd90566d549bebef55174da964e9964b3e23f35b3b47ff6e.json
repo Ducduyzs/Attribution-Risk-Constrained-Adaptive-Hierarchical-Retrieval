@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses pruning in relation to the KDG model's training data.\",\n  \"claims\": [\n    {\n      \"text\": \"Pruning of the logical forms was not considered in the ablation studies but was found to be crucial for the KDG model's performance.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Disabling the pruning step during training significantly reduces the KDG model's accuracy.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 617,
+    "completion_tokens": 136,
+    "total_tokens": 753
+  },
+  "seconds": 5.804838060867041
+}

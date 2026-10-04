@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the empirical evaluation methods used, including comparisons with baselines and the use of specific models and features.\",\n  \"claims\": [\n    {\n      \"text\": \"The empirical evaluation compared the proposed methods with a language-based baseline and used classification models like SVM and logistic regression.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Statistical significance was tested using a two-tailed paired t-test.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The evaluation included the use of Coh-Metrix linguistic features and a BERT model for semantic analysis.\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1421,
+    "completion_tokens": 183,
+    "total_tokens": 1604
+  },
+  "seconds": 7.678577390965074
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses comparisons with previous work on various tasks and mentions specific references.\",\n  \"claims\": [\n    {\n      \"text\": \"Previous work was evaluated in this study, particularly in the context of machine translation and syntax-sensitive dependencies.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The evaluation protocol and stimuli were adapted from previous works (BIBREF1, BIBREF2, BIBREF3).\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 143,
+    "total_tokens": 765
+  },
+  "seconds": 6.20159620186314
+}

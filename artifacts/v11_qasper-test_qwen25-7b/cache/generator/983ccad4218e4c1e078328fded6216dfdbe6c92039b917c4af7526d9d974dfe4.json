@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses both class-split and class-merge phenomena but does not specify an exact number of classes being classified.\",\n  \"claims\": [\n    {\n      \"text\": \"The evidence mentions 12 different human labeled classes that are merged into COMMUNITY_7.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The average Class-split score is 2.7368 and the average Class-merge score is 2.8333, indicating multiple classes are involved.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 161,
+    "total_tokens": 1306
+  },
+  "seconds": 9.753417492378503
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the simplification of the architecture in SEPT, leading to the same performance.\",\n  \"claims\": [\n    {\n      \"text\": \"We simplify the origin network architecture and extract span representation by a simple pooling layer.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"To keep the advantages of span representation, we modified the model by under-sampling to balance the positive and negative samples and reduce the search space.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1723,
+    "completion_tokens": 137,
+    "total_tokens": 1860
+  },
+  "seconds": 6.083986523095518
+}

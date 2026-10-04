@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions evaluations on the SimpleQuestions dataset but does not explicitly state evaluations on other datasets.\",\n  \"claims\": [\n    {\n      \"text\": \"The model was evaluated on the SimpleQuestions dataset but not on other datasets.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 95,
+    "total_tokens": 1266
+  },
+  "seconds": 4.131926640402526
+}

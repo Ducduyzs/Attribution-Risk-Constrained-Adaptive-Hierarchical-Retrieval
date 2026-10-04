@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the success rate of fooling tested models in experiments.\",\n  \"claims\": [\n    {\n      \"text\": \"Our model is capable of generating semantics-preserving perturbations that leads to steep decrease in accuracy of those target models. For the CNN-Word, DeepWordBug decreases the accuracy from 89.95% to 28.13% while AEG model further reduces it to 18.5%.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1674,
+    "completion_tokens": 132,
+    "total_tokens": 1806
+  },
+  "seconds": 5.938952893950045
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about comparing models with ReWE and ReSE against LSTM and transformer baselines.\",\n  \"claims\": [\n    {\n      \"text\": \"They compare their models with ReWE and ReSE against LSTM and transformer baselines.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The comparison includes models trained on subsets of the training set of varying sizes.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 128,
+    "total_tokens": 1186
+  },
+  "seconds": 5.490393562242389
+}

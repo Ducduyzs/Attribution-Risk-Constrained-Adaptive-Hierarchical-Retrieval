@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the nature of fine-grained semantic types in the context of entity typing.\",\n  \"claims\": [\n    {\n      \"text\": \"Fine-grained semantic types are considered in the form of a multi-label classification problem, where each entity can be assigned multiple types from a rich ontology.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These types go beyond standard coarse types and include more specific categories like 'game' and 'product'.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 146,
+    "total_tokens": 1186
+  },
+  "seconds": 8.982697091065347
+}

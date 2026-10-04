@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the architecture of the model.\",\n  \"claims\": [\n    {\n      \"text\": \"Nematus implements an attentional encoder-decoder architecture.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The architecture includes annotation of source symbols by concatenating forward and backward encoder RNN hidden states, and decoder hidden states.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 118,
+    "total_tokens": 1302
+  },
+  "seconds": 6.23585142288357
+}

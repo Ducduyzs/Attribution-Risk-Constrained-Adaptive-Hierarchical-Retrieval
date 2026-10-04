@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the approach demonstrates its interpretability merits through empirical results and cost-effectiveness comparisons.\",\n  \"claims\": [\n    {\n      \"text\": \"The approach demonstrates its interpretability merits by showing that it improves model performance and provides human-understandable explanations for the model's predictions.\",\n      \"citations\": [\"C1\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Empirical results on multiple real-world datasets show that the approach improves state-of-the-art models by 24.3% in AUC.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The approach is cost-effective compared to traditional crowdsourcing methods, as it uses crowds to discover keywords rather than just labeling data.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1869,
+    "completion_tokens": 211,
+    "total_tokens": 2080
+  },
+  "seconds": 8.927649501245469
+}

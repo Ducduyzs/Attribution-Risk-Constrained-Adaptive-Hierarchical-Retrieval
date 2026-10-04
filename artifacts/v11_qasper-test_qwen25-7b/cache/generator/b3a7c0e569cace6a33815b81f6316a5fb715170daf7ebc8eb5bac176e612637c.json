@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the measures used for quality evaluation on a Q&A platform.\",\n  \"claims\": [\n    {\n      \"text\": \"They use a data-driven approach including data collection, data cleaning, data normalization, descriptive analysis, and predictive analysis to evaluate the quality of a Q&A platform.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The dataset ZhihuLive-DB, containing 7242 records and 286,938 comments, is used for evaluating the quality of the platform.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 623,
+    "completion_tokens": 166,
+    "total_tokens": 789
+  },
+  "seconds": 6.725888967979699
+}

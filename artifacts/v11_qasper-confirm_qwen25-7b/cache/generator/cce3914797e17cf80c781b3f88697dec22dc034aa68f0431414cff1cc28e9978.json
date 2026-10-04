@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the dataset was constructed, including the number of questions, categorization, and annotation process.\",\n  \"claims\": [\n    {\n      \"text\": \"The dataset was constructed by annotating 7,787 questions from grades 3 to 9, covering various scientific topics.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Two annotators were used, with the lead annotator having previous professional domain expertise, to ensure quality and consistency.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The dataset includes a large number of questions, exceeding the size and classification specificity of other datasets by nearly an order of magnitude.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 202,
+    "total_tokens": 1266
+  },
+  "seconds": 9.46698656771332
+}

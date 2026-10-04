@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The paper describes a re-ranking approach for QA systems, which suggests it operates on the data available at the time of deployment rather than during training.\",\n  \"claims\": [\n    {\n      \"text\": \"The re-ranking approach is a post-deployment technique that operates on the top-10 results provided by the initial QA system.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\", \"C5\", \"C6\", \"C7\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1831,
+    "completion_tokens": 132,
+    "total_tokens": 1963
+  },
+  "seconds": 6.305555081926286
+}

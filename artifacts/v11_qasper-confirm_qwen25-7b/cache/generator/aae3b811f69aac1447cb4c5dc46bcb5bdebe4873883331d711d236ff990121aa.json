@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the model architecture used.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses a combination of a Convolutional Neural Network (CNN) and a Long Short-Term Memory (LSTM) network.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The CNN uses VGG16 to extract image features, while the LSTM encodes the question into a 1024-dimensional vector.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The model employs a decision tree ensemble (random forest) for predicting answer (dis)agreement labels.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 197,
+    "total_tokens": 1269
+  },
+  "seconds": 8.390886534936726
+}

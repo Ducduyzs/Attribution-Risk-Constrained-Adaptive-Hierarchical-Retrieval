@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the training dataset used for the sentiment analysis model.\",\n  \"claims\": [\n    {\n      \"text\": \"The model is trained using 3,216 tweets, with 80% of the data used for training and the remaining for testing.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The training dataset consists of tweets from a 3-day period, with features including the total positive, negative, and neutral emotions in the tweets.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1666,
+    "completion_tokens": 146,
+    "total_tokens": 1812
+  },
+  "seconds": 6.535965523216873
+}

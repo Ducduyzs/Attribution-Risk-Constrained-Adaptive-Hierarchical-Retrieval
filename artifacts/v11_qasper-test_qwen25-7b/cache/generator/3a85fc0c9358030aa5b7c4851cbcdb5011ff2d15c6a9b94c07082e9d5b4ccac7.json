@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the semantic tagging system used, including the tagset and the datasets involved.\",\n  \"claims\": [\n    {\n      \"text\": \"They used a semantic tagset consisting of 80 semantic tags grouped into 13 coarse-grained classes.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The semantic tags were derived from the Parallel Meaning Bank (PMB) project.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The datasets used for semantic tagging include the semantically tagged PMB release 0.1.0 (sem-PMB).\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 186,
+    "total_tokens": 1775
+  },
+  "seconds": 7.852118175011128
+}

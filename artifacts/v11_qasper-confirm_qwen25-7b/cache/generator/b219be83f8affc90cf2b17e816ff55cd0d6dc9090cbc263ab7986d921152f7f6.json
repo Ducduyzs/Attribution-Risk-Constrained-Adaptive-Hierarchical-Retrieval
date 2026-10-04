@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions comparisons to a baseline model, but does not explicitly define what the baseline is.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline model is the wFST-adaptation approach, as evidenced by the comparison to it in the high resource language experiments.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The baseline model is the system presented by deri2016grapheme, referred to as wFST, in the context of both high resource and adapted language experiments.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1509,
+    "completion_tokens": 158,
+    "total_tokens": 1667
+  },
+  "seconds": 7.218522388953716
+}

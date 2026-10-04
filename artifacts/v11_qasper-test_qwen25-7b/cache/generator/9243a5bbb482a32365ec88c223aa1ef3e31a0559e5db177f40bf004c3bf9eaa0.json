@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on building gazetteers from Wikipedia and Wikidata.\",\n  \"claims\": [\n    {\n      \"text\": \"Gazetteers can be built from the Wikipedia knowledge base, specifically using its instance of relationship as a resource for classical machine learning models.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Wikidata, a structured knowledge base derived from Wikipedia, can also be used to build gazetteers, with entity popularity filtering to reduce ambiguity.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 148,
+    "total_tokens": 1191
+  },
+  "seconds": 9.027213930152357
+}

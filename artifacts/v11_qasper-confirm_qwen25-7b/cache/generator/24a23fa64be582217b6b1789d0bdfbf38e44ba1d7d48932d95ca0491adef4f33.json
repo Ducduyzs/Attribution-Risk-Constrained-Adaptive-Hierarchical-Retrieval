@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence directly compares the performance of different stock market sectors using a model that incorporates both news and price data.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed model outperformed the GARCH(1,1) model for all sectors in terms of coefficient of determination \\(R^2\\), \\(MSE\\) and \\(MAE\\), achieving the best performance when training from both news and price data.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1776,
+    "completion_tokens": 122,
+    "total_tokens": 1898
+  },
+  "seconds": 5.735109237022698
+}

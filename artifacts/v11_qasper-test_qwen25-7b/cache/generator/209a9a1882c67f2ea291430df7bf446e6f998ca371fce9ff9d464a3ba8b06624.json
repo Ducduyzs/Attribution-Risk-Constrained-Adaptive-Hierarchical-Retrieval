@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the quality of word vectors is measured, specifically through correlation metrics and tasks like word similarity and analogies.\",\n  \"claims\": [\n    {\n      \"text\": \"Quality of word vectors is often measured using the Pearson correlation coefficient, comparing human judgments of word similarity to the cosine distances between word vectors.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Word vectors are evaluated through tasks such as word similarity and analogies, where the cosine similarity between vectors is used to determine the closest or most related words.\",\n      \"citations\": [\"C6\", \"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1995,
+    "completion_tokens": 165,
+    "total_tokens": 2160
+  },
+  "seconds": 7.332710684277117
+}

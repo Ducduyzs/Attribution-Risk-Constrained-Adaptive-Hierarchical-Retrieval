@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how embeddings are evaluated in the human judgement comparison.\",\n  \"claims\": [\n    {\n      \"text\": \"Embeddings are evaluated by ranking word pairs according to their cosine similarity and measuring the correlation between model judgments and human judgments using Spearman's ρ.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2052,
+    "completion_tokens": 92,
+    "total_tokens": 2144
+  },
+  "seconds": 4.660499230027199
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The training duration is explicitly mentioned for the Baseline model.\",\n  \"claims\": [\n    {\n      \"text\": \"It takes 3M iterations to train the model on the Conceptual dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1211,
+    "completion_tokens": 75,
+    "total_tokens": 1286
+  },
+  "seconds": 3.6376040130853653
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions English and possibly other languages based on the context of ISIS propaganda and Twitter activity.\",\n  \"claims\": [\n    {\n      \"text\": \"English is featured in the dataset.\",\n      \"citations\": [\"C1\", \"C2\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Other languages might be present, but specific details are not provided.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.7\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1801,
+    "completion_tokens": 123,
+    "total_tokens": 1924
+  },
+  "seconds": 5.314341226126999
+}

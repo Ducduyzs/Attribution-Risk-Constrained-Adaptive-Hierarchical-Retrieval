@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses batch size and stopping methods in the context of active learning for text classification.\",\n  \"claims\": [\n    {\n      \"text\": \"Stopping methods are crucial for active learning to achieve its benefits in practice.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Batch size affects the performance and efficiency of active learning.\",\n      \"citations\": [\"C5\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1117,
+    "completion_tokens": 119,
+    "total_tokens": 1236
+  },
+  "seconds": 5.654145787935704
+}

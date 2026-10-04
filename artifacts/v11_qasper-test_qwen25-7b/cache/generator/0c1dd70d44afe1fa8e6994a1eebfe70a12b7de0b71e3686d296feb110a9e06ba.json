@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evaluation method and metrics for the training algorithm are described in the document.\",\n  \"claims\": [\n    {\n      \"text\": \"The model's performance is evaluated by comparing the segmentation produced by the trained model to the annotated morph boundaries using precision, recall, and F1-score.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 650,
+    "completion_tokens": 92,
+    "total_tokens": 742
+  },
+  "seconds": 3.844053530599922
+}

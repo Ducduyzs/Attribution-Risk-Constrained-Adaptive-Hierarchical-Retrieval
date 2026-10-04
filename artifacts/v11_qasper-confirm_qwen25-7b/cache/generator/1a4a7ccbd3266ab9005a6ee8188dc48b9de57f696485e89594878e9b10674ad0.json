@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of a task-specific encoder but does not specify the exact amount of data required for its training.\",\n  \"claims\": [\n    {\n      \"text\": \"The task-specific encoder can be trained effectively even when up to approximately 10% of the most difficult sentences are removed from the training data.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1819,
+    "completion_tokens": 102,
+    "total_tokens": 1921
+  },
+  "seconds": 4.905988689046353
+}

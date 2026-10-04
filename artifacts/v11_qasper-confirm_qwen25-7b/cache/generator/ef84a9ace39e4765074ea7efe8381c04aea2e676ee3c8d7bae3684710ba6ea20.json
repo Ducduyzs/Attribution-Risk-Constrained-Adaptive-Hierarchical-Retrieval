@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the proposed model's architecture and its performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Their proposed approach achieves similar performance to existing systems without being trained or tuned on the specific dataset.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The model uses ELMo embeddings and Wikidata to improve fine-grained named entity classification.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The model architecture includes a residual LSTM and a softmax layer for predicting entity types.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The model was trained using the Adam optimization method with a batch size of 32 for 30 epochs.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1086,
+    "completion_tokens": 221,
+    "total_tokens": 1307
+  },
+  "seconds": 9.028454828076065
+}

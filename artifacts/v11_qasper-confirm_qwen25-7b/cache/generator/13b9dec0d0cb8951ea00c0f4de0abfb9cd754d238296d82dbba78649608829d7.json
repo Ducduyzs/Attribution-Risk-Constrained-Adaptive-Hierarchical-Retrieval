@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the model architecture used.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses a combination of decision tree classifiers and a VQA deep learning architecture.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The VQA deep learning architecture encodes the question using a 1024-dimensional LSTM model and the image using the 4096-dimensional output from the last fully connected layer of the Convolutional Neural Network (CNN), VGG16.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 662,
+    "completion_tokens": 156,
+    "total_tokens": 818
+  },
+  "seconds": 6.708562470972538
+}

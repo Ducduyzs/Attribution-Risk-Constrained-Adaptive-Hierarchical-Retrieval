@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear steps and definitions for creating static embeddings from contextualized representations.\",\n  \"claims\": [\n    {\n      \"text\": \"Static embeddings for each word are calculated by taking the first principal component (PC) of its contextualized representations in a given layer.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"This process involves adjusting for anisotropy by calculating the proportion of variance explained by the first principal component of uniformly randomly sampled word representations and subtracting this proportion from the raw MEV.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2040,
+    "completion_tokens": 152,
+    "total_tokens": 2192
+  },
+  "seconds": 6.782225952018052
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how missing hypotheses were discovered through expert re-evaluation of problems marked as 'YES' in the RTE3 dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"Missing hypotheses were discovered by re-rating problems marked as 'YES' in the RTE3 dataset by experts in logic and linguistics.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Experts were instructed to consider missing hypotheses and provide optional mentions of them when rating problems.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A total of 146 missing hypotheses were identified through this process.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1642,
+    "completion_tokens": 183,
+    "total_tokens": 1825
+  },
+  "seconds": 7.778637249022722
+}

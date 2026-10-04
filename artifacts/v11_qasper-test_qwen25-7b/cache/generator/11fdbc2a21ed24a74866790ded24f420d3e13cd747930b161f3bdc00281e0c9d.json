@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the datasets used for evaluation in different tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"They used the Microsoft COCO 2014 dataset for image captioning.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For WMT14 En-De, IWSLT 2015 En-Vi, and IWSLT 2014 De-En tasks, they used specific datasets.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For De-En translation, they used the IWSLT 2014 dataset.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 702,
+    "completion_tokens": 187,
+    "total_tokens": 889
+  },
+  "seconds": 7.7813965221866965
+}

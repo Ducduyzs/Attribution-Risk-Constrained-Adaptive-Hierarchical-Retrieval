@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of the textual patterns extracted.\",\n  \"claims\": [\n    {\n      \"text\": \"Textual patterns are extracted by saving the full word form if it changes between incorrect and correct texts, or using POS tags for matching if it does not change.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 565,
+    "completion_tokens": 94,
+    "total_tokens": 659
+  },
+  "seconds": 3.9693604703061283
+}

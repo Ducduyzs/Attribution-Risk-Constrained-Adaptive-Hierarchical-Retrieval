@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how context-dependent scoring models are used to score phrasal compositionality.\",\n  \"claims\": [\n    {\n      \"text\": \"They score phrasal compositionality by computing the likelihood of a phrase's context given its paraphrase-learned representation.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Context-dependent scoring models are used to measure the compositionality of a phrase based on the surrounding context words.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 138,
+    "total_tokens": 803
+  },
+  "seconds": 5.676154986023903
+}

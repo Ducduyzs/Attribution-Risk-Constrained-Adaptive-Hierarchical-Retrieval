@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple examples and discusses various approaches to text analysis.\",\n  \"claims\": [\n    {\n      \"text\": \"Statistical text analysis focuses on style, based on the distribution of function words, rather than content.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Computational approaches help identify patterns that would not be discernible otherwise.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Interpretable models are preferred for insight-driven text analysis due to their ease in identifying spurious features and supporting interpretation of results.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Combining computational and qualitative approaches enhances the analysis of social and cultural phenomena.\",\n      \"citations\": [\"C4\", \"C6\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Operationalizations are crucial in computational text analysis and are often refined during the investigation.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1781,
+    "completion_tokens": 268,
+    "total_tokens": 2049
+  },
+  "seconds": 11.97815213073045
+}

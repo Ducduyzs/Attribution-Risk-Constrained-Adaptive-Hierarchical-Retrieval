@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses experiments on multiple languages including English, but does not exclusively report results on English datasets.\",\n  \"claims\": [\n    {\n      \"text\": \"The experiments include English-German dataset, but also involve other languages like French and German.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The Multi30K dataset used includes English descriptions alongside translations in German, French, and Czech.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 708,
+    "completion_tokens": 134,
+    "total_tokens": 842
+  },
+  "seconds": 5.789257163181901
+}

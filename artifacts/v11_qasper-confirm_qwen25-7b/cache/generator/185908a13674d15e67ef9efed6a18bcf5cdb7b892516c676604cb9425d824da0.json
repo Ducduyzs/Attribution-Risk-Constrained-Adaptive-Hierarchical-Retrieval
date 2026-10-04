@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the limitations of knowledge distillation techniques when applied to models with different vocabularies.\",\n  \"claims\": [\n    {\n      \"text\": \"Knowledge distillation techniques are ineffective at yielding student models with vocabularies different from the original teacher models because they rely on the alignment of both models' output spaces, which is compromised when vocabularies differ.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 120,
+    "total_tokens": 1162
+  },
+  "seconds": 5.012116235680878
+}

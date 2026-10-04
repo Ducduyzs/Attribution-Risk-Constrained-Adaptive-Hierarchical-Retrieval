@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on modifications made to post-trained BERT, specifically focusing on adversarial training and hyperparameter tuning.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial examples were added to post-trained BERT to improve its performance on Aspect Extraction (AE) and Aspect Sentiment Classification (ASC) tasks.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Hyperparameter tuning was performed on post-trained BERT, including experimenting with different numbers of training epochs and dropout probabilities.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The best parameters for post-trained BERT significantly improved its performance on both tasks compared to the original model.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 196,
+    "total_tokens": 1388
+  },
+  "seconds": 12.042121246922761
+}

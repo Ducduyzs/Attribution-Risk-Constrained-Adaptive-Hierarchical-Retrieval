@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly contrasts the nature of student reflection data with newspaper data.\",\n  \"claims\": [\n    {\n      \"text\": \"Student reflection documents lack global structure, are repetitive, and contain many sentence fragments and grammatical mistakes, unlike news.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Tuning a model trained on newspaper data improved performance on student reflection data, indicating significant differences between the two types of data.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 628,
+    "completion_tokens": 134,
+    "total_tokens": 762
+  },
+  "seconds": 5.433687150012702
+}

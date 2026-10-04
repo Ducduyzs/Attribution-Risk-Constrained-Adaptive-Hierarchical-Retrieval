@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the comparison of the GM_KL model with other WSD approaches using word embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"The GM_KL model outperforms single Gaussian (w2g) and mixture of Gaussian (w2gm) models on benchmark word similarity and entailment datasets.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Word embeddings initialized using a uniform distribution were used for experimental purposes to analyze the performance of GM_KL.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 157,
+    "total_tokens": 1148
+  },
+  "seconds": 6.678362988866866
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear details on how the tweets were annotated.\",\n  \"claims\": [\n    {\n      \"text\": \"Tweets were filtered based on mentions of specific club names and then annotated for stance as Favor or Against, considering the club as the target in all cases.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A total of 700 tweets were annotated, equally divided into four categories: 175 in favor and 175 against each of two targets.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 635,
+    "completion_tokens": 153,
+    "total_tokens": 788
+  },
+  "seconds": 6.191636011004448
+}

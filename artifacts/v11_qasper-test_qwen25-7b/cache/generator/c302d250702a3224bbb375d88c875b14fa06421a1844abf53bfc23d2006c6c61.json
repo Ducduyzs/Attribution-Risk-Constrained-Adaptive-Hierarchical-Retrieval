@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"Evidence provided details on the empirical evaluation methods used, including performance metrics and comparison to baselines.\",\n  \"claims\": [\n    {\n      \"text\": \"The empirical evaluation used F1 score with ten-fold cross-validation to compare the performance of different models, including BERT and Coh-Metrix approaches, against a language-based baseline.\",\n      \"citations\": [\"C2\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 106,
+    "total_tokens": 1136
+  },
+  "seconds": 4.792191868182272
+}

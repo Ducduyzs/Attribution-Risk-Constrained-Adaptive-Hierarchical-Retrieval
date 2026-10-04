@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence describes the training process involving a selected sharing layer that uses gate and attention mechanisms to filter shared features between tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"The selected sharing layer uses gate and attention mechanisms to filter and select shared feature flows between tasks during training.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 92,
+    "total_tokens": 697
+  },
+  "seconds": 3.8361865170300007
+}

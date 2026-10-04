@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the initialization of the model with post-trained BERT and the ablation study conducted to find optimal training parameters.\",\n  \"claims\": [\n    {\n      \"text\": \"The model was initialized with post-trained BERT.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"An ablation study was performed to determine the best number of training epochs and dropout probability for BERT-PT.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 476,
+    "completion_tokens": 132,
+    "total_tokens": 608
+  },
+  "seconds": 5.919467407744378
+}

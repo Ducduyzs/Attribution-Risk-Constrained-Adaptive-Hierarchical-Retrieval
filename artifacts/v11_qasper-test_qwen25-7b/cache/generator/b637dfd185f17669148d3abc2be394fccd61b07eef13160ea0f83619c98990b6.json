@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the performance of different models on the NER task.\",\n  \"claims\": [\n    {\n      \"text\": \"The ERNIE-tiny model was the worst performing model, achieving a lower F1 value compared to other pre-training models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1640,
+    "completion_tokens": 88,
+    "total_tokens": 1728
+  },
+  "seconds": 4.183739523869008
+}

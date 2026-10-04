@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the extraction of textual patterns and their application in generating artificial errors.\",\n  \"claims\": [\n    {\n      \"text\": \"Textual patterns are extracted from an annotated corpus, consisting of (incorrect phrase, correct phrase) pairs, focusing on transformations involving word forms or part-of-speech tags.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These patterns are used to insert errors into grammatically correct sentences, with the goal of improving error detection accuracy.\",\n      \"citations\": [\"C1\", \"C2\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1819,
+    "completion_tokens": 157,
+    "total_tokens": 1976
+  },
+  "seconds": 7.503033027984202
+}

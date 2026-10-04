@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comparison of the proposed GM_KL approach with other WSD methods using word embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"The GM_KL approach outperforms single Gaussian (w2g) and mixture of Gaussian with expected likelihood kernel (w2gm) models on benchmark word similarity and entailment datasets.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The GM_KL approach uses a KL divergence-based energy function to model word embeddings as Gaussian mixtures, providing a better distance metric for capturing entailment and distribution similarity.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 169,
+    "total_tokens": 1160
+  },
+  "seconds": 6.973813713062555
+}

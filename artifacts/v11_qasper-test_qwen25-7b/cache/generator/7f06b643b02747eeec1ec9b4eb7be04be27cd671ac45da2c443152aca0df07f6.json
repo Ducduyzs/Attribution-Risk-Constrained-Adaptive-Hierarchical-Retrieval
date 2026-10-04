@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the decoder architecture used in the model.\",\n  \"claims\": [\n    {\n      \"text\": \"The decoder is a GRU language model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The hidden state of the decoder is acquired using an attention mechanism.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 106,
+    "total_tokens": 754
+  },
+  "seconds": 4.623722092714161
+}

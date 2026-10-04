@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes how audio and text sequences are combined using RNNs.\",\n  \"claims\": [\n    {\n      \"text\": \"They use dual RNNs to encode audio and text sequences separately and then combine the information from these sources to predict the emotion class.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1029,
+    "completion_tokens": 102,
+    "total_tokens": 1131
+  },
+  "seconds": 4.473120238166302
+}

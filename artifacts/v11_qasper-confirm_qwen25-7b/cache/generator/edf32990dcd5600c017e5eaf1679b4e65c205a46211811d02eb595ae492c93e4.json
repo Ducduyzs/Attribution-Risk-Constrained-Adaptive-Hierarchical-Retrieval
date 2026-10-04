@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses comparisons to a baseline model but does not explicitly define what the baseline is.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline model is a monolingual wFST model, which does not use data adaptation and only contains data from the specific language it is tested on.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The baseline can also refer to the NoLangID model, which does not use language ID tokens.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.7\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 146,
+    "total_tokens": 1281
+  },
+  "seconds": 6.4145049280487
+}

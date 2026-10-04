@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists the metrics used for evaluating translation results.\",\n  \"claims\": [\n    {\n      \"text\": \"They use BLEU, METEOR, and chrF metrics to evaluate translation results.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 81,
+    "total_tokens": 738
+  },
+  "seconds": 3.42141194595024
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly mentions the comparison with baselines in multiple contexts.\",\n  \"claims\": [\n    {\n      \"text\": \"The models with ReWE have outperformed the LSTM and transformer baselines consistently.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"ReWE and ReSE have outperformed the baselines in experiments on unsupervised NMT.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2092,
+    "completion_tokens": 123,
+    "total_tokens": 2215
+  },
+  "seconds": 5.6138354311697185
+}

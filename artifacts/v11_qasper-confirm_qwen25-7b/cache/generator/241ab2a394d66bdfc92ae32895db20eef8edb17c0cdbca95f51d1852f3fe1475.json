@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the training datasets used for different models.\",\n  \"claims\": [\n    {\n      \"text\": \"The model is trained using 3,216 tweets.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The model is also trained using 355 instances with 3 attributes.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 118,
+    "total_tokens": 1236
+  },
+  "seconds": 5.357283945195377
+}

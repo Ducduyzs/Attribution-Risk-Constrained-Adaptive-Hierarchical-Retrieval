@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes how audio and text sequences are combined using RNNs.\",\n  \"claims\": [\n    {\n      \"text\": \"They use dual RNNs to encode audio and text sequences separately, then combine the information using a feed-forward neural model.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Audio and text encodings are concatenated and passed through a fully connected layer to predict the emotion class.\",\n      \"citations\": [\"C2\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 141,
+    "total_tokens": 1319
+  },
+  "seconds": 6.000347275752574
+}

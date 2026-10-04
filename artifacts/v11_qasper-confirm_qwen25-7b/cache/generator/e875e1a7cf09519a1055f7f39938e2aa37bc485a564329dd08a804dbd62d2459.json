@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses comparisons with previous work, indicating that some tasks were indeed evaluated.\",\n  \"claims\": [\n    {\n      \"text\": \"The results are not directly comparable to previous work, but the high performance indicates that the models are likely capable of capturing the same kind of syntactic regularities as LSTM-based models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Previous work used uni-directional language-model-like models, while this work uses BERT models, which are bidirectional and trained on a larger corpus.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 162,
+    "total_tokens": 1287
+  },
+  "seconds": 7.1821840717457235
+}

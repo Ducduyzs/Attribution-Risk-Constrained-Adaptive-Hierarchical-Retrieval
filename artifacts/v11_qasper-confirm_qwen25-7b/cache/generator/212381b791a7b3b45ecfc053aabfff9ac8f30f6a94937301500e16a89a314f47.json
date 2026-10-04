@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of the textual patterns used for error insertion.\",\n  \"claims\": [\n    {\n      \"text\": \"Textual patterns are extracted from incorrect and correct sentence pairs, capturing either full word forms or POS tags depending on the change between the two versions.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Patterns are collected from an annotated corpus and used to insert errors into grammatically correct sentences.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 145,
+    "total_tokens": 1304
+  },
+  "seconds": 6.437420459929854
+}

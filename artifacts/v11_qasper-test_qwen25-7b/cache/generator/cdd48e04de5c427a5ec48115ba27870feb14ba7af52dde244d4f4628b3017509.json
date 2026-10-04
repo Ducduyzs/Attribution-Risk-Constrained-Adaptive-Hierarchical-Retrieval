@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons between the proposed model and baseline methods in terms of performance and training efficiency.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed model performs similarly to the baseline implementation of BIBREF17 on the recipe retrieval task.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The proposed model offers more efficient training compared to the baseline methods, reducing training time from three days to under 30 hours.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2096,
+    "completion_tokens": 143,
+    "total_tokens": 2239
+  },
+  "seconds": 6.437482957262546
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the process of matching words before reordering them, particularly focusing on aligning word orders between source and assisting languages.\",\n  \"claims\": [\n    {\n      \"text\": \"They reorder English sentences to match the word order of the source language by applying specific reordering rules.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These rules include both generic rules applicable to all Indian languages and language-specific rules for Hindi.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The reordering aims to make the contextual representations consistent between the source and assisting languages, improving translation quality in low-resource settings.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1117,
+    "completion_tokens": 195,
+    "total_tokens": 1312
+  },
+  "seconds": 8.20859129820019
+}

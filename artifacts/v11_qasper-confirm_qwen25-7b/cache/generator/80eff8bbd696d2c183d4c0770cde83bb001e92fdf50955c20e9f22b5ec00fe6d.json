@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists the metrics used for evaluating the question generation system.\",\n  \"claims\": [\n    {\n      \"text\": \"They use BLEU-1, BLEU-2, BLEU-3, BLEU-4, METEOR, and ROUGE-L as evaluation metrics.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1777,
+    "completion_tokens": 95,
+    "total_tokens": 1872
+  },
+  "seconds": 4.81813082518056
+}

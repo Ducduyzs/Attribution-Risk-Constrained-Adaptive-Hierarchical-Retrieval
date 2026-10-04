@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on various experiments performed, including training configurations, datasets used, and evaluation metrics.\",\n  \"claims\": [\n    {\n      \"text\": \"Experiments are conducted to validate theoretical insights against real-world observations.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Experiments include training and evaluating models on specific datasets like IWSLT14 German-to-English and WMT14 English-to-German tasks.\",\n      \"citations\": [\"C2\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Models are trained using a Transformer architecture with specified configurations such as layer counts, embedding sizes, and learning rates.\",\n      \"citations\": [\"C2\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Evaluation measures include validation loss and BLEU score for translation tasks, and accuracy for Recognizing Textual Entailment tasks.\",\n      \"citations\": [\"C2\", \"C5\", \"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1779,
+    "completion_tokens": 249,
+    "total_tokens": 2028
+  },
+  "seconds": 10.53268526494503
+}

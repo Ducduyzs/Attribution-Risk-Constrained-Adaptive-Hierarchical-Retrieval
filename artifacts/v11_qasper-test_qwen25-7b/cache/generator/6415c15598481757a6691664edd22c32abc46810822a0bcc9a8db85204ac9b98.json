@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the generation of additional data through translations and the effectiveness of using multiple languages.\",\n  \"claims\": [\n    {\n      \"text\": \"They manage to generate about 10 times more data than the 2-votes data by using additional training data from translations into multiple languages.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Using at least two back-translations agreeing yields the best quality of additional data.\",\n      \"citations\": [\"C3\", \"C5\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 148,
+    "total_tokens": 1298
+  },
+  "seconds": 9.03430233662948
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of hashtags for social media posts and presents a model (tweet2vec) specifically designed for predicting hashtags. It references previous work on hashtag prediction, indicating this is an established task.\",\n  \"claims\": [\n    {\n      \"text\": \"Hashtag prediction for social media has been addressed earlier, for example in BIBREF15, BIBREF16.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"We propose a Bi-directional Gated Recurrent Unit (Bi-GRU) neural network for learning tweet representations. Treating white-space as a special character itself, the model does a forward and backward pass over the entire sequence, and the final GRU states are linearly combined to get the tweet embedding.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1733,
+    "completion_tokens": 202,
+    "total_tokens": 1935
+  },
+  "seconds": 8.969038004986942
+}

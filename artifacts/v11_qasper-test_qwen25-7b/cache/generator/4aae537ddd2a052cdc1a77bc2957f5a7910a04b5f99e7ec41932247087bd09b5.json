@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the problem of session segmentation in conversation systems.\",\n  \"claims\": [\n    {\n      \"text\": \"Session segmentation is necessary in conversation systems to manage the context of user utterances efficiently, especially in long sessions where not all previous utterances are relevant.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The challenge of session segmentation involves identifying and retaining near, relevant context utterances while eliminating far, irrelevant ones, which is different from topic tracking in conversations.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1868,
+    "completion_tokens": 163,
+    "total_tokens": 2031
+  },
+  "seconds": 7.417131892871112
+}

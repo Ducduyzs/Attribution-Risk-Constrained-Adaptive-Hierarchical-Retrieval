@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states comparisons against state-of-the-art models in multiple contexts.\",\n  \"claims\": [\n    {\n      \"text\": \"We compare our model against the following state-of-the-art models: NBOW, PV, MT-RNN, MT-CNN, MT-DNN, and GRNN.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"We evaluate the performance of task INLINEFORM2 by comparing INLINEFORM3 and INLINEFORM4 on the test set.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"we investigate the empirical performances of our model and compare it to existing state-of-the-art models.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1753,
+    "completion_tokens": 188,
+    "total_tokens": 1941
+  },
+  "seconds": 8.402048788964748
+}

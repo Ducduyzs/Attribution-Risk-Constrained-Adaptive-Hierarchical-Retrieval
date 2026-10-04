@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the decoder architecture used in the model.\",\n  \"claims\": [\n    {\n      \"text\": \"The decoder takes INLINEFORM0 as an input and generates a response by a GRU language model with attention.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The decoder is a GRU language model, that regards the concatenation of last step word embedding and the edit vector as inputs, and predicts the next word with an attention mechanism.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2043,
+    "completion_tokens": 142,
+    "total_tokens": 2185
+  },
+  "seconds": 6.441987779922783
+}

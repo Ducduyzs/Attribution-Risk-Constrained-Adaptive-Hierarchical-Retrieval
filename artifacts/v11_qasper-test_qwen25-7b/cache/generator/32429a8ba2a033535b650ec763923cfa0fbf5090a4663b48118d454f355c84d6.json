@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states that the widely used dataset of US Congress debates was utilized.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors used the Convote dataset for their experiments.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Experiments were conducted using a widely used dataset of US Congressional speeches.\",\n      \"citations\": [\"C2\", \"C4\", \"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1046,
+    "completion_tokens": 121,
+    "total_tokens": 1167
+  },
+  "seconds": 7.331167310941964
+}

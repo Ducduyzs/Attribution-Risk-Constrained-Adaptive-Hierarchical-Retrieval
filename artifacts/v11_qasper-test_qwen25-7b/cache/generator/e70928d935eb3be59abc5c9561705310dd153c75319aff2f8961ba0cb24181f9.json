@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear steps and methods for building gazetteers from Wikipedia knowledge base.\",\n  \"claims\": [\n    {\n      \"text\": \"Gazetteers are built from Wikidata, an open-source structured knowledge base, by processing entity and type information from the instance_of triplets, keeping aliases under seven tokens, and filtering by sitelink count to reduce ambiguity.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The gazetteers are then merged to match the granularity required by specific NER tasks, such as CoNLL-03 or Ontonotes 5.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1692,
+    "completion_tokens": 178,
+    "total_tokens": 1870
+  },
+  "seconds": 7.458781173918396
+}

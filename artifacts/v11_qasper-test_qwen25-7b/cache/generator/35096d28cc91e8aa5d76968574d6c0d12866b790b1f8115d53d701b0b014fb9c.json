@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on syntactic features used in speech act classification.\",\n  \"claims\": [\n    {\n      \"text\": \"Dependency sub-trees are included as syntactic features.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"N-grams, specifically unigrams, bigrams, and trigrams, are used as syntactic features.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1015,
+    "completion_tokens": 119,
+    "total_tokens": 1134
+  },
+  "seconds": 5.227204505354166
+}

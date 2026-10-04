@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly explains the process of segmenting lengthy documents into smaller chunks for text classification, particularly in the legal domain.\",\n  \"claims\": [\n    {\n      \"text\": \"Text is segmented into smaller chunks to enhance the context encapsulation and improve the final results in document classification.\",\n      \"citations\": [\"C1\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Dividing the document into chunks and using Doc2Vec followed by a BiLSTM improves the accuracy of the document embedding.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1833,
+    "completion_tokens": 154,
+    "total_tokens": 1987
+  },
+  "seconds": 6.9391024257056415
+}

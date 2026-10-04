@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the architecture of the model implemented in Nematus.\",\n  \"claims\": [\n    {\n      \"text\": \"Nematus implements an attentional encoder–decoder architecture similar to the one described by Bahdanau et al., but with several implementation differences.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1368,
+    "completion_tokens": 95,
+    "total_tokens": 1463
+  },
+  "seconds": 4.283744513057172
+}

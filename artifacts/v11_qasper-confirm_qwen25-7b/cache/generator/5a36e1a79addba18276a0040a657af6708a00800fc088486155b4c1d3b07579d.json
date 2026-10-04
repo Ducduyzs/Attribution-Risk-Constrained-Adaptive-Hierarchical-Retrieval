@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a direct comparison between GM_KL and other WSD approaches like w2g and w2gm.\",\n  \"claims\": [\n    {\n      \"text\": \"GM_KL outperforms w2g and w2gm on word similarity and entailment datasets.\",\n      \"citations\": [\"C6\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"GM_KL uses a KL divergence-based energy function for learning multi-sense word embeddings, which improves performance compared to single Gaussian and mixture of Gaussian models.\",\n      \"citations\": [\"C1\", \"C3\", \"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2045,
+    "completion_tokens": 165,
+    "total_tokens": 2210
+  },
+  "seconds": 7.737738830037415
+}

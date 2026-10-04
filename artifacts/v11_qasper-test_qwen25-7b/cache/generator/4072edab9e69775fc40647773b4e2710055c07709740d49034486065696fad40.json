@@ -1,0 +1,9 @@
+{
+  "text": "{\"answerable\":true,\"reason\":\"The evidence indicates that answers are restricted to substrings of the provided text snippets.\",\"claims\":[{\"text\":\"Our approach is to train FastQA (with some extensions) on the SQuAD dataset and then fine-tune the model parameters on the BioASQ training set. Note that by using an extractive QA network as our central component, we restrict our system's responses to substrings in the provided snippets.\",\"citations\":[\"C2\"],\"confidence\":1}]}\\n",
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 103,
+    "total_tokens": 1250
+  },
+  "seconds": 4.848094267304987
+}

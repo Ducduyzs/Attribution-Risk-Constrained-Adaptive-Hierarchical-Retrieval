@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses multiple domain adaptation methods but does not explicitly state which one is the best overall.\",\n  \"claims\": [\n    {\n      \"text\": \"Evo-Devo mechanism shows promise for adaptation and repair of ASR output, especially for domain-specific terms.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Both mechanisms presented in the paper are promising and may need further development.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.7\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 136,
+    "total_tokens": 1210
+  },
+  "seconds": 8.372534981928766
+}

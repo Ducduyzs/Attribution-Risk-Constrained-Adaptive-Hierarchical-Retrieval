@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions evaluations on the SimpleQuestions dataset and briefly discusses other datasets like Freebase2M and Freebase5M, but does not explicitly state if the model was tested on them.\",\n  \"claims\": [\n    {\n      \"text\": \"The model was evaluated on the SimpleQuestions dataset and other datasets like Freebase2M and Freebase5M.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 712,
+    "completion_tokens": 114,
+    "total_tokens": 826
+  },
+  "seconds": 4.942506256978959
+}

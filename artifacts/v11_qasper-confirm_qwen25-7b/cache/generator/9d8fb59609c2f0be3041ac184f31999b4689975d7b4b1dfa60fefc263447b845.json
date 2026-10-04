@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the performance of multilingual BERT in cross-lingual and cross-target settings.\",\n  \"claims\": [\n    {\n      \"text\": \"Multilingual BERT performs better than baseline models in cross-lingual and cross-target settings.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Multilingual BERT can generalize well in both cross-lingual and cross-target scenarios.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 597,
+    "completion_tokens": 140,
+    "total_tokens": 737
+  },
+  "seconds": 6.051886504050344
+}

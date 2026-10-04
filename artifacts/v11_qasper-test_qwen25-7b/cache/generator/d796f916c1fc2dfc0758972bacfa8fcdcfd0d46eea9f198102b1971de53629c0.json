@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses various lexical and language-independent features used in cross-lingual semantic parsing.\",\n  \"claims\": [\n    {\n      \"text\": \"Five lexical features are considered: monolingual lexical features, cross-lingual word-embeddings, universal PoS tags, universal dependencies, and tree encoders.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Dependency features are crucial for zero-shot cross-lingual semantic parsing, improving performance when used with other features.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 155,
+    "total_tokens": 1317
+  },
+  "seconds": 6.51750988420099
+}

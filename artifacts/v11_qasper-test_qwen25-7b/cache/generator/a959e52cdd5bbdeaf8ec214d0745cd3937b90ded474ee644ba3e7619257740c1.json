@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses fine-grained semantic types in the context of entity typing, including their use in multi-label classification and the benefits of context-aware representations.\",\n  \"claims\": [\n    {\n      \"text\": \"Fine-grained entity typing involves assigning multiple types to entities based on their context, moving beyond standard coarse types.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Contextual information, especially document-level context, improves performance in fine-grained entity typing.\",\n      \"citations\": [\"C1\", \"C2\", \"C5\", \"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1696,
+    "completion_tokens": 175,
+    "total_tokens": 1871
+  },
+  "seconds": 7.410297431983054
+}

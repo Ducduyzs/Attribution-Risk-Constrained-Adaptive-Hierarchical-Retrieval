@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comparison of the proposed GM_KL approach with other WSD methods.\",\n  \"claims\": [\n    {\n      \"text\": \"The GM_KL approach outperforms w2g and w2gm models on word similarity and entailment benchmarks.\",\n      \"citations\": [\"C4\", \"C8\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Other WSD approaches like BERT and ELMo can be considered for word embedding initialization, but the GM_KL uses uniform distribution for experiments.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2034,
+    "completion_tokens": 152,
+    "total_tokens": 2186
+  },
+  "seconds": 6.993517014198005
+}

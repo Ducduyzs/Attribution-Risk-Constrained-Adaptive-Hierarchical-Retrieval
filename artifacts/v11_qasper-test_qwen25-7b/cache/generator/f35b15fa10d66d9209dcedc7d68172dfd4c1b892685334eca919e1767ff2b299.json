@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly explains the process of text segmentation, particularly for lengthy documents in the legal domain.\",\n  \"claims\": [\n    {\n      \"text\": \"Text is segmented into smaller chunks to enhance the context encapsulation and improve the final results, especially for lengthy documents.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The segmentation process involves dividing the document into multiple chunks, which are then processed individually using Doc2Vec and aggregated using a BiLSTM model.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 968,
+    "completion_tokens": 160,
+    "total_tokens": 1128
+  },
+  "seconds": 6.915929142385721
+}

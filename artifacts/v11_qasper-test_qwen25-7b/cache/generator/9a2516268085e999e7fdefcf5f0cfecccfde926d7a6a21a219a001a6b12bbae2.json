@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the sources of the data used in the corpus.\",\n  \"claims\": [\n    {\n      \"text\": \"The data comes from various sources including social media, news websites, discussion blogs, and entertainment websites.\",\n      \"citations\": [\"C3\", \"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The corpus includes documents from Snopes, a fact-checking platform, and additional data from crowd-workers.\",\n      \"citations\": [\"C4\", \"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1457,
+    "completion_tokens": 141,
+    "total_tokens": 1598
+  },
+  "seconds": 6.194386271294206
+}

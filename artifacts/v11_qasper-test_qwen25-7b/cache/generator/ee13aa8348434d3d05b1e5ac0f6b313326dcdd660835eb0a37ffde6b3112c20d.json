@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on extracting gazetteers from Wikipedia and Wikidata.\",\n  \"claims\": [\n    {\n      \"text\": \"They extract gazetteers from Wikidata, a structured knowledge base, by processing entity and type tuples from the instance_of triplets, filtering by entity popularity, and keeping the six most popular types per alias.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Gazetteers are built using self-attention and match span encoding to create enhanced gazetteer embeddings, which are then used in neural models for named-entity recognition.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2066,
+    "completion_tokens": 172,
+    "total_tokens": 2238
+  },
+  "seconds": 7.443023380823433
+}

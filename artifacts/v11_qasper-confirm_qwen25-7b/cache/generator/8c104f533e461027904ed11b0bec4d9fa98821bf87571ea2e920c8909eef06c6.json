@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of the textual patterns used for error insertion.\",\n  \"claims\": [\n    {\n      \"text\": \"Textual patterns are extracted from an annotated corpus, consisting of (incorrect phrase, correct phrase) pairs, where the length includes up to one token of context on both sides.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Patterns are learned for generating all types of errors, not just specific subsets like prepositions or noun number errors.\",\n      \"citations\": [\"C7\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1845,
+    "completion_tokens": 147,
+    "total_tokens": 1992
+  },
+  "seconds": 6.6309218760579824
+}

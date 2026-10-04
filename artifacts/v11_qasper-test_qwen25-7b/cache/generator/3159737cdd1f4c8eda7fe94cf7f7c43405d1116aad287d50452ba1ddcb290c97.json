@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how imbalanced datasets are handled in a TN task.\",\n  \"claims\": [\n    {\n      \"text\": \"They use data expansion techniques such as oversampling and loss control in the model to address imbalanced datasets.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A loss function with adjusted parameters is used to help the model focus on harder cases in different classes.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1785,
+    "completion_tokens": 129,
+    "total_tokens": 1914
+  },
+  "seconds": 5.93367670988664
+}

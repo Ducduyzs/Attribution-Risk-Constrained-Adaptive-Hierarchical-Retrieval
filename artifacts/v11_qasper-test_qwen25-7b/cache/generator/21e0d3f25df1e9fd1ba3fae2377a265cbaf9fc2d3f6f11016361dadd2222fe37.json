@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses methods to handle noisy entity linking, such as ranking query structures and using a merging module to generate correct queries.\",\n  \"claims\": [\n    {\n      \"text\": \"By ranking query structures and considering linking results in the last step, many error linking results can be filtered out, leading to correct answers in 85% of cases.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"A merging module was introduced to combine question-contained query substructures, improving recall especially with limited training data.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2083,
+    "completion_tokens": 157,
+    "total_tokens": 2240
+  },
+  "seconds": 6.762989830225706
+}

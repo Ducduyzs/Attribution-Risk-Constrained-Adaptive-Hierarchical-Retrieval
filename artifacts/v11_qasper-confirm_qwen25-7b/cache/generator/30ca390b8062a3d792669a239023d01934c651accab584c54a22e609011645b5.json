@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the use of LDA and Gibbs sampling on ISWC and WWW publications.\",\n  \"claims\": [\n    {\n      \"text\": \"LDA and Gibbs sampling were used to evaluate ISWC and WWW publications from 2013-2017.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Gibbs sampling was employed to infer parameters of LDA for topic modeling.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1720,
+    "completion_tokens": 149,
+    "total_tokens": 1869
+  },
+  "seconds": 6.744956923183054
+}

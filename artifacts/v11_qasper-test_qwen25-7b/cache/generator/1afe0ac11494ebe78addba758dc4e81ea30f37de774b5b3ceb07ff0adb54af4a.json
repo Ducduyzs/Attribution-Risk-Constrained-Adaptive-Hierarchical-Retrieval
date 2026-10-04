@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on post-processing approaches used in the translation process.\",\n  \"claims\": [\n    {\n      \"text\": \"In the post-processing, the approach involves restoring the numbers and dates replaced by special tokens <NUMBER> and <DATE> in the original source sentences.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A rescoring mechanism is proposed to ensure the fluency and consistency of translations.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 667,
+    "completion_tokens": 132,
+    "total_tokens": 799
+  },
+  "seconds": 5.445664244238287
+}

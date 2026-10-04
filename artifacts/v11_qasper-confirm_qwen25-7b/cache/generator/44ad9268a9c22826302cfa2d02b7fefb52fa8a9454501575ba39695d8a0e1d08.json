@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information on how models are evaluated in the context of a human-machine communication game.\",\n  \"claims\": [\n    {\n      \"text\": \"Models are evaluated based on efficiency and accuracy, with efficiency measured by the retention rate of tokens and accuracy by the fraction of sentences generated that exactly match the target sentence.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The evaluation shows that the proposed approach achieves higher accuracy while maintaining efficiency, saving time compared to typing full sentences.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1531,
+    "completion_tokens": 147,
+    "total_tokens": 1678
+  },
+  "seconds": 6.769963250961155
+}

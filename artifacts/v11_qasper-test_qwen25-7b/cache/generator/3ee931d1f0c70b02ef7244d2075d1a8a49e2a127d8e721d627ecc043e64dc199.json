@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses a system that uses face tracking, identification, and other multimodal inputs for diarization in a meeting transcription framework.\",\n  \"claims\": [\n    {\n      \"text\": \"Face tracking, identification, and sound source localization are used in the SRD meeting transcription framework.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These multimodal inputs are programmed into the system rather than being hand-programmed.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 606,
+    "completion_tokens": 134,
+    "total_tokens": 740
+  },
+  "seconds": 11.052196249365807
+}

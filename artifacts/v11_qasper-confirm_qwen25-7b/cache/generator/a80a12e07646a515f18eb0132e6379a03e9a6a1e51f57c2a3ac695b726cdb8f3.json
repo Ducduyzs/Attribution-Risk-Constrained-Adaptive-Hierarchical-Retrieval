@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the components of NeuronBlocks, specifically mentioning the Block Zoo which contains the neural network modules.\",\n  \"claims\": [\n    {\n      \"text\": \"NeuronBlocks includes modules like embedding, CNN/RNN, and Transformer.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"NeuronBlocks provides a gallery of alternative layers/modules for constructing networks with complex architecture.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 131,
+    "total_tokens": 1317
+  },
+  "seconds": 6.003663328010589
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the architecture of the encoder, including its layers and components.\",\n  \"claims\": [\n    {\n      \"text\": \"The encoder consists of M layer encoder blocks, each containing a self-attention module and a two-layer feed-forward network.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The multi-head attention in the encoder uses K attention heads and is defined by the formula Multihead(Q, K, V) = Concat(head_1, ..., head_k)W^o.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 617,
+    "completion_tokens": 152,
+    "total_tokens": 769
+  },
+  "seconds": 6.695221695117652
+}

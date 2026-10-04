@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on state-of-the-art baselines used for comparing models in SQL generation tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"State-of-the-art baselines include CD-Seq2Seq and SyntaxSQL-con.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Recent results from other studies such as recursive decoding, graph neural networks, and an intermediate representation approach have achieved state-of-the-art performance.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 518,
+    "completion_tokens": 136,
+    "total_tokens": 654
+  },
+  "seconds": 5.54162714118138
+}

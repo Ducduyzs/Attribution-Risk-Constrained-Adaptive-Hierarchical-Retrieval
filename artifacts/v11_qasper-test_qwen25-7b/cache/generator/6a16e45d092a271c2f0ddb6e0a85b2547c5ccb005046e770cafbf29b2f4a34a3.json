@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific training iteration counts for different models.\",\n  \"claims\": [\n    {\n      \"text\": \"It takes 3M iterations to train the Baseline model on the Conceptual dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"It takes 1M iterations to fine-tune the Baseline model on the merged dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 120,
+    "total_tokens": 768
+  },
+  "seconds": 5.027833856176585
+}

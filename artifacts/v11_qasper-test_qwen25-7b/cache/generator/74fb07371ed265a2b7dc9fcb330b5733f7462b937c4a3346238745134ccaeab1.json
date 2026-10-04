@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the impact of regularization techniques on fine-tuning performance in both the source and target domains.\",\n  \"claims\": [\n    {\n      \"text\": \"Regularization does not necessarily harm performance in the target domain.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Combining different auxiliary penalty terms can improve performance in the target domain.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 135,
+    "total_tokens": 1138
+  },
+  "seconds": 5.613820098340511
+}

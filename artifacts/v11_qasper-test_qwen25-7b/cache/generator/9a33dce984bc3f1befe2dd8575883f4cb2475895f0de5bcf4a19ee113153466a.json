@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on previous work related to morphological information in both SMT and NMT.\",\n  \"claims\": [\n    {\n      \"text\": \"Previous work considered morphological information for both SMT and NMT.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF8 proposed an effective way to integrate word-level annotation in SMT, which can be morphological, syntactic, or semantic.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF9 decomposed the process of translating a word into two steps, producing a stem and then selecting an appropriate inflection.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF10 used distributed representations for words and soft morphological tags in their neural inflection model.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF11 made use of various source side features, including morphological features, in NMT.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF12 predicted a sequence of interleaving morphological tags and lemmas, followed by a morphological generator.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1871,
+    "completion_tokens": 331,
+    "total_tokens": 2202
+  },
+  "seconds": 14.29284196300432
+}

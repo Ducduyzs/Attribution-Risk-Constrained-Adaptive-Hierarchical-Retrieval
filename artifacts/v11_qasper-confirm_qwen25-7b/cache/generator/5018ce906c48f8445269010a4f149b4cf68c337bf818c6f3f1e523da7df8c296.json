@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about PARENT's correlation with human judgments in specific contexts but does not directly compare it to other metrics.\",\n  \"claims\": [\n    {\n      \"text\": \"PARENT shows competitive or better correlation with human ratings compared to other metrics on the WebNLG challenge.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"When human annotations are used, PARENT can achieve significantly higher correlations compared to its default setting.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 651,
+    "completion_tokens": 142,
+    "total_tokens": 793
+  },
+  "seconds": 8.049370101187378
+}

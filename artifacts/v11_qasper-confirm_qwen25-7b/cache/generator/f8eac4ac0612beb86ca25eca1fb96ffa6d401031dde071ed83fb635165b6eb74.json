@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses comparisons with previous work but does not explicitly state which specific tasks were evaluated.\",\n  \"claims\": [\n    {\n      \"text\": \"The results are not directly comparable to previous work due to differences in training data and evaluation methods.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Previous work involved different corpora and methodologies, making direct comparison challenging.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 128,
+    "total_tokens": 775
+  },
+  "seconds": 5.309230885934085
+}

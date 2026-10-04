@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the algorithms tested against BERT.\",\n  \"claims\": [\n    {\n      \"text\": \"The algorithms tested include the rule-based baseline, the CRF classifier, the spaCy entity tagger, and BERT.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 616,
+    "completion_tokens": 84,
+    "total_tokens": 700
+  },
+  "seconds": 3.9011699468828738
+}

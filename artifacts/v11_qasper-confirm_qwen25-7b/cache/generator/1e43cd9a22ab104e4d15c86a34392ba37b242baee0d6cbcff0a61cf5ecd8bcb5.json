@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information on how static embeddings are calculated for each word.\",\n  \"claims\": [\n    {\n      \"text\": \"Static embeddings for each word are calculated by taking the first principal component (PC) of its contextualized representations in a given layer.\",\n      \"citations\": [\"C1\", \"C3\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1900,
+    "completion_tokens": 96,
+    "total_tokens": 1996
+  },
+  "seconds": 4.516075818333775
+}

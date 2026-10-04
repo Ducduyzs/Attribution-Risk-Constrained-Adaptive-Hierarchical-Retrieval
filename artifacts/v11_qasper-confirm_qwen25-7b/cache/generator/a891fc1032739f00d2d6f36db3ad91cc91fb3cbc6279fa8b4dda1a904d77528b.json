@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses various approaches to multilingual NMT but does not explicitly state whether their framework always generates purely attention-based models.\",\n  \"claims\": [\n    {\n      \"text\": \"Their framework allows for a unified approach to seamlessly extend the original NMT to multilingual settings without requiring any architecture modification.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Their approach integrates any language in any side of the encoder-decoder architecture with only one encoder and one decoder for all the languages involved, without needing to do any network modification to enable attention mechanism.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1752,
+    "completion_tokens": 164,
+    "total_tokens": 1916
+  },
+  "seconds": 7.3204970713704824
+}

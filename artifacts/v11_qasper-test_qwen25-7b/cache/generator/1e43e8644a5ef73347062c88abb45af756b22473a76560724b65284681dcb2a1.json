@@ -1,0 +1,9 @@
+{
+  "text": "{\"answerable\":true,\"reason\":\"The evidence provides information about the training steps and GPU usage for different models but does not directly compare the training time between models with and without original position encoding.\",\"claims\":[{\"text\":\"The training time for the base model was 100,000 steps, while for the big model it was 300,000 steps.\",\"citations\":[\"C1\"],\"confidence\":0.9}]}\\n",
+  "usage": {
+    "prompt_tokens": 488,
+    "completion_tokens": 93,
+    "total_tokens": 581
+  },
+  "seconds": 3.9959289208054543
+}

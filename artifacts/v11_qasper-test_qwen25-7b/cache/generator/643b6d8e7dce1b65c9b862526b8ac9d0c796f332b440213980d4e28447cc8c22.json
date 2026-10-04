@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how counterfactual data augmentation affects gender bias in predictions and performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Counterfactual Data Augmentation (CDA) can mitigate gender bias in predictions by equalizing the contexts for masculine and feminine words, leading to improved model performance for both genders.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Debiasing methods like CDA and name anonymization can reduce gender bias in NRE models, improving overall model performance.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 161,
+    "total_tokens": 1277
+  },
+  "seconds": 9.849854416679591
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on existing approaches for representing geographic locations using embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Existing approaches include methods like principal component analysis and stacked autoencoders to learn low-dimensional vector representations of city neighborhoods based on census data.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Other methods involve combining word embedding models with geographic coordinates, where words used in similar geographic locations are considered similar.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 512,
+    "completion_tokens": 139,
+    "total_tokens": 651
+  },
+  "seconds": 5.73341564508155
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how intents are classified and processed by the system.\",\n  \"claims\": [\n    {\n      \"text\": \"The system classifies user messages into intents such as thanks, cancel, stop, search, and unknown.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For search intents, the system performs named entity recognition to extract hotel and location names.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 675,
+    "completion_tokens": 125,
+    "total_tokens": 800
+  },
+  "seconds": 5.95032726181671
+}

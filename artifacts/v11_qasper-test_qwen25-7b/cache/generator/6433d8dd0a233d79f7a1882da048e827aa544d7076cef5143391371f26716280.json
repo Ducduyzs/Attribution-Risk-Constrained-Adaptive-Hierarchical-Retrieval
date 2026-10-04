@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about the metrics used for evaluating the quality of generations.\",\n  \"claims\": [\n    {\n      \"text\": \"BLEU is used to measure similarity between generations and original data distributions.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Perplexity is evaluated as a proxy for fluency.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Self-BLEU measures the similarity of each generated sentence to others, indicating sample diversity.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The percentage of unique n-grams is evaluated to assess diversity compared to the original data distribution and within the corpus of generations.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1617,
+    "completion_tokens": 211,
+    "total_tokens": 1828
+  },
+  "seconds": 9.309802037663758
+}

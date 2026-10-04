@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly indicates that the new ELMo models were trained on much larger corpora compared to the previous ones.\",\n  \"claims\": [\n    {\n      \"text\": \"The new ELMo embeddings were trained on much larger corpora, such as the whole corpus of 270 million tokens for Latvian, compared to the 20 million tokens used by ELMoForManyLangs.\",\n      \"citations\": [\"C2\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1741,
+    "completion_tokens": 124,
+    "total_tokens": 1865
+  },
+  "seconds": 5.748944093938917
+}

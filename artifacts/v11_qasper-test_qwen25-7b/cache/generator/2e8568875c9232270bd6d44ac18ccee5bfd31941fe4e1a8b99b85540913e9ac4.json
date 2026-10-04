@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple comparisons where G-SAT outperforms GLAD and GCE in terms of accuracy.\",\n  \"claims\": [\n    {\n      \"text\": \"G-SAT outperformed GLAD and GCE on the joint goal metric and was consistent across development and test data.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"G-SAT achieved higher performance than GLAD and GCE even when using the same embedding size and after increasing the number of epochs.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 150,
+    "total_tokens": 1294
+  },
+  "seconds": 9.231467188801616
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses analyzing political trolls' behavior through their tweets and mentions, but does not exclusively focus on tweets.\",\n  \"claims\": [\n    {\n      \"text\": \"They do not only look at tweets, but also consider user mentions and hashtags.\",\n      \"citations\": [\"C1\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The analysis includes both supervised and distant supervision scenarios, indicating the use of various data sources beyond just tweets.\",\n      \"citations\": [\"C5\", \"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1765,
+    "completion_tokens": 144,
+    "total_tokens": 1909
+  },
+  "seconds": 6.383143547922373
+}

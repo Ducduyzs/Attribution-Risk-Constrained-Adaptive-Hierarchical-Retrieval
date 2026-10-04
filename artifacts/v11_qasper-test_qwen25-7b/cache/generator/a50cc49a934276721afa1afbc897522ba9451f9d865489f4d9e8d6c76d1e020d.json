@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the comparison of MERF with various existing techniques.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors compared MERF with existing application-specific techniques, including ANGE, ATEEMA, and GENTREE.\",\n      \"citations\": [\"C2\", \"C4\", \"C7\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"MERF was also compared with TEXTMARKER, SystemT, and DUALIST.\",\n      \"citations\": [\"C3\", \"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2001,
+    "completion_tokens": 140,
+    "total_tokens": 2141
+  },
+  "seconds": 6.375706219114363
+}

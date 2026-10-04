@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence suggests that regularization through auxiliary penalty terms does not harm performance in the target domain.\",\n  \"claims\": [\n    {\n      \"text\": \"Combining different auxiliary penalty terms results in the best performance without harming target domain performance.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The incorporation of the auxiliary penalty terms does not harm target task or domain performance.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2023,
+    "completion_tokens": 127,
+    "total_tokens": 2150
+  },
+  "seconds": 6.121686790138483
+}

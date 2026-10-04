@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the threshold used in the fact-checking system.\",\n  \"claims\": [\n    {\n      \"text\": \"The classification threshold ($\\\\phi$) is derived empirically based on the precision-recall curve.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"$\\\\phi$ = 0.76 suggests that at least 3 out of the 4 questions have to be answered correctly while $\\\\phi$ = 0.67 suggests that at least 2 out of the 3 questions has to be answered correctly for the claim to be classified as “SUPPORTS”.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1788,
+    "completion_tokens": 177,
+    "total_tokens": 1965
+  },
+  "seconds": 7.794757523108274
+}

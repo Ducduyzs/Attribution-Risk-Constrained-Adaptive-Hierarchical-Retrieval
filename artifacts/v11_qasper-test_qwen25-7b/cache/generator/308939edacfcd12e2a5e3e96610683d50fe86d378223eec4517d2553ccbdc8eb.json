@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about the NLG tasks considered, including both word-based and grammar-based metrics.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper considers word-based metrics like BLEU, ROUGE, and METEOR, as well as grammar-based metrics focusing on readability and grammaticality.\",\n      \"citations\": [\"C1\", \"C3\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The authors introduce grammar-based metrics for NLG evaluation, contrasting them with word-based metrics that rely on human references.\",\n      \"citations\": [\"C1\", \"C3\", \"C4\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2161,
+    "completion_tokens": 172,
+    "total_tokens": 2333
+  },
+  "seconds": 8.491083492990583
+}

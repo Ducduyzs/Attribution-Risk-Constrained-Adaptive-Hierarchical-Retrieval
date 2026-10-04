@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of tweets for analyzing political trolls but does not exclusively limit the analysis to tweets.\",\n  \"claims\": [\n    {\n      \"text\": \"They use tweets to analyze political trolls but also consider other factors like user mentions and hashtags.\",\n      \"citations\": [\"C2\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The analysis includes the context of the tweets rather than focusing solely on the content.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1826,
+    "completion_tokens": 135,
+    "total_tokens": 1961
+  },
+  "seconds": 7.787470690906048
+}

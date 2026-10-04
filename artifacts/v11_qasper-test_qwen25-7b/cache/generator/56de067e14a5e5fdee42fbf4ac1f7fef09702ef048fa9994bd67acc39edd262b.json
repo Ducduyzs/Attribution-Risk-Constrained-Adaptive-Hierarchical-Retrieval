@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear insights into the factors affecting the stability of word embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Properties of the data, such as domain and part-of-speech, significantly influence the stability of word embeddings.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Frequency of words impacts stability, with higher frequency words being more stable than lower frequency ones.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Algorithm properties, like the choice of word embedding method, also affect stability.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 968,
+    "completion_tokens": 178,
+    "total_tokens": 1146
+  },
+  "seconds": 7.8313970738090575
+}

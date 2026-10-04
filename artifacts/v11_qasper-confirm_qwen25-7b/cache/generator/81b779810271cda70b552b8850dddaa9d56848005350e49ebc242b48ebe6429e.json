@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the performance of various models and the specific improvements of the proposed model.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed model outperforms previous work on ROUGE-1, ROUGE-2, and METEOR scores.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Neural extractive models outperform traditional extractive models on informativeness (ROUGE-1,2) by a wide margin.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The proposed model's benefits become stronger as applied to longer documents.\",\n      \"citations\": [\"C4\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The proposed model's improvements over the baseline model show that combining local and global contextual information helps identify the most important sentences.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 234,
+    "total_tokens": 1295
+  },
+  "seconds": 10.135214449837804
+}

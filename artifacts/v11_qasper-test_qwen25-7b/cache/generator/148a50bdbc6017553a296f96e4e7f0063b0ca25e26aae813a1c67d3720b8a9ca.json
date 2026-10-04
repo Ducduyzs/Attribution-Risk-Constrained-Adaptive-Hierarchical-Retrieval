@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons between different models and their performances, but does not specify exact gain values.\",\n  \"claims\": [\n    {\n      \"text\": \"SubGram model outperformed Skip-gram model on the original test set by 2.2 percentage points (42.5% vs. 42.3%).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"On the other test set, SubGram significantly outperformed Skip-gram model by 12.7 percentage points (22.4% vs. 9.7%).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 170,
+    "total_tokens": 1333
+  },
+  "seconds": 10.37705777818337
+}

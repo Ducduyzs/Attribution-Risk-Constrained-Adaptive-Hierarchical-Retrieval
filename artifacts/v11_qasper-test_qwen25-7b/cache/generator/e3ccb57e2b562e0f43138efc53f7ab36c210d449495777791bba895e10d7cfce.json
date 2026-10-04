@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the success rate of fooling tested models.\",\n  \"claims\": [\n    {\n      \"text\": \"Our model is able to fool well-trained models for the IMDB sentiment classification task and AG's news corpus news categorization task with significantly high success rates.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"DeepWordBug decreases the accuracy from 89.95% to 28.13% while AEG model further reduces it to 18.5%.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1780,
+    "completion_tokens": 154,
+    "total_tokens": 1934
+  },
+  "seconds": 6.894754272885621
+}

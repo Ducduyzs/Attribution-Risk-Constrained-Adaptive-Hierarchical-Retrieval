@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The baseline is clearly defined in the provided context.\",\n  \"claims\": [\n    {\n      \"text\": \"Row(1) is for Model A in Fig. FIGREF5 taken as the baseline, which was trained on LibriSpeech data with SAT, together with the language model also trained with LibriSpeech.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1011,
+    "completion_tokens": 99,
+    "total_tokens": 1110
+  },
+  "seconds": 5.99909612396732
+}

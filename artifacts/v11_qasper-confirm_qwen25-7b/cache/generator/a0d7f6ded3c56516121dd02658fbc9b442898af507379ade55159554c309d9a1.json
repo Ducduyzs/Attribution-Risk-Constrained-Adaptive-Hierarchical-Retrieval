@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how segmentation quality is evaluated, including the use of an automatic evaluation protocol and comparison with manually annotated references.\",\n  \"claims\": [\n    {\n      \"text\": \"Segmentation quality is evaluated by comparing automatically produced segmentations with manually annotated references, specifically through the correspondence of word pairs representing segment borders.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 615,
+    "completion_tokens": 110,
+    "total_tokens": 725
+  },
+  "seconds": 4.914630522951484
+}

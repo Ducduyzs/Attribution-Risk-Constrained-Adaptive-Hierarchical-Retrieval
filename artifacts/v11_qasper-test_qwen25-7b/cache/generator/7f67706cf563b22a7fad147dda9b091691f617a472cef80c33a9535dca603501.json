@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on a specific preprocessing method used for preparing data for a predictive model.\",\n  \"claims\": [\n    {\n      \"text\": \"The preprocessing method involves removing URLs and pictures, and filtering out tweets that do not contain candidates' names while preserving hashtags, mentions, and retweets.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 638,
+    "completion_tokens": 95,
+    "total_tokens": 733
+  },
+  "seconds": 4.11527941795066
+}

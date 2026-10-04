@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the role of the threshold in determining the final label.\",\n  \"claims\": [\n    {\n      \"text\": \"The threshold ($\\phi$) is derived empirically based on the precision-recall curve.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The label classifier uses a threshold to calculate the predicted label.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 456,
+    "completion_tokens": 118,
+    "total_tokens": 574
+  },
+  "seconds": 4.9622293510474265
+}

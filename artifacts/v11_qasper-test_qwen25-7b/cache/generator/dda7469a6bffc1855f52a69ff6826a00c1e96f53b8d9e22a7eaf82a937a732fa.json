@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons between PAMPO and existing NER tools.\",\n  \"claims\": [\n    {\n      \"text\": \"Their model improved over current alternatives by at least 0.25 in recall and F1 measures.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"PAMPO obtained significantly higher recall and F1 scores than existing tools.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1925,
+    "completion_tokens": 123,
+    "total_tokens": 2048
+  },
+  "seconds": 5.972250986844301
+}

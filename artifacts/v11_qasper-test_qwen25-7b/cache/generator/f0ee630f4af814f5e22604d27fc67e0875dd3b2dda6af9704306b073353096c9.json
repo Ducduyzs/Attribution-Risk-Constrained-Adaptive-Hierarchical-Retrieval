@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the model's performance compared to state-of-the-art baselines.\",\n  \"claims\": [\n    {\n      \"text\": \"Their model outperforms state-of-the-art baselines significantly.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The improvement is statistically significant with a p-value of 0.003.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 686,
+    "completion_tokens": 120,
+    "total_tokens": 806
+  },
+  "seconds": 5.2211814960464835
+}

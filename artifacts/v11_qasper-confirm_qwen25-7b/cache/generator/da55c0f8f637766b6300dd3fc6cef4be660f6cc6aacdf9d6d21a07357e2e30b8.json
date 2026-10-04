@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear details on the crowdsourcing scheme used to identify important elements in large document collections.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowd workers were instructed to provide a score for each proposition indicating its importance in a document cluster, using a 5-point Likert-scale.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Workers did not need to read all documents; instead, they received a description of the document cluster's topic along with the propositions.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1654,
+    "completion_tokens": 155,
+    "total_tokens": 1809
+  },
+  "seconds": 7.027113625314087
+}

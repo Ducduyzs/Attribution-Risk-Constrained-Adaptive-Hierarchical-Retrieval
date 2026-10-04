@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how they score phrasal compositionality, including context-dependent scoring and a model inspired by skip-gram for learning word representations.\",\n  \"claims\": [\n    {\n      \"text\": \"They score phrasal compositionality by computing the likelihood of context words given a phrasal representation.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Their approach is context-driven, making the score dependent on the surrounding context of the phrase.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 142,
+    "total_tokens": 1204
+  },
+  "seconds": 6.3144903047941625
+}

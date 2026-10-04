@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about the classification threshold used in the system.\",\n  \"claims\": [\n    {\n      \"text\": \"The classification threshold ($\\phi$) is derived empirically based on the precision-recall curve and is set to 0.76 for optimal performance.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1699,
+    "completion_tokens": 99,
+    "total_tokens": 1798
+  },
+  "seconds": 6.215779291000217
+}

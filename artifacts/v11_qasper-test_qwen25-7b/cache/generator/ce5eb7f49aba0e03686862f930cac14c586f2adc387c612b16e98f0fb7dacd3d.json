@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct statements about the model's performance compared to state-of-the-art baselines.\",\n  \"claims\": [\n    {\n      \"text\": \"Our method outperforms all the baselines, which illustrates the effectiveness of our model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Our model outperforms other state-of-the-art baselines substantially.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Our model outperforms other baselines extensively and significantly.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Compared with L.D.C., which is a very complex model, our simple model within a statistically significant improvement beats it.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2033,
+    "completion_tokens": 210,
+    "total_tokens": 2243
+  },
+  "seconds": 9.506956186145544
+}

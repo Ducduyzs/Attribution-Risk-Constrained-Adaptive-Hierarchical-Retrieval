@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons between G-SAT and other state-of-the-art DST systems.\",\n  \"claims\": [\n    {\n      \"text\": \"G-SAT outperforms GLAD and GCE on the joint goal metric and achieves higher accuracy.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"G-SAT is over 15 times faster than other state-of-the-art DST systems while maintaining high-level performance.\",\n      \"citations\": [\"C4\", \"C6\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1817,
+    "completion_tokens": 144,
+    "total_tokens": 1961
+  },
+  "seconds": 6.511750391218811
+}

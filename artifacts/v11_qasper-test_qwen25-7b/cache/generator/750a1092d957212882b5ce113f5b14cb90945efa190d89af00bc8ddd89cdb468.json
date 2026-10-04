@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the number of columns in the tables but does not specify the exact number of tables in the tablestore.\",\n  \"claims\": [\n    {\n      \"text\": \"The tablestore contains between 2 and 16 content columns.\",\n      \"citations\": [\"C1\", \"C3\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The tablestore includes 62 tables, each centered around a particular relation.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 136,
+    "total_tokens": 1186
+  },
+  "seconds": 8.195147591643035
+}

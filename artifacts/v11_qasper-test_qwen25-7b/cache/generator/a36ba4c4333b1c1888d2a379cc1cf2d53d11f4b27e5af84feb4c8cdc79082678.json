@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the metrics and methods used in the evaluation process.\",\n  \"claims\": [\n    {\n      \"text\": \"They use mean square error as the loss function and RMSprop for parameter optimization.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"During testing, the sense with the highest value of the output of the network is considered the true sense.\",\n      \"citations\": [\"C2\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The evaluation uses SensEval-3 data with WordNet 1.7.1 for nouns and adjectives, and Wordsmyth for verbs.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 183,
+    "total_tokens": 1356
+  },
+  "seconds": 8.125714167952538
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about labels for antisocial events in datasets.\",\n  \"claims\": [\n    {\n      \"text\": \"Datasets label antisocial behavior such as harassment, cyberbullying, and general aggression.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The 'Conversations Gone Awry' dataset labels conversations as containing a personal attack or remaining civil.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 123,
+    "total_tokens": 1333
+  },
+  "seconds": 5.3520879982970655
+}

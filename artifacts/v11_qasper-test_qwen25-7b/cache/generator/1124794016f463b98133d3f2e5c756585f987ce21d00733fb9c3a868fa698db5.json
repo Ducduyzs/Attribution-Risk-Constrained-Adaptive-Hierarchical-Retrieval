@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses potential improvements for memory-augmented dialogue systems, including reducing computational speed and parameter count, and integrating memory modules with pointer softmax networks.\",\n  \"claims\": [\n    {\n      \"text\": \"The memory-augmented architectures should be modified for increased computational speed and a reduced number of parameters.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"A possible future approach might combine memory module architectures with pointer softmax networks to allow memory models to store information about which words from previous utterances of the conversation to use in future responses.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1637,
+    "completion_tokens": 163,
+    "total_tokens": 1800
+  },
+  "seconds": 7.2321881740354
+}

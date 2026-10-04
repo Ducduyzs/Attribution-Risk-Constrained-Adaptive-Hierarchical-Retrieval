@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the loss function, parameter optimization method, and the initialization of word embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"They use mean square error as the loss function.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"RMSprop is used for parameter optimization.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"GloVe vectors are used to initialize word embeddings.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 677,
+    "completion_tokens": 147,
+    "total_tokens": 824
+  },
+  "seconds": 6.538208081852645
+}

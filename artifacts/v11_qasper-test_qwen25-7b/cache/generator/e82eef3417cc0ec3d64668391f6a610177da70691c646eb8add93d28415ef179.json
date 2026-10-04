@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the architecture of the encoder in a Transformer-based model.\",\n  \"claims\": [\n    {\n      \"text\": \"The encoder consists of M layer encoder blocks, each containing a self-attention module and a two-layer feed-forward network.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 87,
+    "total_tokens": 624
+  },
+  "seconds": 3.843187613878399
+}

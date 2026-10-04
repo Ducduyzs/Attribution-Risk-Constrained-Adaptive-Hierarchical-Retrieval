@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about post-processing approaches used in the translation process.\",\n  \"claims\": [\n    {\n      \"text\": \"Language model rescoring is used to choose the best sentences.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Unknown word replacement (UWR) is employed to reduce the impact of out-of-vocabulary (OOV) words.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Delexicalization using special tokens <NUMBER> and <DATE> is performed before post-processing.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 641,
+    "completion_tokens": 177,
+    "total_tokens": 818
+  },
+  "seconds": 8.522488590795547
+}

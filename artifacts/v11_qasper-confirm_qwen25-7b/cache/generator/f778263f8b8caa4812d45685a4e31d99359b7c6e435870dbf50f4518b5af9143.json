@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the extraction of textual patterns for error insertion.\",\n  \"claims\": [\n    {\n      \"text\": \"Textual patterns are extracted from an annotated corpus, consisting of (incorrect phrase, correct phrase) pairs, with context up to one token on both sides.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Patterns are learned for generating various types of errors, not limited to specific error categories.\",\n      \"citations\": [\"C3\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Patterns are reversed to find matches in the input sentence for error insertion.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 177,
+    "total_tokens": 1336
+  },
+  "seconds": 8.062882263213396
+}

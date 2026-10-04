@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how features are extracted from text and images.\",\n  \"claims\": [\n    {\n      \"text\": \"Features from text include names and surnames of people, which are used as input features in a final classifier.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Image features such as SIFT features and BoF are extracted and used for detecting objects in images.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 549,
+    "completion_tokens": 133,
+    "total_tokens": 682
+  },
+  "seconds": 5.624892853666097
+}

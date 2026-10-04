@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The paper describes a re-ranking approach for QA systems, which does not involve re-training the system but rather improves existing top-10 rankings.\",\n  \"claims\": [\n    {\n      \"text\": \"The re-ranking approach is a transductive learning technique since it does not require re-training the QA system but operates on the top-10 results post-deployment.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 980,
+    "completion_tokens": 123,
+    "total_tokens": 1103
+  },
+  "seconds": 5.385197563096881
+}

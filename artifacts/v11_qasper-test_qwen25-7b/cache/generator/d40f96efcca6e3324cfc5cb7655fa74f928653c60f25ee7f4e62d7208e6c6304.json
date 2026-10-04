@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple comparisons against baselines, including LSTMs, transformers, and word-level models.\",\n  \"claims\": [\n    {\n      \"text\": \"They compared their models to LSTMs and transformers as baselines.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Word-level models were also used as baselines, especially for low-resource datasets.\",\n      \"citations\": [\"C1\", \"C3\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2003,
+    "completion_tokens": 143,
+    "total_tokens": 2146
+  },
+  "seconds": 6.332941234111786
+}

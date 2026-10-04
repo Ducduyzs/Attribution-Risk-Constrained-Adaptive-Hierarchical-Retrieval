@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the proposed ARAML framework and its performance compared to baselines.\",\n  \"claims\": [\n    {\n      \"text\": \"ARAML outperforms state-of-the-art text GANs with a more stable training process.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"ARAML performs significantly better than other baselines in all the cases.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 132,
+    "total_tokens": 758
+  },
+  "seconds": 5.890459703747183
+}

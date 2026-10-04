@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the size of training sets for ELMo models in different languages compared to the original ELMo model.\",\n  \"claims\": [\n    {\n      \"text\": \"The training sets for the new ELMo models for seven languages are much larger than the original ELMo model, which was trained on a one billion word large English corpus.\",\n      \"citations\": [\"C1\", \"C3\", \"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1775,
+    "completion_tokens": 120,
+    "total_tokens": 1895
+  },
+  "seconds": 5.646169320680201
+}

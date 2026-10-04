@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple examples of existing approaches to geographic location embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Existing approaches include using principal component analysis and stacked autoencoders to learn low-dimensional vector representations of city neighbourhoods based on census data (C2).\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Some works combine word embedding models with geographic coordinates, such as learning word embeddings based on the assumption that words used in the same geographic locations are similar (C2).\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Other methods encode neighbourhood relations in space and time by averaging hotspots in a target location's spatial and temporal neighborhoods (C4).\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A graph-based embedding method with nodes of location, time, and text has been proposed (C4).\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Skip-gram model is used to represent POI types based on the proximity of POIs (C4).\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 297,
+    "total_tokens": 1345
+  },
+  "seconds": 13.191777567844838
+}

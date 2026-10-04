@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the modifications made to post-trained BERT, specifically through adversarial training.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial training was applied to post-trained BERT to improve its performance on Aspect Extraction and Aspect Sentiment Classification tasks.\",\n      \"citations\": [\"C1\", \"C2\", \"C5\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The modifications involved creating adversarial examples by changing the word vectors of the input sentence while keeping the [CLS] token unchanged.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1816,
+    "completion_tokens": 154,
+    "total_tokens": 1970
+  },
+  "seconds": 6.656067298259586
+}

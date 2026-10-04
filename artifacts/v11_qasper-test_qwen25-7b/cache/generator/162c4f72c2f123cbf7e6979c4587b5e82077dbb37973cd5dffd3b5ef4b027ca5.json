@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the NLG tasks and metrics considered in the study.\",\n  \"claims\": [\n    {\n      \"text\": \"The study targets end-to-end data-driven NLG systems, comparing 3 different approaches.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"It evaluates NLG systems using 21 automated metrics, including novel grammar-based ones.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The study introduces grammar-based metrics for NLG evaluation, contrasting them with word-based metrics.\",\n      \"citations\": [\"C2\", \"C6\", \"C7\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Metrics like BLEU are used, but their reliability at the sentence level is questioned.\",\n      \"citations\": [\"C4\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2046,
+    "completion_tokens": 221,
+    "total_tokens": 2267
+  },
+  "seconds": 10.253307497594506
+}

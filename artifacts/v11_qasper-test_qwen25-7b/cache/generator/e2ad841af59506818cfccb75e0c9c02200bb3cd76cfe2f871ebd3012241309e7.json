@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence suggests that regularization does not harm performance in the target domain.\",\n  \"claims\": [\n    {\n      \"text\": \"Combining different auxiliary penalty terms results in the best performance without harming the target domain's performance.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 86,
+    "total_tokens": 1093
+  },
+  "seconds": 3.650218513328582
+}

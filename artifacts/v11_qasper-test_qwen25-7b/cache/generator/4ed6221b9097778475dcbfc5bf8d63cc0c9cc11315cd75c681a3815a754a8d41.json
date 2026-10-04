@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the experimental results on the NoReC_fine dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline model achieved modest results with .41, .31, and .31 Proportional F1 on Holders, Targets, and Polarity Expressions, respectively (.41, .36, .56 Binary F1).\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1464,
+    "completion_tokens": 117,
+    "total_tokens": 1581
+  },
+  "seconds": 5.1530624479055405
+}

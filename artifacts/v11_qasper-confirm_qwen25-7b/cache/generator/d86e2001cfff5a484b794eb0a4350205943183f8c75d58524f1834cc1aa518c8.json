@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on how static word embeddings are calculated and their limitations.\",\n  \"claims\": [\n    {\n      \"text\": \"Static word embeddings are calculated by implicitly factorizing a word-context matrix containing co-occurrence statistics.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 508,
+    "completion_tokens": 84,
+    "total_tokens": 592
+  },
+  "seconds": 3.6816594037227333
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the models used in image captioning evaluations.\",\n  \"claims\": [\n    {\n      \"text\": \"Neural Image Captioning (NIC) model and Image Captioning model from the Pytorch-tutorial by Yunjey were evaluated.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"CNN and LSTM are used in these models for encoding and decoding images.\",\n      \"citations\": [\"C4\", \"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1235,
+    "completion_tokens": 131,
+    "total_tokens": 1366
+  },
+  "seconds": 6.455281661823392
+}

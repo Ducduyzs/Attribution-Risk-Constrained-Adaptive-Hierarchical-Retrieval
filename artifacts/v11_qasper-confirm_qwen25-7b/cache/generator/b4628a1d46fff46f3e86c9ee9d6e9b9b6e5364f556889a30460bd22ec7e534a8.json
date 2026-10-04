@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions baselines in the context of comparing the performance of different models.\",\n  \"claims\": [\n    {\n      \"text\": \"The 'Jointly(A-LSTM)' and 'Jointly(LSTM)' models are compared against a baseline method, showing that 'Jointly(A-LSTM)' performs better on WN18.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1867,
+    "completion_tokens": 104,
+    "total_tokens": 1971
+  },
+  "seconds": 5.079217571765184
+}

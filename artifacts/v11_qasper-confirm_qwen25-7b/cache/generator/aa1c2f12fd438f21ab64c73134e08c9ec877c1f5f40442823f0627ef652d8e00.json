@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the performance of ARAML compared to other models.\",\n  \"claims\": [\n    {\n      \"text\": \"Experiments show that ARAML performs significantly better than other baselines in all the cases.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"ARAML outperforms the baselines in terms of Self-BLEU, indicating it generates more diverse sentences.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"ARAML nearly achieves the smallest standard deviation in all the metrics, indicating its framework outperforms policy gradient in the stability of adversarial training.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1534,
+    "completion_tokens": 189,
+    "total_tokens": 1723
+  },
+  "seconds": 8.303822021000087
+}

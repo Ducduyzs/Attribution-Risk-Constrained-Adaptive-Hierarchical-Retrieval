@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on machine learning and deep learning methods used for RQE.\",\n  \"claims\": [\n    {\n      \"text\": \"Machine learning and deep learning methods are compared for RQE using datasets like SNLI, multiNLI, Quora, Clinical-QE, and SemEval-cQA.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Logistic Regression and learning-to-rank methods are among the ML methods used for RQE.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Deep learning methods include siamese, Bi-LSTM, GRU, and CNNs for RQE.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1131,
+    "completion_tokens": 192,
+    "total_tokens": 1323
+  },
+  "seconds": 8.152644285932183
+}

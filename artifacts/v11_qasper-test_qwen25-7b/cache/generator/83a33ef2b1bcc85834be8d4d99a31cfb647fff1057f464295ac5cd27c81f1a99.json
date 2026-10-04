@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly defines the baselines used in the experiments.\",\n  \"claims\": [\n    {\n      \"text\": \"The baselines include LR, GBDT, and RNN.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"GBDT+RNN is another baseline introduced in the non-low-resource scenario.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1772,
+    "completion_tokens": 114,
+    "total_tokens": 1886
+  },
+  "seconds": 5.351172434631735
+}

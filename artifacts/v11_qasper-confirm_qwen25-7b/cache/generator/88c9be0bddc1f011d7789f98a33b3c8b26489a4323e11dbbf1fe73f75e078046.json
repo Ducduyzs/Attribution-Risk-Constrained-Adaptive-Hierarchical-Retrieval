@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses comparisons between crowd evaluations and expert evaluations of lexicon quality, as well as differences in lexicon acquisition methods.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowd evaluations are compared to those of expert linguists to assess lexicon quality.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Crowd evaluations provide diverse and scalable results, whereas expert evaluations offer uniformity but are limited in scale.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Existing lexicons have moderate overlap with the proposed crowdsourced lexicon, with about 40% common terms.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 194,
+    "total_tokens": 1154
+  },
+  "seconds": 8.821811625733972
+}

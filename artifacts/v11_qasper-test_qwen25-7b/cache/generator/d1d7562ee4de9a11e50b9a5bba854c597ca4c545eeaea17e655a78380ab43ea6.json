@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear statements about the improvement of the system.\",\n  \"claims\": [\n    {\n      \"text\": \"The system led to large improvements over a mature and highly tuned constraint-based production information extraction system used at Bloomberg for financial language text.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The architecture resulted in substantial improvements over a mature and highly tuned constraint-based information extraction system for financial language text.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The neural network described in the previous section significantly outperformed a 2-layer fully connected network with n-grams based on document text and parser annotations as input.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1664,
+    "completion_tokens": 190,
+    "total_tokens": 1854
+  },
+  "seconds": 8.095731629990041
+}

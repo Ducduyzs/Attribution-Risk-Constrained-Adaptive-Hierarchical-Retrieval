@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses methods for calculating variance and expected model change in the context of speech recognition and active learning.\",\n  \"claims\": [\n    {\n      \"text\": \"They calculate variance by using Expected Gradient Length (EGL), which involves marginalizing over the most probable labelings to estimate the expected change in model parameters.\",\n      \"citations\": [\"C3\", \"C5\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1852,
+    "completion_tokens": 109,
+    "total_tokens": 1961
+  },
+  "seconds": 4.958425566088408
+}

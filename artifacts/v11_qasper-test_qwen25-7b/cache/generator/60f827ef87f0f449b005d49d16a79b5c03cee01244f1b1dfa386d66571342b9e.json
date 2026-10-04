@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly indicates that fine-tuning BERT on natural language inference datasets, particularly SNLI, improves the quality of sentence embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Fine-tuning BERT on natural language inference datasets greatly improves the quality of the embeddings, especially on semantic similarity tasks and entailment tasks.\",\n      \"citations\": [\"C1\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"BERT embeddings perform better when fine-tuned on SNLI compared to other datasets.\",\n      \"citations\": [\"C7\", \"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1732,
+    "completion_tokens": 156,
+    "total_tokens": 1888
+  },
+  "seconds": 9.328750397078693
+}

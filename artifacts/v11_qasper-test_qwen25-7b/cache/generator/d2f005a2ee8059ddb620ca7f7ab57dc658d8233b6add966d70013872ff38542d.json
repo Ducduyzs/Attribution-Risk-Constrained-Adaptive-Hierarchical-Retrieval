@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific details about the improvement of the system.\",\n  \"claims\": [\n    {\n      \"text\": \"The system led to large improvements over a mature and highly tuned constraint-based production information extraction system used at Bloomberg for financial language text.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"In a production setting, the neural architecture reduced the number of false positive extractions in financial information extraction application by more than 50% relative to a mature system developed over the course of several years.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1598,
+    "completion_tokens": 151,
+    "total_tokens": 1749
+  },
+  "seconds": 6.758881537709385
+}

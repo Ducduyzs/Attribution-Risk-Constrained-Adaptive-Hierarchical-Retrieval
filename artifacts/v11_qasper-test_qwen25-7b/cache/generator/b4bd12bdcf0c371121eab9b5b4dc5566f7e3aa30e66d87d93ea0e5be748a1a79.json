@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on training steps and methods but does not directly compare training times between models with different position encodings.\",\n  \"claims\": [\n    {\n      \"text\": \"The training time for the model using relative position encodings was longer than the one using sinusoidal position encodings due to more training steps and larger batch sizes.\",\n      \"citations\": [\"C1\", \"C5\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2162,
+    "completion_tokens": 109,
+    "total_tokens": 2271
+  },
+  "seconds": 4.904735578689724
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the process of matching words before reordering them to address word-order divergence in multilingual NMT.\",\n  \"claims\": [\n    {\n      \"text\": \"They reorder English sentences to match the word order of the source language by applying specific reordering rules.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These rules involve swapping positions of certain elements in the sentence to align with the target language's structure.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1795,
+    "completion_tokens": 140,
+    "total_tokens": 1935
+  },
+  "seconds": 6.357496969867498
+}

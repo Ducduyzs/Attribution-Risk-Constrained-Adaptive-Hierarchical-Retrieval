@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides statistical support for attributing the works to Shakespeare and Fletcher, with very low probabilities of misattribution.\",\n  \"claims\": [\n    {\n      \"text\": \"The rolling attribution method with combined versification and lexical features shows very low probability of Fletcher's authorship for Shakespeare's work and vice versa, with only minor exceptions.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.95\n    },\n    {\n      \"text\": \"The combined models provide a reliable discriminator between Shakespeare’s, Fletcher’s and Massinger’s styles, with very high accuracy for Shakespeare and Fletcher and lower for Massinger.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Out of 17 scenes, only 2 are attributed to Massinger, and the probability that H8 is a result of collaboration between Shakespeare and Fletcher is very high.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 229,
+    "total_tokens": 1453
+  },
+  "seconds": 10.701743701007217
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the performance of each model and identifies the worst performer.\",\n  \"claims\": [\n    {\n      \"text\": \"The ERNIE-tiny model was the worst performing model, achieving a lower F1 value compared to other pre-training models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 88,
+    "total_tokens": 1293
+  },
+  "seconds": 4.162212771829218
+}

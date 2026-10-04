@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the size of training sets used for ELMo models in various languages compared to previous versions.\",\n  \"claims\": [\n    {\n      \"text\": \"The new ELMo models for seven languages were trained on much larger corpora compared to the previous versions, such as the ELMoForManyLangs project which used only 20 million tokens.\",\n      \"citations\": [\"C2\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The original ELMo model was trained on a one billion word large English corpus, indicating a significant increase in training set size for subsequent models.\",\n      \"citations\": [\"C3\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1901,
+    "completion_tokens": 179,
+    "total_tokens": 2080
+  },
+  "seconds": 7.624351187143475
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the dataset used for evaluation.\",\n  \"claims\": [\n    {\n      \"text\": \"They use the same dataset for evaluation as described in Section 'Overall Results'.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The dataset consists of large-scale antonym and synonym pairs from WordNet and Wordnik, filtered based on frequency and patterns.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1556,
+    "completion_tokens": 128,
+    "total_tokens": 1684
+  },
+  "seconds": 5.783363621681929
+}

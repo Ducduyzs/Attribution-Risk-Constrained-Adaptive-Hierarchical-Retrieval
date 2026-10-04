@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific performance metrics for different models.\",\n  \"claims\": [\n    {\n      \"text\": \"SubGram model significantly outperforms Skip-gram model on the test set (22.4% vs. 9.7%).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"On the original test set, SubGram outperforms Skip-gram in several morpho-syntactic question sets but overall performs similarly (42.5% vs. 42.3%).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1859,
+    "completion_tokens": 154,
+    "total_tokens": 2013
+  },
+  "seconds": 6.690702494699508
+}

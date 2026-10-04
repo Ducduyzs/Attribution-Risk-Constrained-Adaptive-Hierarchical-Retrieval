@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the impact of incorporating user traits on the prediction task.\",\n  \"claims\": [\n    {\n      \"text\": \"Incorporating user traits helps with the prediction task.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Models perform better when using full sets of tweets rather than focusing solely on human activity content.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1874,
+    "completion_tokens": 129,
+    "total_tokens": 2003
+  },
+  "seconds": 5.550558224786073
+}

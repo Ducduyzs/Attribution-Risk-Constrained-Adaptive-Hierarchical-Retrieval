@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides examples of text analysis approaches and discusses their application.\",\n  \"claims\": [\n    {\n      \"text\": \"They use statistical text analysis focusing on style, particularly the distribution of function words.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"They employ computational analysis to study cultural and social concepts, such as defining English haiku.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"They measure hate speech in text using machine learning algorithms to extract specific words.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Their approach involves a research process that includes identifying questions, selecting data, conceptualizing, operationalizing, analyzing, and interpreting results, with feedback loops between stages.\"\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 226,
+    "total_tokens": 852
+  },
+  "seconds": 12.39188011130318
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the restricted track submission, including the dataset size and specific restrictions.\",\n  \"claims\": [\n    {\n      \"text\": \"The restricted track provided 1.2M pairs of corrected and uncorrected sentences, with 560K without identity mappings.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Insertions were restricted to three tokens: ‘,’, ‘-’, and “'s” and allowed only once per sentence.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1899,
+    "completion_tokens": 152,
+    "total_tokens": 2051
+  },
+  "seconds": 6.53457337198779
+}

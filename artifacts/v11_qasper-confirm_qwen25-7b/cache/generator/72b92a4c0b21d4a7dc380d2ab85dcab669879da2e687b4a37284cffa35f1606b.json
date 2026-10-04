@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear details on how crowd workers were instructed to identify important elements in large document collections.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowd workers were instructed to use a low-context importance annotation method, which involves collecting Likert-scores and pairwise comparisons to determine the importance of propositions.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"This method allowed workers to determine important elements without reading all documents, making the task feasible and scalable.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 151,
+    "total_tokens": 1358
+  },
+  "seconds": 6.587158384732902
+}

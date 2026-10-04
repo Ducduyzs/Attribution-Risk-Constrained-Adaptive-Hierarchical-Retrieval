@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses various models but does not specify a single model architecture.\",\n  \"claims\": [\n    {\n      \"text\": \"The system uses a deep learning architecture including LSTM and CNN components.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"An ensemble of decision tree classifiers is also used.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2015,
+    "completion_tokens": 113,
+    "total_tokens": 2128
+  },
+  "seconds": 5.321029638871551
+}

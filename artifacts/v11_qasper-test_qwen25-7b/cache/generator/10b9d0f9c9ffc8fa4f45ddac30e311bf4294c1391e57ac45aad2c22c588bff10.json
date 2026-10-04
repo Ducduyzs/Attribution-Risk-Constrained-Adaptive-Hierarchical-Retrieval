@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the extraction of features from both text and images for Named Entity Recognition (NER).\",\n  \"claims\": [\n    {\n      \"text\": \"Features extracted from text include keywords and surnames of people.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Features extracted from images include visual words and object detection.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 996,
+    "completion_tokens": 124,
+    "total_tokens": 1120
+  },
+  "seconds": 5.526655408088118
+}

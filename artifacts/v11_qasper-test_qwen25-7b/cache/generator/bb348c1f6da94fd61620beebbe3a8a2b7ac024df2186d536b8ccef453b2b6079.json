@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly indicates the creation of a dataset involving news articles and named entities.\",\n  \"claims\": [\n    {\n      \"text\": \"They built a dataset of news articles in English and German from the news agency Reuters.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A dictionary was built from the corpus data, recording the number of mentions of each person in the news per day.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1740,
+    "completion_tokens": 128,
+    "total_tokens": 1868
+  },
+  "seconds": 5.894676356110722
+}

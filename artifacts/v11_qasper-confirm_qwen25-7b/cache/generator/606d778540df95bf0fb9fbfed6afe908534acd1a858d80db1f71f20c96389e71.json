@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the performance of the adaptively sparse Transformers compared to the standard Transformer and other variants.\",\n  \"claims\": [\n    {\n      \"text\": \"Compared to the standard Transformer, the adaptively sparse Transformers perform similarly in terms of speed but offer a smaller end-to-end computational overhead.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The $\\alpha$-entmax and $1.5$-entmax models are faster than the standard softmax model, with speeds of 75% and 90%, respectively.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 614,
+    "completion_tokens": 169,
+    "total_tokens": 783
+  },
+  "seconds": 6.897052768152207
+}

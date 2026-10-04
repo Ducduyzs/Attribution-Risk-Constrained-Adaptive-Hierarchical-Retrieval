@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses various languages and scripts M-Bert can handle.\",\n  \"claims\": [\n    {\n      \"text\": \"M-Bert can transfer between languages written in different scripts, such as Hindi and English.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Transfer works best for typologically similar languages.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"M-Bert can handle code-switching and transliteration, though it may require more explicit multilingual training.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1086,
+    "completion_tokens": 174,
+    "total_tokens": 1260
+  },
+  "seconds": 10.455077790655196
+}

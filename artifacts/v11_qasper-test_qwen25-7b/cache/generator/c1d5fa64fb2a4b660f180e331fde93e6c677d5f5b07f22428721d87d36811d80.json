@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of various datasets and methods to infer socioeconomic status (SES) from online behavior, but does not explicitly state the type of inference model used.\",\n  \"claims\": [\n    {\n      \"text\": \"They combine information from multiple sources to infer SES, including Twitter, census data, LinkedIn, and Google Maps.\",\n      \"citations\": [\"C6\", \"C8\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Their methods include semantic analysis of tweets to discriminate between people of different income levels.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1868,
+    "completion_tokens": 152,
+    "total_tokens": 2020
+  },
+  "seconds": 6.8735117288306355
+}

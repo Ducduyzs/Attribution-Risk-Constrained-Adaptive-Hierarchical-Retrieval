@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the modifications made to post-trained BERT, including the use of adversarial training and the exploration of different training epochs and dropout probabilities.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial training was applied to post-trained BERT to improve its performance in Aspect Extraction and Aspect Sentiment Classification tasks.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The number of training epochs and dropout probabilities were experimented with to find the optimal settings for BERT-PT.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Improvements in performance were observed when increasing the number of training epochs for the restaurant dataset compared to the laptop dataset.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 954,
+    "completion_tokens": 199,
+    "total_tokens": 1153
+  },
+  "seconds": 9.016375916078687
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the performance of multilingual BERT in various settings.\",\n  \"claims\": [\n    {\n      \"text\": \"Multilingual BERT performs better than baseline methods in cross-lingual and cross-target settings.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Multilingual BERT shows some capability for zero-shot transfer to unseen languages and targets, though there is room for improvement.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Multilingual BERT has established itself as a state-of-the-art model for various multilingual tasks.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 184,
+    "total_tokens": 831
+  },
+  "seconds": 7.421450561378151
+}

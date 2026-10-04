@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about post-processing approaches used in the translation process.\",\n  \"claims\": [\n    {\n      \"text\": \"Post-processing includes rescoring translation candidates using a pre-trained language model and replacing unknown words with possible relevant target words.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Numbers and dates are replaced with special tokens during pre-processing and restored during post-processing.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"An ensemble method is applied by selecting the best translation based on the lowest perplexity after rescoring.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 179,
+    "total_tokens": 1293
+  },
+  "seconds": 7.6037040068767965
+}

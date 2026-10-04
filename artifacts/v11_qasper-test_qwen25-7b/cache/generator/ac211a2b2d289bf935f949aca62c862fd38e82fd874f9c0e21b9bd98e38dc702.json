@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence directly provides the performance improvements of the DFN model on the RACE dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"On RACE-M, DFN leads to a 7.8% and 7.3% performance boost over GA and Stanford AR, respectively.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"On RACE-H, the outperformance is 1.5% and 2.7%.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2111,
+    "completion_tokens": 142,
+    "total_tokens": 2253
+  },
+  "seconds": 6.538094144780189
+}

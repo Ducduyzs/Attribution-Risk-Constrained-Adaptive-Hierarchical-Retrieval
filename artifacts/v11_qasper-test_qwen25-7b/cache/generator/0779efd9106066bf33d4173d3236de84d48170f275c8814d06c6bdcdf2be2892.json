@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists the five evaluated tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"AC-BLSTM was evaluated on sentiment analysis, question type classification, and subjectivity classification tasks.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Additionally, it was tested on document-level sentiment classification.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1820,
+    "completion_tokens": 116,
+    "total_tokens": 1936
+  },
+  "seconds": 5.288136378861964
+}

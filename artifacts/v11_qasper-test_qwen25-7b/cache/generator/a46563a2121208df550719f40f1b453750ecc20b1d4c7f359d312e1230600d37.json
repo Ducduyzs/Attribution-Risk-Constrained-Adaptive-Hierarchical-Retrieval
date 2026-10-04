@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists three variants of cross-validation.\",\n  \"claims\": [\n    {\n      \"text\": \"Three variants of cross-validation are examined: xval(9:1, strat, block), xval(9:1, no-strat, block), and xval(9:1, strat, rand).\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 106,
+    "total_tokens": 1109
+  },
+  "seconds": 6.527917480096221
+}

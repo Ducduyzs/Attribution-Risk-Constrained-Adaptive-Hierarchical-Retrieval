@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly defines the problem of session segmentation in conversation systems.\",\n  \"claims\": [\n    {\n      \"text\": \"The problem of session segmentation is to retain near, relevant context utterances and eliminate far, irrelevant ones in long sessions.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Session segmentation is crucial for human-computer conversation systems to provide useful background information without tracking all previous utterances.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Session segmentation involves using embedding-enhanced TextTiling methods to handle noisy conversation data effectively.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 978,
+    "completion_tokens": 178,
+    "total_tokens": 1156
+  },
+  "seconds": 8.00406656600535
+}

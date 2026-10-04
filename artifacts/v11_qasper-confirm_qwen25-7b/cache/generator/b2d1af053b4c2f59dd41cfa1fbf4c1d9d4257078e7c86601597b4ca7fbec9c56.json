@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions comparing BERT to other algorithms and systems.\",\n  \"claims\": [\n    {\n      \"text\": \"Other algorithms tested include rule-based approaches, Machine Learning (ML) approaches, and spaCy entity tagger.\",\n      \"citations\": [\"C5\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Specifically, the rule-based baseline, CRF classifier, and spaCy entity tagger were evaluated in the experiment set.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 1.0\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1430,
+    "completion_tokens": 139,
+    "total_tokens": 1569
+  },
+  "seconds": 5.90859169093892
+}

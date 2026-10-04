@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on experiments conducted in text-based computer games.\",\n  \"claims\": [\n    {\n      \"text\": \"Experiments are performed in text-based computer games using a novel methodology involving phase 1 of Go-Explore and a Seq2Seq model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Text-based computer games serve as a testbed for language understanding, problem-solving, and language generation by artificial agents.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 484,
+    "completion_tokens": 140,
+    "total_tokens": 624
+  },
+  "seconds": 5.923436883836985
+}

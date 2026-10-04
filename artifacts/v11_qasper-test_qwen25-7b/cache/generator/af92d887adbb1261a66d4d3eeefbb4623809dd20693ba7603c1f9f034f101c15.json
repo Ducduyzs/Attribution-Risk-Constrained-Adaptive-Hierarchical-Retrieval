@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence describes a re-ranking approach that does not involve re-training the model but rather uses a similarity function learned from existing data to improve answer selection.\",\n  \"claims\": [\n    {\n      \"text\": \"The re-ranking approach is a transductive learning technique because it does not require re-training the model but instead uses a learned similarity function to improve answer selection.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 499,
+    "completion_tokens": 110,
+    "total_tokens": 609
+  },
+  "seconds": 9.213822713121772
+}

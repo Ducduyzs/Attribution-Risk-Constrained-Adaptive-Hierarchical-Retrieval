@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear comparisons between the proposed method and supervised training methods in terms of task success rate and total task reward.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed method leads to promising improvements on task success rate and total task reward compared to supervised training and single-agent RL training baseline models.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Models trained with RL by the proposed method outperform the baseline supervised learning model by 14.9% and 15.3% respectively.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1739,
+    "completion_tokens": 163,
+    "total_tokens": 1902
+  },
+  "seconds": 7.268838696181774
+}

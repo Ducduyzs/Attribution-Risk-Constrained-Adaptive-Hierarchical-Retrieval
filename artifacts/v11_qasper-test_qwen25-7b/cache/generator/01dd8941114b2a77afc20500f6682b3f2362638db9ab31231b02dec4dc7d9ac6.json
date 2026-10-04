@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific performance metrics for the SubGram model compared to Skip-gram.\",\n  \"claims\": [\n    {\n      \"text\": \"SubGram significantly outperforms Skip-gram on the original test set (42.5% vs. 42.3%).\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"On the other hand, SubGram does not capture semantic relations, getting a zero score on average.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1701,
+    "completion_tokens": 142,
+    "total_tokens": 1843
+  },
+  "seconds": 6.710043367929757
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the experimental results of the model trained to predict opinion holders, targets, and polar expressions.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline model achieved modest results with .41, .31, and .31 Proportional F1 on Holders, Targets, and Polarity Expressions, respectively, and .41, .36, and .56 Binary F1.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The model's performance was better than previous results on cross-domain datasets.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1483,
+    "completion_tokens": 164,
+    "total_tokens": 1647
+  },
+  "seconds": 7.259689248166978
+}

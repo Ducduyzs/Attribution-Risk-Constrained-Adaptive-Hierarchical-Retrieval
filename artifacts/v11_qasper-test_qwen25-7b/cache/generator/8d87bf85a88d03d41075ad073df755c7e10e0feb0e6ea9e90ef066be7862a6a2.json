@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how gazetteer resources can be built from the Wikipedia knowledge base, specifically using Wikidata.\",\n  \"claims\": [\n    {\n      \"text\": \"Gazetteer resources can be built from the open source Wikidata knowledge base by processing its official dumps into tuples of entity and type based on the instance_of relationships, keeping only aliases less than seven tokens long, and using sitelink counts to filter out less popular types.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 947,
+    "completion_tokens": 133,
+    "total_tokens": 1080
+  },
+  "seconds": 5.5546511630527675
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the system recovers from noisy entity linking through filtering mechanisms and the use of multiple checks.\",\n  \"claims\": [\n    {\n      \"text\": \"The system can still generate correct answers in 85% of cases even with noisy entity linking due to the use of SubQG and additional checks like empty query check or domain/range check.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"When using only the EARL linking results, the performance drops significantly, indicating that the system relies on the quality of the linking results.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 168,
+    "total_tokens": 815
+  },
+  "seconds": 6.894327152054757
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how segmentation quality is evaluated, including automatic comparisons and benchmarks against manually annotated references.\",\n  \"claims\": [\n    {\n      \"text\": \"Segmentation quality is evaluated by comparing the automatically produced segmentation with the manually annotated reference, specifically focusing on the correspondence of word pairs representing segment borders.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Automatic evaluations include measuring the performance of different segmenters using metrics such as F-score and recall, and comparing their results against manually annotated segmentations.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 155,
+    "total_tokens": 1225
+  },
+  "seconds": 6.70826334413141
+}

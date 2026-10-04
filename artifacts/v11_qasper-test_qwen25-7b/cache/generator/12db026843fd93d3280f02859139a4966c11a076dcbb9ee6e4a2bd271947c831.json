@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about state-of-the-art baselines for text-to-SQL generation.\",\n  \"claims\": [\n    {\n      \"text\": \"State-of-the-art baselines include CD-Seq2Seq and SyntaxSQL-con for SParC, and Spider for context-independent cross-domain text-to-SQL generation.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Recent results from lee2019recursive, bogin2019representing, and guo2019towards also represent state-of-the-art performance.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1801,
+    "completion_tokens": 169,
+    "total_tokens": 1970
+  },
+  "seconds": 7.191538814920932
+}

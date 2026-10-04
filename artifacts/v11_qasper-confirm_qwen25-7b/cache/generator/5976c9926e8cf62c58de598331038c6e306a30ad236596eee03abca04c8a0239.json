@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific reasons why current ELS's are not sufficiently effective.\",\n  \"claims\": [\n    {\n      \"text\": \"Current available ELS's are still not sufficiently effective, possibly introducing unresolved ambiguities and irrelevant entities.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Extracted entities may be ambiguous, such as 'South Korean' referring to both a person and a language.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Linked entities may be too common and irrelevant, like 'Wednesday' being wrongly linked to 'Wednesday Night Baseball'.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 177,
+    "total_tokens": 1268
+  },
+  "seconds": 7.713638195302337
+}

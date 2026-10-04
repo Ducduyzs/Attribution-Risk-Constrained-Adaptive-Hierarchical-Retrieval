@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the baselines used for comparison in the study.\",\n  \"claims\": [\n    {\n      \"text\": \"The baselines used for comparison are TransE and TransD.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For triplet classification, the baseline method is also used for comparison.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 113,
+    "total_tokens": 1148
+  },
+  "seconds": 4.762902291025966
+}

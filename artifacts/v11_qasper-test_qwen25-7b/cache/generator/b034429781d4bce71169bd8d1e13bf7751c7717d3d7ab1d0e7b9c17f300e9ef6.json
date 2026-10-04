@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"Evidence provides details about various graph-based features used in the study.\",\n  \"claims\": [\n    {\n      \"text\": \"Graph-based features include Coreness, Eccentricity, and Strength.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Graph-based features can be computed for different types of networks (Before, After, and Full).\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Graph-based features can focus on individual vertices or the entire graph, and consider different scales (microscopic, mesoscopic, macroscopic).\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 172,
+    "total_tokens": 1247
+  },
+  "seconds": 7.104706308804452
+}

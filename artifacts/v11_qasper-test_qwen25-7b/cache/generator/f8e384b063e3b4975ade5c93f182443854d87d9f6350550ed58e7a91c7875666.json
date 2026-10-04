@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of how the experiment was evaluated, focusing on metrics like hits@k and cosine similarity.\",\n  \"claims\": [\n    {\n      \"text\": \"The experiment was evaluated using the hits@k metric, which measures the average number of times the correct selection appears in the top k predictions.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Cosine similarity was used to rank hotels and evaluate the performance of the embeddings.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1762,
+    "completion_tokens": 139,
+    "total_tokens": 1901
+  },
+  "seconds": 6.125350825954229
+}

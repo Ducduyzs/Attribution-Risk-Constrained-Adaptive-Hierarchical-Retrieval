@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear definitions and examples of baselines used in the study.\",\n  \"claims\": [\n    {\n      \"text\": \"The baselines include LR, GBDT, and RNN.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"LR stands for Logistic Regression, GBDT stands for Gradient Boosting Decision Tree, and RNN stands for Recurrent Neural Network.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1922,
+    "completion_tokens": 128,
+    "total_tokens": 2050
+  },
+  "seconds": 5.795092862099409
+}

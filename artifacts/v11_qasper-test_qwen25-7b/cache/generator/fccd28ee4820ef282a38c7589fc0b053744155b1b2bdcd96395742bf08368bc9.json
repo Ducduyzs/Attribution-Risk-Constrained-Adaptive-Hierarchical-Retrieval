@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific performance metrics comparing the proposed similarity measure to BM25.\",\n  \"claims\": [\n    {\n      \"text\": \"Their similarity measure outperforms BM25 by 23% on NDCG@20, 23% on NDCG@5, and 25% on NDCG@10.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 109,
+    "total_tokens": 1315
+  },
+  "seconds": 4.845074080862105
+}

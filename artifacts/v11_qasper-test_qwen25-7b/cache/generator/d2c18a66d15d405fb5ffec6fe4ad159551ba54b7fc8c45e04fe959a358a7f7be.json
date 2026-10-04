@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information on how ParityBOT detects and classifies hateful tweets aimed at women in politics.\",\n  \"claims\": [\n    {\n      \"text\": \"ParityBOT uses a Twitter listener to collect and classify tweets directed at women candidates, employing an asynchronous tweet analysis and storage function for each English tweet.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The system validates the classification of hateful tweets using public online harassment datasets.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 589,
+    "completion_tokens": 142,
+    "total_tokens": 731
+  },
+  "seconds": 5.799101460259408
+}

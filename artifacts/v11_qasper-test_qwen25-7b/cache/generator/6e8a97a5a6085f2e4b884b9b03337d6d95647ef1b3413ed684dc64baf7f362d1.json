@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on various graph-based features used in the study.\",\n  \"claims\": [\n    {\n      \"text\": \"Graph-based features include Coreness, Eccentricity, and Strength.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Coreness and Strength are important for detecting changes in the direct neighborhood of the targeted author.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 618,
+    "completion_tokens": 122,
+    "total_tokens": 740
+  },
+  "seconds": 10.130299508105963
+}

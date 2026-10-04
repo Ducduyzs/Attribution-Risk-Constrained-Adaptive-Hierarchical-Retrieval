@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states comparisons against state-of-the-art models in multiple contexts.\",\n  \"claims\": [\n    {\n      \"text\": \"We compare our model against the following state-of-the-art models: NBOW, PV, MT-RNN, MT-CNN, MT-DNN, and GRNN.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Our model obtains competitive or better performances on all tasks except for the QC dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1545,
+    "completion_tokens": 137,
+    "total_tokens": 1682
+  },
+  "seconds": 6.381208473350853
+}

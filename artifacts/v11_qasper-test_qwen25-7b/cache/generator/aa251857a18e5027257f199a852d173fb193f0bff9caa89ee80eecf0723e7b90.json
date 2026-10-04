@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons between various models and their performance on the offensive language identification task.\",\n  \"claims\": [\n    {\n      \"text\": \"LSTM and GRU with Attention are the best models for the offensive language identification task.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Linear SVM performs marginally better than other classifiers for this task.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1099,
+    "completion_tokens": 124,
+    "total_tokens": 1223
+  },
+  "seconds": 7.574823915027082
+}

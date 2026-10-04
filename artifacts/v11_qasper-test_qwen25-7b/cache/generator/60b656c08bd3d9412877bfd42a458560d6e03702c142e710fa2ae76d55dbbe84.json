@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the representation of tables, mentioning headers and cells, but does not explicitly state whether the method relies on column headings.\",\n  \"claims\": [\n    {\n      \"text\": \"The method represents headers as embeddings for table understanding.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"On WikiTableQuestions, tables are represented with headers, cells, and captions, indicating the importance of headers.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 134,
+    "total_tokens": 799
+  },
+  "seconds": 6.157776384148747
+}

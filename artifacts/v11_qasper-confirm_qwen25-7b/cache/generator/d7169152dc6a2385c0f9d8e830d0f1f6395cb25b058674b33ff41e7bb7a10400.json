@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of hashtags for social media posts and presents a model for predicting them, indicating that this is an established task.\",\n  \"claims\": [\n    {\n      \"text\": \"Hashtag prediction for social media has been addressed earlier.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A model named tweet2vec is proposed for predicting hashtags, showing improved performance compared to a word-level baseline.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 136,
+    "total_tokens": 1220
+  },
+  "seconds": 5.823763153981417
+}

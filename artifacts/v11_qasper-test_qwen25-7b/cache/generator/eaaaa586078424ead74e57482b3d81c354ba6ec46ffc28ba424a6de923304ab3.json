@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about the evaluation metrics used.\",\n  \"claims\": [\n    {\n      \"text\": \"BLEU-4 score and slot error rate (ERR) are used as evaluation metrics.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Manual evaluation was conducted using informativeness and naturalness ratings.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1871,
+    "completion_tokens": 113,
+    "total_tokens": 1984
+  },
+  "seconds": 4.944457422010601
+}

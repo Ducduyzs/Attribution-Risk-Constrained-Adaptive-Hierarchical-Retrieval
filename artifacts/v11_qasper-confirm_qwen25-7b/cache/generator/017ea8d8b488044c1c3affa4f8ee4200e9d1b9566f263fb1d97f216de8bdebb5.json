@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses biases in the Flickr30K dataset, including linguistic bias and unwarranted inferences.\",\n  \"claims\": [\n    {\n      \"text\": \"The dataset contains biases related to the representation of different ethnicities, particularly underrepresentation of non-white babies.\",\n      \"citations\": [\"C2\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"There are linguistic biases where certain words or phrases are used more frequently to describe specific groups, potentially reinforcing stereotypes.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 150,
+    "total_tokens": 1279
+  },
+  "seconds": 6.280833276920021
+}

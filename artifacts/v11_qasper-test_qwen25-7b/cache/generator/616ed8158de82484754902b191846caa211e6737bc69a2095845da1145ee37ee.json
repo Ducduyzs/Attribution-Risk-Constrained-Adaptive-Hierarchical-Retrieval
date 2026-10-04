@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the measures used for quality evaluation on a Q&A platform, specifically Zhihu Live.\",\n  \"claims\": [\n    {\n      \"text\": \"They use a data-driven approach including data collection, data cleaning, data normalization, descriptive analysis, and predictive analysis to evaluate the quality of Zhihu Live.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Mean Absolute Error (MAE) and Root Mean Square Error (RMSE) are used to evaluate the performance of learning algorithms in predicting Zhihu Live quality.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Review counts and scores are analyzed to filter out low-quality Zhihu Lives, with a focus on removing records with no reviews.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1949,
+    "completion_tokens": 211,
+    "total_tokens": 2160
+  },
+  "seconds": 8.985368241090328
+}

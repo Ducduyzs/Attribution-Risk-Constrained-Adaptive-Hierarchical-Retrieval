@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the languages experimented with in the research.\",\n  \"claims\": [\n    {\n      \"text\": \"They experiment with Dutch, Spanish, English, and German in the CoNLL datasets, and 16 additional languages in an in-house dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"They also experiment with 41 languages using Universal Dependencies data.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 497,
+    "completion_tokens": 128,
+    "total_tokens": 625
+  },
+  "seconds": 10.478729523252696
+}

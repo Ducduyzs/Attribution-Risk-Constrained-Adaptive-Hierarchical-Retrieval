@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides statistical evidence and mean value comparisons indicating improvements over current alternatives.\",\n  \"claims\": [\n    {\n      \"text\": \"Their model improved by at least 0.25 over current alternatives.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"PAMPO outperforms other extractors with higher mean values and better overall performance.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 591,
+    "completion_tokens": 125,
+    "total_tokens": 716
+  },
+  "seconds": 5.1305326907895505
+}

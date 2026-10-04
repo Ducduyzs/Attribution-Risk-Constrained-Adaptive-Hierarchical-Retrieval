@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the method of creating static embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Static embeddings are calculated by taking the first principal component of a word's contextualized representations in a given layer.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 80,
+    "total_tokens": 751
+  },
+  "seconds": 3.7824585190974176
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of lexical features in semantic parsing, including monolingual lexical features, cross-lingual word-embeddings, universal PoS tags, and universal dependencies.\",\n  \"claims\": [\n    {\n      \"text\": \"Monolingual lexical features are used in the original parser.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Cross-lingual word-embeddings, universal PoS tags, and universal dependencies are considered as language-independent features.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 145,
+    "total_tokens": 1212
+  },
+  "seconds": 6.241171234287322
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the impact of regularization on fine-tuning for different models and domains, showing that while regularization helps in preserving source domain performance, it does not necessarily hurt the target domain performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Regularization does not hurt performance in the target domain.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 670,
+    "completion_tokens": 102,
+    "total_tokens": 772
+  },
+  "seconds": 4.3166518160142004
+}

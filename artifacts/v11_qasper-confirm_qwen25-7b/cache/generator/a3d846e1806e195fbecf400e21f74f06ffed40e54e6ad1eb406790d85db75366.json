@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons between the adaptively sparse Transformer and baselines like the standard Transformer and other variants.\",\n  \"claims\": [\n    {\n      \"text\": \"Compared to the standard Transformer, the adaptively sparse Transformer improves interpretability and head diversity on machine translation datasets.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The adaptively sparse Transformer outperforms the standard Transformer in terms of computational efficiency, being 75% to 90% faster during training.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Learned $\\alpha$ values allow the adaptively sparse Transformer to combine sparse and dense attention, leading to better performance than fixed $\\alpha$ values.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1083,
+    "completion_tokens": 209,
+    "total_tokens": 1292
+  },
+  "seconds": 9.093806764110923
+}

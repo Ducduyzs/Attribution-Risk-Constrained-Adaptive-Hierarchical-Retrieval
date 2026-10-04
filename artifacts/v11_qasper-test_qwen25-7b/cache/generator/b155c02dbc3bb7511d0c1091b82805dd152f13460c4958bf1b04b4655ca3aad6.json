@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides statistical evidence and specific numerical improvements.\",\n  \"claims\": [\n    {\n      \"text\": \"PAMPO improves NER by at least 0.25 compared to current alternatives.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"PAMPO extracts more named entities than previous methods, specifically 5159 unique named entities from the book.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 584,
+    "completion_tokens": 130,
+    "total_tokens": 714
+  },
+  "seconds": 5.577754920814186
+}

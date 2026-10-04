@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on both automatic and manual evaluation metrics used.\",\n  \"claims\": [\n    {\n      \"text\": \"BLEU-4 score and slot error rate (ERR) are used as evaluation metrics.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Manual evaluation includes scoring generated utterances based on informativeness and naturalness, with pairwise preferences indicated.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 551,
+    "completion_tokens": 123,
+    "total_tokens": 674
+  },
+  "seconds": 5.049954757094383
+}

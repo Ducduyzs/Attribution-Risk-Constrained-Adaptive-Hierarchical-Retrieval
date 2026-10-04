@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on datasets with labels for antisocial events.\",\n  \"claims\": [\n    {\n      \"text\": \"Two datasets are used in the work, one from Wikipedia and another from subreddit ChangeMyView.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The labels in these datasets include personal attacks and moderator actions.\",\n      \"citations\": [\"C6\", \"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1986,
+    "completion_tokens": 120,
+    "total_tokens": 2106
+  },
+  "seconds": 5.187300992198288
+}

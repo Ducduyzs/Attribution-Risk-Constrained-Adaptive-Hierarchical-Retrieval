@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states that the model presented in [C1], [C2], and [C3] outperforms existing systems and the state-of-the-art model on the ROTOWIRE dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The model presented in [C1], [C2], and [C3] is the state-of-the-art model for table-to-text generation on the ROTOWIRE dataset.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 580,
+    "completion_tokens": 132,
+    "total_tokens": 712
+  },
+  "seconds": 5.317699991632253
+}

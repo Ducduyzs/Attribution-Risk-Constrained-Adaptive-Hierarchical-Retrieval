@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the selected sharing layer is trained, including the use of gate and attention mechanisms.\",\n  \"claims\": [\n    {\n      \"text\": \"The selected sharing layer is trained using gate and attention mechanisms to filter and select shared feature flows between tasks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The selected sharing layer is part of a hierarchical structure designed to train tasks of stance detection and fake news detection.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 137,
+    "total_tokens": 1261
+  },
+  "seconds": 6.0354299317114055
+}

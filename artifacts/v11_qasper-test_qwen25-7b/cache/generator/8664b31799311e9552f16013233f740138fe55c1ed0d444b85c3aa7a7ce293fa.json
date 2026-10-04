@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists several graph-based features including Coreness, Eccentricity, Strength, and others.\",\n  \"claims\": [\n    {\n      \"text\": \"Coreness is a graph-based feature.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Eccentricity is another graph-based feature.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Strength is a graph-based feature.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Graph-based features can handle/ignore edge weights and/or edge directions, be vertex- or graph-focused, and be computed for different types of networks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 616,
+    "completion_tokens": 198,
+    "total_tokens": 814
+  },
+  "seconds": 8.000346140936017
+}

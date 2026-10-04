@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states comparisons against state-of-the-art models in multiple contexts.\",\n  \"claims\": [\n    {\n      \"text\": \"The model is compared against several state-of-the-art models such as NBOW, PV, MT-RNN, MT-CNN, MT-DNN, and GRNN.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Performance comparisons are made using 10-fold cross-validation.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The model's performance is compared to existing state-of-the-art models in different scenarios.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1023,
+    "completion_tokens": 175,
+    "total_tokens": 1198
+  },
+  "seconds": 7.90519998408854
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear details on the crowdsourcing method used to identify important elements in large document collections.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowd workers were instructed to provide importance scores for propositions without reading all documents, using a low-context importance annotation method.\",\n      \"citations\": [\"C2\", \"C3\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"This method uses a 5-point Likert-scale to allow more fine-grained annotations and combines automatic preprocessing with scalable crowdsourcing.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1843,
+    "completion_tokens": 150,
+    "total_tokens": 1993
+  },
+  "seconds": 6.727356302086264
+}

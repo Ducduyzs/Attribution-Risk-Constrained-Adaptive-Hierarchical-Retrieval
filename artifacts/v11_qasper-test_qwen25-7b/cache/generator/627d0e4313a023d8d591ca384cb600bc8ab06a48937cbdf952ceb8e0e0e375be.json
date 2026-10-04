@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides examples of feature extraction methods used in text and image analysis.\",\n  \"claims\": [\n    {\n      \"text\": \"Features extracted from text and images are used in Named Entity Recognition (NER).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"For image analysis, SIFT features and BoF are used to extract image descriptors.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 636,
+    "completion_tokens": 125,
+    "total_tokens": 761
+  },
+  "seconds": 5.143755849916488
+}

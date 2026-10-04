@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the use of a specific deep learning architecture for sentence segmentation.\",\n  \"claims\": [\n    {\n      \"text\": \"They use the Bi-LSTM-CRF model as their baseline and improve it by integrating n-gram embedding.\",\n      \"citations\": [\"C4\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2077,
+    "completion_tokens": 89,
+    "total_tokens": 2166
+  },
+  "seconds": 4.330656952224672
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comprehensive list of models discussed in the paper.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper explores various machine learning algorithms including TFIDF, CV, W2V, CNN, RNN, FFNN, LSTM, and logistic regression.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Other models include TraceMiner and FAKEDETECTOR.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 926,
+    "completion_tokens": 138,
+    "total_tokens": 1064
+  },
+  "seconds": 6.160634114872664
+}

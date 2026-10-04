@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on various graph-based features used in the study.\",\n  \"claims\": [\n    {\n      \"text\": \"Graph-based features include Coreness, Eccentricity, Strength, and graph density.\",\n      \"citations\": [\"C1\", \"C7\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These features are computed for different types of networks (Before, After, and Full).\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1968,
+    "completion_tokens": 129,
+    "total_tokens": 2097
+  },
+  "seconds": 5.829050816129893
+}

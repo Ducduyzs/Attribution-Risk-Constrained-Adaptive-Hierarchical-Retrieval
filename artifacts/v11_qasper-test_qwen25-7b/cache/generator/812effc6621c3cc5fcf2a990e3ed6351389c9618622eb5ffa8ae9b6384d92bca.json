@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the quality of word vectors is measured and influenced by factors like noise distribution and negative sampling.\",\n  \"claims\": [\n    {\n      \"text\": \"Quality of word vectors is often measured using the Pearson correlation coefficient ($\\rho_p$) between word similarity scores by human judgment and cosine distances between word vectors.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The choice of noise distribution, particularly the sub-sampled unigram distribution, significantly impacts the quality of learned word vectors.\",\n      \"citations\": [\"C2\", \"C3\", \"C5\", \"C6\", \"C7\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1815,
+    "completion_tokens": 172,
+    "total_tokens": 1987
+  },
+  "seconds": 7.695670929271728
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons between PARENT and other metrics like BLEU and ROUGE.\",\n  \"claims\": [\n    {\n      \"text\": \"PARENT correlates with human judgments better than existing text generation metrics like BLEU and ROUGE.\",\n      \"citations\": [\"C1\", \"C2\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"PARENT is competitive or better than other metrics in terms of correlation with human judgments for both divergent and non-divergent references.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2041,
+    "completion_tokens": 152,
+    "total_tokens": 2193
+  },
+  "seconds": 6.845640999265015
+}

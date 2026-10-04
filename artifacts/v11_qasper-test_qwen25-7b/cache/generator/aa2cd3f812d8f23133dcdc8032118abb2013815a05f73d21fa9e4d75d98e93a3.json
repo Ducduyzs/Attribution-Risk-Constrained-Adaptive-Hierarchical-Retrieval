@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the evaluation metrics used in the study.\",\n  \"claims\": [\n    {\n      \"text\": \"BLEU-4 score and slot error rate (ERR) are used as evaluation metrics.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Manual evaluation was conducted using informativeness and naturalness ratings, along with pairwise preferences between two models.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 123,
+    "total_tokens": 1289
+  },
+  "seconds": 7.510212311055511
+}

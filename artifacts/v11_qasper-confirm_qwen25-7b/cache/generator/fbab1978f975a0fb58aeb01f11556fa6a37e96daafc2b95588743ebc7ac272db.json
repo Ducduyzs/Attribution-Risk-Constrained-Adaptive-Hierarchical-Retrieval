@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons against a baseline model in different contexts, but does not explicitly define what the baseline is.\",\n  \"claims\": [\n    {\n      \"text\": \"The baseline model is a monolingual wFST model for high-resource languages.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The baseline for unseen languages comparison is not explicitly defined but likely refers to a model without language ID information.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.7\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 674,
+    "completion_tokens": 136,
+    "total_tokens": 810
+  },
+  "seconds": 5.505049113649875
+}

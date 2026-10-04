@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about the use of machine learning and deep learning methods for RQE.\",\n  \"claims\": [\n    {\n      \"text\": \"Logistic Regression and deep learning models were used for RQE.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Deep learning models performed better on open-domain and clinical datasets, while Logistic Regression excelled on the Clinical-QE dataset.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2035,
+    "completion_tokens": 152,
+    "total_tokens": 2187
+  },
+  "seconds": 6.960922165308148
+}

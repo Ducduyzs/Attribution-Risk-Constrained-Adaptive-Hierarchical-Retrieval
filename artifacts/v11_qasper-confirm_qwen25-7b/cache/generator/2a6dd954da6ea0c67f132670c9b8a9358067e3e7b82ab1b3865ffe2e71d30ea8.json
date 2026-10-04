@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons of PARENT with other metrics in terms of correlation with human judgments.\",\n  \"claims\": [\n    {\n      \"text\": \"PARENT correlates with human judgments better than existing text generation metrics like BLEU and ROUGE.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"PARENT performs competitively or better than other metrics in terms of correlation with human ratings on the WebNLG challenge.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 134,
+    "total_tokens": 1252
+  },
+  "seconds": 5.634253733791411
+}

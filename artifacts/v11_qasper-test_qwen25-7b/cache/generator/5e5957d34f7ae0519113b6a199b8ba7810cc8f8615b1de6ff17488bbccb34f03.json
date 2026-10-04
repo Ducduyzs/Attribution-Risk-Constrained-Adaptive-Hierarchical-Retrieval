@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly defines the problem of session segmentation in the context of conversation systems.\",\n  \"claims\": [\n    {\n      \"text\": \"The problem of session segmentation involves retaining near, relevant context utterances and eliminating far, irrelevant ones in long sessions.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Session segmentation is distinct from topic tracking, which aims to classify conversation states into predefined categories.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Traditional document segmentation methods like TextTiling are not well-suited for conversation session segmentation due to their lack of tailoring to the dialogue genre.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 560,
+    "completion_tokens": 183,
+    "total_tokens": 743
+  },
+  "seconds": 7.795075035188347
+}

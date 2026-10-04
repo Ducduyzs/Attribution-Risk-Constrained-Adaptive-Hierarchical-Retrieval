@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the training process of classifiers but does not explicitly mention the specific dataset used.\",\n  \"claims\": [\n    {\n      \"text\": \"The dataset used for training the model includes human annotated tweets and non-human annotated tweets.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The dataset is split into 90% for training and 10% for testing.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 652,
+    "completion_tokens": 132,
+    "total_tokens": 784
+  },
+  "seconds": 5.545243705622852
+}

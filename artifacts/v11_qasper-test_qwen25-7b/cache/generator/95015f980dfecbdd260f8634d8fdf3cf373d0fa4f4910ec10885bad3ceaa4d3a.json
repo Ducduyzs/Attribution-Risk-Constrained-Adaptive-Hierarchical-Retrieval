@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the intents and their processing in a conversational AI system.\",\n  \"claims\": [\n    {\n      \"text\": \"The intents include thanks, cancel, stop, search, and unknown.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The search intent triggers named entity recognition to extract hotel and location names.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1683,
+    "completion_tokens": 117,
+    "total_tokens": 1800
+  },
+  "seconds": 5.282757430803031
+}

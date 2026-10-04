@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how RNNs with arbitrary precision are proven to be as powerful as pushdown automata (PDAs).\",\n  \"claims\": [\n    {\n      \"text\": \"Allowing arbitrary precision, RNNs with one hidden layer and ReLU activation are at least as computationally powerful as pushdown automata.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"GRUs are at least as powerful as PDAs when using infinite precision, infinite edge weights, and nonlinear output activation functions.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1031,
+    "completion_tokens": 154,
+    "total_tokens": 1185
+  },
+  "seconds": 6.445661813020706
+}

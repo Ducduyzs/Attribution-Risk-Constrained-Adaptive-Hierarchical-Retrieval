@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides detailed information about the state-of-the-art models on WSJ.\",\n  \"claims\": [\n    {\n      \"text\": \"The current best end-to-end system on WSJ achieves a WER of INLINEFORM2, which is improved upon by the model using a learnable frontend with 80 filters, reducing WER to INLINEFORM6.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 112,
+    "total_tokens": 1286
+  },
+  "seconds": 4.989431086927652
+}

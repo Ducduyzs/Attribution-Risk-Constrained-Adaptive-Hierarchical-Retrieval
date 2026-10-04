@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses methods for calculating variance and informativeness in model outputs, particularly focusing on Expected Gradient Length (EGL).\",\n  \"claims\": [\n    {\n      \"text\": \"Variance is reduced by selecting instances that result in large changes in model parameters, measured by the norm of the gradient.\",\n      \"citations\": [\"C3\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Expected Gradient Length (EGL) is used to identify the most informative instances by computing the expected gradient norm over all possible labelings.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1978,
+    "completion_tokens": 160,
+    "total_tokens": 2138
+  },
+  "seconds": 7.025537868961692
+}

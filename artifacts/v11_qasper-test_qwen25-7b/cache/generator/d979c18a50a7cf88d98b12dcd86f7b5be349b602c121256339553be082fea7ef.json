@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the pruning process and its impact on the model's performance.\",\n  \"claims\": [\n    {\n      \"text\": \"They pruned the logical forms before training the model to eliminate spurious logical forms.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Pruning the logical forms significantly improved the model's accuracy from 36.3% to 43.3%.\",\n      \"citations\": [\"C1\", \"C3\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1707,
+    "completion_tokens": 151,
+    "total_tokens": 1858
+  },
+  "seconds": 6.459015476983041
+}

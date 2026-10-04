@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the fine-tuning process and mentions using the training checkpoint with the best validation performance, but does not explicitly state if they start from a checkpoint during training.\",\n  \"claims\": [\n    {\n      \"text\": \"The model is fine-tuned using the checkpoint with the best validation performance.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2026,
+    "completion_tokens": 98,
+    "total_tokens": 2124
+  },
+  "seconds": 4.5071192109026015
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how to adjust confidences of incorrectly predicted domains.\",\n  \"claims\": [\n    {\n      \"text\": \"They decrease the confidences of the incorrectly predicted domains using utterances with negative system responses.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"This adjustment is formulated as a loss function that demotes the confidences of the negative ground-truths only when they are the highest.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1888,
+    "completion_tokens": 133,
+    "total_tokens": 2021
+  },
+  "seconds": 5.7835332518443465
+}

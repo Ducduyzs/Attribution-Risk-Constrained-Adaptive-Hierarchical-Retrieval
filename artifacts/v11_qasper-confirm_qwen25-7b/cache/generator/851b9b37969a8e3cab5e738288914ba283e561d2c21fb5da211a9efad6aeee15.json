@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not explicitly mention training from a checkpoint but discusses fine-tuning and using the best validation performance checkpoint.\",\n  \"claims\": [\n    {\n      \"text\": \"They fine-tune their model and use the checkpoint with the best validation performance.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 669,
+    "completion_tokens": 88,
+    "total_tokens": 757
+  },
+  "seconds": 3.6801262833178043
+}

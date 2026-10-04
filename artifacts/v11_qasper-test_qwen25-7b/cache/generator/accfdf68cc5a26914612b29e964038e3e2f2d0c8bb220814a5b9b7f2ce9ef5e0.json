@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the process of obtaining and preprocessing the dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"They obtained the dataset from TripAdvisor hotel reviews.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The dataset contains approximately 50 million hotel reviews.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1761,
+    "completion_tokens": 105,
+    "total_tokens": 1866
+  },
+  "seconds": 4.6568485838361084
+}

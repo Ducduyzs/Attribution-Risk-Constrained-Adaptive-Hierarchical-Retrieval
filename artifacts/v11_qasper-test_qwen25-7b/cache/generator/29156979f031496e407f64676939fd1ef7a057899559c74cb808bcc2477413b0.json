@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes what a pseudo language model is and how it is used in Word Sense Disambiguation (WSD).\",\n  \"claims\": [\n    {\n      \"text\": \"A pseudo language model is a model that uses both preceding and succeeding sequences to predict the sense of a target word, unlike a regular language model which only considers preceding sequences.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The pseudo language model converts surrounding contexts into context embeddings, which are used to train classifiers for each sense of a word.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1636,
+    "completion_tokens": 161,
+    "total_tokens": 1797
+  },
+  "seconds": 7.5928123272024095
+}

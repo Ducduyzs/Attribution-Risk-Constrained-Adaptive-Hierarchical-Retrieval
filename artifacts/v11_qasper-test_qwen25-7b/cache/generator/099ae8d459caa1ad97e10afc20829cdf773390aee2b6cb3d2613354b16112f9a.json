@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions specific datasets used for experiments, though not explicitly listed.\",\n  \"claims\": [\n    {\n      \"text\": \"They experimented on a large number of language pairs spanning diverse language families and writing systems.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Experiments were conducted for different training set sizes.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 683,
+    "completion_tokens": 117,
+    "total_tokens": 800
+  },
+  "seconds": 4.944980523083359
+}

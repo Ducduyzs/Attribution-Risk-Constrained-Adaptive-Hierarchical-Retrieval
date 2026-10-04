@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the sources of the data used in the corpus.\",\n  \"claims\": [\n    {\n      \"text\": \"The data comes from various sources including social media, news websites, blogs, and entertainment websites.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Specifically, 38% of the articles are from different news websites, 30% are from false news and satirical articles, 11% are from social media, and the rest come from diverse sources.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1380,
+    "completion_tokens": 156,
+    "total_tokens": 1536
+  },
+  "seconds": 6.898919255007058
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the dialog turn sizes used in experiments and the effectiveness of different models.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed models perform well with dialog turn sizes of up to 5.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The dialog context language models use up to 5 dialog turns as context.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1678,
+    "completion_tokens": 125,
+    "total_tokens": 1803
+  },
+  "seconds": 5.813103460241109
+}

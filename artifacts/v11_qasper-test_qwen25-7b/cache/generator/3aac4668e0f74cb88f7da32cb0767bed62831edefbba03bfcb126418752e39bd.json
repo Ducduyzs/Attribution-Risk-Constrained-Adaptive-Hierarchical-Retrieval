@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the datasets used for various evaluations.\",\n  \"claims\": [\n    {\n      \"text\": \"For English-to-German translation, they used the WMT 2014 En-De dataset, consisting of around 4.5 million sentence pairs, and validated on newstest 2013 and tested on newstest 2014.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For English-to-Vietnamese translation, they used the IWSLT 2015 dataset, containing around 133K sentence pairs, and validated on tst2012 and tested on tst2013.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For German-to-English translation, they used the IWSLT 2014 De-En dataset, and validated on tst2012 and tested on tst2013.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For image captioning, they used the Microsoft COCO 2014 dataset, containing 123,287 images with 5 captions each.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 312,
+    "total_tokens": 1461
+  },
+  "seconds": 13.377306893002242
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence directly addresses the computational power of RNNs with arbitrary precision compared to pushdown automata.\",\n  \"claims\": [\n    {\n      \"text\": \"RNNs with one hidden layer and ReLU activation and arbitrary precision are at least as computationally powerful as pushdown automata.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 569,
+    "completion_tokens": 95,
+    "total_tokens": 664
+  },
+  "seconds": 4.105842974968255
+}

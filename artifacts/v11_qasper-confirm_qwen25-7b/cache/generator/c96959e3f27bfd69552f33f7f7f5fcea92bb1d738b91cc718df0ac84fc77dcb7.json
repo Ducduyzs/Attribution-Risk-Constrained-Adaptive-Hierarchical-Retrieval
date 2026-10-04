@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses evaluations against previous work, including BIBREF1, BIBREF2, and BIBREF3.\",\n  \"claims\": [\n    {\n      \"text\": \"Previous work used uni-directional language-model-like models, while the current study evaluates bidirectional BERT models.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Evaluations were performed using similar setups as BIBREF1, BIBREF2, and BIBREF3, but adapted to a bidirectional setting.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1253,
+    "completion_tokens": 156,
+    "total_tokens": 1409
+  },
+  "seconds": 6.818018350284547
+}

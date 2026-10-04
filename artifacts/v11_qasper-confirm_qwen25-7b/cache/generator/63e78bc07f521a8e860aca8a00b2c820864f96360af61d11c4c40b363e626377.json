@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly discusses the use of machine learning and deep learning methods for RQE in the medical domain.\",\n  \"claims\": [\n    {\n      \"text\": \"Logistic Regression and neural networks were used for RQE.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Neural networks performed well on open-domain and clinical datasets.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The study compared ML and DL methods for RQE using various datasets.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 176,
+    "total_tokens": 1366
+  },
+  "seconds": 7.9056333978660405
+}

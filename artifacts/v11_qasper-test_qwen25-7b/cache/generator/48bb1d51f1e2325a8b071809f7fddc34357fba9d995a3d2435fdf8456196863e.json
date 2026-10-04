@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the impact of incorporating user traits on the prediction task.\",\n  \"claims\": [\n    {\n      \"text\": \"Incorporating user traits helps with the prediction task, especially when predicting the correct cluster within the top 25 is important.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"User traits, such as self-description and inferred attributes, are used to improve the model's performance in predicting human activities.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 142,
+    "total_tokens": 1131
+  },
+  "seconds": 5.950497654732317
+}

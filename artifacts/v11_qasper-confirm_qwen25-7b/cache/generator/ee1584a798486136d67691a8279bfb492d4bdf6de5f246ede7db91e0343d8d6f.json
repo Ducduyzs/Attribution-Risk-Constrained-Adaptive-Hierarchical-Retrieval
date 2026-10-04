@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple examples of existing approaches to represent geographic locations using embeddings or bag-of-words.\",\n  \"claims\": [\n    {\n      \"text\": \"Several methods use word embedding models to learn representations of Points-of-Interest (POIs) that can be used for predicting user visits.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Flickr tags have been used to complement traditional scientific environmental data in tasks such as predicting climate features, land cover, species occurrence, and human assessments of scenicness.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Vector space embeddings have been used to learn low-dimensional vector representations of city neighbourhoods based on census data.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Bag-of-words representations derived from Flickr tags have been found to give promising results for predicting environmental phenomena.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1752,
+    "completion_tokens": 252,
+    "total_tokens": 2004
+  },
+  "seconds": 11.196924589108676
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how a large-scale challenge dataset for question classification was constructed, including the random shuffling of questions and the use of two annotators for consistency.\",\n  \"claims\": [\n    {\n      \"text\": \"The dataset was constructed by randomly shuffling questions and using two annotators to ensure consistency.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The dataset contains 7,787 science exam questions paired with detailed classification labels from a fine-grained hierarchical taxonomy of 406 problem domains.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1917,
+    "completion_tokens": 160,
+    "total_tokens": 2077
+  },
+  "seconds": 7.265543449670076
+}

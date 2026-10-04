@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence describes a re-ranking approach that operates on top of an existing QA system's top-10 results without requiring re-training, which aligns with the definition of transductive learning.\",\n  \"claims\": [\n    {\n      \"text\": \"The re-ranking approach is a transductive learning technique as it operates on the top-10 results of an existing QA system without requiring re-training.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\", \"C5\", \"C6\", \"C7\", \"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1728,
+    "completion_tokens": 143,
+    "total_tokens": 1871
+  },
+  "seconds": 6.2419195380061865
+}

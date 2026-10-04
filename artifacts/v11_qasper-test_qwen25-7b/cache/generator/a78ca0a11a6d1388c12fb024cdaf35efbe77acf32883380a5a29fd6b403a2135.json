@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the empirical evaluation conducted.\",\n  \"claims\": [\n    {\n      \"text\": \"Empirical evaluation attests to the merits of our approach compared to the language-based baseline and sheds light on the nuances between fake news and satire.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Evaluation of our methods pointed to the existence of semantic and linguistic differences between fake news and satire.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A model using the Naive Bayes Multinomial algorithm is proposed which serves as the baseline in our experiments.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1045,
+    "completion_tokens": 182,
+    "total_tokens": 1227
+  },
+  "seconds": 7.877082058228552
+}

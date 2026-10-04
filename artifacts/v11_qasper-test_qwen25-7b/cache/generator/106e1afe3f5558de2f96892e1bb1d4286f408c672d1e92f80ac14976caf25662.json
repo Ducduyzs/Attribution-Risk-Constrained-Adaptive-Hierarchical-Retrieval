@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple comparisons of different models and methods for offensive language identification, with LSTM and GRU with Attention models performing best.\",\n  \"claims\": [\n    {\n      \"text\": \"LSTM and GRU with Attention models outperformed all other models in terms of macro-F1, precision, recall, and F1-score for both Offensive and Not Offensive classes.\",\n      \"citations\": [\"C2\", \"C7\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1934,
+    "completion_tokens": 120,
+    "total_tokens": 2054
+  },
+  "seconds": 5.314467845018953
+}

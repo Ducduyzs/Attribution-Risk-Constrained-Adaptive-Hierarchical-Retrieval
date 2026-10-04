@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the interfaces implemented for Macaw.\",\n  \"claims\": [\n    {\n      \"text\": \"Macaw has a standard IO interface for development purposes.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Macaw has a Telegram interface for interacting with real users.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Macaw may support a natural language interface for accessing structured data in future releases.\"\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 577,
+    "completion_tokens": 150,
+    "total_tokens": 727
+  },
+  "seconds": 6.7271613189950585
+}

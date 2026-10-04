@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses methods to handle noisy entity linking in query generation for knowledge base answering.\",\n  \"claims\": [\n    {\n      \"text\": \"They use a method called SubQG which ranks existing query structures or builds new ones based on frequent query substructures to handle noisy entity linking.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"By simulating a KBQA environment with noisy entity/relation linking results, they ensure the approach can still generate correct answers in most cases.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 574,
+    "completion_tokens": 151,
+    "total_tokens": 725
+  },
+  "seconds": 12.451799182221293
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comparison between the proposed GM_KL model and two other WSD approaches, w2g and w2gm, using word embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed GM_KL model was compared with w2g and w2gm models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"All models used the same embedding size, number of mixtures, context window length, and batch size.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 447,
+    "completion_tokens": 142,
+    "total_tokens": 589
+  },
+  "seconds": 5.960002013947815
+}

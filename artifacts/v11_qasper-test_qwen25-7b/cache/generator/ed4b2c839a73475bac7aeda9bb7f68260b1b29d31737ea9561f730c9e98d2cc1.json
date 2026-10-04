@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the number of tables in the tablestore but not the exact count.\",\n  \"claims\": [\n    {\n      \"text\": \"The tablestore includes 62 tables, each centered around a particular relation.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Khashabi et al.'s tablestore contains 65 tables.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1994,
+    "completion_tokens": 126,
+    "total_tokens": 2120
+  },
+  "seconds": 5.944762960076332
+}

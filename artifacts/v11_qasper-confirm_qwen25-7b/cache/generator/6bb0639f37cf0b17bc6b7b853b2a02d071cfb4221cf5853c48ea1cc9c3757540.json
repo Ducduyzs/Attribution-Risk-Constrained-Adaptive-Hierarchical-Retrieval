@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence compares the sizes of training sets for ELMo models across different languages.\",\n  \"claims\": [\n    {\n      \"text\": \"The new ELMo models for seven languages were trained on much larger corpora compared to the previously available ELMoForManyLangs models.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"ELMoForManyLangs models were trained on a 20-million-word dataset, while the new models were trained on corpora with about 270 million tokens for Latvian and potentially even larger for other languages.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 174,
+    "total_tokens": 1326
+  },
+  "seconds": 7.962527452968061
+}

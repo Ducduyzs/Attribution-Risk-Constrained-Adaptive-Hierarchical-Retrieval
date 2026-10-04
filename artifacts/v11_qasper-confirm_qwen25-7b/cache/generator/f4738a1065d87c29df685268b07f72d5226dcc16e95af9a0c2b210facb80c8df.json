@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a detailed description of the neural network modules included in NeuronBlocks.\",\n  \"claims\": [\n    {\n      \"text\": \"NeuronBlocks includes embedding layers, neural network layers (such as RNN, CNN, QRNN, Transformer, Highway network, Encoder Decoder), attention mechanisms (Linear/Bi-linear Attention, Full Attention, Bidirectional attention flow), regularization layers (Dropout, Layer Norm, Batch Norm), and loss functions (Focal Loss).\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1889,
+    "completion_tokens": 131,
+    "total_tokens": 2020
+  },
+  "seconds": 5.962123170029372
+}

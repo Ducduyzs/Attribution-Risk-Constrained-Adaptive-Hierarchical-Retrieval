@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on various text features used in Named Entity Recognition (NER) including image-based features and text-based features.\",\n  \"claims\": [\n    {\n      \"text\": \"Image-based features like SIFT and BoF are used to detect objects and extract visual words for NER.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Text-based features such as Term frequency-Inverse document frequency (TF-IDF) are used for text classification in NER.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 148,
+    "total_tokens": 1178
+  },
+  "seconds": 9.050226346123964
+}

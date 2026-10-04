@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions comparisons with previous work on reducing OOV rates and improving translation quality in NMT.\",\n  \"claims\": [\n    {\n      \"text\": \"The method is compared with previous work on reducing OOV rates.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Previous work focused on adjusting translation granularity or expanding the vocabulary size.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 118,
+    "total_tokens": 700
+  },
+  "seconds": 5.196368454024196
+}

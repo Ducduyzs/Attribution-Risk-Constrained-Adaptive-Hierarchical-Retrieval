@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on how static word embeddings are calculated and their limitations.\",\n  \"claims\": [\n    {\n      \"text\": \"Static word embeddings are calculated by learning a single representation for each word through iterative processes like Skip-gram with negative sampling or GloVe, which implicitly factorize a word-context matrix.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 507,
+    "completion_tokens": 100,
+    "total_tokens": 607
+  },
+  "seconds": 4.0893465261906385
+}

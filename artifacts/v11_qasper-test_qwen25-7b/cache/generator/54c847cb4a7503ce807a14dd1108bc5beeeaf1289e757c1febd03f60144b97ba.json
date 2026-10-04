@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons and accuracies for distinguishing between Shakespeare and Fletcher's works.\",\n  \"claims\": [\n    {\n      \"text\": \"The versification-based models yield a very high accuracy with the recognition of Shakespeare and Fletcher.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The rolling attribution method with combined versification and lexical features distinguishes between Shakespeare and Fletcher with an accuracy of 0.9977.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 674,
+    "completion_tokens": 141,
+    "total_tokens": 815
+  },
+  "seconds": 11.551599664613605
+}

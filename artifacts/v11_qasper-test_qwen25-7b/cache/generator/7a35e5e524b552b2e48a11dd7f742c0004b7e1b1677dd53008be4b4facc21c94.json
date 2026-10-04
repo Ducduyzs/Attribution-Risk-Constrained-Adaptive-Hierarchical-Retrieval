@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple comparisons of ReWE and ReSE against various baselines including LSTMs, transformers, and other regularized models across different datasets.\",\n  \"claims\": [\n    {\n      \"text\": \"They compare the models with LSTMs and transformers as baselines.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C5\", \"C7\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The comparison includes models with and without BPE preprocessing.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1988,
+    "completion_tokens": 156,
+    "total_tokens": 2144
+  },
+  "seconds": 6.699247357901186
+}

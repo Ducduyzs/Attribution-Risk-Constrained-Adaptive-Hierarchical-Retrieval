@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses evaluations of different training algorithms but does not specifically detail how the model is evaluated against the original recursive training algorithm.\",\n  \"claims\": [\n    {\n      \"text\": \"The new Morfessor EM+Prune algorithm improves upon the original recursive training algorithm by reducing search error and leading to lower Morfessor costs and improved segmentation accuracy.\",\n      \"citations\": [\"C2\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1707,
+    "completion_tokens": 112,
+    "total_tokens": 1819
+  },
+  "seconds": 5.266206013970077
+}

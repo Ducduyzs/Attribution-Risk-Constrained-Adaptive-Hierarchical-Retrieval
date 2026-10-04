@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about previous work on integrating morphological information in SMT and NMT.\",\n  \"claims\": [\n    {\n      \"text\": \"Previous work considered morphological information for both SMT and NMT.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF8 proposed an effective way to integrate word-level annotation in SMT, which can be morphological, syntactic, or semantic.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF11 made use of various source side features, including morphological features, to enhance encoding in NMT.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF4's work uses character-based sequences for both source and target sides, eliminating OOV on the source side.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1073,
+    "completion_tokens": 238,
+    "total_tokens": 1311
+  },
+  "seconds": 14.456224505789578
+}

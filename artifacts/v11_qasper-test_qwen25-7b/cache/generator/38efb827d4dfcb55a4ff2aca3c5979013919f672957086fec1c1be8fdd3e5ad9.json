@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states that the gating mechanism is specifically designed to handle cases with only one sentence in a bag, which are prone to noise.\",\n  \"claims\": [\n    {\n      \"text\": \"Their gating mechanism is specially designed to handle one sentence bags by directly and dynamically aligning low gating values to wrongly labeled instances, preventing noise from being propagated.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 110,
+    "total_tokens": 1250
+  },
+  "seconds": 6.689690032042563
+}

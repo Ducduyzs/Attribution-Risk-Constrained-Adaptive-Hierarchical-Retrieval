@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons between single-system and system combination approaches on the CHiME-5 dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The single-system approach achieved a WER of 41.6% and 43.2% on the DEV and EVAL test sets, respectively, which is a 8% relative improvement compared to the best word error rate published so far for a speech recognizer without system combination.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For the single array track, the proposed system without RNN LM rescoring achieved 16% (11%) relative WER reduction on the DEV (EVAL) set when compared with System8 in BIBREF12.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For the multi array track, the proposed system without RNN LM rescoring achieved 6% (7%) relative WER reduction on the DEV (EVAL) set when compared with System16 in BIBREF12.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1802,
+    "completion_tokens": 270,
+    "total_tokens": 2072
+  },
+  "seconds": 11.758678700309247
+}

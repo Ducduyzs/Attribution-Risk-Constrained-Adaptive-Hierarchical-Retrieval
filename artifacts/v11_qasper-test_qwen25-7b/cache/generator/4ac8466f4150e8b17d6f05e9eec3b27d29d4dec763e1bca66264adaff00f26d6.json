@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the concept and construction of a pseudo language model.\",\n  \"claims\": [\n    {\n      \"text\": \"A pseudo language model is a neural network trained with FOFE codes to predict the target word's sense based on its context, using both preceding and succeeding sequences.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"It uses context embeddings derived from the model's hidden layers for WSD tasks, discarding the output layer.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1539,
+    "completion_tokens": 140,
+    "total_tokens": 1679
+  },
+  "seconds": 6.275239644572139
+}

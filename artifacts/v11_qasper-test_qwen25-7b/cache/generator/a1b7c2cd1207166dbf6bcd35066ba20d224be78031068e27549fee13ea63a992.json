@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on various experiments conducted, including training configurations and evaluation measures.\",\n  \"claims\": [\n    {\n      \"text\": \"They conduct experiments to validate their theoretical insights.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Experiments are performed using a Transformer architecture with specific configurations like layer counts, embedding sizes, and learning rates.\",\n      \"citations\": [\"C2\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Evaluation is done using metrics such as validation loss and BLEU score.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 162,
+    "total_tokens": 1382
+  },
+  "seconds": 9.875061945989728
+}

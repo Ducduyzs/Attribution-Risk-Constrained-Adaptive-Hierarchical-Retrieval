@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on several existing approaches to represent geographic locations using embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Several methods use word embedding models to learn representations of Points-of-Interest (POIs) that can be used for predicting user visits.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Some existing works combine word embedding models with geographic coordinates to learn word embeddings based on the assumption that words used in the same geographic locations are similar.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"An early example uses principal component analysis and stacked autoencoders to learn low-dimensional vector representations of city neighbourhoods based on census data.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A model is proposed to learn geographic location embeddings using Flickr tags, numerical environmental features, and categorical information, leading to better predictions when structured information is also taken into account.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 254,
+    "total_tokens": 1310
+  },
+  "seconds": 10.715832085814327
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of the methods used to extract textual patterns.\",\n  \"claims\": [\n    {\n      \"text\": \"Textual patterns are extracted from an annotated corpus of corrections, identifying short transformation sequences in the form of (incorrect phrase, correct phrase).\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Patterns include up to one token of context on both sides of the affected phrase.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The method relaxes the type restrictions of previous approaches, learning patterns for generating all types of errors.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 686,
+    "completion_tokens": 175,
+    "total_tokens": 861
+  },
+  "seconds": 7.1379706570878625
+}

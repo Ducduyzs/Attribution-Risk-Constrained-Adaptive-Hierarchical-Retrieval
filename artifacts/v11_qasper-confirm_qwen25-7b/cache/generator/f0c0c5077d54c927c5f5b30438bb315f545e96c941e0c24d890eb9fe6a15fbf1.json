@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear details on how the tweets were annotated.\",\n  \"claims\": [\n    {\n      \"text\": \"The tweets were filtered based on mentions of specific club names and then annotated with a stance as Favor or Against.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"No tweets where the target was not explicitly mentioned were annotated.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"In cases where the target was the club management or a specific player, the club was considered the target for annotation.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 624,
+    "completion_tokens": 166,
+    "total_tokens": 790
+  },
+  "seconds": 6.834387235343456
+}

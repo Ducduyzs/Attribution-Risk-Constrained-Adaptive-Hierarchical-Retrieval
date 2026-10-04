@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states that the policies trained with the NUS outperformed those trained with the ABUS in terms of success rate and average rewards.\",\n  \"claims\": [\n    {\n      \"text\": \"Policies trained with the NUS outperformed those trained with the ABUS in terms of success rate and average rewards.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The best performing policy trained on the NUS achieved a higher success rate and average reward than the best performing policy trained on the ABUS.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 155,
+    "total_tokens": 1345
+  },
+  "seconds": 7.492438859306276
+}

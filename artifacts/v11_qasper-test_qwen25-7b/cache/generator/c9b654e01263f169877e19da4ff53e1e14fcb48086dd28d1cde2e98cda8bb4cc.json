@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses how SubQG handles noisy entity linking by ranking query structures and validating them with linking results.\",\n  \"claims\": [\n    {\n      \"text\": \"SubQG ranks query structures first and considers linking results in the last step, allowing many error linking results to be filtered out.\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"SubQG uses a method to merge question-contained query substructures for building new query structures, which helps in generating correct queries even with noisy linking results.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1947,
+    "completion_tokens": 160,
+    "total_tokens": 2107
+  },
+  "seconds": 7.742051009088755
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the process of matching words before reordering them, particularly focusing on aligning the word order of the assisting language with the source language.\",\n  \"claims\": [\n    {\n      \"text\": \"They reorder English sentences to match the word order of the source language by applying specific reordering rules.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"These reordering rules involve swapping positions of certain elements in the sentence to align with the source language's structure.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1744,
+    "completion_tokens": 153,
+    "total_tokens": 1897
+  },
+  "seconds": 7.431110167875886
+}

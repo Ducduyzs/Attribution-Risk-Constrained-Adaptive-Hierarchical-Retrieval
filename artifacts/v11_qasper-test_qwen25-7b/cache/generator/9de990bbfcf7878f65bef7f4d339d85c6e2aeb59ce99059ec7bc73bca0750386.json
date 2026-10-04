@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses evaluation methods but does not directly compare the new training algorithm to the original recursive one.\",\n  \"claims\": [\n    {\n      \"text\": \"The model's performance is evaluated by comparing the segmented data with annotated morph boundaries using precision, recall, and F1-score.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The new training algorithms improve upon the original recursive algorithm in terms of finding better solutions and achieving higher morphological segmentation accuracy.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 650,
+    "completion_tokens": 146,
+    "total_tokens": 796
+  },
+  "seconds": 6.068295069038868
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence describes the process of identifying missing hypotheses through expert re-evaluation of problems marked as entailment in the RTE3 test suite.\",\n  \"claims\": [\n    {\n      \"text\": \"Missing hypotheses were discovered through random selection and re-rating by experts in logic and linguistics.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Experts were instructed to consider missing hypotheses and provide arguments for their judgments.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The process involved a large number of expert judgments, leading to the identification of 146 missing hypotheses.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 182,
+    "total_tokens": 1378
+  },
+  "seconds": 8.08586288569495
+}

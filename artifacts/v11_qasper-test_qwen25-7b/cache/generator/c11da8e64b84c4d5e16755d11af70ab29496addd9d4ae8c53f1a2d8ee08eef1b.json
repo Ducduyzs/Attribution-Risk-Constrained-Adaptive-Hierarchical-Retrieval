@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of various data sources and models to estimate socioeconomic status (SES) on social media platforms.\",\n  \"claims\": [\n    {\n      \"text\": \"They build inference models based on socioeconomic census data, crawled professional profiles, and expert-annotated information on living environments.\",\n      \"citations\": [\"C1\", \"C2\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"These models aim to estimate SES without requiring expensive annotation processes, using publicly available data.\",\n      \"citations\": [\"C2\", \"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1838,
+    "completion_tokens": 153,
+    "total_tokens": 1991
+  },
+  "seconds": 7.054154329933226
+}

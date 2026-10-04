@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how gazetteer resources are built from Wikipedia and Wikidata.\",\n  \"claims\": [\n    {\n      \"text\": \"Gazetteer resources are built from Wikipedia and Wikidata by extracting entity-type pairs and using sitelink counts to filter out less popular types.\",\n      \"citations\": [\"C1\", \"C3\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"For enhanced gazetteer embeddings, self-attention and match span encoding are used in GazSelfAttn.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 947,
+    "completion_tokens": 154,
+    "total_tokens": 1101
+  },
+  "seconds": 6.421219383832067
+}

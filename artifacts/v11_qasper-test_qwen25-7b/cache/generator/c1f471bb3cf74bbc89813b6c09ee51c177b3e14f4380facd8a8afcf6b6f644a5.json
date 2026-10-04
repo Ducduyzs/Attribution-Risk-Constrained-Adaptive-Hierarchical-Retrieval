@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about previous work on integrating morphological information in both SMT and NMT.\",\n  \"claims\": [\n    {\n      \"text\": \"Previous work considered morphological information for both SMT and NMT, including integrating word-level annotations in SMT and using morphological tags and lemmas in NMT.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Research has attempted to model inflection through neural methods in SMT and to explicitly consider the generation of morphological suffixes within neural translation models.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1022,
+    "completion_tokens": 155,
+    "total_tokens": 1177
+  },
+  "seconds": 9.250789773650467
+}

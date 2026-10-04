@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that the analysis does not solely focus on tweets but also considers other elements such as hashtags and user mentions, and uses a broader dataset including non-target users.\",\n  \"claims\": [\n    {\n      \"text\": \"They focus on critical elements of information that are salient in Twitter: hashtags and user mentions, rather than just looking at tweets.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Using all of the data for learning the embeddings improves accuracy, suggesting they do not limit their analysis to specific types of tweets.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 484,
+    "completion_tokens": 162,
+    "total_tokens": 646
+  },
+  "seconds": 6.6143725221045315
+}

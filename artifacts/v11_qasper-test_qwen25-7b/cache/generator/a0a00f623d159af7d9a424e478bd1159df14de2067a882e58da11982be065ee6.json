@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the tuning of a per-word reward using a perceptron algorithm.\",\n  \"claims\": [\n    {\n      \"text\": \"The optimal value of the word reward is sensitive to task and beam size, and can be tuned using a perceptron-like method.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1834,
+    "completion_tokens": 98,
+    "total_tokens": 1932
+  },
+  "seconds": 4.5083675240166485
+}

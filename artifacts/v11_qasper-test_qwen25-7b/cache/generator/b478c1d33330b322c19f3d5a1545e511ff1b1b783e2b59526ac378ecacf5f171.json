@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the metrics used to measure gender bias amplification and their application in the study.\",\n  \"claims\": [\n    {\n      \"text\": \"The study uses a bias score metric to measure gender bias amplification, which considers the word embedding and gender indicators (man and woman).\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The research computes the bias amplification metric for various models to evaluate the effectiveness of different methods in mitigating gender bias amplification.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 607,
+    "completion_tokens": 147,
+    "total_tokens": 754
+  },
+  "seconds": 6.1190252508968115
+}

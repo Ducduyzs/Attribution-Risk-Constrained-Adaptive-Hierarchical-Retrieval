@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses both class-split and class-merge phenomena, indicating the presence of multiple classes.\",\n  \"claims\": [\n    {\n      \"text\": \"There are 12 different human labeled classes that do not share any similar intents.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The sentences in COMMUNITY_5 contain sentences from GETINFO_EXACT_ADDRESS and CHAT_AGENT classes, indicating at least 2 classes.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1643,
+    "completion_tokens": 140,
+    "total_tokens": 1783
+  },
+  "seconds": 6.071487411856651
+}

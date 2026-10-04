@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence mentions multiple datasets but does not specify a single primary dataset used throughout the research.\",\n  \"claims\": [\n    {\n      \"text\": \"They use a dataset of tweets crowdsourced from social media.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"They also use a dataset of news headlines collected from trusted sources.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1000,
+    "completion_tokens": 127,
+    "total_tokens": 1127
+  },
+  "seconds": 7.72083725174889
+}

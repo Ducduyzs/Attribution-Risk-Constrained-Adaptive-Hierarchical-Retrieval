@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the model architecture used, including the combination of a random forest classifier and a deep learning architecture.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses a combination of a random forest classifier and a deep learning architecture.\",\n      \"citations\": [\"C1\", \"C4\", \"C8\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The deep learning architecture includes a 1024-dimensional LSTM model for question encoding and a 4096-dimensional output from the last fully connected layer of VGG16 for image description.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1958,
+    "completion_tokens": 161,
+    "total_tokens": 2119
+  },
+  "seconds": 9.38280120305717
+}

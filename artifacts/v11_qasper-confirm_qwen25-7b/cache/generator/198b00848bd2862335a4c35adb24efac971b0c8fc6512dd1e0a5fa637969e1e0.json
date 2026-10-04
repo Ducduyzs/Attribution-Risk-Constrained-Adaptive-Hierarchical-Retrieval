@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the neural network modules included in NeuronBlocks.\",\n  \"claims\": [\n    {\n      \"text\": \"NeuronBlocks includes a suite of neural network modules as building blocks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These modules are categorized into embedding, CNN/RNN, Transformer, and other common components.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The modules are organized into a Block Zoo and a Model Zoo.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 156,
+    "total_tokens": 1315
+  },
+  "seconds": 6.48525911802426
+}

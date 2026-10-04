@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how context-dependent models score phrasal compositionality.\",\n  \"claims\": [\n    {\n      \"text\": \"They score phrasal compositionality by computing the likelihood of context words given a phrase representation, which is context-dependent.\",\n      \"citations\": [\"C3\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Context-dependent models are proposed to handle the variability in compositionality due to context, unlike context-independent methods.\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2026,
+    "completion_tokens": 146,
+    "total_tokens": 2172
+  },
+  "seconds": 6.571055311243981
+}

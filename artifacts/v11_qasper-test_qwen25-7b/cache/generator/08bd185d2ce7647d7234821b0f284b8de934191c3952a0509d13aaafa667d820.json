@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how imbalanced datasets are handled in the described system.\",\n  \"claims\": [\n    {\n      \"text\": \"They use data expansion through oversampling and adjusting the loss function to handle imbalanced datasets.\",\n      \"citations\": [\"C1\", \"C4\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 89,
+    "total_tokens": 1192
+  },
+  "seconds": 5.489215926732868
+}

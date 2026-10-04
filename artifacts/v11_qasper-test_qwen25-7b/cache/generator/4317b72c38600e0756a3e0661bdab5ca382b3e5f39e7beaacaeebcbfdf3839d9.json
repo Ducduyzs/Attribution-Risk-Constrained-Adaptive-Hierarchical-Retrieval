@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides detailed information about the BERT-based model's operation.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses BERT to encode query relevance, document context, and salient meanings into vector representations for each sentence.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"It employs a self-attention mechanism to model query-sentence and sentence-sentence relationships.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The model is fine-tuned to utilize BERT's general language representations.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1426,
+    "completion_tokens": 168,
+    "total_tokens": 1594
+  },
+  "seconds": 7.724754047114402
+}

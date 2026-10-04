@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the training process and mechanism of the selected sharing layer.\",\n  \"claims\": [\n    {\n      \"text\": \"The selected sharing layer uses a gated sharing cell to filter out useless features and an attention sharing cell to focus on valuable features for specific tasks.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The gated sharing cell employs a single-gate mechanism inspired by LSTM and GRU to filter shared features effectively.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The selected sharing layer is trained using a global loss function that minimizes cross-entropy for all tasks, with more weight given to the fake news detection task.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1855,
+    "completion_tokens": 214,
+    "total_tokens": 2069
+  },
+  "seconds": 9.04521075123921
+}

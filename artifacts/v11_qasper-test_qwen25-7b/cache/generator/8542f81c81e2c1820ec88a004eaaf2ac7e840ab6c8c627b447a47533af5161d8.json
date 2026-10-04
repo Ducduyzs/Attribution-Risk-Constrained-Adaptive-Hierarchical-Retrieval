@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides statistical and comparative data on the performance of the PAMPO model against existing NER tools.\",\n  \"claims\": [\n    {\n      \"text\": \"Their model improved by at least 0.25 in recall and F1 measures over current alternatives.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"PAMPO outperformed Alchemy, Zemanta, and Rembrandt in recall and F1 measures.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 143,
+    "total_tokens": 1278
+  },
+  "seconds": 6.365102099254727
+}

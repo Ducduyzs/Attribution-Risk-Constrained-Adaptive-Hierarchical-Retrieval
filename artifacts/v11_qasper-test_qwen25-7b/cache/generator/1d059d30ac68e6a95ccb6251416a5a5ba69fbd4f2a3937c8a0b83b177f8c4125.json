@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about previous work on integrating morphological information in statistical machine translation (SMT) and neural machine translation (NMT).\",\n  \"claims\": [\n    {\n      \"text\": \"Previous work considered morphological information for both SMT and NMT.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF8 proposed an effective way to integrate word-level annotation in SMT, which can be morphological, syntactic, or semantic.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF11 made use of various source side features, including morphological features, to enhance encoding in NMT.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"BIBREF10 used distributed representations for words and soft morphological tags in their neural inflection model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1817,
+    "completion_tokens": 241,
+    "total_tokens": 2058
+  },
+  "seconds": 10.26100662117824
+}

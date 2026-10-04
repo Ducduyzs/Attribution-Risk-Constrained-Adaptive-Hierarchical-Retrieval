@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific NDCG score improvements over BM25.\",\n  \"claims\": [\n    {\n      \"text\": \"Their similarity measure outperforms BM25 by 23% at NDCG@20, 23% at NDCG@5, and 25% at NDCG@10.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 681,
+    "completion_tokens": 109,
+    "total_tokens": 790
+  },
+  "seconds": 5.027326890267432
+}

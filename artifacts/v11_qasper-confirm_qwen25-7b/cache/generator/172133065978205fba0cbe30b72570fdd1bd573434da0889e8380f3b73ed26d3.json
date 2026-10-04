@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides comparisons against various models and neural architectures.\",\n  \"claims\": [\n    {\n      \"text\": \"They compared SATA-LSTM against neural models built on syntactic trees, latent trees, and non-tree models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"They also compared SATA Tree-LSTM against previous syntactic tree-based models and other neural models.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 124,
+    "total_tokens": 1216
+  },
+  "seconds": 5.859990220051259
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a detailed explanation of the BERT-based model's operation.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses BERT to encode query relevance, document context, and salient meanings into vector representations for each sentence, which are then fed into a simple output layer to predict labels or scores.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The model takes the concatenated query and document as input, utilizing the self-attention mechanism to model query-sentence and sentence-sentence relationships.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Token embeddings, segment embeddings, and position embeddings are used to represent the input sequence, and the model is fine-tuned using the uncased BERT-base with specific hyperparameters.\",\n      \"citations\": [\"C3\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 219,
+    "total_tokens": 1289
+  },
+  "seconds": 9.722405924927443
+}

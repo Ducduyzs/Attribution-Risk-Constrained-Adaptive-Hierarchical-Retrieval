@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on building gazetteer resources from Wikipedia and Wikidata.\",\n  \"claims\": [\n    {\n      \"text\": \"Gazetteer resources can be built from the Wikipedia knowledge base using instance of relationships.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Wikidata is also used as a gazetteer resource, offering potentially more comprehensive and less noisy data compared to Wikipedia.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 470,
+    "completion_tokens": 139,
+    "total_tokens": 609
+  },
+  "seconds": 6.395427877083421
+}

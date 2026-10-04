@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses batch size and its impact on active learning stopping methods for text classification.\",\n  \"claims\": [\n    {\n      \"text\": \"The study evaluates the effect of batch size on active learning stopping methods for text classification.\",\n      \"citations\": [\"C4\", \"C7\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Smaller batch sizes lead to greater learning efficiency but may require more annotations to reach the same performance as larger batch sizes.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Adjusting the window size of stopping methods can mitigate the performance degradation caused by larger batch sizes.\",\n      \"citations\": [\"C5\", \"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1516,
+    "completion_tokens": 186,
+    "total_tokens": 1702
+  },
+  "seconds": 8.312712966930121
+}

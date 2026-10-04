@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the introduction of a simpler preprocessing method.\",\n  \"claims\": [\n    {\n      \"text\": \"We introduce a simpler data preprocessing method to label the data and train the model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Using a simpler preprocessing method can still have comparable performance to the best performing recent study.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1732,
+    "completion_tokens": 121,
+    "total_tokens": 1853
+  },
+  "seconds": 5.566692207939923
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses methods to handle noisy entity linking but does not explicitly describe recovery mechanisms.\",\n  \"claims\": [\n    {\n      \"text\": \"By simulating the real KBQA environment, they can handle noisy entity/relation linking results, achieving correct answers in 85% of cases.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 655,
+    "completion_tokens": 96,
+    "total_tokens": 751
+  },
+  "seconds": 4.1677728346548975
+}

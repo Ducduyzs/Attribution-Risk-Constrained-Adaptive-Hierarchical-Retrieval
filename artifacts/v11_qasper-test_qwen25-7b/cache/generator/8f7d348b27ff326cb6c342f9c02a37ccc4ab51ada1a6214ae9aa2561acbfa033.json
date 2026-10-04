@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly lists multiple models used and explored in the paper.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper explores models like CNN, RNN, FFNN, LSTM, and logistic regression.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"TraceMiner, a newer model, uses LSTM-RNN and has high classification accuracy.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"FAKEDETECTOR is another model developed to detect fake news credibility.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The paper also uses SVM, ANN, and Random Forest for classification.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1614,
+    "completion_tokens": 205,
+    "total_tokens": 1819
+  },
+  "seconds": 8.792840810958296
+}
