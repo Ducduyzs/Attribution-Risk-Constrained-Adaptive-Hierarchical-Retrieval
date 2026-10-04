@@ -1,0 +1,14 @@
+{
+  "purpose": "v10 agreement-selector confirmation (preregistered)",
+  "source": "data/manifests/qasper_dev_*.jsonl (QASPER v0.3 dev)",
+  "excluded": "baseline-dev 30 papers + frozen-dev 164 papers",
+  "seed": 20261004,
+  "papers": 100,
+  "questions": 100,
+  "eligible_papers": 102,
+  "sha256": {
+    "qasper_v10_confirm_papers.jsonl": "1c510f8999ac3cf5de19e453abe6607b36e75b8b58a4bdc0a83ddef8549952c1",
+    "qasper_v10_confirm_questions.jsonl": "6d02f4256a952c71177c746f4eb7c01f0a21c383d32bd18c8d06cdfe82f9038e"
+  },
+  "test_accessed": false
+}
