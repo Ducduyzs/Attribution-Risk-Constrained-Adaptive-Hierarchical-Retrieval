@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from .config import Settings
+from .contextual import apply_chunk_context
 from .hierarchy import HierarchyBuilder
 from .index import MultiRepresentationIndex
 from .ingestion import DoclingScientificLoader
@@ -32,7 +33,10 @@ def build_pipeline_from_documents(
 ) -> AdaptiveHierarchicalPipeline:
     """Build the same runtime from already structured scientific documents."""
     settings = settings or Settings()
-    hierarchy = HierarchyBuilder(settings).build(documents)
+    hierarchy = apply_chunk_context(
+        HierarchyBuilder(settings).build(documents), settings.chunk_context,
+        settings.chunk_context_path, settings.chunk_context_model,
+    )
     encoder = BGEM3Encoder(settings.embedding_model, settings.device, settings.use_fp16)
     index = MultiRepresentationIndex(hierarchy, encoder, settings)
     reranker = BGEReranker(settings.reranker_model, settings.device, settings.use_fp16)

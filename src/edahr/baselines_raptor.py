@@ -77,6 +77,9 @@ class RaptorFaithfulConfig:
     max_layers: int = 5
     seed: int = OFFICIAL_SEED
     cache_dir: str = "artifacts/baselines/raptor/index"
+    # "text" embeds raw leaves (official); "embedding_text" embeds the
+    # contextual representation (edahr.contextual) for the H6 comparison.
+    leaf_embedding_source: str = "text"
     device: str = "cuda"
 
 
@@ -481,7 +484,13 @@ def build_paper_tree(
                 str(config.max_clusters), str(config.max_length_in_cluster),
                 str(config.seed),
                 "|".join(f"{c}:{_stable_key(hierarchy.node(c).text)}" for c in child_ids),
-            ])
+            ] + (
+                # Appended only when non-default so existing caches stay valid.
+                [config.leaf_embedding_source] + [
+                    _stable_key(hierarchy.node(c).embedding_text) for c in child_ids
+                ]
+                if config.leaf_embedding_source != "text" else []
+            ))
         )
         cache_path = Path(cache_dir) / f"{_stable_key(source)}-{fingerprint}.pkl"
         if cache_path.is_file():
@@ -505,8 +514,12 @@ def build_paper_tree(
             return tree, {"cache": "hit", "cache_path": str(cache_path)}
 
     leaf_texts = [hierarchy.node(child_id).text for child_id in child_ids]
+    embedded = (
+        [hierarchy.node(child_id).embedding_text for child_id in child_ids]
+        if config.leaf_embedding_source == "embedding_text" else leaf_texts
+    )
     leaf_vectors = _embed_texts(
-        leaf_texts, config.embedding_model, config.device, embed_fn
+        embedded, config.embedding_model, config.device, embed_fn
     )
     nodes = [
         RaptorFaithfulNode(

@@ -1106,6 +1106,9 @@ def make_baseline_pipeline(
         )
 
         faithful_cfg = getattr(settings, "raptor_faithful", None) or {}
+        faithful_cfg = dict(faithful_cfg)
+        if getattr(settings, "chunk_context", "none") != "none":
+            faithful_cfg.setdefault("leaf_embedding_source", "embedding_text")
         config = RaptorFaithfulConfig(
             openai_api_key=settings.openai_api_key, **faithful_cfg
         )

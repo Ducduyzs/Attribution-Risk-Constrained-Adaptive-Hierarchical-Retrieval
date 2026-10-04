@@ -66,6 +66,11 @@ class Settings:
     expanded_citation_threshold: float | None = None
     # Deterministic lexical fallback when strict NLI rejects near-verbatim claims.
     lexical_support_min_coverage: float = 0.8
+    # Retrieval-side chunk context (edahr.contextual): "none" | "title" | "llm".
+    # "llm" reads contexts cached by scripts/contextualize_chunks.py.
+    chunk_context: str = "none"
+    chunk_context_path: str | None = None
+    chunk_context_model: str | None = None
     # Context assembly guardrails.
     context_dedup_threshold: float = 0.85
     max_source_share: float = 0.65
