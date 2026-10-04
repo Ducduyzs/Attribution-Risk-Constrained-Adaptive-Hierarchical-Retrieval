@@ -1,0 +1,107 @@
+Could not reach the Hub ([Errno -3] Temporary failure in name resolution). Using cached commit hash for 'BAAI/bge-m3'.
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 1492.40it/s]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:  53%|█████▎    | 209/391 [00:00<00:00, 1774.91it/s]Loading weights:  99%|█████████▉| 387/391 [00:00<00:00, 1767.36it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 1780.38it/s]
+pre tokenize:   0%|          | 0/73 [00:00<?, ?it/s]pre tokenize:  36%|███▌      | 26/73 [00:00<00:00, 251.32it/s]pre tokenize:  73%|███████▎  | 53/73 [00:00<00:00, 258.15it/s]pre tokenize: 100%|██████████| 73/73 [00:00<00:00, 249.71it/s]
+Inference Embeddings:   0%|          | 0/73 [00:00<?, ?it/s]Inference Embeddings:   1%|▏         | 1/73 [00:00<00:09,  7.86it/s]Inference Embeddings:   4%|▍         | 3/73 [00:00<00:06, 10.09it/s]Inference Embeddings:   7%|▋         | 5/73 [00:00<00:05, 11.56it/s]Inference Embeddings:  10%|▉         | 7/73 [00:00<00:05, 12.37it/s]Inference Embeddings:  12%|█▏        | 9/73 [00:00<00:04, 13.31it/s]Inference Embeddings:  15%|█▌        | 11/73 [00:00<00:04, 13.68it/s]Inference Embeddings:  18%|█▊        | 13/73 [00:01<00:04, 14.23it/s]Inference Embeddings:  21%|██        | 15/73 [00:01<00:04, 14.40it/s]Inference Embeddings:  23%|██▎       | 17/73 [00:01<00:03, 14.69it/s]Inference Embeddings:  26%|██▌       | 19/73 [00:01<00:03, 15.01it/s]Inference Embeddings:  29%|██▉       | 21/73 [00:01<00:03, 15.16it/s]Inference Embeddings:  32%|███▏      | 23/73 [00:01<00:03, 15.30it/s]Inference Embeddings:  34%|███▍      | 25/73 [00:01<00:03, 15.32it/s]Inference Embeddings:  37%|███▋      | 27/73 [00:01<00:02, 15.43it/s]Inference Embeddings:  40%|███▉      | 29/73 [00:02<00:02, 15.69it/s]Inference Embeddings:  42%|████▏     | 31/73 [00:02<00:02, 15.78it/s]Inference Embeddings:  45%|████▌     | 33/73 [00:02<00:02, 16.07it/s]Inference Embeddings:  48%|████▊     | 35/73 [00:02<00:02, 15.82it/s]Inference Embeddings:  51%|█████     | 37/73 [00:02<00:02, 16.19it/s]Inference Embeddings:  53%|█████▎    | 39/73 [00:02<00:02, 16.54it/s]Inference Embeddings:  56%|█████▌    | 41/73 [00:02<00:01, 16.97it/s]Inference Embeddings:  59%|█████▉    | 43/73 [00:02<00:01, 17.19it/s]Inference Embeddings:  62%|██████▏   | 45/73 [00:02<00:01, 17.71it/s]Inference Embeddings:  64%|██████▍   | 47/73 [00:03<00:01, 18.24it/s]Inference Embeddings:  67%|██████▋   | 49/73 [00:03<00:01, 16.44it/s]Inference Embeddings:  71%|███████   | 52/73 [00:03<00:01, 18.30it/s]Inference Embeddings:  75%|███████▌  | 55/73 [00:03<00:00, 19.59it/s]Inference Embeddings:  78%|███████▊  | 57/73 [00:03<00:00, 18.34it/s]Inference Embeddings:  82%|████████▏ | 60/73 [00:03<00:00, 19.69it/s]Inference Embeddings:  86%|████████▋ | 63/73 [00:03<00:00, 20.91it/s]Inference Embeddings:  90%|█████████ | 66/73 [00:03<00:00, 22.33it/s]Inference Embeddings:  95%|█████████▍| 69/73 [00:04<00:00, 23.19it/s]Inference Embeddings:  99%|█████████▊| 72/73 [00:04<00:00, 24.61it/s]Inference Embeddings: 100%|██████████| 73/73 [00:04<00:00, 17.21it/s]
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights:  79%|███████▉  | 312/393 [00:00<00:00, 3109.91it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 3075.43it/s]
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 3071.86it/s]
+[benchmark] starting prior_raptor
+[transformers] Please make sure the generation config includes `forced_bos_token_id=0`. 
+Loading weights:   0%|          | 0/511 [00:00<?, ?it/s]Loading weights:  58%|█████▊    | 294/511 [00:00<00:00, 2927.13it/s]Loading weights: 100%|██████████| 511/511 [00:00<00:00, 2857.64it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3480.85it/s]
+[transformers] You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+{
+  "system": "prior_raptor",
+  "answer_em": 0.013333333333333334,
+  "answer_f1": 0.225762172325326,
+  "citation_evaluable": 0.9866666666666667,
+  "citation_f1": 0.39731874731874733,
+  "citation_precision": 0.4887387387387387,
+  "citation_recall": 0.3900900900900901,
+  "confidence": 0.8483920634920634,
+  "context_tokens": 1870.9733333333334,
+  "correct": 0.17333333333333334,
+  "evidence_span_recall": 0.502,
+  "generated_claim_count": 2.9066666666666667,
+  "hit_rate@10": 0.9466666666666667,
+  "hit_rate@3": 0.7066666666666667,
+  "hit_rate@5": 0.88,
+  "latency_ms": 3614.5021699368954,
+  "mrr": 0.5837539682539683,
+  "ndcg@10": 0.5662378702807636,
+  "ndcg@3": 0.43765859547923297,
+  "ndcg@5": 0.5119149700775016,
+  "official_qasper_evidence_f1": 0.389187303924146,
+  "precision@10": 0.20826984126984127,
+  "precision@3": 0.3244444444444444,
+  "precision@5": 0.296,
+  "recall@10": 0.7355555555555555,
+  "recall@3": 0.41155555555555556,
+  "recall@5": 0.6057777777777777,
+  "retrieval_free": 0.0,
+  "verified_claim_count": 2.466666666666667,
+  "latency_mean_ms": 3614.5021699368954,
+  "latency_p50_ms": 3216.4231478236616,
+  "latency_p95_ms": 7003.653004765511,
+  "latency_max_ms": 17550.28252210468,
+  "aurc": 0.7834908530540877,
+  "e_aurc": 0.25516931146009825,
+  "selective_accuracy@80cov": 0.16666666666666666,
+  "citation_f1_ci_low": 0.33067353067353067,
+  "citation_f1_ci_high": 0.4676319176319177,
+  "num_queries": 75.0,
+  "citation_evaluable_queries": 74.0
+}
+{
+  "dataset": "qasper-v0.3",
+  "split": "baseline-dev-75-prior-raptor",
+  "questions": 75,
+  "papers": 30,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "summaries": {
+    "prior_raptor": {
+      "answer_em": 0.013333333333333334,
+      "answer_f1": 0.225762172325326,
+      "citation_evaluable": 0.9866666666666667,
+      "citation_f1": 0.39731874731874733,
+      "citation_precision": 0.4887387387387387,
+      "citation_recall": 0.3900900900900901,
+      "confidence": 0.8483920634920634,
+      "context_tokens": 1870.9733333333334,
+      "correct": 0.17333333333333334,
+      "evidence_span_recall": 0.502,
+      "generated_claim_count": 2.9066666666666667,
+      "hit_rate@10": 0.9466666666666667,
+      "hit_rate@3": 0.7066666666666667,
+      "hit_rate@5": 0.88,
+      "latency_ms": 3614.5021699368954,
+      "mrr": 0.5837539682539683,
+      "ndcg@10": 0.5662378702807636,
+      "ndcg@3": 0.43765859547923297,
+      "ndcg@5": 0.5119149700775016,
+      "official_qasper_evidence_f1": 0.389187303924146,
+      "precision@10": 0.20826984126984127,
+      "precision@3": 0.3244444444444444,
+      "precision@5": 0.296,
+      "recall@10": 0.7355555555555555,
+      "recall@3": 0.41155555555555556,
+      "recall@5": 0.6057777777777777,
+      "retrieval_free": 0.0,
+      "verified_claim_count": 2.466666666666667,
+      "latency_mean_ms": 3614.5021699368954,
+      "latency_p50_ms": 3216.4231478236616,
+      "latency_p95_ms": 7003.653004765511,
+      "latency_max_ms": 17550.28252210468,
+      "aurc": 0.7834908530540877,
+      "e_aurc": 0.25516931146009825,
+      "selective_accuracy@80cov": 0.16666666666666666,
+      "citation_f1_ci_low": 0.33067353067353067,
+      "citation_f1_ci_high": 0.4676319176319177,
+      "num_queries": 75.0,
+      "citation_evaluable_queries": 74.0
+    }
+  },
+  "comparisons_vs_flat": {}
+}
