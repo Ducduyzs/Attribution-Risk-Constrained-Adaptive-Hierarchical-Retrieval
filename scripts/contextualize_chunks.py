@@ -43,6 +43,8 @@ def main() -> None:
     parser.add_argument("--model", default="gpt-4o-mini-2024-07-18")
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--max-output-tokens", type=int, default=150)
+    parser.add_argument("--tpm", type=int, default=180_000,
+                        help="client-side token-per-minute budget (account limit 200k)")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -84,11 +86,25 @@ def main() -> None:
     client = OpenAI(api_key=key)
     output.parent.mkdir(parents=True, exist_ok=True)
     lock = threading.Lock()
+    window: list[tuple[float, int]] = []  # (timestamp, tokens) sent in the last 60 s
+
+    def throttle(tokens: int) -> None:
+        while True:
+            with lock:
+                now = time.monotonic()
+                while window and now - window[0][0] > 60.0:
+                    window.pop(0)
+                if sum(t for _, t in window) + tokens <= args.tpm:
+                    window.append((now, tokens))
+                    return
+                wait = 60.0 - (now - window[0][0]) + 0.1
+            time.sleep(max(0.1, wait))
     usage = {"prompt": 0, "cached": 0, "completion": 0, "done": 0}
 
     def run(job):
         child_id, source, document, chunk, key_hash = job
-        for attempt in range(5):
+        throttle(doc_tokens[source] + token_estimate(chunk) + 200)
+        for attempt in range(8):
             try:
                 response = client.chat.completions.create(
                     model=args.model, temperature=0.0,
@@ -98,9 +114,9 @@ def main() -> None:
                 )
                 break
             except Exception:  # noqa: BLE001 - rate limits / transient errors
-                if attempt == 4:
+                if attempt == 7:
                     raise
-                time.sleep(2 ** attempt)
+                time.sleep(min(60, 2 ** (attempt + 1)))
         details = getattr(response.usage, "prompt_tokens_details", None)
         record = {
             "child_id": child_id, "source": source, "key": key_hash,

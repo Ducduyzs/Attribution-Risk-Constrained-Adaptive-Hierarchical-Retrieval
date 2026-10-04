@@ -1006,6 +1006,42 @@ def build_documents(documents: list[ScientificDocument], settings: Settings) -> 
     return HierarchyBuilder(settings).build(documents)
 
 
+def raptor_faithful_retriever(hierarchy: Hierarchy, settings: Settings):
+    """Faithful RAPTOR collapsed-tree retriever (one cached tree per paper).
+
+    Shared by ``B5_raptor_faithful`` and systems that put adaptive expansion
+    on top of RAPTOR retrieval (``prior_raptor``).
+    """
+    from .baselines_raptor import (
+        RaptorFaithfulConfig,
+        RaptorFaithfulRetriever,
+        build_paper_tree,
+        make_summarizer,
+    )
+
+    faithful_cfg = getattr(settings, "raptor_faithful", None) or {}
+    faithful_cfg = dict(faithful_cfg)
+    if getattr(settings, "chunk_context", "none") != "none":
+        faithful_cfg.setdefault("leaf_embedding_source", "embedding_text")
+    config = RaptorFaithfulConfig(
+        openai_api_key=settings.openai_api_key, **faithful_cfg
+    )
+    summarizer = make_summarizer(
+        config, gemini_api_key=settings.gemini_api_key
+    )
+    sources = sorted(
+        {hierarchy.node(child_id).source for child_id in hierarchy.child_ids}
+    )
+    trees = {}
+    for source in sources:
+        tree, _ = build_paper_tree(
+            hierarchy, source, config, summarizer,
+            cache_dir=config.cache_dir,
+        )
+        trees[source] = tree
+    return RaptorFaithfulRetriever(hierarchy, trees, config)
+
+
 def make_baseline_pipeline(
     name: str,
     hierarchy: Hierarchy,
@@ -1098,34 +1134,7 @@ def make_baseline_pipeline(
             policy=NeverMergePolicy(), rerank_enabled=True,
         )
     if name == "B5_raptor_faithful":
-        from .baselines_raptor import (
-            RaptorFaithfulConfig,
-            RaptorFaithfulRetriever,
-            build_paper_tree,
-            make_summarizer,
-        )
-
-        faithful_cfg = getattr(settings, "raptor_faithful", None) or {}
-        faithful_cfg = dict(faithful_cfg)
-        if getattr(settings, "chunk_context", "none") != "none":
-            faithful_cfg.setdefault("leaf_embedding_source", "embedding_text")
-        config = RaptorFaithfulConfig(
-            openai_api_key=settings.openai_api_key, **faithful_cfg
-        )
-        summarizer = make_summarizer(
-            config, gemini_api_key=settings.gemini_api_key
-        )
-        sources = sorted(
-            {hierarchy.node(child_id).source for child_id in hierarchy.child_ids}
-        )
-        trees = {}
-        for source in sources:
-            tree, _ = build_paper_tree(
-                hierarchy, source, config, summarizer,
-                cache_dir=config.cache_dir,
-            )
-            trees[source] = tree
-        retriever = RaptorFaithfulRetriever(hierarchy, trees, config)
+        retriever = raptor_faithful_retriever(hierarchy, settings)
         variant = replace(settings, expansion_max_depth=0)
         return AdaptiveHierarchicalPipeline(
             hierarchy=hierarchy, retriever=retriever, reranker=reranker,

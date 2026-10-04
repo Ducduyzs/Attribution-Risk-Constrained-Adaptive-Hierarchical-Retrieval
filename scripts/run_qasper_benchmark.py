@@ -15,6 +15,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 from edahr.baselines import (  # noqa: E402
     auto_label_gold_children,
+    raptor_faithful_retriever,
     clustered_ci_vs_baseline,
     make_baseline_pipeline,
     run_benchmark,
@@ -60,7 +61,7 @@ def value(summary: dict, key: str) -> float:
 SYSTEM_NAMES = (
     "B0_bm25", "B1_dense", "B2_hybrid_rrf", "B3_flat_neural",
     "B4_static_hierarchy", "B5_raptor_faithful", "B6_longrag_faithful",
-    "prior", "learned_v7",
+    "prior", "prior_raptor", "learned_v7",
     "learned_v7_parent_only", "learned_v7_section_only",
     "learned_v7_no_rollback", "learned_v7_no_verifier",
     "oracle_evidence", "full_document",
@@ -137,7 +138,7 @@ def build_systems(
             )
         return make
 
-    def prior() -> AdaptiveHierarchicalPipeline:
+    def prior(retriever_factory=lambda s: retriever) -> AdaptiveHierarchicalPipeline:
         s = replace(
             settings, parent_policy_checkpoint=None, section_policy_checkpoint=None,
             policy_version="prior", enable_parent_expansion=True,
@@ -148,7 +149,7 @@ def build_systems(
             evidence_gain_weight=s.evidence_gain_weight, cost_penalty=s.cost_penalty,
         )
         return AdaptiveHierarchicalPipeline(
-            hierarchy=hierarchy, retriever=retriever, reranker=reranker,
+            hierarchy=hierarchy, retriever=retriever_factory(s), reranker=reranker,
             generator=generator, verifier=verifier, settings=s,
             parent_policy=policy, section_policy=policy, rerank_enabled=True,
         )
@@ -160,6 +161,9 @@ def build_systems(
                      "B5_raptor_faithful", "B6_longrag_faithful")
     }
     factories["prior"] = prior
+    # Prior adaptive expansion + verification on RAPTOR's collapsed-tree retrieval.
+    factories["prior_raptor"] = lambda: prior(
+        lambda s: raptor_faithful_retriever(hierarchy, s))
 
     if parent_checkpoint or section_checkpoint:
         factories["learned_v7"] = learned("v7", parent_checkpoint, section_checkpoint)
