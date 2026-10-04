@@ -106,3 +106,15 @@ Holm**. prior − RAPTOR citation F1 = −0,049 [−0,109; +0,010]. Nguồn:
 | Benchmark runner | `scripts/run_qasper_benchmark.py` |
 
 Git: các commit v8 (`fe15a0a` … `a8b3d2e`) chỉ ở local, **chưa push**.
+
+## 9. Cập nhật v9–v10 (2026-10-04) — kết luận cuối
+
+| Giai đoạn | Kết quả | File |
+|---|---|---|
+| v9: ma trận 12 nhánh chọn evidence × 3 ngân sách (dev) | Không nhánh nào vượt RAPTOR; heuristic "bảo toàn phụ thuộc" kém nhất; evidence mất chủ yếu ở bước đóng gói (gold trong pool 94–99%, vào context ~45%) | `analysis/v9_results.md` |
+| v10: phân tích cơ chế (offline) | Lợi thế RAPTOR trên dev đến từ tín hiệu SBERT câu hỏi–leaf; cây/phân cụm/hỗ trợ lân cận không tái tạo được → **Agreement Ranking** (RRF cross-encoder + SBERT) | `analysis/v10_selector_design.md` |
+| v10: xác nhận (100 bài dev mới, đăng ký trước) | Agreement không kém RAPTOR (Holm p=0,010); không hơn rerank toàn bài | `analysis/v10_confirmation_results.md` |
+| **v10: test một lần (180 câu, đăng ký trước)** | **Agreement không kém RAPTOR** (+0,020, Holm p=0,006); all_leaf không kém RAPTOR: chưa chứng minh (p=0,20); Agreement > all_leaf: p Holm 0,052 (chưa đạt) | `analysis/v10_test_results.md` |
+
+Chi phí index 180 bài: RAPTOR 12 151 s, Agreement 29 s. **Tập test đã được mở** —
+không được dùng nó để chỉnh phương pháp nữa; mọi thí nghiệm mới cần tập/benchmark khác.

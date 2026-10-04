@@ -47,8 +47,8 @@ Chi phí API sinh đáp án tương đương giữa các nhánh (~770–1950 tok
    Không được viết rằng nó *vượt* RAPTOR (CI chứa 0).
 2. **Không chứng minh được** rằng rerank toàn bài đơn thuần không kém RAPTOR (T2), và
    **không chứng minh được** Agreement tốt hơn rerank toàn bài sau hiệu chỉnh Holm (H-b,
-   p = 0,052). Tín hiệu SBERT có xu hướng giúp (+0,028, CI chưa phân tích đa giả thuyết
-   loại 0) nhưng chưa đạt mức xác nhận.
+   p = 0,052). Tín hiệu SBERT có xu hướng giúp (+0,028; CI 95% chưa hiệu chỉnh loại 0)
+   nhưng chưa đạt mức xác nhận sau Holm.
 3. Kết luận thực tiễn: với bài báo khoa học ngắn, có thể thay cây RAPTOR bằng một tín hiệu
    tương đồng câu hỏi–leaf rẻ mà không mất chất lượng evidence đo được.
 
