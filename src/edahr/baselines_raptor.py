@@ -20,6 +20,10 @@ A3. Points with empty soft assignment fall back to argmax (official code can
     drop them); this guarantees full leaf coverage for attribution scoring.
 A4. Default summarizer model is the official ``gpt-3.5-turbo``; any
     substitution is recorded in index metadata.
+A5. When a Gaussian mixture fit fails on an ill-conditioned covariance (the
+    official code raises and aborts the tree), it is refit with a larger
+    ``reg_covar`` (1e-4, then 1e-3). Fits that needed this are counted in
+    ``GMM_REGULARIZED_FITS`` and recorded in the tree metadata.
 
 Primary mode never falls back to lexical methods: missing ``umap-learn``,
 sentence-transformers weights, or LLM access raises RuntimeError naming the
@@ -157,22 +161,41 @@ def _cached_sbert_model(model_name: str, device: str):
     return _SBERT_CACHE[key]
 
 
+GMM_REGULARIZED_FITS = [0]
+
+
+def _fit_gmm(vectors, n: int, seed: int):
+    """Official GaussianMixture fit; adaptation A5 only if it would raise."""
+    from sklearn.mixture import GaussianMixture
+
+    try:
+        return GaussianMixture(n_components=n, random_state=seed).fit(vectors)
+    except ValueError:
+        for reg_covar in (1e-4, 1e-3):
+            try:
+                gm = GaussianMixture(
+                    n_components=n, random_state=seed, reg_covar=reg_covar
+                ).fit(vectors)
+            except ValueError:
+                continue
+            GMM_REGULARIZED_FITS[0] += 1
+            return gm
+        raise
+
+
 def _gmm_bic_labels(vectors, seed: int, max_clusters: int, threshold: float):
     """GMM with BIC model selection + soft assignment (official logic)."""
     import numpy as np
-    from sklearn.mixture import GaussianMixture
 
     count = len(vectors)
     upper = min(max_clusters, count)
     best_n, best_bic = 1, float("inf")
     for n in range(1, upper + 1):
-        gm = GaussianMixture(n_components=n, random_state=seed)
-        gm.fit(vectors)
+        gm = _fit_gmm(vectors, n, seed)
         bic = gm.bic(vectors)
         if bic < best_bic:
             best_bic, best_n = bic, n
-    gm = GaussianMixture(n_components=best_n, random_state=seed)
-    gm.fit(vectors)
+    gm = _fit_gmm(vectors, best_n, seed)
     probs = gm.predict_proba(vectors)
     labels: list[list[int]] = []
     for row in probs:
@@ -496,6 +519,7 @@ def build_paper_tree(
     current: list[RaptorFaithfulNode] = list(nodes)
     layer = 0
     summary_calls = 0
+    regularized_before = GMM_REGULARIZED_FITS[0]
     while len(current) > 1 and layer < config.max_layers:
         vectors = [node.embedding for node in current]
         if len(current) <= 2:
@@ -556,7 +580,10 @@ def build_paper_tree(
         embedding_model=config.embedding_model,
         summarizer_model=config.summarizer_model,
     )
-    meta = {"cache": "miss", "summary_calls": summary_calls, "layers": layer + 1}
+    meta = {
+        "cache": "miss", "summary_calls": summary_calls, "layers": layer + 1,
+        "gmm_regularized_fits": GMM_REGULARIZED_FITS[0] - regularized_before,
+    }
     if cache_path is not None:
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         with cache_path.open("wb") as handle:

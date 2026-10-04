@@ -59,6 +59,11 @@ class Settings:
     max_evidence_per_claim: int = 1      # 0 keeps every child above threshold
     evidence_margin: float = 0.05        # gap below this => ambiguous -> top-1 only
     sibling_threshold_delta: float = 0.10  # extra bar for leaves outside retrieval
+    # H4/H5: support a leaf outside the initial retrieval set needs to be cited.
+    # None keeps the sibling rule above; a very large value (e.g. 2.0) cites
+    # retrieved leaves only; scripts/replay_policies.py calibrates it with
+    # conformal risk control (expected harmful drift <= alpha).
+    expanded_citation_threshold: float | None = None
     # Deterministic lexical fallback when strict NLI rejects near-verbatim claims.
     lexical_support_min_coverage: float = 0.8
     # Context assembly guardrails.

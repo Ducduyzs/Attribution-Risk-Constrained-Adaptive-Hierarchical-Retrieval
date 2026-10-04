@@ -1,0 +1,387 @@
+W1004 06:19:03.416000 25752 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 1388.49it/s]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:   1%|▏         | 5/391 [00:05<06:27,  1.00s/it]Loading weights: 100%|██████████| 391/391 [00:05<00:00, 77.53it/s]
+pre tokenize:   0%|          | 0/73 [00:00<?, ?it/s]pre tokenize:  63%|██████▎   | 46/73 [00:00<00:00, 459.05it/s]pre tokenize: 100%|██████████| 73/73 [00:00<00:00, 492.36it/s]
+Inference Embeddings:   0%|          | 0/73 [00:00<?, ?it/s]Inference Embeddings:   1%|▏         | 1/73 [00:00<00:15,  4.63it/s]Inference Embeddings:   3%|▎         | 2/73 [00:00<00:13,  5.41it/s]Inference Embeddings:   4%|▍         | 3/73 [00:00<00:11,  5.97it/s]Inference Embeddings:   5%|▌         | 4/73 [00:00<00:10,  6.35it/s]Inference Embeddings:   7%|▋         | 5/73 [00:00<00:10,  6.69it/s]Inference Embeddings:   8%|▊         | 6/73 [00:00<00:09,  6.72it/s]Inference Embeddings:  10%|▉         | 7/73 [00:01<00:09,  7.11it/s]Inference Embeddings:  11%|█         | 8/73 [00:01<00:08,  7.40it/s]Inference Embeddings:  12%|█▏        | 9/73 [00:01<00:09,  6.77it/s]Inference Embeddings:  14%|█▎        | 10/73 [00:01<00:08,  7.09it/s]Inference Embeddings:  15%|█▌        | 11/73 [00:01<00:08,  7.08it/s]Inference Embeddings:  16%|█▋        | 12/73 [00:01<00:08,  7.38it/s]Inference Embeddings:  18%|█▊        | 13/73 [00:01<00:07,  7.59it/s]Inference Embeddings:  19%|█▉        | 14/73 [00:02<00:07,  7.79it/s]Inference Embeddings:  21%|██        | 15/73 [00:02<00:07,  8.02it/s]Inference Embeddings:  22%|██▏       | 16/73 [00:02<00:06,  8.17it/s]Inference Embeddings:  23%|██▎       | 17/73 [00:02<00:06,  8.31it/s]Inference Embeddings:  25%|██▍       | 18/73 [00:02<00:06,  8.41it/s]Inference Embeddings:  26%|██▌       | 19/73 [00:02<00:06,  8.50it/s]Inference Embeddings:  27%|██▋       | 20/73 [00:02<00:06,  8.59it/s]Inference Embeddings:  29%|██▉       | 21/73 [00:02<00:06,  8.67it/s]Inference Embeddings:  30%|███       | 22/73 [00:02<00:05,  8.71it/s]Inference Embeddings:  32%|███▏      | 23/73 [00:03<00:05,  8.78it/s]Inference Embeddings:  33%|███▎      | 24/73 [00:03<00:05,  8.84it/s]Inference Embeddings:  34%|███▍      | 25/73 [00:03<00:05,  8.85it/s]Inference Embeddings:  36%|███▌      | 26/73 [00:03<00:05,  9.05it/s]Inference Embeddings:  37%|███▋      | 27/73 [00:03<00:05,  9.11it/s]Inference Embeddings:  38%|███▊      | 28/73 [00:03<00:04,  9.22it/s]Inference Embeddings:  40%|███▉      | 29/73 [00:03<00:04,  9.28it/s]Inference Embeddings:  41%|████      | 30/73 [00:03<00:04,  9.29it/s]Inference Embeddings:  42%|████▏     | 31/73 [00:03<00:04,  9.32it/s]Inference Embeddings:  45%|████▌     | 33/73 [00:04<00:04,  9.56it/s]Inference Embeddings:  47%|████▋     | 34/73 [00:04<00:04,  9.54it/s]Inference Embeddings:  48%|████▊     | 35/73 [00:04<00:03,  9.55it/s]Inference Embeddings:  49%|████▉     | 36/73 [00:04<00:03,  9.60it/s]Inference Embeddings:  51%|█████     | 37/73 [00:04<00:03,  9.65it/s]Inference Embeddings:  52%|█████▏    | 38/73 [00:04<00:03,  9.71it/s]Inference Embeddings:  55%|█████▍    | 40/73 [00:04<00:03,  9.91it/s]Inference Embeddings:  58%|█████▊    | 42/73 [00:05<00:03, 10.06it/s]Inference Embeddings:  60%|██████    | 44/73 [00:05<00:02, 10.23it/s]Inference Embeddings:  63%|██████▎   | 46/73 [00:05<00:02, 10.39it/s]Inference Embeddings:  66%|██████▌   | 48/73 [00:05<00:02, 10.61it/s]Inference Embeddings:  68%|██████▊   | 50/73 [00:05<00:02, 10.89it/s]Inference Embeddings:  71%|███████   | 52/73 [00:05<00:01, 11.21it/s]Inference Embeddings:  74%|███████▍  | 54/73 [00:06<00:01, 11.57it/s]Inference Embeddings:  77%|███████▋  | 56/73 [00:06<00:01, 12.21it/s]Inference Embeddings:  79%|███████▉  | 58/73 [00:06<00:01, 12.99it/s]Inference Embeddings:  82%|████████▏ | 60/73 [00:06<00:00, 13.69it/s]Inference Embeddings:  85%|████████▍ | 62/73 [00:06<00:00, 14.61it/s]Inference Embeddings:  88%|████████▊ | 64/73 [00:06<00:00, 15.66it/s]Inference Embeddings:  92%|█████████▏| 67/73 [00:06<00:00, 17.39it/s]Inference Embeddings:  96%|█████████▌| 70/73 [00:06<00:00, 19.39it/s]Inference Embeddings: 100%|██████████| 73/73 [00:07<00:00, 10.36it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights:  82%|████████▏ | 321/393 [00:00<00:00, 3207.79it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 3362.26it/s]
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 3220.17it/s]
+[benchmark] starting oracle_evidence
+[transformers] You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+{
+  "system": "oracle_evidence",
+  "answer_em": 0.04,
+  "answer_f1": 0.2697440099931992,
+  "citation_evaluable": 0.9866666666666667,
+  "citation_f1": 0.6214285714285711,
+  "citation_precision": 0.8513513513513513,
+  "citation_recall": 0.5371621621621622,
+  "confidence": 0.739822222222222,
+  "context_tokens": 517.4933333333333,
+  "correct": 0.22666666666666666,
+  "evidence_span_recall": 0.658962962962963,
+  "generated_claim_count": 2.3733333333333335,
+  "latency_ms": 2320.17668133912,
+  "official_qasper_evidence_f1": 0.6019896791661496,
+  "retrieval_free": 1.0,
+  "verified_claim_count": 1.9866666666666666,
+  "latency_mean_ms": 2320.17668133912,
+  "latency_p50_ms": 2338.732299976982,
+  "latency_p95_ms": 3589.399700053036,
+  "latency_max_ms": 5609.6020000986755,
+  "aurc": 0.6042589534932586,
+  "e_aurc": 0.1622676579533775,
+  "selective_accuracy@80cov": 0.2833333333333333,
+  "citation_f1_ci_low": 0.542277992277992,
+  "citation_f1_ci_high": 0.6959459459459458,
+  "num_queries": 75.0,
+  "citation_evaluable_queries": 74.0
+}
+[benchmark] starting full_document
+{
+  "system": "full_document",
+  "answer_em": 0.013333333333333334,
+  "answer_f1": 0.20462909848470354,
+  "citation_evaluable": 0.9866666666666667,
+  "citation_f1": 0.34298419298419297,
+  "citation_precision": 0.4049549549549549,
+  "citation_recall": 0.3466216216216216,
+  "confidence": 0.798277777777778,
+  "context_tokens": 4354.586666666667,
+  "correct": 0.16,
+  "evidence_span_recall": 0.4391851851851853,
+  "generated_claim_count": 2.8533333333333335,
+  "latency_ms": 4240.847224003325,
+  "official_qasper_evidence_f1": 0.337391738865423,
+  "retrieval_free": 1.0,
+  "verified_claim_count": 2.32,
+  "latency_mean_ms": 4240.847224003325,
+  "latency_p50_ms": 4188.831900013611,
+  "latency_p95_ms": 6971.832200186327,
+  "latency_max_ms": 8345.409299945459,
+  "aurc": 0.758700868300929,
+  "e_aurc": 0.20640406067570805,
+  "selective_accuracy@80cov": 0.18333333333333332,
+  "citation_f1_ci_low": 0.27081724581724587,
+  "citation_f1_ci_high": 0.415892815892816,
+  "num_queries": 75.0,
+  "citation_evaluable_queries": 74.0
+}
+[benchmark] starting B3_flat_neural
+pre tokenize:   0%|          | 0/73 [00:00<?, ?it/s]pre tokenize:  21%|██        | 15/73 [00:00<00:00, 142.20it/s]pre tokenize:  41%|████      | 30/73 [00:00<00:00, 145.01it/s]pre tokenize:  62%|██████▏   | 45/73 [00:00<00:00, 142.26it/s]pre tokenize:  82%|████████▏ | 60/73 [00:00<00:00, 134.52it/s]pre tokenize: 100%|██████████| 73/73 [00:00<00:00, 132.22it/s]
+Inference Embeddings:   0%|          | 0/73 [00:00<?, ?it/s]Inference Embeddings:   1%|▏         | 1/73 [00:00<00:44,  1.63it/s]Inference Embeddings:   3%|▎         | 2/73 [00:00<00:25,  2.77it/s]Inference Embeddings:   4%|▍         | 3/73 [00:01<00:20,  3.39it/s]Inference Embeddings:   5%|▌         | 4/73 [00:01<00:34,  2.01it/s]Inference Embeddings:   7%|▋         | 5/73 [00:02<00:32,  2.10it/s]Inference Embeddings:   8%|▊         | 6/73 [00:02<00:24,  2.74it/s]Inference Embeddings:  10%|▉         | 7/73 [00:02<00:19,  3.47it/s]Inference Embeddings:  11%|█         | 8/73 [00:02<00:15,  4.24it/s]Inference Embeddings:  12%|█▏        | 9/73 [00:02<00:12,  4.93it/s]Inference Embeddings:  14%|█▎        | 10/73 [00:02<00:11,  5.55it/s]Inference Embeddings:  15%|█▌        | 11/73 [00:03<00:10,  6.11it/s]Inference Embeddings:  16%|█▋        | 12/73 [00:03<00:09,  6.64it/s]Inference Embeddings:  18%|█▊        | 13/73 [00:03<00:08,  7.04it/s]Inference Embeddings:  19%|█▉        | 14/73 [00:03<00:08,  7.37it/s]Inference Embeddings:  21%|██        | 15/73 [00:03<00:08,  7.21it/s]Inference Embeddings:  22%|██▏       | 16/73 [00:03<00:08,  6.68it/s]Inference Embeddings:  23%|██▎       | 17/73 [00:03<00:08,  6.33it/s]Inference Embeddings:  25%|██▍       | 18/73 [00:04<00:08,  6.48it/s]Inference Embeddings:  26%|██▌       | 19/73 [00:04<00:08,  6.03it/s]Inference Embeddings:  27%|██▋       | 20/73 [00:04<00:08,  5.94it/s]Inference Embeddings:  29%|██▉       | 21/73 [00:04<00:09,  5.69it/s]Inference Embeddings:  30%|███       | 22/73 [00:04<00:08,  6.17it/s]Inference Embeddings:  32%|███▏      | 23/73 [00:04<00:07,  6.53it/s]Inference Embeddings:  33%|███▎      | 24/73 [00:05<00:07,  6.69it/s]Inference Embeddings:  34%|███▍      | 25/73 [00:05<00:07,  6.05it/s]Inference Embeddings:  36%|███▌      | 26/73 [00:05<00:07,  5.91it/s]Inference Embeddings:  37%|███▋      | 27/73 [00:05<00:08,  5.54it/s]Inference Embeddings:  38%|███▊      | 28/73 [00:05<00:08,  5.59it/s]Inference Embeddings:  40%|███▉      | 29/73 [00:05<00:07,  6.27it/s]Inference Embeddings:  41%|████      | 30/73 [00:06<00:06,  6.85it/s]Inference Embeddings:  42%|████▏     | 31/73 [00:06<00:05,  7.34it/s]Inference Embeddings:  44%|████▍     | 32/73 [00:06<00:05,  7.79it/s]Inference Embeddings:  45%|████▌     | 33/73 [00:06<00:04,  8.02it/s]Inference Embeddings:  47%|████▋     | 34/73 [00:06<00:04,  8.15it/s]Inference Embeddings:  48%|████▊     | 35/73 [00:06<00:04,  8.25it/s]Inference Embeddings:  49%|████▉     | 36/73 [00:06<00:04,  8.36it/s]Inference Embeddings:  51%|█████     | 37/73 [00:06<00:04,  8.46it/s]Inference Embeddings:  52%|█████▏    | 38/73 [00:06<00:04,  8.54it/s]Inference Embeddings:  53%|█████▎    | 39/73 [00:07<00:03,  8.65it/s]Inference Embeddings:  55%|█████▍    | 40/73 [00:07<00:03,  8.67it/s]Inference Embeddings:  56%|█████▌    | 41/73 [00:07<00:03,  8.84it/s]Inference Embeddings:  58%|█████▊    | 42/73 [00:07<00:03,  9.01it/s]Inference Embeddings:  59%|█████▉    | 43/73 [00:07<00:03,  9.07it/s]Inference Embeddings:  60%|██████    | 44/73 [00:07<00:03,  9.24it/s]Inference Embeddings:  62%|██████▏   | 45/73 [00:07<00:02,  9.43it/s]Inference Embeddings:  63%|██████▎   | 46/73 [00:07<00:02,  9.27it/s]Inference Embeddings:  64%|██████▍   | 47/73 [00:07<00:03,  8.16it/s]Inference Embeddings:  66%|██████▌   | 48/73 [00:08<00:03,  6.95it/s]Inference Embeddings:  67%|██████▋   | 49/73 [00:08<00:03,  6.94it/s]Inference Embeddings:  68%|██████▊   | 50/73 [00:08<00:03,  6.41it/s]Inference Embeddings:  70%|██████▉   | 51/73 [00:08<00:03,  5.96it/s]Inference Embeddings:  71%|███████   | 52/73 [00:08<00:03,  6.22it/s]Inference Embeddings:  73%|███████▎  | 53/73 [00:08<00:03,  6.12it/s]Inference Embeddings:  74%|███████▍  | 54/73 [00:09<00:03,  5.71it/s]Inference Embeddings:  75%|███████▌  | 55/73 [00:09<00:02,  6.42it/s]Inference Embeddings:  77%|███████▋  | 56/73 [00:09<00:02,  6.63it/s]Inference Embeddings:  78%|███████▊  | 57/73 [00:09<00:02,  6.86it/s]Inference Embeddings:  79%|███████▉  | 58/73 [00:09<00:02,  6.53it/s]Inference Embeddings:  81%|████████  | 59/73 [00:09<00:02,  6.50it/s]Inference Embeddings:  82%|████████▏ | 60/73 [00:10<00:01,  6.59it/s]Inference Embeddings:  84%|████████▎ | 61/73 [00:10<00:01,  6.06it/s]Inference Embeddings:  85%|████████▍ | 62/73 [00:10<00:01,  6.01it/s]Inference Embeddings:  86%|████████▋ | 63/73 [00:10<00:01,  5.97it/s]Inference Embeddings:  88%|████████▊ | 64/73 [00:10<00:01,  6.22it/s]Inference Embeddings:  89%|████████▉ | 65/73 [00:10<00:01,  6.14it/s]Inference Embeddings:  90%|█████████ | 66/73 [00:11<00:01,  6.09it/s]Inference Embeddings:  92%|█████████▏| 67/73 [00:11<00:00,  6.18it/s]Inference Embeddings:  93%|█████████▎| 68/73 [00:11<00:00,  6.64it/s]Inference Embeddings:  95%|█████████▍| 69/73 [00:11<00:00,  6.75it/s]Inference Embeddings:  96%|█████████▌| 70/73 [00:11<00:00,  6.38it/s]Inference Embeddings:  97%|█████████▋| 71/73 [00:11<00:00,  6.58it/s]Inference Embeddings:  99%|█████████▊| 72/73 [00:11<00:00,  6.90it/s]Inference Embeddings: 100%|██████████| 73/73 [00:12<00:00,  7.10it/s]Inference Embeddings: 100%|██████████| 73/73 [00:12<00:00,  6.05it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1001.03it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  7.71it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  7.65it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 48.47it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  6.15it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  6.11it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 657.62it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.47it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.40it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 999.83it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  5.62it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  5.62it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1004.86it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  7.01it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  6.96it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 571.12it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.64it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.57it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 302.03it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.90it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.80it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 912.00it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  7.72it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  7.66it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 299.49it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 13.85it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 111.29it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.71it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<?, ?it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  7.30it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  7.21it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 136.05it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  2.29it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  2.26it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 990.62it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  5.98it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  5.98it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 98.96it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]Inference Embeddings: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 45.20it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  2.46it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  2.45it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1823.61it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 33.34it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1009.70it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  6.48it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  6.48it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 110.58it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.73it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 94.78it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  1.58it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  1.58it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 48.45it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.98it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.98it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 117.20it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.30it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.30it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 500.45it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.44it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.35it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 181.09it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.81it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 333.23it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 28.13it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 496.72it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 13.84it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 921.62it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.86it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.78it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 333.38it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.23it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 142.94it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.31it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.23it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 80.06it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  3.16it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  3.10it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 396.70it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.49it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.49it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 917.39it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.73it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 251.02it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.17it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 993.68it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.40it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.40it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 327.40it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.17it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 713.68it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.65it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.65it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 979.06it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.55it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 990.39it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.46it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1006.55it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.14it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.14it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 999.83it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.49it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 905.70it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.34it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.34it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 49.73it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.85it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<?, ?it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.85it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 671.95it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 12.45it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1739.65it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.40it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 55.47it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.62it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 393.76it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.36it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 37.95it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 12.51it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<?, ?it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 13.17it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 625.64it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.70it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.70it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 931.45it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.88it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.78it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 284.32it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.80it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.72it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 333.07it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 13.02it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1011.16it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.14it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.07it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1049.89it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.32it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.24it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<?, ?it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 21.49it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<?, ?it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 44.01it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<?, ?it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 40.74it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<?, ?it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 15.92it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 395.58it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 12.42it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 968.66it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.81it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 519.74it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 12.12it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 495.90it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 37.62it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 902.39it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.53it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.44it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1002.94it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 12.11it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 938.53it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.44it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.36it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1000.31it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  1.94it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  1.94it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 498.67it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.42it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 497.90it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.82it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 659.38it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.84it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.84it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 990.62it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.24it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 983.89it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 11.50it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<?, ?it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.14it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.14it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 1001.98it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 10.33it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 37.75it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.38it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  8.38it/s]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 53.82it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.42it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00,  9.33it/s]
+{
+  "system": "B3_flat_neural",
+  "answer_em": 0.013333333333333334,
+  "answer_f1": 0.20061761442310133,
+  "citation_evaluable": 0.9866666666666667,
+  "citation_f1": 0.3702042702042702,
+  "citation_precision": 0.45180180180180196,
+  "citation_recall": 0.37387387387387383,
+  "confidence": 0.8233555555555557,
+  "context_tokens": 1572.1066666666666,
+  "correct": 0.14666666666666667,
+  "evidence_span_recall": 0.4522222222222221,
+  "generated_claim_count": 2.76,
+  "hit_rate@10": 0.9466666666666667,
+  "hit_rate@3": 0.6533333333333333,
+  "hit_rate@5": 0.8,
+  "latency_ms": 5764.044890645891,
+  "mrr": 0.5326243386243387,
+  "ndcg@10": 0.5424878930297191,
+  "ndcg@3": 0.3816490317591476,
+  "ndcg@5": 0.4457750729584619,
+  "official_qasper_evidence_f1": 0.36944914344914337,
+  "precision@10": 0.19866666666666666,
+  "precision@3": 0.28444444444444433,
+  "precision@5": 0.26133333333333314,
+  "recall@10": 0.7528888888888888,
+  "recall@3": 0.3724444444444444,
+  "recall@5": 0.522888888888889,
+  "retrieval_free": 0.0,
+  "verified_claim_count": 2.3466666666666667,
+  "latency_mean_ms": 5764.044890645891,
+  "latency_p50_ms": 5049.670599866658,
+  "latency_p95_ms": 13241.428599925712,
+  "latency_max_ms": 17408.656199811958,
+  "aurc": 0.8028140164414966,
+  "e_aurc": 0.22543083167393307,
+  "selective_accuracy@80cov": 0.15,
+  "citation_f1_ci_low": 0.3031746031746031,
+  "citation_f1_ci_high": 0.4377611127611127,
+  "num_queries": 75.0,
+  "citation_evaluable_queries": 74.0
+}
+{
+  "dataset": "qasper-v0.3",
+  "split": "baseline-dev-75",
+  "questions": 75,
+  "papers": 30,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "summaries": {
+    "oracle_evidence": {
+      "answer_em": 0.04,
+      "answer_f1": 0.2697440099931992,
+      "citation_evaluable": 0.9866666666666667,
+      "citation_f1": 0.6214285714285711,
+      "citation_precision": 0.8513513513513513,
+      "citation_recall": 0.5371621621621622,
+      "confidence": 0.739822222222222,
+      "context_tokens": 517.4933333333333,
+      "correct": 0.22666666666666666,
+      "evidence_span_recall": 0.658962962962963,
+      "generated_claim_count": 2.3733333333333335,
+      "latency_ms": 2320.17668133912,
+      "official_qasper_evidence_f1": 0.6019896791661496,
+      "retrieval_free": 1.0,
+      "verified_claim_count": 1.9866666666666666,
+      "latency_mean_ms": 2320.17668133912,
+      "latency_p50_ms": 2338.732299976982,
+      "latency_p95_ms": 3589.399700053036,
+      "latency_max_ms": 5609.6020000986755,
+      "aurc": 0.6042589534932586,
+      "e_aurc": 0.1622676579533775,
+      "selective_accuracy@80cov": 0.2833333333333333,
+      "citation_f1_ci_low": 0.542277992277992,
+      "citation_f1_ci_high": 0.6959459459459458,
+      "num_queries": 75.0,
+      "citation_evaluable_queries": 74.0
+    },
+    "full_document": {
+      "answer_em": 0.013333333333333334,
+      "answer_f1": 0.20462909848470354,
+      "citation_evaluable": 0.9866666666666667,
+      "citation_f1": 0.34298419298419297,
+      "citation_precision": 0.4049549549549549,
+      "citation_recall": 0.3466216216216216,
+      "confidence": 0.798277777777778,
+      "context_tokens": 4354.586666666667,
+      "correct": 0.16,
+      "evidence_span_recall": 0.4391851851851853,
+      "generated_claim_count": 2.8533333333333335,
+      "latency_ms": 4240.847224003325,
+      "official_qasper_evidence_f1": 0.337391738865423,
+      "retrieval_free": 1.0,
+      "verified_claim_count": 2.32,
+      "latency_mean_ms": 4240.847224003325,
+      "latency_p50_ms": 4188.831900013611,
+      "latency_p95_ms": 6971.832200186327,
+      "latency_max_ms": 8345.409299945459,
+      "aurc": 0.758700868300929,
+      "e_aurc": 0.20640406067570805,
+      "selective_accuracy@80cov": 0.18333333333333332,
+      "citation_f1_ci_low": 0.27081724581724587,
+      "citation_f1_ci_high": 0.415892815892816,
+      "num_queries": 75.0,
+      "citation_evaluable_queries": 74.0
+    },
+    "B3_flat_neural": {
+      "answer_em": 0.013333333333333334,
+      "answer_f1": 0.20061761442310133,
+      "citation_evaluable": 0.9866666666666667,
+      "citation_f1": 0.3702042702042702,
+      "citation_precision": 0.45180180180180196,
+      "citation_recall": 0.37387387387387383,
+      "confidence": 0.8233555555555557,
+      "context_tokens": 1572.1066666666666,
+      "correct": 0.14666666666666667,
+      "evidence_span_recall": 0.4522222222222221,
+      "generated_claim_count": 2.76,
+      "hit_rate@10": 0.9466666666666667,
+      "hit_rate@3": 0.6533333333333333,
+      "hit_rate@5": 0.8,
+      "latency_ms": 5764.044890645891,
+      "mrr": 0.5326243386243387,
+      "ndcg@10": 0.5424878930297191,
+      "ndcg@3": 0.3816490317591476,
+      "ndcg@5": 0.4457750729584619,
+      "official_qasper_evidence_f1": 0.36944914344914337,
+      "precision@10": 0.19866666666666666,
+      "precision@3": 0.28444444444444433,
+      "precision@5": 0.26133333333333314,
+      "recall@10": 0.7528888888888888,
+      "recall@3": 0.3724444444444444,
+      "recall@5": 0.522888888888889,
+      "retrieval_free": 0.0,
+      "verified_claim_count": 2.3466666666666667,
+      "latency_mean_ms": 5764.044890645891,
+      "latency_p50_ms": 5049.670599866658,
+      "latency_p95_ms": 13241.428599925712,
+      "latency_max_ms": 17408.656199811958,
+      "aurc": 0.8028140164414966,
+      "e_aurc": 0.22543083167393307,
+      "selective_accuracy@80cov": 0.15,
+      "citation_f1_ci_low": 0.3031746031746031,
+      "citation_f1_ci_high": 0.4377611127611127,
+      "num_queries": 75.0,
+      "citation_evaluable_queries": 74.0
+    }
+  },
+  "comparisons_vs_flat": {
+    "oracle_evidence": {
+      "official_qasper_evidence_f1_p_vs_flat": 0.000999000999000999,
+      "official_qasper_evidence_f1_diff_cluster_ci": [
+        0.16384530502177558,
+        0.2960337875631992
+      ]
+    },
+    "full_document": {
+      "official_qasper_evidence_f1_p_vs_flat": 0.32867132867132864,
+      "official_qasper_evidence_f1_diff_cluster_ci": [
+        -0.08833476465055413,
+        0.02414939403243498
+      ]
+    }
+  }
+}

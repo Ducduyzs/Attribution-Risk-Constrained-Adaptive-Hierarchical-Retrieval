@@ -1,0 +1,1073 @@
+{
+  "config": "artifacts/baselines/main/config.json",
+  "questions_manifest": "manifests/qasper_baseline_dev_questions.jsonl",
+  "systems": {
+    "B3_flat_neural": {
+      "rows": 75,
+      "replay_reproduces_stored": true,
+      "drift_loss_monotone": true,
+      "crc_thresholds_by_fold": {
+        "fixed+crc@0.02": [
+          "inf"
+        ],
+        "fixed+crc@0.05": [
+          "0.25"
+        ],
+        "fixed+crc@0.1": [
+          "0.25"
+        ]
+      },
+      "summaries": {
+        "legacy": {
+          "citation_precision": 0.34909909909909914,
+          "citation_recall": 0.2211711711711712,
+          "citation_f1": 0.2431262431262432,
+          "evidence_f1": 0.2967957227957228,
+          "answer_f1": 0.19846800528043387,
+          "accepted_claims": 1.1333333333333333,
+          "cited_leaves": 0.9066666666666666,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed": {
+          "citation_precision": 0.47635135135135137,
+          "citation_recall": 0.3144144144144144,
+          "citation_f1": 0.34080536580536586,
+          "evidence_f1": 0.38621870721870727,
+          "answer_f1": 0.2737704401992609,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+cite_retrieved": {
+          "citation_precision": 0.47635135135135137,
+          "citation_recall": 0.3144144144144144,
+          "citation_f1": 0.34080536580536586,
+          "evidence_f1": 0.38621870721870727,
+          "answer_f1": 0.2737704401992609,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.02": {
+          "citation_precision": 0.47635135135135137,
+          "citation_recall": 0.3144144144144144,
+          "citation_f1": 0.34080536580536586,
+          "evidence_f1": 0.38621870721870727,
+          "answer_f1": 0.2737704401992609,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.05": {
+          "citation_precision": 0.47635135135135137,
+          "citation_recall": 0.3144144144144144,
+          "citation_f1": 0.34080536580536586,
+          "evidence_f1": 0.38621870721870727,
+          "answer_f1": 0.2737704401992609,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.1": {
+          "citation_precision": 0.47635135135135137,
+          "citation_recall": 0.3144144144144144,
+          "citation_f1": 0.34080536580536586,
+          "evidence_f1": 0.38621870721870727,
+          "answer_f1": 0.2737704401992609,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        }
+      },
+      "vs_legacy": {
+        "fixed": {
+          "citation_f1": {
+            "mean_diff": 0.0976791226791227,
+            "paper_cluster_ci95": [
+              0.038612757105907794,
+              0.16666666666666666
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08942298442298444,
+            "paper_cluster_ci95": [
+              0.0265941095941096,
+              0.16559536759536767
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.07530243491882689,
+            "paper_cluster_ci95": [
+              0.029927220104716084,
+              0.1267964238270205
+            ]
+          }
+        },
+        "fixed+cite_retrieved": {
+          "citation_f1": {
+            "mean_diff": 0.0976791226791227,
+            "paper_cluster_ci95": [
+              0.038612757105907794,
+              0.16666666666666666
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08942298442298444,
+            "paper_cluster_ci95": [
+              0.0265941095941096,
+              0.16559536759536767
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.07530243491882689,
+            "paper_cluster_ci95": [
+              0.029927220104716084,
+              0.1267964238270205
+            ]
+          }
+        },
+        "fixed+crc@0.02": {
+          "citation_f1": {
+            "mean_diff": 0.0976791226791227,
+            "paper_cluster_ci95": [
+              0.038612757105907794,
+              0.16666666666666666
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08942298442298444,
+            "paper_cluster_ci95": [
+              0.0265941095941096,
+              0.16559536759536767
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.07530243491882689,
+            "paper_cluster_ci95": [
+              0.029927220104716084,
+              0.1267964238270205
+            ]
+          }
+        },
+        "fixed+crc@0.05": {
+          "citation_f1": {
+            "mean_diff": 0.0976791226791227,
+            "paper_cluster_ci95": [
+              0.038612757105907794,
+              0.16666666666666666
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08942298442298444,
+            "paper_cluster_ci95": [
+              0.0265941095941096,
+              0.16559536759536767
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.07530243491882689,
+            "paper_cluster_ci95": [
+              0.029927220104716084,
+              0.1267964238270205
+            ]
+          }
+        },
+        "fixed+crc@0.1": {
+          "citation_f1": {
+            "mean_diff": 0.0976791226791227,
+            "paper_cluster_ci95": [
+              0.038612757105907794,
+              0.16666666666666666
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08942298442298444,
+            "paper_cluster_ci95": [
+              0.0265941095941096,
+              0.16559536759536767
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.07530243491882689,
+            "paper_cluster_ci95": [
+              0.029927220104716084,
+              0.1267964238270205
+            ]
+          }
+        }
+      }
+    },
+    "B4_static_hierarchy": {
+      "rows": 75,
+      "replay_reproduces_stored": true,
+      "drift_loss_monotone": true,
+      "crc_thresholds_by_fold": {
+        "fixed+crc@0.02": [
+          "inf"
+        ],
+        "fixed+crc@0.05": [
+          "0.25"
+        ],
+        "fixed+crc@0.1": [
+          "0.25"
+        ]
+      },
+      "summaries": {
+        "legacy": {
+          "citation_precision": 0.3445945945945946,
+          "citation_recall": 0.21463963963963964,
+          "citation_f1": 0.24334719334719337,
+          "evidence_f1": 0.33331135531135525,
+          "answer_f1": 0.2123800835131733,
+          "accepted_claims": 1.16,
+          "cited_leaves": 0.9866666666666667,
+          "harmful_drift": 0.013333333333333334,
+          "rescued": 0.0,
+          "harmful_drift_total": 1,
+          "rescued_total": 0
+        },
+        "fixed": {
+          "citation_precision": 0.4515765765765766,
+          "citation_recall": 0.30743243243243246,
+          "citation_f1": 0.3227749727749727,
+          "evidence_f1": 0.39501546601546594,
+          "answer_f1": 0.26625168732928395,
+          "accepted_claims": 1.6666666666666667,
+          "cited_leaves": 1.3733333333333333,
+          "harmful_drift": 0.013333333333333334,
+          "rescued": 0.0,
+          "harmful_drift_total": 1,
+          "rescued_total": 0
+        },
+        "fixed+cite_retrieved": {
+          "citation_precision": 0.4515765765765766,
+          "citation_recall": 0.30743243243243246,
+          "citation_f1": 0.3227749727749727,
+          "evidence_f1": 0.39501546601546594,
+          "answer_f1": 0.2655528066304033,
+          "accepted_claims": 1.6533333333333333,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.02": {
+          "citation_precision": 0.4515765765765766,
+          "citation_recall": 0.30743243243243246,
+          "citation_f1": 0.3227749727749727,
+          "evidence_f1": 0.39501546601546594,
+          "answer_f1": 0.2655528066304033,
+          "accepted_claims": 1.6533333333333333,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.05": {
+          "citation_precision": 0.45382882882882886,
+          "citation_recall": 0.3108108108108108,
+          "citation_f1": 0.32599247599247594,
+          "evidence_f1": 0.39434879934879924,
+          "answer_f1": 0.264440366574567,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.3866666666666667,
+          "harmful_drift": 0.013333333333333334,
+          "rescued": 0.013333333333333334,
+          "harmful_drift_total": 1,
+          "rescued_total": 1
+        },
+        "fixed+crc@0.1": {
+          "citation_precision": 0.45382882882882886,
+          "citation_recall": 0.3108108108108108,
+          "citation_f1": 0.32599247599247594,
+          "evidence_f1": 0.39434879934879924,
+          "answer_f1": 0.264440366574567,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.3866666666666667,
+          "harmful_drift": 0.013333333333333334,
+          "rescued": 0.013333333333333334,
+          "harmful_drift_total": 1,
+          "rescued_total": 1
+        }
+      },
+      "vs_legacy": {
+        "fixed": {
+          "citation_f1": {
+            "mean_diff": 0.07942777942777943,
+            "paper_cluster_ci95": [
+              0.02491324465008676,
+              0.1457875457875458
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06170411070411071,
+            "paper_cluster_ci95": [
+              0.01599999999999999,
+              0.11945824343084617
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.05387160381611079,
+            "paper_cluster_ci95": [
+              0.019923333244229395,
+              0.08954268831646485
+            ]
+          }
+        },
+        "fixed+cite_retrieved": {
+          "citation_f1": {
+            "mean_diff": 0.07942777942777943,
+            "paper_cluster_ci95": [
+              0.02491324465008676,
+              0.1457875457875458
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06170411070411071,
+            "paper_cluster_ci95": [
+              0.01599999999999999,
+              0.11945824343084617
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.053172723117230085,
+            "paper_cluster_ci95": [
+              0.019604228484647414,
+              0.08839896301430519
+            ]
+          }
+        },
+        "fixed+crc@0.02": {
+          "citation_f1": {
+            "mean_diff": 0.07942777942777943,
+            "paper_cluster_ci95": [
+              0.02491324465008676,
+              0.1457875457875458
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06170411070411071,
+            "paper_cluster_ci95": [
+              0.01599999999999999,
+              0.11945824343084617
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.053172723117230085,
+            "paper_cluster_ci95": [
+              0.019604228484647414,
+              0.08839896301430519
+            ]
+          }
+        },
+        "fixed+crc@0.05": {
+          "citation_f1": {
+            "mean_diff": 0.08264528264528263,
+            "paper_cluster_ci95": [
+              0.028691983122362874,
+              0.1490944240944241
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06103744403744404,
+            "paper_cluster_ci95": [
+              0.01507976150833294,
+              0.11900503474577549
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.0520602830613938,
+            "paper_cluster_ci95": [
+              0.01800887549373196,
+              0.08806958961923679
+            ]
+          }
+        },
+        "fixed+crc@0.1": {
+          "citation_f1": {
+            "mean_diff": 0.08264528264528263,
+            "paper_cluster_ci95": [
+              0.028691983122362874,
+              0.1490944240944241
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06103744403744404,
+            "paper_cluster_ci95": [
+              0.01507976150833294,
+              0.11900503474577549
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.0520602830613938,
+            "paper_cluster_ci95": [
+              0.01800887549373196,
+              0.08806958961923679
+            ]
+          }
+        }
+      }
+    },
+    "edahr_prior": {
+      "rows": 75,
+      "replay_reproduces_stored": true,
+      "drift_loss_monotone": true,
+      "crc_thresholds_by_fold": {
+        "fixed+crc@0.02": [
+          "inf"
+        ],
+        "fixed+crc@0.05": [
+          "0.25"
+        ],
+        "fixed+crc@0.1": [
+          "0.25"
+        ]
+      },
+      "summaries": {
+        "legacy": {
+          "citation_precision": 0.29954954954954954,
+          "citation_recall": 0.19436936936936935,
+          "citation_f1": 0.21374616374616376,
+          "evidence_f1": 0.29262803862803866,
+          "answer_f1": 0.18623451046754322,
+          "accepted_claims": 1.2,
+          "cited_leaves": 0.9866666666666667,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed": {
+          "citation_precision": 0.4200450450450451,
+          "citation_recall": 0.2637387387387387,
+          "citation_f1": 0.28634046134046137,
+          "evidence_f1": 0.3512141192141192,
+          "answer_f1": 0.25619735929015275,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.3466666666666667,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+cite_retrieved": {
+          "citation_precision": 0.4200450450450451,
+          "citation_recall": 0.2637387387387387,
+          "citation_f1": 0.28634046134046137,
+          "evidence_f1": 0.3512141192141192,
+          "answer_f1": 0.25619735929015275,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.3466666666666667,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.02": {
+          "citation_precision": 0.4200450450450451,
+          "citation_recall": 0.2637387387387387,
+          "citation_f1": 0.28634046134046137,
+          "evidence_f1": 0.3512141192141192,
+          "answer_f1": 0.25619735929015275,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.3466666666666667,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.05": {
+          "citation_precision": 0.4200450450450451,
+          "citation_recall": 0.2637387387387387,
+          "citation_f1": 0.28634046134046137,
+          "evidence_f1": 0.3512141192141192,
+          "answer_f1": 0.25619735929015275,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.3466666666666667,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.1": {
+          "citation_precision": 0.4200450450450451,
+          "citation_recall": 0.2637387387387387,
+          "citation_f1": 0.28634046134046137,
+          "evidence_f1": 0.3512141192141192,
+          "answer_f1": 0.25619735929015275,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.3466666666666667,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        }
+      },
+      "vs_legacy": {
+        "fixed": {
+          "citation_f1": {
+            "mean_diff": 0.0725942975942976,
+            "paper_cluster_ci95": [
+              0.02315885868517447,
+              0.13499673842139595
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.05858608058608056,
+            "paper_cluster_ci95": [
+              0.0009213759213759205,
+              0.12365412365412365
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.0699628488226095,
+            "paper_cluster_ci95": [
+              0.0199027583560391,
+              0.12348083559257253
+            ]
+          }
+        },
+        "fixed+cite_retrieved": {
+          "citation_f1": {
+            "mean_diff": 0.0725942975942976,
+            "paper_cluster_ci95": [
+              0.02315885868517447,
+              0.13499673842139595
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.05858608058608056,
+            "paper_cluster_ci95": [
+              0.0009213759213759205,
+              0.12365412365412365
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.0699628488226095,
+            "paper_cluster_ci95": [
+              0.0199027583560391,
+              0.12348083559257253
+            ]
+          }
+        },
+        "fixed+crc@0.02": {
+          "citation_f1": {
+            "mean_diff": 0.0725942975942976,
+            "paper_cluster_ci95": [
+              0.02315885868517447,
+              0.13499673842139595
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.05858608058608056,
+            "paper_cluster_ci95": [
+              0.0009213759213759205,
+              0.12365412365412365
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.0699628488226095,
+            "paper_cluster_ci95": [
+              0.0199027583560391,
+              0.12348083559257253
+            ]
+          }
+        },
+        "fixed+crc@0.05": {
+          "citation_f1": {
+            "mean_diff": 0.0725942975942976,
+            "paper_cluster_ci95": [
+              0.02315885868517447,
+              0.13499673842139595
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.05858608058608056,
+            "paper_cluster_ci95": [
+              0.0009213759213759205,
+              0.12365412365412365
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.0699628488226095,
+            "paper_cluster_ci95": [
+              0.0199027583560391,
+              0.12348083559257253
+            ]
+          }
+        },
+        "fixed+crc@0.1": {
+          "citation_f1": {
+            "mean_diff": 0.0725942975942976,
+            "paper_cluster_ci95": [
+              0.02315885868517447,
+              0.13499673842139595
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.05858608058608056,
+            "paper_cluster_ci95": [
+              0.0009213759213759205,
+              0.12365412365412365
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.0699628488226095,
+            "paper_cluster_ci95": [
+              0.0199027583560391,
+              0.12348083559257253
+            ]
+          }
+        }
+      }
+    },
+    "B5_raptor_faithful": {
+      "rows": 75,
+      "replay_reproduces_stored": true,
+      "drift_loss_monotone": true,
+      "crc_thresholds_by_fold": {
+        "fixed+crc@0.02": [
+          "inf"
+        ],
+        "fixed+crc@0.05": [
+          "0.25",
+          "1.0"
+        ],
+        "fixed+crc@0.1": [
+          "0.25"
+        ]
+      },
+      "summaries": {
+        "legacy": {
+          "citation_precision": 0.3806306306306306,
+          "citation_recall": 0.2551801801801801,
+          "citation_f1": 0.2773604773604774,
+          "evidence_f1": 0.335015059015059,
+          "answer_f1": 0.19884198018184274,
+          "accepted_claims": 1.2266666666666666,
+          "cited_leaves": 0.9333333333333333,
+          "harmful_drift": 0.013333333333333334,
+          "rescued": 0.0,
+          "harmful_drift_total": 1,
+          "rescued_total": 0
+        },
+        "fixed": {
+          "citation_precision": 0.509009009009009,
+          "citation_recall": 0.35450450450450444,
+          "citation_f1": 0.3857786357786358,
+          "evidence_f1": 0.40289865689865695,
+          "answer_f1": 0.24418141619596762,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.013333333333333334,
+          "rescued": 0.0,
+          "harmful_drift_total": 1,
+          "rescued_total": 0
+        },
+        "fixed+cite_retrieved": {
+          "citation_precision": 0.509009009009009,
+          "citation_recall": 0.35450450450450444,
+          "citation_f1": 0.3857786357786358,
+          "evidence_f1": 0.40289865689865695,
+          "answer_f1": 0.24418141619596762,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.02": {
+          "citation_precision": 0.509009009009009,
+          "citation_recall": 0.35450450450450444,
+          "citation_f1": 0.3857786357786358,
+          "evidence_f1": 0.40289865689865695,
+          "answer_f1": 0.24418141619596762,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.05": {
+          "citation_precision": 0.509009009009009,
+          "citation_recall": 0.35450450450450444,
+          "citation_f1": 0.3857786357786358,
+          "evidence_f1": 0.40289865689865695,
+          "answer_f1": 0.24418141619596762,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.013333333333333334,
+          "rescued": 0.0,
+          "harmful_drift_total": 1,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.1": {
+          "citation_precision": 0.509009009009009,
+          "citation_recall": 0.35450450450450444,
+          "citation_f1": 0.3857786357786358,
+          "evidence_f1": 0.40289865689865695,
+          "answer_f1": 0.24418141619596762,
+          "accepted_claims": 1.68,
+          "cited_leaves": 1.36,
+          "harmful_drift": 0.013333333333333334,
+          "rescued": 0.0,
+          "harmful_drift_total": 1,
+          "rescued_total": 0
+        }
+      },
+      "vs_legacy": {
+        "fixed": {
+          "citation_f1": {
+            "mean_diff": 0.10841815841815841,
+            "paper_cluster_ci95": [
+              0.053644553644553644,
+              0.1716832187420423
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06788359788359787,
+            "paper_cluster_ci95": [
+              -0.01300366300366301,
+              0.15004348771472062
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.045339436014124886,
+            "paper_cluster_ci95": [
+              -0.008603572862176506,
+              0.10268508034965752
+            ]
+          }
+        },
+        "fixed+cite_retrieved": {
+          "citation_f1": {
+            "mean_diff": 0.10841815841815841,
+            "paper_cluster_ci95": [
+              0.053644553644553644,
+              0.1716832187420423
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06788359788359787,
+            "paper_cluster_ci95": [
+              -0.01300366300366301,
+              0.15004348771472062
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.045339436014124886,
+            "paper_cluster_ci95": [
+              -0.008603572862176506,
+              0.10268508034965752
+            ]
+          }
+        },
+        "fixed+crc@0.02": {
+          "citation_f1": {
+            "mean_diff": 0.10841815841815841,
+            "paper_cluster_ci95": [
+              0.053644553644553644,
+              0.1716832187420423
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06788359788359787,
+            "paper_cluster_ci95": [
+              -0.01300366300366301,
+              0.15004348771472062
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.045339436014124886,
+            "paper_cluster_ci95": [
+              -0.008603572862176506,
+              0.10268508034965752
+            ]
+          }
+        },
+        "fixed+crc@0.05": {
+          "citation_f1": {
+            "mean_diff": 0.10841815841815841,
+            "paper_cluster_ci95": [
+              0.053644553644553644,
+              0.1716832187420423
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06788359788359787,
+            "paper_cluster_ci95": [
+              -0.01300366300366301,
+              0.15004348771472062
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.045339436014124886,
+            "paper_cluster_ci95": [
+              -0.008603572862176506,
+              0.10268508034965752
+            ]
+          }
+        },
+        "fixed+crc@0.1": {
+          "citation_f1": {
+            "mean_diff": 0.10841815841815841,
+            "paper_cluster_ci95": [
+              0.053644553644553644,
+              0.1716832187420423
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.06788359788359787,
+            "paper_cluster_ci95": [
+              -0.01300366300366301,
+              0.15004348771472062
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.045339436014124886,
+            "paper_cluster_ci95": [
+              -0.008603572862176506,
+              0.10268508034965752
+            ]
+          }
+        }
+      }
+    },
+    "B6_longrag_faithful_controlled": {
+      "rows": 75,
+      "replay_reproduces_stored": true,
+      "drift_loss_monotone": true,
+      "crc_thresholds_by_fold": {
+        "fixed+crc@0.02": [
+          "inf"
+        ],
+        "fixed+crc@0.05": [
+          "0.25"
+        ],
+        "fixed+crc@0.1": [
+          "0.25"
+        ]
+      },
+      "summaries": {
+        "legacy": {
+          "citation_precision": 0.23648648648648649,
+          "citation_recall": 0.14076576576576577,
+          "citation_f1": 0.16171171171171173,
+          "evidence_f1": 0.22056306656306654,
+          "answer_f1": 0.17652737406405078,
+          "accepted_claims": 1.04,
+          "cited_leaves": 0.7866666666666666,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed": {
+          "citation_precision": 0.3806306306306306,
+          "citation_recall": 0.22860360360360363,
+          "citation_f1": 0.25438750438750446,
+          "evidence_f1": 0.3063439153439153,
+          "answer_f1": 0.2383745032973972,
+          "accepted_claims": 1.6,
+          "cited_leaves": 1.24,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+cite_retrieved": {
+          "citation_precision": 0.3806306306306306,
+          "citation_recall": 0.22860360360360363,
+          "citation_f1": 0.25438750438750446,
+          "evidence_f1": 0.3063439153439153,
+          "answer_f1": 0.2383745032973972,
+          "accepted_claims": 1.6,
+          "cited_leaves": 1.24,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.02": {
+          "citation_precision": 0.3806306306306306,
+          "citation_recall": 0.22860360360360363,
+          "citation_f1": 0.25438750438750446,
+          "evidence_f1": 0.3063439153439153,
+          "answer_f1": 0.2383745032973972,
+          "accepted_claims": 1.6,
+          "cited_leaves": 1.24,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.05": {
+          "citation_precision": 0.3806306306306306,
+          "citation_recall": 0.22860360360360363,
+          "citation_f1": 0.25438750438750446,
+          "evidence_f1": 0.3063439153439153,
+          "answer_f1": 0.2383745032973972,
+          "accepted_claims": 1.6,
+          "cited_leaves": 1.24,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        },
+        "fixed+crc@0.1": {
+          "citation_precision": 0.3806306306306306,
+          "citation_recall": 0.22860360360360363,
+          "citation_f1": 0.25438750438750446,
+          "evidence_f1": 0.3063439153439153,
+          "answer_f1": 0.2383745032973972,
+          "accepted_claims": 1.6,
+          "cited_leaves": 1.24,
+          "harmful_drift": 0.0,
+          "rescued": 0.0,
+          "harmful_drift_total": 0,
+          "rescued_total": 0
+        }
+      },
+      "vs_legacy": {
+        "fixed": {
+          "citation_f1": {
+            "mean_diff": 0.09267579267579268,
+            "paper_cluster_ci95": [
+              0.035396637994040595,
+              0.16474867724867726
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08578084878084878,
+            "paper_cluster_ci95": [
+              0.025875153652931433,
+              0.15345719095719101
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.06184712923334641,
+            "paper_cluster_ci95": [
+              0.021138550303195534,
+              0.11539853997880861
+            ]
+          }
+        },
+        "fixed+cite_retrieved": {
+          "citation_f1": {
+            "mean_diff": 0.09267579267579268,
+            "paper_cluster_ci95": [
+              0.035396637994040595,
+              0.16474867724867726
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08578084878084878,
+            "paper_cluster_ci95": [
+              0.025875153652931433,
+              0.15345719095719101
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.06184712923334641,
+            "paper_cluster_ci95": [
+              0.021138550303195534,
+              0.11539853997880861
+            ]
+          }
+        },
+        "fixed+crc@0.02": {
+          "citation_f1": {
+            "mean_diff": 0.09267579267579268,
+            "paper_cluster_ci95": [
+              0.035396637994040595,
+              0.16474867724867726
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08578084878084878,
+            "paper_cluster_ci95": [
+              0.025875153652931433,
+              0.15345719095719101
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.06184712923334641,
+            "paper_cluster_ci95": [
+              0.021138550303195534,
+              0.11539853997880861
+            ]
+          }
+        },
+        "fixed+crc@0.05": {
+          "citation_f1": {
+            "mean_diff": 0.09267579267579268,
+            "paper_cluster_ci95": [
+              0.035396637994040595,
+              0.16474867724867726
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08578084878084878,
+            "paper_cluster_ci95": [
+              0.025875153652931433,
+              0.15345719095719101
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.06184712923334641,
+            "paper_cluster_ci95": [
+              0.021138550303195534,
+              0.11539853997880861
+            ]
+          }
+        },
+        "fixed+crc@0.1": {
+          "citation_f1": {
+            "mean_diff": 0.09267579267579268,
+            "paper_cluster_ci95": [
+              0.035396637994040595,
+              0.16474867724867726
+            ]
+          },
+          "evidence_f1": {
+            "mean_diff": 0.08578084878084878,
+            "paper_cluster_ci95": [
+              0.025875153652931433,
+              0.15345719095719101
+            ]
+          },
+          "answer_f1": {
+            "mean_diff": 0.06184712923334641,
+            "paper_cluster_ci95": [
+              0.021138550303195534,
+              0.11539853997880861
+            ]
+          }
+        }
+      }
+    }
+  },
+  "generator_note": "Rows in artifacts/baselines/main were generated by local Qwen/Qwen2.5-7B-Instruct (hard-coded in scripts/run_faithful_main.py); their run_metadata/config wrongly record openai:gpt-4o-mini."
+}

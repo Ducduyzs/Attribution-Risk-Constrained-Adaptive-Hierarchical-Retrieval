@@ -27,6 +27,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 
+GENERATOR_MODEL = "Qwen/Qwen2.5-7B-Instruct"
+
 def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as handle:
@@ -196,7 +198,12 @@ def main() -> None:
 
     reranker = BGEReranker(settings.reranker_model, settings.device)
     verifier = NliVerifier(settings.nli_model, settings.device)
-    generator = LocalStructuredGenerator("Qwen/Qwen2.5-7B-Instruct", settings.device)
+    generator = LocalStructuredGenerator(GENERATOR_MODEL, settings.device)
+    # settings.llm_provider/llm_model are NOT used by this script; record the
+    # generator that actually produced the rows (run_metadata misreported it).
+    settings = replace(settings, llm_provider="local", llm_model=GENERATOR_MODEL)
+    base_metadata["settings"] = settings.to_dict()
+    base_metadata["generator"] = GENERATOR_MODEL
 
     _encoder = None
 

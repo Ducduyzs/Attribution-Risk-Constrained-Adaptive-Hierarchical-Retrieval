@@ -59,7 +59,8 @@ def value(summary: dict, key: str) -> float:
 
 SYSTEM_NAMES = (
     "B0_bm25", "B1_dense", "B2_hybrid_rrf", "B3_flat_neural",
-    "B4_static_hierarchy", "prior", "learned_v7",
+    "B4_static_hierarchy", "B5_raptor_faithful", "B6_longrag_faithful",
+    "prior", "learned_v7",
     "learned_v7_parent_only", "learned_v7_section_only",
     "learned_v7_no_rollback", "learned_v7_no_verifier",
     "oracle_evidence", "full_document",
@@ -155,7 +156,8 @@ def build_systems(
     factories: dict[str, Callable[[], AdaptiveHierarchicalPipeline]] = {
         name: baseline(name)
         for name in ("B0_bm25", "B1_dense", "B2_hybrid_rrf",
-                     "B3_flat_neural", "B4_static_hierarchy")
+                     "B3_flat_neural", "B4_static_hierarchy",
+                     "B5_raptor_faithful", "B6_longrag_faithful")
     }
     factories["prior"] = prior
 

@@ -169,6 +169,20 @@ class ChildLevelVerificationTests(unittest.TestCase):
         self.assertTrue(verified2.answerable)
         self.assertEqual(len(evidence2), 1)
 
+        # H4/H5: an explicit expanded-leaf threshold overrides the sibling rule.
+        calibrated = data_replace(unguarded, expanded_citation_threshold=0.29)
+        verified3, _, _ = verify_generation(
+            generation, [block], self.hierarchy, WeakVerifier(), calibrated,
+            retrieved_ids={"a-different-leaf"},
+        )
+        self.assertTrue(verified3.answerable)
+        cite_retrieved_only = data_replace(unguarded, expanded_citation_threshold=2.0)
+        verified4, _, _ = verify_generation(
+            generation, [block], self.hierarchy, WeakVerifier(), cite_retrieved_only,
+            retrieved_ids={"a-different-leaf"},
+        )
+        self.assertFalse(verified4.answerable)
+
     def test_claim_rejected_when_no_child_supports(self):
         generation = Generation(True, (Claim("A claim nothing supports.", ("C1",), 0.9),))
         children = [
@@ -246,6 +260,44 @@ class ChildLevelVerificationTests(unittest.TestCase):
         )
         self.assertFalse(verified.answerable)
         self.assertFalse(evidence)
+        self.assertGreater(metrics["candidate_safety_guard_rejections"], 0.0)
+
+    def test_lexical_guard_does_not_veto_nli_entailment(self):
+        """A stray negation elsewhere in the leaf must not reject an entailed claim."""
+        child = self.hierarchy.child_ids[0]
+        block = _block(self.hierarchy, child, "C1")
+
+        class EntailingVerifier:
+            def score_details(self, claim, evidence):
+                return 0.95, 0.01
+
+        generation = Generation(True, (
+            Claim("They did not use 7 annotators.", ("C1",), 0.9),
+        ))
+        verified, evidence, metrics = verify_generation(
+            generation, [block], self.hierarchy, EntailingVerifier(), self.settings
+        )
+        self.assertTrue(verified.answerable)
+        self.assertEqual(len(evidence), 1)
+        self.assertEqual(metrics["candidate_safety_guard_rejections"], 0.0)
+
+    def test_lexical_fallback_blocked_by_polarity_conflict(self):
+        child = self.hierarchy.child_ids[0]
+        block = _block(self.hierarchy, child, "C1")
+
+        class NeutralVerifier:
+            def score_details(self, claim, evidence):
+                return 0.05, 0.01  # neutral: only the lexical fallback could accept
+
+        from dataclasses import replace as data_replace
+        settings = data_replace(self.settings, lexical_support_min_coverage=0.1)
+        generation = Generation(True, (
+            Claim("Gold finding does not support the claim here.", ("C1",), 0.9),
+        ))
+        verified, _, metrics = verify_generation(
+            generation, [block], self.hierarchy, NeutralVerifier(), settings
+        )
+        self.assertFalse(verified.answerable)
         self.assertGreater(metrics["candidate_safety_guard_rejections"], 0.0)
 
 

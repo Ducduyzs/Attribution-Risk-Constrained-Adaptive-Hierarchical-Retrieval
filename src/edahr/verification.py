@@ -153,21 +153,25 @@ def verify_generation(
             nli_calls += 1
             coverage = float(claim_coverage(claim.text, child_text))
             score = raw_score
-            safety_blocked = (
-                contradiction >= settings.nli_contradiction_threshold
-                or _lexical_conflict(claim.text, child_text)
-            )
+            # Strong NLI contradiction always vetoes. The lexical polarity /
+            # number check only gates the lexical *fallback*: applied to NLI
+            # entailment it vetoed any claim whose 220-token leaf contained a
+            # stray "not" or an unrelated number (~25% of claims, mostly gold).
+            safety_blocked = contradiction >= settings.nli_contradiction_threshold
             if safety_blocked:
                 score = 0.0
             elif raw_score < settings.nli_support_threshold:
                 # Deterministic fallback: near-verbatim restatements (including
                 # numeral paraphrases like "six" vs "N = 6") that the NLI
                 # checkpoint scores as neutral still count as supported.
-                if not safety_blocked and (
+                if (
                     settings.lexical_support_min_coverage > 0.0
                     and coverage >= settings.lexical_support_min_coverage
                 ):
-                    score = max(score, coverage)
+                    if _lexical_conflict(claim.text, child_text):
+                        safety_blocked = True
+                    else:
+                        score = max(score, coverage)
             best_support = max(best_support, float(score))
             origin = next(block for block in cited if child_id in block.evidence_ids)
             passed_base = score >= settings.nli_support_threshold
@@ -200,8 +204,12 @@ def verify_generation(
         if claim_supports is not None:
             claim_supports.append((claim.text, round(best_support, 4)))
         scored.sort(key=lambda item: item[1], reverse=True)
-        if retrieved_ids and settings.sibling_threshold_delta > 0.0:
-            bar = settings.nli_support_threshold + settings.sibling_threshold_delta
+        expanded_bar = getattr(settings, "expanded_citation_threshold", None)
+        if retrieved_ids and (expanded_bar is not None or settings.sibling_threshold_delta > 0.0):
+            bar = (
+                expanded_bar if expanded_bar is not None
+                else settings.nli_support_threshold + settings.sibling_threshold_delta
+            )
             before = len(scored)
             scored = [
                 entry for entry in scored
