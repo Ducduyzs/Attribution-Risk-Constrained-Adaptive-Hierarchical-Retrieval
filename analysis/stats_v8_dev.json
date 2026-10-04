@@ -1,0 +1,302 @@
+[
+  {
+    "baseline": "B5_raptor_faithful",
+    "metric": "citation_f1",
+    "questions": 74,
+    "papers": 30,
+    "mean_diff": -0.04862292362292363,
+    "ci95": [
+      -0.1088294746189483,
+      0.009606639152093676
+    ],
+    "p": 0.12274386280685966,
+    "d_z": -0.3533360999011021,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.815659217039148,
+      "one_sided_lower": -0.0989822413873047,
+      "non_inferior": false
+    },
+    "p_holm": 1.0
+  },
+  {
+    "baseline": "B5_raptor_faithful",
+    "metric": "official_qasper_evidence_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": -0.0077659083262798375,
+    "ci95": [
+      -0.05638416114927085,
+      0.04347311728157419
+    ],
+    "p": 0.7726613669316534,
+    "d_z": -0.08436795846263459,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.32503374831258436,
+      "one_sided_lower": -0.04899689700441579,
+      "non_inferior": false
+    },
+    "p_holm": 1.0
+  },
+  {
+    "baseline": "B5_raptor_faithful",
+    "metric": "answer_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": -0.01312217087594723,
+    "ci95": [
+      -0.04191875005246452,
+      0.015337199547682227
+    ],
+    "p": 0.3881805909704515,
+    "d_z": -0.04341770930466931,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.32538373081345934,
+      "one_sided_lower": -0.0364012838160128,
+      "non_inferior": false
+    },
+    "p_holm": 1.0
+  },
+  {
+    "baseline": "B4_static_hierarchy",
+    "metric": "citation_f1",
+    "questions": 74,
+    "papers": 30,
+    "mean_diff": 0.021616821616821612,
+    "ci95": [
+      -0.029835423835423834,
+      0.07654924983692107
+    ],
+    "p": 0.44097795110244487,
+    "d_z": 0.10941116241754832,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.06819659017049147,
+      "one_sided_lower": -0.02071092487759154,
+      "non_inferior": false
+    },
+    "p_holm": 1.0
+  },
+  {
+    "baseline": "B4_static_hierarchy",
+    "metric": "official_qasper_evidence_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": 0.023538278714749308,
+    "ci95": [
+      -0.030684130684130676,
+      0.07975984446572684
+    ],
+    "p": 0.43097845107744615,
+    "d_z": 0.14941910908741968,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.06904654767261637,
+      "one_sided_lower": -0.0228845940384402,
+      "non_inferior": false
+    },
+    "p_holm": 1.0
+  },
+  {
+    "baseline": "B4_static_hierarchy",
+    "metric": "answer_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": 0.0019506573542615994,
+    "ci95": [
+      -0.02757018710323256,
+      0.03932310527776196
+    ],
+    "p": 0.9271036448177591,
+    "d_z": 0.037913480384739705,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.11499425028748562,
+      "one_sided_lower": -0.023869191289488556,
+      "non_inferior": false
+    },
+    "p_holm": 1.0
+  },
+  {
+    "baseline": "B3_flat_neural",
+    "metric": "citation_f1",
+    "questions": 74,
+    "papers": 30,
+    "mean_diff": 0.016860691860691862,
+    "ci95": [
+      -0.02286890064667842,
+      0.05763125763125761
+    ],
+    "p": 0.41727913604319783,
+    "d_z": 0.10917764553662833,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.04374781260936953,
+      "one_sided_lower": -0.016206328882385216,
+      "non_inferior": true
+    },
+    "p_holm": 1.0
+  },
+  {
+    "baseline": "B3_flat_neural",
+    "metric": "official_qasper_evidence_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": 0.026860290036760628,
+    "ci95": [
+      -0.027806310498618186,
+      0.0802202699261523
+    ],
+    "p": 0.35483225838708066,
+    "d_z": 0.18656140474439406,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.05264736763161842,
+      "one_sided_lower": -0.018930990578049388,
+      "non_inferior": false
+    },
+    "p_holm": 1.0
+  },
+  {
+    "baseline": "B3_flat_neural",
+    "metric": "answer_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": 0.029970193583359558,
+    "ci95": [
+      0.0033146487470846696,
+      0.06383782343387556
+    ],
+    "p": 0.05364731763411829,
+    "d_z": 0.36928932724199076,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.00014999250037498125,
+      "one_sided_lower": 0.006220761160422819,
+      "non_inferior": true
+    },
+    "p_holm": 0.6974151292435378
+  },
+  {
+    "baseline": "full_document",
+    "metric": "citation_f1",
+    "questions": 74,
+    "papers": 30,
+    "mean_diff": 0.04408076908076908,
+    "ci95": [
+      -0.005082680082680093,
+      0.09531846493871807
+    ],
+    "p": 0.0928453577321134,
+    "d_z": 0.2860048064998558,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.009449527523623819,
+      "one_sided_lower": 0.0022079898792227532,
+      "non_inferior": true
+    },
+    "p_holm": 0.928453577321134
+  },
+  {
+    "baseline": "full_document",
+    "metric": "official_qasper_evidence_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": 0.05891769462048098,
+    "ci95": [
+      0.018044715747502136,
+      0.10105624992176583
+    ],
+    "p": 0.0095995200239988,
+    "d_z": 0.4183268559077463,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.00039998000099995,
+      "one_sided_lower": 0.025373190514802708,
+      "non_inferior": true
+    },
+    "p_holm": 0.1343932803359832
+  },
+  {
+    "baseline": "full_document",
+    "metric": "answer_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": 0.025958709521757387,
+    "ci95": [
+      -0.008540221079743586,
+      0.06848194833281282
+    ],
+    "p": 0.20378981050947453,
+    "d_z": 0.2892240837294668,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.00839958002099895,
+      "one_sided_lower": -0.0035777959234286755,
+      "non_inferior": true
+    },
+    "p_holm": 1.0
+  },
+  {
+    "baseline": "B6_longrag_faithful",
+    "metric": "citation_f1",
+    "questions": 74,
+    "papers": 30,
+    "mean_diff": 0.07357619857619857,
+    "ci95": [
+      0.0009498939878686735,
+      0.15024420024420027
+    ],
+    "p": 0.06424678766061696,
+    "d_z": 0.3095040579730138,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.010149492525373732,
+      "one_sided_lower": 0.013529526029526026,
+      "non_inferior": true
+    },
+    "p_holm": 0.7451627418629068
+  },
+  {
+    "baseline": "B6_longrag_faithful",
+    "metric": "official_qasper_evidence_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": 0.10928445846092906,
+    "ci95": [
+      0.03786772925132496,
+      0.18550515507037246
+    ],
+    "p": 0.005549722513874306,
+    "d_z": 0.550371790475541,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.0004999750012499375,
+      "one_sided_lower": 0.05016533622671731,
+      "non_inferior": true
+    },
+    "p_holm": 0.08324583770811458
+  },
+  {
+    "baseline": "B6_longrag_faithful",
+    "metric": "answer_f1",
+    "questions": 75,
+    "papers": 30,
+    "mean_diff": 0.03576304214988177,
+    "ci95": [
+      0.0024939275976982966,
+      0.07383810489287627
+    ],
+    "p": 0.062096895155242235,
+    "d_z": 0.3653593910493716,
+    "non_inferiority": {
+      "margin": 0.02,
+      "p": 0.0012499375031248437,
+      "one_sided_lower": 0.006804669768006266,
+      "non_inferior": true
+    },
+    "p_holm": 0.7451627418629068
+  }
+]
