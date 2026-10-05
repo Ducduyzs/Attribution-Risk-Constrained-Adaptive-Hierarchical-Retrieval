@@ -24,6 +24,10 @@ A5. When a Gaussian mixture fit fails on an ill-conditioned covariance (the
     official code raises and aborts the tree), it is refit with a larger
     ``reg_covar`` (1e-4, then 1e-3). Fits that needed this are counted in
     ``GMM_REGULARIZED_FITS`` and recorded in the tree metadata.
+A6. When local UMAP cannot build a neighbour graph (e.g. a cluster of
+    near-identical units, such as repeated captions; the official code raises),
+    the cluster is kept as one local cluster -- the same treatment the official
+    code gives clusters too small for UMAP. Counted in ``UMAP_FALLBACKS``.
 
 Primary mode never falls back to lexical methods: missing ``umap-learn``,
 sentence-transformers weights, or LLM access raises RuntimeError naming the
@@ -165,6 +169,7 @@ def _cached_sbert_model(model_name: str, device: str):
 
 
 GMM_REGULARIZED_FITS = [0]
+UMAP_FALLBACKS = [0]
 
 
 def _fit_gmm(vectors, n: int, seed: int):
@@ -253,10 +258,17 @@ def raptor_cluster_indices(
                 membership[i].add(total)
             total += 1
             continue
-        local_reduced = umap.UMAP(
-            n_neighbors=10, n_components=min(dim, len(members) - 2),
-            metric="cosine", random_state=seed,
-        ).fit_transform(matrix[members])
+        try:
+            local_reduced = umap.UMAP(
+                n_neighbors=10, n_components=min(dim, len(members) - 2),
+                metric="cosine", random_state=seed,
+            ).fit_transform(matrix[members])
+        except ValueError:
+            UMAP_FALLBACKS[0] += 1
+            for i in members:
+                membership[i].add(total)
+            total += 1
+            continue
         local_labels, n_local = _gmm_bic_labels(
             local_reduced, seed, max_clusters, threshold
         )
@@ -533,6 +545,7 @@ def build_paper_tree(
     layer = 0
     summary_calls = 0
     regularized_before = GMM_REGULARIZED_FITS[0]
+    umap_before = UMAP_FALLBACKS[0]
     while len(current) > 1 and layer < config.max_layers:
         vectors = [node.embedding for node in current]
         if len(current) <= 2:
@@ -596,6 +609,7 @@ def build_paper_tree(
     meta = {
         "cache": "miss", "summary_calls": summary_calls, "layers": layer + 1,
         "gmm_regularized_fits": GMM_REGULARIZED_FITS[0] - regularized_before,
+        "umap_fallbacks": UMAP_FALLBACKS[0] - umap_before,
     }
     if cache_path is not None:
         cache_path.parent.mkdir(parents=True, exist_ok=True)

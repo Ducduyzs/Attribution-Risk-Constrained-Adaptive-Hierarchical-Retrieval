@@ -63,3 +63,11 @@ nhóm NLPeer (được phép phát hành lại) và evidence do tác giả gán 
 - Manifest: `scripts/v11_make_peerqa_manifest.py`; hash nguồn và manifest trong
   `manifests/peerqa_metadata.json`. Manifest dẫn xuất không commit (giấy phép NC-SA).
 - Giả thuyết, nhánh, ngân sách, phân tích: **không đổi**.
+
+## Sửa đổi 2 (2026-10-05, kỹ thuật, trước mọi kết quả PeerQA)
+
+Lần prepare đầu dừng ở bước dựng cây RAPTOR: UMAP cục bộ không dựng được đồ thị láng giềng
+cho một cụm đơn vị gần như trùng nhau (code RAPTOR gốc cũng dừng ở trường hợp này). Thêm
+adaptation **A6**: giữ nguyên cụm đó làm một cụm cục bộ — đúng cách code gốc xử lý cụm quá
+nhỏ cho UMAP; số lần kích hoạt được ghi vào metadata cây. Chỉ tác động nhánh lỗi; cây
+QASPER đã dựng không đổi. Chưa có bảng xếp hạng, đáp án hay điểm PeerQA nào được tạo.
