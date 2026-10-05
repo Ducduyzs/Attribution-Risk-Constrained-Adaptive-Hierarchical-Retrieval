@@ -114,3 +114,51 @@ def convert_peerqa(paper_rows: Iterable[dict], qa_rows: Iterable[dict]) -> tuple
     report = {"papers": len(papers), "questions": len(questions), "skipped": skipped,
               "paragraphs": len(paragraph_text)}
     return papers, questions, report
+
+
+def mteb_to_peerqa_rows(corpus: Iterable[dict], queries: Iterable[dict],
+                        qrels: Iterable[dict]) -> tuple[list[dict], list[dict]]:
+    """Map the MTEB packaging of PeerQA (``mteb/PeerQA``) to PeerQA-style rows.
+
+    MTEB ships the redistributable (NLPeer) papers as one corpus unit per GROBID
+    element, id ``{paper_id}_{idx}``, with the last heading in ``title`` (empty
+    for the paper title and for heading units), plus author evidence as qrels
+    over unit ids. Each unit becomes its own evidence unit (``pidx = idx``), so
+    evidence F1 is computed at that (sentence-like) granularity. MTEB has no
+    free-form answers.
+    """
+    corpus = list(corpus)
+    # A unit is a heading only if a later unit names it as its last heading;
+    # other units with an empty heading are captions, tables or unsectioned
+    # body text (GROBID), and stay evidence units.
+    headings: dict[str, set[str]] = {}
+    for unit in corpus:
+        paper_id = str(unit["id"]).rsplit("_", 1)[0]
+        if _norm(unit.get("title")):
+            headings.setdefault(paper_id, set()).add(_norm(unit["title"]))
+    rows: list[dict] = []
+    for unit in corpus:
+        paper_id, idx = str(unit["id"]).rsplit("_", 1)
+        idx = int(idx)
+        is_heading = not _norm(unit.get("title")) and _norm(unit["text"]) in headings.get(paper_id, ())
+        kind = "title" if idx == 0 else ("heading" if is_heading else "sentence")
+        rows.append({"idx": idx, "pidx": idx, "sidx": 0, "type": kind,
+                     "content": unit["text"], "last_heading": unit.get("title") or None,
+                     "paper_id": paper_id})
+    evidence: dict[str, list[int]] = {}
+    paper_of: dict[str, str] = {}
+    for rel in qrels:
+        if int(rel.get("score", 1)) <= 0:
+            continue
+        paper_id, idx = str(rel["corpus-id"]).rsplit("_", 1)
+        evidence.setdefault(str(rel["query-id"]), []).append(int(idx))
+        paper_of[str(rel["query-id"])] = paper_id
+    qa: list[dict] = []
+    for query in queries:
+        qid = str(query["id"])
+        if qid not in evidence:
+            continue
+        qa.append({"paper_id": paper_of[qid], "question_id": qid, "question": query["text"],
+                   "answer_free_form": "", "answerable": True, "answerable_mapped": True,
+                   "answer_evidence_mapped": [{"idx": sorted(set(evidence[qid]))}]})
+    return rows, qa

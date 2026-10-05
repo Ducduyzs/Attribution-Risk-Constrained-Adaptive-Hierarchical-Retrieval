@@ -1,0 +1,25 @@
+{
+  "source": "huggingface.co/datasets/mteb/PeerQA (CC BY-NC-SA 4.0), NLPeer subset of PeerQA",
+  "source_sha256": {
+    "corpus.parquet": "29a130f3e1cf8a4c1dae60c2c82b2001020043cd4f518363567c51cf0c4dd366",
+    "queries.parquet": "74bffded417cdfdec01788ef5ec93bed4686ccbaa0df2831953b30bc8b386937",
+    "qrels.parquet": "e21569d7e9a89a056f37d17b9549ae759fdd0508e50c8ef33e7f5744ace1911f"
+  },
+  "conversion": {
+    "papers": 70,
+    "questions": 136,
+    "skipped": {
+      "not_answerable_mapped": 0,
+      "paper_missing": 0,
+      "evidence_unmapped": 0
+    },
+    "paragraphs": 17909
+  },
+  "questions_with_gold_leaves": 136,
+  "leaves": 3144,
+  "sha256": {
+    "peerqa_papers.jsonl": "43510ecffe17127b690226fa906ebc77ca0b1093f6edccbe85905d60b803f225",
+    "peerqa_questions.jsonl": "ccde0958d2c6fa1bf52778f572711d925291bf77d5f126c7cc878a7a5f556a4c"
+  },
+  "note": "evidence units are MTEB corpus units (sentence-like); no free-form answers"
+}

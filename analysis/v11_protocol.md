@@ -45,3 +45,21 @@ PeerQA × gpt-4o-mini. Các ô khác là kiểm tra độ bền; báo cáo đủ
 - Answer F1 trên PeerQA là token-F1 với câu trả lời tự do của tác giả (khác chỉ số chính
   thức của PeerQA: ROUGE-L/AlignScore/Prometheus) → chỉ mô tả.
 - Bài PeerQA dài (~12k token) → nhiều leaf hơn; RAPTOR được dựng đầy đủ, không cắt.
+
+## Sửa đổi 1 (2026-10-05, trước mọi lượt chạy PeerQA)
+
+Bản phát hành chính thức `peerqa-data-v1.0` không tải tự động được (trang tudatalib chặn
+bằng kiểm tra chống bot; không vượt qua cơ chế này). Thay bằng **`mteb/PeerQA`** trên
+Hugging Face (CC BY-NC-SA 4.0): bản đóng gói MTEB của PeerQA, gồm toàn văn các bài thuộc
+nhóm NLPeer (được phép phát hành lại) và evidence do tác giả gán (qrels).
+
+- Quy mô: **70 bài, 136 câu hỏi** (tất cả có evidence; tất cả ánh xạ được tới leaf gold).
+  Trung vị ~5.200 từ/bài (dài hơn QASPER).
+- Đơn vị evidence là đơn vị corpus của MTEB (gần với câu) → Evidence F1 tính ở mức đơn vị
+  này (chặt hơn mức đoạn của QASPER); so sánh giữa các nhánh vẫn công bằng.
+- Không có câu trả lời tự do → **Answer F1 không tính** trên PeerQA.
+- Heading: một đơn vị là heading chỉ khi có đơn vị sau ghi nó làm heading; các đơn vị khác
+  (kể cả chú thích hình/bảng không có heading) là văn bản thường. Quy tắc chốt trước khi chạy.
+- Manifest: `scripts/v11_make_peerqa_manifest.py`; hash nguồn và manifest trong
+  `manifests/peerqa_metadata.json`. Manifest dẫn xuất không commit (giấy phép NC-SA).
+- Giả thuyết, nhánh, ngân sách, phân tích: **không đổi**.

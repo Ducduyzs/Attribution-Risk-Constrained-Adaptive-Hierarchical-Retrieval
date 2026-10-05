@@ -9,7 +9,7 @@ sys.path.insert(0, str(Path(__file__).parents[1] / "src"))
 from edahr.baselines import auto_label_gold_children
 from edahr.config import Settings
 from edahr.hierarchy import HierarchyBuilder
-from edahr.peerqa import convert_peerqa
+from edahr.peerqa import convert_peerqa, mteb_to_peerqa_rows
 from edahr.qasper import documents_from_paper_records
 
 PID = "openreview/ICLR-2022-conf/abc"
@@ -56,6 +56,26 @@ class PeerQAConversionTests(unittest.TestCase):
         gold, _ = auto_label_gold_children(hierarchy, questions[0])
         self.assertTrue(gold)
         self.assertTrue(all("91 percent" in hierarchy.node(c).text for c in gold))
+
+    def test_mteb_packaging(self):
+        corpus = [
+            {"id": "nlpeer/X/1_0", "text": "A Title", "title": ""},
+            {"id": "nlpeer/X/1_1", "text": "Abstract", "title": ""},
+            {"id": "nlpeer/X/1_2", "text": "We study gold.", "title": "Abstract"},
+            {"id": "nlpeer/X/1_3", "text": "Results", "title": ""},
+            {"id": "nlpeer/X/1_4", "text": "Accuracy is 91 percent.", "title": "Results"},
+            {"id": "nlpeer/X/1_5", "text": "Table 2: caption without heading.", "title": ""},
+        ]
+        rows, qa = mteb_to_peerqa_rows(corpus, [{"id": "q", "text": "Accuracy?"}, {"id": "none", "text": "x"}],
+                                       [{"query-id": "q", "corpus-id": "nlpeer/X/1_4", "score": 1}])
+        papers, questions, report = convert_peerqa(rows, qa)
+        self.assertEqual(papers[0]["title"], "A Title")
+        self.assertEqual([s["title"] for s in papers[0]["sections"]], ["Abstract", "Results"])
+        self.assertEqual(len(questions), 1)
+        self.assertEqual(questions[0]["reference_evidence_sets"], [["Accuracy is 91 percent."]])
+        # An empty-heading unit that no unit names as heading stays body text.
+        body = [p["text"] for s in papers[0]["sections"] for p in s["paragraphs"]]
+        self.assertIn("Table 2: caption without heading.", body)
 
 
 if __name__ == "__main__":
