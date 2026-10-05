@@ -66,8 +66,10 @@ nhóm NLPeer (được phép phát hành lại) và evidence do tác giả gán 
 
 ## Sửa đổi 2 (2026-10-05, kỹ thuật, trước mọi kết quả PeerQA)
 
-Lần prepare đầu dừng ở bước dựng cây RAPTOR: UMAP cục bộ không dựng được đồ thị láng giềng
-cho một cụm đơn vị gần như trùng nhau (code RAPTOR gốc cũng dừng ở trường hợp này). Thêm
-adaptation **A6**: giữ nguyên cụm đó làm một cụm cục bộ — đúng cách code gốc xử lý cụm quá
-nhỏ cho UMAP; số lần kích hoạt được ghi vào metadata cây. Chỉ tác động nhánh lỗi; cây
-QASPER đã dựng không đổi. Chưa có bảng xếp hạng, đáp án hay điểm PeerQA nào được tạo.
+Prepare dừng ở bước dựng cây RAPTOR: UMAP không dựng được đồ thị láng giềng cho một tập
+đơn vị gần như trùng nhau (code RAPTOR gốc cũng dừng ở trường hợp này). Thêm adaptation
+**A6**: tập điểm bị ảnh hưởng được giữ làm một cụm — đúng cách code gốc xử lý tập quá nhỏ
+cho UMAP; số lần kích hoạt ghi vào metadata cây. *Đính chính:* bản sửa đầu tiên (commit
+`480f03e`) chỉ bọc bước UMAP cục bộ do chẩn đoán sai; lỗi thật ở bước **toàn cục**, lần
+chạy lại thứ nhất dừng ở cùng chỗ; bản sửa hoàn chỉnh bọc cả hai bước. Chỉ tác động nhánh
+lỗi; cây QASPER đã dựng không đổi. Chưa có bảng xếp hạng, đáp án hay điểm PeerQA nào.

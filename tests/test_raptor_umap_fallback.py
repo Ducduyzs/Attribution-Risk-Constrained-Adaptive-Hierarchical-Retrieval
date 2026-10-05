@@ -48,6 +48,28 @@ class UmapFallbackTests(unittest.TestCase):
         self.assertGreater(calls["n"], 1, "local UMAP stage was not exercised")
         self.assertGreater(B.UMAP_FALLBACKS[0], before)
 
+    def test_global_umap_failure_keeps_all_points(self):
+        try:
+            import umap
+        except ImportError:
+            self.skipTest("umap-learn not installed")
+
+        class AlwaysFails:
+            def __init__(self, *args, **kwargs):
+                pass
+
+            def fit_transform(self, matrix):
+                raise ValueError("zero-size array to reduction operation maximum")
+
+        import numpy as np
+        vectors = [list(np.random.default_rng(1).normal(size=16)) for _ in range(30)]
+        before = B.UMAP_FALLBACKS[0]
+        with mock.patch.object(umap, "UMAP", AlwaysFails):
+            membership = B.raptor_cluster_indices(vectors)
+        self.assertEqual(len(membership), 30)
+        self.assertTrue(all(membership))
+        self.assertGreaterEqual(B.UMAP_FALLBACKS[0] - before, 2)  # global + local
+
 
 if __name__ == "__main__":
     unittest.main()

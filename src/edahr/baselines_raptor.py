@@ -24,10 +24,10 @@ A5. When a Gaussian mixture fit fails on an ill-conditioned covariance (the
     official code raises and aborts the tree), it is refit with a larger
     ``reg_covar`` (1e-4, then 1e-3). Fits that needed this are counted in
     ``GMM_REGULARIZED_FITS`` and recorded in the tree metadata.
-A6. When local UMAP cannot build a neighbour graph (e.g. a cluster of
-    near-identical units, such as repeated captions; the official code raises),
-    the cluster is kept as one local cluster -- the same treatment the official
-    code gives clusters too small for UMAP. Counted in ``UMAP_FALLBACKS``.
+A6. When UMAP (global or local stage) cannot build a neighbour graph, e.g.
+    for near-identical units such as repeated captions (the official code
+    raises), the affected points are kept as one cluster -- the treatment the
+    official code gives sets too small for UMAP. Counted in ``UMAP_FALLBACKS``.
 
 Primary mode never falls back to lexical methods: missing ``umap-learn``,
 sentence-transformers weights, or LLM access raises RuntimeError naming the
@@ -240,13 +240,17 @@ def raptor_cluster_indices(
     np.random.seed(seed % (2**32))
     n_neighbors = max(2, int(math.sqrt(count - 1)))
     effective_dim = max(1, min(dim, count - 2))
-    global_reduced = umap.UMAP(
-        n_neighbors=n_neighbors, n_components=effective_dim, metric="cosine",
-        random_state=seed,
-    ).fit_transform(matrix)
-    global_labels, n_global = _gmm_bic_labels(
-        global_reduced, seed, max_clusters, threshold
-    )
+    try:
+        global_reduced = umap.UMAP(
+            n_neighbors=n_neighbors, n_components=effective_dim, metric="cosine",
+            random_state=seed,
+        ).fit_transform(matrix)
+        global_labels, n_global = _gmm_bic_labels(
+            global_reduced, seed, max_clusters, threshold
+        )
+    except ValueError:
+        UMAP_FALLBACKS[0] += 1
+        global_labels, n_global = [[0] for _ in range(count)], 1
     membership: list[set[int]] = [set() for _ in range(count)]
     total = 0
     for global_id in range(n_global):
