@@ -24,8 +24,16 @@ def _norm(text: object) -> str:
     return " ".join(str(text or "").split())
 
 
+def safe_document_id(paper_id: str) -> str:
+    return paper_id.replace("/", "_")
+
+
 def safe_source(paper_id: str) -> str:
-    return paper_id.replace("/", "_") + ".peerqa"
+    """Short display/source name. Context headers render the source, and the
+    shared packer budgets a fixed 24-token header allowance; NLPeer ids reach
+    ~150 characters. Leaf ids depend on ``document_id``, not on the source."""
+    import hashlib
+    return "pq-" + hashlib.sha1(paper_id.encode("utf-8")).hexdigest()[:10] + ".peerqa"
 
 
 def convert_peerqa(paper_rows: Iterable[dict], qa_rows: Iterable[dict]) -> tuple[list[dict], list[dict], dict]:
@@ -78,7 +86,7 @@ def convert_peerqa(paper_rows: Iterable[dict], qa_rows: Iterable[dict]) -> tuple
             element_to_paragraph[(paper_id, int(row["idx"]))] = pid
         flush_section()
         papers.append({"dataset": "peerqa", "split": "test", "paper_id": paper_id,
-                       "document_id": safe_source(paper_id)[:-len(".peerqa")],
+                       "document_id": safe_document_id(paper_id),
                        "source": safe_source(paper_id), "title": title, "sections": sections})
 
     known = {p["paper_id"] for p in papers}

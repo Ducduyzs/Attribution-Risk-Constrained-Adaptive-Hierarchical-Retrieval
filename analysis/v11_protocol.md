@@ -73,3 +73,14 @@ cho UMAP; số lần kích hoạt ghi vào metadata cây. *Đính chính:* bản
 `480f03e`) chỉ bọc bước UMAP cục bộ do chẩn đoán sai; lỗi thật ở bước **toàn cục**, lần
 chạy lại thứ nhất dừng ở cùng chỗ; bản sửa hoàn chỉnh bọc cả hai bước. Chỉ tác động nhánh
 lỗi; cây QASPER đã dựng không đổi. Chưa có bảng xếp hạng, đáp án hay điểm PeerQA nào.
+
+## Sửa đổi 3 (2026-10-05, kỹ thuật, trước mọi đáp án/điểm PeerQA)
+
+Prepare đã xong (136/136), nhưng lượt sinh đầu tiên dừng ngay ở bước đóng gói: bộ đóng gói
+dùng chung (v9) dành cố định 24 token cho dòng tiêu đề nguồn của mỗi đoạn context, còn id
+bài NLPeer dài ~150 ký tự → context vượt ngân sách (662 > 512). Sửa ở bộ chuyển đổi, không
+sửa bộ đóng gói: `source` của PeerQA được rút gọn thành `pq-<10 hex>.peerqa`;
+`document_id` giữ nguyên nên **id mọi leaf không đổi** (đã kiểm tra: 3144/3144 trùng khớp).
+Bảng xếp hạng đã tính được dùng lại (chỉ cập nhật trường `source`); đã kiểm tra offline
+1224/1224 context nằm trong ngân sách. Manifest có hash mới trong
+`manifests/peerqa_metadata.json`. Chưa có đáp án hay điểm PeerQA nào được tạo.

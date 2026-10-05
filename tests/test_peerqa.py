@@ -47,7 +47,9 @@ class PeerQAConversionTests(unittest.TestCase):
         question = questions[0]
         self.assertEqual(question["reference_evidence_sets"], [["Accuracy is 91 percent."]])
         self.assertEqual(question["gold_paragraph_ids"], [f"{PID}:p4"])
-        self.assertEqual(question["source"], "openreview_ICLR-2022-conf_abc.peerqa")
+        self.assertTrue(question["source"].startswith("pq-") and question["source"].endswith(".peerqa"))
+        self.assertLess(len(question["source"]), 24)
+        self.assertEqual(paper["document_id"], "openreview_ICLR-2022-conf_abc")
 
     def test_gold_leaves_resolve_in_pipeline_hierarchy(self):
         papers, questions, _ = convert_peerqa(ROWS, QA)
