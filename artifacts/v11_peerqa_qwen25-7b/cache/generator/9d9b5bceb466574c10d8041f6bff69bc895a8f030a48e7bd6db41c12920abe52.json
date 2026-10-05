@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into why LM-Base outperforms CGExpan on user-generated datasets.\",\n  \"claims\": [\n    {\n      \"text\": \"LM-Base outperforms CGExpan on concepts with characteristics of user-generated text due to its ability to handle multifaceted and vague entities better.\",\n      \"citations\": [\"C1\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"User-generated text contains challenging characteristics that negatively impact the performance of SOTA methods, while simpler baselines like LM-Base show better performance.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2006,
+    "completion_tokens": 164,
+    "total_tokens": 2170
+  },
+  "seconds": 10.281866450794041
+}

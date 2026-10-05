@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides reasons why beam search is inadequate for certain goals, but does not state it is incorrect in an absolute sense.\",\n  \"claims\": [\n    {\n      \"text\": \"Beam search is inadequate for certain goals due to its limitations in exploring the full space of possible sequences.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Beam search can lead to biased, factually inaccurate, or hallucinatory outputs when generating text.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 633,
+    "completion_tokens": 141,
+    "total_tokens": 774
+  },
+  "seconds": 6.582702737301588
+}

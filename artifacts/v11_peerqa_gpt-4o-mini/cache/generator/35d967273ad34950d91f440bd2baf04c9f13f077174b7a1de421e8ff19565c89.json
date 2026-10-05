@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that both radiative forcing and effective radiative forcing are calculated for aerosol-cloud interactions and aerosol-radiation interactions, with explicit consideration of cloud adjustments.",
+    "claims": [
+      {
+        "text": "The model calculates effective radiative forcing by considering cloud adjustments in aerosol-cloud interactions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model is capable of diagnosing both all-sky and clear-sky aerosol radiative forcing, which includes aerosol-cloud interactions.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Aerosol-cloud interactions significantly contribute to the overall radiative forcing estimates in the transport sectors.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 2035,
+    "total_tokens": 2191,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4915667999885045,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

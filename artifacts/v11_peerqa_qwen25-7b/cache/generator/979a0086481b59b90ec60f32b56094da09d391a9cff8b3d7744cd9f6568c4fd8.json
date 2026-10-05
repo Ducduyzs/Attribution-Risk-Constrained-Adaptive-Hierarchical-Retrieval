@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific performance impacts of layer norm approximation on tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"Layer norm approximation incurs the most performance reduction, contributing 1.08% on average to the overall performance drop of THE-X compared to the baseline model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"For token-level tasks, layer norm approximation causes significant performance reduction, impacting the attention score details.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 629,
+    "completion_tokens": 142,
+    "total_tokens": 771
+  },
+  "seconds": 6.527584933210164
+}

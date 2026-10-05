@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the importance of entity set expansion (ESE) in enhancing seed sets with new entities from the same semantic concept, which is crucial for applications requiring natural language understanding.\",\n  \"claims\": [\n    {\n      \"text\": \"Set expansion approaches are used to enhance seed sets with new entities from the same semantic concept, which is essential for applications like semantic search and question answering.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"ESE methods are necessary when training data in new domains is scarce, allowing for the expansion of small seed sets with limited supervision.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 544,
+    "completion_tokens": 168,
+    "total_tokens": 712
+  },
+  "seconds": 7.19558095978573
+}

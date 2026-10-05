@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides details on the development of the conceptual model in Figure 2 through thematic analysis and the steps involved in the analysis process.",
+    "claims": [
+      {
+        "text": "The conceptual model in Figure 2 was developed using Braun & Clarke's six-phase thematic analysis, which helped identify and organize themes from qualitative data.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The authors added additional explanations and improvements to the conceptual framework to clarify the flow of Edcraft Gamified Learning (EGL) activities, which contributed to the model's development.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The thematic analysis results led to the categorization of four key themes related to recycling intention, which are reflected in the conceptual model.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 1064,
+    "total_tokens": 1238,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2351998000085587,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

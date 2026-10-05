@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence explains why the antecedent is included in the sum for calculating the value of properties like nsubj:noun-obj:noun.\",\n  \"claims\": [\n    {\n      \"text\": \"The value v nsubj:noun-obj:noun is calculated as v verb-nsubj:noun-obj:noun + v nsubj:noun-verb-obj:noun + v nsubj:noun-obj:noun-verb because addition is used to calculate the value of properties which cannot be directly extracted from the UD treebanks, and it represents the degree to which a language has S-O order as the percentage occupied by V-S-O, S-V-O, and S-O-V constructions.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.99\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2239,
+    "completion_tokens": 184,
+    "total_tokens": 2423
+  },
+  "seconds": 8.194723574910313
+}

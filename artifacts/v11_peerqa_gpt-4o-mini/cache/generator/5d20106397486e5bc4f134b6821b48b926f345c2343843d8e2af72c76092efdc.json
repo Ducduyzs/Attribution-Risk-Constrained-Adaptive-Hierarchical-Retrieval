@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors were motivated to experiment with their model on CNN/DM to evaluate its performance on short documents and to compare it against strong baselines, demonstrating the effectiveness of their hierarchical encoding methods.",
+    "claims": [
+      {
+        "text": "The authors aimed to evaluate their HiStruct+ models on short documents like CNN/DailyMail to demonstrate competitive results and improvements over baselines.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The motivation included comparing their model's performance against strong baselines to highlight the effectiveness of hierarchical position information in summarization tasks.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 740,
+    "total_tokens": 873,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7869389000115916,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

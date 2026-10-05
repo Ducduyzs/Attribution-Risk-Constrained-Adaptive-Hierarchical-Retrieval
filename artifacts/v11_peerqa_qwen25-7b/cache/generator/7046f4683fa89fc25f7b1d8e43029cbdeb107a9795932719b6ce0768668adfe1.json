@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the aviation sector but does not specify a particular fleet.\",\n  \"claims\": [\n    {\n      \"text\": \"The discussion focuses on the aviation sector, particularly its long lifetime and challenges in implementing mitigation measures.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The aviation sector's desulfurization is not considered an emission reduction measure in the scenarios, due to its long commercial fleet lifetime.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 136,
+    "total_tokens": 1250
+  },
+  "seconds": 6.330679211765528
+}

@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors use regularization for label embeddings to promote uniformity and prevent degeneration, which is crucial for maintaining effective label representation. In contrast, instance embeddings do not require such regularization as they are directly optimized through contrastive losses that focus on their relationships with labels.",
+    "claims": [
+      {
+        "text": "Regularization is applied to label embeddings to promote uniformity and prevent model degeneration, which is essential for effective label representation.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Instance embeddings are optimized through contrastive losses that focus on their relationships with labels, eliminating the need for regularization.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 2141,
+    "total_tokens": 2289,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.197857999999542,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

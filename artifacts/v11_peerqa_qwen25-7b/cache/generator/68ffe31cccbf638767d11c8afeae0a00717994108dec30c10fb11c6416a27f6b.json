@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into the rules for assigning error categories, including the use of part-of-speech tags and the creation of rules to differentiate between various error types.\",\n  \"claims\": [\n    {\n      \"text\": \"Error categories are assigned based on part-of-speech tags and other objective properties of the data.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Rules are created to differentiate between various error types, such as tense, modal, and spelling errors.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 555,
+    "completion_tokens": 157,
+    "total_tokens": 712
+  },
+  "seconds": 6.759329441934824
+}

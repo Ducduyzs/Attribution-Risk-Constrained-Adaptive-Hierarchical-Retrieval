@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses transferring encoders from one language to another without parameter updates and evaluates their performance on various downstream tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"Natural language inference, question answering, and semantic role labeling have been tested using encoders transferred from language 1 to language 2 without any parameter updates.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 103,
+    "total_tokens": 1214
+  },
+  "seconds": 4.71398721402511
+}

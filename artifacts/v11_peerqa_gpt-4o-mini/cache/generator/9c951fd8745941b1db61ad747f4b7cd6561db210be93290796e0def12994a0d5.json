@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for selecting action verbs based on frequency and syntactic patterns derived from a corpus, as well as the theoretical framework guiding the selection process.",
+    "claims": [
+      {
+        "text": "The selection of action verbs was based on frequency of occurrence in the Google Syntax Ngrams corpus, where the top 100 verbs were chosen from a list of 1100 unique verbs.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The verbs were categorized into classes based on Levin's alternation and verb classes, which informed the selection process.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Action frames were created by analyzing syntactic patterns and mapping components of actions to their roles, such as agent and theme.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 2098,
+    "total_tokens": 2271,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3328195000067353,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

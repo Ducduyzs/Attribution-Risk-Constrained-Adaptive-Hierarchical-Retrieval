@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "Hanja is considered an extinct language because it refers to a set of characters used in ancient Korean, while Hanmun is a writing style from the same era. The distinction between Hanja as a script and a language is clarified in the context of historical records and conventions in scholarly works.",
+    "claims": [
+      {
+        "text": "Hanja is a set of characters used in ancient Korean, while Hanmun is a writing style from the same era.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Hanja is referred to as a language in scholarly conventions despite being a script.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 603,
+    "total_tokens": 742,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6332961000007344,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

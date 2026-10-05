@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about various tasks BERT has been applied to, suggesting its generalizability.\",\n  \"claims\": [\n    {\n      \"text\": \"BERT has been applied to sentiment analysis, relation extraction, and word sense disambiguation among others.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"BERT has shown effectiveness in low-resource settings, demonstrating its generalizability across different tasks.\",\n      \"citations\": [\"C4\", \"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2144,
+    "completion_tokens": 140,
+    "total_tokens": 2284
+  },
+  "seconds": 8.045245333109051
+}

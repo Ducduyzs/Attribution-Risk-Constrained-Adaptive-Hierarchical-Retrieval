@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explains that the value of the construction is calculated by summing the contributions of various configurations, including the antecedent, to express the truth value of multiple alternative constructions in a language.",
+    "claims": [
+      {
+        "text": "The antecedent is included in the sum to express the truth value for any combination of several alternative constructions being present in a language.",
+        "citations": [
+          "C1",
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "text": "Addition in this context is used to calculate the value of properties that cannot be directly extracted from the UD treebanks, thus necessitating the inclusion of the antecedent.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.96
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 2261,
+    "total_tokens": 2409,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.640704799996456,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

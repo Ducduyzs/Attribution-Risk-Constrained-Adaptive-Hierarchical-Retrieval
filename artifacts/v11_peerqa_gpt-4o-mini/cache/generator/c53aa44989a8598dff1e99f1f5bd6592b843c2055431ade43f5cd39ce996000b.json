@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information on how the number of selected in-domain sentences is determined based on performance on held-out data and experimental results.",
+    "claims": [
+      {
+        "text": "The number of selected in-domain sentences is determined by the performance on held-out data.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The empirical determination of the number of selected in-domain sentences is based on experimental results on a separate validation set.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 635,
+    "total_tokens": 743,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.676327900000615,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

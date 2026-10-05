@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not explicitly state whether the model computes ψ(m_i, e) for all entities in the target knowledge base during inference.\",\n  \"claims\": [\n    {\n      \"text\": \"The model does not necessarily compute ψ(m_i, e) for all entities in the target knowledge base during inference.\",\n      \"citations\": [\"C1\", \"C2\", \"C6\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1998,
+    "completion_tokens": 109,
+    "total_tokens": 2107
+  },
+  "seconds": 5.242995394859463
+}

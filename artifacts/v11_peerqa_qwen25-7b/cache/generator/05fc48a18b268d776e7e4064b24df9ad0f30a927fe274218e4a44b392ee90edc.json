@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that classification-based models were not used in zero shot experiments due to their inability to handle ties and resolve differences in reading levels effectively.\",\n  \"claims\": [\n    {\n      \"text\": \"Classification models were not used in zero shot experiments because they cannot resolve ties, making them unsuitable for ranking tasks.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 103,
+    "total_tokens": 1245
+  },
+  "seconds": 4.4883811650797725
+}

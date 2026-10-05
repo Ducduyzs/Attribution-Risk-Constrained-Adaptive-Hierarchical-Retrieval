@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"Evidence provides information about human evaluation in the context of summarization models.\",\n  \"claims\": [\n    {\n      \"text\": \"Appendix A.6 demonstrates human evaluation of extracted summaries for a more intuitive understanding about the superiority of the proposed system.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Figure 3 shows two samples for human evaluation and case analysis of the extractive summaries predicted by the HiStruct+ model and the baseline model, in comparison with the gold summary.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2068,
+    "completion_tokens": 150,
+    "total_tokens": 2218
+  },
+  "seconds": 6.906362171750516
+}

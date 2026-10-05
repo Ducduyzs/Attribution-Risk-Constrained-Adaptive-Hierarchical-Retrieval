@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that classification-based models were not used in zero-shot cross-lingual evaluations due to the inability to resolve ties with classifier predictions and better performance of regression and ranking approaches in monolingual settings.\",\n  \"claims\": [\n    {\n      \"text\": \"Classification approaches were not employed in zero-shot cross-lingual evaluation settings because there is no way of resolving ties with classifier predictions.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Regression and ranking gave better performance than classification in monolingual, within-corpus settings.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 158,
+    "total_tokens": 1317
+  },
+  "seconds": 6.977540226653218
+}

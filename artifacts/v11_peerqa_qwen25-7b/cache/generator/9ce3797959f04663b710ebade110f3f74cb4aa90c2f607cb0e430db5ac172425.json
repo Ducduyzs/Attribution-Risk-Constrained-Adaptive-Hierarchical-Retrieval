@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about initializing the student model from the bottom layers of the teacher and setting constraints on the number of layers for each task.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors have initialized the student like in pkd-bert by taking the bottommost layers from the teacher.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The number of layers for each task is constrained within a specific range.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1090,
+    "completion_tokens": 140,
+    "total_tokens": 1230
+  },
+  "seconds": 6.607830382883549
+}

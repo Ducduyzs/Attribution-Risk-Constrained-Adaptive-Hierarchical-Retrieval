@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into the performance differences between cgexpan and lm-base, especially in user-generated text.\",\n  \"claims\": [\n    {\n      \"text\": \"CGExpan performs well on well-formed concepts but underperforms on concepts with characteristics of user-generated text compared to LM-Base.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"LM-Base outperforms CGExpan on concepts like 'seating arrangement' due to its ability to handle user-generated text effectively.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Simpler baseline methods like LM-Base outperform SOTA methods on user-generated text benchmarks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 201,
+    "total_tokens": 1248
+  },
+  "seconds": 9.44456621306017
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information on how threshold values are selected based on linguistic and statistical considerations.\",\n  \"claims\": [\n    {\n      \"text\": \"Threshold values are chosen to ensure a distribution of class labels about 1:10, with distituents being the majority, reflecting the skewness of random spans.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"For self-training experiments, specific threshold values of τ min = 0.0005 and τ max = 0.995 were set to identify constituents and distituents.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 571,
+    "completion_tokens": 167,
+    "total_tokens": 738
+  },
+  "seconds": 8.470057310070843
+}

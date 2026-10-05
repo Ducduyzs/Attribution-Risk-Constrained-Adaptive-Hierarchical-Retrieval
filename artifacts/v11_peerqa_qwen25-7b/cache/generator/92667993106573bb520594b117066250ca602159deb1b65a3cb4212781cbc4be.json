@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The absolute accuracy numbers are higher than the F1 scores because human evaluation captures all possible correct answers, including those that are not fully captured by the gold answers used in automatic evaluations. Automatic evaluations, such as F1 scores, often miss some correct answers due to the limitations of the gold answers.\",\n  \"claims\": [\n    {\n      \"text\": \"The absolute numbers of human evaluation are much higher than those of automatic evaluations, and the human evaluation reports accuracy while the automatic evaluation reports F1 scores.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"In automatic evaluations, the gold answers cannot capture all possible correct answers to open-ended questions or questions with multiple answers, whereas human annotators can evaluate the correctness of answers easily.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 196,
+    "total_tokens": 1373
+  },
+  "seconds": 8.795919800177217
+}

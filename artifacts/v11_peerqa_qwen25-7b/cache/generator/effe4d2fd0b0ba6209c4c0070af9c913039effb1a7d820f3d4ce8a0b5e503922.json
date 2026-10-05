@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses how training examples evaluate gold entities and their coreferent mentions, suggesting that coreferent mentions are leveraged in training.\",\n  \"claims\": [\n    {\n      \"text\": \"Training batches contain mentions from the same document to leverage coreferent mentions as much as possible.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 639,
+    "completion_tokens": 96,
+    "total_tokens": 735
+  },
+  "seconds": 4.257827572058886
+}

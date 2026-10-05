@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of a data augmentation strategy for improving coreference resolution in machine translation.\",\n  \"claims\": [\n    {\n      \"text\": \"A data augmentation approach specifically tailored to pronoun translation was proposed, which involves modifying the gender of the German translation of 'it' in training examples.\",\n      \"citations\": [\"C4\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"This augmentation aims to break off the strong prior of translating 'it' to 'es' and test if it can lead to better coreference resolution in the model.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2007,
+    "completion_tokens": 158,
+    "total_tokens": 2165
+  },
+  "seconds": 7.296167721040547
+}

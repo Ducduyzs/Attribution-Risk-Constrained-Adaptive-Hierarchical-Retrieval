@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that pruning the complete graph to create an arborescence structure improves the training process by focusing on relevant relationships and reducing noise from irrelevant connections.",
+    "claims": [
+      {
+        "text": "Pruning the complete graph to an arborescence structure allows for a more focused training on relevant mention-entity relationships, improving model performance.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Using a complete graph may introduce noise and irrelevant connections that can hinder the learning process, while pruning helps to mitigate this issue.",
+        "citations": [
+          "C4",
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The arborescence structure retains essential connections while simplifying the graph, which is beneficial for training the dual-encoder models effectively.",
+        "citations": [
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 184,
+    "prompt_tokens": 2154,
+    "total_tokens": 2338,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.933895800000755,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

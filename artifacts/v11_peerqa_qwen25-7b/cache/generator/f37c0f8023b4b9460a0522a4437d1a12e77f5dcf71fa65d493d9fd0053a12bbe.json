@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides reasons why classification models were not used in zero shot experiments.\",\n  \"claims\": [\n    {\n      \"text\": \"Classification models were not employed in zero shot cross-lingual evaluation because there is no inherent means within classification to distinguish between ties, where the model predicts the same class for two documents of different reading levels.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Within corpus evaluation for classification was performed, but not in cross-corpus or cross-lingual settings due to the inability to resolve ties with classifier predictions.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1742,
+    "completion_tokens": 167,
+    "total_tokens": 1909
+  },
+  "seconds": 7.413946731947362
+}

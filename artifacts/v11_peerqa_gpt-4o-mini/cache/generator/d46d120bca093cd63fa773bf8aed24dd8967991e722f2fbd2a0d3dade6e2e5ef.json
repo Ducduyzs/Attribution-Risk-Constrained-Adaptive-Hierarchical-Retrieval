@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition of character as an animate entity that is important to the plot, indicating that the definition of plot directly influences how characters are defined in narrative theory.",
+    "claims": [
+      {
+        "text": "A character is defined as an animate being that is important to the plot, meaning the plot's events determine which entities are considered characters.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The importance of a character is measured by their contribution to the plot, which is a critical aspect of character identification in narratives.",
+        "citations": [
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 2084,
+    "total_tokens": 2219,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.644662100006826,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

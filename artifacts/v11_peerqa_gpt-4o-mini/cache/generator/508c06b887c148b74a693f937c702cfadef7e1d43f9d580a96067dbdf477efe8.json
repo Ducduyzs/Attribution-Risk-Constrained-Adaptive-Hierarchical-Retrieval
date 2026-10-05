@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly outlines the main motivation of the paper, which is to provide a method for annotating grammatical error correction data with error type information, facilitating better evaluation and feedback.",
+    "claims": [
+      {
+        "text": "The main aim of the paper is to rectify the lack of error type analysis in GEC systems by providing a method to automatically annotate parallel error correction data with error type information.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The paper introduces ERRANT, a toolkit designed to facilitate detailed error type evaluation and standardize existing error correction corpora.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "ERRANT is the only toolkit capable of producing error type scores, addressing a gap in GEC evaluation tools.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 1140,
+    "total_tokens": 1313,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.2911158000060823,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition of a plot as the main events of a story, which is supported by the context provided.",
+    "claims": [
+      {
+        "text": "Plot denotes the main events of a story.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A function is an action or event that drives the plot forward.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 714,
+    "total_tokens": 803,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.3171144000079948,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

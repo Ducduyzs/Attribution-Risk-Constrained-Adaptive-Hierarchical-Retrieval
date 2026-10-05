@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses initialization methods and layer configurations but does not explicitly mention pkd-bert or specific budgeting strategies.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors did not use pkd-bert for initialization.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The number of layers was determined based on a fixed range rather than a budget allocation.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 725,
+    "completion_tokens": 128,
+    "total_tokens": 853
+  },
+  "seconds": 5.948326501995325
+}

@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that analyzing self-attention functions in the last layer of BERT is justified due to their correlation with human attention and the stability of attention functions across layers during fine-tuning.",
+    "claims": [
+      {
+        "text": "Self-attention functions in the last layer of BERT correlate well with human attention, making them useful for analysis.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Fine-tuning does not significantly change the correlations of attention functions, suggesting that the last layer's attention is stable and reliable for analysis.",
+        "citations": [
+          "C1",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The last layer's attention flow has been shown to be more predictive of human eye fixations compared to earlier layers.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 2247,
+    "total_tokens": 2424,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3259951999934856,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

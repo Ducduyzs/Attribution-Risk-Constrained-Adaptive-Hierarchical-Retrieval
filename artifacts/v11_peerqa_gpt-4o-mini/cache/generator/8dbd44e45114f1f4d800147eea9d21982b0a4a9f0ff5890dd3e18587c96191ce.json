@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear description of the data augmentation strategy used, specifically focusing on Antecedent-free augmentation (afa) for improving coreference resolution in machine translation.",
+    "claims": [
+      {
+        "text": "The data augmentation strategy is called Antecedent-free augmentation (afa), which modifies the gender of pronouns in training data to improve coreference resolution.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Candidates for augmentation are sentences where a coreferential 'it' refers to an antecedent not present in the current or previous sentence, leading to the creation of new training examples.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1193,
+    "total_tokens": 1343,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4885279000009177,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

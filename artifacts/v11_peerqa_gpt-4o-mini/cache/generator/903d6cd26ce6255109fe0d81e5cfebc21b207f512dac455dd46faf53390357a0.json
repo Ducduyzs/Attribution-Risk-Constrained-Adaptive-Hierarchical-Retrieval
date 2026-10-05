@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The study applies to both nearshore and offshore environments as it discusses wave-induced processes relevant to both settings.",
+    "claims": [
+      {
+        "text": "The numerical model can be modified to analyze wave-induced vertical mixing processes in offshore conditions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The modelling framework can cover open-ocean conditions and quasi-random sea states.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 590,
+    "total_tokens": 686,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4919997999968473,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the performance of CLIP models during fine-tuning and highlights issues related to the size of the labeled dataset and model robustness.\",\n  \"claims\": [\n    {\n      \"text\": \"Additional fine-tuning on CLIP was not included due to poor performance and the relatively small labeled dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 963,
+    "completion_tokens": 99,
+    "total_tokens": 1062
+  },
+  "seconds": 4.489875022787601
+}

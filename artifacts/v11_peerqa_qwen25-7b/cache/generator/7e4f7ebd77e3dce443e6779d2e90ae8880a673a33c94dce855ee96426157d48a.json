@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the reasons for excluding additional participants from the analysis.\",\n  \"claims\": [\n    {\n      \"text\": \"Additional participants were excluded from the analysis where the covariates required for the model were not provided.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Three participants were excluded due to difficulties or adverse events related to their pregnancy.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 125,
+    "total_tokens": 1335
+  },
+  "seconds": 5.813107926864177
+}

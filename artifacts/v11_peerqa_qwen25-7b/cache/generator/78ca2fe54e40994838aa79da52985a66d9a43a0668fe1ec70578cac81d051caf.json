@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the challenges of working with small corpora for indigenous languages and highlights the advantages of rule-based approaches.\",\n  \"claims\": [\n    {\n      \"text\": \"Rule-based approaches are advantageous for small corpora because they do not require extensive data, unlike statistical or neural methods.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Indigenous languages often have complex inflectional morphology, making rule-based approaches more suitable for these languages.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 148,
+    "total_tokens": 1333
+  },
+  "seconds": 7.065395762678236
+}

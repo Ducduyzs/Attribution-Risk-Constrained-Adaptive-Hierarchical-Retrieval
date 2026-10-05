@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific criteria used to determine the steady state of soil parameters, including maintaining constant soil parameters such as temperature, moisture, and carbon and nitrogen pools during the spin-up of the ISAM model.",
+    "claims": [
+      {
+        "text": "The steady state of soil parameters was determined by maintaining constant temperature, moisture, and carbon and nitrogen pools during the model spin-up.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The ISAM model was spun up using climate data from 1901-1920 to achieve steady state conditions for soil parameters.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 1009,
+    "total_tokens": 1144,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.294437000004109,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

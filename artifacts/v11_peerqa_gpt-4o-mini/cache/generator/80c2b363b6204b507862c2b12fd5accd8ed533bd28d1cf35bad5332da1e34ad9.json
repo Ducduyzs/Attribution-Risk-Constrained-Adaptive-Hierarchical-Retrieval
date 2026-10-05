@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific rules and considerations for assigning error categories based on part-of-speech and types of errors.",
+    "claims": [
+      {
+        "text": "Error categories are assigned based on part-of-speech (POS) tags and the nature of the edit, such as Missing, Unnecessary, or Replacement errors.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The classification of errors also considers types that are not well-characterized by POS, like Spelling or Word Order, using roughly 50 rules.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The framework aims to balance informativeness and practicality, avoiding overly detailed categories that complicate classification.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 614,
+    "total_tokens": 773,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.328767200000584,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The rationale for analyzing only the self-attention functions in the last layer of the BERT model is supported by the evidence which indicates that correlations are generally weaker when using attention flow from earlier layers compared to the last layer. Additionally, the study suggests that Transformers are equipped with overcomplete sets of attention functions that do not significantly change until later layers during fine-tuning.\",\n  \"claims\": [\n    {\n      \"text\": \"Correlations are generally weaker when using attention flow from earlier layers compared to the last layer.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Transformers are equipped with overcomplete sets of attention functions that do not significantly change until later layers during fine-tuning.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 191,
+    "total_tokens": 817
+  },
+  "seconds": 8.309691791888326
+}

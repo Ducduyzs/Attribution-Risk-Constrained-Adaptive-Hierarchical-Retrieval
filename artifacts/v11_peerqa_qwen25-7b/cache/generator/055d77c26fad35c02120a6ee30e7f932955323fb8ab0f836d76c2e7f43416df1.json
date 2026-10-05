@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about the selection criteria and process for choosing the four CQA models.\",\n  \"claims\": [\n    {\n      \"text\": \"The four models were selected based on their different model architectures and training strategies, including BERT, GraphFlow, HAM, and ExCorD.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A large-scale human evaluation was conducted using 100 passages from the QuAC development set on Amazon Mechanical Turk, with three conversations collected from each model and passage.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 155,
+    "total_tokens": 1370
+  },
+  "seconds": 7.113802175968885
+}

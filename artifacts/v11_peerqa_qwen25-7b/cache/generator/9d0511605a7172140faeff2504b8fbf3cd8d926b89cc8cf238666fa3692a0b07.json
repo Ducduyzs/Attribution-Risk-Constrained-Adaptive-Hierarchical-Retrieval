@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the benefits of pruning graphs for training, including constraints and loss functions that ensure effective clustering and optimization.\",\n  \"claims\": [\n    {\n      \"text\": \"Pruning the graph ensures that each cluster contains at most one entity and satisfies dissimilarity constraints, making the training more effective.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Using the complete graph for training would not allow for the optimization of parametric encoder models due to the constraints imposed during pruning.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1155,
+    "completion_tokens": 155,
+    "total_tokens": 1310
+  },
+  "seconds": 7.003596352878958
+}

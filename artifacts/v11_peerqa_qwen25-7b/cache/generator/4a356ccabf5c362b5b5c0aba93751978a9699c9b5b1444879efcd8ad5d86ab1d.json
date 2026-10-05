@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the development of per-triple templates.\",\n  \"claims\": [\n    {\n      \"text\": \"Simple hand-crafted templates were used for transforming triples into facts.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Templates were manually created for each predicate.\",\n      \"citations\": [\"C4\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2084,
+    "completion_tokens": 113,
+    "total_tokens": 2197
+  },
+  "seconds": 7.52956008631736
+}

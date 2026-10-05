@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear distinctions between the proposed method and existing approaches in terms of representation learning and handling unseen environments.\",\n  \"claims\": [\n    {\n      \"text\": \"Our method learns a cross-lingual language representation that captures visual semantics and an environment-agnostic visual representation, whereas previous methods rely on data augmentation or environment classifiers.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The proposed method uses visually-aligned multilingual instructions to learn cross-lingual representations, unlike previous methods that use monolingual instructions or synthetic data generation.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1995,
+    "completion_tokens": 171,
+    "total_tokens": 2166
+  },
+  "seconds": 7.586340707726777
+}

@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that the annotation scheme can be adapted to more domains due to the presence of generic intents and the potential for cross-domain reusability of annotated data.",
+    "claims": [
+      {
+        "text": "The current ontology includes generic intents that can be shared across domains, facilitating adaptation to new domains.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Cross-domain experiments demonstrate the potential for reusability of annotated data, indicating that the annotation scheme can be effectively adapted.",
+        "citations": [
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The design of NLU++ incorporates both domain-specific and generic intents, which supports generalization and data reusability across different domains.",
+        "citations": [
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 2002,
+    "total_tokens": 2171,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.765247500006808,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

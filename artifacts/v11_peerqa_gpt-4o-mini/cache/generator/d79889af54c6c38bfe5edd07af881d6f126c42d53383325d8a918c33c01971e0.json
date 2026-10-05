@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that encoders pretrained on artificial languages can be transferred to natural language tasks without parameter updates, demonstrating their effectiveness in various downstream tasks.",
+    "claims": [
+      {
+        "text": "Encoders pretrained on artificial languages have been tested on downstream tasks in natural language, such as natural language inference and question answering, without parameter updates.",
+        "citations": [
+          "C1",
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The transfer of knowledge from artificial languages to natural language tasks includes understanding structural properties like word distributions and dependency structures.",
+        "citations": [
+          "C2",
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2091,
+    "total_tokens": 2225,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9958578000077978,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

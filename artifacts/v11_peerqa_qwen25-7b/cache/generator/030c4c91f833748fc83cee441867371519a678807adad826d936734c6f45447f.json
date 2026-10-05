@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the motivation behind experimenting with the model on CNN/DailyMail, focusing on the hierarchical position embeddings and their impact on summarization performance.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors experimented with their model on CNN/DailyMail to investigate the effect of token-level hierarchical position embeddings on summarization performance.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The authors aimed to understand why the performance improvements were small on CNN/DailyMail compared to other datasets like PubMed and arXiv.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 155,
+    "total_tokens": 1276
+  },
+  "seconds": 7.241731018293649
+}

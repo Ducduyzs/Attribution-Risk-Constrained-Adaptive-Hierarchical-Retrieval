@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the types of modifications used in the adversarial attack generation, including phrase addition.\",\n  \"claims\": [\n    {\n      \"text\": \"Three distinct phrases were used for phrase addition in the adversarial attack generation: human entities (e.g., 'the woman'), organizations (e.g., 'the company'), and names (e.g., 'Maria').\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Phrase addition was applied to all 12,000 ContraPro examples.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 591,
+    "completion_tokens": 159,
+    "total_tokens": 750
+  },
+  "seconds": 6.7682552807964385
+}

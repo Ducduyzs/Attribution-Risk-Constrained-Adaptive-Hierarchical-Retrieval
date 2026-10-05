@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the limitations of statistical and neural methods due to small corpus sizes and the complexity of Indigenous languages, highlighting the advantages of rule-based approaches.\",\n  \"claims\": [\n    {\n      \"text\": \"Rule-based approaches are advantageous for small corpora because they do not require extensive data, unlike statistical or neural methods.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Indigenous languages often have rich inflectional morphology, making rule-based methods more suitable for these languages.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 155,
+    "total_tokens": 1234
+  },
+  "seconds": 7.122540904674679
+}

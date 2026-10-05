@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear descriptions of how section titles are incorporated into the BOS representation.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper uses two methods to encode section titles: section title embedding (STE) and classified section title embedding (classified STE).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"For classified STE, intraclass STEs are replaced with the embedding of their corresponding class, and if a section title does not belong to any class or falls into multiple classes, the original STE is used.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Section titles are utilized as additional HiStruct information when encoding sub-sentences, and similar section titles are grouped into classes based on their semantic meanings.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 691,
+    "completion_tokens": 211,
+    "total_tokens": 902
+  },
+  "seconds": 9.761710268910974
+}

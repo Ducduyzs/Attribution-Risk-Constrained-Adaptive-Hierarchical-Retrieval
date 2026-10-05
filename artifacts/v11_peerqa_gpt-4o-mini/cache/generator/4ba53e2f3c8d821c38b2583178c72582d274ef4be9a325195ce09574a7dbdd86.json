@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the role of plurality in pronoun detection and the grammatical role of current mentions in determining referential forms, indicating a relationship between plurality and referential form.",
+    "claims": [
+      {
+        "text": "Including the plurality feature in a prediction task may facilitate pronoun detection.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The grammatical role of the current mention is more important than that of the antecedent in predicting the choice of referential form.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "Referents in subject position are more likely to be pronominalized in subsequent sentences.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.6
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 504,
+    "total_tokens": 652,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.3244459999987157,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ce3836fcfd"
+}

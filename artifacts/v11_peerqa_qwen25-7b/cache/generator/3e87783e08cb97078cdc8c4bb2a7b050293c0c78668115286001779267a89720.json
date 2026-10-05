@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses measures to ensure that paths were not shared between the training and test sets.\",\n  \"claims\": [\n    {\n      \"text\": \"Hyponyms from the test and validation sets were excluded if they appeared as hyponyms in the training set to prevent the models from merely copying.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Queries observed during path training were filtered out to make sure that all evaluated queries were equally new to both path-based models and non-path models.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1988,
+    "completion_tokens": 148,
+    "total_tokens": 2136
+  },
+  "seconds": 9.835828389972448
+}

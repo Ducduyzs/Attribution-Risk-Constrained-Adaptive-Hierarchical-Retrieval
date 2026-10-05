@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on generating adversarial attack examples for evaluating pronoun translation models.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial attacks involve making small, theoretically inconsequential changes to the context before the occurrence of 'it' to evaluate the robustness of the model.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"These attacks can lead to significant drops in model scores, indicating that current models may rely on brittle heuristics rather than accurate inference.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Templates are used to systematically generate adversarial examples targeting specific steps in the coreference resolution pipeline.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2031,
+    "completion_tokens": 206,
+    "total_tokens": 2237
+  },
+  "seconds": 8.995627891737968
+}

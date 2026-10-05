@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the relative contribution of the transport sector to atmospheric black carbon (BC) burden is expected to decrease significantly in future scenarios, particularly under stringent air quality control policies.",
+    "claims": [
+      {
+        "text": "The relative contribution of land transport to BC is expected to decrease in future scenarios due to stringent air quality control measures, especially in SSP1.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "In 2050, land transport remains a major source of BC pollution in certain regions, but its relative contribution is reduced compared to earlier years due to improvements in other sectors.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The transport sector's share of total BC emissions has decreased from 17% to 14% between 2000 and 2015, indicating a trend of reduced relative contribution over time.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 197,
+    "prompt_tokens": 1172,
+    "total_tokens": 1369,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.459847299993271,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

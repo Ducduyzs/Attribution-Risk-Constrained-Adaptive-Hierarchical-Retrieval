@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear explanations and justifications for the selection of threshold values.\",\n  \"claims\": [\n    {\n      \"text\": \"Threshold values are chosen to ensure a distribution of class labels about 1:10, with distituents being the majority, reflecting the skewness of random spans.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The thresholds τ min and τ max are set to 0.0005 and 0.995, respectively, to identify highly confident inside and outside strings.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1921,
+    "completion_tokens": 161,
+    "total_tokens": 2082
+  },
+  "seconds": 7.1880026129074395
+}

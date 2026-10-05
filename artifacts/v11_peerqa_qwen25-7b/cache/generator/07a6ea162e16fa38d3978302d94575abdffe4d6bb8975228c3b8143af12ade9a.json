@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not directly address whether training and inference batches contain mentions from the same document.\",\n  \"claims\": [\n    {\n      \"text\": \"Training and inference batches are constructed by concatenating each mention with an entity candidate separated by a [SEP] token.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1975,
+    "completion_tokens": 90,
+    "total_tokens": 2065
+  },
+  "seconds": 4.142321385908872
+}

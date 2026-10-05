@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence explains why the antecedent is included in the sum for #6, indicating that the value v nsubj:noun-obj:noun is calculated as v verb-nsubj:noun-obj:noun + v nsubj:noun-verb-obj:noun + v nsubj:noun-obj:noun-verb.\",\n  \"claims\": [\n    {\n      \"text\": \"The value v nsubj:noun-obj:noun is calculated as v verb-nsubj:noun-obj:noun + v nsubj:noun-verb-obj:noun + v nsubj:noun-obj:noun-verb.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 168,
+    "total_tokens": 1428
+  },
+  "seconds": 7.657390275038779
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses specific results for different datasets and tasks, indicating task- and dataset-specific findings.\",\n  \"claims\": [\n    {\n      \"text\": \"The results are task- and dataset-specific, as evidenced by the preference for different batch sizes and sequence lengths for FNC-1 and FNC-1 ARC datasets.\",\n      \"citations\": [\"C1\", \"C3\", \"C6\", \"C8\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The findings may not be directly transferable to other datasets or tasks, as the authors suggest further experiments are needed.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2059,
+    "completion_tokens": 164,
+    "total_tokens": 2223
+  },
+  "seconds": 7.546645300928503
+}

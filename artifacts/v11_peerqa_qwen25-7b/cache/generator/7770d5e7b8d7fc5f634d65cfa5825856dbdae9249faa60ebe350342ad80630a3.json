@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides statistical analysis comparing personalized and non-personalized text messages.\",\n  \"claims\": [\n    {\n      \"text\": \"There is no significant difference in the completion rate between those who received personalized and non-personalized text messages when data was collected via telephone (C3, C4).\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"However, there is a slight difference in the average time to completion, with non-personalized text messages having a shorter average time to completion compared to personalized ones (C1).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 167,
+    "total_tokens": 1352
+  },
+  "seconds": 7.856387170962989
+}

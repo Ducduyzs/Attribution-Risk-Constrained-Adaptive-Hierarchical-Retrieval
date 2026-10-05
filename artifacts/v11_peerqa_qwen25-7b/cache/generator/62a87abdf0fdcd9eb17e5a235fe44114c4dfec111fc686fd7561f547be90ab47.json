@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the impact of layer norm approximation on various tasks, including regression, GLUE benchmark, and token-level NER.\",\n  \"claims\": [\n    {\n      \"text\": \"Layer norm approximation can lead to significant performance drops, especially in tasks like regression and token-level NER, where the performance reduction can be up to 1.08% and 1.5% respectively.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Jointly finetuning the softmax estimation model or approximated layernorm can lead to a performance drop across all tasks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The performance reduction due to layer norm approximation is more pronounced in tasks requiring detailed patterns in attention scores, such as token-level NER.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1898,
+    "completion_tokens": 225,
+    "total_tokens": 2123
+  },
+  "seconds": 11.600390444975346
+}

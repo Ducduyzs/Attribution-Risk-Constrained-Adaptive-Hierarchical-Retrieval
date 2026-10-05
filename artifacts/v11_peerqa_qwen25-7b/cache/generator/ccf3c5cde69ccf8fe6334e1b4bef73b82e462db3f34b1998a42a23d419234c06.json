@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides reasons why beam search is inadequate for certain goals, particularly in terms of handling similar hypotheses efficiently and exploring the search space effectively.\",\n  \"claims\": [\n    {\n      \"text\": \"Beam search does not handle very similar hypotheses efficiently, leading to redundant exploration of states that are ultimately pruned.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Beam search is inadequate for goals requiring diverse and high-quality outputs due to its inefficient exploration of similar hypotheses.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 152,
+    "total_tokens": 1236
+  },
+  "seconds": 7.436222292948514
+}

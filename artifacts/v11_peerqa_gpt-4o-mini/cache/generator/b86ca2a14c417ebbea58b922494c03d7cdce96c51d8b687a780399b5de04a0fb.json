@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly states that the model calculates both radiative forcing and effective radiative forcing, including adjustments for aerosol-cloud interactions and aerosol-radiation interactions.",
+    "claims": [
+      {
+        "text": "The model calculates effective radiative forcing that includes adjustments for aerosol-cloud interactions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model is able to diagnose both all-sky and clear-sky aerosol radiative forcing, which includes aerosol-cloud interactions.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Clear-sky radiative forcing may include contributions from aerosol-radiation interactions, but is not solely attributed to them.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 714,
+    "total_tokens": 869,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0037582000077236,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

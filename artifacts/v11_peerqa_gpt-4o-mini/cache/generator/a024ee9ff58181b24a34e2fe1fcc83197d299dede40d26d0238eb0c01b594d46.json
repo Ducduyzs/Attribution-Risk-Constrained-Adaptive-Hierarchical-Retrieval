@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into the rationale for using set expansion approaches in constructing dictionaries from customer reviews, particularly focusing on the unique characteristics of user-generated text.",
+    "claims": [
+      {
+        "text": "Entity set expansion (ESE) enhances a seed set of entities by discovering new entities from user-generated text, which is abundant and largely unlabeled.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "User-generated text contains unique characteristics, such as non-named and vague entities, which necessitate the use of ESE methods to accurately capture relevant entities.",
+        "citations": [
+          "C1",
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Existing ESE methods often do not generalize well to user-generated text, highlighting the need for tailored approaches in this domain.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 1960,
+    "total_tokens": 2145,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 5.156141300001764,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

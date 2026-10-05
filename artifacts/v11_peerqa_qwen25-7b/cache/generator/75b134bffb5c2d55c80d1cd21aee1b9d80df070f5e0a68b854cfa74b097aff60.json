@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on generating adversarial attack examples.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial attacks involve appending or prepending phrases to sentences to reduce model scores.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Templates are used to introduce entities like animals, human professions, and foods to create attacks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Attacks can introduce human entities or pleonastic references to decrease model accuracy.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 170,
+    "total_tokens": 1281
+  },
+  "seconds": 7.583654040936381
+}

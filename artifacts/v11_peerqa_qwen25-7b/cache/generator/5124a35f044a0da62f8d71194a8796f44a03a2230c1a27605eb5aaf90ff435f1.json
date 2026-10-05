@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the top 10 nonsynonymous mutations were selected.\",\n  \"claims\": [\n    {\n      \"text\": \"Mutations with a value less than -2.5 were considered as deleterious, and the SIFT 4G score threshold of 0.05 was used to predict the effect on protein function.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The top 10 nonsynonymous mutations were selected based on their frequency in primary lineages associated with past and present variant of concern (VOC).\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2338,
+    "completion_tokens": 174,
+    "total_tokens": 2512
+  },
+  "seconds": 11.177512450143695
+}

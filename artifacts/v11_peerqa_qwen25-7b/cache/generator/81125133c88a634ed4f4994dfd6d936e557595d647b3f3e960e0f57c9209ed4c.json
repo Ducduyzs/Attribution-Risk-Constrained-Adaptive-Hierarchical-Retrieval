@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses specific findings and recommendations for a particular task (Fake News detection) and dataset (FNC-1, FNC-1 ARC), indicating task- and dataset-specific results.\",\n  \"claims\": [\n    {\n      \"text\": \"The findings are not without further ado transferable to other Fake News related data sets using different tasks or label sets, but can serve as starting points for further experiments in related fields.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The performance improvements for the Disagree class, which has the fewest training instances, suggest that the results are specific to the dataset's characteristics.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 179,
+    "total_tokens": 1294
+  },
+  "seconds": 8.52884313184768
+}

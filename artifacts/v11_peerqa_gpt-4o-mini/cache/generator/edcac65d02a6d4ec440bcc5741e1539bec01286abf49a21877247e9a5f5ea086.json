@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The difference in performance between the DICTA test set and the new test set can be attributed to the training data and the nature of the test sets, which affect the character and word accuracy metrics.",
+    "claims": [
+      {
+        "text": "The NAKDIMON system was not trained on the DICTA portion of the training corpus, which may affect its performance on the DICTA test set compared to the new test set.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The new test set is larger and more diverse than the DICTA test set, which could lead to differences in performance metrics such as character accuracy (CHA) and word accuracy (WOR).",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The performance on the new test set shows substantial improvement in character-level metrics compared to word-level metrics, indicating different challenges in the two test sets.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 201,
+    "prompt_tokens": 2004,
+    "total_tokens": 2205,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.873470999998972,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

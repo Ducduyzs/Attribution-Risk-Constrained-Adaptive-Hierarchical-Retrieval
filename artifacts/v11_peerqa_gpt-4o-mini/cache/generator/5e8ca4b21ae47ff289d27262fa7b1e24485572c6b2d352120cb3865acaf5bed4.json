@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear motivations for the authors to experiment with their model on CNN/DailyMail, highlighting the effectiveness of hierarchical structure information in improving summarization performance.",
+    "claims": [
+      {
+        "text": "The authors aimed to improve extractive summarization by injecting hierarchical structure information into their model, which was evaluated on CNN/DailyMail among other datasets.",
+        "citations": [
+          "C1",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance improvements on CNN/DailyMail were smaller compared to other datasets, indicating the dataset's less conspicuous hierarchical structure.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The HiStruct+ model outperformed baselines on CNN/DailyMail, demonstrating the effectiveness of the hierarchical position information.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 2123,
+    "total_tokens": 2300,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.9197904000029666,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

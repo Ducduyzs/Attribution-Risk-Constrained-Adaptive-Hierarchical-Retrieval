@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that training and inference batches are constructed to leverage coreferent mentions, as they involve building relationships between mentions and entities across documents, which is essential for effective entity linking and coreference resolution.",
+    "claims": [
+      {
+        "text": "Training and inference batches are constructed to leverage coreferent mentions by concatenating each mention with an entity candidate.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The training approach explicitly models mention coreference relationships across documents, indicating that mentions from the same document are utilized.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed method uses a supervised clustering objective that forms relationships over mentions and entities, enhancing coreference linking.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 2014,
+    "total_tokens": 2177,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.707239399998798,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

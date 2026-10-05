@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides details on the development of the conceptual model in Figure 2, specifically mentioning the thematic analysis and the steps involved in creating the model.",
+    "claims": [
+      {
+        "text": "The conceptual model in Figure 2 was developed through a thematic analysis that included six phases, which helped identify and categorize themes related to recycling intention.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model was enriched by data collected from participants, emphasizing social influence and gamification elements that enhance recycling intention.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The authors suggested that the model could be tested using quantitative methods to further validate its effectiveness.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1064,
+    "total_tokens": 1220,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.068138500006171,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

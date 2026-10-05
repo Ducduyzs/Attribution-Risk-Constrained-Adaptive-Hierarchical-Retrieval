@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that while current annotation schemes are tied to specific domains, there is potential for reusability of annotated data across different domains, as demonstrated by cross-domain experiments.",
+    "claims": [
+      {
+        "text": "Current annotation schemes are tied to specific domains, making it difficult to reuse annotated data in other domains.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Cross-domain experiments show potential reusability of annotated data, indicating that the annotation scheme can be adapted to more domains.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 648,
+    "total_tokens": 769,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9341606000089087,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

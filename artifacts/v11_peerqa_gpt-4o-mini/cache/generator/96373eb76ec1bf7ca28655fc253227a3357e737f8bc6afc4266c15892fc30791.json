@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the need for policy recommendations based on the views expressed regarding coordination, preparation, and decision-makers, indicating that there are actionable insights to be derived from these areas.",
+    "claims": [
+      {
+        "text": "The authors should strengthen the recommendations section to outline specific policy recommendations based on the views on coordination, preparation, and decision-makers.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "There is a suggestion to create a joint section for decision-makers to highlight their role and identify areas for improvement, which could inform recommendations.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 592,
+    "total_tokens": 721,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.088402399996994,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

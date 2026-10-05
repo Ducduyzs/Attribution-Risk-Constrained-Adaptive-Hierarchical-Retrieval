@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons between the proposed augmentation method (text smoothing) and other baselines with more training data.\",\n  \"claims\": [\n    {\n      \"text\": \"Text smoothing outperforms other data augmentation methods by an average of 1.17% across all datasets.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Text smoothing improves various data augmentation methods by significant margins, including 5.98% for EDA, 6.48% for BARTspan, and others.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 633,
+    "completion_tokens": 158,
+    "total_tokens": 791
+  },
+  "seconds": 6.676615996751934
+}

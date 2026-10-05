@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the effectiveness of the proposed knowledge prompting method using large language models like GPT-3. However, it does not explicitly mention the performance of the method with smaller language models.\",\n  \"claims\": [\n    {\n      \"text\": \"The method's success highlights language models as sources of flexible, high-quality knowledge for commonsense reasoning.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Our method does not require task-specific supervision for knowledge integration, or access to a structured knowledge base, yet it improves performance of large-scale, state-of-the-art models on four commonsense reasoning tasks.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 175,
+    "total_tokens": 1237
+  },
+  "seconds": 7.845229992177337
+}

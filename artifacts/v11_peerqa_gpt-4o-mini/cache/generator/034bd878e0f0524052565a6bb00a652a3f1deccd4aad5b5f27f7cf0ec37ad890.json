@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the proposed NER model utilizes cross-lingual wikification, which allows for the grounding of words and phrases in non-English text to English Wikipedia entries. This process provides language-independent features that can be applied to named entities not explicitly listed on Wikipedia, as it leverages FreeBase types and Wikipedia categories for disambiguation.",
+    "claims": [
+      {
+        "text": "The NER model can account for named entities not listed on Wikipedia by using cross-lingual wikification to ground words to English Wikipedia entries.",
+        "citations": [
+          "C3",
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Grounding words to Wikipedia allows the model to utilize FreeBase types and categories, which can provide information about entities not directly mentioned in Wikipedia.",
+        "citations": [
+          "C6",
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 1996,
+    "total_tokens": 2176,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6608479999995325,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

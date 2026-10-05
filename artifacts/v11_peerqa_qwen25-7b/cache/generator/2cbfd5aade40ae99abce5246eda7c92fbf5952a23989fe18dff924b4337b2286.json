@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into how classification decisions are made for correlational and causal claims in scientific papers, particularly in the context of distinguishing between them.\",\n  \"claims\": [\n    {\n      \"text\": \"The classification of a scientific paper as correlational or causal depends on the presence of specific language in the conclusion, with 'correlational' being identified by sentences using correlational language and excluding direct or conditional causal language.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Misclassification can occur due to the presence of causal markers in subordinate clauses, leading to confusion between 'direct causal' and 'correlational' categories.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 644,
+    "completion_tokens": 181,
+    "total_tokens": 825
+  },
+  "seconds": 7.6910657291300595
+}

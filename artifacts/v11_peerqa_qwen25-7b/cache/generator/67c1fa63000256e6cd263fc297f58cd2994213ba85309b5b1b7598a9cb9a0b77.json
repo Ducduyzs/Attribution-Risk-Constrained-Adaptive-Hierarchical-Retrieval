@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the drawbacks of using a complete graph for training, including noise in the graph and edges crossing cluster boundaries.\",\n  \"claims\": [\n    {\n      \"text\": \"Using a complete graph for training would introduce noise and unwanted connections, making it less effective than pruning the graph.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2172,
+    "completion_tokens": 95,
+    "total_tokens": 2267
+  },
+  "seconds": 4.339316175319254
+}

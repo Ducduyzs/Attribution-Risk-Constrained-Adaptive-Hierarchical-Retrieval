@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence explains why fine-tuning CLIP was not included in the experiments due to performance issues and dataset limitations.\",\n  \"claims\": [\n    {\n      \"text\": \"Fine-tuning the last few layers of CLIP with a classification head on top performed worse than using extracted features for classification with SVM due to a smaller labeled dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 423,
+    "completion_tokens": 105,
+    "total_tokens": 528
+  },
+  "seconds": 4.9670585710555315
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on factors beyond temperature and precipitation that influence glacier distribution, such as spatial variability in precipitation and melt efficiency.\",\n  \"claims\": [\n    {\n      \"text\": \"Spatial variability in precipitation can significantly influence glacier distribution and sensitivity to climate.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Melt efficiency can also play a crucial role in determining glacier extent, especially in valleys with different precipitation levels.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2155,
+    "completion_tokens": 154,
+    "total_tokens": 2309
+  },
+  "seconds": 7.142705494072288
+}

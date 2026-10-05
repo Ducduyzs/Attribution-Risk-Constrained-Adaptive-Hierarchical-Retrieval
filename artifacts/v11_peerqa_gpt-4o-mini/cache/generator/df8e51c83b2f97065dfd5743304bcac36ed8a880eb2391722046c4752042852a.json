@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into the performance differences between CGExpan and LM-Base, particularly in the context of user-generated text versus well-curated benchmarks.",
+    "claims": [
+      {
+        "text": "CGExpan performs well on well-curated benchmarks but underperforms on user-generated text compared to LM-Base.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "LM-Base outperforms CGExpan on user-generated text due to its ability to handle the characteristics of such text better.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "SOTA methods like CGExpan do not generalize well to user-generated text, leading to significant performance drops.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 618,
+    "total_tokens": 785,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.174208300013561,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

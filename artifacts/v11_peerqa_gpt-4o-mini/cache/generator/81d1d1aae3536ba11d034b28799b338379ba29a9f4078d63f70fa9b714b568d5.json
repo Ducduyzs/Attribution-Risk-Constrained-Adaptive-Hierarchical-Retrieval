@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explains that higher absolute accuracy numbers compared to F1 scores indicate that human evaluations can assess correctness more comprehensively than automatic evaluations, which may miss some correct answers.",
+    "claims": [
+      {
+        "text": "Higher absolute accuracy numbers than F1 scores suggest that human evaluations capture more correct answers than automatic evaluations, which often miss valid responses due to limited gold answer sets.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The discrepancy arises because human annotators can evaluate correctness more effectively than automatic systems, which rely on predefined gold answers that may not encompass all possible correct responses.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 1200,
+    "total_tokens": 1345,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.035131500000716,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

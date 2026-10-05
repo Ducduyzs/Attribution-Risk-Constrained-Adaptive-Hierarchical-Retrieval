@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on measures taken to ensure the accuracy of the confidence network, including designing a confidence network using low-layer hidden states, proposing a confidence-based label smoothing approach, and approximating confidence levels by counting hints used.\",\n  \"claims\": [\n    {\n      \"text\": \"A confidence network using low-layer hidden states is designed to predict confidence estimates.\",\n      \"citations\": [\"C3\", \"C5\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A confidence-based label smoothing approach is proposed to improve the model's calibration.\",\n      \"citations\": [\"C3\", \"C5\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Confidence levels are approximated by counting the number of hints the model uses to make a correct prediction.\",\n      \"citations\": [\"C3\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1987,
+    "completion_tokens": 213,
+    "total_tokens": 2200
+  },
+  "seconds": 9.66822242969647
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that the templates use entities and phrases that appear in the training dataset, and the training data includes a sufficient number of occurrences for some entities like 'kangaroo' (134 times).\",\n  \"claims\": [\n    {\n      \"text\": \"All entities in the templates appear in the training dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The entity 'kangaroo', which is the least frequent, appears 134 times in the training data.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 150,
+    "total_tokens": 1162
+  },
+  "seconds": 6.738585284911096
+}

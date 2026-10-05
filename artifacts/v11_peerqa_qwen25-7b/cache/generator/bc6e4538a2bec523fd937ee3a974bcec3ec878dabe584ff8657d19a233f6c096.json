@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear details on the data augmentation strategy.\",\n  \"claims\": [\n    {\n      \"text\": \"The data augmentation strategy involves creating new training examples by modifying the gender of coreferential pronouns in translated sentences.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"This strategy, called Antecedent-free augmentation (afa), aims to break off a strong prior in the model and improve coreference resolution capabilities.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 139,
+    "total_tokens": 1334
+  },
+  "seconds": 6.298088814131916
+}

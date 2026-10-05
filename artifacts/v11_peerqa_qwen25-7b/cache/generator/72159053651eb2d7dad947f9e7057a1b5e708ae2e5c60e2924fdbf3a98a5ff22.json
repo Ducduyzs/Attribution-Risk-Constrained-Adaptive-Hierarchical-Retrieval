@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on generating adversarial attack examples for evaluating context-aware NMT models.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial attacks involve appending or prepending simple phrases to the original sentence, such as '…but he wasn't sure' or 'it is true:...'.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"These attacks introduce new entities or modify existing ones, like extending the antecedent with 'the company's' or 'Maria's'.\",\n      \"citations\": [\"C1\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The attacks aim to test the model's ability to handle coreference resolution and pronoun translation under adversarial conditions.\",\n      \"citations\": [\"C1\", \"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2035,
+    "completion_tokens": 220,
+    "total_tokens": 2255
+  },
+  "seconds": 13.029840927105397
+}

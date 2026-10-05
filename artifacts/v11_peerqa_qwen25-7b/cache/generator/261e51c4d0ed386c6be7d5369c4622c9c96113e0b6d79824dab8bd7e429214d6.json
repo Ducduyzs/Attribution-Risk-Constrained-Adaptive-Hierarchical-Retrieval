@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the importance of the grammatical role of the current mention over the antecedent in predicting referential form and mentions the potential impact of plurality in pronoun detection.\",\n  \"claims\": [\n    {\n      \"text\": \"The grammatical role of the current mention is more important than that of the antecedent in predicting the choice of referential form.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Including the plurality feature in a prediction task might facilitate the pronoun detection.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 462,
+    "completion_tokens": 154,
+    "total_tokens": 616
+  },
+  "seconds": 6.637969264760613
+}

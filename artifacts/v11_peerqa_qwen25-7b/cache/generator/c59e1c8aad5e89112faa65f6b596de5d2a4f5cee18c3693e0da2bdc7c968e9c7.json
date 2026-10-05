@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The rationale for analyzing only the self-attention functions in the last layer of BERT is based on the observation that these functions do not significantly change during fine-tuning, indicating that the most relevant attention mechanisms are already established in the later layers.\",\n  \"claims\": [\n    {\n      \"text\": \"Fine-tuning BERT does not change correlations to human attention, and this change is also dependent on the tuning task itself.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Transformers are equipped with overcomplete sets of attention functions that hardly change until the later layers, if at all, during fine-tuning.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1016,
+    "completion_tokens": 178,
+    "total_tokens": 1194
+  },
+  "seconds": 7.914569605141878
+}

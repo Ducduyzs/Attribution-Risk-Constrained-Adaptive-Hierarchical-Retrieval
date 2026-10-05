@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that plurality is a significant inherent feature influencing the choice of referential form, alongside grammatical role and other factors.",
+    "claims": [
+      {
+        "text": "Plurality plays a major role in predicting the referential choice, indicating a relationship between plurality and referential form.",
+        "citations": [
+          "C2",
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The grammatical role of the current mention is more important than that of the antecedent in predicting the choice of referential form, which includes plurality.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Including the plurality feature in prediction tasks may facilitate pronoun detection, suggesting its relevance in referential form selection.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 2264,
+    "total_tokens": 2429,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4777071999997133,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

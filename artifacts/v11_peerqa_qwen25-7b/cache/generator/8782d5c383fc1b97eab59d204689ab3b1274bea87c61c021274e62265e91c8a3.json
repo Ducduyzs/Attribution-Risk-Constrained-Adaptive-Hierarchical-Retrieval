@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides direct comparisons between text smoothing and other data augmentation methods.\",\n  \"claims\": [\n    {\n      \"text\": \"Text smoothing outperforms various mainstream data augmentation methods by a substantial margin.\",\n      \"citations\": [\"C3\", \"C5\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Text smoothing can bring significant improvements to EDA, BackTrans, CBERT, BERTexpand, BERTprepend, GPT2context, BARTword, and BARTspan, with improvements ranging from 2.17% to 6.48%.\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2060,
+    "completion_tokens": 174,
+    "total_tokens": 2234
+  },
+  "seconds": 8.256280622910708
+}

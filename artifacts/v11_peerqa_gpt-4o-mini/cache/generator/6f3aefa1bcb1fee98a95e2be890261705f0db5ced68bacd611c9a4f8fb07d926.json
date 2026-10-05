@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into the views on coordination, preparation, and decision-makers during the COVID-19 pandemic in Bangladesh, allowing for specific recommendations to be derived.",
+    "claims": [
+      {
+        "text": "Recommendations include increasing budgetary allocations and efficiency in the health sector to address preexisting constraints.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Engaging public health professionals and relevant experts in decision-making is crucial for effective pandemic response.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Establishing a dedicated public health career track is necessary for long-term improvements in the health system.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Improving coordination and communication among decision-makers is essential to avoid mismanagement and indecision.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 1980,
+    "total_tokens": 2158,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4205950000032317,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

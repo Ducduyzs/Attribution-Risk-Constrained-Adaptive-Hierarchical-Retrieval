@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the proposed method's unique approach to learning cross-lingual and environment-agnostic representations, distinguishing it from existing methods.",
+    "claims": [
+      {
+        "text": "Our method utilizes visually-aligned multilingual instructions to learn a cross-lingual language representation that captures visual semantics, unlike existing methods that rely on large text-image pairs or data augmentation techniques.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "We explore connections between multiple environments to maximize similarity between paths from different environments, which differs from methods that focus on a single environment for representation learning.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Our CLEAR method integrates cross-lingual language and environment-agnostic visual representations for vision-and-language navigation, which is a novel approach compared to traditional methods like VQA and captioning.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 1094,
+    "total_tokens": 1286,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6513479000132065,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

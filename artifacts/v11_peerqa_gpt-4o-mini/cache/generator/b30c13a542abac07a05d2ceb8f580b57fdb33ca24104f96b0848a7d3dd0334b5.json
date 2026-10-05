@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear methods for incorporating section titles into the BOS representation through section title embeddings and classified section title embeddings.",
+    "claims": [
+      {
+        "text": "Section titles are encoded using section title embeddings (STE) by feeding tokenized titles into a TLM and summing the last hidden states.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Classified section title embeddings replace intraclass STEs with the embedding of their corresponding class, defined by typical section title classes.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The method groups similar section titles into classes, enhancing the encoding process by treating semantically similar titles as equivalent.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 1957,
+    "total_tokens": 2112,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.14685059999465,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

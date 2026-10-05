@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the initialization strategy and the determination of the number of layers but does not mention pkd-bert or a specific budget allocation method.\",\n  \"claims\": [\n    {\n      \"text\": \"The student model is initialized from the bottommost layers of the teacher, similar to the approach used in (Sanh et al., 2019).\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The number of fine-tuned layers for each task is determined based on the marginal benefit of adding more layers.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The number of layers to fine-tune is a hyper-parameter that may vary across tasks.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1879,
+    "completion_tokens": 199,
+    "total_tokens": 2078
+  },
+  "seconds": 8.668005840852857
+}

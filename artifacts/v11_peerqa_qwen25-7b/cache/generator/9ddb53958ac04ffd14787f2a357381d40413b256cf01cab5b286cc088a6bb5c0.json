@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not explicitly state whether the model needs to compute ψ(m_i, e) for all entities in the target knowledge base during inference.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses a procedure that infers a set of clusters containing exactly one entity, but it does not specify if ψ(m_i, e) is computed for all entities in the target knowledge base during inference.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2098,
+    "completion_tokens": 122,
+    "total_tokens": 2220
+  },
+  "seconds": 5.748814222402871
+}

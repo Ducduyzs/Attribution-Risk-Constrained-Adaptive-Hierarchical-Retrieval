@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear relationship between the molecular diffusivity (κ_m) and wave-induced diffusivity (κ_v), allowing for a comparison of their relative sizes.",
+    "claims": [
+      {
+        "text": "The total diffusion coefficient κ is the sum of molecular diffusivity (κ_m) and wave-induced diffusivity (κ_v).",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Molecular diffusivity κ_m is given as 1.4 × 10^-7 m s^-2, while wave-induced diffusivity κ_v is calculated using a specific formula.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The wave-induced diffusivity κ_v is dependent on wave parameters and can vary significantly compared to the constant molecular diffusivity κ_m.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 1240,
+    "total_tokens": 1425,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.87016869999934,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

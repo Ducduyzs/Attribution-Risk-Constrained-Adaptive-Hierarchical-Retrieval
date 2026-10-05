@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific statistical comparisons between personalised and non-personalised text messages regarding completion rates and time to completion.",
+    "claims": [
+      {
+        "text": "Those who received non-personalised text messages had a higher completion rate (66.0% for non-personalised late) compared to those who received personalised messages (50.0% for personalised early).",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "There was no significant difference in the time to completion between personalised and non-personalised text messages, although a slight difference was noted.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "Statistical analysis suggests that recipients of non-personalised messages were more likely to complete the questionnaire than those who received personalised messages (adjusted OR 0.44, p=0.02).",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 191,
+    "prompt_tokens": 718,
+    "total_tokens": 909,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.8241607999952976,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

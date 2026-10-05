@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The model's application is spatially limited but provides insights for further analysis in diverse geographical areas.",
+    "claims": [
+      {
+        "text": "The model is spatially limited but offers insights for further analysis of other LIG coral-dominated coastlines.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Further investigation is warranted in locations with similar RSL curves to those explored in the study.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "text": "The study focuses on a specific site in Madagascar, indicating that while applicable insights exist, direct application may vary by location.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.6
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 694,
+    "total_tokens": 834,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.828585999988718,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

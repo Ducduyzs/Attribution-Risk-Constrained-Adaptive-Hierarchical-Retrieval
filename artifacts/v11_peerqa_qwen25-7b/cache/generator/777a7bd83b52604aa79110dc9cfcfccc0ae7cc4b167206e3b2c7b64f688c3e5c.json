@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The paper explains that using F1 score allows for more flexibility in matching entity names, accommodating variations in naming that might occur due to different predictions versus gold answers.\",\n  \"claims\": [\n    {\n      \"text\": \"The reason we take the F1 instead of exact match to check whether the entities are the same is stated in Appendix A.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Sometimes the prediction may mention the same entity as the gold answer does, but with different names. Thus to avoid the false positive of detecting invalid questions, we take the F1 metric.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2100,
+    "completion_tokens": 170,
+    "total_tokens": 2270
+  },
+  "seconds": 7.566518114879727
+}

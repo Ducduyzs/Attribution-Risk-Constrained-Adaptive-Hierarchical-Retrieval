@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not specify the exact number of augmented samples generated for each original sample.\",\n  \"claims\": [\n    {\n      \"text\": \"The method strictly follows the settings in the (Kumar et al., 2020) TREC, where 10 examples per class are randomly subsampled for both training and development sets.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2059,
+    "completion_tokens": 107,
+    "total_tokens": 2166
+  },
+  "seconds": 5.123784983064979
+}

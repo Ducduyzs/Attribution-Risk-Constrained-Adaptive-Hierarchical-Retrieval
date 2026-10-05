@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The new error categories were designed to provide a more detailed and practical framework for evaluating grammatical error correction systems, addressing limitations in existing tagsets.",
+    "claims": [
+      {
+        "text": "The new error scheme allows for a more detailed evaluation of error types, facilitating analysis at different levels of granularity.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Existing tagsets like CoNLL-2014 did not adequately address certain error types, such as unnecessary token errors, which are significant in GEC.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The new framework is based on automatically obtained properties of the data, making it dataset-independent and reducing annotator workload.",
+        "citations": [
+          "C5",
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 1950,
+    "total_tokens": 2121,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.3160123999987263,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

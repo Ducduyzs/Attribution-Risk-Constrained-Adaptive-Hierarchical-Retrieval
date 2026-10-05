@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the adaptability of an annotation scheme to different domains and highlights challenges and solutions.\",\n  \"claims\": [\n    {\n      \"text\": \"The annotation scheme can be adapted to more domains due to its generic intents and slots, but it may require rethinking for certain tasks.\",\n      \"citations\": [\"C1\", \"C3\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"There are challenges in reusing annotated data across domains due to domain-specific ontologies and intents.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1968,
+    "completion_tokens": 154,
+    "total_tokens": 2122
+  },
+  "seconds": 9.77531607169658
+}

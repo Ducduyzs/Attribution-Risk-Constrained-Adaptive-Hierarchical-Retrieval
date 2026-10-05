@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses limitations of current NLU datasets and introduces NLU++ which aims to address these issues, suggesting adaptability to more domains.\",\n  \"claims\": [\n    {\n      \"text\": \"The annotation scheme can be adapted to more domains due to the introduction of NLU++ which provides a rich set of generic intents and slots, enabling cross-domain reusability.\",\n      \"citations\": [\"C7\", \"C8\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Current NLU datasets are often domain-specific, limiting their reusability across different domains, whereas NLU++ addresses this issue.\",\n      \"citations\": [\"C7\", \"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1973,
+    "completion_tokens": 174,
+    "total_tokens": 2147
+  },
+  "seconds": 11.369801721069962
+}

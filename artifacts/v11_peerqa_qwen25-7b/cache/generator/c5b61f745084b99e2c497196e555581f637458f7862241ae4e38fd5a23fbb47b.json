@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the limitations of current NLU datasets and suggests that adapting annotation schemes to more domains is challenging due to domain-specific ontologies and the need for expert annotation.\",\n  \"claims\": [\n    {\n      \"text\": \"Adapting annotation schemes to more domains is difficult due to domain-specific ontologies.\",\n      \"citations\": [\"C1\", \"C2\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Current NLU datasets are not easily reusable across different domains.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1940,
+    "completion_tokens": 152,
+    "total_tokens": 2092
+  },
+  "seconds": 7.1522420309484005
+}

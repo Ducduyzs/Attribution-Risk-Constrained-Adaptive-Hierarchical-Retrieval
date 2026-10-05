@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The rationale for analyzing only the self-attention functions in the last layer of the BERT model is that the raw attention weights do not reliably correspond to token relevance and produce generally weaker correlations than attention flows. Additionally, the self-attention functions in later layers are less likely to change during fine-tuning, making them more stable and useful for comparison.\",\n  \"claims\": [\n    {\n      \"text\": \"Selecting the highest correlating head for the last attention layer produces generally weaker correlation than attention flows.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The self-attention functions in later layers are less likely to change during fine-tuning, making them more stable and useful for comparison.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 194,
+    "total_tokens": 1396
+  },
+  "seconds": 8.4771424443461
+}

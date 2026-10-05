@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The document explains the rationale behind setting threshold values for identifying constituents and distituents based on confidence scores.\",\n  \"claims\": [\n    {\n      \"text\": \"Thresholds are set to ensure a balanced distribution of class labels, with distituents being the majority, reflecting the linguistic reality where distituents outnumber constituents.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Specifically, thresholds τ min and τ max are set to 0.0005 and 0.995, respectively, to identify highly confident outside strings as gold-standard outside of constituents and distituents.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 550,
+    "completion_tokens": 175,
+    "total_tokens": 725
+  },
+  "seconds": 7.881924958899617
+}

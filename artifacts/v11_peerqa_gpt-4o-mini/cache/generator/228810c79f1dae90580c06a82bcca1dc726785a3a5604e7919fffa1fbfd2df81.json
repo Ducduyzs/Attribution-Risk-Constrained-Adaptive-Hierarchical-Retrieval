@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that training examples evaluate both the gold entity and its coreferent mentions, suggesting that training and inference batches do indeed contain mentions from the same document to leverage coreferent mentions.",
+    "claims": [
+      {
+        "text": "Training examples evaluate both the gold entity and its coreferent mentions, leading to better generalization of representations.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Training and inference batches are constructed to include mentions and their coreferent entities, optimizing the model's performance.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The approach explicitly models mention coreference relationships across documents, indicating a focus on leveraging coreferent mentions.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1230,
+    "total_tokens": 1391,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.320352199996705,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

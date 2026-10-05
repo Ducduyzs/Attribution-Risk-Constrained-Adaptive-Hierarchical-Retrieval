@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on creating adversarial attacks by making small changes to context sentences, which can mislead context-aware transformer NMT models.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial attacks involve making small changes to context sentences before the occurrence of a target word to mislead models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Context-aware transformer NMT models can be easily misled by such simple and unimportant changes.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 658,
+    "completion_tokens": 145,
+    "total_tokens": 803
+  },
+  "seconds": 6.567517559975386
+}

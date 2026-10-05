@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how section titles are incorporated into the BOS representation through section title embeddings (STE) and classified STE.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper uses section title embeddings (STE) and classified STE to represent section titles, where similar section titles are grouped into classes and replaced with class embeddings if they belong to a predefined class.\",\n      \"citations\": [\"C1\", \"C2\", \"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 121,
+    "total_tokens": 1295
+  },
+  "seconds": 5.297615354880691
+}

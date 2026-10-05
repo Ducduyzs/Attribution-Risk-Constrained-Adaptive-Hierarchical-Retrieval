@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of German in the experiments and mentions other languages but does not explicitly state if the training languages for non-baseline models overlap with German.\",\n  \"claims\": [\n    {\n      \"text\": \"The experiments include German as a benchmark language, but do not specify if the training languages for non-baseline models overlap with German.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1983,
+    "completion_tokens": 115,
+    "total_tokens": 2098
+  },
+  "seconds": 5.262556869070977
+}

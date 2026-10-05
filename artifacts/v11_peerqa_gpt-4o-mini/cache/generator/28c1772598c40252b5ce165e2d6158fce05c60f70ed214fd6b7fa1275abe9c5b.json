@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the criteria used to select the four CQA models based on their architectures and training strategies.",
+    "claims": [
+      {
+        "text": "The four CQA models were selected based on their different model architectures and training strategies.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The selected models include BERT, GraphFlow, HAM, and ExCorD, each with unique approaches to handling conversational QA tasks.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "BERT serves as a baseline model that concatenates previous turns, while GraphFlow uses a recurrent graph neural network, HAM employs a history attention mechanism, and ExCorD focuses on question rewriting.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 486,
+    "total_tokens": 650,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.223400100003346,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ce3836fcfd"
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides specific details about the impact of layer norm approximation on the performance of tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"The approximation of layernorm incurs a significant performance reduction of 1.08% on the GLUE benchmark, which is the largest among the approximation components.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Layer norm approximation has the most impact on performance reduction in token-level tasks, as observed in the NER task.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1698,
+    "completion_tokens": 152,
+    "total_tokens": 1850
+  },
+  "seconds": 6.747104414738715
+}

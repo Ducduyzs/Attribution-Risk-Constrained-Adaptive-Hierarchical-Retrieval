@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly mentions the inclusion of both French and Spanish datasets in the cross-linguistic analysis.",
+    "claims": [
+      {
+        "text": "The cross-linguistic analysis includes both French and Spanish datasets.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The study demonstrates zero-shot cross-lingual ranking accuracy for both French and Spanish when trained on English data.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 1209,
+    "total_tokens": 1311,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4549139000009745,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

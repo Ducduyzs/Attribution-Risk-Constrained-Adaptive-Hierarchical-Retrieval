@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors aimed to evaluate their HiStruct+ models on CNN/DailyMail to demonstrate the effectiveness of their hierarchical encoding methods and to compare performance against strong baselines.",
+    "claims": [
+      {
+        "text": "The authors experimented with CNN/DailyMail to evaluate the effectiveness of their HiStruct+ models in producing competitive results for extractive summarization.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The motivation for using CNN/DailyMail was to compare their model's performance against strong baselines and to investigate the contributions of hierarchical position information.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The authors aimed to show that their model works better on datasets with conspicuous hierarchical structures, which is evident from the results on CNN/DailyMail.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1197,
+    "total_tokens": 1374,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.866328500007512,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

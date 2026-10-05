@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the relative contribution of the transport sector to atmospheric black carbon (BC) burden is expected to decrease significantly in future scenarios, particularly under stringent air quality control measures.",
+    "claims": [
+      {
+        "text": "The relative contribution of land transport to BC concentrations is expected to decrease significantly by 2050 due to stringent air quality control policies in SSP1.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "In SSP1, the absolute impact of land transport on BC is strongly reduced, leading to a decrease in its relative contribution compared to other sectors.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Transport sectors, particularly land transport, contributed 15%-20% of near-surface BC concentrations in 2015, but this is projected to decline in the future.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 2136,
+    "total_tokens": 2321,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7577665999997407,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

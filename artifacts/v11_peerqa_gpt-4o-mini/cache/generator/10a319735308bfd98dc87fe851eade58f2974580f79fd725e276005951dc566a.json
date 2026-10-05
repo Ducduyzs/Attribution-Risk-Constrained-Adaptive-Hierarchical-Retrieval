@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of the practical application of measuring performance using MAP at gold-k, particularly in evaluating entity search methods in user-generated text.",
+    "claims": [
+      {
+        "text": "The MAP at gold-k metric is designed to evaluate the performance of entity search methods in scenarios where coverage of various entity types is crucial, especially in user-generated text.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Using MAP at gold-k helps practitioners assess the suitability of entity search methods by addressing the representation of non-named and vague entities in their predictions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed evaluation metric complements existing metrics by focusing on the multifaceted nature of entities in benchmarks, which is important for knowledge base population.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 686,
+    "total_tokens": 862,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1571763999963878,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

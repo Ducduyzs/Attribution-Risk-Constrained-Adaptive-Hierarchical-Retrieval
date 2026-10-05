@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that in the UCCA scheme, a node can represent either a terminal or a non-terminal, but not both simultaneously, as it is defined as either a single token or a complex unit comprising multiple tokens.",
+    "claims": [
+      {
+        "text": "A node in the UCCA scheme can be either a terminal or a non-terminal, but not both at the same time.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "UCCA nodes are defined as either corresponding to a single token (terminal) or to multiple tokens viewed as a single entity (non-terminal).",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 2136,
+    "total_tokens": 2285,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 1.837990500003798,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

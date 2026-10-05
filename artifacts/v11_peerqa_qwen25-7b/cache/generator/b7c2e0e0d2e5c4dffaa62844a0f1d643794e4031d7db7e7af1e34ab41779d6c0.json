@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear distinctions between the proposed method and existing approaches in terms of how they handle multilingual vision-and-language tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"Our method uses visually-aligned multilingual instructions to learn a cross-lingual language representation that inherently captures visual semantics, unlike previous methods that rely on large text-image pairs or auxiliary tasks.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"We propose an environment-agnostic visual representation that generalizes better to unseen environments, which differs from methods relying on data augmentation techniques like environment dropout or adversarial path sampling.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 741,
+    "completion_tokens": 173,
+    "total_tokens": 914
+  },
+  "seconds": 7.963766301050782
+}

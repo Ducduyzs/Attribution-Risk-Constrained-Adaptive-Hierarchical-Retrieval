@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the selection criteria for the four conversational QA models based on their architectures and training strategies.",
+    "claims": [
+      {
+        "text": "The four conversational QA models were selected based on their different architectures and training strategies: BERT, GraphFlow, HAM, and ExCorD.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "BERT serves as a baseline model, while GraphFlow, HAM, and ExCorD incorporate advanced mechanisms to better handle conversational context.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "GraphFlow, HAM, and ExCorD explicitly model question dependencies on conversation history, which improves their performance compared to BERT.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 2127,
+    "total_tokens": 2292,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3496106999955373,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

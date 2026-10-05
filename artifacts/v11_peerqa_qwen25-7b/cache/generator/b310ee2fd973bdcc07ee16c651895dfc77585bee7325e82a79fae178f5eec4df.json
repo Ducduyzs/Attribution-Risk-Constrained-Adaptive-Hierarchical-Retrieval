@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly distinguishes the task described in the paper from taxonomy induction.\",\n  \"claims\": [\n    {\n      \"text\": \"The task described in the paper focuses on predicting the correct direct hypernym in a taxonomy given a synset's embedding, while taxonomy induction involves constructing or extending a taxonomy.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1214,
+    "completion_tokens": 102,
+    "total_tokens": 1316
+  },
+  "seconds": 4.735975194722414
+}

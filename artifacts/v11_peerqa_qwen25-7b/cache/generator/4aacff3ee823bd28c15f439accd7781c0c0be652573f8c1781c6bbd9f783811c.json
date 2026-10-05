@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the differences between the DICTA test set and the new test set, particularly regarding the CHA and WOR scores.\",\n  \"claims\": [\n    {\n      \"text\": \"The new test set includes a larger variety of texts, such as high-quality Wikipedia articles and edited news stories, which can lead to differences in CHA and WOR scores compared to the DICTA test set.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The new test set has 3.5 times more tokens than the DICTA test set, potentially affecting the CHA and WOR scores due to increased variability in text types and complexity.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 189,
+    "total_tokens": 2244
+  },
+  "seconds": 8.340983390808105
+}

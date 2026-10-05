@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The total number of words in the corpus can be calculated based on the average word counts provided for the different drafts of essays.",
+    "claims": [
+      {
+        "text": "The corpus includes 120 essays (Draft1 and Draft2) with an average of about 400 words each, totaling 48,000 words.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The corpus also includes 60 essays (Draft3) with an average of around 500 words each, totaling 30,000 words.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Therefore, the total number of words in the corpus is 48,000 + 30,000 = 78,000 words.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 1181,
+    "total_tokens": 1348,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6125317999976687,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the self-attention functions in the last layer of BERT are particularly relevant for aligning with human attention, as they show stronger correlations with human eye fixations compared to earlier layers.",
+    "claims": [
+      {
+        "text": "Self-attention functions in the last layer of BERT are more aligned with human attention, as they correlate better with human eye fixations during reading tasks.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Fine-tuning BERT does not significantly change the correlations of attention functions, suggesting that the last layer's attention is stable and relevant for analysis.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "BERT's attention flow in the last layer has been shown to have superior alignment with human-generated explanations compared to other models.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 1042,
+    "total_tokens": 1227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 4.311269500001799,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a rationale for using ESE methods on user-generated text by highlighting the unique characteristics of such text and the need for better benchmarks and evaluation metrics.",
+    "claims": [
+      {
+        "text": "User-generated text has distinctive characteristics that differ from well-formed text, making it important for studying ESE methods.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Existing benchmarks for ESE methods are limited to well-formed text, necessitating the development of new benchmarks for user-generated text.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The strong performance of ESE methods does not generalize well to user-generated text, indicating a need for further investigation.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 712,
+    "total_tokens": 874,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0839221000060206,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

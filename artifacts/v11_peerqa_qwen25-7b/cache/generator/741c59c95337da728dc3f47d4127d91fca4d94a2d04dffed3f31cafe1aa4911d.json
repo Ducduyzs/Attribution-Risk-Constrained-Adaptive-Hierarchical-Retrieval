@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how delimiters are used in the sentence aggregation model.\",\n  \"claims\": [\n    {\n      \"text\": \"Delimiters are placed between facts based on whether they should be aggregated or separated into different sentences.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A value of 1 for delimiter δi indicates that neighboring facts should be mentioned separately, while a value of 0 indicates they should be aggregated.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 145,
+    "total_tokens": 1208
+  },
+  "seconds": 6.439129406120628
+}

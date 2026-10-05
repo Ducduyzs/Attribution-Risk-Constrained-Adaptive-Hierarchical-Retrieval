@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a direct comparison between human evaluation accuracy and automatic evaluation F1 scores, explaining why the former can be higher.\",\n  \"claims\": [\n    {\n      \"text\": \"When absolute accuracy numbers are higher than F1 scores, it indicates that the automatic evaluation misses some correct answers due to its inability to capture all possible correct answers or handle questions with multiple answers, whereas human evaluators can assess the correctness more comprehensively.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 681,
+    "completion_tokens": 128,
+    "total_tokens": 809
+  },
+  "seconds": 5.831112424377352
+}

@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition and context for 'action frames' as they relate to verb semantics and their implications in language.",
+    "claims": [
+      {
+        "text": "Action frames are defined as syntactic patterns that map the core components of an action (subject, verb, direct object, prepositional object) to roles such as agent, theme, and goal.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Action frames are influenced by frame semantics, which considers the contexts in which utterances are situated, and can invoke multiple frame relations for a single verb.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 1158,
+    "total_tokens": 1298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.125075800009654,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

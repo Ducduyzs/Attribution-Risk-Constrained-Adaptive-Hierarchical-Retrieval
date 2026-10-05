@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses challenges and potential improvements related to adapting annotation schemes across domains.\",\n  \"claims\": [\n    {\n      \"text\": \"The annotation scheme can be adapted to more domains, but it requires addressing specific challenges such as fine-tuning generic intents and improving the complexity of the tasks.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Adapting the scheme may face difficulties due to domain-specific ontologies and the need for expert annotators, indicating that while possible, it is not trivial.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 0.7\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 943,
+    "completion_tokens": 162,
+    "total_tokens": 1105
+  },
+  "seconds": 7.178773219697177
+}

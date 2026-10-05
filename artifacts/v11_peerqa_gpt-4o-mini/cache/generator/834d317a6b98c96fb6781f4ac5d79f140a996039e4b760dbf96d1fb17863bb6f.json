@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear relationship between the mixing efficiencies, kappa(m) and kappa(v), as components of the overall diffusion coefficient.",
+    "claims": [
+      {
+        "text": "The overall diffusion coefficient κ is the sum of the molecular diffusivity (κ m ) and wave-induced diffusivity (κ v ).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The mixing efficiencies kappa(m) and kappa(v) are represented as κ m and κ v respectively in the advection-diffusion equation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The relationship between kappa(m) and kappa(v) indicates that both contribute to the mixing process in the fluid.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 740,
+    "total_tokens": 906,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.730143799999496,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

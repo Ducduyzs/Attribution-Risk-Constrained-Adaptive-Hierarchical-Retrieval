@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses different soil types and their drainage characteristics, but does not explicitly mention a soil retention curve.\",\n  \"claims\": [\n    {\n      \"text\": \"The study considered well-drained and undrained conditions, which critically modify the freeze-thaw behavior of the soil.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The study used a gravity-driven bucket scheme for soil hydrology, indicating the management of water retention and drainage.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2185,
+    "completion_tokens": 143,
+    "total_tokens": 2328
+  },
+  "seconds": 6.3803953672759235
+}

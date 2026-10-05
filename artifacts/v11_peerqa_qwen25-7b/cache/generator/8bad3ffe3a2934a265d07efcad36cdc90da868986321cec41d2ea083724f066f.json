@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how raters evaluated the classifier output and the criteria they used.\",\n  \"claims\": [\n    {\n      \"text\": \"Raters focused on the appropriateness of the error type rather than the edit boundaries.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"All raters considered at least 95% of the predicted error types to be 'Good' or 'Acceptable'.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"When raters judged an edit as 'Bad', it often resulted from POS or parse errors.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 186,
+    "total_tokens": 1271
+  },
+  "seconds": 9.474427167791873
+}

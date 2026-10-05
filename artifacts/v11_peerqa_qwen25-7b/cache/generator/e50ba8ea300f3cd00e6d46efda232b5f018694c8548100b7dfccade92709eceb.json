@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the reasons for choosing post-editing rates over prediction (h)ter for intrinsic uncertainty evaluation.\",\n  \"claims\": [\n    {\n      \"text\": \"Post-editing rates were chosen over prediction (h)ter for intrinsic uncertainty evaluation because they provide a more complete measure of post-editing effort, capturing both technical and cognitive effort, and are more directly applicable in real translation environments.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Using post-editing rates allows for better decision-making in translation workflows, particularly in scenarios where uncertainty estimates are crucial for filtering out poor-quality MT segments before post-editing.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1985,
+    "completion_tokens": 175,
+    "total_tokens": 2160
+  },
+  "seconds": 8.142942931968719
+}

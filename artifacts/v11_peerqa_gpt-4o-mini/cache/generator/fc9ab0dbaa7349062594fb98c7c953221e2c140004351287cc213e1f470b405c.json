@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the transfer of encoders from one language to another without parameter updates and mentions the evaluation of downstream tasks, indicating that such tasks have been tested.",
+    "claims": [
+      {
+        "text": "Downstream tasks such as natural language inference, question answering, and semantic role labeling have been tested using an encoder transferred from language 1 to language 2 without parameter updates.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The Test for Inductive Bias via Language Model Transfer (TILT) framework evaluates the transferability of encoders to downstream tasks in a target language.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 768,
+    "total_tokens": 907,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5623985999991419,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

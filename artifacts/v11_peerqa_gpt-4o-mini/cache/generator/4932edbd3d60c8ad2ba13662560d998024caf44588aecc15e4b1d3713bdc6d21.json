@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for classifying scientific papers based on the language used in their conclusions, specifically distinguishing between correlational and causal claims.",
+    "claims": [
+      {
+        "text": "A research paper is classified as correlational if at least one sentence in the conclusion uses correlational language and no sentence uses direct or conditional causal language.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The classification model uses sentence-level predictions to determine if a press release exaggerates correlational findings as causal, based on the language used in the headline and first two sentences.",
+        "citations": [
+          "C6",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Exaggeration is identified at the article level by aggregating sentence-level predictions from the press release and comparing them to the research paper's conclusions.",
+        "citations": [
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 2113,
+    "total_tokens": 2298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 2.1101383000059286,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

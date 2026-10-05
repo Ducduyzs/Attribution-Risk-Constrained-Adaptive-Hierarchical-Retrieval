@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods used to develop per-triple templates, including the transformation of triples into facts using single-triple templates and the use of trivial templates for generating text from RDF triples.",
+    "claims": [
+      {
+        "text": "Per-triple templates were developed by transforming triples into facts using single-triple templates for each predicate.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The generation of text from RDF triples was done using trivial templates, which were then ordered, aggregated, and compressed.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 666,
+    "total_tokens": 789,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5638716000103159,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

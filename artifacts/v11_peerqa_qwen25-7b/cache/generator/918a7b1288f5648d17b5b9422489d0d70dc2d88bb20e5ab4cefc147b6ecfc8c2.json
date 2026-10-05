@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on a data augmentation strategy for improving coreference resolution in machine translation.\",\n  \"claims\": [\n    {\n      \"text\": \"A data augmentation approach specifically tailored to pronoun translation was proposed to improve scores and robustness on some metrics.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The augmentation approach aims to break off a strong prior in the model to test if it can give rise to better coreference resolution.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 138,
+    "total_tokens": 1292
+  },
+  "seconds": 6.361534971278161
+}

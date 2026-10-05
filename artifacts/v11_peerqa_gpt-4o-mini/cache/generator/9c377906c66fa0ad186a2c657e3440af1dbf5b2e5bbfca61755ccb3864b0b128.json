@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear description of Figure 2, which outlines the flow of the Edcraft Gamified Learning (EGL) activity.",
+    "claims": [
+      {
+        "text": "Figure 2 presents an overview of the Edcraft Gamified Learning (EGL) activity flow, detailing the steps participants undergo during the recycling craft activities.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The EGL activity involves two levels of crafting, where participants engage in recycling tasks and are evaluated based on their performance, which is visualized in Figure 2.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The conceptual model in Figure 2 illustrates how gamification is used to enhance youth engagement in recycling through structured activities and competition.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 1966,
+    "total_tokens": 2139,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7363514000026044,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

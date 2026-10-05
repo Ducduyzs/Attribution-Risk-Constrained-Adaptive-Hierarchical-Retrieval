@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the comparison between word and morpheme segmentation models and their performance metrics.\",\n  \"claims\": [\n    {\n      \"text\": \"Morfessor outperforms SentencePiece on boundary and token-level F-scores but not at type level when comparing words and morphemes.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"With morpheme supervision, there is an improvement for word segmentation but not for morpheme boundaries.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 670,
+    "completion_tokens": 140,
+    "total_tokens": 810
+  },
+  "seconds": 5.951868869364262
+}

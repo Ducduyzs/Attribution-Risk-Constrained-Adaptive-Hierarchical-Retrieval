@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the benefits of pruning the graph rather than using a complete graph for training.\",\n  \"claims\": [\n    {\n      \"text\": \"Using a complete graph for training would introduce noise and include edges that cross cluster boundaries, making it less effective.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2089,
+    "completion_tokens": 89,
+    "total_tokens": 2178
+  },
+  "seconds": 4.275013867765665
+}

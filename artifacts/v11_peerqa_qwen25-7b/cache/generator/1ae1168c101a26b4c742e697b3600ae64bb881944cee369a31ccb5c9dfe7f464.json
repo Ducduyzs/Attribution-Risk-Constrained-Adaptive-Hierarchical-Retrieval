@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the initialization strategy and the determination of the number of layers in the student model, but does not explicitly mention pkd-bert or a hard overhead budget.\",\n  \"claims\": [\n    {\n      \"text\": \"The student model is initialized from the bottommost layers of the teacher, similar to the approach used in (Sanh et al., 2019).\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The number of task-specific layers in the student model is determined based on the marginal benefit of adding more layers.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1957,
+    "completion_tokens": 165,
+    "total_tokens": 2122
+  },
+  "seconds": 9.155699075199664
+}

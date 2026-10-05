@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into the success factors of the path-based model, particularly focusing on the hypo2path model.\",\n  \"claims\": [\n    {\n      \"text\": \"The success of the path-based model, specifically hypo2path, is attributed to its ability to generate the entire hypernym path from the root node to the direct hypernym, making it a more challenging task that potentially results in a stronger model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The model's success is further enhanced by the elimination of queries observed during path training, ensuring that all evaluated queries are equally new to both path-based and non-path models.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2109,
+    "completion_tokens": 183,
+    "total_tokens": 2292
+  },
+  "seconds": 8.520522918086499
+}

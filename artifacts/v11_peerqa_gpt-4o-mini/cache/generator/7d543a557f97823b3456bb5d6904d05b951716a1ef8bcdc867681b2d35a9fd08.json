@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "Classification-based models were not used for the zero-shot experiments because they cannot resolve ties in predictions, which is crucial for ranking tasks. Regression and ranking approaches provided better performance in the evaluated scenarios.",
+    "claims": [
+      {
+        "text": "Classification approaches were not employed in the zero-shot experiments due to their inability to resolve ties in predictions.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Regression and ranking methods outperformed classification in cross-corpus and cross-lingual evaluation settings.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 1772,
+    "total_tokens": 1897,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.66916439999477,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

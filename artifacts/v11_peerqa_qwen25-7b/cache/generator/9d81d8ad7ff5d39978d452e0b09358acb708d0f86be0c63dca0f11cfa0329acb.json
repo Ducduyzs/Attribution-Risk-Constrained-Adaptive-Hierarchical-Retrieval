@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly explains why the antecedent is included in the sum for calculating the value of properties like S-O order.\",\n  \"claims\": [\n    {\n      \"text\": \"The antecedent is included in the sum because the value v nsubj:noun-obj:noun is calculated as v verb-nsubj:noun-obj:noun + v nsubj:noun-verb-obj:noun + v nsubj:noun-obj:noun-verb.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 722,
+    "completion_tokens": 135,
+    "total_tokens": 857
+  },
+  "seconds": 6.285140587948263
+}

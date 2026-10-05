@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into the perceptions of health system decision-makers and recommendations for improving coordination, preparation, and decision-making in pandemic response.",
+    "claims": [
+      {
+        "text": "Recommendations include increasing budgetary allocations and efficiency in the health sector to address preexisting constraints.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A science-based professional response involving public health professionals and relevant experts is recommended to improve pandemic preparedness.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Establishing a dedicated public health career track in the Bangladeshi health sector is necessary for long-term improvement.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Improving coordination among decision-makers is essential to prevent indecision and miscommunication during health crises.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1989,
+    "total_tokens": 2171,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 3.4262527999962913,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

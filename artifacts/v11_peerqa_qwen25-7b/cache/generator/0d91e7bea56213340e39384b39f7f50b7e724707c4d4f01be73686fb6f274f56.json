@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence supports the rationale for analyzing self-attention functions in the last layer of BERT because the attention flows in later layers better align with human attention patterns and do not significantly change during fine-tuning.\",\n  \"claims\": [\n    {\n      \"text\": \"The attention flows in the last layer of BERT better align with human attention patterns and do not significantly change during fine-tuning.\",\n      \"citations\": [\"C1\", \"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2125,
+    "completion_tokens": 120,
+    "total_tokens": 2245
+  },
+  "seconds": 5.625202438794076
+}

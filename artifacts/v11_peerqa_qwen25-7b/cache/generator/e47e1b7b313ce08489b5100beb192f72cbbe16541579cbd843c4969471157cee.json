@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a comparison between cgexpan and lm-base on certain concepts and explains the performance differences.\",\n  \"claims\": [\n    {\n      \"text\": \"CGExpan and LM-Base have comparable performance on well-formed concepts but LM-Base outperforms CGExpan for concepts with characteristics of user-generated text.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"CGExpan retrieves entities that co-occur frequently with seating arrangement, which might explain its lower performance compared to LM-Base for such concepts.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 612,
+    "completion_tokens": 160,
+    "total_tokens": 772
+  },
+  "seconds": 7.259170051664114
+}

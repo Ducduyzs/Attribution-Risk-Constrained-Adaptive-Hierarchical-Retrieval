@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the computational inefficiency of adapter-based approaches compared to the proposed method.\",\n  \"claims\": [\n    {\n      \"text\": \"The adapter-based approaches are not computationally efficient and one needs to perform a separate full forward pass for each task.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1929,
+    "completion_tokens": 91,
+    "total_tokens": 2020
+  },
+  "seconds": 4.857142981141806
+}

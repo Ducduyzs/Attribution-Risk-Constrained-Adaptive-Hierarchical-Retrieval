@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how action verbs were selected and the process of determining implications for these verbs.\",\n  \"claims\": [\n    {\n      \"text\": \"We picked 50 classes of Levin verbs from 'alternation classes' and 'verb classes', corresponding to about 1100 unique verbs, and sorted them by frequency in the Google Syntax Ngrams corpus, picking the top 100 verbs.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"To determine implications for these verbs, we used syntactic patterns based on dependency parse to extract core components of an action, mapping the subject to an agent, the direct object to a theme, and the prepositional object to a goal.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 193,
+    "total_tokens": 1358
+  },
+  "seconds": 8.460005797911435
+}

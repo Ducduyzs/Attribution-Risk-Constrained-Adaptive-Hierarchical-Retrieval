@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses different soil types and drainage conditions but does not explicitly mention a specific soil retention curve.\",\n  \"claims\": [\n    {\n      \"text\": \"The study considered two confining cases with a small and large value of d lat, representing well-drained and undrained conditions.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Three idealized subsurface stratigraphies were used, differing in their ability to retain water against drainage.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 148,
+    "total_tokens": 1308
+  },
+  "seconds": 6.350368080660701
+}

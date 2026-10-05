@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the use of templates and the entities in the training data.\",\n  \"claims\": [\n    {\n      \"text\": \"All entities in the templates appear in the training dataset.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The training data contains at least 30 occurrences of most concrete nouns used in the templates.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 119,
+    "total_tokens": 1284
+  },
+  "seconds": 5.569655754137784
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not explicitly state measures taken to ensure paths were not shared between the training and test sets, but it discusses the absence of shared queries/synsets and lemma-level overlaps.\",\n  \"claims\": [\n    {\n      \"text\": \"None of the queries (synsets) are shared between the training and evaluation (validation/test) sets.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 642,
+    "completion_tokens": 111,
+    "total_tokens": 753
+  },
+  "seconds": 4.839403743389994
+}

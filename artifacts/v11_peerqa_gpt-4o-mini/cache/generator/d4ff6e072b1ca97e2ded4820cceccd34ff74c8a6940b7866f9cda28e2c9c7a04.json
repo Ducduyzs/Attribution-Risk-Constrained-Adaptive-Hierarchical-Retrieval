@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods used to develop per-triple templates, including hand-crafting templates for predicates and transforming triples into text using trivial templates.",
+    "claims": [
+      {
+        "text": "Per-triple templates were developed by hand-crafting templates for each predicate, as seen in the WebNLG dataset where templates were created for all 354 predicates.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The transformation of triples into text was done using trivial templates, which were then ordered, aggregated, and compressed to produce descriptions.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The approach minimizes manual workload while allowing control over the quality of input for subsequent steps, despite producing less fluent outputs.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 1213,
+    "total_tokens": 1380,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5067607999953907,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

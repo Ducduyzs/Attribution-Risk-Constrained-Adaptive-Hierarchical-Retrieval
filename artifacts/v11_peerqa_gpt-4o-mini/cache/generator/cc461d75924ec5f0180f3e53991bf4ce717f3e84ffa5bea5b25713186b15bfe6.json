@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence indicates that current annotation schemes are highly domain-specific and tied to specific ontologies, making adaptation to other domains challenging. There is a lack of evidence supporting the ease of adaptation across domains.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 1217,
+    "total_tokens": 1267,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.0642559999978403,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

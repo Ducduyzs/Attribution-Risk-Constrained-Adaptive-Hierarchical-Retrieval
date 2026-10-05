@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the selection of action verbs was made, including sorting by frequency and choosing the top 100 verbs from Levin's alternation and verb classes.\",\n  \"claims\": [\n    {\n      \"text\": \"We sorted the list of Levin verbs by frequency in the Google Syntax Ngrams corpus and selected the top 100 verbs.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The selection process involved choosing 50 classes of Levin verbs, amounting to about 1100 unique verbs.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 680,
+    "completion_tokens": 163,
+    "total_tokens": 843
+  },
+  "seconds": 7.017793682869524
+}

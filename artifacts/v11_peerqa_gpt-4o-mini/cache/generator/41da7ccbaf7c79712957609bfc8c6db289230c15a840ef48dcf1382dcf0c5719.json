@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence describes the use of different soil stratigraphies and drainage conditions, indicating that the study involved a soil retention curve that accounts for both drained and undrained conditions.",
+    "claims": [
+      {
+        "text": "The study used a soil retention curve that varies between drained and undrained conditions, specifically analyzing the effects of drainage on ground temperatures and water retention.",
+        "citations": [
+          "C1",
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The stratigraphies considered include blocks only, blocks with sediment, and sediment only, which influence the soil's ability to retain water.",
+        "citations": [
+          "C1",
+          "C4",
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 2193,
+    "total_tokens": 2339,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2078677999961656,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how the method differs from existing ones in terms of using vision and language for multilingual tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"Our method uses vision as a bridge between multilingual instructions and learns a cross-lingual representation that captures visual concepts, which is different from existing methods like VQA, captioning, and retrieval that focus more on direct question answering or image-text matching.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"We also use language as a bridge between different visual environments to learn an environment-agnostic visual representation, which enhances the generalization of the model across various visual contexts.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Our approach shows improvements in success rate and nDTW score when using environment-agnostic visual representations, validating its effectiveness over existing methods.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 708,
+    "completion_tokens": 239,
+    "total_tokens": 947
+  },
+  "seconds": 10.791160441935062
+}

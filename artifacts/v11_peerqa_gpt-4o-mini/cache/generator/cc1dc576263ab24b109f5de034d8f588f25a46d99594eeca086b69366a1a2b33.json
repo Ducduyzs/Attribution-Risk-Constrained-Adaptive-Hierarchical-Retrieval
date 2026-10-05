@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition and context for the logical atom 'nsubj:noun-verb-obj:noun' as part of a framework for calculating the relative frequencies of syntactic constructions in languages.",
+    "claims": [
+      {
+        "text": "The logical atom 'nsubj:noun-verb-obj:noun' represents a construction involving a subject (nsubj), a verb, and an object (obj) in a syntactic structure.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The value of 'nsubj:noun-verb-obj:noun' can be calculated as part of a broader framework that evaluates the frequency of various syntactic constructions across languages.",
+        "citations": [
+          "C1",
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 2203,
+    "total_tokens": 2378,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.286393999995198,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

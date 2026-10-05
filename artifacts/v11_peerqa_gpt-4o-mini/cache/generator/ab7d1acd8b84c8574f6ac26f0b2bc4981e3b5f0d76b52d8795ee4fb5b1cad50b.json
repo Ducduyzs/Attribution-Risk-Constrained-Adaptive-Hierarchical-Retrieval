@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that Phrase Addition is applied to all 12,000 ContraPro examples, indicating the number of distinct phrases used for this method is not limited to a smaller subset.",
+    "claims": [
+      {
+        "text": "Phrase Addition is applied to all 12,000 ContraPro examples.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The number of distinct phrases used for phrase addition is not explicitly limited in the evidence provided.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 615,
+    "total_tokens": 729,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0934739999938756,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

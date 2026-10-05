@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition of plot as the main events of a story, which is supported by multiple sources discussing narrative theory and character functionality in relation to plot.",
+    "claims": [
+      {
+        "text": "Plot denotes the main events of a story.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Characters are defined as animate beings that are important to the plot, which implies that plot is central to narrative structure.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Functions in a narrative, such as those described by Propp, drive the plot forward, indicating that plot is composed of these key events and actions.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 2107,
+    "total_tokens": 2259,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.028837299993029,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

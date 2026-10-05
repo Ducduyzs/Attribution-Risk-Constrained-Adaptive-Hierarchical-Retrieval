@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The absolute accuracy numbers are higher than the F1 scores because the human evaluation measures the correctness of answers directly, whereas the automatic evaluation uses F1 scores which do not capture all possible correct answers, especially for open-ended questions or those with multiple answers.\",\n  \"claims\": [\n    {\n      \"text\": \"The absolute accuracy numbers are higher than the F1 scores because the human evaluation measures the correctness of answers directly, whereas the automatic evaluation uses F1 scores which do not capture all possible correct answers, especially for open-ended questions or those with multiple answers.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2134,
+    "completion_tokens": 153,
+    "total_tokens": 2287
+  },
+  "seconds": 6.856337166856974
+}

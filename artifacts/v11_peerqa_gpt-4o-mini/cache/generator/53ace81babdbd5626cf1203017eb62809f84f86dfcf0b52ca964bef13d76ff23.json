@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific reasons why beam search is inadequate, including inefficiency in handling similar hypotheses and poor efficiency from pruning.",
+    "claims": [
+      {
+        "text": "Beam search is inadequate because it does not handle very similar hypotheses efficiently, leading to high overlap in outputs.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Most of the computation in beam search is not useful, as it produces a set of answers that does not contain most of the expanded nodes.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Beam search preserves similar outputs as different states, which limits its effectiveness in exploring diverse generation options.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 1130,
+    "total_tokens": 1279,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2403784000052838,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

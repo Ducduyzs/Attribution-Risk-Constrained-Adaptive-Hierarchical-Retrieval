@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific rules and categories for assigning error types based on part-of-speech tagging and edit characteristics.",
+    "claims": [
+      {
+        "text": "Error types are classified based on part-of-speech categories and the nature of edits (Missing, Unnecessary, Replacement).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Each error type can be prefixed with 'M:', 'R:', or 'U:' to indicate the type of edit, allowing for detailed evaluation.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The framework includes 25 main error categories, which can be further detailed by adding new categories as needed.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The classifier operates on automatically obtained data, making it dataset independent and deterministic.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 1768,
+    "total_tokens": 1953,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.077333900000667,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

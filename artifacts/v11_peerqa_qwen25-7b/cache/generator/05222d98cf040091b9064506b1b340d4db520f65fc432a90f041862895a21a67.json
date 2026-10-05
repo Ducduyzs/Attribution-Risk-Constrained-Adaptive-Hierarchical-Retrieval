@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about the practical application of measuring performance using MAP at gold-k.\",\n  \"claims\": [\n    {\n      \"text\": \"Measuring performance using MAP at gold-k helps evaluate ESE methods in scenarios where coverage is important, especially for user-generated text.\",\n      \"citations\": [\"C1\", \"C2\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"This metric is particularly useful for benchmarks with large concept sizes, providing a more realistic assessment of real-world performance.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1911,
+    "completion_tokens": 155,
+    "total_tokens": 2066
+  },
+  "seconds": 9.84589774440974
+}

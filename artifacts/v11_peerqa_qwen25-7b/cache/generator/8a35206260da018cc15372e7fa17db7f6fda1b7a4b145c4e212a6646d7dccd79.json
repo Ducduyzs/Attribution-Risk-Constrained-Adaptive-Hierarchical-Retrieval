@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the limitations of state-of-the-art methods in handling user-generated text and highlights the effectiveness of set expansion approaches like LM-Base and CGExpan.\",\n  \"claims\": [\n    {\n      \"text\": \"Set expansion approaches like LM-Base and CGExpan are effective in constructing dictionaries from user-generated text because they outperform state-of-the-art methods on such text.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"LM-Base, a simpler baseline method, performs better on user-generated text than complex methods like CGExpan.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 170,
+    "total_tokens": 1255
+  },
+  "seconds": 7.382626770064235
+}

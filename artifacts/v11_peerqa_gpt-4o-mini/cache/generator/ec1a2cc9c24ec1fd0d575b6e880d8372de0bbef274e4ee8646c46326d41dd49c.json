@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for determining knowledge dimensions based on human judgments and crowd-sourced data.",
+    "claims": [
+      {
+        "text": "Knowledge dimensions are determined by asking crowd workers to rate the general relationship between frame arguments with respect to various attributes such as size and weight.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Crowd workers compare object pairs along five knowledge dimensions, which helps in selecting relevant dimensions for annotation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The selection of knowledge dimensions is influenced by the correlation between attributes, ensuring that related dimensions are considered together.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 1859,
+    "total_tokens": 2004,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8732250000030035,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

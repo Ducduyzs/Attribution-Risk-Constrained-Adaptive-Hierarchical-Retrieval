@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear methods for incorporating section titles into the BOS representation, detailing both section title embedding and classified section title embedding.",
+    "claims": [
+      {
+        "text": "Section titles are encoded using section title embedding (STE) by summing the last hidden states of tokenized section titles, leading to similar embeddings for similar titles.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Classified section title embedding (classified STE) replaces intraclass STEs with a predefined class embedding when applicable, otherwise using the original STE.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The hierarchical position of sentences is represented as a vector, indicating relationships between sentences and their section titles, which are crucial in long documents.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 629,
+    "total_tokens": 798,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5437576999975136,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

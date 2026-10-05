@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific reasons why beam search is inadequate, including its inefficiency in handling similar hypotheses and the computational resources it consumes on paths that are ultimately pruned.",
+    "claims": [
+      {
+        "text": "Beam search is inadequate because it uses significant computational resources to explore similar hypotheses, leading to inefficiencies.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Beam search does not handle very similar hypotheses efficiently, which is a central problem of the method.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Much of the computation in beam search is invested into paths that could be acceptable outputs but are ultimately pruned.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 1118,
+    "total_tokens": 1269,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1977928999986034,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

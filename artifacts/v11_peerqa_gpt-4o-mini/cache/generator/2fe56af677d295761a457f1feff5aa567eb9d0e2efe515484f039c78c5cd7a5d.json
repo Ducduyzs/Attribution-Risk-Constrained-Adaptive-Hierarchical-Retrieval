@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear insights into the practical applications of measuring performance using MAP at gold-k, particularly in evaluating entity set expansion methods in user-generated text.",
+    "claims": [
+      {
+        "text": "Measuring MAP at gold-k helps evaluate ESE methods in scenarios with large concept sizes, providing a more accurate estimate of recall and effectiveness in real-world applications.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The MAP at gold-k metric is designed to stress test ESE methods, revealing performance drops that indicate existing metrics may overestimate real-world effectiveness.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Using MAP at gold-k allows practitioners to assess the suitability of ESE methods for user-generated text, which often includes multifaceted and vague entities.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1918,
+    "total_tokens": 2095,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6420477999927243,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

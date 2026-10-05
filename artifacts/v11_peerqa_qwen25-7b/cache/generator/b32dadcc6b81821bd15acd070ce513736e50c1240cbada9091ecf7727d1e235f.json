@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on a method that differs from existing approaches by focusing on cross-lingual language representation and environment-agnostic visual representation, which are learned from visually-aligned multilingual instructions and semantically-aligned image pairs, respectively.\",\n  \"claims\": [\n    {\n      \"text\": \"Our method differs from existing methods by learning a cross-lingual language representation and an environment-agnostic visual representation.\",\n      \"citations\": [\"C1\", \"C3\", \"C4\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The cross-lingual language representation captures shared visual concepts across different languages, improving instruction-path grounding.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Environment-agnostic visual representation mitigates the environment bias caused by low-level visual information.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2029,
+    "completion_tokens": 222,
+    "total_tokens": 2251
+  },
+  "seconds": 9.561396323144436
+}

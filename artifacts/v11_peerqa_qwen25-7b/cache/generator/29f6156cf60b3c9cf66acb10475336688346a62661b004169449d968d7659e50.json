@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear definitions and examples of orthology assignment.\",\n  \"claims\": [\n    {\n      \"text\": \"Orthology assignment involves finding orthologs of a gene in another species using tools like gprofiler2.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"This process is part of the analysis pipelines in RNfuzzyApp, alongside enrichment analysis.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1179,
+    "completion_tokens": 128,
+    "total_tokens": 1307
+  },
+  "seconds": 6.266957752872258
+}

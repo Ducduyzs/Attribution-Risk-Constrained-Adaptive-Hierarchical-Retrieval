@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the effectiveness of the proposed method with large models but does not explicitly test smaller models.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed method could potentially work with smaller models as well, given its flexibility and the fact that it does not require joint finetuning with knowledge.\",\n      \"citations\": [\"C3\", \"C5\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2028,
+    "completion_tokens": 103,
+    "total_tokens": 2131
+  },
+  "seconds": 4.9102960717864335
+}

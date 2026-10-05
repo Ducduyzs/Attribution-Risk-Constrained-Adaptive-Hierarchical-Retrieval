@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the training process of the CLEAR approach, indicating that the navigation step is trained on R2R and CVDN datasets, while the representation step is based on the RxR dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The CLEAR approach trains the navigation step on R2R and CVDN datasets, using representations from the RxR dataset.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 644,
+    "completion_tokens": 116,
+    "total_tokens": 760
+  },
+  "seconds": 5.07779364939779
+}

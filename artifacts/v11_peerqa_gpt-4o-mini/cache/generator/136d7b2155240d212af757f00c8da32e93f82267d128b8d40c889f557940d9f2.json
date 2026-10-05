@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly states that raw verification annotations will be publicly released alongside ManyNames v2, indicating that the annotated mistakes will indeed be available.",
+    "claims": [
+      {
+        "text": "The raw verification annotations will be publicly released with ManyNames v2.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "ManyNames v2 will include consistent response sets derived from the analysis of naming variation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 685,
+    "total_tokens": 782,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4025691999995615,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

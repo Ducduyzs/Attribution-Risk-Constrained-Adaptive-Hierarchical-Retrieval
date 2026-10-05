@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence describes the training process for a model on R2R and CVDN datasets, where the representation step is based on the RxR dataset, and the navigation step is trained on R2R and CVDN.\",\n  \"claims\": [\n    {\n      \"text\": \"The representation step is taken from RXR, while the navigation step is trained on R2R and CVDN.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 464,
+    "completion_tokens": 117,
+    "total_tokens": 581
+  },
+  "seconds": 5.683037290815264
+}

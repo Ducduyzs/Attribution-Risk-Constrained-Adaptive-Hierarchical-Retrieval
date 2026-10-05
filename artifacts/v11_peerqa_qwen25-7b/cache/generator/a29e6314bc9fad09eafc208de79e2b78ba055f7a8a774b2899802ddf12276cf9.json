@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the criteria for delimiter placement in the sentence aggregation model.\",\n  \"claims\": [\n    {\n      \"text\": \"The aggregation model decides which facts should be merged into a single sentence based on the delimiter δi, where δi = 1 means separate facts and δi = 0 means aggregate facts.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Delimiters are used to indicate whether neighboring sentences should be fused or kept separate.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1803,
+    "completion_tokens": 149,
+    "total_tokens": 1952
+  },
+  "seconds": 7.432860743720084
+}

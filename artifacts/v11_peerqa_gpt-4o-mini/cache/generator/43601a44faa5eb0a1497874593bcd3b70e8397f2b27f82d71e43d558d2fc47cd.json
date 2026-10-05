@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific measures taken to ensure the accuracy of the confidence network, including the design of a confidence estimation network and the implementation of confidence-based label smoothing.",
+    "claims": [
+      {
+        "text": "A confidence estimation network (ConNet) is added in parallel with the original prediction branch to predict confidence levels based on hidden states of the decoder.",
+        "citations": [
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Confidence-based label smoothing is employed to adjust the label smoothing based on the confidence level of predictions, reducing miscalibration.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The model is optimized to use low-layer hidden states for predicting confidence, which helps in managing the complexity of the translation task.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 2031,
+    "total_tokens": 2198,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9994369000050938,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

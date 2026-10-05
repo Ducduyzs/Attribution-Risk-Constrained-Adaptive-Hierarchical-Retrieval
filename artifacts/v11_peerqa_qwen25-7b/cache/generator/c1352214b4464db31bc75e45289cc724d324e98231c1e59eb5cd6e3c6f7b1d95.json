@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on measures taken to ensure that paths were not shared between the training and test sets.\",\n  \"claims\": [\n    {\n      \"text\": \"Queries were filtered to only include hyponym queries that are unseen in the full taxonomy paths of the training data to avoid giving an unfair advantage to path-based models.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Hyponyms from the test and validation sets were excluded if they appeared as hyponyms in the training set to prevent models from merely copying.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 155,
+    "total_tokens": 1226
+  },
+  "seconds": 6.92827784596011
+}

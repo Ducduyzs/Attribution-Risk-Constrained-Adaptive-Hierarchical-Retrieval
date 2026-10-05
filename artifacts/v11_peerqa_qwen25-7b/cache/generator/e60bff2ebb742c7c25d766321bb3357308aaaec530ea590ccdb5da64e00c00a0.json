@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information on the practical application of measuring performance using MAP at gold-k.\",\n  \"claims\": [\n    {\n      \"text\": \"Measuring performance using MAP at gold-k helps evaluate the suitability of ESE methods in scenarios where coverage is important, especially for user-generated text.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"MAP at gold-k is more appropriate for evaluating benchmarks designed to stress test methods due to its ability to adapt to different concept sizes and estimate recall.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 165,
+    "total_tokens": 1355
+  },
+  "seconds": 7.256059082690626
+}

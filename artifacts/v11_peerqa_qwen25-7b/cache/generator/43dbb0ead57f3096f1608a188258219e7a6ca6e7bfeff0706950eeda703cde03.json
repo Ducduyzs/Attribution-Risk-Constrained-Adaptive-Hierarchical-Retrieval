@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the rules for assigning error categories, including the use of POS tags and the creation of 50 rules to classify errors.\",\n  \"claims\": [\n    {\n      \"text\": \"Error types are classified based on part-of-speech (POS) categories and a set of 50 rules.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"New categories can be added for increasingly detailed error types, but the framework aims for a balance between informativeness and practicality.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1756,
+    "completion_tokens": 159,
+    "total_tokens": 1915
+  },
+  "seconds": 6.97960720770061
+}

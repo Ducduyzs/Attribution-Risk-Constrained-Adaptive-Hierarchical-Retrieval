@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses methods and findings related to generating adversarial attack examples for testing neural machine translation models, particularly focusing on coreference resolution.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial attacks involve making small changes to input sentences to mislead the model.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"These attacks can include introducing new entities or synonyms with different genders to test the model's coreference resolution capabilities.\",\n      \"citations\": [\"C1\", \"C8\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The effectiveness of these attacks demonstrates that models rely on heuristics rather than solving coreference tasks abstractly.\",\n      \"citations\": [\"C1\", \"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2135,
+    "completion_tokens": 200,
+    "total_tokens": 2335
+  },
+  "seconds": 8.689151349011809
+}

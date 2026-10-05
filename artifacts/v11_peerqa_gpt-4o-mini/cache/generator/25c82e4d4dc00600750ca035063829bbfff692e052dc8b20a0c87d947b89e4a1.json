@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors experimented with their model on CNN/DM to evaluate the impact of injecting hierarchical structure information into their extractive summarization model, as they observed varying performance improvements across different datasets.",
+    "claims": [
+      {
+        "text": "The authors aimed to improve extractive summarization by injecting hierarchical structure information into their model, which showed substantial improvements on datasets like PubMed and arXiv.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance improvements on CNN/DailyMail were small, possibly due to the lack of section titles, indicating a motivation to explore the model's effectiveness in different contexts.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 694,
+    "total_tokens": 838,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.367796600010479,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

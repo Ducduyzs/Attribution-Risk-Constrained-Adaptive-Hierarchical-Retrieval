@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on a method that addresses multilingual vision-and-language tasks, particularly focusing on navigation, and introduces a shared cross-lingual language representation and an environment-agnostic visual representation.\",\n  \"claims\": [\n    {\n      \"text\": \"Our method introduces a shared cross-lingual language representation and an environment-agnostic visual representation, which are not explicitly mentioned in existing methods like VQA, captioning, or retrieval.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"We use paired multilingual instructions to align language and visual information, enhancing instruction-path grounding.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Our approach generalizes well across different pre-trained visual features, demonstrating its robustness.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 223,
+    "total_tokens": 1318
+  },
+  "seconds": 10.643832639791071
+}

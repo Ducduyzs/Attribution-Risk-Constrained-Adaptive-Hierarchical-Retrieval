@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific measures taken to ensure the accuracy of the confidence network, including the design of a confidence network that uses multi-layer hidden states and a confidence-based label smoothing approach.",
+    "claims": [
+      {
+        "text": "A confidence network is designed to predict confidence estimates using multi-layer hidden states of the decoder.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A novel confidence-based label smoothing approach is proposed to adjust labels based on the difficulty of predictions, enhancing confidence estimation.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The confidence network aims to assign low confidence to misclassifications, thereby improving risk detection in neural machine translation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 1097,
+    "total_tokens": 1253,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7530572999967262,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

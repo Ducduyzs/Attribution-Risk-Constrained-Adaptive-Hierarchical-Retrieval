@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The average duration reported in Table 1 serves to provide insights into the time taken by workers to complete tasks and assess dialogues, which is crucial for understanding the efficiency and reliability of the evaluation process.",
+    "claims": [
+      {
+        "text": "The average time taken for workers to complete a hit and assess dialogues is reported in Table 1 to measure the efficiency of the evaluation process.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Table 1 includes statistics on the average duration to help assess the reliability of the results from the human evaluation.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 1076,
+    "total_tokens": 1207,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5756198999879416,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

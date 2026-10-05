@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear reasons for using ESE methods on user-generated text, highlighting its importance and unique challenges.\",\n  \"claims\": [\n    {\n      \"text\": \"ESE methods need to be evaluated on user-generated text because they do not generalize well to this type of data, which contains multifaceted, non-named, and vague entities.\",\n      \"citations\": [\"C1\", \"C6\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"User-generated text is abundant and largely unlabeled, making it crucial for enabling NLP applications like semantic search and question answering.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1799,
+    "completion_tokens": 169,
+    "total_tokens": 1968
+  },
+  "seconds": 10.9519014316611
+}

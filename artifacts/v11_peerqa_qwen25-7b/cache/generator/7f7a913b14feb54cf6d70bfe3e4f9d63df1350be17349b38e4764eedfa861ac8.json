@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how to classify sentences as correlational or causal and how to handle mixed claims in scientific papers.\",\n  \"claims\": [\n    {\n      \"text\": \"A research paper's finding is regarded as 'correlational' if at least one sentence in the conclusion subsection uses correlational language and no sentence uses direct or conditional causal language.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Sentences using 'can + causal cue' are categorized as 'direct causal'.\",\n      \"citations\": [\"C1\", \"C7\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Exaggeration is identified at the article level, focusing on research papers that made correlational claims only.\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2109,
+    "completion_tokens": 203,
+    "total_tokens": 2312
+  },
+  "seconds": 12.740319804754108
+}

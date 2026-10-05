@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that the self-attention functions in the last layer of BERT are sufficient for analysis because they produce correlations similar to those of earlier layers and fine-tuning does not significantly improve these correlations.\",\n  \"claims\": [\n    {\n      \"text\": \"Selecting the highest correlating head for the last attention layer produces generally weaker correlation than attention flows.\",\n      \"citations\": [\"C6\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Transformers are equipped with overcomplete sets of attention functions that hardly change until the later layers, if at all, during fine-tuning.\",\n      \"citations\": [\"C6\", \"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2199,
+    "completion_tokens": 174,
+    "total_tokens": 2373
+  },
+  "seconds": 8.240602063015103
+}

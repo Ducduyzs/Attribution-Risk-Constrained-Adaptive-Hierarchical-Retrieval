@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the training and inference batches are designed to leverage coreferent mentions by constructing them based on mention and entity relationships across documents.",
+    "claims": [
+      {
+        "text": "Training and inference batches are constructed to leverage coreferent mentions by concatenating mentions with entity candidates, which indicates they come from the same document context.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The approach explicitly models mention coreference relationships across documents, suggesting that training and inference utilize mentions from the same document to improve performance.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The use of directed minimum spanning trees over mentions and entities indicates a systematic approach to leveraging coreferent mentions in both training and inference.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 1042,
+    "total_tokens": 1211,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9528396999958204,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

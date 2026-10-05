@@ -1,0 +1,106 @@
+=== qwen generate Mon Oct  5 07:47:11 UTC 2026
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:01<07:50,  1.39s/it]Loading weights:   4%|▎         | 12/339 [00:01<00:30, 10.81it/s]Loading weights:   5%|▌         | 18/339 [00:01<00:21, 15.11it/s]Loading weights:   8%|▊         | 28/339 [00:01<00:14, 21.37it/s]Loading weights:  12%|█▏        | 40/339 [00:02<00:10, 28.78it/s]Loading weights:  15%|█▌        | 52/339 [00:02<00:09, 30.34it/s]Loading weights:  19%|█▉        | 64/339 [00:02<00:08, 34.36it/s]Loading weights:  22%|██▏       | 76/339 [00:03<00:06, 38.56it/s]Loading weights:  24%|██▍       | 81/339 [00:03<00:06, 40.07it/s]Loading weights:  26%|██▌       | 88/339 [00:03<00:06, 37.59it/s]Loading weights:  29%|██▉       | 100/339 [00:03<00:06, 38.30it/s]Loading weights:  33%|███▎      | 112/339 [00:04<00:06, 35.27it/s]Loading weights:  37%|███▋      | 124/339 [00:04<00:05, 39.00it/s]Loading weights:  40%|████      | 136/339 [00:04<00:05, 37.22it/s]Loading weights:  41%|████▏     | 140/339 [00:04<00:05, 37.07it/s]Loading weights:  44%|████▎     | 148/339 [00:05<00:05, 33.88it/s]Loading weights:  45%|████▍     | 152/339 [00:05<00:05, 34.64it/s]Loading weights:  47%|████▋     | 160/339 [00:05<00:05, 30.79it/s]Loading weights:  51%|█████     | 172/339 [00:05<00:04, 39.14it/s]Loading weights:  52%|█████▏    | 177/339 [00:05<00:04, 40.04it/s]Loading weights:  54%|█████▍    | 184/339 [00:06<00:04, 34.31it/s]Loading weights:  55%|█████▌    | 188/339 [00:06<00:04, 33.90it/s]Loading weights:  58%|█████▊    | 196/339 [00:06<00:04, 32.80it/s]Loading weights:  59%|█████▉    | 200/339 [00:06<00:04, 33.27it/s]Loading weights:  61%|██████▏   | 208/339 [00:06<00:03, 35.09it/s]Loading weights:  63%|██████▎   | 212/339 [00:06<00:03, 34.54it/s]Loading weights:  65%|██████▍   | 220/339 [00:07<00:03, 31.70it/s]Loading weights:  68%|██████▊   | 230/339 [00:07<00:02, 43.12it/s]Loading weights:  70%|██████▉   | 236/339 [00:07<00:03, 29.95it/s]Loading weights:  72%|███████▏  | 244/339 [00:07<00:03, 29.11it/s]Loading weights:  76%|███████▌  | 256/339 [00:08<00:02, 33.77it/s]Loading weights:  79%|███████▉  | 268/339 [00:08<00:02, 31.88it/s]Loading weights:  83%|████████▎ | 280/339 [00:08<00:01, 35.18it/s]Loading weights:  86%|████████▌ | 292/339 [00:09<00:01, 32.37it/s]Loading weights:  90%|████████▉ | 304/339 [00:09<00:00, 37.98it/s]Loading weights:  91%|█████████ | 309/339 [00:09<00:00, 39.26it/s]Loading weights:  93%|█████████▎| 316/339 [00:09<00:00, 35.68it/s]Loading weights:  97%|█████████▋| 328/339 [00:10<00:00, 35.02it/s]Loading weights: 100%|██████████| 339/339 [00:10<00:00, 32.99it/s]
+[generate] 1224 jobs
+[generate] 25/1224
+[generate] 50/1224
+[generate] 75/1224
+[generate] 100/1224
+[generate] 125/1224
+[generate] 150/1224
+[generate] 175/1224
+[generate] 200/1224
+[generate] 225/1224
+[generate] 250/1224
+[generate] 275/1224
+[generate] 300/1224
+[generate] 325/1224
+[generate] 350/1224
+[generate] 375/1224
+[generate] 400/1224
+[generate] 425/1224
+[generate] 450/1224
+[generate] 475/1224
+[generate] 500/1224
+[generate] 525/1224
+[generate] 550/1224
+[generate] 575/1224
+[generate] 600/1224
+[generate] 625/1224
+[generate] 650/1224
+[generate] 675/1224
+[generate] 700/1224
+[generate] 725/1224
+[generate] 750/1224
+[generate] 775/1224
+[generate] 800/1224
+[generate] 825/1224
+[generate] 850/1224
+[generate] 875/1224
+[generate] 900/1224
+[generate] 925/1224
+[generate] 950/1224
+[generate] 975/1224
+[generate] 1000/1224
+[generate] 1025/1224
+[generate] 1050/1224
+[generate] 1075/1224
+[generate] 1100/1224
+[generate] 1125/1224
+[generate] 1150/1224
+[generate] 1175/1224
+[generate] 1200/1224
+[generate] done
+=== qwen verify Mon Oct  5 09:27:44 UTC 2026
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 3579.35it/s]
+[verify] 1224 jobs
+[transformers] You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+[verify] 25/1224
+[verify] 50/1224
+[verify] 75/1224
+[verify] 100/1224
+[verify] 125/1224
+[verify] 150/1224
+[verify] 175/1224
+[verify] 200/1224
+[verify] 225/1224
+[verify] 250/1224
+[verify] 275/1224
+[verify] 300/1224
+[verify] 325/1224
+[verify] 350/1224
+[verify] 375/1224
+[verify] 400/1224
+[verify] 425/1224
+[verify] 450/1224
+[verify] 475/1224
+[verify] 500/1224
+[verify] 525/1224
+[verify] 550/1224
+[verify] 575/1224
+[verify] 600/1224
+[verify] 625/1224
+[verify] 650/1224
+[verify] 675/1224
+[verify] 700/1224
+[verify] 725/1224
+[verify] 750/1224
+[verify] 775/1224
+[verify] 800/1224
+[verify] 825/1224
+[verify] 850/1224
+[verify] 875/1224
+[verify] 900/1224
+[verify] 925/1224
+[verify] 950/1224
+[verify] 975/1224
+[verify] 1000/1224
+[verify] 1025/1224
+[verify] 1050/1224
+[verify] 1075/1224
+[verify] 1100/1224
+[verify] 1125/1224
+[verify] 1150/1224
+[verify] 1175/1224
+[verify] 1200/1224
+[verify] done
+QWEN_DONE Mon Oct  5 09:30:34 UTC 2026

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that the templates used in the paper include entities and phrases that are present in the training data, and the training data contains sufficient occurrences of these elements.\",\n  \"claims\": [\n    {\n      \"text\": \"All entities in the templates appear in the training dataset, with the least frequent entity appearing 134 times.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"A list of 2051 concrete nouns, which occur more than 30 times in the training data, is used in the templates.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 700,
+    "completion_tokens": 162,
+    "total_tokens": 862
+  },
+  "seconds": 7.710840851068497
+}

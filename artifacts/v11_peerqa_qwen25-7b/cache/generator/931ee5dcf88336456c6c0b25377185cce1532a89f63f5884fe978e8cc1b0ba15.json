@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The rationale for analyzing only the self-attention functions in the last layer of the BERT model is due to the observation that Transformers have overcomplete sets of attention functions which hardly change until the later layers during fine-tuning. This is supported by the cited evidence.\",\n  \"claims\": [\n    {\n      \"text\": \"Transformers are equipped with overcomplete sets of attention functions that hardly change until the later layers, if at all, during fine-tuning.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 412,
+    "completion_tokens": 131,
+    "total_tokens": 543
+  },
+  "seconds": 6.072279151063412
+}

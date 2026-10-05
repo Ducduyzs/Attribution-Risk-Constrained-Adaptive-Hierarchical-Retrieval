@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear definitions and examples of orthology assignment.\",\n  \"claims\": [\n    {\n      \"text\": \"Orthology assignment involves finding orthologs of genes in another species using the gprofiler2 package.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Gprofiler2 is used for orthology assignment in RNfuzzyApp, allowing users to upload a list of genes and select the original and target species.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 141,
+    "total_tokens": 1183
+  },
+  "seconds": 6.102025444153696
+}

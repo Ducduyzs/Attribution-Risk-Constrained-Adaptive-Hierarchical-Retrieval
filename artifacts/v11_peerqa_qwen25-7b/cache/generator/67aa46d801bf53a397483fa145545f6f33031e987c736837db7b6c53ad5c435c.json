@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of a snowfall factor to represent wind-induced snow redistribution, but does not explicitly list all effects of wind on the snowpack.\",\n  \"claims\": [\n    {\n      \"text\": \"Wind-induced snow redistribution is represented using the snowfall factor, reducing incoming snowfall by up to 75% to capture snow ablation due to wind drift.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The model can represent the effects of wind-induced snow redistribution on ground temperatures at least phenomenologically.\",\n      \"citations\": [\"C4\", \"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2305,
+    "completion_tokens": 168,
+    "total_tokens": 2473
+  },
+  "seconds": 7.804440108127892
+}

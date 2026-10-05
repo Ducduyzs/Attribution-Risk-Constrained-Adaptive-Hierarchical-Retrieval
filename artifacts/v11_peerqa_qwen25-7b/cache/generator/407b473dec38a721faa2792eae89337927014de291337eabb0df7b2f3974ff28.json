@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The validation data is used to determine the number of selected in-domain sentences based on the performance on held-out data.\",\n  \"claims\": [\n    {\n      \"text\": \"The number of selected in-domain sentences is determined by the performance on held-out data.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2043,
+    "completion_tokens": 87,
+    "total_tokens": 2130
+  },
+  "seconds": 4.225881041958928
+}

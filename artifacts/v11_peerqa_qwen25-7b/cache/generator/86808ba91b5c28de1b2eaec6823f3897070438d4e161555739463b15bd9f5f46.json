@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the importance of entity set expansion (ESE) in various NLP applications and highlights the challenges when applying ESE methods to user-generated text, which often contains non-named entities and multifaceted concepts.\",\n  \"claims\": [\n    {\n      \"text\": \"Set expansion approaches are used to construct dictionaries from customer reviews because they can handle the multifaceted and less structured nature of user-generated text, which includes non-named entities and vague concepts.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 136,
+    "total_tokens": 1184
+  },
+  "seconds": 6.062545385211706
+}

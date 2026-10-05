@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the reasons for using regularization for label embeddings but not for instance embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Regularization is applied to label embeddings to promote uniformity and prevent model degeneration, whereas instance embeddings are not regularized to avoid complicating the model architecture.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2181,
+    "completion_tokens": 103,
+    "total_tokens": 2284
+  },
+  "seconds": 4.929347435943782
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the success of path-based models, particularly hypo2path and Path Encoder, in predicting hypernyms using full taxonomy paths.\",\n  \"claims\": [\n    {\n      \"text\": \"The success of path-based models like hypo2path and Path Encoder is attributed to their use of full taxonomy paths, which provides more comprehensive information for hypernym prediction.\",\n      \"citations\": [\"C1\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"These models show improved performance, especially for nouns, compared to other benchmarks, indicating the effectiveness of path-based approaches.\",\n      \"citations\": [\"C5\", \"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2124,
+    "completion_tokens": 169,
+    "total_tokens": 2293
+  },
+  "seconds": 11.198956655804068
+}

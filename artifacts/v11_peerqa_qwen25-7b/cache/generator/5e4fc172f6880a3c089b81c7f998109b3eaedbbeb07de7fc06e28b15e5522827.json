@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the origin of the GTF and VCF files.\",\n  \"claims\": [\n    {\n      \"text\": \"The GTF and VCF files for SIFT4G analysis are deposited in Figshare.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The GTF file was obtained from Ensembl and the VCF file was obtained using SNP-sites tool.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2334,
+    "completion_tokens": 128,
+    "total_tokens": 2462
+  },
+  "seconds": 8.354341520927846
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the training data and the templates used, indicating the presence of certain vocabulary items.\",\n  \"claims\": [\n    {\n      \"text\": \"The training data includes various entities and event-and pleonastic-it phrases, ensuring adequate representation for the templates used.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The training data is derived from OpenSubtitles20182, which is a large multilingual corpus, suggesting a broad vocabulary coverage.\",\n      \"citations\": [\"C1\", \"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1883,
+    "completion_tokens": 154,
+    "total_tokens": 2037
+  },
+  "seconds": 6.9681834327057
+}

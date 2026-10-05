@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into why LM-Base outperforms CGExpan on user-generated datasets.\",\n  \"claims\": [\n    {\n      \"text\": \"LM-Base outperforms CGExpan due to its ability to handle the characteristics of user-generated text.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Simpler baselines like LM-Base tend to show lower performance drop on user-generated text compared to more sophisticated methods.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 152,
+    "total_tokens": 1199
+  },
+  "seconds": 6.750012343283743
+}

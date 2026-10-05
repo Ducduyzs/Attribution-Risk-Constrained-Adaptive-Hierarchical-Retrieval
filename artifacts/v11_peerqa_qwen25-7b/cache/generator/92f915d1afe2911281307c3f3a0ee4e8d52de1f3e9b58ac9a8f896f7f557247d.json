@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the average scores of models in different evaluation scenarios, including an ice-breaker run and a free topic run.\",\n  \"claims\": [\n    {\n      \"text\": \"The average duration reported in Table 1 likely refers to the median numbers of words and characters in conversations and inputs provided by workers who passed quality control, as indicated in C5.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1948,
+    "completion_tokens": 110,
+    "total_tokens": 2058
+  },
+  "seconds": 4.932144419755787
+}

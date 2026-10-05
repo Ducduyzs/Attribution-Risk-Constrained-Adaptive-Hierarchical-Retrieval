@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the benefits of using pruned graphs over fully-connected graphs for training due to the complexity and noise in fully-connected graphs.\",\n  \"claims\": [\n    {\n      \"text\": \"Using a fully-connected graph for training would introduce unnecessary complexity and noise, making it less effective than using a pruned graph.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1093,
+    "completion_tokens": 110,
+    "total_tokens": 1203
+  },
+  "seconds": 4.897386291995645
+}

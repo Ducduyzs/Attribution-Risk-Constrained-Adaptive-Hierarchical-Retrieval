@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the effectiveness of word and morpheme supervision in segmentation models.\",\n  \"claims\": [\n    {\n      \"text\": \"Word supervision leads to better word-level metrics, while morpheme supervision improves word segmentation but not morpheme boundaries.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Considering only one type of boundary is insufficient for optimal segmentation.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2003,
+    "completion_tokens": 130,
+    "total_tokens": 2133
+  },
+  "seconds": 6.441343766171485
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on factors beyond temperature and precipitation that influence glacier distribution, such as insolation, cloudiness, and spatial variability in precipitation.\",\n  \"claims\": [\n    {\n      \"text\": \"Besides temperature and precipitation, insolation and cloudiness can influence glacier distribution.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Spatial variability in precipitation, influenced by topography, affects glacier extent.\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2148,
+    "completion_tokens": 139,
+    "total_tokens": 2287
+  },
+  "seconds": 6.207553445827216
+}

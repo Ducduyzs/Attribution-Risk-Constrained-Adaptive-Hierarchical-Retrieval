@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the proposed NER model utilizes features from cross-lingual wikification, which allows for the recognition of named entities that may not be explicitly listed on Wikipedia by grounding them in categories and types derived from multiple languages.",
+    "claims": [
+      {
+        "text": "The proposed NER model can recognize named entities not listed on Wikipedia by using cross-lingual wikification techniques.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The model builds on features from multiple languages, enhancing its ability to identify entities beyond those in Wikipedia.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Wikifier features provide strong signals for named entity recognition, improving performance across languages, including those with smaller Wikipedia entries.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 1050,
+    "total_tokens": 1227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.46722759999102,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

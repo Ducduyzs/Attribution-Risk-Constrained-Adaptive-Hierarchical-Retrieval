@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific criteria used to determine the steady state of soil parameters, including the use of climate data and nitrogen deposition until the parameters reached a steady state, as well as referencing established methods from previous studies.",
+    "claims": [
+      {
+        "text": "The steady state of soil parameters was determined by using climate data and airborne nitrogen deposition until the parameters reached a steady state.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The steady-state conditions followed in the study are consistent with those established by Yang et al. (2005).",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 2092,
+    "total_tokens": 2223,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.04204369999934,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

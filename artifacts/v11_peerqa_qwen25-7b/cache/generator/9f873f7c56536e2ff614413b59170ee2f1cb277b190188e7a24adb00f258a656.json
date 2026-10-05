@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that the entities and phrases used in the templates are present in the training dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"All entities appear in the training dataset used to train the models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The event-and pleonastic-it phrases used in the templates are also part of the training data.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 601,
+    "completion_tokens": 124,
+    "total_tokens": 725
+  },
+  "seconds": 5.5731066218577325
+}

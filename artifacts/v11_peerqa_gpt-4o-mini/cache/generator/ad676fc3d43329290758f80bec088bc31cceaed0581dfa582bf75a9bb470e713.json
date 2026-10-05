@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that incorrectly-classified actions and objects can lead to ambiguity for humans, as they rely on implicit knowledge about physical relations and context that may not be clearly stated.",
+    "claims": [
+      {
+        "text": "Incorrectly-classified actions and objects can create ambiguity for humans due to the reliance on implicit knowledge about physical relations.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Examples of underspecified frames illustrate how different interpretations can arise from ambiguous classifications, leading to confusion.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 1116,
+    "total_tokens": 1241,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0804499000078067,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

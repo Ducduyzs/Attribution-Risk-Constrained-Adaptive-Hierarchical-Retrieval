@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for selecting action verbs based on frequency and syntactic patterns.",
+    "claims": [
+      {
+        "text": "We selected action verbs by picking 50 classes of Levin verbs, corresponding to about 1100 unique verbs, and sorted them by frequency in the Google Syntax Ngrams corpus to choose the top 100 verbs.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The selection process involved analyzing syntactic patterns and extracting core components of actions to map them to their respective roles (agent, theme, goal).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Our work aims to contribute to existing frame knowledge resources by investigating new approaches to automatically recover richer frame knowledge from language.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 1188,
+    "total_tokens": 1357,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3246867999987444,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the importance of entity set expansion (ESE) in applications like semantic search and knowledge base construction, highlighting the challenges of expanding seed sets in user-generated text due to its scarcity and complexity.\",\n  \"claims\": [\n    {\n      \"text\": \"Set expansion approaches are used to construct dictionaries from customer reviews because they help in discovering more entities for each concept, improving the coverage of entities in the reviews.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"ESE methods struggle with user-generated text due to the presence of non-named entities and vague concepts, making set expansion approaches necessary to handle these complexities.\",\n      \"citations\": [\"C7\", \"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1976,
+    "completion_tokens": 184,
+    "total_tokens": 2160
+  },
+  "seconds": 8.30523577798158
+}

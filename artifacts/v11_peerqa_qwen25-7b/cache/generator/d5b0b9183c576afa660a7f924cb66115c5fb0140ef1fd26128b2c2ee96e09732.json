@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence directly states that setting the dimension of the word and discourse vector to 10 makes the entire token distribution close to the Zipfian distribution.\",\n  \"claims\": [\n    {\n      \"text\": \"Setting the vector dimension to 10 causes the conditional token distribution to become close to the Zipfian distribution.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 101,
+    "total_tokens": 1340
+  },
+  "seconds": 4.5187072600238025
+}

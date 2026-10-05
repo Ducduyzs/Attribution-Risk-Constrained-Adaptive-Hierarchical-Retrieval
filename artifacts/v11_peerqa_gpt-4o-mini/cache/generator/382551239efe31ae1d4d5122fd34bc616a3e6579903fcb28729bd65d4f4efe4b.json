@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that additional fine-tuning on CLIP was not included in the experiments due to poor performance compared to using extracted features for classification, likely stemming from a small labeled dataset.",
+    "claims": [
+      {
+        "text": "Fine-tuning CLIP with a classification head performed worse than using extracted features for classification with SVM due to a relatively smaller sized labeled dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The small labeled dataset was insufficient for effective fine-tuning of CLIP for the task.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 1211,
+    "total_tokens": 1337,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9274812000076054,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

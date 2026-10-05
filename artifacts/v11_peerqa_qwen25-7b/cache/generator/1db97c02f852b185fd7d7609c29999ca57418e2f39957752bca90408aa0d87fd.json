@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the roles of the encoder and decoder in NMT models and their respective learning tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"Different modules of the NMT model learn different aspects, with the encoder focusing on creating a generic representation and the decoder on generating the target sentence in a specific language.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 102,
+    "total_tokens": 1136
+  },
+  "seconds": 4.625249154865742
+}

@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the new evaluation metrics introduced in the paper, including the definitions and calculations for partial match precision, recall, and F1 scores.",
+    "claims": [
+      {
+        "text": "The paper introduces a new evaluation metric called partial match precision, recall, and F1, which measures the overlap between predicted spans and ground truth answers using the longest common substring (LCS).",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evaluation metrics are designed to assess multi-span QA systems across different tasks, including unanswerable questions and single-and multi-span answers.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 1233,
+    "total_tokens": 1376,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.939842799998587,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

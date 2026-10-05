@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific criteria for selecting the top 10 nonsynonymous mutations based on their frequency and biological impact on SARS-CoV-2 proteins.",
+    "claims": [
+      {
+        "text": "The top 10 nonsynonymous mutations were selected based on their high frequency and potential biological impact on protein function.",
+        "citations": [
+          "C2",
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The selection criteria included the analysis of co-mutation ratios and the prediction of protein stability and function.",
+        "citations": [
+          "C2",
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The mutations were identified from a dataset of 30,229 SARS-CoV-2 genome sequences.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 2192,
+    "total_tokens": 2357,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1704026000079466,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

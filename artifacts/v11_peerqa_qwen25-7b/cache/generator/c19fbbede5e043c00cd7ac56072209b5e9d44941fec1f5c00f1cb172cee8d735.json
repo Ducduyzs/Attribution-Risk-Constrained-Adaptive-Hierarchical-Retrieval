@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the rules for assigning error categories, including the use of POS tags and distinguishing between missing, unnecessary, and replacement errors.\",\n  \"claims\": [\n    {\n      \"text\": \"Error categories are assigned based on automatic part-of-speech tags and distinguish between missing, unnecessary, and replacement edits.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The framework includes 25 error types, which can be further categorized into M:, R:, or U: prefixes for evaluation at different levels of granularity.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1099,
+    "completion_tokens": 155,
+    "total_tokens": 1254
+  },
+  "seconds": 7.099542524199933
+}

@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that additional participants were excluded from the analysis due to missing covariates required for the model, but does not quantify the number of these participants or provide specific reasons for the missing covariates.",
+    "claims": [
+      {
+        "text": "Additional participants were excluded from the analysis due to missing covariates required for the model.",
+        "citations": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Five participants withdrew prior to the implementation of the SWAT and are not included in the analysis.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Three participants were not contacted due to difficulties/adverse events associated with their pregnancy but are still included in the analysis under ITT principles.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 2060,
+    "total_tokens": 2235,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.722902300010901,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

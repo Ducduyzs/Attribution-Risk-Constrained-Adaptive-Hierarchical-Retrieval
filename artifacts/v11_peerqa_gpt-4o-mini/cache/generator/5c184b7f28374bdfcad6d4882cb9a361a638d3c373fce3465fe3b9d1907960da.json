@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that pairwise ranking models outperform classification models in cross-corpus and cross-lingual evaluations, which is why classification-based models were not used for the zero-shot experiments.",
+    "claims": [
+      {
+        "text": "Pairwise ranking models perform better than classification models for zero-shot, cross-lingual evaluation scenarios.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed model, N P RM, achieved high ranking accuracy, indicating its effectiveness over classification approaches.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Classification metrics showed lower performance compared to ranking metrics in the context of the experiments.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1168,
+    "total_tokens": 1318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8758527999889338,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

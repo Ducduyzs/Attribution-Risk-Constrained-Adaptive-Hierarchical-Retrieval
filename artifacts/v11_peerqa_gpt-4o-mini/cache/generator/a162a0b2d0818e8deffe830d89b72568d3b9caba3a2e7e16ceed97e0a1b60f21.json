@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The threshold values are selected based on the distribution of class labels and the linguistic requirement that distituents outnumber constituents.",
+    "claims": [
+      {
+        "text": "The threshold values are chosen to ensure the distribution of class labels is about 1:10, with distituents being the majority.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The thresholds τ min and τ max are set to 0.0005 and 0.995 to define gold-standard outside strings for constituents and distituents.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The selection of thresholds takes into account the skewness of random spans, ensuring that distituents outnumber constituents.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 619,
+    "total_tokens": 783,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.373804899994866,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

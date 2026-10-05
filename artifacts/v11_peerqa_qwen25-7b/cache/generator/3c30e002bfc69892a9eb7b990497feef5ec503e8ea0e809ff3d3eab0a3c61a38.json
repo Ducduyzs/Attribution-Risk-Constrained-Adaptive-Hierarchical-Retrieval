@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the performance metrics and differences between the DICTA test set and the new test set.\",\n  \"claims\": [\n    {\n      \"text\": \"The difference in performance between the DICTA test set and the new test set could be due to the fact that NAKDIMON was not trained on the Dicta portion of the training corpus, leading to lower CHA and WOR scores on the DICTA test set compared to the new test set.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The CHA and WOR scores might also differ because the DICTA test set has specific encoding constraints, such as not distinguishing between kamatz katan and kamatz gadol, which affects the performance metrics.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.75\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 206,
+    "total_tokens": 1211
+  },
+  "seconds": 8.858258502092212
+}

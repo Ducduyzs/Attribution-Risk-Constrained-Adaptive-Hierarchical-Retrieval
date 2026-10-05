@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the selection of top 10 nonsynonymous mutations based on their concurrence ratio and potential impact on protein function and structure.\",\n  \"claims\": [\n    {\n      \"text\": \"The top 10 nonsynonymous mutations were selected based on a high concurrence ratio, indicating they may evolve together and interact functionally.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Mutations such as ORF1a nsp5 P108S, ORF3a Q57H, and N protein P151L were deemed potentially deleterious to the function of SARS-CoV-2 proteins.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"ORF1a nsp5 P108S and S protein D614G were found to destabilize protein structures, while S protein D614G resulted in a more open conformation compared to the wild type.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 503,
+    "completion_tokens": 258,
+    "total_tokens": 761
+  },
+  "seconds": 11.882057888898998
+}

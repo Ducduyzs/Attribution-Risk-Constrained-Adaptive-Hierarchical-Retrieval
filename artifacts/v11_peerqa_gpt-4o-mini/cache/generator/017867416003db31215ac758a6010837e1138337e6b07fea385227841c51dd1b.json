@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific information about the criteria used to determine the steady state of soil parameters, referencing established studies and methodologies.",
+    "claims": [
+      {
+        "text": "The steady-state conditions for soil parameters were determined based on the criteria followed by Yang et al. (2005).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The study utilized airborne nitrogen deposition data until the soil parameters reached a steady state.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The site-scale spin-up details are available in Gahlot et al. (2020), which contributed to the steady state determination.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 488,
+    "total_tokens": 636,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3009451999969315,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ce3836fcfd"
+}

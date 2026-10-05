@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors experimented with their model on CNN/DM due to the need to evaluate the effectiveness of hierarchical position embeddings in summarization tasks, particularly in comparison to other datasets with more pronounced hierarchical structures.",
+    "claims": [
+      {
+        "text": "The authors aimed to assess the summarization performance of their HiStruct+ models on CNN/DailyMail to compare it with other datasets like PubMed and arXiv, which have more obvious hierarchical structures.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance improvements on CNN/DailyMail were found to be small, indicating that the hierarchical structure of CNN/DailyMail documents is less pronounced than in other datasets.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 2126,
+    "total_tokens": 2284,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.7965381999965757,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

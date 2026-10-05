@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition of character as an animate being that is important to the plot, indicating that the definition of plot directly influences the understanding of character.",
+    "claims": [
+      {
+        "text": "A character is defined as an animate being that is important to the plot, meaning that the plot's events determine which entities are considered characters.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The definition of character as functional participants in the plot suggests that characters are defined by their roles and contributions to the narrative rather than by psychological traits.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The identification of characters relies on their involvement in significant plot events, highlighting the interdependence of plot and character definitions.",
+        "citations": [
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 2077,
+    "total_tokens": 2256,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.00470900000073,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

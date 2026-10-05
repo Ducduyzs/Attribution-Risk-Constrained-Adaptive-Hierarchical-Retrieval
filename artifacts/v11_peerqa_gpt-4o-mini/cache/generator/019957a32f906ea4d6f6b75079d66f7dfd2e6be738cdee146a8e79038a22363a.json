@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that linking decisions for mentions are made based on their predicted clusters and associated entities, rather than computing \u0003c8(m_i, e) for all entities in the knowledge base.",
+    "claims": [
+      {
+        "text": "The model does not need to compute \u0003c8(m_i, e) for all entities in the target knowledge base during inference, as linking decisions are based on predicted clusters.",
+        "citations": [
+          "C1",
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Linking decisions rely on the predicted cluster of mentions, which limits the need to evaluate all entities in the knowledge base.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 2124,
+    "total_tokens": 2281,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.991013099992415,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

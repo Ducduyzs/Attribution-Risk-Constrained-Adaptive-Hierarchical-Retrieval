@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how section titles are incorporated into the BOS representation.\",\n  \"claims\": [\n    {\n      \"text\": \"Section titles are encoded using either section title embedding (STE) or classified section title embedding (classified STE).\",\n      \"citations\": [\"C1\", \"C3\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"These embeddings are then added to the BOS token embeddings to enrich the sentence representations.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1998,
+    "completion_tokens": 135,
+    "total_tokens": 2133
+  },
+  "seconds": 6.923005755990744
+}

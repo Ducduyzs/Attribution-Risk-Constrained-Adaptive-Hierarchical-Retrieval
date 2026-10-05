@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses methods to improve confidence estimation in neural machine translation.\",\n  \"claims\": [\n    {\n      \"text\": \"To address the issue of poorly calibrated confidence estimates in NMT, the authors propose an unsupervised confidence estimate learning method jointly with the training process. This method explains confidence as how many hints the NMT model needs to make a correct prediction, with more hints indicating lower confidence.\",\n      \"citations\": [\"C3\", \"C5\", \"C6\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The proposed method introduces a confidence-based label smoothing technique, where predictions with higher confidence receive less smoothing, and vice versa.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2043,
+    "completion_tokens": 173,
+    "total_tokens": 2216
+  },
+  "seconds": 8.170607706066221
+}

@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "answerable": false,
+    "reason": "The evidence indicates that current annotation schemes are domain-specific and tied to specific ontologies, making adaptation to other domains challenging. There is a lack of generic intents and the complexity of tasks limits reusability across domains. Therefore, the evidence does not support the claim that the annotation scheme can be easily adapted to more domains.",
+    "claims": []
+  },
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 1970,
+    "total_tokens": 2045,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.2264629999990575,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

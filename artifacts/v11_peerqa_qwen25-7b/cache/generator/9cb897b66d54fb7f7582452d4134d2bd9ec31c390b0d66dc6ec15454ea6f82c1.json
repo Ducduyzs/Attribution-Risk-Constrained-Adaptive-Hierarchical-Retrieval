@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not directly state the motivation for experimenting with the model on CNN/DM, but it provides insights into the performance on this dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"The performance improvements on CNN/DailyMail were small because only hierarchical position information was injected, and section titles were not available.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 634,
+    "completion_tokens": 103,
+    "total_tokens": 737
+  },
+  "seconds": 4.637629724107683
+}

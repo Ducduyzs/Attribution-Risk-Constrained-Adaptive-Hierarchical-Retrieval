@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explicitly mentions the inclusion of both French and Spanish in the cross-linguistic analysis.",
+    "claims": [
+      {
+        "text": "The cross-linguistic analysis includes French and Spanish datasets.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The models evaluated in the analysis were trained on English and tested on both French and Spanish datasets.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 1
+      },
+      {
+        "text": "The research involved automatic readability assessment (ARA) for both French and Spanish languages.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 1
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 2113,
+    "total_tokens": 2230,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7630227000045124,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

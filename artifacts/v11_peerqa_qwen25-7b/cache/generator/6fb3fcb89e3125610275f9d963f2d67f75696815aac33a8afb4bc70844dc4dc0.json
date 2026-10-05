@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the training data and templates used in the study, but does not explicitly state whether the vocabulary items of the templates have adequate representation in the training data.\",\n  \"claims\": [\n    {\n      \"text\": \"The training data includes 2051 nouns that are used in the 'I saw a N. It was {big, small}.' template, indicating some level of vocabulary representation in the training data.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 681,
+    "completion_tokens": 126,
+    "total_tokens": 807
+  },
+  "seconds": 5.849232272710651
+}

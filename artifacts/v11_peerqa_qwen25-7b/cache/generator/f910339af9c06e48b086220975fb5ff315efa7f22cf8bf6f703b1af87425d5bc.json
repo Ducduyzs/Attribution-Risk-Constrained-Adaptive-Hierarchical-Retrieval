@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses limitations of current annotation schemes, particularly their domain specificity, which makes them difficult to adapt to other domains.\",\n  \"claims\": [\n    {\n      \"text\": \"The annotation scheme's domain specificity makes it hard to adapt to other domains.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Current NLU datasets may overestimate the capabilities of NLU models due to their limitations.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 946,
+    "completion_tokens": 138,
+    "total_tokens": 1084
+  },
+  "seconds": 6.2508040140382946
+}

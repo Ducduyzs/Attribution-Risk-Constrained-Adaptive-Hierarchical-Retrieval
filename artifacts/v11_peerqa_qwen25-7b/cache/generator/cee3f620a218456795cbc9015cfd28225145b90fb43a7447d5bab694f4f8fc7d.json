@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how adversarial attacks are generated and their impact on model performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial attacks involve modifying sentences to introduce new entities or alter existing ones, which can lead to significant drops in model scores.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Templates are used to generate adversarial attacks by filling slots with predefined sets of entities related to animals, human professions, foods, and drinks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 680,
+    "completion_tokens": 148,
+    "total_tokens": 828
+  },
+  "seconds": 6.823529629036784
+}

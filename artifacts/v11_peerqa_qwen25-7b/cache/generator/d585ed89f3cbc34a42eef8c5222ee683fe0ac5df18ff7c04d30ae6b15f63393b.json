@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the differences in test sets and the metrics used, which can help explain the performance discrepancies.\",\n  \"claims\": [\n    {\n      \"text\": \"The difference in performance between the DICTA test set and the new test set might be due to the fact that NAKDIMON 0, which was tested on the DICTA set, was not trained on the DICTA portion of the training corpus, while the new test set likely includes more modern Hebrew text.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The new test set may have different characteristics compared to the DICTA test set, such as encoding constraints, which could affect the performance metrics like CHA and WOR.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.7\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 200,
+    "total_tokens": 1210
+  },
+  "seconds": 8.47745622228831
+}

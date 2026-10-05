@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides formulas and descriptions for κ_v but does not directly compare κ_m and κ_v.\",\n  \"claims\": [\n    {\n      \"text\": \"The wave-induced diffusivity κ_v is calculated using a specific formula involving wave parameters, while the molecular diffusivity κ_m has a constant value.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"κ_v can vary significantly depending on wave conditions, whereas κ_m remains constant.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2240,
+    "completion_tokens": 144,
+    "total_tokens": 2384
+  },
+  "seconds": 6.589010778814554
+}

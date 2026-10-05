@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The text explains that the F1 score is used instead of exact match to account for variations in entity names while ensuring accurate detection of invalid questions.\",\n  \"claims\": [\n    {\n      \"text\": \"The reason we take the F1 instead of exact match to check whether the entities are the same is stated in Appendix A.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 105,
+    "total_tokens": 1287
+  },
+  "seconds": 5.106840806081891
+}

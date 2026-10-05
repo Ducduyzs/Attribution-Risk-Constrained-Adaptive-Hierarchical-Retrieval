@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific values and formulas for both molecular diffusivity (κ_m) and wave-induced diffusivity (κ_v), allowing for a comparison of their relative sizes.",
+    "claims": [
+      {
+        "text": "The molecular diffusivity κ_m is 1.4 × 10^-7 m s^-2, while κ_v is calculated using a complex formula that depends on wave conditions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The wave-induced diffusivity κ_v is influenced by wave steepness and can be significantly larger than κ_m under certain conditions.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Higher-order terms in the modeling of wave-induced mixing predict enhanced mixing processes compared to lower-order models, suggesting κ_v can dominate under steep wave conditions.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 2249,
+    "total_tokens": 2431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 3.7641383000009228,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

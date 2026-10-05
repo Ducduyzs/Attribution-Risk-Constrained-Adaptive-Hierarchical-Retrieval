@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how delimiter placement affects sentence aggregation in a model.\",\n  \"claims\": [\n    {\n      \"text\": \"Delimiter placement in the sentence aggregation model determines whether neighboring facts are merged into a single sentence or kept separate. A delimiter value of 1 indicates separate sentences, while 0 indicates fusion of sentences.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 564,
+    "completion_tokens": 101,
+    "total_tokens": 665
+  },
+  "seconds": 4.459429414011538
+}

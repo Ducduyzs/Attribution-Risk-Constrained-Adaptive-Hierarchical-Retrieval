@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses a proposed coreference resolution pipeline and evaluation methods but does not explicitly state whether the pipeline is universally accepted.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed coreference resolution pipeline is not universally accepted as it introduces complexity and challenges interpretability.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"A separate model for coreference resolution adds complexity and makes interpretability more difficult, suggesting the pipeline is not widely adopted.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The authors propose a new evaluation method called Contracat to systematically investigate coreference resolution steps, indicating dissatisfaction with existing methods.\",\n      \"citations\": [\"C2\", \"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2203,
+    "completion_tokens": 199,
+    "total_tokens": 2402
+  },
+  "seconds": 8.682574884966016
+}

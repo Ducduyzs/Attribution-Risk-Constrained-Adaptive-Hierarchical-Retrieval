@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into the performance differences between lm-base and cgexpan models on user-generated datasets.\",\n  \"claims\": [\n    {\n      \"text\": \"The lm-base model outperforms the cgexpan model on concepts with characteristics of user-generated text due to its ability to handle challenging features present in such data.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Simpler baseline methods like lm-base outperform SOTA methods on user-generated text benchmarks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 574,
+    "completion_tokens": 150,
+    "total_tokens": 724
+  },
+  "seconds": 6.635526676662266
+}

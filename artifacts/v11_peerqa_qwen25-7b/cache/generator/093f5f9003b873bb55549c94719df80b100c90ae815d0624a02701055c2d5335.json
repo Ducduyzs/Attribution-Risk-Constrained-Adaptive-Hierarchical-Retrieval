@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the inclusion of coreferent mentions in training batches to improve model performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Training batches contain mentions from the same document to leverage coreferent mentions.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Inference batches also consider coreferent mentions.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1945,
+    "completion_tokens": 120,
+    "total_tokens": 2065
+  },
+  "seconds": 5.6659703608602285
+}

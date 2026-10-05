@@ -1,0 +1,34 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence explains that edit boundaries are determined automatically, which may lead to unusual boundaries that do not align with human expectations. Raters were instructed to focus on the appropriateness of error types despite these potentially unusual boundaries.",
+    "claims": [
+      {
+        "text": "Edit boundaries might be unusual because they are determined automatically, which can lead to discrepancies with human judgment.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 1058,
+    "total_tokens": 1151,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5498914000054356,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors experimented with their model on CNN/DM to assess the impact of hierarchical position embeddings on summarization performance, particularly in comparison to baseline models.",
+    "claims": [
+      {
+        "text": "The authors aimed to investigate the effect of token-level hierarchical position embeddings on summarization performance.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance improvements of their HiStruct+ models on CNN/DailyMail were assessed against baseline models to evaluate the effectiveness of hierarchical position information.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The authors noted that the performance improvements on CNN/DailyMail were small, indicating a specific motivation to understand the limitations of their approach.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 671,
+    "total_tokens": 831,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.9531050000077812,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

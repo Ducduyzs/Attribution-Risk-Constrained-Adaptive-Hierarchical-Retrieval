@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of wikifier features and gazetteers but does not explicitly mention handling named entities not listed on Wikipedia.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses wikifier features and gazetteers, but it is unclear if it accounts for named entities not listed on Wikipedia.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\", \"C4\", \"C5\", \"C6\", \"C7\", \"C8\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1918,
+    "completion_tokens": 129,
+    "total_tokens": 2047
+  },
+  "seconds": 6.604506264906377
+}

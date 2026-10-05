@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a clear explanation of what 'action frames' are.\",\n  \"claims\": [\n    {\n      \"text\": \"Action frames are representations of verbs that capture the physical implications of actions involving objects, such as size, weight, and speed relationships.\",\n      \"citations\": [\"C1\", \"C2\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Action frames are derived by analyzing the core components of an action (subject, verb, direct object, prepositional object) and mapping them to roles like agent, theme, and goal.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2077,
+    "completion_tokens": 162,
+    "total_tokens": 2239
+  },
+  "seconds": 9.552909486927092
+}

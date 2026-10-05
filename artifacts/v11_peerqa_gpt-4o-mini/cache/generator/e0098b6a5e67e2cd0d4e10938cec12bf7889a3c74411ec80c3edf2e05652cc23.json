@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the benefits of pruning the complete graph for training, indicating that it leads to better performance in learning representations by focusing on relevant relationships.",
+    "claims": [
+      {
+        "text": "Pruning the complete graph to create an arborescence improves training by focusing on coreferent relationships, which enhances model performance.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Using a restricted graph instead of a fully-connected graph allows for more efficient training by reducing complexity while maintaining relevant connections.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 690,
+    "total_tokens": 811,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.4396298000065144,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the transferability of pretrained language models across languages and mentions downstream tasks like natural language inference, question answering, and semantic role labeling.\",\n  \"claims\": [\n    {\n      \"text\": \"Natural language inference, question answering, and semantic role labeling have been tested using an encoder transferred from language 1 to language 2 without any parameter updates.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 109,
+    "total_tokens": 758
+  },
+  "seconds": 4.890186277683824
+}

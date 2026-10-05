@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the impact of layer norm approximation on performance across various tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"Jointly finetuning the softmax estimation model or approximated layernorm leads to a performance drop across all tasks.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Finetuning the different approximation components individually can maintain the best performance of approximation.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 573,
+    "completion_tokens": 136,
+    "total_tokens": 709
+  },
+  "seconds": 5.930138220079243
+}

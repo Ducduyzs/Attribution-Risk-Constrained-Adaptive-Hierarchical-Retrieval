@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors aimed to improve extractive summarization by incorporating hierarchical structure information into their model, which was tested on CNN/DailyMail among other datasets.",
+    "claims": [
+      {
+        "text": "The authors experimented with their model on CNN/DailyMail to evaluate the effectiveness of injecting hierarchical structure information into extractive summarization.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance improvements on CNN/DailyMail were small, possibly due to the lack of section titles in the dataset, which limited the hierarchical information available.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 1176,
+    "total_tokens": 1307,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2727426999917952,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

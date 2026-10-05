@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how error categories are assigned using a rule-based approach.\",\n  \"claims\": [\n    {\n      \"text\": \"Error categories are assigned based on automatic POS tags, distinguishing between Missing, Unnecessary, and Replacement errors.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The framework includes 25 main error categories, which can be further categorized into M:, R:, or U: types.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"New categories can be added for increasingly detailed error types, but the framework prioritizes informativeness and practicality.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1636,
+    "completion_tokens": 181,
+    "total_tokens": 1817
+  },
+  "seconds": 7.984666525851935
+}

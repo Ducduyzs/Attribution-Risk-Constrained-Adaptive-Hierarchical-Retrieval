@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear details about the data augmentation strategy used.\",\n  \"claims\": [\n    {\n      \"text\": \"The data augmentation strategy involves identifying sentences where a coreferential 'it' refers to an antecedent not present in the current or previous sentence and creating new training examples by modifying the gender of the German translation of 'it'.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 618,
+    "completion_tokens": 110,
+    "total_tokens": 728
+  },
+  "seconds": 5.400169180706143
+}

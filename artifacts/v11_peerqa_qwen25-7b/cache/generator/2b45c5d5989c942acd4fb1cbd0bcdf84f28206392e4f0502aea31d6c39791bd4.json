@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the roles of the encoder and decoder in NMT models and highlights their distinct tasks.\",\n  \"claims\": [\n    {\n      \"text\": \"The encoder and decoder have different tasks, suggesting they might benefit from separate objectives.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The decoder focuses on generating the target sentence, whereas the encoder creates a generic representation of the source sentence.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 137,
+    "total_tokens": 1171
+  },
+  "seconds": 6.320639424957335
+}

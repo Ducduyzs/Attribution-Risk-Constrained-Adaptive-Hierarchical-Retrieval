@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear reasons for using ESE methods on user-generated text, highlighting its importance and unique challenges.\",\n  \"claims\": [\n    {\n      \"text\": \"ESE methods need to be evaluated on user-generated text because they do not generalize well to this type of data, which contains multifaceted, non-named, and vague entities.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"User-generated text benchmarks exhibit more multifaceted entities, non-named entities, and vagueness than well-curated benchmarks, necessitating new evaluation metrics.\",\n      \"citations\": [\"C1\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Practitioners should use the proposed evaluation at k_g metric to assess the suitability of ESE methods for user-generated text.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1973,
+    "completion_tokens": 229,
+    "total_tokens": 2202
+  },
+  "seconds": 14.847083697095513
+}

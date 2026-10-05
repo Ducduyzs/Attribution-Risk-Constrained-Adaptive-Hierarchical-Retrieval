@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how threshold values are selected to ensure a balanced distribution of class labels and to align with linguistic expectations.\",\n  \"claims\": [\n    {\n      \"text\": \"Threshold values are chosen to ensure a distribution of class labels about 1:10, with distituents being the majority, reflecting linguistic expectations.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Lower and upper bounds of the threshold are set to select distituents and constituents respectively, ensuring a balanced distribution.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 150,
+    "total_tokens": 1298
+  },
+  "seconds": 6.741583360824734
+}

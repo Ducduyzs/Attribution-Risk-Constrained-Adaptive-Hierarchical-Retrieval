@@ -1,0 +1,52 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific criteria for selecting the top 10 nonsynonymous mutations, including their frequency in primary lineages and co-mutation analysis.",
+    "claims": [
+      {
+        "text": "The top 10 nonsynonymous mutations were selected based on their frequency percentage in primary lineages associated with variants of concern (VOCs).",
+        "citations": [
+          "C2",
+          "C3",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Co-mutation analysis was performed to assess the concurrence ratio of these mutations, indicating their potential functional interactions.",
+        "citations": [
+          "C3",
+          "C6",
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Mutations with a predicted score greater than -2.5 were considered neutral, influencing the selection of the top mutations.",
+        "citations": [
+          "C6",
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 2208,
+    "total_tokens": 2383,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6017564999929164,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

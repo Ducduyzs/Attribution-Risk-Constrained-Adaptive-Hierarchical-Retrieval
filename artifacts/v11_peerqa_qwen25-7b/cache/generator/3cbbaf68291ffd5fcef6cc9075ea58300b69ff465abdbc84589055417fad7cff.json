@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides reasons why post-editing rates were chosen over prediction (h)ter for intrinsic uncertainty evaluation.\",\n  \"claims\": [\n    {\n      \"text\": \"Post-editing rates were chosen over prediction (h)ter due to their completeness in measuring post-editing effort, capturing both technical and cognitive effort, and being more directly applicable in real translation environments.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Uncertainty estimates from well-calibrated probability distributions, such as those provided by Gaussian Processes, can offer more informed solutions in decision-making processes, unlike point estimates.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 166,
+    "total_tokens": 1280
+  },
+  "seconds": 7.7918461239896715
+}

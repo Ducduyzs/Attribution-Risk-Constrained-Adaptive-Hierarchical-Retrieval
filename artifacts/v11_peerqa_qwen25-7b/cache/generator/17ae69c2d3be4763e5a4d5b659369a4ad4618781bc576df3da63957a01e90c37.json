@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the limitations of data availability for Indigenous languages and highlights the effectiveness of rule-based approaches in such contexts.\",\n  \"claims\": [\n    {\n      \"text\": \"With small corpora, rule-based approaches are more feasible than statistical or neural methods for Indigenous languages.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Rule-based methods are preferred due to the lack of sufficient data for training statistical models.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 141,
+    "total_tokens": 1256
+  },
+  "seconds": 6.37230409681797
+}

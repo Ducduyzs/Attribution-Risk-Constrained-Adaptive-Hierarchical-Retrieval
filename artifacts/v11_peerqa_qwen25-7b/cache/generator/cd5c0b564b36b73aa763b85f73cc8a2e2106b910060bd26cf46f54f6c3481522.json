@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into the motivation behind experimenting with the model on CNN/DM.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors experimented with the model on CNN/DailyMail because it contains shorter documents compared to PubMed and arXiv, allowing them to evaluate the model's performance on a different type of dataset.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The performance improvements on CNN/DailyMail were smaller than on PubMed and arXiv, possibly due to the simpler hierarchical structure of CNN/DailyMail documents.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 165,
+    "total_tokens": 1283
+  },
+  "seconds": 7.291987502016127
+}

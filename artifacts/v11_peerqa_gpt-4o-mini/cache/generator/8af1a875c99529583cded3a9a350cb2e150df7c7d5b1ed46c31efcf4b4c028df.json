@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific rules and categorizations for assigning error types based on part-of-speech and edit types.",
+    "claims": [
+      {
+        "text": "Error categories are assigned based on part-of-speech (POS) tags and the nature of the edit (Missing, Replacement, Unnecessary).",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "There are 25 main error types, which can be prefixed with 'M:', 'R:', or 'U:' to indicate the type of edit.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The framework allows for flexibility in evaluating errors at different levels of granularity, such as focusing on specific types of errors.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "A total of 55 possible error types exist, with specific rules for categorizing them based on the edits made.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 202,
+    "prompt_tokens": 1208,
+    "total_tokens": 1410,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2544226000027265,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

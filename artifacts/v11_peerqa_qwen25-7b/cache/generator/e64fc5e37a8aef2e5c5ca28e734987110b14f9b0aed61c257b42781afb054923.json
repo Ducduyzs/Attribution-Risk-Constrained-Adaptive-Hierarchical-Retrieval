@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly mentions the introduction of new metrics and a new model in the paper, indicating the presence of a new evaluation metric.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper introduces several new metrics including partial match precision, recall, and F1 score.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The paper proposes a new model that combines a sequence tagger with a span number predictor, span structure predictor, and span adjustment module.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1834,
+    "completion_tokens": 143,
+    "total_tokens": 1977
+  },
+  "seconds": 6.717057248111814
+}

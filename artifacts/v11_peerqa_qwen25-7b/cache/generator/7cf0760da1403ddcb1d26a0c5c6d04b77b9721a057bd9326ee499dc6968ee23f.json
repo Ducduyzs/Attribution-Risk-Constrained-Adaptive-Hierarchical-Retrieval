@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how knowledge dimensions are annotated for frames and object pairs through crowdsourcing.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowd workers are asked to rate the general relationship that the arguments of the frame exhibit with respect to all knowledge dimensions.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Workers select an answer from (1) x > a y, (2) x < a y, (3) x a y, or (4) no general relation for each knowledge dimension.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The process involves comparing each of the 3656 object pairs along the five knowledge dimensions considered.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 201,
+    "total_tokens": 1377
+  },
+  "seconds": 12.42307500867173
+}

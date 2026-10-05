@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for classifying scientific papers based on the language used in their conclusions, specifically distinguishing between correlational and causal claims.",
+    "claims": [
+      {
+        "text": "A research paper is classified as correlational if it contains at least one sentence with correlational language and no sentences with direct or conditional causal language.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Direct causal claims from correlational findings are regarded as exaggerations, while conditional causal claims are considered speculative and not classified as direct causal.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "BERT-based sentence classifiers were developed to categorize statements in research papers and press releases into direct causal, conditional causal, correlational, or not claim.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 683,
+    "total_tokens": 855,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2392475999949966,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

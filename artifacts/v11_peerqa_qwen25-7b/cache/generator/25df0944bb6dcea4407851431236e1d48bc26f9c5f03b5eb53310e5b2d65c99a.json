@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The document explains that word overlap (F1 score) is used instead of exact match to check if entities are the same because it accounts for variations in mentions, which is necessary for coreference resolution.\",\n  \"claims\": [\n    {\n      \"text\": \"Word overlap (F1 score) is used instead of exact match to check if entities are the same because it accounts for variations in mentions, which is necessary for coreference resolution.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 690,
+    "completion_tokens": 123,
+    "total_tokens": 813
+  },
+  "seconds": 5.94282590597868
+}

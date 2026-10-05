@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the importance of pre-trained embeddings and their impact on performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Not having access to pre-trained embeddings would significantly decrease performance, as demonstrated by experiments where such embeddings were not used, leading to lower F1 scores.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Pre-trained embeddings, especially those from large-scale language models, contribute to better performance by capturing semantic and syntactic roles of words in context.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 150,
+    "total_tokens": 1398
+  },
+  "seconds": 6.731632343027741
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the effectiveness of generated knowledge prompting with large language models and suggests that the method can work well with different settings, including zero-shot and finetuned models.\",\n  \"claims\": [\n    {\n      \"text\": \"Generated knowledge prompting can work effectively with different settings, including zero-shot and finetuned models.\",\n      \"citations\": [\"C1\", \"C3\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The method does not require task-specific supervision for knowledge integration, making it adaptable to various models.\",\n      \"citations\": [\"C1\", \"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1728,
+    "completion_tokens": 161,
+    "total_tokens": 1889
+  },
+  "seconds": 7.04174987366423
+}

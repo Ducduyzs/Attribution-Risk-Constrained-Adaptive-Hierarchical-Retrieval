@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence clearly outlines the main aim of the paper, which is to provide a method for automatically annotating error types in grammatical error correction (GEC) systems, facilitating better evaluation and feedback.",
+    "claims": [
+      {
+        "text": "The main aim of this paper is to rectify the lack of error type annotation in GEC systems, allowing for better evaluation of specific error types and providing feedback to learners.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The paper seeks to standardize existing datasets under a common error type framework to improve the evaluation of grammatical error correction systems.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 1982,
+    "total_tokens": 2121,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.154638799998793,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

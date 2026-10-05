@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the performance of CLIP models during fine-tuning and highlights their limitations, particularly due to the small labeled dataset size, which makes fine-tuning CLIP less effective.\",\n  \"claims\": [\n    {\n      \"text\": \"The experiments did not include additional fine-tuning on CLIP because the small labeled dataset size made fine-tuning CLIP for the task less effective.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2200,
+    "completion_tokens": 116,
+    "total_tokens": 2316
+  },
+  "seconds": 7.698898947797716
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides reasons for the lower performance on Vikidia-FR compared to Newsela-ES.\",\n  \"claims\": [\n    {\n      \"text\": \"The lower performance on Vikidia-FR can be attributed to the smaller number of reading levels, leading to more severe penalties for incorrect rankings in ranking metrics such as SRC and KTCC.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Vikidia-FR has more diverse content compared to Newsela-ES, which might affect the model's performance.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2090,
+    "completion_tokens": 161,
+    "total_tokens": 2251
+  },
+  "seconds": 7.3369572958908975
+}

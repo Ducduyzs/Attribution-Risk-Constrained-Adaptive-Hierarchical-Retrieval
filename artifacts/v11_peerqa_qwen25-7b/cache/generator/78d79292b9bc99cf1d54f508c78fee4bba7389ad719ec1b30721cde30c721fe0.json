@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not explicitly state whether the model needs to compute ψ(m_i, e) for all entities in the target knowledge base during inference. However, it discusses methods for entity linking and mentions the use of mention-entity edges for making linking decisions.\",\n  \"claims\": [\n    {\n      \"text\": \"The model does not necessarily need to compute ψ(m_i, e) for all entities in the target knowledge base during inference, as it can use mention-entity edges for linking decisions.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 137,
+    "total_tokens": 1277
+  },
+  "seconds": 6.207635968923569
+}

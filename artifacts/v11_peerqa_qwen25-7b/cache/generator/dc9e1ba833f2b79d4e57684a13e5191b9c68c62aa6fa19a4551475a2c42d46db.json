@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of text smoothing and interpolation but does not specify the exact number of augmented samples generated for each original sample.\",\n  \"claims\": [\n    {\n      \"text\": \"The method involves converting sentences from one-hot representations to smoothed representations and interpolating between them, but the specific number of augmented samples is not mentioned.\",\n      \"citations\": [\"C1\", \"C2\", \"C7\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2054,
+    "completion_tokens": 112,
+    "total_tokens": 2166
+  },
+  "seconds": 5.185274955816567
+}

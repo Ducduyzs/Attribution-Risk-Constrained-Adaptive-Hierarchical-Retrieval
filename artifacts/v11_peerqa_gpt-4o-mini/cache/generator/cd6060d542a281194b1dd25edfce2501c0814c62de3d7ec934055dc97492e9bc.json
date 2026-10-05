@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear definition and context for 'action frames' as they relate to verb implications and their syntactic patterns.",
+    "claims": [
+      {
+        "text": "Action frames are defined as syntactic patterns that capture the core components of an action, mapping subjects to agents, direct objects to themes, and prepositional objects to goals.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Action frames involve multiple relations for a single verb, reflecting different contexts in which the verb can be used, as per frame semantics.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The concept of action frames is linked to the physical implications of actions, such as the example 'x threw y' which implies certain relations about size and weight.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 2094,
+    "total_tokens": 2269,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0683895999973174,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

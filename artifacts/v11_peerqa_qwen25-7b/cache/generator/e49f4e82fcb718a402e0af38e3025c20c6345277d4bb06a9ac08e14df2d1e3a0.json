@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the datasets and annotations used for the significance test.\",\n  \"claims\": [\n    {\n      \"text\": \"The significance test was performed on the data produced in the CoNLL-2014 shared task, specifically the system hypotheses and official reference files.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"True Positive, False Positive, and False Negative counts for each error type across different teams were used to make Tables 5 and 6.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 485,
+    "completion_tokens": 146,
+    "total_tokens": 631
+  },
+  "seconds": 6.26241784915328
+}

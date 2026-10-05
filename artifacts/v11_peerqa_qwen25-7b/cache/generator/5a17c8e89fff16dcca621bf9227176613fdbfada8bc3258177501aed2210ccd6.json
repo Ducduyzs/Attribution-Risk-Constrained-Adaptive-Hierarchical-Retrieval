@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how to classify scientific papers as correlational or causal based on specific language used in the conclusion and press releases.\",\n  \"claims\": [\n    {\n      \"text\": \"A research paper's finding is regarded as 'correlational' if at least one sentence in the conclusion uses correlational language and no sentence uses direct or conditional causal language.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Exaggeration is identified at article level by aggregating sentence-level predictions, focusing on the research papers that made correlational claims only.\",\n      \"citations\": [\"C5\", \"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2160,
+    "completion_tokens": 165,
+    "total_tokens": 2325
+  },
+  "seconds": 7.428567798342556
+}

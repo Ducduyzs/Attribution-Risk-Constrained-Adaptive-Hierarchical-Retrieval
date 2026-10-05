@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The selection of action verbs was based on a systematic approach that involved analyzing frequency data and syntactic patterns from a large corpus, specifically the Google Syntax Ngrams corpus, to identify the most relevant verbs for action frames.",
+    "claims": [
+      {
+        "text": "We selected 50 classes of Levin verbs from alternation and verb classes, corresponding to about 1100 unique verbs, and sorted them by frequency in the Google Syntax Ngrams corpus to pick the top 100 verbs.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The selection process involved mapping subjects, direct objects, and prepositional objects to their respective roles in action frames, using dependency parsing to extract core components of actions.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 2007,
+    "total_tokens": 2169,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.078258800000185,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

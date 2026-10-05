@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the process of pruning graphs for training, defining constraints and a dissimilarity function. It does not explicitly state why a complete graph would not be suitable for training.\",\n  \"claims\": [\n    {\n      \"text\": \"Pruning graphs helps in defining constraints and a dissimilarity function for training, ensuring that each cluster contains at most one entity and that edges between nodes do not exceed a certain dissimilarity threshold.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 658,
+    "completion_tokens": 130,
+    "total_tokens": 788
+  },
+  "seconds": 7.64986660471186
+}

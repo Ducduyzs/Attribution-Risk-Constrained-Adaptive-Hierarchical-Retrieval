@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the transfer of encoders pretrained on artificial languages to natural language tasks without parameter updates, specifically mentioning the types of structural knowledge that can be transferred.",
+    "claims": [
+      {
+        "text": "Encoders pretrained on artificial languages can be transferred to natural language tasks such as natural language inference, question answering, and semantic role labeling without parameter updates.",
+        "citations": [
+          "C1",
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The transfer of knowledge from artificial languages to natural languages includes understanding position-aware context dependence, which is beneficial for various NLP tasks.",
+        "citations": [
+          "C7",
+          "C8"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 2060,
+    "total_tokens": 2198,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.772373499989044,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

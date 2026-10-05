@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that the focus was on pairwise ranking rather than classification due to its superior performance in cross-corpus and cross-lingual evaluations.\",\n  \"claims\": [\n    {\n      \"text\": \"Classification-based models were not used for zero shot experiments because pairwise ranking models outperformed them in cross-corpus and cross-lingual evaluations.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 627,
+    "completion_tokens": 111,
+    "total_tokens": 738
+  },
+  "seconds": 5.088019925169647
+}

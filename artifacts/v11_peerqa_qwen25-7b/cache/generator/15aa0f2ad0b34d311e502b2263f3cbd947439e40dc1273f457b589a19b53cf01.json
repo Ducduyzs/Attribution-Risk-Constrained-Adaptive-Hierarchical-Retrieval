@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides formulas and descriptions for κm and κv but does not directly compare their magnitudes.\",\n  \"claims\": [\n    {\n      \"text\": \"κv is generally larger than κm for steeper waves.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"κm is a constant value (1.4 × 10^-7 m s^-2) while κv depends on wave parameters like wave steepness and depth.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1.0\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 145,
+    "total_tokens": 1152
+  },
+  "seconds": 6.263474772218615
+}

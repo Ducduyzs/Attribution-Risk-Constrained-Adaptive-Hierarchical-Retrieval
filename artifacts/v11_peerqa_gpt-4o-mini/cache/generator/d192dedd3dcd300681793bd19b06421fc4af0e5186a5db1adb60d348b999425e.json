@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides details about human evaluation results for text generation tasks, specifically in the context of summarization models.",
+    "claims": [
+      {
+        "text": "Human evaluation results for extracted summaries are demonstrated in Appendix A.6, showing the superiority of the proposed system over baselines.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Two samples for human evaluation and case analysis of extractive summaries predicted by the HiStruct+ model are provided, comparing them with gold summaries.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation results of the HiStruct+ models are summarized, indicating their performance in comparison to baseline models.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 2105,
+    "total_tokens": 2258,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.134621100005461,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

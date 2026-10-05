@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the transferability of encoders pretrained on one language to various downstream tasks in another language without parameter updates, specifically mentioning the success in natural language tasks.",
+    "claims": [
+      {
+        "text": "Encoders pretrained on one language can be transferred to another language for tasks like natural language inference, question answering, and semantic role labeling without parameter updates.",
+        "citations": [
+          "C1",
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The transfer of knowledge from one language to another involves understanding position-aware context dependence, which is crucial for various downstream tasks.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 1115,
+    "total_tokens": 1250,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6898989000037545,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

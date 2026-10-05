@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides reasons for the lower performance on Vikidia-FR compared to Newsela-ES.\",\n  \"claims\": [\n    {\n      \"text\": \"Vikidia-Fr has more diverse content compared to Newsela-ES, leading to lower performance.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Ranking metrics, particularly SRC and KTCC, heavily penalize Vikidia-Fr for incorrect rankings, resulting in lower scores.\",\n      \"citations\": [\"C2\", \"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 147,
+    "total_tokens": 1315
+  },
+  "seconds": 6.792866304982454
+}

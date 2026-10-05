@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the limitations of data availability for statistical and neural methods in small corpora for indigenous languages, highlighting the advantages of rule-based approaches.\",\n  \"claims\": [\n    {\n      \"text\": \"With small corpora, rule-based approaches are more feasible than statistical or neural methods due to limited data availability.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Rule-based methods are particularly useful for languages with complex inflectional morphology, such as Kanyen'kéha.\",\n      \"citations\": [\"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2148,
+    "completion_tokens": 157,
+    "total_tokens": 2305
+  },
+  "seconds": 7.809378546196967
+}

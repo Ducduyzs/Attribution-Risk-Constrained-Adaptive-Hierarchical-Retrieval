@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple reasons why beam search is inadequate for certain tasks, particularly in terms of handling similar hypotheses and computational inefficiency.\",\n  \"claims\": [\n    {\n      \"text\": \"Beam search does not handle very similar hypotheses efficiently and preserves them as different states, leading to wasted computational resources.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Beam search prunes many paths that would potentially yield high-quality summaries and wastes computational resources expanding nodes that aren't included in the final search graph.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2038,
+    "completion_tokens": 157,
+    "total_tokens": 2195
+  },
+  "seconds": 7.230355361942202
+}

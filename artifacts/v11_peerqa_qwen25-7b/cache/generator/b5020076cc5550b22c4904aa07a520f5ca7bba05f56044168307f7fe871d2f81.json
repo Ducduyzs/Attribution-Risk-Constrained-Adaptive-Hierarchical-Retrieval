@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of wikifier features and named entity recognition but does not explicitly mention named entities not listed on Wikipedia.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed model uses features derived from FreeBase types and Wikipedia categories, which can cover entities not necessarily listed on Wikipedia.\",\n      \"citations\": [\"C1\", \"C3\", \"C6\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1969,
+    "completion_tokens": 106,
+    "total_tokens": 2075
+  },
+  "seconds": 4.924704961013049
+}

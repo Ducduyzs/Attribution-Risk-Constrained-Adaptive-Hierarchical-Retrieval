@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not explicitly mention whether the proposed feature and experiments account for named entities not listed on Wikipedia.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed NER model uses FreeBase types and Wikipedia categories from the top 2 title candidates returned by wikifier, but it does not explicitly state whether it accounts for named entities not listed on Wikipedia.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"The cross-lingual NER model builds on cross-lingual wikification, grounding words and phrases into English Wikipedia entries, but it does not explicitly state whether it accounts for named entities not listed on Wikipedia.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 665,
+    "completion_tokens": 181,
+    "total_tokens": 846
+  },
+  "seconds": 8.40796637488529
+}

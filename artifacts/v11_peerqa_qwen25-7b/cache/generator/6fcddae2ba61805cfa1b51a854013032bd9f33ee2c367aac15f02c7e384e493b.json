@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence suggests that the proposed knowledge prompting method can work effectively with larger language models, and there is no explicit mention of the method's limitations with smaller models.\",\n  \"claims\": [\n    {\n      \"text\": \"The method works well under both zero-shot and finetuned settings.\",\n      \"citations\": [\"C4\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The method does not require task-specific supervision for knowledge integration.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 139,
+    "total_tokens": 1289
+  },
+  "seconds": 6.955700799822807
+}

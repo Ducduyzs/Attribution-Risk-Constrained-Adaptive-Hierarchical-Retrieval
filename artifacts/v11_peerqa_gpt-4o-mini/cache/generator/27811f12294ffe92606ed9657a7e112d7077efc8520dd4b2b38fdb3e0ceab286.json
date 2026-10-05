@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that grammatical roles such as subject position are associated with more frequent pronoun use compared to proper nouns, as pronouns are more likely to refer to prominent referents in subject position.",
+    "claims": [
+      {
+        "text": "Pronouns are more frequently used for referents in subject position compared to proper nouns.",
+        "citations": [
+          "C1",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The prominence of a referent influences the choice of pronouns over proper nouns, with higher prominence leading to more frequent pronoun use.",
+        "citations": [
+          "C4",
+          "C6",
+          "C7"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 2172,
+    "total_tokens": 2309,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.259505599999102,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

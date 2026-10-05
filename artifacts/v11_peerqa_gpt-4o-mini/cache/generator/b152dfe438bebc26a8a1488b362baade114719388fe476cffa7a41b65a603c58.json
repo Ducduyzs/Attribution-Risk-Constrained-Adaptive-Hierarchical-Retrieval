@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the CLEAR method's unique approach to multilingual vision-and-language navigation, highlighting its cross-lingual and environment-agnostic representations, which differ from existing methods.",
+    "claims": [
+      {
+        "text": "The CLEAR method learns a cross-lingual representation that captures visual concepts by utilizing paired multilingual instructions, which is not commonly addressed in existing methods.",
+        "citations": [
+          "C3",
+          "C4",
+          "C8"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "CLEAR also develops an environment-agnostic visual representation that generalizes better to unseen environments, addressing a key challenge in vision-and-language navigation.",
+        "citations": [
+          "C3",
+          "C8"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Existing methods often struggle with domain shift and do not effectively utilize multilingual instructions to improve instruction-path grounding, which CLEAR addresses.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 188,
+    "prompt_tokens": 2183,
+    "total_tokens": 2371,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2933302000019467,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

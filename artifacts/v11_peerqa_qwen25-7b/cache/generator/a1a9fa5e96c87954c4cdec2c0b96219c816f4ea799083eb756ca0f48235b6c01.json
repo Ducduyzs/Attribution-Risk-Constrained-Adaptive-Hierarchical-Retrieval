@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The rationale for analyzing only the self-attention functions in the last layer of the BERT model is that the attention functions in earlier layers do not significantly change during fine-tuning and are of limited use in comparison to those in the last layer.\",\n  \"claims\": [\n    {\n      \"text\": \"The attention functions in the last layer produce stronger correlations with human attention than those in earlier layers.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Raw attention weights in the last layer do not reliably correspond to token relevance and are of limited use for comparing task attention to human gaze.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 176,
+    "total_tokens": 1164
+  },
+  "seconds": 7.613457038998604
+}

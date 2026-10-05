@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the comparison between word and morpheme segmentation, showing that supervised models perform better than unsupervised ones, and that considering both levels of segmentation is beneficial.\",\n  \"claims\": [\n    {\n      \"text\": \"Supervised models outperform unsupervised ones in word and morpheme segmentation.\",\n      \"citations\": [\"C1\", \"C2\", \"C5\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Considering both word and morpheme boundaries improves segmentation accuracy.\",\n      \"citations\": [\"C2\", \"C5\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2270,
+    "completion_tokens": 150,
+    "total_tokens": 2420
+  },
+  "seconds": 6.72540507465601
+}

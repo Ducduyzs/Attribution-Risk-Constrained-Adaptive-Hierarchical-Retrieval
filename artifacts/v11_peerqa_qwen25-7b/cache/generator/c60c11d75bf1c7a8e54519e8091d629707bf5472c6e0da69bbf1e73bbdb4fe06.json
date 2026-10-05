@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about tuning the p value of the binomial distribution for deciding whether a token or a mention should be replaced, but does not explicitly state the probability of replacement.\",\n  \"claims\": [\n    {\n      \"text\": \"The p value of the binomial distribution is tuned between 0.1 and 0.7 to decide whether a token should be replaced.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 551,
+    "completion_tokens": 118,
+    "total_tokens": 669
+  },
+  "seconds": 5.09288143273443
+}

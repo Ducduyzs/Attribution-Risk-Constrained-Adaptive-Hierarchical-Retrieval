@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the motivation behind experimenting with the model on CNN/DM, focusing on the hierarchical position embeddings and their impact on summarization performance.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors experimented with their model on CNN/DM to investigate the effect of token-level hierarchical position embeddings on summarization performance.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The motivation was to understand how the hierarchical structure of CNN/DM documents compared to PubMed and arXiv, which have more obvious hierarchical structures.\",\n      \"citations\": [\"C4\", \"C6\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2101,
+    "completion_tokens": 168,
+    "total_tokens": 2269
+  },
+  "seconds": 8.107240356970578
+}

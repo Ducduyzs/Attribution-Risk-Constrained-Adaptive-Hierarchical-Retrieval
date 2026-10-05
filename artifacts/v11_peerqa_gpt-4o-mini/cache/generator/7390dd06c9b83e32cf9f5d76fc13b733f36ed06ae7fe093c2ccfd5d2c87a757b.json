@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific methods used to develop per-triple templates, including hand-crafted templates for predicates and the transformation of triples into facts using these templates.",
+    "claims": [
+      {
+        "text": "Per-triple templates were developed using simple hand-crafted templates for each predicate, which introduce domain knowledge and minimize manual workload.",
+        "citations": [
+          "C1",
+          "C4",
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The transformation of triples into facts is a key method in developing these templates, allowing for the generation of natural language sentences from RDF triples.",
+        "citations": [
+          "C2",
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The templates were created manually for specific datasets, such as WebNLG and E2E, to ensure accurate representation of predicates.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 2004,
+    "total_tokens": 2180,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.58314010000322,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9fbc67c88f"
+}

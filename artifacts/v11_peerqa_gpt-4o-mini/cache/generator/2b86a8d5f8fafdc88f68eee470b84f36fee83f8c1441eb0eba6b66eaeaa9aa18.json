@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about a data augmentation strategy used in the context of coreference resolution in machine translation, including the method and its purpose.",
+    "claims": [
+      {
+        "text": "The data augmentation strategy involves creating new training examples by modifying the gender of the German translation of coreferential pronouns, specifically targeting sentences where the antecedent is not present in the current or previous sentence.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "This approach is referred to as Antecedent-free augmentation (afa) and aims to improve coreference resolution capabilities in the model.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The augmentation improves performance on some metrics but does not fundamentally change how coreference resolution is handled by neural machine translation.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 1190,
+    "total_tokens": 1369,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.179030600003898,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the sources of the GTF and VCF files.\",\n  \"claims\": [\n    {\n      \"text\": \"The GTF file containing the SARS-CoV-2 genome sequences was obtained from Ensembl.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The VCF file comprising all the SNP of SARS-CoV-2 was obtained using SNP-sites tool.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2275,
+    "completion_tokens": 138,
+    "total_tokens": 2413
+  },
+  "seconds": 6.337062305305153
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The use of F1 score for word overlap instead of exact match is to avoid false positives in detecting invalid questions when entities have different names but refer to the same concept.\",\n  \"claims\": [\n    {\n      \"text\": \"The reason we take the F1 instead of exact match to check whether the entities are the same is stated in Appendix A.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 106,
+    "total_tokens": 1288
+  },
+  "seconds": 4.9432364627718925
+}

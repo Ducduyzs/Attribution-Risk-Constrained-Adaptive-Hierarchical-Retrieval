@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses specific learning rates and sequence lengths for particular tasks and datasets, suggesting task- and dataset-specific optimizations.\",\n  \"claims\": [\n    {\n      \"text\": \"The results are task- and dataset-specific as evidenced by the need for specific learning rates and sequence lengths.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 669,
+    "completion_tokens": 97,
+    "total_tokens": 766
+  },
+  "seconds": 5.010248237289488
+}

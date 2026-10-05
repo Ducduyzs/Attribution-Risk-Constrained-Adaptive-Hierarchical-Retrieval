@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the limitations of current ESE benchmarks and the need for more rigorous evaluation, especially for user-generated text.\",\n  \"claims\": [\n    {\n      \"text\": \"ESE methods perform poorly on user-generated text compared to well-curated text.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"New benchmarks and evaluation metrics are necessary to assess ESE methods in user-generated text.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The proposed evaluation at k g metric helps measure the suitability of ESE methods for user-generated text.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 643,
+    "completion_tokens": 189,
+    "total_tokens": 832
+  },
+  "seconds": 8.473664022050798
+}

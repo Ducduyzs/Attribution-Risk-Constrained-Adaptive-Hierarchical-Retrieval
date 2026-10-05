@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear rationale for using ESE methods on user-generated text, highlighting the unique characteristics of such text and the need for tailored evaluation metrics.",
+    "claims": [
+      {
+        "text": "Entity set expansion (ESE) methods are used on user-generated text to address the unique characteristics of this text, such as non-named, multifaceted, and vague entities that are not well-represented in existing benchmarks.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "User-generated text is abundant and largely unlabeled, making it essential for enabling NLP applications like semantic search and question answering, which require effective entity extraction.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Existing ESE methods do not generalize well to user-generated text, necessitating the development of new benchmarks and evaluation metrics to assess their performance accurately.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 1131,
+    "total_tokens": 1331,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.449804599993513,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

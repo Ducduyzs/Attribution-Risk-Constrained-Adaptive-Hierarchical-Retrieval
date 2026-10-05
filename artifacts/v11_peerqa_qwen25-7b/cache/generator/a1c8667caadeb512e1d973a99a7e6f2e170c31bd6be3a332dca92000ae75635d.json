@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the challenges of applying state-of-the-art ESE methods to user-generated text, highlighting the need for set expansion approaches due to the unique characteristics of such text.\",\n  \"claims\": [\n    {\n      \"text\": \"Set expansion approaches are necessary for constructing dictionaries from customer reviews because user-generated text contains unique characteristics like non-named entities, multifaceted entities, and vague concepts that are not captured in well-curated benchmarks.\",\n      \"citations\": [\"C1\", \"C4\", \"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1958,
+    "completion_tokens": 134,
+    "total_tokens": 2092
+  },
+  "seconds": 8.786122129764408
+}

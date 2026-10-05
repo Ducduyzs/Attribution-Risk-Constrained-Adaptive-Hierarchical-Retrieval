@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about participants excluded due to missing covariates.\",\n  \"claims\": [\n    {\n      \"text\": \"Additional participants were excluded from the analysis where the covariates required for the model were not provided.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Five participants withdrew prior to the implementation of the SWAT and are not included in the analysis.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 128,
+    "total_tokens": 1248
+  },
+  "seconds": 5.916242482606322
+}

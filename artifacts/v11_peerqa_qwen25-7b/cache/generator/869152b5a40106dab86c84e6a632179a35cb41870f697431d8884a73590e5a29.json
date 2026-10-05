@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of a binomial distribution to decide whether a token or mention should be replaced during data augmentation.\",\n  \"claims\": [\n    {\n      \"text\": \"The probability of replacing a token is determined by a binomial distribution with parameters tuned between 0.1 and 0.7.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 104,
+    "total_tokens": 1302
+  },
+  "seconds": 5.797424366232008
+}

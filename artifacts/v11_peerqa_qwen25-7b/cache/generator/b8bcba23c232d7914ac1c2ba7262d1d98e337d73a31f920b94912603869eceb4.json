@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence directly links the vector dimension to the token distribution.\",\n  \"claims\": [\n    {\n      \"text\": \"Setting the vector dimension to 10 makes the entire token distribution close to the Zipfian distribution.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1933,
+    "completion_tokens": 80,
+    "total_tokens": 2013
+  },
+  "seconds": 3.775500298012048
+}

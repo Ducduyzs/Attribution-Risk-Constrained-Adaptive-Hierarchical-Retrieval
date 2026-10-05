@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific average word counts for different drafts of essays in the corpus, allowing for a calculation of the total word count.",
+    "claims": [
+      {
+        "text": "The corpus includes 180 essays: 120 essays (Draft1 and Draft2) with an average of about 400 words each, and 60 essays (Draft3) with an average of around 500 words each. Therefore, the total word count is (120 * 400) + (60 * 500) = 48000 + 30000 = 78000 words.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 1927,
+    "total_tokens": 2059,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.8406923999864375,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

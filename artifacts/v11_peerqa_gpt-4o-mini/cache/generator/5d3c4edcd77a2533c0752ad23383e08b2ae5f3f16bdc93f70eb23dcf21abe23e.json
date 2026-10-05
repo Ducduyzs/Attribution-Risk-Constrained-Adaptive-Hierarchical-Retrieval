@@ -1,0 +1,34 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the threshold used for coverage when downloading the datasets, detailing the criteria for high coverage.",
+    "claims": [
+      {
+        "text": "The threshold for coverage when downloading the datasets was defined as high coverage, specifically entries with <1% Ns and <0.05% unique amino acid mutations, and no insertion/deletion unless verified by the submitter.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 2072,
+    "total_tokens": 2166,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.5721595999930287,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

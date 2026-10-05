@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses challenges in adapting annotation schemes across different domains, particularly regarding the limitations of existing datasets and their ontologies.\",\n  \"claims\": [\n    {\n      \"text\": \"The annotation scheme can be adapted to more domains, but it faces several challenges.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Existing datasets are often domain-specific and cannot be reused easily in other domains due to their limited complexity and ontological ties.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 458,
+    "completion_tokens": 145,
+    "total_tokens": 603
+  },
+  "seconds": 6.23772189905867
+}

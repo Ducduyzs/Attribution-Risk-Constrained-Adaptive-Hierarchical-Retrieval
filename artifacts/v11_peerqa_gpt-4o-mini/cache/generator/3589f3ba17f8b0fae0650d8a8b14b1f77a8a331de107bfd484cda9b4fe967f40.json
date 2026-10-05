@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific rules and considerations for assigning error categories based on part-of-speech tags and edit types.",
+    "claims": [
+      {
+        "text": "Error categories are assigned based on automatic part-of-speech tags and the nature of edits, such as Missing, Replacement, or Unnecessary.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Error types can be prefixed with 'M:', 'R:', or 'U:' to indicate Missing, Replacement, or Unnecessary edits, allowing for detailed evaluation.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The framework aims to balance informativeness and practicality, avoiding overly detailed categories that complicate classification.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 1161,
+    "total_tokens": 1320,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2618296000000555,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ed3f642dd9"
+}

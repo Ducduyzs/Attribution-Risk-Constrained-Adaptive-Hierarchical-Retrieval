@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not specify the exact number of augmented samples generated for each original sample but mentions expanding the data to the same amount for fairness in comparison.\",\n  \"claims\": [\n    {\n      \"text\": \"The data is expanded to the same amount for fairness in comparison, implying doubling the original dataset size.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 658,
+    "completion_tokens": 99,
+    "total_tokens": 757
+  },
+  "seconds": 4.593288518954068
+}

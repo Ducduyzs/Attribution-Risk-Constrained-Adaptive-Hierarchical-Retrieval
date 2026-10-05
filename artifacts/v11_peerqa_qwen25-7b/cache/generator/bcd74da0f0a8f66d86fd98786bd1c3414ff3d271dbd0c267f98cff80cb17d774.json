@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of templates and their relation to the training data.\",\n  \"claims\": [\n    {\n      \"text\": \"The templates used in the paper include common entities and phrases found in the training data, ensuring adequate representation.\",\n      \"citations\": [\"C1\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Entities like 'kangaroo' and specific events/phrases are included in the templates and appear in the training data.\",\n      \"citations\": [\"C1\", \"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1662,
+    "completion_tokens": 144,
+    "total_tokens": 1806
+  },
+  "seconds": 6.5066385781392455
+}

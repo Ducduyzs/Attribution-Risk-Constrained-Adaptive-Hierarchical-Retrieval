@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into the challenges and characteristics of user-generated text, which justify the use of set expansion approaches for constructing dictionaries from customer reviews.",
+    "claims": [
+      {
+        "text": "Set expansion approaches are used to enhance a set of seed entities with new entities from user-generated text, which often contains non-named and vague entities not captured by traditional methods.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Existing benchmarks for entity set expansion are limited to well-formed text, making it necessary to adapt methods for the unique characteristics of user-generated content.",
+        "citations": [
+          "C1",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "State-of-the-art methods do not generalize well to user-generated text, indicating a need for simpler or ensemble methods that can better handle this type of data.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 191,
+    "prompt_tokens": 1110,
+    "total_tokens": 1301,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.639637699990999,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

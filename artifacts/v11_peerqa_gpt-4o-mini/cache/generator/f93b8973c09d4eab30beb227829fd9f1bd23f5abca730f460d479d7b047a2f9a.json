@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides information about the conceptual model presented in Figure 2, specifically describing it as an overview of Edcraft Gamified Learning (EGL) activity flow.",
+    "claims": [
+      {
+        "text": "Figure 2 presents an overview of Edcraft Gamified Learning (EGL) activity flow.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The authors have added additional explanation and improvement on the conceptual framework part to clarify the flow of EGL activity.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The conceptual model is linked to the thematic analysis results that inform the framework for recycling intention.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 692,
+    "total_tokens": 840,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2103967999864835,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

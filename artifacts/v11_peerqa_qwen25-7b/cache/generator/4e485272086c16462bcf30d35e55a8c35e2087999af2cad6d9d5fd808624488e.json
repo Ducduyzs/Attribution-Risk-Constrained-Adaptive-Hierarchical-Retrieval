@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how knowledge dimensions are annotated for frames through crowdsourcing and the structure of the factor graph.\",\n  \"claims\": [\n    {\n      \"text\": \"Crowd workers are asked to rate the general relationship that the arguments of the frame exhibit with respect to all knowledge dimensions.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The factor graph includes multiple substrates corresponding to different knowledge dimensions, such as strength, size, and weight.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 632,
+    "completion_tokens": 141,
+    "total_tokens": 773
+  },
+  "seconds": 6.047879236750305
+}

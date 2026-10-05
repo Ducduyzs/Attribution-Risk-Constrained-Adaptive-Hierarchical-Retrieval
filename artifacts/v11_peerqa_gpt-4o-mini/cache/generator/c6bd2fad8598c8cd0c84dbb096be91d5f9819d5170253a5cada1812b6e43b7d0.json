@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors aimed to evaluate their model on CNN/DailyMail to compare its performance against strong baselines and to investigate the effectiveness of hierarchical position information in summarization tasks.",
+    "claims": [
+      {
+        "text": "The authors experimented with CNN/DailyMail to evaluate the performance of their HiStruct+ models against strong baselines and to assess the effectiveness of hierarchical position information in summarization.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The hierarchical structure of CNN/DailyMail is less pronounced compared to other datasets, motivating the authors to explore how their model performs in this context.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 2129,
+    "total_tokens": 2272,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.0258955999888713,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

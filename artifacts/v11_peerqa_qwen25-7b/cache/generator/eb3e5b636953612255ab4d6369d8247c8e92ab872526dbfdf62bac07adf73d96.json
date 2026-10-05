@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about the practical application of measuring performance using MAP at gold-k.\",\n  \"claims\": [\n    {\n      \"text\": \"Measuring performance using MAP at gold-k helps practitioners evaluate the suitability of ESE methods for user-generated text by stressing test scenarios where coverage is critical.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"MAP at gold-k is proposed as a complementary metric to MAP@K=20, designed to assess the performance of ESE methods in benchmarks with comprehensive entity coverage.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 640,
+    "completion_tokens": 158,
+    "total_tokens": 798
+  },
+  "seconds": 6.858431353699416
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses specific findings related to a particular dataset and task, indicating task- and dataset-specific results.\",\n  \"claims\": [\n    {\n      \"text\": \"The results are task- and dataset-specific, as the authors note that their findings may not be directly transferable to other Fake News-related datasets or tasks.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The models' performance varies based on sequence length and batch size, suggesting that the results are not universally generalizable.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 156,
+    "total_tokens": 1289
+  },
+  "seconds": 7.584179214667529
+}

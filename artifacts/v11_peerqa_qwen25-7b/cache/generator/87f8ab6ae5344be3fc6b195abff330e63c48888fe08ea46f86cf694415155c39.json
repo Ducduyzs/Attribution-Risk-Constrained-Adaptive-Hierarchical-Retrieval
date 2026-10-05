@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the impact of word and morpheme supervision on segmentation models and their performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Word supervision leads to better word-level metrics and a decrease in morpheme-based scores, while morpheme supervision improves word segmentation but not morpheme boundaries.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2296,
+    "completion_tokens": 101,
+    "total_tokens": 2397
+  },
+  "seconds": 4.71073235431686
+}

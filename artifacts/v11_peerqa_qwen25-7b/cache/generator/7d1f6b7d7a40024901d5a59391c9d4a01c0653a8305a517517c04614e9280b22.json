@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states that the embedding matrix for relative positions (W p ) and all other model parameters are randomly initialized.\",\n  \"claims\": [\n    {\n      \"text\": \"The embedding matrix for relative positions (W p ) and all other model parameters are randomly initialized.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 94,
+    "total_tokens": 2119
+  },
+  "seconds": 4.514392985031009
+}

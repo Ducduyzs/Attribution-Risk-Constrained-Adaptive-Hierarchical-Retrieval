@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information on the methods used for developing per-triple templates.\",\n  \"claims\": [\n    {\n      \"text\": \"Simple hand-crafted templates were used for each predicate.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Template generation engines were considered but might produce less fluent outputs.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 640,
+    "completion_tokens": 110,
+    "total_tokens": 750
+  },
+  "seconds": 5.3119122590869665
+}

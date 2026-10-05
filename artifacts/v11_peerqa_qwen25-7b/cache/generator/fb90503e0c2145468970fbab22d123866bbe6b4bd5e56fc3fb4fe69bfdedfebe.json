@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides a clear definition and explanation of action frames.\",\n  \"claims\": [\n    {\n      \"text\": \"Action frames are defined by syntactic patterns based on dependency parse, mapping subjects to agents, direct objects to themes, and prepositional objects to goals.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Action frames can involve multiple frame relations due to implications over pairwise argument relations.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 646,
+    "completion_tokens": 130,
+    "total_tokens": 776
+  },
+  "seconds": 5.752028271090239
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of named entities and features derived from Wikipedia but does not explicitly mention entities not listed on Wikipedia.\",\n  \"claims\": [\n    {\n      \"text\": \"The model uses features derived from Wikipedia but does not explicitly account for named entities not listed on Wikipedia.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1006,
+    "completion_tokens": 97,
+    "total_tokens": 1103
+  },
+  "seconds": 4.455296960193664
+}

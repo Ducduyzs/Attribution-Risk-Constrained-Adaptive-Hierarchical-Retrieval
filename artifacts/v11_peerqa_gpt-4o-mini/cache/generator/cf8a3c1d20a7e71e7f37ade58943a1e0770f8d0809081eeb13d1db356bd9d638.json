@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The performance difference between the DICTA test set and the new test set can be attributed to the training data and model architecture differences, as well as the specific metrics used for evaluation.",
+    "claims": [
+      {
+        "text": "NAKDIMON's performance on the new test set differs from DICTA due to not being trained on the Dicta portion of the training corpus, which affects its accuracy.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The character accuracy (CHA) and word accuracy (WOR) metrics used to evaluate performance highlight different aspects of the model's capabilities, contributing to the observed differences.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Errors in word accuracy (WOR) are influenced by the model's handling of vocalization-agnostic dotting, which varies between the test sets.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 195,
+    "prompt_tokens": 1116,
+    "total_tokens": 1311,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6650593999947887,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

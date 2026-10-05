@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence explains the necessity of designing a new error scheme due to the impracticality of adding too many categories and the need for a dataset-agnostic approach.\",\n  \"claims\": [\n    {\n      \"text\": \"A new set of error categories was designed to avoid creating too many narrow distinctions that would complicate the framework and to ensure it remains practical and informative.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The new error scheme is dataset-agnostic, allowing for more consistent and transparent error type evaluation across different corpora.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1736,
+    "completion_tokens": 162,
+    "total_tokens": 1898
+  },
+  "seconds": 7.0967480121180415
+}

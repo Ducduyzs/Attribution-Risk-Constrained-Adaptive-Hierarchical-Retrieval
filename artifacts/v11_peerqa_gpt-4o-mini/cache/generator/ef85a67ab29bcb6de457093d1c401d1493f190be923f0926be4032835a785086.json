@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific criteria for selecting the top 10 nonsynonymous mutations based on their frequency and biological impact, including co-mutation analysis and functional predictions.",
+    "claims": [
+      {
+        "text": "The top 10 nonsynonymous mutations were selected based on their frequency in 30,229 SARS-CoV-2 genome sequences and their predicted biological impact.",
+        "citations": [
+          "C4",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Co-mutation analysis was used to assess the interaction and evolutionary relationship between the top 10 nonsynonymous mutations.",
+        "citations": [
+          "C2",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The mutations were identified as having high concurrence ratios, indicating they may evolve together and interact functionally.",
+        "citations": [
+          "C1",
+          "C5"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 2064,
+    "total_tokens": 2237,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.4050923000031617,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_2924cd1d8e"
+}

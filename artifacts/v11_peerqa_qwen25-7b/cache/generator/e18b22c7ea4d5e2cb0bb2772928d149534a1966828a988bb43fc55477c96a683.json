@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into the performance differences between cgexpan and lm-base, particularly in user-generated text.\",\n  \"claims\": [\n    {\n      \"text\": \"CGExpan retrieves entities that co-occur frequently with seating arrangement, while LM-Base outperforms CGExpan for concepts with characteristics of user-generated text.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Simpler baselines like LM-Base significantly outperform SOTA methods like CGExpan on user-generated text benchmarks.\",\n      \"citations\": [\"C2\", \"C5\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"CGExpan and SetExpan may penalize multifaceted and vague entities due to their design choices, which do not generalize well to user-generated text.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2001,
+    "completion_tokens": 221,
+    "total_tokens": 2222
+  },
+  "seconds": 13.806588287930936
+}

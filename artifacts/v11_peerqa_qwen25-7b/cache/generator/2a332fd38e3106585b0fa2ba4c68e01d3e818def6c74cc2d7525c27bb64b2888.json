@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how action verbs were selected and the process involved.\",\n  \"claims\": [\n    {\n      \"text\": \"We picked 50 classes of Levin verbs from both 'alternation classes' and 'verb classes', which corresponds to about 1100 unique verbs, and sorted this list by frequency of occurrence in the Google Syntax Ngrams corpus, picking the top 100 verbs.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Our work is motivated by the formal semantics of Dowty (1991), as the task of learning verb implications is essentially that of extracting lexical entailments for verbs.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1156,
+    "completion_tokens": 180,
+    "total_tokens": 1336
+  },
+  "seconds": 8.19227641634643
+}

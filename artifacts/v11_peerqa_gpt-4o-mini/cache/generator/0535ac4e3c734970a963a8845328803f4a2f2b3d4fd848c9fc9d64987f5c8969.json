@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that training and inference batches are constructed to leverage coreferent mentions, as they explicitly model mention coreference relationships and utilize both mentions and entity candidates during training and inference.",
+    "claims": [
+      {
+        "text": "Training and inference batches are constructed to include mentions and entity candidates, facilitating the use of coreferent mentions.",
+        "citations": [
+          "C3",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The proposed method improves mention representations by evaluating coreferent mentions during training, leading to better generalization.",
+        "citations": [
+          "C5",
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Models trained with explicit coreference relationships outperform those that do not, indicating the effectiveness of leveraging coreferent mentions.",
+        "citations": [
+          "C5",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 1998,
+    "total_tokens": 2167,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3688854000065476,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

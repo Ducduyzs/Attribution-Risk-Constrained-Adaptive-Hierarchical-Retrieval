@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that word overlap (F1 score) is used instead of exact match to account for variations in entity names during question rewriting, reducing false positives in identifying invalid questions.\",\n  \"claims\": [\n    {\n      \"text\": \"To avoid the false positive of detecting invalid questions, we take the F1 metric.\",\n      \"citations\": [\"C2\", \"C3\", \"C8\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2206,
+    "completion_tokens": 110,
+    "total_tokens": 2316
+  },
+  "seconds": 5.188620659057051
+}

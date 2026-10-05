@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses a data augmentation strategy for improving coreference resolution in machine translation.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors propose a data augmentation approach called Antecedent-free augmentation (afa) to improve coreference resolution in machine translation.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"This augmentation involves creating new training examples by modifying the gender of coreferential pronouns in sentences where the antecedent is not present in the current or previous sentence.\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2044,
+    "completion_tokens": 155,
+    "total_tokens": 2199
+  },
+  "seconds": 10.975444809999317
+}

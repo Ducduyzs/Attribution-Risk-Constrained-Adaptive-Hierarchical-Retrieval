@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes the training process and the components of the CLEAR model.\",\n  \"claims\": [\n    {\n      \"text\": \"The proposed transferred model is only trained on the navigation step of R2R and CVDN, while the representation step is taken from RXR.\",\n      \"citations\": [\"C3\", \"C6\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2253,
+    "completion_tokens": 98,
+    "total_tokens": 2351
+  },
+  "seconds": 4.760888515040278
+}

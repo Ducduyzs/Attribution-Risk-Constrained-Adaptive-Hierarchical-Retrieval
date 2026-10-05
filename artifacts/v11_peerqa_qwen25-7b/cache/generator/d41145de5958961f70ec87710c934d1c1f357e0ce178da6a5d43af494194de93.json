@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the binary classification head of ELECTRA used for token classification in the context of open cloze test generation.\",\n  \"claims\": [\n    {\n      \"text\": \"ELECTRA's binary classification head tags each word in the input sequence as a 'good' gap or not.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1863,
+    "completion_tokens": 94,
+    "total_tokens": 1957
+  },
+  "seconds": 4.28497320599854
+}

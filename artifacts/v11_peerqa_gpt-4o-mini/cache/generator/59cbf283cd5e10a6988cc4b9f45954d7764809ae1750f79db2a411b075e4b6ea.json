@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific measures taken to ensure the accuracy of the confidence network, including the design of a confidence network that uses multi-layer hidden states and a confidence-based label smoothing approach.",
+    "claims": [
+      {
+        "text": "A confidence network was designed to predict confidence estimates using multi-layer hidden states of the decoder.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "A confidence-based label smoothing approach was proposed to improve translation accuracy by adjusting label smoothing based on confidence levels.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Experimental results show that the learned confidence estimate outperforms traditional methods in separating good and bad translations.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 1120,
+    "total_tokens": 1272,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2718177999922773,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

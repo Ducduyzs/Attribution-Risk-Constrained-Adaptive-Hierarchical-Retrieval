@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses methods and approaches to improve confidence estimation in neural networks, particularly in NMT.\",\n  \"claims\": [\n    {\n      \"text\": \"A confidence network is designed to predict the confidence estimate based on the decoder's hidden states.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A novel confidence-based label smoothing approach is proposed to handle challenging translations.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 123,
+    "total_tokens": 1172
+  },
+  "seconds": 5.729659267701209
+}

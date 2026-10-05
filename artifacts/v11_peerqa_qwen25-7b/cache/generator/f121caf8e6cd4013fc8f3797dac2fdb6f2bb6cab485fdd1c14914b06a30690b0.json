@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear distinctions between the proposed method and existing approaches in terms of representation learning and generalization.\",\n  \"claims\": [\n    {\n      \"text\": \"Our method differs by utilizing visually-aligned multilingual instructions to learn a cross-lingual language representation that inherently captures visual semantics, unlike previous methods that rely on synthetic data generation or environment classifiers.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"We focus on learning an environment-agnostic visual representation by exploring connections between multiple environments, whereas other methods like Wang et al. (2020c) only consider a single environment.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 173,
+    "total_tokens": 1251
+  },
+  "seconds": 7.700128176249564
+}

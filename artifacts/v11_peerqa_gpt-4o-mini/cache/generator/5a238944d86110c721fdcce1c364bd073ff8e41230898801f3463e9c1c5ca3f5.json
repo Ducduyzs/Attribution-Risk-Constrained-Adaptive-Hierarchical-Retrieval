@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear description of the data augmentation strategy used, specifically Antecedent-free augmentation (afa), and how it is implemented.",
+    "claims": [
+      {
+        "text": "The data augmentation strategy is called Antecedent-free augmentation (afa), which involves modifying the gender of the German translation of coreferential pronouns in sentences where the antecedent is not present.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Candidates for augmentation are identified as sentences where a coreferential 'it' refers to an antecedent not present in the current or previous sentence.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The augmentation creates new training examples by changing the gender of the pronoun in the German translation while keeping the source side the same.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 661,
+    "total_tokens": 846,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1734448000061093,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

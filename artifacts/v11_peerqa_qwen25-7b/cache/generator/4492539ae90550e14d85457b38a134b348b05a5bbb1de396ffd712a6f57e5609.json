@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the introduction of new metrics and a new model, but does not explicitly mention a new evaluation metric.\",\n  \"claims\": [\n    {\n      \"text\": \"The paper introduces several new metrics including partial match precision, recall, and F1 score.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The paper proposes a new model for multi-span reading comprehension which achieves state-of-the-art results.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 138,
+    "total_tokens": 1280
+  },
+  "seconds": 5.891748648136854
+}

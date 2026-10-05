@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that classification-based models were not used in zero shot experiments due to their limitations in cross-corpus and cross-lingual scenarios compared to ranking models.\",\n  \"claims\": [\n    {\n      \"text\": \"Classification-based models were not used in zero shot experiments because pairwise ranking models perform better in cross-corpus and cross-lingual evaluation scenarios.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 108,
+    "total_tokens": 1236
+  },
+  "seconds": 4.797489124815911
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses methods and measures for improving confidence estimation in neural machine translation.\",\n  \"claims\": [\n    {\n      \"text\": \"A confidence network is designed to predict the confidence estimate based on the decoder's hidden states.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The proposed method uses a novel confidence-based label smoothing approach to handle challenging translations.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Experimental results show that the learned confidence estimate outperforms Maximum Softmax Probability and Monte Carlo Dropout in separating good and bad translations.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 172,
+    "total_tokens": 1252
+  },
+  "seconds": 7.751312042120844
+}

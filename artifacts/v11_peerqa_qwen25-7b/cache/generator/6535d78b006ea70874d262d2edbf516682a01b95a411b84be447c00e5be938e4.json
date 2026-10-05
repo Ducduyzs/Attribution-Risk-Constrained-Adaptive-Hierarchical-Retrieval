@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the initialization method for word embeddings.\",\n  \"claims\": [\n    {\n      \"text\": \"Word embeddings are randomly initialized with uniform distribution in [-0.1,0.1].\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2165,
+    "completion_tokens": 77,
+    "total_tokens": 2242
+  },
+  "seconds": 4.419899424072355
+}

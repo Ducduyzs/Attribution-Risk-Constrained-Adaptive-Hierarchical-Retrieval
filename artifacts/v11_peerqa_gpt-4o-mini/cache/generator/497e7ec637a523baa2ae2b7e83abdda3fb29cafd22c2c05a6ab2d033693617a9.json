@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the new evaluation metrics introduced in the paper, particularly for multi-span question answering.",
+    "claims": [
+      {
+        "text": "The paper introduces new metrics for evaluating multi-span question answering systems, including partial match precision, recall, and F1 scores.",
+        "citations": [
+          "C2",
+          "C5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The evaluation metrics are designed to measure the overlap between predicted spans and ground truth answers, using the length of the longest common substring.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The proposed metrics aim to assess multi-span QA systems across different tasks, reflecting a more realistic QA setup.",
+        "citations": [
+          "C2",
+          "C8"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 1910,
+    "total_tokens": 2067,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.194112800003495,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

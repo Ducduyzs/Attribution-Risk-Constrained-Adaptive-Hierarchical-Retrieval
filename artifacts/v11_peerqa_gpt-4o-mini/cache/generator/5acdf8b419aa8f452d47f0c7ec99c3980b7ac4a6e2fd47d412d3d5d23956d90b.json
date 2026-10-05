@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that the training approach explicitly models mention coreference relationships across documents, suggesting that training and inference batches likely contain mentions from the same document to leverage coreferent mentions.",
+    "claims": [
+      {
+        "text": "The training approach models mention coreference relationships across documents, indicating that training and inference batches likely contain mentions from the same document.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The method described improves candidate generation and linking accuracy by leveraging coreferent mentions, suggesting a focus on mentions from the same document.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 568,
+    "total_tokens": 700,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.814441499998793,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

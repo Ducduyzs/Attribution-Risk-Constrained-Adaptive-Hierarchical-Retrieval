@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides multiple reasons why beam search is inadequate for certain tasks, focusing on inefficiency, lack of diversity, and poor correlation with model scores.\",\n  \"claims\": [\n    {\n      \"text\": \"Beam search is inefficient because it prunes many paths that could yield high-quality summaries, wasting computational resources on nodes that aren't included in the final search graph.\",\n      \"citations\": [\"C1\", \"C5\", \"C8\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Beam search does not handle very similar hypotheses efficiently, leading to redundant and less diverse outputs.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The model score under beam search does not correlate strongly with the quality of the generated hypotheses, making it an inadequate method for optimizing for quality.\",\n      \"citations\": [\"C1\", \"C6\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 228,
+    "total_tokens": 2283
+  },
+  "seconds": 14.905944894999266
+}

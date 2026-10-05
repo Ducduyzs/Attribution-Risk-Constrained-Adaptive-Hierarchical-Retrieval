@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The threshold values are selected to ensure a balanced distribution of class labels and to capture the linguistic reality where distituents outnumber constituents.\",\n  \"claims\": [\n    {\n      \"text\": \"The values of lower and upper bounds of the threshold are chosen to ensure the distribution of class labels is about 1:10 (with the distituent class being the majority).\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"From a linguistic standpoint, we can be certain that the distituents must necessarily outnumber the constituents.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 156,
+    "total_tokens": 1363
+  },
+  "seconds": 7.851466353051364
+}

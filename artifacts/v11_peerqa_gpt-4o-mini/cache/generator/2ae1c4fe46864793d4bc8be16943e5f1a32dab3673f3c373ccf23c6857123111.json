@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The authors experimented with their model on CNN/DM to assess the impact of hierarchical position embeddings on summarization performance, particularly in comparison to baseline models.",
+    "claims": [
+      {
+        "text": "The authors aimed to investigate the effect of hierarchical position embeddings on summarization performance using CNN/DailyMail as a test dataset.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The performance improvements on CNN/DailyMail were small, suggesting that the hierarchical structure of the documents is less pronounced compared to other datasets like PubMed.",
+        "citations": [
+          "C2",
+          "C4"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Ablation studies indicated that the hierarchical position information contributed to the model's performance, although the results on CNN/DailyMail were not as substantial as on other datasets.",
+        "citations": [
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1155,
+    "total_tokens": 1337,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1360049999930197,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses initialization strategies and layer configurations but does not mention pkd-bert or specific budget allocation strategies.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors used a simple initialization scheme where the student model is initialized with the weights from the corresponding layers of the teacher.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The authors constrained the number of fine-tuned layers in the student model and determined the number of task-specific layers based on this constraint.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 149,
+    "total_tokens": 1243
+  },
+  "seconds": 6.411213609855622
+}

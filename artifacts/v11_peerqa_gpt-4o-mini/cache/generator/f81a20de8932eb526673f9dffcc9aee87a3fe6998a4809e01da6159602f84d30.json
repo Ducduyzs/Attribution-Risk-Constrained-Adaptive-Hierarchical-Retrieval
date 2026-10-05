@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear reasons for not using the complete graph for training, highlighting issues such as noise and undesirable edges crossing cluster boundaries.",
+    "claims": [
+      {
+        "text": "Using the complete graph introduces noise due to the directionality of nearest neighbor relationships being ignored.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The complete graph results in edges that cross cluster boundaries, which is undesirable for the training process.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Pruning the graph helps to minimize dissimilarity between mentions and entities, leading to better training outcomes.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 2148,
+    "total_tokens": 2289,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.1608701999939512,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

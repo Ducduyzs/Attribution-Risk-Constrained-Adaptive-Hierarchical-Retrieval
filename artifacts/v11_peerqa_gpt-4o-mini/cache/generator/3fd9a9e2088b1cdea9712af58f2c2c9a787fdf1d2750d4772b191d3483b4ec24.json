@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies the criteria used to determine the steady state of soil parameters, including maintaining constant temperature, moisture, and carbon and nitrogen pools during the spin-up period.",
+    "claims": [
+      {
+        "text": "The steady state of soil parameters was determined by maintaining constant temperature, moisture, and carbon and nitrogen pools during the spin-up period.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 496,
+    "total_tokens": 582,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.6253922000032617,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_ce3836fcfd"
+}

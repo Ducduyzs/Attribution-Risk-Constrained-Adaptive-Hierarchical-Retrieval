@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information on the practical application of MAP@kg.\",\n  \"claims\": [\n    {\n      \"text\": \"MAP@kg is used to evaluate the performance of ESE methods in scenarios where coverage is important, especially for user-generated text.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"MAP@kg helps in measuring the suitability of ESE methods by providing an estimate of recall, which is crucial for real-world applications.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1897,
+    "completion_tokens": 152,
+    "total_tokens": 2049
+  },
+  "seconds": 9.930252294056118
+}

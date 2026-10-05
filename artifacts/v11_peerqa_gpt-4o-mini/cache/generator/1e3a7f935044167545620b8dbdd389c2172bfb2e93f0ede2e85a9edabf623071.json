@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details on how the proposed method differs from existing methods in multilingual vision-and-language tasks.",
+    "claims": [
+      {
+        "text": "Our method utilizes visually-aligned multilingual instructions to learn a cross-lingual language representation that captures visual semantics, unlike existing methods that primarily focus on text-image pairs or auxiliary tasks.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "We focus on multi-lingual vision-and-language navigation, using navigation paths as a bridge between multilingual instructions, which is distinct from traditional tasks like VQA and captioning.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Our approach aims to learn an environment-agnostic visual representation, contrasting with methods that rely on data augmentation techniques for generalization.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 756,
+    "total_tokens": 931,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.248472999999649,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

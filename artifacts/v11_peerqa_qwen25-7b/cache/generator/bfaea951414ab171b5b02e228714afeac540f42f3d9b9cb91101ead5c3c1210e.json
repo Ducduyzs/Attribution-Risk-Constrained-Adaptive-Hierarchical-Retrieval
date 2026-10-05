@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the types of phrases used in phrase addition for adversarial attacks.\",\n  \"claims\": [\n    {\n      \"text\": \"Three distinct phrases are used for phrase addition in the adversarial attack generation: prepending 'it is true: ...', replacing the original antecedent with 'Maria's A', and replacing the original antecedent with different-gender synonyms.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 118,
+    "total_tokens": 766
+  },
+  "seconds": 5.631798089016229
+}

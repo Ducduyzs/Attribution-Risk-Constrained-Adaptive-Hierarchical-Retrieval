@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the binary classification head of Electra's RTE task, including how it labels gaps.\",\n  \"claims\": [\n    {\n      \"text\": \"Electra's binary classification head labels each word in the input sequence as either a 'good' gap or not, where all gaps in the training data are replaced with the first intended target answer and labeled positive, while the remaining tokens are labeled negative.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 119,
+    "total_tokens": 1235
+  },
+  "seconds": 5.339347831904888
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides reasons for the lower performance on Vikidia-FR compared to Newsela-ES.\",\n  \"claims\": [\n    {\n      \"text\": \"The lower performance on Vikidia-Fr compared to Newsela-ES can be attributed to the fact that Newsela-ES has content from the same domain as Newsela-EN, whereas Vikidia-Fr has more diverse content.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Small number of completely incorrectly ranked slugs can result in low SRC and KTCC scores for Vikidia-Fr, but can still result in high SRC and KTCC scores for NewsEla-ES.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2094,
+    "completion_tokens": 184,
+    "total_tokens": 2278
+  },
+  "seconds": 8.894163377117366
+}

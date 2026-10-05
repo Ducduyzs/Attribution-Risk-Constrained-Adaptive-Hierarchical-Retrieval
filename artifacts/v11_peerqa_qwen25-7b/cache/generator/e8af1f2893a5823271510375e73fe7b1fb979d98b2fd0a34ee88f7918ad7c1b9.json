@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides insights into the performance differences between the DICTA test set and the new test set, particularly regarding CHA and WOR scores.\",\n  \"claims\": [\n    {\n      \"text\": \"The difference in performance between the DICTA test set and the new test set can be attributed to the lack of training on the DICTA portion of the training corpus and the presence of OOVs in the new test set.\",\n      \"citations\": [\"C1\", \"C4\", \"C6\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"NAKDIMON performs worse on OOVs compared to other systems, which might explain the lower CHA and WOR scores on the new test set.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2111,
+    "completion_tokens": 194,
+    "total_tokens": 2305
+  },
+  "seconds": 8.496055148076266
+}

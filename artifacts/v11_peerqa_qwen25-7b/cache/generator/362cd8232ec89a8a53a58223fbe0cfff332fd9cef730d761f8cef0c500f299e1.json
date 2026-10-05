@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the use of a binomial distribution to decide whether to replace a token during data augmentation for NER.\",\n  \"claims\": [\n    {\n      \"text\": \"The binomial distribution is used to decide whether a token should be replaced.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The probability of replacing a token is tuned between 0.1 and 0.7.\",\n      \"citations\": [\"C1\", \"C4\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2284,
+    "completion_tokens": 138,
+    "total_tokens": 2422
+  },
+  "seconds": 6.163414736744016
+}

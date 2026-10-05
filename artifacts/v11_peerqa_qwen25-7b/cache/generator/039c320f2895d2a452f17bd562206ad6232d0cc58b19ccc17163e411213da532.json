@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the benefits of using coreference relationships in training and compares it to baselines.\",\n  \"claims\": [\n    {\n      \"text\": \"Using a complete graph for training would not provide additional benefits compared to the arborescence approach because the arborescence captures the essential coreference relationships while being more efficient.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Models trained with explicit coreference relationships outperform those that incorporate this relationship only indirectly, suggesting that the arborescence method is effective in capturing necessary information.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 637,
+    "completion_tokens": 164,
+    "total_tokens": 801
+  },
+  "seconds": 7.50667826179415
+}

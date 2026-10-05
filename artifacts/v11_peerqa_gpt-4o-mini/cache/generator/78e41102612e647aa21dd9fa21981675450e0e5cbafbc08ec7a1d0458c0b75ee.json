@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "Hanja is considered an extinct language because it is no longer understood by modern speakers and has not been used as a spoken language for a long time, despite being a writing system based on Chinese characters.",
+    "claims": [
+      {
+        "text": "Hanja is classified as an extinct language in Korea, as it is not understood by modern Korean or Chinese speakers.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Hanja was the main writing system in Korea before the 20th century, but it has since become obsolete and is no longer in common use.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "Hanja documents are difficult to understand without specialized knowledge, indicating that the language has effectively become extinct.",
+        "citations": [
+          "C6"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 1999,
+    "total_tokens": 2169,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1024
+    }
+  },
+  "seconds": 2.5877924999949755,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

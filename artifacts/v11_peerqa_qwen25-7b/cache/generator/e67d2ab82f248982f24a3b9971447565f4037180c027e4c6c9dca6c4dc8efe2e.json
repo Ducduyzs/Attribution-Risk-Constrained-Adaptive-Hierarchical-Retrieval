@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear information about the exclusion of participants based on missing covariates.\",\n  \"claims\": [\n    {\n      \"text\": \"Additional participants were excluded from the analysis where the covariates required for the model were not provided.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Five participants withdrew prior to the implementation of the SWAT and were not included in the analysis.\",\n      \"citations\": [\"C3\", \"C7\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Three participants were not contacted due to difficulties/adverse events associated with their pregnancy but were included in the analysis under ITT principles.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1990,
+    "completion_tokens": 190,
+    "total_tokens": 2180
+  },
+  "seconds": 11.86456220317632
+}

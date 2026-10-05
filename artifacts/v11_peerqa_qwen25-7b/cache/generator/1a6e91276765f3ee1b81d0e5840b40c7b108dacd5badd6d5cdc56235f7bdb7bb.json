@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly states the rationale for using F1 score over exact match in determining entity equivalence.\",\n  \"claims\": [\n    {\n      \"text\": \"We take the F1 instead of exact match to check whether the entities are the same because sometimes the prediction may mention the same entity as the gold answer does, but with different names.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2036,
+    "completion_tokens": 103,
+    "total_tokens": 2139
+  },
+  "seconds": 5.452251062262803
+}

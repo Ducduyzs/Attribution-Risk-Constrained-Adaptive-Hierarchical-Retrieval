@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly describes a specific data augmentation strategy called Antecedent-free augmentation (afa) used to improve coreference resolution in machine translation.\",\n  \"claims\": [\n    {\n      \"text\": \"The data augmentation strategy involves creating new training examples by modifying the gender of coreferential pronouns in German translations while keeping the source sentence unchanged.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"This strategy aims to break off a strong prior in the model related to translating 'it' to 'es' and test if it leads to better coreference resolution capabilities.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2092,
+    "completion_tokens": 167,
+    "total_tokens": 2259
+  },
+  "seconds": 7.352847166825086
+}

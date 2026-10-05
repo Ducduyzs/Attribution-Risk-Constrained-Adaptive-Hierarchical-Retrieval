@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how to classify sentences as correlational or causal, especially in the context of research conclusions.\",\n  \"claims\": [\n    {\n      \"text\": \"Sentences in the conclusion section are classified as correlational if they use correlational language and do not use direct or conditional causal language.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Causal language in subordinate clauses can lead to misclassification of correlational claims as direct causal.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 141,
+    "total_tokens": 1259
+  },
+  "seconds": 6.376345883123577
+}

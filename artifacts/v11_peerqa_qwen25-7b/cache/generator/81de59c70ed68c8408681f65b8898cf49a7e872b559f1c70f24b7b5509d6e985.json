@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides information about the zero-shot transfer capability of the CLEAR approach from the RxR dataset to the R2R dataset.\",\n  \"claims\": [\n    {\n      \"text\": \"Our CLEAR approach shows better generalizability when transferred to Room-to-Room (R2R) dataset (Anderson et al., 2018b) and Cooperative Vision-and-Dialogue Navigation dataset (Thomason et al., 2019).\",\n      \"citations\": [\"C3\", \"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"On R2R dataset, our learned representation outperforms the baseline by 1.4% in success rate and 1.8% in nDTW. Furthermore, we show that the zero-shot performance of our approach improves the baseline by 4.5% in success rate and 2.2% in SPL on R2R dataset.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.95\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2145,
+    "completion_tokens": 234,
+    "total_tokens": 2379
+  },
+  "seconds": 10.500155283603817
+}

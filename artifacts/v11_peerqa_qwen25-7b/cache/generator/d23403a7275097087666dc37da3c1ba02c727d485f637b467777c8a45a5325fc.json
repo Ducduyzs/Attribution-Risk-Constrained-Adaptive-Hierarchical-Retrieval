@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the performance of CLIP models when fine-tuned with image-text tweet pairs and the limitations due to the small dataset size.\",\n  \"claims\": [\n    {\n      \"text\": \"Additional fine-tuning on CLIP was not included because the experiments showed that fine-tuning the last few layers of CLIP with a classification head on top performed worse than using extracted features for classification with SVM.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 119,
+    "total_tokens": 1287
+  },
+  "seconds": 5.5046445010229945
+}

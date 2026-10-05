@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides clear measures taken to ensure that paths were not shared between the training and test sets, including the exclusion of queries observed during training and filtering validation and test sets to include only unseen hyponym queries.",
+    "claims": [
+      {
+        "text": "All evaluated queries are new to both path-based and non-path models by eliminating queries observed during path training.",
+        "citations": [
+          "C1",
+          "C7"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Validation and test sets were filtered to include only hyponym queries that are unseen in the full taxonomy paths of the training data.",
+        "citations": [
+          "C7"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "None of the queries (synsets) are shared between the training and evaluation sets, although some lemma-level overlaps exist.",
+        "citations": [
+          "C3",
+          "C6"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 2070,
+    "total_tokens": 2247,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.5171131000097375,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

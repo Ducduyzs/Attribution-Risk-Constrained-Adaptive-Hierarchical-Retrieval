@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the phrase addition process in adversarial attack generation, including the number of examples and types of phrases used.",
+    "claims": [
+      {
+        "text": "Phrase Addition is applied to all 12,000 ContraPro examples, which includes appending and prepending phrases.",
+        "citations": [
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The attack introduces a new human entity by extending the original antecedent with possessive noun phrases, reducing the subset to 3,838 modified examples.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Different phrases can be appended or prepended, but the specific number of distinct phrases used is not quantified in the evidence.",
+        "citations": [
+          "C5"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 1193,
+    "total_tokens": 1363,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.2508948000031523,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

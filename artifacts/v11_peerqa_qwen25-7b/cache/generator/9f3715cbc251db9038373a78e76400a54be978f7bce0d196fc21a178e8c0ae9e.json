@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on generating adversarial attack examples, including modifications to sentences to mislead NMT models.\",\n  \"claims\": [\n    {\n      \"text\": \"Adversarial attacks involve making small, unimportant changes to input sentences to mislead NMT models.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Examples of adversarial attacks include adding entities like 'the company's' or 'Maria's', or appending phrases like 'but he wasn’t sure'.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"Templates for adversarial attacks target specific steps in a coreference resolution pipeline: markable detection, coreference resolution, and language translation.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 198,
+    "total_tokens": 1388
+  },
+  "seconds": 9.113034781068563
+}

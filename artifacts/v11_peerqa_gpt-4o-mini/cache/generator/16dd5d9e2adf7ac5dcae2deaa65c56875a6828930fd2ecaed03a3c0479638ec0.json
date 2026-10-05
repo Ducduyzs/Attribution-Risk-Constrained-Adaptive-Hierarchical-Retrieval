@@ -1,0 +1,54 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The total number of words in the corpus can be calculated based on the average word counts provided for each draft type and the number of essays in each category.",
+    "claims": [
+      {
+        "text": "The corpus includes 180 essays: 120 essays (Draft1 and Draft2) with an average of about 400 words each, and 60 essays (Draft3) with an average of around 500 words.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The total word count for Draft1 and Draft2 is approximately 120 essays * 400 words = 48,000 words.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The total word count for Draft3 is approximately 60 essays * 500 words = 30,000 words.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Therefore, the total number of words in the corpus is approximately 48,000 + 30,000 = 78,000 words.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 224,
+    "prompt_tokens": 1927,
+    "total_tokens": 2151,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.9099543999909656,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

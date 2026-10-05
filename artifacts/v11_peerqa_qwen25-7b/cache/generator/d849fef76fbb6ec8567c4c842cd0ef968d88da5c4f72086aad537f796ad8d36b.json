@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on how delimiter placement is determined in the sentence aggregation model.\",\n  \"claims\": [\n    {\n      \"text\": \"Delimiter placement is determined by the aggregation model, which classifies each pair of facts into two classes: 0 for aggregation and 1 for separate sentences.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The model uses a token classification head to classify each separator token into two classes corresponding to the delimiter value.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 140,
+    "total_tokens": 1196
+  },
+  "seconds": 6.702321712393314
+}

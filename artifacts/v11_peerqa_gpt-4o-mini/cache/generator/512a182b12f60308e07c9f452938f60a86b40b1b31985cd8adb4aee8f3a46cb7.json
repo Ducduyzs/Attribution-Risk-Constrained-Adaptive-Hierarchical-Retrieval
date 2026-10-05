@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence specifies that trait-specific scores for prompts without them in the original dataset were obtained from Mathias and Bhattacharyya (2018a).",
+    "claims": [
+      {
+        "text": "Trait-specific scores for prompts without them in the original dataset were obtained from Mathias and Bhattacharyya (2018a).",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 2000,
+    "total_tokens": 2085,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.8226527000078931,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

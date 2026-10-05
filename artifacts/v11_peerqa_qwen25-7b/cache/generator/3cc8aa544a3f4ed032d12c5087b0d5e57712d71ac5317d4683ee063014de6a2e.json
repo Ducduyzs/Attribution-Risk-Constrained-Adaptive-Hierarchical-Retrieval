@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"Evidence discusses wave-related factors but does not explicitly mention wave erosion in the model.\",\n  \"claims\": [\n    {\n      \"text\": \"The model incorporates wave energy and direction to calculate wave impact on shoreline geometry and coral colony flourishing.\",\n      \"citations\": [\"C8\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Wave parameters are used as hydrodynamic boundary conditions for the model.\",\n      \"citations\": [\"C3\", \"C8\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2214,
+    "completion_tokens": 129,
+    "total_tokens": 2343
+  },
+  "seconds": 6.168010560795665
+}

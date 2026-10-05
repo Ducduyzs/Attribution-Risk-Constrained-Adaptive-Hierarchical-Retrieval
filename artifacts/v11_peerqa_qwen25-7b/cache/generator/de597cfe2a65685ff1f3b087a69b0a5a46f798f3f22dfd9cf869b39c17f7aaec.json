@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on the rules for assigning error categories, including the use of prefixes for missing, replacement, and unnecessary edits, and the categorization based on part-of-speech and automatic POS tags.\",\n  \"claims\": [\n    {\n      \"text\": \"Error categories are assigned based on part-of-speech (POS) tags and automatic properties of the data, with prefixes indicating missing, replacement, or unnecessary edits.\",\n      \"citations\": [\"C2\", \"C3\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"New categories can be added for increasingly detailed error types, but the framework aims for a balance between informativeness and practicality.\",\n      \"citations\": [\"C1\", \"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 178,
+    "total_tokens": 1325
+  },
+  "seconds": 7.992479852866381
+}

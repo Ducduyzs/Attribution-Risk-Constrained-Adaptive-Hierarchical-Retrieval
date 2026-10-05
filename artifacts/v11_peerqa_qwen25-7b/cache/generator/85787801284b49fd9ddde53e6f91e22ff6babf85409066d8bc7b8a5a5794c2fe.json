@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the benefits of pruning a fully-connected graph to form an arborescence for training, rather than using the complete graph.\",\n  \"claims\": [\n    {\n      \"text\": \"Pruning a fully-connected graph to form an arborescence is beneficial for training because it restricts the structure of the graph, making the training more efficient and effective.\",\n      \"citations\": [\"C1\", \"C2\", \"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2096,
+    "completion_tokens": 120,
+    "total_tokens": 2216
+  },
+  "seconds": 5.655245509929955
+}

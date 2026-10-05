@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the roles of the encoder and decoder in NMT models and their respective learning processes.\",\n  \"claims\": [\n    {\n      \"text\": \"Different modules of the NMT model learn different aspects, with the encoder focusing on source language morphology and the decoder on generating target language sentences.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The encoder and decoder have distinct objectives, with the encoder creating a generic representation and the decoder producing morphologically correct output.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2058,
+    "completion_tokens": 148,
+    "total_tokens": 2206
+  },
+  "seconds": 6.603853987064213
+}

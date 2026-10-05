@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear explanations and justifications for the selection of threshold values.\",\n  \"claims\": [\n    {\n      \"text\": \"Threshold values are chosen to ensure a distribution of class labels about 1:10, with distituents being the majority, reflecting the linguistic reality that distituents outnumber constituents.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The thresholds τ min and τ max are set to 0.0005 and 0.995, respectively, to identify gold-standard outside strings of constituents and distituents.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1821,
+    "completion_tokens": 168,
+    "total_tokens": 1989
+  },
+  "seconds": 7.402402713894844
+}

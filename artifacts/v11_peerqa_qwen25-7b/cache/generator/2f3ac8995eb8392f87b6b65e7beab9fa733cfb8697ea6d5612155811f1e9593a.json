@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not specify the exact number of augmented samples generated for each original sample.\",\n  \"claims\": [\n    {\n      \"text\": \"All experiments are repeated 15 times to account for stochasticity and results are reported as Mean (STD) accuracy on the full test set.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1096,
+    "completion_tokens": 95,
+    "total_tokens": 1191
+  },
+  "seconds": 4.437601664103568
+}

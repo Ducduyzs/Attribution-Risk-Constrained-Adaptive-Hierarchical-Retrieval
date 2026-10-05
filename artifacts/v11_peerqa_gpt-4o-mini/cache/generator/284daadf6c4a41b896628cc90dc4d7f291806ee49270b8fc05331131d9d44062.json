@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear explanation of the reasoning behind the selection of threshold values, including the distribution of class labels and the necessity for distituents to outnumber constituents.",
+    "claims": [
+      {
+        "text": "The threshold values are chosen to ensure a distribution of class labels of about 1:10, with distituents being the majority.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "The lower and upper bounds of the thresholds are set to τ min as 0.0005 and τ max as 0.995 to classify outside strings as gold-standard.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The choice of thresholds takes into account the skewness of random spans, ensuring that distituents outnumber constituents.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 597,
+    "total_tokens": 773,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6473206000082428,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

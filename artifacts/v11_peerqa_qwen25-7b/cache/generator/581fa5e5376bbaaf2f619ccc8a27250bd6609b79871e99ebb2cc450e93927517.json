@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses initializing the student from the bottommost layers of the teacher and setting constraints on the number of task-specific layers. It does not explicitly mention pkd-bert or using total budgets for determining the number of layers.\",\n  \"claims\": [\n    {\n      \"text\": \"The student is initialized from the bottommost layers of the teacher.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The number of task-specific layers is constrained to be less than or equal to 3.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 589,
+    "completion_tokens": 152,
+    "total_tokens": 741
+  },
+  "seconds": 6.710775921586901
+}

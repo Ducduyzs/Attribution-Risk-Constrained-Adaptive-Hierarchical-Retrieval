@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that the training languages for the non-baseline models do not overlap with German.\",\n  \"claims\": [\n    {\n      \"text\": \"The texts we use for the following experiments are disjunct from any training data used.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"The German dataset of the speaker Karlsson (29h) from the HUI-Audio-Corpus-German is used, but it is separate from the training data used for the non-baseline models.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2065,
+    "completion_tokens": 152,
+    "total_tokens": 2217
+  },
+  "seconds": 10.061823634430766
+}

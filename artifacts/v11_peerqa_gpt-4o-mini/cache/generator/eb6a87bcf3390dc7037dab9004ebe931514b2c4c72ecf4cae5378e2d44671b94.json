@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into how plurality interacts with referential form in language processing, indicating that plurality is a significant factor in predicting the choice of referential expressions.",
+    "claims": [
+      {
+        "text": "Plurality plays a major role in predicting the choice of referential form, alongside animacy and grammatical role.",
+        "citations": [
+          "C2",
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Including the plurality feature in prediction tasks may facilitate pronoun detection, suggesting a direct relationship between plurality and referential form.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The prominence of a referent, influenced by plurality, affects the choice of referring expressions, with more prominent referents being referred to with shorter forms like pronouns.",
+        "citations": [
+          "C4"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 2170,
+    "total_tokens": 2341,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.825639000002411,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

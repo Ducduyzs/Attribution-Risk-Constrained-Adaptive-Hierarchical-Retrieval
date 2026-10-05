@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details about the performance differences between the DICTA test set and the new test set, particularly focusing on CHA and WOR scores.\",\n  \"claims\": [\n    {\n      \"text\": \"The difference in performance between the DICTA test set and the new test set can be attributed to the diversity and quality of the texts used in the new test set, which includes high-quality Wikipedia articles, edited news stories, and user-generated blog posts, making it more challenging for the model.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"The CHA score difference might be due to the complexity of the text in the new test set, which contains more varied and less standardized forms of Hebrew, leading to higher character-level errors.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"The WOR score difference could be explained by the presence of unseen combinations of prefix clitics and suffix possessive markers in the new test set, which other systems handle better through morphological analysis.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2031,
+    "completion_tokens": 271,
+    "total_tokens": 2302
+  },
+  "seconds": 12.077937685884535
+}

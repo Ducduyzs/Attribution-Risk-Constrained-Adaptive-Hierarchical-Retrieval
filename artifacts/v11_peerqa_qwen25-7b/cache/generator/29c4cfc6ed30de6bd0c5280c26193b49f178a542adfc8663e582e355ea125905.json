@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides details on measures taken to ensure the accuracy of the confidence network, including the use of a confidence estimation network (ConNet) and a confidence-based label smoothing approach.\",\n  \"claims\": [\n    {\n      \"text\": \"A confidence estimation network (ConNet) is added in parallel with the original prediction branch to predict the confidence level of each translation.\",\n      \"citations\": [\"C3\", \"C8\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"A confidence-based label smoothing approach is proposed, where predictions with higher confidence receive less label smoothing.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1984,
+    "completion_tokens": 157,
+    "total_tokens": 2141
+  },
+  "seconds": 10.38569555664435
+}

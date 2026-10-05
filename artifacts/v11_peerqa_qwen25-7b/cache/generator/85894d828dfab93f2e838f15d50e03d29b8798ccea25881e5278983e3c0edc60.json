@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence does not explicitly state the motivation for experimenting with the model on CNN/DM, but it provides context about the experiments conducted on different datasets including CNN/DailyMail.\",\n  \"claims\": [\n    {\n      \"text\": \"The authors conducted initial experiments on CNN/DailyMail to assess the summarization performance of the HiStruct+ models with or without token-level hierarchical position embeddings.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.8\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 614,
+    "completion_tokens": 115,
+    "total_tokens": 729
+  },
+  "seconds": 5.434494690038264
+}

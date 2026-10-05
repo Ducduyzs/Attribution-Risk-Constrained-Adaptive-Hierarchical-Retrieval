@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence indicates that the training languages used for the non-baseline models do not overlap with German.\",\n  \"claims\": [\n    {\n      \"text\": \"The texts we use for the following experiments are disjunct from any training data used.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"We chose to use German as our benchmark language over an actual low-resource language, since it is much easier to acquire reliable ratings on intelligibility and naturalness for German, than it would be for an actual low-resource language.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 155,
+    "total_tokens": 1269
+  },
+  "seconds": 7.203922470100224
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence indicates that plurality is a significant factor in determining referential form, particularly in the context of pronoun detection and the prominence of referents.",
+    "claims": [
+      {
+        "text": "Plurality plays a major role in predicting referential choice, as it influences how referents are treated in discourse, particularly when conjoined noun phrases are introduced.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Including the plurality feature in prediction tasks may facilitate pronoun detection, suggesting a direct relationship between plurality and referential form.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Inherent features of a referent, including plurality, are crucial in determining the choice of referential form, alongside grammatical role and antecedent form.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 1024,
+    "total_tokens": 1197,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.71704669999599,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_cf2a139872"
+}

@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence suggests that while the results are based on specific datasets, they may provide insights for related tasks and datasets.",
+    "claims": [
+      {
+        "text": "The results from the experiments on the FNC-1 dataset may not be directly transferable to other datasets but can serve as starting points for further research.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "text": "The findings indicate that the performance is influenced by the specific characteristics of the dataset used, suggesting task- and dataset-specific results.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 700,
+    "total_tokens": 820,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.34885629999917,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

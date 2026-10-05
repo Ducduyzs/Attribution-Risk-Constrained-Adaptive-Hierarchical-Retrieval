@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence discusses the aviation fleet in the context of reduction measures and their challenges, specifically mentioning the long lifetime of the aviation fleet and the difficulties in implementing mitigation measures.",
+    "claims": [
+      {
+        "text": "The specific fleet referred to in the context of reduction measures is the aviation fleet.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 669,
+    "total_tokens": 745,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 1.7881444000086049,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_40260d0bf4"
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear comparisons and reasons for the performance differences between lm-base and cgexpan models.\",\n  \"claims\": [\n    {\n      \"text\": \"The lm-base model outperforms the cgexpan model on concepts with characteristics of user-generated text because lm-base uses contextual representations which are more effective in handling multifaceted and vague entities.\",\n      \"citations\": [\"C1\", \"C2\", \"C7\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"SOTA methods like cgexpan underperform on user-generated text because they are designed to avoid ambiguous contexts, which can penalize multifaceted and vague entities.\",\n      \"citations\": [\"C1\", \"C7\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1964,
+    "completion_tokens": 181,
+    "total_tokens": 2145
+  },
+  "seconds": 8.600609482266009
+}

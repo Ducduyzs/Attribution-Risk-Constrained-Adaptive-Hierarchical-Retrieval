@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the differences in methodology for multilingual vision-and-language tasks, particularly focusing on navigation and representation learning.",
+    "claims": [
+      {
+        "text": "Our method utilizes vision as a bridge between multilingual instructions, which differs from existing methods that primarily focus on direct visual question answering or captioning.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "We learn a crosslingual representation that captures visual concepts, which is distinct from traditional methods that do not emphasize environment-agnostic visual representation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Our CLEAR approach shows improvements in performance metrics, indicating its effectiveness compared to existing methods like VQA and captioning.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 743,
+    "total_tokens": 905,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.3035021999967285,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_685ad11d26"
+}

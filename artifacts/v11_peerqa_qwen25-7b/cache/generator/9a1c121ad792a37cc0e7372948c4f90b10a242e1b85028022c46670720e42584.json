@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence discusses the importance of pre-trained embeddings in improving sequence tagging performance.\",\n  \"claims\": [\n    {\n      \"text\": \"Not having access to pre-trained embeddings would significantly reduce performance.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Pre-trained embeddings capture semantic and syntactic roles of words in context, which are crucial for sequence tagging.\",\n      \"citations\": [\"C2\"],\n      \"confidence\": 0.85\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 125,
+    "total_tokens": 1205
+  },
+  "seconds": 6.202936998102814
+}

@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence clearly explains why absolute accuracy numbers can be higher than F1 scores.\",\n  \"claims\": [\n    {\n      \"text\": \"Absolute accuracy numbers are higher than F1 scores because automatic evaluations cannot capture all possible correct answers to open-ended questions or questions with multiple answers, whereas human evaluators can easily assess the correctness of answers.\",\n      \"citations\": [\"C1\", \"C2\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2137,
+    "completion_tokens": 107,
+    "total_tokens": 2244
+  },
+  "seconds": 5.15212290501222
+}

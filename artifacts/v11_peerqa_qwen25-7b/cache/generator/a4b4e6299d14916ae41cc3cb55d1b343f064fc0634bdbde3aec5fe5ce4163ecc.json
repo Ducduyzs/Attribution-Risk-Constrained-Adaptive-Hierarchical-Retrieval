@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence suggests that the self-attention functions in the last layer of BERT are more aligned with human attention, making them a reliable basis for comparison.\",\n  \"claims\": [\n    {\n      \"text\": \"We have experimented with oracle analyses selecting the maximally correlating attention head in the last layer for each sentence and find that correlations are generally weaker than with attention flow.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Selecting the highest correlating head for the last attention layer produces generally weaker correlation than attention flows.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2269,
+    "completion_tokens": 160,
+    "total_tokens": 2429
+  },
+  "seconds": 7.237182945944369
+}

@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides insights into the criteria used by raters to evaluate classifier outputs, specifically focusing on the appropriateness of predicted error types.",
+    "claims": [
+      {
+        "text": "Raters selected 'Bad' when the predicted error type did not appropriately characterize the edit, often due to POS or parse errors.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Raters selected 'Good' when the predicted error type was deemed the most appropriate for the edit, while 'Acceptable' indicated it was appropriate but not optimal.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The evaluation was subjective, with raters focusing on the appropriateness of error types despite potential noise from automatic edit extraction.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 1912,
+    "total_tokens": 2079,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.367621600002167,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

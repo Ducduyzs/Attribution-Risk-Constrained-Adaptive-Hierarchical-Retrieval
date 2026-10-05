@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides specific details about the unique aspects of the proposed method in comparison to existing multilingual vision-and-language tasks.",
+    "claims": [
+      {
+        "text": "Our method focuses on multi-lingual vision-and-language navigation, utilizing a cross-lingual representation that captures visual concepts, which differs from traditional methods like VQA and captioning that do not emphasize navigation.",
+        "citations": [
+          "C1"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "We address the challenge of navigating unseen environments by learning an environment-agnostic visual representation, which is not a focus in existing methods such as multilingual image captioning or retrieval.",
+        "citations": [
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "Our approach improves instruction-path grounding by using paired multilingual instructions, enhancing the learning process compared to monolingual methods used in existing tasks.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 184,
+    "prompt_tokens": 1134,
+    "total_tokens": 1318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6751346999953967,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_e9ab34331d"
+}

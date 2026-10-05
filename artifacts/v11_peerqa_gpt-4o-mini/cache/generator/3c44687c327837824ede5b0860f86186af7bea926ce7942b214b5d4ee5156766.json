@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "answerable": true,
+    "reason": "The evidence provides a clear methodology for determining knowledge dimensions based on human judgments and statistical analysis of frame and object pair relationships.",
+    "claims": [
+      {
+        "text": "Knowledge dimensions are determined by collecting human judgments on frame knowledge implications and comparing object pairs along these dimensions.",
+        "citations": [
+          "C1",
+          "C2"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "text": "Crowd workers rate the general relationship of frame arguments with respect to knowledge dimensions such as size and weight, which are significant for modeling.",
+        "citations": [
+          "C1",
+          "C3"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "text": "The selection of knowledge dimensions is influenced by the agreement among crowd workers, ensuring reliable data for modeling.",
+        "citations": [
+          "C2"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 1804,
+    "total_tokens": 1958,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "seconds": 2.6415534999978263,
+  "model_returned": "gpt-4o-mini-2024-07-18",
+  "system_fingerprint": "fp_9d49b1aeb9"
+}

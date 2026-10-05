@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The document explains that word overlap (F1 score) is used instead of exact match to account for variations in entity names while ensuring accurate detection of invalid questions.\",\n  \"claims\": [\n    {\n      \"text\": \"We determine whether e * j = e j by checking if F1(s * j , s j ) > 0, where s * j and s j are the first mention of e * j and e j respectively, and F1 is the word-level F1 score, i.e., e * j = e j as long as their first mentions have word overlap. The reason we take the F1 instead of exact match to check whether the entities are the same is stated in Appendix A.\",\n      \"citations\": [\"C1\"],\n      \"confidence\": 1\n    },\n    {\n      \"text\": \"To avoid the false positive of detecting invalid questions, we take the F1 metric.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 1\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 221,
+    "total_tokens": 1303
+  },
+  "seconds": 9.675473613198847
+}

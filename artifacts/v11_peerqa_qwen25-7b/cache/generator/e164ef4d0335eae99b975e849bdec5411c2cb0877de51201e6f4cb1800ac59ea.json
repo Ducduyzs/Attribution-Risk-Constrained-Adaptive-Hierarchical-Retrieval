@@ -1,0 +1,9 @@
+{
+  "text": "{\n  \"answerable\": true,\n  \"reason\": \"The evidence provides clear guidance on ensuring diverse cross-cultural representation in NLP models.\",\n  \"claims\": [\n    {\n      \"text\": \"Ensure diverse data sources and multiple perspectives in annotations.\",\n      \"citations\": [\"C3\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"text\": \"Apply data sampling and group DRO techniques to mitigate cross-cultural biases.\",\n      \"citations\": [\"C4\"],\n      \"confidence\": 0.85\n    },\n    {\n      \"text\": \"Use transfer learning and pre-training to improve cross-lingual parity.\",\n      \"citations\": [\"C6\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"text\": \"Preserve cultural values and norms in models intended for different cultures.\",\n      \"citations\": [\"C7\"],\n      \"confidence\": 0.9\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2077,
+    "completion_tokens": 198,
+    "total_tokens": 2275
+  },
+  "seconds": 8.67912656487897
+}
