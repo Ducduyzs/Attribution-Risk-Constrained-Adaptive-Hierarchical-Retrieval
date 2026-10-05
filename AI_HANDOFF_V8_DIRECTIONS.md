@@ -118,3 +118,18 @@ Git: các commit v8 (`fe15a0a` … `a8b3d2e`) chỉ ở local, **chưa push**.
 
 Chi phí index 180 bài: RAPTOR 12 151 s, Agreement 29 s. **Tập test đã được mở** —
 không được dùng nó để chỉnh phương pháp nữa; mọi thí nghiệm mới cần tập/benchmark khác.
+
+## 10. Cập nhật v11 (2026-10-05) — độ bền theo generator và bộ dữ liệu
+
+"Agreement không kém RAPTOR (biên 0,02, Evidence F1)":
+
+| Tập | gpt-4o-mini | Qwen2.5-7B |
+|---|---|---|
+| QASPER xác nhận (100) | ✔ +0,032 | ✘ −0,033 |
+| QASPER test (180) | ✔ +0,020 | ✘ +0,007 (Holm p=0,19) |
+| PeerQA (136, bài dài) | ✔ +0,011 | ✔ +0,005 |
+
+Rerank toàn bài cũng không kém RAPTOR trên PeerQA (cả hai generator); Agreement chưa bao giờ
+được chứng minh tốt hơn rerank toàn bài. Trên PeerQA, RAPTOR đóng gói ít gold nhất ở mọi
+ngân sách. Biên 0,02 tương đối lỏng trên thang Evidence F1 mức câu của PeerQA. Chi tiết:
+`analysis/v11_qwen_results.md`, `analysis/v11_peerqa_results.md`.
